@@ -1,0 +1,33 @@
+<!-- 
+  Copyright (c) 2018 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+{{ if isset .Page.Params "headline" }}
+<div class="jumbotron featured-jumbotron margin-bottom-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
+         <img src="{{ "images/jakartaone-white.svg" | absURL }}" id="jakarta-one-logo">
+        
+        <h2>September 10, 2019</h2>
+        <h3>Save The Date</h3>
+        <!--  
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo imperdiet quam, quis posuere quam bibendum ac. 
+        Vivamus vel augue facilisis, ullamcorper erat eu, congue massa. Duis non pulvinar lacus, id accumsan ex. Integer 
+        sodales viverra justo eget malesuada. Nulla eget faucibus felis, nec euismod lectus. Fusce in vehicula quam. 
+        Cras nec pretium felis.</p>
+        -->
+        <p><a href="mailto:events@eclipse.org" class="btn btn-simple">Contact Us</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
