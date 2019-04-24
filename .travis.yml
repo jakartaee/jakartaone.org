@@ -21,7 +21,7 @@ deploy:
   github_token: "$GITHUB_TOKEN"
   email: chris.guindon@eclipse-foundation.org
   name: Christopher Guindon
-#  fqdn: jakartaone.org
+  fqdn: jakartaone.org
   on:
     branch: master
 env:
