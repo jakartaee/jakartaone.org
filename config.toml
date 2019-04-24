@@ -1,7 +1,7 @@
 baseurl = "https://jakartaone.org/"
 #baseurl = "https://jakartaee.github.io/jakartaone.org/"
 DefaultContentLanguage = "en"
-title = "Jakarta EE: The New Home of Cloud Native Java"
+title = "JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native"
 theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -9,10 +9,10 @@ themesDir = "node_modules/"
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "Jakarta Enterprise Edition (EE) is the future of cloud native Java. Jakarta EE open source software drives cloud native innovation, modernizes enterprise applications and protects investments in Java EE."
-  subtitle = "The New Home of Cloud Native Java"
+  description = "JakartaOne Live is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud-native Java applications."
+  subtitle = "JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native"
   seo_title_suffix = " | The Eclipse Foundation"
-  keywords = ["Jakarta EE software", "Java EE", "cloud", "microservices", "enterprise", "open source", "innovation"]
+  keywords = ["JakartaOne", "JakartaOne Live", "Jakarta EE software", "Java EE", "cloud", "microservices", "enterprise", "open source", "innovation"]
   logo = "images/jakarta/jakarta-ee-logo.svg"
   styles = "css/styles.css"
   favicon = "images/jakarta/favicon.ico"
