@@ -18,6 +18,11 @@ mix.setPublicPath('static');
 mix.setResourceRoot('../');
 
 mix.less('./less/styles.less', 'static/css/styles.css');
+mix.copy('./node_modules/owl.carousel/dist/assets/owl.carousel.min.css', 'static/css/owl.carousel.min.css');
+mix.copy('./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css', 'static/css/owl.theme.default.min.css');
+
+mix.copy('./node_modules/owl.carousel/dist/owl.carousel.min.js','static/js/owl.carousel.min.js');
+mix.copy('./js/custom.js', 'static/js/custom.js');
 
 mix.scripts([
     './node_modules/jquery/dist/jquery.min.js',
