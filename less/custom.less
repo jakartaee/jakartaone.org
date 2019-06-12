@@ -62,6 +62,24 @@
 
 }
 
+main {
+  h2 {
+    text-transform: uppercase;
+    color: #1b208b;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    color: #1b208b;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
 .btn-gold {
   text-transform: uppercase;
   font-weight: 400;
@@ -100,24 +118,11 @@
   margin-bottom: -20px;
 }
 
-main h2 {
-  text-transform: uppercase;
-  color: #1b208b;
-  font-weight: 700;
-}
-
-main h3 {
-  color: #1b208b;
-  font-weight: 400;
-}
-
-main p {
-  font-size: 18px;
-}
-
 .cfp-backdrop {
-  background-image: url('images/papers-background.png');
+  background-image: url('images/papers-background.jpg');
+  background-size: cover;
   background-position: bottom left;
+  background-repeat: no-repeat;
   height: 100%;
   position: relative;
 }
@@ -129,7 +134,7 @@ main p {
   transform: translate(-50%,-50%);
 }
 
-section#about {
+section.alt {
   & {
     color: #fff;
   }
@@ -138,14 +143,47 @@ section#about {
     font-weight: 700;
     color: #fff;
   }
+}
 
-  .about-backdrop {
-    background-image: url('images/home-about-background.png');
+/**
+ Works with full width banner placement within sections
+*/
+section .backdrop {
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+}
+
+section#about .backdrop {
+  background-image: url('images/about-background.jpg');
+  background-size: cover;
+}
+
+section#get-social {
+  .backdrop {
+    background-image: url('images/get-social-background.jpg');
     background-size: cover;
-    height: 100%;
-    width: 100vw;
-    position: relative;
-    left: calc(-1 * (100vw - 100%) / 2);
+  }
+
+  .fa.fa-twitter {
+    width: 1.5em;
+    border-radius: 100px;
+    background-color: white;
+    height: 1.5em;
+    text-align: center;
+    color: #1c2183;
+    margin-bottom: 20px;
+  }
+
+  .fa.fa-twitter::before {
+    line-height: 1.5em;
+  }
+
+  @media (min-width: 768px) {
+    .fa.fa-twitter {
+      margin-bottom: 0px;
+    }
   }
 }
 

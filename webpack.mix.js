@@ -18,11 +18,13 @@ mix.setPublicPath('static');
 mix.setResourceRoot('../');
 
 mix.less('./less/styles.less', 'static/css/styles.css');
-mix.copy('./node_modules/owl.carousel/dist/assets/owl.carousel.min.css', 'static/css/owl.carousel.min.css');
-mix.copy('./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css', 'static/css/owl.theme.default.min.css');
+mix.styles([
+	'./node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
+	'./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
+	'static/css/styles.css'
+],'static/css/styles.css');
 
-mix.copy('./node_modules/owl.carousel/dist/owl.carousel.min.js','static/js/owl.carousel.min.js');
-mix.copy('./js/custom.js', 'static/js/custom.js');
+mix.copy('./js/home.slider.js', 'static/js/home.slider.js');
 
 mix.scripts([
     './node_modules/jquery/dist/jquery.min.js',
@@ -30,6 +32,7 @@ mix.scripts([
     './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
     './node_modules/feather-icons/dist/feather.min.js',
     './node_modules/cookieconsent/src/cookieconsent.js',
+    './node_modules/owl.carousel/dist/owl.carousel.min.js',
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookieconsent.js',
     './node_modules/eclipsefdn-solstice-assets/js/eclipsefdn.videos.js',
     './node_modules/eclipsefdn-solstice-assets/js/solstice.cookies.js',

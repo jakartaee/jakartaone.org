@@ -1,8 +1,5 @@
 {
     "/css/styles.css": "/css/styles.css",
-    "/css/owl.carousel.min.css": "/css/owl.carousel.min.css",
-    "/css/owl.theme.default.min.css": "/css/owl.theme.default.min.css",
-    "/js/owl.carousel.min.js": "/js/owl.carousel.min.js",
-    "/js/custom.js": "/js/custom.js",
+    "/js/home.slider.js": "/js/home.slider.js",
     "/js/solstice.js": "/js/solstice.js"
 }
