@@ -19,6 +19,8 @@
     "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "0.0.21"
+    "owl.carousel": "2.3.4",
+    "eclipsefdn-hugo-solstice-theme": "0.0.21",
+    "production": "0.0.2"
   }
 }
