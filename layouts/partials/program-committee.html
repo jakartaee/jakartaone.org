@@ -35,7 +35,7 @@
                     {{ range .committee.items }}
                         <div class="item">
                             <img src="images/committee/{{ .img }}" alt="{{ .name }}">
-                            <h3>{{ .name }}</h3>
+                            <h3><a href="/program-committee/#{{ urlize .name }}">{{ .name }}</a></h3>
                             <p>{{ .title }}</p>
                         </div>
                     {{ end }}

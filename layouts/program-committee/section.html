@@ -3,7 +3,7 @@
     <!-- Committee member -->
 
     {{ range .Site.Data.committee.items }}
-        <div class="row margin-top-30">
+        <div class="row margin-top-30" id="{{ urlize .name }}">
             <div class="col-xs-24 col-sm-6">
                 <img class="img-responsive" src="/images/committee/{{ .img }}" title="{{ .name }}" />
             </div>

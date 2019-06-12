@@ -1,7 +1,10 @@
 
 {{ define "main" }}
-        {{ partial "about.html" }}
-        
-        {{ $committee := .Site.Data.committee }}
-        {{ partial "program-committee.html" (dict "committee" $committee) }}
+	{{ partial "call-for-papers.html" }}
+	{{ partial "about.html" }}
+	
+	{{ $committee := .Site.Data.committee }}
+	{{ partial "program-committee.html" (dict "committee" $committee) }}
+	
+	{{ partial "get-social.html" }}
 {{ end }}
