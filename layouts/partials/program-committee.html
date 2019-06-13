@@ -20,7 +20,7 @@
                     an independent program committee made up of volunteers from the Jakarta EE and Cloud Native Java
                     community!</p>
             </div>
-            <div class="col-xs-24 col-sm-6 match-height-item-by-row pull-right">
+            <div class="col-xs-24 col-sm-6 match-height-item-by-row margin-bottom-30">
                 <div class="centered-container">
                     <a href="/program-committee/" class="btn btn-gold btn-wide">Learn more</a>
                 </div>
@@ -32,41 +32,14 @@
                 <div class="owl-carousel owl-theme" id="slider">
                     <!-- Start: Slider Area -->
 
-                    <div class="item">
-                        <img src="images/committee/rrahman.png" alt="Reza Rahman">
-                        <h3>Reza Rahman</h3>
-                        <p>Principal Program Manager for Java on Azure at Microsoft</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/committee/abien.png" alt="Adam Bien">
-                        <h3>Adam Bien</h3>
-                        <p>Java (SE/EE) developer</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/committee/igrimstad.png" alt="Ivar Grimstad">
-                        <h3>Ivar Grimstad</h3>
-                        <p>Principal Consultant for Cybercom Group</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/committee/agupta.png" alt="Arun Gupta">
-                        <h3>Arun Gupta</h3>
-                        <p>Principal Technologist at Amazon Web Services</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/committee/jjuneau.png" alt="Josh Juneau">
-                        <h3>Josh Juneau</h3>
-                        <p>Jakarta EE Program Manager</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/committee/tobradovic.png" alt="Tanja Obradovic">
-                        <h3>Tanja Obradovic</h3>
-                        <p>Jakarta EE Program Manager</p>
-                    </div>
+                    {{ range .committee.items }}
+                        <div class="item">
+                            <img src="images/committee/{{ .img }}" alt="{{ .name }}">
+                            <h3>{{ .name }}</h3>
+                            <p>{{ .title }}</p>
+                        </div>
+                    {{ end }}
+                    
                 </div>
                 <!-- End: "slider" Area -->
             </div>

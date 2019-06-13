@@ -148,3 +148,9 @@ section#about {
     left: calc(-1 * (100vw - 100%) / 2);
   }
 }
+
+// Fix issue with absolute position children not inheriting any height
+// Note, could fix w/ flex, but no IE support for needed feature (5% overall traffic)
+.match-height-item-by-row {
+    min-height: 50px;
+}
