@@ -1,4 +1,7 @@
+
 {{ define "main" }}
         {{ partial "about.html" }}
-        {{ partial "program-committee.html" }}
+        
+        {{ $committee := .Site.Data.committee }}
+        {{ partial "program-committee.html" (dict "committee" $committee) }}
 {{ end }}
