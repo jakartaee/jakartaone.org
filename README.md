@@ -1,6 +1,6 @@
 # jakartaone.org
 
-The [jakartaone.org](https://jakarta.ee) website is generated with [Hugo](https://gohugo.io/documentation/).
+The [jakartaone.org](https://jakartaone.ee) website is generated with [Hugo](https://gohugo.io/documentation/).
 
 Jakarta Enterprise Edition (EE) is the future of cloud native Java. Jakarta EE open source software drives cloud native innovation, modernizes enterprise applications and protects investments in Java EE.
 
