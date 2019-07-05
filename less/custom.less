@@ -58,8 +58,11 @@
 }
 
 #header-row{
-  display:none;
+  margin-top: 15px;
+}
 
+.wrapper-logo-default {
+    display: none;
 }
 
 main {
@@ -176,6 +179,18 @@ section#get-social {
     }
   }
 }
+
+section#plan-of-the-day {
+    .backdrop {
+        background-image: url('images/plan-of-the-day-background.jpg');
+        background-size: cover;
+    }
+    
+    li {
+        font-size: 18px;
+    }
+}
+
 
 // Fix issue with absolute position children not inheriting any height
 // Note, could fix w/ flex, but no IE support for needed feature (5% overall traffic)
