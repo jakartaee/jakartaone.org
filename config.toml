@@ -46,3 +46,23 @@ themesDir = "node_modules/"
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+  
+[[menu.main]]
+    name = "Plan of the day"
+    url = "/#plan-of-the-day"
+    weight = 1
+    
+[[menu.main]]
+    name = "Program committee"
+    url = "/program-committee/"
+    weight = 2
+
+[[menu.main]]
+    name = "Attend"
+    weight = 3
+
+[[menu.main]]
+    name = "Code of Conduct"
+    url = "/code-of-conduct/"
+    weight = 1
+    parent = "Attend"

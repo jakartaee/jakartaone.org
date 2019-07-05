@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<div class="container margin-top-30">
+	<div class="container margin-top-30 margin-bottom-30">
 		<div class="row">
 			<div class="col-xs-24 col-sm-12 flex-column match-height-item-by-row">
 	            <h2>Call for papers</h2>
@@ -13,6 +13,25 @@
 			</div>
 		</div>
 	</div>
+	
+	<section class="alt row" id="plan-of-the-day" >
+	    <div class="backdrop padding-bottom-40 padding-top-40">
+			<div class="container" >
+			   <div class="col-xs-24" >
+			       <h2>Plan of the Day</h2>
+			       <p>Here is our high-level program plan for the day which spans across three different time zones;</p>
+			       <ul>
+		               <li>Keynotes</li>
+		               <li>Talks</li>
+		               <li>Demos</li>
+		               <li>Panels/Discussions</li>
+			       </ul>
+			       <p>Stay tuned for our upcoming updates on the keynotes!</p>
+			   </div>
+			</div>
+		</div>
+	</section>
+	
 	{{ $committee := .Site.Data.committee }}
 	{{ partial "program-committee.html" (dict "committee" $committee) }}
 	
