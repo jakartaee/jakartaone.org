@@ -1,3 +1,31 @@
+{{ define "head-suffix"  }}
+    <style>
+        .wrapper-logo-default {
+            display: none;
+        }
+    </style>
+{{ end }}
+
+{{ define "header"}}
+	<a class="sr-only" href="#content">Skip to main content</a>
+	<header class="header-wrapper{{- with .Params.header_wrapper_class | default .Site.Params.header_wrapper_class }} {{ . }}{{end}}" id="header-wrapper">
+	  {{ partial "navbar.html" . }}
+	  <div class="jumbotron featured-jumbotron margin-bottom-0">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
+		         <img src="{{ "images/jakartaone-white.svg" | absURL }}" id="jakarta-one-logo">
+		        
+		        <h2>September 10, 2019</h2>
+		        <p>JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native Java applications.</p>
+		        
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</header>
+{{ end }}
+
 {{ define "main" }}
 	<div class="container margin-top-30 margin-bottom-30">
 		<div class="row">

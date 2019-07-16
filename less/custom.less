@@ -62,7 +62,10 @@
 }
 
 .wrapper-logo-default {
-    display: none;
+    height: 100%;
+}
+.logo-eclipse-default-mobile {
+    max-width: 200px;
 }
 
 main {
@@ -191,6 +194,14 @@ section#plan-of-the-day {
     }
 }
 
+#main-menu .navbar-toggle {
+    padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #main-menu-wrapper {
+    padding-top: 20px;
+  }
+}
 
 // Fix issue with absolute position children not inheriting any height
 // Note, could fix w/ flex, but no IE support for needed feature (5% overall traffic)
