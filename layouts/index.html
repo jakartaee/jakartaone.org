@@ -50,14 +50,42 @@
 			<div class="container" >
 			   <div class="col-xs-24" >
 			       <h2>Plan of the Day</h2>
-			       <p>Here is our high-level program plan for the day which spans across three different time zones;</p>
-			       <ul>
-		               <li>Keynotes</li>
-		               <li>Talks</li>
-		               <li>Demos</li>
-		               <li>Panels/Discussions</li>
-			       </ul>
-			       <p>Stay tuned for our upcoming updates on the keynotes!</p>
+			       <div class="row">
+			         <h3>Legend</h3>
+			         <ul type="none">
+				         {{ range .Site.Data.agenda.types }}
+				           <li><span class="{{ .class }}-icon icon">&nbsp;</span> {{ .name }}</li>
+				         {{ end  }}
+			         </ul>
+			       </div>
+			       <h3>Sessions</h3>
+			       <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Session Name</th>
+                                <th>Presenter Name</th>
+                                <th>Start Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{ range $.Site.Data.agenda.items }}
+                                <tr>
+                                    <td>
+                                        <span class="{{ .type }}-icon icon">
+                                            <span class="sr-only">
+                                                {{ range first 1 (where $.Site.Data.agenda.types "class" .type) }}
+                                                    {{ .name }}
+                                                {{ end }}
+                                            </span>
+                                        </span>
+                                        {{ .name }}
+                                    </td>
+                                    <td>{{ .presenter }}</td>
+                                    <td>{{ .start }}</td>
+                                </tr>
+                            {{ end }}
+                        </tbody>
+                   </table>
 			   </div>
 			</div>
 		</div>
@@ -67,6 +95,5 @@
 	{{ partial "program-committee.html" (dict "committee" $committee) }}
 	
 	{{ partial "get-social.html" }}
-	
 	
 {{ end }}

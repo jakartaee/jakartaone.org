@@ -1,0 +1,92 @@
+types:
+    - name: Jakarta EE and MicroProfile Opening Sessions
+      class: opening 
+    - name: Demo
+      class: demo 
+    - name: Keynote
+      class: keynote 
+    - name: Cloud related topics
+      class: cloud
+    - name: Panel discussion/ How to contribute
+      class: panel 
+    - name: What's next for the specifications
+      class: whats-next
+
+items:
+    - name: Jakarta for DummEEs
+      presenter: Kevin Sutter
+      start: 7am EDT
+      type: opening
+    - name: Jakarta EE 8 - An Overview of Features
+      presenter: Josh Juneau
+      start: 8am EDT
+      type: opening
+    - name: Building Interoperable Microservices with Eclipse MicroProfile
+      presenter: Ivar Grimstad
+      start: 9am EDT
+      type: opening
+    - name: Live coding Jakarta EE + MicroProfile
+      presenter: Adam Bien
+      start: 10am EDT
+      type: demo
+    - name: It's Easy! Contributing to Jakarta EE Open source
+      presenter: Richard Monson-Haefel
+      start: 11am EDT
+      type: panel
+    - name: Opening Keynote
+      presenter: Mike Milinkovich, James Gosling
+      start: 12pm EDT
+      type: keynote
+    - name: Industry Keynote
+      presenter: Tomitribe, IBM, Oracle, Payara, Fujitsu
+      start: 12:20pm EDT
+      type: keynote
+    - name: Turbocharged Java with Quarkus
+      presenter: Marcus Biel
+      start: 1pm EDT
+      type: cloud
+    - name: Building Cloud-Native Microservices with Project Helidon
+      presenter: Dmitry Kornilov
+      start: 2pm EDT
+      type: cloud
+    - name: "Jakarta Concurrency: Present and Future"
+      presenter: Steve Millidge
+      start: 3pm EDT
+      type: whats-next
+    - name: "JSON support in Jakarta EE: Present and Future"
+      presenter: Dmitry Kornilov
+      start: 4pm EDT
+      type: whats-next
+    - name: Jakarta EE Steering Committee Panel
+      presenter: Members of the Jakarta EE Steering Committee
+      start: 5pm EDT
+      type: panel
+    - name: "Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud"
+      presenter: Otavio Santana
+      start: 6pm EDT
+      type: whats-next
+    - name: What's coming to Jakarta Security
+      presenter: Arjan Tijms
+      start: 7pm EDT
+      type: whats-next
+    - name: "Jakarta RESTful Web Services: Status Quo and Roadmap"
+      presenter: Markus Karg
+      start: 8pm EDT
+      type: whats-next
+    - name: "Jakarta Servlet: A new Twist on an Old Favourite"
+      presenter: Ed Burns
+      start: 9pm EDT
+      type: whats-next
+    - name: Jakarta Messaging 3.0, Redefining JMS
+      presenter: David Blevins
+      start: 10pm EDT
+      type: whats-next
+    - name: What's Coming to Jakarta Faces?
+      presenter: Arjan Tijms
+      start: 11pm EDT
+      type: whats-next
+    - name: Jakarta EE on Azure Magic Mystery Show
+      presenter: Reza Rahman
+      start: 12am EDT
+      type: cloud
+      
