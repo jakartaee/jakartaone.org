@@ -25,7 +25,7 @@ items:
       presenter: Ivar Grimstad
       start: 9am EDT
       type: opening
-    - name: Live coding Jakarta EE + MicroProfile
+    - name: "Live Coding with Jakarta EE and MicroProfile #slideless"
       presenter: Adam Bien
       start: 10am EDT
       type: demo
