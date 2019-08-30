@@ -29,10 +29,10 @@ items:
       presenter: Adam Bien
       start: 10am EDT
       type: demo
-    - name: It's Easy! Contributing to Jakarta EE Open source
-      presenter: Richard Monson-Haefel
+    - name: 'Kotlin+Jakarta EE+MicroProfile: Teaching 20 year old tricks to a new language'
+      presenter: Victor Orozco
       start: 11am EDT
-      type: panel
+      type: cloud
     - name: Opening Keynote
       presenter: Mike Milinkovich, James Gosling
       start: 12pm EDT
