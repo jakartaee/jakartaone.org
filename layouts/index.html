@@ -14,11 +14,9 @@
 		  <div class="container">
 		    <div class="row">
 		      <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
-		         <img src="{{ "images/jakartaone-white.svg" | absURL }}" id="jakarta-one-logo">
-		        
+		        <img src="{{ "images/jakartaone-white.svg" | absURL }}" id="jakarta-one-logo">
 		        <h2>September 10, 2019</h2>
-		        <p>JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native Java applications.</p>
-		        <p><a href="https://www.crowdcast.io/e/nztuljys" class="btn btn-gold"><img class="margin-10" src="/images/crowdcast-white-logo.png" height="40px" alt="Crowdcast logo" >Come join the community live on Crowdcast!</a></p>
+		        <p>JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™️ EE and related technologies focused on developing cloud native Java applications.</p>
 		      </div>
 		    </div>
 		  </div>
@@ -31,16 +29,17 @@
         <div class="backdrop padding-bottom-40 padding-top-40">
             <div class="container">
                 <div class="row">
-	            <div class="col-xs-24 col-sm-16 flex-column match-height-item-by-row">
-	                <h2>Registration</h2>
-	                <p class="flex-grow">JakartaOne Livestream is a great opportunity to get to know the community, learn about the latest developments, and share your ideas live with the ecosystem leaders and innovators!</p>
-	            </div>
-	            <div class="col-xs-24 col-sm-8 flex-column match-height-item-by-row">
-	               <div class="centered-container">
-	                   <p><a class="btn btn-gold btn-wide" href="https://www.crowdcast.io/e/nztuljys">Register</a></p>
-	                </div>
-	            </div>
-	            </div>
+                  <div class="col-xs-24 col-md-6 match-height-item-by-row">
+                      <img class="img-responsive margin-auto" src="/images/jakarta/jakarta-ee-schooner.png" title="Jakarta EE logo" />
+                  </div>
+                  <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
+                    <div style="position:relative; top:20%;">
+                      <h2>The event has now concluded!</h2>
+                      <p>Thank You for making the first JakartaOne Livestream event a great success!</p>
+                      <p>This milestone would not be possible without the collective efforts of a dedicated community.</p>
+                    </div>
+                  </div>
+	             </div>
             </div>
         </div>
     </section>
@@ -49,7 +48,7 @@
 	    <div class="backdrop padding-bottom-40 padding-top-40">
 			<div class="container" >
 			   <div class="col-xs-24" >
-			       <h2>Plan of the Day</h2>
+			       <h2>Plan of the Day (Replays)</h2>
 			       <div class="row">
 			         <h3>Legend</h3>
 			         <ul type="none">
@@ -60,32 +59,37 @@
 			       </div>
 			       <h3>Sessions</h3>
 			       <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Session Name</th>
-                                <th>Presenter Name</th>
-                                <th>Start Time</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {{ range $.Site.Data.agenda.items }}
-                                <tr>
-                                    <td>
-                                        <span class="{{ .type }}-icon icon">
-                                            <span class="sr-only">
-                                                {{ range first 1 (where $.Site.Data.agenda.types "class" .type) }}
-                                                    {{ .name }}
-                                                {{ end }}
-                                            </span>
-                                        </span>
-                                        {{ .name }}
-                                    </td>
-                                    <td>{{ .presenter }}</td>
-                                    <td>{{ .start }}</td>
-                                </tr>
-                            {{ end }}
-                        </tbody>
-                   </table>
+	             <thead>
+	                 <tr>
+	                     <th>Session Name</th>
+	                     <th>Presenter Name</th>
+	                     <th class="text-center">Session recording</th>
+	                 </tr>
+	             </thead>
+	             <tbody>
+	                 {{ range $.Site.Data.agenda.items }}
+	                     <tr>
+	                         <td>
+	                             <span class="{{ .type }}-icon icon">
+	                                 <span class="sr-only">
+	                                     {{ range first 1 (where $.Site.Data.agenda.types "class" .type) }}
+	                                         {{ .name }}
+	                                     {{ end }}
+	                                 </span>
+	                             </span>
+	                             {{ .name }}
+	                         </td>
+	                         <td>{{ .presenter }}</td>
+	                         <td class="text-center">
+	                           <a class="btn btn-primary btn-wide" href="{{ .vod }}" title="Session video for session '{{.name}}'">
+		                           <i class="fa fa-play fa-2x" ></i>
+		                           <span class="sr-only">Session video for session '{{.name}}'</span>
+                             </a>
+                           </td>
+	                     </tr>
+	                 {{ end }}
+	             </tbody>
+	        </table>
 			   </div>
 			</div>
 		</div>

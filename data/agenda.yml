@@ -15,78 +15,90 @@ types:
 items:
     - name: Jakarta for DummEEs
       presenter: Kevin Sutter
-      start: 7am EDT
       type: opening
+      vod: https://www.crowdcast.io/e/nztuljys/1
     - name: Jakarta EE 8 - An Overview of Features
       presenter: Josh Juneau
-      start: 8am EDT
       type: opening
+      vod: https://www.crowdcast.io/e/nztuljys/2
     - name: Building Interoperable Microservices with Eclipse MicroProfile
       presenter: Ivar Grimstad
-      start: 9am EDT
       type: opening
+      vod: https://www.crowdcast.io/e/nztuljys/3
     - name: "Live Coding with Jakarta EE and MicroProfile #slideless"
       presenter: Adam Bien
-      start: 10am EDT
       type: demo
+      vod: https://www.crowdcast.io/e/nztuljys/4
     - name: 'Kotlin+Jakarta EE+MicroProfile: Teaching 20 year old tricks to a new language'
       presenter: Victor Orozco
-      start: 11am EDT
       type: cloud
+      vod: https://www.crowdcast.io/e/nztuljys/5
     - name: Opening Keynote
-      presenter: Mike Milinkovich, James Gosling
-      start: 12pm EDT
+      presenter: Mike Milinkovich
       type: keynote
+      vod: https://www.crowdcast.io/e/nztuljys/6
+    - name: Supporting Keynote
+      presenter: James Gosling
+      type: keynote
+      vod: https://www.crowdcast.io/e/nztuljys/7
     - name: Industry Keynote
-      presenter: Tomitribe, IBM, Oracle, Payara, Fujitsu
-      start: 12:20pm EDT
+      presenter: IBM, Red Hat, Payara, Oracle, Tomitrbe
       type: keynote
+      vod: https://www.crowdcast.io/e/nztuljys/8
+    - name: Industry Keynote
+      presenter: Fujitsu
+      type: keynote
+      vod: https://www.crowdcast.io/e/93v047og
     - name: Turbocharged Java with Quarkus
       presenter: Marcus Biel
-      start: 1pm EDT
       type: cloud
+      vod: https://www.crowdcast.io/e/nztuljys/9
     - name: Building Cloud-Native Microservices with Project Helidon
       presenter: Dmitry Kornilov
-      start: 2pm EDT
       type: cloud
+      vod: https://www.crowdcast.io/e/nztuljys/10
     - name: "Jakarta Concurrency: Present and Future"
       presenter: Steve Millidge
-      start: 3pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/11
     - name: "JSON support in Jakarta EE: Present and Future"
       presenter: Dmitry Kornilov
-      start: 4pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/12
     - name: Jakarta EE Steering Committee Panel
       presenter: Members of the Jakarta EE Steering Committee
-      start: 5pm EDT
       type: panel
+      vod: https://www.crowdcast.io/e/nztuljys/13
     - name: "Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud"
       presenter: Otavio Santana
-      start: 6pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/14
     - name: What's coming to Jakarta Security
       presenter: Arjan Tijms
-      start: 7pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/15
     - name: "Jakarta RESTful Web Services: Status Quo and Roadmap"
       presenter: Markus Karg
-      start: 8pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/16
     - name: "Jakarta Servlet: A new Twist on an Old Favourite"
       presenter: Ed Burns
-      start: 9pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/17
+    - name: Q&A with Reza Rahman 
+      presenter: Reza Rahman
+      type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/18
     - name: Jakarta Messaging 3.0, Redefining JMS
       presenter: David Blevins
-      start: 10pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/19
     - name: What's Coming to Jakarta Faces?
       presenter: Arjan Tijms
-      start: 11pm EDT
       type: whats-next
+      vod: https://www.crowdcast.io/e/nztuljys/20
     - name: Jakarta EE on Azure Magic Mystery Show
       presenter: Reza Rahman
-      start: 12am EDT
       type: cloud
+      vod: https://www.crowdcast.io/e/nztuljys/21
       
