@@ -1,0 +1,833 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native | The Eclipse Foundation</title>
+<meta property="og:title" content="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native | The Eclipse Foundation" />
+<meta name="twitter:title" content="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud … | The Eclipse Foundation" />
+
+<meta name="description" content="The event has now concluded! Thank You for making the first JakartaOne Livestream event a great success!
+This milestone would not be possible without the collective efforts of a dedicated community.
+       Plan of the Day (Replays) Legend &nbsp; Jakarta EE and MicroProfile Opening Sessions &nbsp; Demo &nbsp; Keynote &nbsp; Cloud related topics &nbsp; Panel discussion/ How to contribute &nbsp; What&#39;s next for the specifications   Sessions   Session Name Presenter Name Session recording      Jakarta EE and MicroProfile Opening Sessions   Jakarta for DummEEs  Kevin Sutter  Session video for session &#39;Jakarta for DummEEs&#39;     Jakarta EE and MicroProfile Opening Sessions   Jakarta EE 8 - An Overview of Features  Josh Juneau  Session video for session &#39;Jakarta EE 8 - An Overview of Features&#39;     Jakarta EE and MicroProfile Opening Sessions   Building Interoperable Microservices with Eclipse MicroProfile  Ivar Grimstad  Session video for session &#39;Building Interoperable Microservices with Eclipse MicroProfile&#39;     Demo   Live Coding with Jakarta EE and MicroProfile #slideless  Adam Bien  Session video for session &#39;Live Coding with Jakarta EE and MicroProfile #slideless&#39;     Cloud related topics   Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language  Victor Orozco  Session video for session &#39;Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language&#39;     Keynote   Opening Keynote  Mike Milinkovich  Session video for session &#39;Opening Keynote&#39;     Keynote   Supporting Keynote  James Gosling  Session video for session &#39;Supporting Keynote&#39;     Keynote   Industry Keynote  IBM, Red Hat, Payara, Oracle, Tomitrbe  Session video for session &#39;Industry Keynote&#39;     Keynote   Industry Keynote  Fujitsu  Session video for session &#39;Industry Keynote&#39;     Cloud related topics   Turbocharged Java with Quarkus  Marcus Biel  Session video for session &#39;Turbocharged Java with Quarkus&#39;     Cloud related topics   Building Cloud-Native Microservices with Project Helidon  Dmitry Kornilov  Session video for session &#39;Building Cloud-Native Microservices with Project Helidon&#39;     What&#39;s next for the specifications   Jakarta Concurrency: Present and Future  Steve Millidge  Session video for session &#39;Jakarta Concurrency: Present and Future&#39;     What&#39;s next for the specifications   JSON support in Jakarta EE: Present and Future  Dmitry Kornilov  Session video for session &#39;JSON support in Jakarta EE: Present and Future&#39;     Panel discussion/ How to contribute   Jakarta EE Steering Committee Panel  Members of the Jakarta EE Steering Committee  Session video for session &#39;Jakarta EE Steering Committee Panel&#39;     What&#39;s next for the specifications   Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud  Otavio Santana  Session video for session &#39;Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud&#39;     What&#39;s next for the specifications   What&#39;s coming to Jakarta Security  Arjan Tijms  Session video for session &#39;What&#39;s coming to Jakarta Security&#39;     What&#39;s next for the specifications   Jakarta RESTful Web Services: Status Quo and Roadmap  Markus Karg  Session video for session &#39;Jakarta RESTful Web Services: Status Quo and Roadmap&#39;     What&#39;s next for the specifications   Jakarta Servlet: A new Twist on an Old Favourite  Ed Burns  Session video for session &#39;Jakarta Servlet: A new Twist on an Old Favourite&#39;     What&#39;s next for the specifications   Q&amp;A with Reza Rahman  Reza Rahman  Session video for session &#39;Q&amp;A with Reza Rahman&#39;     What&#39;s next for the specifications   Jakarta Messaging 3.">
+<meta property="og:description" content="The event has now concluded! Thank You for making the first JakartaOne Livestream event a great success!
+This milestone would not be possible without the collective efforts of a dedicated community.
+       Plan of the Day (Replays) Legend &nbsp; Jakarta EE and MicroProfile Opening Sessions &nbsp; Demo &nbsp; Keynote &nbsp; Cloud related topics &nbsp; Panel discussion/ How to contribute &nbsp; What&#39;s next for the specifications   Sessions   Session Name Presenter Name Session recording      Jakarta EE and MicroProfile Opening Sessions   Jakarta for DummEEs  Kevin Sutter  Session video for session &#39;Jakarta for DummEEs&#39;     Jakarta EE and MicroProfile Opening Sessions   Jakarta EE 8 - An Overview of Features  Josh Juneau  Session video for session &#39;Jakarta EE 8 - An Overview of Features&#39;     Jakarta EE and MicroProfile Opening Sessions   Building Interoperable Microservices with Eclipse MicroProfile  Ivar Grimstad  Session video for session &#39;Building Interoperable Microservices with Eclipse MicroProfile&#39;     Demo   Live Coding with Jakarta EE and MicroProfile #slideless  Adam Bien  Session video for session &#39;Live Coding with Jakarta EE and MicroProfile #slideless&#39;     Cloud related topics   Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language  Victor Orozco  Session video for session &#39;Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language&#39;     Keynote   Opening Keynote  Mike Milinkovich  Session video for session &#39;Opening Keynote&#39;     Keynote   Supporting Keynote  James Gosling  Session video for session &#39;Supporting Keynote&#39;     Keynote   Industry Keynote  IBM, Red Hat, Payara, Oracle, Tomitrbe  Session video for session &#39;Industry Keynote&#39;     Keynote   Industry Keynote  Fujitsu  Session video for session &#39;Industry Keynote&#39;     Cloud related topics   Turbocharged Java with Quarkus  Marcus Biel  Session video for session &#39;Turbocharged Java with Quarkus&#39;     Cloud related topics   Building Cloud-Native Microservices with Project Helidon  Dmitry Kornilov  Session video for session &#39;Building Cloud-Native Microservices with Project Helidon&#39;     What&#39;s next for the specifications   Jakarta Concurrency: Present and Future  Steve Millidge  Session video for session &#39;Jakarta Concurrency: Present and Future&#39;     What&#39;s next for the specifications   JSON support in Jakarta EE: Present and Future  Dmitry Kornilov  Session video for session &#39;JSON support in Jakarta EE: Present and Future&#39;     Panel discussion/ How to contribute   Jakarta EE Steering Committee Panel  Members of the Jakarta EE Steering Committee  Session video for session &#39;Jakarta EE Steering Committee Panel&#39;     What&#39;s next for the specifications   Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud  Otavio Santana  Session video for session &#39;Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud&#39;     What&#39;s next for the specifications   What&#39;s coming to Jakarta Security  Arjan Tijms  Session video for session &#39;What&#39;s coming to Jakarta Security&#39;     What&#39;s next for the specifications   Jakarta RESTful Web Services: Status Quo and Roadmap  Markus Karg  Session video for session &#39;Jakarta RESTful Web Services: Status Quo and Roadmap&#39;     What&#39;s next for the specifications   Jakarta Servlet: A new Twist on an Old Favourite  Ed Burns  Session video for session &#39;Jakarta Servlet: A new Twist on an Old Favourite&#39;     What&#39;s next for the specifications   Q&amp;A with Reza Rahman  Reza Rahman  Session video for session &#39;Q&amp;A with Reza Rahman&#39;     What&#39;s next for the specifications   Jakarta Messaging 3.">
+<meta name="twitter:description" content="The event has now concluded! Thank You for making the first JakartaOne Livestream event a great success!
+This milestone would not be possible without the collective efforts of a dedicated community. …">
+<meta name="author" content="Christopher Guindon"/>
+<link href='https://jakartaone.org/images/jakarta/favicon.ico' rel='icon' type='image/x-icon'/>
+<meta property="og:image" content="https://jakartaone.org/images/jakarta/jakarta_ee_400x400.png" />
+<meta name="twitter:image" content="https://jakartaone.org/images/jakarta/jakarta_ee_400x400.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@EclipseFdn" />
+<meta name="twitter:creator" content="@EclipseFdn" />
+<meta property="og:url" content="https://jakartaone.org/2019/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native" />
+<meta name="keywords" content="JakartaOne, JakartaOne Live, Jakarta EE software, Java EE, cloud, microservices, enterprise, open source, innovation">
+
+
+<meta name="generator" content="Hugo 0.54.0" />
+<link rel="canonical" href="https://jakartaone.org/2019/" />
+
+<link rel="alternate" href="/2019/index.xml" type="application/rss+xml" title="">
+
+
+<link rel="stylesheet" href="https://jakartaone.org/css/styles.css">
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+  
+  
+<link href="//fonts.googleapis.com/css?family=Libre+Franklin:400,700,300,600,100" rel="stylesheet" type="text/css"/>
+
+  
+</head>
+<body>
+  
+<a class="sr-only" href="#content">Skip to main content</a>
+<header class="header-wrapper header-default-bg-img" id="header-wrapper">
+  
+
+<div class="clearfix toolbar-container-wrapper">
+  <div class="container">
+    <div class="text-right toolbar-row row hidden-print">
+      <div class="col-md-24 row-toolbar-col">
+        <ul class="list-inline">
+          <li><a href="https://accounts.eclipse.org/user/edit" class="" data-tab-destination="tab-profile"><i class="fa fa-edit fa-fw"></i> Edit my account</a></li>
+          <li><a class="toolbar-link toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i> Manage Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row" id="header-row">
+    <div class="col-xs-8" id="header-left">
+      <div class="wrapper-logo-default">
+          <a title="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native" href="https://jakartaone.org/">
+            <img width="250" class="logo-eclipse-default img-responsive hidden-xs" src="https://jakartaone.org/images/jakartaone_livestream_wht_full-06.svg" alt="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native" />
+          </a>
+        
+      </div>
+    </div>
+    
+    <div class="col-sm-16" id="main-menu-wrapper">
+    
+      <div class="navbar yamm" id="main-menu">
+        <div class="navbar-collapse collapse reset float-right" id="navbar-main-menu">
+          <ul class="nav navbar-nav">
+            
+
+
+
+
+
+
+<li>
+  <a class="" href="/2019/#plan-of-the-day">
+  
+  Plan of the day
+  </a>
+  
+</li>
+
+
+<li>
+  <a class="" href="/2019/program-committee/">
+  
+  Program committee
+  </a>
+  
+</li>
+
+
+<li class="dropdown">
+  <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+    
+    
+    <span>Attend</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    
+    <li><a href="/2019/code-of-conduct/">Code of Conduct</a> </li>
+    
+  </ul>
+  
+</li>
+
+
+
+
+
+          </ul>
+        </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <div class="wrapper-logo-mobile">
+            
+              <a class="navbar-brand visible-xs" title="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native" href="https://jakartaone.org/">
+                <img width="250" class="logo-eclipse-default-mobile img-responsive" src="https://jakartaone.org/images/jakartaone_livestream_wht_full-06.svg" alt="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native" />
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+  <div class="jumbotron featured-jumbotron margin-bottom-0 padding-bottom-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
+         <h2>September 10, 2019</h2>
+         <p>JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta&trade; EE and related technologies focused on  developing cloud native Java applications.</p>
+         <p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+  
+  
+  
+
+<main>
+  <div class="container-fluid">
+    
+
+    
+  
+  <section id="registration">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-24 col-md-6 match-height-item-by-row">
+          <img class="img-responsive margin-auto" src="/images/jakarta/jakarta-ee-schooner.png" title="Jakarta EE logo" />
+        </div>
+        <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
+          <div style="position:relative; top:20%;">
+            <h2>The event has now concluded!</h2>
+            <p>Thank You for making the first JakartaOne Livestream event a great success!</p>
+            <p>This milestone would not be possible without the collective efforts of a dedicated community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<p>
+
+
+
+
+
+<section class="alt row" id="plan-of-the-day">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    <div class="container">
+      <div class="col-xs-24">
+        <h2>Plan of the Day (Replays)</h2>
+        <div class="row">
+          <h3>Legend</h3>
+          <ul type="none">
+            
+              <li><span class="opening-icon icon">&nbsp;</span> Jakarta EE and MicroProfile Opening Sessions</li>
+            
+              <li><span class="demo-icon icon">&nbsp;</span> Demo</li>
+            
+              <li><span class="keynote-icon icon">&nbsp;</span> Keynote</li>
+            
+              <li><span class="cloud-icon icon">&nbsp;</span> Cloud related topics</li>
+            
+              <li><span class="panel-icon icon">&nbsp;</span> Panel discussion/ How to contribute</li>
+            
+              <li><span class="whats-next-icon icon">&nbsp;</span> What&#39;s next for the specifications</li>
+            
+          </ul>
+        </div>
+        <h3>Sessions</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Session Name</th>
+              <th>Presenter Name</th>
+              <th class="text-center">Session recording</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td>
+                <span class="opening-icon icon">
+                  <span class="sr-only">
+                   
+                  Jakarta EE and MicroProfile Opening Sessions 
+                  
+                   </span>
+                </span> Jakarta for DummEEs
+              </td>
+              <td>Kevin Sutter</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=UhkqyuQgc4I&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=2&amp;t=0s" title="Session video for session 'Jakarta for DummEEs'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta for DummEEs'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="opening-icon icon">
+                  <span class="sr-only">
+                   
+                  Jakarta EE and MicroProfile Opening Sessions 
+                  
+                   </span>
+                </span> Jakarta EE 8 - An Overview of Features
+              </td>
+              <td>Josh Juneau</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=IMlrhMcra_k&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=3&amp;t=0s" title="Session video for session 'Jakarta EE 8 - An Overview of Features'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta EE 8 - An Overview of Features'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="opening-icon icon">
+                  <span class="sr-only">
+                   
+                  Jakarta EE and MicroProfile Opening Sessions 
+                  
+                   </span>
+                </span> Building Interoperable Microservices with Eclipse MicroProfile
+              </td>
+              <td>Ivar Grimstad</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=kD7QHPfC5to&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=4&amp;t=0s" title="Session video for session 'Building Interoperable Microservices with Eclipse MicroProfile'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Building Interoperable Microservices with Eclipse MicroProfile'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="demo-icon icon">
+                  <span class="sr-only">
+                   
+                  Demo 
+                  
+                   </span>
+                </span> Live Coding with Jakarta EE and MicroProfile #slideless
+              </td>
+              <td>Adam Bien</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=5yKjvPeUHQg&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=5&amp;t=0s" title="Session video for session 'Live Coding with Jakarta EE and MicroProfile #slideless'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Live Coding with Jakarta EE and MicroProfile #slideless'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="cloud-icon icon">
+                  <span class="sr-only">
+                   
+                  Cloud related topics 
+                  
+                   </span>
+                </span> Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language
+              </td>
+              <td>Victor Orozco</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=KpfnNPGQPTY&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=6&amp;t=0s" title="Session video for session 'Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Kotlin&#43;Jakarta EE&#43;MicroProfile: Teaching 20 year old tricks to a new language'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="keynote-icon icon">
+                  <span class="sr-only">
+                   
+                  Keynote 
+                  
+                   </span>
+                </span> Opening Keynote
+              </td>
+              <td>Mike Milinkovich</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=OB6dwAU_eAE&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=7&amp;t=0s" title="Session video for session 'Opening Keynote'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Opening Keynote'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="keynote-icon icon">
+                  <span class="sr-only">
+                   
+                  Keynote 
+                  
+                   </span>
+                </span> Supporting Keynote
+              </td>
+              <td>James Gosling</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=msmtcImrg1Q&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=8&amp;t=0s" title="Session video for session 'Supporting Keynote'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Supporting Keynote'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="keynote-icon icon">
+                  <span class="sr-only">
+                   
+                  Keynote 
+                  
+                   </span>
+                </span> Industry Keynote
+              </td>
+              <td>IBM, Red Hat, Payara, Oracle, Tomitrbe</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=zroNT2mQbtk&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=9&amp;t=0s" title="Session video for session 'Industry Keynote'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Industry Keynote'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="keynote-icon icon">
+                  <span class="sr-only">
+                   
+                  Keynote 
+                  
+                   </span>
+                </span> Industry Keynote
+              </td>
+              <td>Fujitsu</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=U-fJBSC7t6Y&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=10&amp;t=0s" title="Session video for session 'Industry Keynote'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Industry Keynote'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="cloud-icon icon">
+                  <span class="sr-only">
+                   
+                  Cloud related topics 
+                  
+                   </span>
+                </span> Turbocharged Java with Quarkus
+              </td>
+              <td>Marcus Biel</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=oJx2Dd8yrG4&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=11&amp;t=0s" title="Session video for session 'Turbocharged Java with Quarkus'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Turbocharged Java with Quarkus'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="cloud-icon icon">
+                  <span class="sr-only">
+                   
+                  Cloud related topics 
+                  
+                   </span>
+                </span> Building Cloud-Native Microservices with Project Helidon
+              </td>
+              <td>Dmitry Kornilov</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=T0iqCXiNX7A&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=12&amp;t=0s" title="Session video for session 'Building Cloud-Native Microservices with Project Helidon'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Building Cloud-Native Microservices with Project Helidon'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> Jakarta Concurrency: Present and Future
+              </td>
+              <td>Steve Millidge</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=ji667K0AXPw&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=13&amp;t=0s" title="Session video for session 'Jakarta Concurrency: Present and Future'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta Concurrency: Present and Future'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> JSON support in Jakarta EE: Present and Future
+              </td>
+              <td>Dmitry Kornilov</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=vTPTAkxpngY&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=14&amp;t=0s" title="Session video for session 'JSON support in Jakarta EE: Present and Future'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'JSON support in Jakarta EE: Present and Future'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="panel-icon icon">
+                  <span class="sr-only">
+                   
+                  Panel discussion/ How to contribute 
+                  
+                   </span>
+                </span> Jakarta EE Steering Committee Panel
+              </td>
+              <td>Members of the Jakarta EE Steering Committee</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=TIbbqsk02pQ&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=15&amp;t=0s" title="Session video for session 'Jakarta EE Steering Committee Panel'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta EE Steering Committee Panel'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud
+              </td>
+              <td>Otavio Santana</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=twGzS9jlOjI&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=16&amp;t=0s" title="Session video for session 'Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> What&#39;s coming to Jakarta Security
+              </td>
+              <td>Arjan Tijms</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=-MISp-holcE&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=17&amp;t=0s" title="Session video for session 'What&#39;s coming to Jakarta Security'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'What&#39;s coming to Jakarta Security'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> Jakarta RESTful Web Services: Status Quo and Roadmap
+              </td>
+              <td>Markus Karg</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=plsVWw_hORU&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=18&amp;t=0s" title="Session video for session 'Jakarta RESTful Web Services: Status Quo and Roadmap'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta RESTful Web Services: Status Quo and Roadmap'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> Jakarta Servlet: A new Twist on an Old Favourite
+              </td>
+              <td>Ed Burns</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=Eprlsepysww&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=18" title="Session video for session 'Jakarta Servlet: A new Twist on an Old Favourite'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta Servlet: A new Twist on an Old Favourite'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> Q&amp;A with Reza Rahman
+              </td>
+              <td>Reza Rahman</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=wyFzS75PA08&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=20&amp;t=0s" title="Session video for session 'Q&amp;A with Reza Rahman'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Q&amp;A with Reza Rahman'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> Jakarta Messaging 3.0, Redefining JMS
+              </td>
+              <td>David Blevins</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=1E2_FE7ZQ64&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=21&amp;t=0s" title="Session video for session 'Jakarta Messaging 3.0, Redefining JMS'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta Messaging 3.0, Redefining JMS'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="whats-next-icon icon">
+                  <span class="sr-only">
+                   
+                  What&#39;s next for the specifications 
+                  
+                   </span>
+                </span> What&#39;s Coming to Jakarta Faces?
+              </td>
+              <td>Arjan Tijms</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=fMzQ0B1szSw&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=22&amp;t=0s" title="Session video for session 'What&#39;s Coming to Jakarta Faces?'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'What&#39;s Coming to Jakarta Faces?'</span>
+              </a></td>
+            </tr>
+            
+            <tr>
+              <td>
+                <span class="cloud-icon icon">
+                  <span class="sr-only">
+                   
+                  Cloud related topics 
+                  
+                   </span>
+                </span> Jakarta EE on Azure Magic Mystery Show
+              </td>
+              <td>Reza Rahman</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="https://www.youtube.com/watch?v=FHCgC64Rdbk&amp;list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&amp;index=23&amp;t=0s" title="Session video for session 'Jakarta EE on Azure Magic Mystery Show'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session 'Jakarta EE on Azure Magic Mystery Show'</span>
+              </a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section>
+  
+  <div class="container padding-bottom-40 padding-top-40">
+  <div class="row">
+    <div class="col-xs-24 col-sm-18 match-height-item-by-row">
+      <h2 class="padding-bottom-20">Meet the Program Committee</h2>
+      <p class="padding-bottom-20">We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by
+        an independent program committee made up of volunteers from the Jakarta&trade; EE and Cloud Native Java
+        community!
+      </p>
+    </div>
+    <div class="col-xs-24 col-sm-6 match-height-item-by-row margin-bottom-30">
+      <div class="centered-container">
+        <a href="/program-committee/" class="btn btn-gold btn-wide">Learn more</a>
+      </div>
+    </div>
+    <div class="clearfix" />
+    </div>
+    <div class="row">
+      <div class="col-xs-24">
+        <div class="owl-carousel owl-theme" id="slider">
+          
+          
+          <div class="item">
+            <img src="/images/committee/rrahman.png" alt="Reza Rahman">
+            <h3><a href="/2019/program-committee/#reza-rahman">Reza Rahman</a></h3>
+            <p>Principal Program Manager for Java on Azure at Microsoft</p>
+          </div>
+          
+          <div class="item">
+            <img src="/images/committee/abien.png" alt="Adam Bien">
+            <h3><a href="/2019/program-committee/#adam-bien">Adam Bien</a></h3>
+            <p>Jakarta EE / Java EE / Java SE developer</p>
+          </div>
+          
+          <div class="item">
+            <img src="/images/committee/agupta.png" alt="Arun Gupta">
+            <h3><a href="/2019/program-committee/#arun-gupta">Arun Gupta</a></h3>
+            <p>Principal Technologist at Amazon Web Services</p>
+          </div>
+          
+          <div class="item">
+            <img src="/images/committee/igrimstad.png" alt="Ivar Grimstad">
+            <h3><a href="/2019/program-committee/#ivar-grimstad">Ivar Grimstad</a></h3>
+            <p>Principal Consultant for Cybercom Group</p>
+          </div>
+          
+          <div class="item">
+            <img src="/images/committee/jjuneau.png" alt="Josh Juneau">
+            <h3><a href="/2019/program-committee/#josh-juneau">Josh Juneau</a></h3>
+            <p>Jakarta EE / Java EE Developer and Author</p>
+          </div>
+          
+          <div class="item">
+            <img src="/images/committee/tobradovic.png" alt="Tanja Obradovic">
+            <h3><a href="/2019/program-committee/#tanja-obradovic">Tanja Obradovic</a></h3>
+            <p>Jakarta EE Program Manager</p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+</section></p>
+
+
+  
+
+    
+  </div>
+</main>
+  
+  
+
+<section class="alt" id="get-social">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    <div class="container">
+      <h2 class="padding-bottom-20">Get Social</h2>
+      <div class="col-xs-4 match-height-item-by-row">
+        <div class="text-center centered-container">
+          <i class="fa fa-twitter fa-3x"></i>
+        </div>
+      </div>
+      <div class="col-xs-20 match-height-item-by-row">
+        <p>Follow the official conference Twitter handle <a href="https://www.twitter.com/@JakartaOneConf">@JakartaOneConf</a> for live event updates, speaker announcements, news and more!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="jakarta-ee">
+  <div class="container margin-top-30 margin-bottom-30">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        <img src="/images/jakarta/jakarta-ee-linkback.png" class="img" style="width:100%;" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-24 col-sm-16 match-height-item-by-row">
+        <p class="padding-top-30 padding-bottom-20">Powered by participation, Jakarta&trade; EE is focused on enabling community-driven collaboration and open innovation for the cloud</p>
+      </div>
+      <div class="col-xs-24 col-sm-8 match-height-item-by-row">
+        <div class="centered-container">
+          <p><a class="btn btn-gold btn-wide" href="https://jakarta.ee">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<p id="back-to-top">
+  <a class="visible-xs" href="#top">Back to the top</a>
+</p>
+<footer id="solstice-footer">
+  <div class="container">
+    <div class="row">
+      <section class="col-sm-6 hidden-print" id="footer-eclipse-foundation">
+        <h2 class="section-title">Eclipse Foundation</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/org/">About Us</a></li>
+          <li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+          <li><a href="https://www.eclipse.org/donate">Donate</a></li>
+          <li><a href="https://www.eclipse.org/org/documents/">Governance</a></li>
+          <li><a href="https://www.eclipse.org/artwork/">Logo and Artwork</a></li>
+          <li><a href="https://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-legal">
+        <h2 class="section-title">Legal</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+          <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+          <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+          <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+          <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-useful-links">
+        <h2 class="section-title">Useful Links</h2>
+        <ul class="nav">
+          <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+          <li><a href="//help.eclipse.org/">Documentation</a></li>
+          <li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li>
+          <li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li>
+          <li><a href="https://www.eclipse.org/forums/">Forums</a></li>
+          <li><a href="//marketplace.eclipse.org">Marketplace</a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-other">
+        <h2 class="section-title">Other</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li>
+          <li><a href="https://www.eclipse.org/projects">Community of Projects</a></li>
+          <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+          <li><a href="https://www.eclipse.org/org/research/">Research@Eclipse</a></li>
+          <li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li>
+          <li><a href="https://status.eclipse.org">Service Status</a></li>
+        </ul>
+      </section>
+      <div class="col-sm-24 margin-top-20">
+        <div class="row">
+          <div id="copyright" class="col-md-16">
+            <p id="copyright-text">Copyright &copy; Eclipse Foundation, Inc. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-8 social-media">
+            <ul class="list-inline">
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://twitter.com/EclipseFdn">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.facebook.com/eclipse.org">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.youtube.com/user/EclipseFdn">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-youtube fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.linkedin.com/company/eclipse-foundation">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://jakartaone.org/js/solstice.js"></script>
+
+
+  
+<script src="/js/home.slider.js"></script>
+
+</body>
+</html>
+
