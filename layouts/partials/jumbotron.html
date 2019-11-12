@@ -10,3 +10,17 @@
 
   SPDX-License-Identifier: EPL-2.0
 -->
+
+{{ if isset .Page.Params "headline" }}
+  <div class="jumbotron featured-jumbotron margin-bottom-0 padding-bottom-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
+         <h2>{{ .Page.Params.headline | safeHTML }}</h2>
+         <p>{{ .Page.Params.tagline | safeHTML }}</p>
+         {{ .Page.Params.tagline_suffix | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
