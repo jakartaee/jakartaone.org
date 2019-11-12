@@ -6,7 +6,6 @@ install:
 - wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 script:
-- npm run production
 - hugo
 cache:
   directories:
