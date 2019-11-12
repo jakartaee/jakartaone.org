@@ -1,0 +1,65 @@
+<!-- 
+  Copyright (c) 2019 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Martin Lowe <martin.lowe@eclipse-foundation.org>
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+       
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+{{$event_id := .Get 0}}
+{{$events := (index .Site.Data $event_id).agenda.items}}
+{{$types := (index .Site.Data $event_id).agenda.types}}
+{{$title_suffix := .Get 1 }}
+<section class="alt row" id="plan-of-the-day">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    <div class="container">
+      <div class="col-xs-24">
+        <h2>Plan of the Day {{ $title_suffix }}</h2>
+        <div class="row">
+          <h3>Legend</h3>
+          <ul type="none">
+            {{ range $types}}
+              <li><span class="{{ .class }}-icon icon">&nbsp;</span> {{ .name }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        <h3>Sessions</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Session Name</th>
+              <th>Presenter Name</th>
+              <th class="text-center">Session recording</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $events }}
+            <tr>
+              <td>
+                <span class="{{ .type }}-icon icon">
+                  <span class="sr-only">
+                  {{ range first 1 (where $types "class" .type) }} 
+                  {{ .name }} 
+                  {{ end}}
+                   </span>
+                </span> {{ .name }}
+              </td>
+              <td>{{ .presenter }}</td>
+              <td class="text-center">
+              <a class="btn btn-primary btn-wide" href="{{ .vod }}" title="Session video for session '{{.name}}'">
+                <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session '{{.name}}'</span>
+              </a></td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

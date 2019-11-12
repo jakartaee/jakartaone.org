@@ -1,6 +1,5 @@
 ---
 title: "Code of Conduct"
-headline: "Code of Conduct | JakartaOne Livestream"
 date: 2019-07-04
 hide_page_title: false
 hide_sidebar: true

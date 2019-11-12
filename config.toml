@@ -49,23 +49,43 @@ themesDir = "node_modules/"
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
-  
-[[menu.main]]
+
+[[menu.2019]]
     name = "Plan of the day"
-    url = "/#plan-of-the-day"
+    url = "/2019/#plan-of-the-day"
     weight = 1
     
-[[menu.main]]
+[[menu.2019]]
     name = "Program committee"
-    url = "/program-committee/"
+    url = "/2019/program-committee/"
     weight = 2
 
-[[menu.main]]
+[[menu.2019]]
     name = "Attend"
     weight = 3
 
-[[menu.main]]
+[[menu.2019]]
     name = "Code of Conduct"
-    url = "/code-of-conduct/"
+    url = "/2019/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[menu.japan2020]]
+    name = "Plan of the day"
+    url = "/japan2020/#plan-of-the-day"
+    weight = 1
+    
+[[menu.japan2020]]
+    name = "Program committee"
+    url = "/japan2020/program-committee/"
+    weight = 2
+
+[[menu.japan2020]]
+    name = "Attend"
+    weight = 3
+
+[[menu.japan2020]]
+    name = "Code of Conduct"
+    url = "/japan2020/code-of-conduct/"
     weight = 1
     parent = "Attend"
