@@ -7,3 +7,5 @@ hide_sidebar: true
 hide_breadcrumb: false
 layout: "program-committee"
 ---
+
+{{< program-committee "japan2020" >}}
