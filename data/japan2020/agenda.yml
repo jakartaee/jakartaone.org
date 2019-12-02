@@ -1,15 +1,34 @@
 types:
-    - name: Jakarta EE and MicroProfile Opening Sessions
+    - name: Jakarta EE と MicroProfile のセッション
       class: opening 
-    - name: Demo
-      class: demo 
-    - name: Keynote
+    - name: キーノート
       class: keynote 
-    - name: Cloud related topics
-      class: cloud
-    - name: Panel discussion/ How to contribute
+    - name: ベンダートラック
       class: panel 
-    - name: What's next for the specifications
-      class: whats-next
 
 items:
+    - name: キーノート
+      presenter: 調整中
+      type: keynote
+      vod: 15:00-15:30
+    - name: ベンダートラック
+      presenter: 調整中
+      type: panel
+      vod: 15:40-17:20
+    - name: パネルディスカッション
+      presenter: 調整中
+      type: panel
+      vod: 17:30-18:00
+    - name:  調整中
+      presenter: 調整中
+      type: opening
+      vod: 19:00-19:50
+    - name:  調整中
+      presenter: 調整中
+      type: opening
+      vod: 20:00-20:50
+    - name:  調整中
+      presenter: 調整中
+      type: opening
+      vod: 21:50-22:00
+      

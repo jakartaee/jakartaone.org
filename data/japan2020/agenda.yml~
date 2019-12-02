@@ -1,0 +1,15 @@
+types:
+    - name: Jakarta EE and MicroProfile Opening Sessions
+      class: opening 
+    - name: Demo
+      class: demo 
+    - name: Keynote
+      class: keynote 
+    - name: Cloud related topics
+      class: cloud
+    - name: Panel discussion/ How to contribute
+      class: panel 
+    - name: What's next for the specifications
+      class: whats-next
+
+items:
