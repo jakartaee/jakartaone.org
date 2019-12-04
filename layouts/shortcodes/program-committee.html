@@ -16,7 +16,11 @@
 <div class="margin-bottom-30">
   <!-- Committee member -->
   {{ range (index .Site.Data $event).committee.items }}
-  <div class="row margin-top-30" id="{{ urlize .name }}">
+  {{ $anchor := urlize .anchor }}
+  {{ if not $anchor }}
+    {{ $anchor = urlize .name }}
+  {{ end }}
+  <div class="row margin-top-30" id="{{ $anchor }}">
     <div class="col-xs-24 col-sm-6">
       <img class="img-responsive" src="/images/committee/{{ .img }}"
         title="{{ .name }}" />
