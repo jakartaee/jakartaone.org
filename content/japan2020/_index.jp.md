@@ -6,8 +6,8 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-headline: "TBD"
-tagline: "JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta&trade; EE and related technologies focused on  developing cloud native Java applications."
+headline: "2020年2月26日"
+tagline: "JakartaOne Livestream Japan は、クラウドネイティブJavaアプリケーションの開発にフォーカスした、Jakarta&trade; EEとその周辺技術についての、技術者とビジネスリーダーのための、１日間のバーチャルカンファレンスです。"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 ---
@@ -30,5 +30,5 @@ layout: "single"
   </div>
 </section>
 
-{{< agenda "japan2020" "(Replays)" >}}
+{{< agenda "japan2020" "" >}}
 {{< program-committee-carousel "japan2020" >}}

@@ -1,0 +1,17 @@
+[agenda-schedule]
+other = "Plan of the Day"
+
+[agenda-legend]
+other = "Legend"
+
+[agenda-sessions]
+other = "Sessions"
+
+[agenda-session-name]
+other = "Session Name"
+
+[agenda-presenter-name]
+other = "Presenter Name"
+
+[agenda-session-recording]
+other = "Session Recording"

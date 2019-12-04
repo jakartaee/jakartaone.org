@@ -30,5 +30,5 @@ layout: "single"
   </div>
 </section>
 
-{{< agenda "japan2020" "(Replays)" >}}
+{{< agenda "japan2020" "" >}}
 {{< program-committee-carousel "japan2020" >}}

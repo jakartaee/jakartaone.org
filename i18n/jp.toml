@@ -1,0 +1,17 @@
+[agenda-schedule]
+other = "当日の計画"
+
+[agenda-legend]
+other = "伝説"
+
+[agenda-sessions]
+other = "セッション"
+
+[agenda-session-name]
+other = "セッション名"
+
+[agenda-presenter-name]
+other = "発表者名"
+
+[agenda-session-recording]
+other = "セッション記録"
