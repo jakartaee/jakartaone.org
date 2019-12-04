@@ -17,12 +17,12 @@ layout: "single"
     <div class="container">
       <div class="row">
         <div class="col-xs-24 col-md-6 match-height-item-by-row">
-          <img class="img-responsive margin-auto" src="/images/jakarta/jakarta-ee-schooner.png" title="Jakarta EE logo" />
+          <img class="img-responsive margin-auto" src="/images/jakarta/jakarta-ee-schooner.png" title="Jakarta EE ロゴ" />
         </div>
         <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
           <div style="position:relative; top:20%;">
-            <h2>Registration</h2>
-            <p>TBD</p>
+            <h2>入校</h2>
+            <p>未定</p>
           </div>
         </div>
       </div>

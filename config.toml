@@ -12,7 +12,7 @@ themesDir = "node_modules/"
     languageName = "English"
     weight =  1
   [languages.jp]
-    languageName = "Japanese"
+    languageName = "日本語"
     weight =  2
 
 [Params]
@@ -24,7 +24,7 @@ themesDir = "node_modules/"
   logo = "images/jakartaone_livestream_wht_full-06.svg"
   logo_width = 250
   header_left_classes = "col-xs-8"
-  header_right_classes = "col-sm-16"
+  main_menu_wrapper_classes = "col-sm-16"
   styles = "css/styles.css"
   favicon = "images/jakarta/favicon.ico"
   share_img = "images/jakarta/jakarta_ee_400x400.png"
@@ -58,42 +58,62 @@ themesDir = "node_modules/"
   plainIDAnchors = true
   hrefTargetBlank = true
 
-[[menu.2019]]
+[[languages.en.menu.2019]]
     name = "Plan of the day"
     url = "/2019/#plan-of-the-day"
     weight = 1
     
-[[menu.2019]]
+[[languages.en.menu.2019]]
     name = "Program committee"
     url = "/2019/program-committee/"
     weight = 2
 
-[[menu.2019]]
+[[languages.en.menu.2019]]
     name = "Attend"
     weight = 3
 
-[[menu.2019]]
+[[languages.en.menu.2019]]
     name = "Code of Conduct"
     url = "/2019/code-of-conduct/"
     weight = 1
     parent = "Attend"
     
-[[menu.japan2020]]
+[[languages.en.menu.japan2020]]
     name = "Plan of the day"
     url = "/japan2020/#plan-of-the-day"
     weight = 1
     
-[[menu.japan2020]]
+[[languages.en.menu.japan2020]]
     name = "Program committee"
     url = "/japan2020/program-committee/"
     weight = 2
 
-[[menu.japan2020]]
+[[languages.en.menu.japan2020]]
     name = "Attend"
     weight = 3
 
-[[menu.japan2020]]
+[[languages.en.menu.japan2020]]
     name = "Code of Conduct"
     url = "/japan2020/code-of-conduct/"
     weight = 1
     parent = "Attend"
+    
+[[languages.jp.menu.japan2020]]
+    name = "当日の計画"
+    url = "/japan2020/#plan-of-the-day"
+    weight = 1
+    
+[[languages.jp.menu.japan2020]]
+    name = "プログラム委員会"
+    url = "/japan2020/program-committee/"
+    weight = 2
+
+[[languages.jp.menu.japan2020]]
+    name = "出席する"
+    weight = 3
+
+[[languages.jp.menu.japan2020]]
+    name = "行動規範"
+    url = "/japan2020/code-of-conduct/"
+    weight = 1
+    parent = "出席する"

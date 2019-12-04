@@ -209,6 +209,31 @@ span.icon::after {
     bottom: -3px;
     display: inline-block;
 }
+.icon-backdrop {
+  & {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: @brand-secondary;
+  }
+  i {
+    font-size: 13em;
+    padding-top: 18%;
+    text-align: center;
+    display: block;
+    color: #fff;
+  }
+  .icon-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .ratio {
+    margin-top: 100%;
+  }
+}
 span.opening-icon::after {
     background-color: #a0a;
 }

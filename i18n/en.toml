@@ -15,3 +15,34 @@ other = "Presenter Name"
 
 [agenda-session-recording]
 other = "Session Recording"
+
+[agenda-session-schedule]
+other = "Scheduled Time"
+
+[agenda-session-recording-button-alt]
+other = "Session video for session {{ .name }}"
+
+[committee-carousel-title]
+other = "Meet the Program Committee"
+
+[committee-carousel-content]
+other = "We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&trade; EE and Cloud Native Java community!"
+
+[committee-carousel-button-text]
+other = "Learn more"
+
+[committee-twitter-follow-text]
+other = "Follow {{ .name }} on Twitter!"
+
+[footer-get-social-title]
+other = "Get Social"
+
+[footer-get-social-content]
+other = "Follow the official conference Twitter handle <a href='https://www.twitter.com/@JakartaOneConf'>@JakartaOneConf</a> for live event updates, speaker announcements, news and more!"
+
+[footer-jakarta-callout-content]
+other = "Powered by participation, Jakarta&trade; EE is focused on enabling community-driven collaboration and open innovation for the cloud"
+
+[footer-jakarta-callout-button-text]
+other = "Learn more"
+

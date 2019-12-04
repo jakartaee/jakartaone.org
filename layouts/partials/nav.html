@@ -22,12 +22,12 @@
   </a>
   <ul class="dropdown-menu">
     {{ range .Children }}
-    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}">{{ .Name }}</a> </li>
+    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{ .URL | absLangURL }}">{{ .Name }}</a> </li>
     {{ end }}
   </ul>
   {{else}}
 <li>
-  <a class="" href="{{.URL}}">
+  <a class="" href="{{.URL | absLangURL }}">
   {{ .Pre }}
   {{ .Name }}
   </a>

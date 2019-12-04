@@ -1,3 +1,4 @@
+complete: false
 types:
     - name: Jakarta EE と MicroProfile のセッション
       class: opening 
@@ -10,24 +11,24 @@ items:
     - name: キーノート
       presenter: 調整中
       type: keynote
-      vod: 15:00-15:30
+      time: 15:00-15:30
     - name: ベンダートラック
       presenter: 調整中
       type: panel
-      vod: 15:40-17:20
+      time: 15:40-17:20
     - name: パネルディスカッション
       presenter: 調整中
       type: panel
-      vod: 17:30-18:00
+      time: 17:30-18:00
     - name:  調整中
       presenter: 調整中
       type: opening
-      vod: 19:00-19:50
+      time: 19:00-19:50
     - name:  調整中
       presenter: 調整中
       type: opening
-      vod: 20:00-20:50
+      time: 20:00-20:50
     - name:  調整中
       presenter: 調整中
       type: opening
-      vod: 21:50-22:00
+      time: 21:50-22:00

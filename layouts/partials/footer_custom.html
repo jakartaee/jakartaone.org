@@ -14,14 +14,14 @@
 <section class="alt" id="get-social">
   <div class="backdrop padding-bottom-40 padding-top-40">
     <div class="container">
-      <h2 class="padding-bottom-20">Get Social</h2>
+      <h2 class="padding-bottom-20">{{ i18n "footer-get-social-title" }}</h2>
       <div class="col-xs-4 match-height-item-by-row">
         <div class="text-center centered-container">
           <i class="fa fa-twitter fa-3x"></i>
         </div>
       </div>
       <div class="col-xs-20 match-height-item-by-row">
-        <p>Follow the official conference Twitter handle <a href="https://www.twitter.com/@JakartaOneConf">@JakartaOneConf</a> for live event updates, speaker announcements, news and more!</p>
+        <p>{{ i18n "footer-get-social-content" | safeHTML }}</p>
       </div>
     </div>
   </div>
@@ -36,11 +36,11 @@
     </div>
     <div class="row">
       <div class="col-xs-24 col-sm-16 match-height-item-by-row">
-        <p class="padding-top-30 padding-bottom-20">Powered by participation, Jakarta&trade; EE is focused on enabling community-driven collaboration and open innovation for the cloud</p>
+        <p class="padding-top-30 padding-bottom-20">{{ i18n "footer-jakarta-callout-content" | safeHTML }}</p>
       </div>
       <div class="col-xs-24 col-sm-8 match-height-item-by-row">
         <div class="centered-container">
-          <p><a class="btn btn-gold btn-wide" href="https://jakarta.ee">Learn more</a></p>
+          <p><a class="btn btn-gold btn-wide" href="https://jakarta.ee">{{ i18n "footer-jakarta-callout-button-text" }}</a></p>
         </div>
       </div>
     </div>

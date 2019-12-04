@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "owl.carousel": "2.3.4",
-    "eclipsefdn-hugo-solstice-theme": "0.0.24",
-    "production": "0.0.2"
+    "eclipsefdn-hugo-solstice-theme": "0.0.44"
   }
 }
