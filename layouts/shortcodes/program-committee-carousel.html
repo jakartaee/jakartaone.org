@@ -36,9 +36,13 @@
         <div class="owl-carousel owl-theme" id="slider">
           <!-- Start: Slider Area -->
           {{ range (index .Site.Data $event).committee.items }}
+          {{ $anchor := urlize .anchor }}
+          {{ if not $anchor }}
+            {{ $anchor = urlize .name }}
+          {{ end }}
           <div class="item">
             <img src="/images/committee/{{ .img }}" alt="{{ .name }}">
-            <h3><a href="/{{ $event }}/program-committee/#{{ urlize .name }}">{{ .name }}</a></h3>
+            <h3><a href="/{{ $event }}/program-committee/#{{ $anchor }}">{{ .name }}</a></h3>
             <p>{{ .title }}</p>
           </div>
           {{ end }}
