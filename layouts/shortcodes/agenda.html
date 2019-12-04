@@ -20,22 +20,22 @@
   <div class="backdrop padding-bottom-40 padding-top-40">
     <div class="container">
       <div class="col-xs-24">
-        <h2>Plan of the Day {{ $title_suffix }}</h2>
+        <h2>{{ i18n "agenda-schedule" }} {{ $title_suffix }}</h2>
         <div class="row">
-          <h3>Legend</h3>
+          <h3>{{ i18n "agenda-legend" }}</h3>
           <ul type="none">
             {{ range $types}}
               <li><span class="{{ .class }}-icon icon">&nbsp;</span> {{ .name }}</li>
             {{ end }}
           </ul>
         </div>
-        <h3>Sessions</h3>
+        <h3>{{ i18n "agenda-sessions" }}</h3>
         <table class="table">
           <thead>
             <tr>
-              <th>Session Name</th>
-              <th>Presenter Name</th>
-              <th class="text-center">Session recording</th>
+              <th>{{ i18n "agenda-session-name" }}</th>
+              <th>{{ i18n "agenda-presenter-name" }}</th>
+              <th class="text-center">{{ i18n "agenda-session-recording" }}</th>
             </tr>
           </thead>
           <tbody>
@@ -51,6 +51,7 @@
                 </span> {{ .name }}
               </td>
               <td>{{ .presenter }}</td>
+              
               <td class="text-center">
               <a class="btn btn-primary btn-wide" href="{{ .vod }}" title="Session video for session '{{.name}}'">
                 <i class="fa fa-play fa-2x"></i> <span class="sr-only">Session video for session '{{.name}}'</span>
