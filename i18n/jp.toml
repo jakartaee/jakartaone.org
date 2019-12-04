@@ -15,3 +15,139 @@ other = "発表者名"
 
 [agenda-session-recording]
 other = "セッション記録"
+
+[agenda-session-schedule]
+other = "予定時間"
+
+[agenda-session-recording-button-alt]
+other = "セッション{{ .name }}のセッションビデオ"
+
+[committee-carousel-title]
+other = "プログラム委員会に会う"
+
+[committee-carousel-content]
+other = "JakartaOne Livestreamイベントのセッションと基調講演は、Jakarta &trade;からのボランティアで構成される独立したプログラム委員会によって選ばれたことを誇りに思います。 EEおよびクラウドネイティブJavaコミュニティ！"
+
+[committee-carousel-button-text]
+other = "もっと詳しく知る"
+
+[committee-twitter-follow-text]
+other = "Twitterで{{ .name }}をフォローしてください！"
+
+[footer-get-social-title]
+other = "ソーシャルを取得"
+
+[footer-get-social-content]
+other = "公式カンファレンスのTwitterハンドル<a href='https://www.twitter.com/@JakartaOneConf'>@JakartaOneConf</a>をフォローして、ライブイベントの更新、発表者の発表、ニュースなどを入手してください！"
+
+[footer-jakarta-callout-content]
+other = "参加により、Jakarta&trade; EEはコミュニティ主導のコラボレーションとクラウドのオープンイノベーションの実現に焦点を当てています"
+
+[footer-jakarta-callout-button-text]
+other = "もっと詳しく知る"
+
+[navbar-manage-cookies-label]
+  other = "クッキーを管理する"
+  
+[navbar-edit-acccount-label]
+  other = "アカウントを編集"
+  
+[eclipse-foundation-text]
+  other = "Eclipse Foundation"
+  
+[footer-foundation-about-us-text]
+  other = "私たちに関しては"
+  
+[footer-foundation-contact-us-text]
+  other = "お問い合わせ"
+  
+[footer-foundation-donate-text]
+  other = "寄付する"
+  
+[footer-foundation-governance-text]
+  other = "ガバナンス"
+  
+[footer-foundation-logo-artwork-text]
+  other = "ロゴとアートワーク"
+  
+[footer-foundation-board-of-directors-text]
+  other = "取締役会"
+  
+[footer-legal-section-text]
+  other = "法的"
+  
+[footer-legal-privacy-policy-text]
+  other = "個人情報保護方針"
+  
+[footer-legal-terms-use-text]
+  other = "利用規約"
+  
+[footer-legal-copyright-agent-text]
+  other = "著作権エージェント"
+  
+[footer-legal-epl-text]
+  other = "Eclipseパブリックライセンス"
+  
+[footer-legal-resources-text]
+  other = "法的リソース"
+  
+[footer-useful-links-section-text]
+  other = "便利なリンク"
+  
+[footer-useful-links-report-bug-text]
+  other = "バグを報告"
+  
+[footer-useful-links-documentation-text]
+  other = "ドキュメンテーション"
+  
+[footer-useful-links-contribute-text]
+  other = "貢献する方法"
+  
+[footer-useful-links-mailing-list-text]
+  other = "メーリングリスト"
+  
+[footer-useful-links-forums-text]
+  other = "フォーラム"
+  
+[footer-useful-links-marketplace-text]
+  other = "市場"
+  
+[footer-other-section-text]
+  other = "その他"
+  
+[footer-other-tools-text]
+  other = "統合開発環境とツール"
+  
+[footer-other-community-projects-text]
+  other = "プロジェクトのコミュニティ"
+  
+[footer-other-working-groups-text]
+  other = "ワーキンググループ"
+  
+[footer-other-research-text]
+  other = "リサーチ@ Eclipse"
+  
+[footer-other-report-vulnerability-text]
+  other = "脆弱性を報告する"
+  
+[footer-other-status-text]
+  other = "サービス状況"
+
+[footer-sr-twitter-text]
+  other = "Twitterアカウント"
+
+[footer-sr-facebook-text]
+  other = "Facebookのアカウント"
+
+[footer-sr-youtube-text]
+  other = "Youtubeアカウント"
+
+[footer-sr-linkedin-text]
+  other = "リンクされたアカウント"
+
+[navigation-back-to-top]
+  other = "トップに戻る"
+
+[footer-copyright-text]
+  other = "著作権&copy; Eclipse Foundation、Inc.無断複写・転載を禁じます。"
+  

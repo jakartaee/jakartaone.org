@@ -18,15 +18,12 @@
   <div class="container padding-bottom-40 padding-top-40">
   <div class="row">
     <div class="col-xs-24 col-sm-18 match-height-item-by-row">
-      <h2 class="padding-bottom-20">Meet the Program Committee</h2>
-      <p class="padding-bottom-20">We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by
-        an independent program committee made up of volunteers from the Jakarta&trade; EE and Cloud Native Java
-        community!
-      </p>
+      <h2 class="padding-bottom-20">{{ i18n "committee-carousel-title" }}</h2>
+      <p class="padding-bottom-20">{{ i18n "committee-carousel-content" | safeHTML }}</p>
     </div>
     <div class="col-xs-24 col-sm-6 match-height-item-by-row margin-bottom-30">
       <div class="centered-container">
-        <a href="/program-committee/" class="btn btn-gold btn-wide">Learn more</a>
+        <a href="{{ printf "/%s/program-committee" $event | relLangURL }}" class="btn btn-gold btn-wide">{{ i18n "committee-carousel-button-text" }}</a>
       </div>
     </div>
     <div class="clearfix" />
@@ -41,8 +38,16 @@
             {{ $anchor = urlize .name }}
           {{ end }}
           <div class="item">
+            {{ if .img }}
             <img src="/images/committee/{{ .img }}" alt="{{ .name }}">
-            <h3><a href="/{{ $event }}/program-committee/#{{ $anchor }}">{{ .name }}</a></h3>
+            {{ else }}
+            <div class="icon-backdrop">
+              <div class="ratio"></div>
+              <div class="icon-container"><i class="fa fa-user"></i></div>
+            </div>
+            
+            {{ end }}
+            <h3><a href="{{ printf "/%s/program-committee/#%s" $event $anchor | relLangURL }}">{{ .name }}</a></h3>
             <p>{{ .title }}</p>
           </div>
           {{ end }}

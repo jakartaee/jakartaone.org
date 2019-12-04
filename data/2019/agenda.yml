@@ -1,3 +1,4 @@
+complete: true
 types:
     - name: Jakarta EE and MicroProfile Opening Sessions
       class: opening 
