@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jakartaone.org/2019/code-of-conduct/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/japan2020/code-of-conduct/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/japan2020/code-of-conduct/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/japan2020/code-of-conduct/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/2019/program-committee/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/japan2020/program-committee/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/japan2020/program-committee/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/japan2020/program-committee/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/2019/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/japan2020/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/japan2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/japan2020/"
+                />
+  </url>
+  
+</urlset>
