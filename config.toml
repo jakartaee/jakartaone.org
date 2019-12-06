@@ -99,7 +99,7 @@ themesDir = "node_modules/"
     parent = "Attend"
     
 [[languages.jp.menu.japan2020]]
-    name = "当日の計画"
+    name = "タイムテーブル"
     url = "/japan2020/#plan-of-the-day"
     weight = 1
     
@@ -109,11 +109,11 @@ themesDir = "node_modules/"
     weight = 2
 
 [[languages.jp.menu.japan2020]]
-    name = "出席する"
+    name = "参加"
     weight = 3
 
 [[languages.jp.menu.japan2020]]
     name = "行動規範"
     url = "/japan2020/code-of-conduct/"
     weight = 1
-    parent = "出席する"
+    parent = "参加"

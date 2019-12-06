@@ -1,9 +1,17 @@
 items:
   - name: "寺田佳央"
-    title: "Microsoft"
-    twitter_handle: "c"
-    img: ""
-    bio: "<p></p>"
+    title: "Microsoft Corporation"
+    twitter_handle: "yoshioterada"
+    img: "yoshio-2018.jpg"
+    bio: "<p>2015年7月より日本マイクロソフト株式会社に在籍し、現在はマイクロソフト・コーポレーションに所属し担当は Java !! Azure における Java の利用促進・啓蒙活動を実施中。 2016 年 7 月、日本人で 2 人目となる Java Champion に就任。 2018年7月より、マイクロソフト・コーポレーションで日本人初のクラウド・アドボケイトとして活動を開始。2019年6月より、オイシックス・ラ・大地株式会社の技術顧問も務める。 JJUG 幹事の一員でもある。
+<br> 
+2013年 日経コンピュータ：我らプロフェッショナル 世界を元気にする 100 人に選ばれた
+ <br>
+https://www.facebook.com/yoshio.terada<br>
+http://slideshare.net/tyoshio2002<br>
+https://github.com/yoshioterada<br>
+http://yoshio3.com<br>
+</p>"
     anchor: "Terada Yoshio"
   - name: "岩崎浩文"
     title: "楽天"

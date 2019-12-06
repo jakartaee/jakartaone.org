@@ -1,34 +1,33 @@
 complete: false
 types:
-    - name: Jakarta EE と MicroProfile のセッション
-      class: opening 
     - name: キーノート
       class: keynote 
     - name: ベンダートラック
+      class: opening 
+    - name: パネルディスカッション
       class: panel 
+    - name: Jakarta EE と MicroProfile のセッション
+      class: cloud
 
 items:
     - name: キーノート
       presenter: 調整中
       type: keynote
-      time: 15:00-15:30
+      time: 15:00-
     - name: ベンダートラック
       presenter: 調整中
-      type: panel
-      time: 15:40-17:20
+      type: opening
+      time: 調整中
     - name: パネルディスカッション
       presenter: 調整中
       type: panel
-      time: 17:30-18:00
+      time: -18:00
+    - name:  休憩
+      presenter: ―
+      type: demo
+      time: 18:00-19:00
     - name:  調整中
       presenter: 調整中
-      type: opening
-      time: 19:00-19:50
-    - name:  調整中
-      presenter: 調整中
-      type: opening
-      time: 20:00-20:50
-    - name:  調整中
-      presenter: 調整中
-      type: opening
-      time: 21:50-22:00
+      type: cloud
+      time: 19:00-22:00
+
