@@ -109,11 +109,11 @@ themesDir = "node_modules/"
     weight = 2
 
 [[languages.jp.menu.japan2020]]
-    name = "参加"
+    name = "行動指針"
     weight = 3
 
 [[languages.jp.menu.japan2020]]
     name = "行動規範"
     url = "/japan2020/code-of-conduct/"
     weight = 1
-    parent = "参加"
+    parent = "行動指針"
