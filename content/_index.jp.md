@@ -12,5 +12,5 @@ redirect_url: "japan2020"
 # JakartaOne Live
 
 <div class="alert alert-danger margin-top-20 text-center" role="alert">
-    <strong>Warning!</strong> If you are not redirected automatically, follow this <a href="{{ relref "japan2020" }}">link to jakartaone.org/2019</a>.
+    <strong>Warning!</strong> If you are not redirected automatically, follow this <a href="{{ relref "japan2020" }}">link to jakartaone.org/2020</a>.
 </div>
