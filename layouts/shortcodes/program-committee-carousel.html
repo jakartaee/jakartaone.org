@@ -11,7 +11,8 @@
 
   SPDX-License-Identifier: EPL-2.0
 -->
-
+{{ $lang := .Page.Lang }}
+{{$langBase:=index .Site.Data $lang}}
 {{$event := .Get 0}}
 <section>
   <!-- Start: Speakers Area-->
@@ -32,7 +33,7 @@
       <div class="col-xs-24">
         <div class="owl-carousel owl-theme" id="slider">
           <!-- Start: Slider Area -->
-          {{ range (index .Site.Data $event).committee.items }}
+          {{ range (index $langBase $event).committee.items }}
           {{ $anchor := urlize .anchor }}
           {{ if not $anchor }}
             {{ $anchor = urlize .name }}

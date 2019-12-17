@@ -1,0 +1,33 @@
+complete: false
+types:
+    - name: Keynotes
+      class: keynote 
+    - name: Opening sessions
+      class: opening 
+    - name: Panel presentations
+      class: panel 
+    - name: Jakarta EE & MicroProfile Sessions
+      class: cloud
+
+items:
+    - name: キーノート
+      presenter: 調整中
+      type: keynote
+      time: 15:00-
+    - name: ベンダートラック
+      presenter: 調整中
+      type: opening
+      time: 調整中
+    - name: パネルディスカッション
+      presenter: 調整中
+      type: panel
+      time: -18:00
+    - name:  休憩
+      presenter: ―
+      type: demo
+      time: 18:00-19:00
+    - name:  調整中
+      presenter: 調整中
+      type: cloud
+      time: 19:00-22:00
+
