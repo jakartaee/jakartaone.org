@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jakartaone.org/jp/speaker-agreement/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/speaker-agreement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/speaker-agreement/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/jp/japan2020/code-of-conduct/</loc>
     <lastmod>2019-07-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -18,21 +33,6 @@
   </url>
   
   <url>
-    <loc>https://jakartaone.org/jp/</loc>
-    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jakartaone.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/"
-                />
-  </url>
-  
-  <url>
     <loc>https://jakartaone.org/jp/japan2020/program-committee/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -44,6 +44,21 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://jakartaone.org/jp/japan2020/program-committee/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/jp/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/"
                 />
   </url>
   
