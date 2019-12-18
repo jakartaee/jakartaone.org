@@ -78,11 +78,17 @@ themesDir = "node_modules/"
     weight = 1
     parent = "Attend"
     
+[[languages.en.menu.2019]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
 [[languages.en.menu.japan2020]]
     name = "Plan of the day"
     url = "/japan2020/#plan-of-the-day"
     weight = 1
-    
+
 [[languages.en.menu.japan2020]]
     name = "Program committee"
     url = "/japan2020/program-committee/"
@@ -97,12 +103,18 @@ themesDir = "node_modules/"
     url = "/japan2020/code-of-conduct/"
     weight = 1
     parent = "Attend"
-    
+
+[[languages.en.menu.japan2020]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
 [[languages.jp.menu.japan2020]]
     name = "タイムテーブル"
     url = "/japan2020/#plan-of-the-day"
     weight = 1
-    
+
 [[languages.jp.menu.japan2020]]
     name = "プログラム委員会"
     url = "/japan2020/program-committee/"
@@ -116,4 +128,10 @@ themesDir = "node_modules/"
     name = "行動規範"
     url = "/japan2020/code-of-conduct/"
     weight = 1
+    parent = "行動指針"
+
+[[languages.jp.menu.japan2020]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
     parent = "行動指針"
