@@ -6,11 +6,11 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 layout: "single"
-redirect_url: "/2019"
+redirect_url: "/japan2020"
 ---
 
 # JakartaOne Live
 
 <div class="alert alert-danger margin-top-20 text-center" role="alert">
-    <strong>Warning!</strong> If you are not redirected automatically, follow this <a href="/2019">link to jakartaone.org/2019</a>.
+    <strong>Warning!</strong> If you are not redirected automatically, follow this <a href="/japan2020">link to jakartaone.org/japan2020</a>.
 </div>
