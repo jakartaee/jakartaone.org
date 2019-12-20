@@ -2,7 +2,7 @@ complete: false
 types:
     - name: Keynotes
       class: keynote 
-    - name: Opening sessions
+    - name: Vendor Track
       class: opening 
     - name: Panel presentations
       class: panel 
@@ -10,24 +10,24 @@ types:
       class: cloud
 
 items:
-    - name: キーノート
-      presenter: 調整中
+    - name: Keynote
+      presenter: TBD
       type: keynote
       time: 15:00-
-    - name: ベンダートラック
-      presenter: 調整中
+    - name: Vendor Track
+      presenter: TBD
       type: opening
-      time: 調整中
-    - name: パネルディスカッション
-      presenter: 調整中
+      time: TBD
+    - name: Panel Discussion
+      presenter: TBD
       type: panel
       time: -18:00
-    - name:  休憩
+    - name:  Break
       presenter: ―
       type: demo
       time: 18:00-19:00
-    - name:  調整中
-      presenter: 調整中
+    - name:  TBD
+      presenter: TBD
       type: cloud
       time: 19:00-22:00
 
