@@ -23,8 +23,6 @@ layout: "single"
           <div style="position:relative; top:20%;">
             <h2>参加登録(無料)</h2>
             <p>参加登録については１月上旬にご案内します。</p>
-            <h2>CFP募集中(１２月２７日まで)</h2>
-            <p><a href="http://aka.ms/JakartaOne2020-jp">応募はこちらから</a></p>
           </div>
         </div>
       </div>
