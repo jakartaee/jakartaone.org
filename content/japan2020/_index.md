@@ -21,9 +21,8 @@ layout: "single"
         </div>
         <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
           <div style="position:relative; top:20%;">
-            <h2>Call For Paper</h2>
-            <p><a href="http://aka.ms/JakartaOne2020-jp">Submit your presentation  (open until Dec 27, 2019)</a></p>
-            <p>Only Japanese presentations will be accepted</p>
+            <h2>Registration</h2>
+            <p>Registration site will be opend soon</p>
           </div>
         </div>
       </div>
