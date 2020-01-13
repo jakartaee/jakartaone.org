@@ -4,30 +4,36 @@ types:
       class: keynote 
     - name: ベンダートラック
       class: opening 
-    - name: パネルディスカッション
-      class: panel 
     - name: Jakarta EE と MicroProfile のセッション
       class: cloud
 
 items:
     - name: キーノート
-      presenter: 調整中
+      presenter: 寺田佳央
       type: keynote
-      time: 15:00-
+      time: 15:00-15:10
+    - name: テクニカルオーバービュー
+      presenter: 数村憲治
+      type: keynote
+      time: 15:10-16:10
     - name: ベンダートラック
       presenter: 調整中
       type: opening
-      time: 調整中
-    - name: パネルディスカッション
-      presenter: 調整中
-      type: panel
-      time: -18:00
+      time: 16:20-18:00
     - name:  休憩
       presenter: ―
       type: demo
       time: 18:00-19:00
-    - name:  調整中
-      presenter: 調整中
+    - name:  Jakarta EEとMicroprofileの上手な付き合い方と使い方
+      presenter: 岩崎浩文
       type: cloud
-      time: 19:00-22:00
+      time: 19:00-19:50
+    - name:  MicroProfile OpenTracing with Helidon
+      presenter: 田中靖也
+      type: cloud
+      time: 20:00-20:50
+    - name: Java EE から Quarkus による開発への移行について
+      presenter: 竜田茂
+      type: cloud
+      time: 21:00-21:50
 
