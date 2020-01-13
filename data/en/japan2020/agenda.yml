@@ -4,30 +4,36 @@ types:
       class: keynote 
     - name: Vendor Track
       class: opening 
-    - name: Panel presentations
-      class: panel 
     - name: Jakarta EE & MicroProfile Sessions
       class: cloud
 
 items:
     - name: Keynote
-      presenter: TBD
+      presenter: Yoshio Terada
       type: keynote
-      time: 15:00-
+      time: 15:00-15:10
+    - name: Technical Overview
+      presenter: Kenji Kazumura
+      type: keynote
+      time: 15:10-16:10
     - name: Vendor Track
       presenter: TBD
       type: opening
-      time: TBD
-    - name: Panel Discussion
-      presenter: TBD
-      type: panel
-      time: -18:00
+      time: 16:20-18:00
     - name:  Break
       presenter: ―
       type: demo
       time: 18:00-19:00
-    - name:  TBD
-      presenter: TBD
+    - name:  Best Practice for Jakarta EE and MicroProfile
+      presenter: Hirofumi Iwasaki
       type: cloud
-      time: 19:00-22:00
+      time: 19:00-19:50
+    - name:  MircoProfile OpenTracing with Helidon
+      presenter: Yasunari Tanaka
+      type: cloud
+      time: 20:00-20:50
+    - name:  Moving Development from Java EE to Quarkus
+      presenter: Shigeru Tatsuta
+      type: cloud
+      time: 21:00-21:50
 
