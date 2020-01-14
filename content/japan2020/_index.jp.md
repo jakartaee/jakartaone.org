@@ -21,8 +21,8 @@ layout: "single"
         </div>
         <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
           <div style="position:relative; top:20%;">
-            <h2><a href=https://www.crowdcast.io/e/aduh2zba>参加登録(無料)</a></h2>
-            <p>参加登録は<a href=https://www.crowdcast.io/e/aduh2zba>こちらから</a>お願いします。</p>
+            <h2><a href="https://www.crowdcast.io/e/aduh2zba">参加登録(無料)</a></h2>
+            <p>参加登録は<a href="https://www.crowdcast.io/e/aduh2zba">こちらから</a>お願いします。</p>
           </div>
         </div>
       </div>
