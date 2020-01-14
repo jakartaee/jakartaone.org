@@ -21,8 +21,8 @@ layout: "single"
         </div>
         <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
           <div style="position:relative; top:20%;">
-            <h2><a href=https://www.crowdcast.io/e/aduh2zba>Registration</a></h2>
-            <p>Registration site is <a href=https://www.crowdcast.io/e/aduh2zba>here</a>.</p>
+            <h2><a href="https://www.crowdcast.io/e/aduh2zba">Registration</a></h2>
+            <p>Registration site is <a href="https://www.crowdcast.io/e/aduh2zba">here</a>.</p>
           </div>
         </div>
       </div>
