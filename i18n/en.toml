@@ -43,6 +43,9 @@ other = "Follow {{ .name }} on Twitter!"
 [footer-get-social-title]
 other = "Get Social"
 
+[footer-our-events-title]
+other = "Upcoming Events"
+
 [footer-get-social-content]
 other = "Follow the official conference Twitter handle <a href='https://www.twitter.com/@JakartaOneConf'>@JakartaOneConf</a> for live event updates, speaker announcements, news and more!"
 

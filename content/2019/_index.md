@@ -13,24 +13,7 @@ tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/i
 layout: "single"
 ---
 
-<section id="registration">
-  <div class="backdrop padding-bottom-40 padding-top-40">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-24 col-md-6 match-height-item-by-row">
-          <img class="img-responsive margin-auto" src="/images/jakarta/jakarta-ee-schooner.png" title="Jakarta EE logo" />
-        </div>
-        <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
-          <div style="position:relative; top:20%;">
-            <h2>The event has now concluded!</h2>
-            <p>Thank You for making the first JakartaOne Livestream event a great success!</p>
-            <p>This milestone would not be possible without the collective efforts of a dedicated community.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{< registration "2019" >}}
 
 {{< agenda "2019" "(Replays)" >}}
 {{< program-committee-carousel "2019" >}}
