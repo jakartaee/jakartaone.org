@@ -46,6 +46,32 @@
     </div>
   </div>
 </section>
+
+{{$currLang:=.Page.Lang }}
+{{$langBase:=index .Site.Data $currLang}}
+{{$events := (index $langBase).conferences.items}}
+<section id="upcoming-events" class="padding-top-30 padding-bottom-30 text-center">
+  <div class="container">
+    <h2 class="white">{{ i18n "footer-our-events-title" }}</h2>
+    <div class="row">
+      <div class="col-sm-24">
+        <ul class="list-inline margin-top-20">
+          {{ range $events}}
+            {{$t := time .end_date }}
+            {{ if $t.After now }}
+            <li>
+              <a href="{{.url}}"><img width="150" class="img-responsive" src="{{ .logo_color }}"></a>
+              <span>{{ .name }}</span>
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+        <p><a class="btn btn-secondary margin-top-30" href='{{ "/past-events" | relLangURL }}'>Past Events</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Modal for usage with agendas -->
 <div id="eclipsefdn-modal" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog">

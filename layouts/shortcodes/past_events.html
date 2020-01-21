@@ -1,0 +1,16 @@
+
+{{$currLang:=.Page.Lang }}
+{{$langBase:=index .Site.Data $currLang}}
+{{$events := (index $langBase).conferences.items}}
+
+<ul class="list-inline">
+  {{ range $events}}
+    {{$t := time .end_date }}
+    {{ if $t.Before now }}
+    <li style="width:150px;" class="text-center margin-right-20 margin-bottom-20">
+      <a href="{{.url}}"><img class="img-responsive" src="{{ .logo_color }}"></a>
+      {{ .name }}
+    </li>
+    {{ end }}
+  {{ end }}
+</ul>
