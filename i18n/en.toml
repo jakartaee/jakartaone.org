@@ -22,6 +22,12 @@ other = "Scheduled Time"
 [agenda-session-recording-button-alt]
 other = "Session video for session {{ .name }}"
 
+[agenda-abstract-modal-alt]
+other = "View {{.name}} abstract"
+
+[agenda-modal-close-alt]
+other = "Close"
+
 [committee-carousel-title]
 other = "Meet the Program Committee"
 

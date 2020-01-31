@@ -25,6 +25,7 @@ mix.styles([
 ],'static/css/styles.css');
 
 mix.copy('./js/home.slider.js', 'static/js/home.slider.js');
+mix.copy('./js/home.modal.js', 'static/js/home.modal.js');
 
 mix.scripts([
     './node_modules/jquery/dist/jquery.min.js',

@@ -54,7 +54,23 @@
                   {{ .name }} 
                   {{ end}}
                    </span>
-                </span> {{ .name }}
+                </span> 
+	            {{ if isset . "link" }}
+	            <a href="{{ .link }}" title="{{ i18n "agenda-session-abstract-alt" . }}">
+	            {{ end }}
+	            {{ .name }}
+	            {{ if isset . "link" }}
+	            </a>
+	            {{ end }}
+	            {{ if isset . "abstract" }}
+	            <a class="margin-left-10" href="#" title="{{ i18n "agenda-abstract-modal-alt" . }}" data-toggle="modal" data-target="#eclipsefdn-modal" 
+	            	data-title="{{ .name }}" data-presenter="{{ .presenter }}" data-time="{{ .time }}">
+		            <i class="fa fa-external-link">
+		            	<span class="sr-only">{{ i18n "agenda-abstract-modal-alt" . }}</span>
+		            	<div class="modal-content hidden">{{ .abstract | safeHTML }}</div>
+		            </i>
+	            </a>
+	            {{ end }}
               </td>
               <td>{{ .presenter }}</td>
               
