@@ -20,6 +20,10 @@ items:
       presenter: TBD
       type: opening
       time: 16:20-18:00
+      abstract: |
+        <p> 
+          This session's presenter has yet to be announced. Keep an eye on this space for more details in the near future.
+        </p>
     - name:  Break
       presenter: ―
       type: demo
