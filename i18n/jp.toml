@@ -20,10 +20,10 @@ other = "ビデオ"
 other = "時刻"
 
 [agenda-abstract-modal-alt]
-other = "View {{.name}} abstract"
+other = "{{.name}} の概要"
 
 [agenda-modal-close-alt]
-other = "Close"
+other = "終了"
 
 [agenda-session-recording-button-alt]
 other = "セッション{{ .name }}のセッションビデオ"
