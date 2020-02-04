@@ -16,13 +16,17 @@ items:
       presenter: Kenji Kazumura
       type: keynote
       time: 15:10-16:10
+      abstract: |
+        <p> 
+          Introduce Jakarta EE 8 and 9 technologies including changing package name, pruning features, backward compatibilities, and so on.
+        </p>
     - name: Vendor Track
       presenter: TBD
       type: opening
       time: 16:20-18:00
       abstract: |
         <p> 
-          This session's presenter has yet to be announced. Keep an eye on this space for more details in the near future.
+          Each vendor of Jakarta EE Working Group presents its Jakarta EE product and roadmap.
         </p>
     - name:  Break
       presenter: ―
@@ -32,12 +36,24 @@ items:
       presenter: Hirofumi Iwasaki
       type: cloud
       time: 19:00-19:50
+      abstract: |
+        <p> 
+          While looking into the recent specifications of Jakarta EE and MicroProfile, the best practice for the real systems will be discussed in this session.
+        </p>
     - name:  MircoProfile OpenTracing with Helidon
       presenter: Yasunari Tanaka
       type: cloud
       time: 20:00-20:50
+      abstract: |
+        <p> 
+          In this session, the distributed tracing technologies will be introduced with the demo using Helidon which is provided by Oracle and Jaeger which is an implementation of OpenTracing.
+        </p>
     - name:  Moving Development from Java EE to Quarkus
       presenter: Shigeru Tatsuta
       type: cloud
       time: 21:00-21:50
+      abstract: |
+        <p> 
+          In this session, the knowledge of migrating the applications to Kubernetes with Quarkus will be shared.
+        </p>
 
