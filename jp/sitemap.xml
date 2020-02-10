@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jakartaone.org/jp/past-events/</loc>
+    <lastmod>2020-01-17T15:09:45-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/past-events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/past-events/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/jp/speaker-agreement/</loc>
     <lastmod>2019-12-17T00:00:00+00:00</lastmod>
     <xhtml:link
