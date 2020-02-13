@@ -11,19 +11,51 @@ items:
     - name: キーノート
       presenter: 寺田佳央
       type: keynote
-      time: 15:00-15:10
+      time: 15:00-15:10 (JST)
     - name: テクニカルオーバービュー
       presenter: 数村憲治
       type: keynote
-      time: 15:10-16:10
+      time: 15:10-16:10 (JST)
       abstract: |
         <p>
            Jakarta EE 8までの振り返りと、Jakarta EE 9以降での、パッケージ名変更、削除機能、Java SE 11対応、互換ツールなどについての計画を紹介します。また、MicroProfileとの統合・非統合についても、紹介します。
         </p>
-    - name: ベンダートラック
+    - name: ベンダートラック(IBM)
+      presenter: 田中孝清
+      type: opening
+      time: 16:20-16:40 (JST)
+      abstract: |
+        <p>
+           Jakarta EEワーキンググループの各ベンダーから、製品やロードマップの紹介を行います。
+        </p>
+    - name: ベンダートラック(Red Hat)
       presenter: 調整中
       type: opening
-      time: 16:20-18:00
+      time: 16:40-17:00 (JST)
+      abstract: |
+        <p>
+           Jakarta EEワーキンググループの各ベンダーから、製品やロードマップの紹介を行います。
+        </p>
+    - name: ベンダートラック(Payara)
+      presenter: 蓮沼賢志
+      type: opening
+      time: 17:00-17:20 (JST)
+      abstract: |
+        <p>
+           Jakarta EEワーキンググループの各ベンダーから、製品やロードマップの紹介を行います。
+        </p>
+    - name: ベンダートラック(Oracle)
+      presenter: 伊藤敬
+      type: opening
+      time: 17:20-17:40 (JST)
+      abstract: |
+        <p>
+           Jakarta EEワーキンググループの各ベンダーから、製品やロードマップの紹介を行います。
+        </p>
+    - name: ベンダートラック(富士通)
+      presenter: 草野優一
+      type: opening
+      time: 17:40-18:00 (JST)
       abstract: |
         <p>
            Jakarta EEワーキンググループの各ベンダーから、製品やロードマップの紹介を行います。
@@ -31,11 +63,11 @@ items:
     - name:  休憩
       presenter: ―
       type: demo
-      time: 18:00-19:00
+      time: 18:00-19:00 (JST)
     - name:  Jakarta EEとMicroprofileの上手な付き合い方と使い方
-      presenter: 岩崎浩文
+      presenter: 岩崎浩文(楽天)
       type: cloud
-      time: 19:00-19:50
+      time: 19:00-19:50 (JST)
       abstract: |
         <p>
           J2EE/Java EE時代から急速に変化を遂げようとしているJakarta EE、及びそこからのスピンアウトとしてのMicroprofile。従来の対応アプリケーションサーバーがありつつ、新しい「フレームワーク」としてのプロダクト登場。仕様ばかりが先に進み、地に足がついていない感もあります。
@@ -43,18 +75,18 @@ items:
           このセッションでは、最新のJakarta EE及びMicroprofileの仕様を簡単に見渡した上で、現実のシステムにどのように使っていくのが得策なのか、どのように使うと罠にはまるのか、軽量なWeb系システムから重厚な基幹系システムまでを見据えながら考察を行います。
         </p>
     - name:  MicroProfile OpenTracing with Helidon
-      presenter: 田中靖也
+      presenter: 田中靖也(ウルシステムズ)
       type: cloud
-      time: 20:00-20:50
+      time: 20:00-20:50 (JST)
       abstract: |
         <p>
           マイクロサービスアーキテクチャを採用した場合、従来のモノリシックなシステムで使用していたメソッドトレースなどでは複数サービスを跨がる処理の障害対応や遅延判別が難しい為、全体を通してトレースする分散トレーシングと呼ばれる仕組みが必要になります。
           このセッションでは、MicroProfile OpenTracingの概要をご説明し、Oracle社が提供いているHelidonとOpenTracingの実装であるJaegerを使用して単一サービスのトレーシングから複数サービスに跨がる処理のトレーシングまでをデモを交えながらご紹介します。
         </p>
     - name: Java EE から Quarkus による開発への移行について
-      presenter: 竜田茂
+      presenter: 竜田茂(ソフトバンク)
       type: cloud
-      time: 21:00-21:50
+      time: 21:00-21:50 (JST)
       abstract: |
         <p>
           ソフトバンクの IT 本部は、主にキャリア事業を支える IT システムの開発、保守、運用を担っています。キャリア事業はユーザーの生活を支える重要なインフラであるため、これまでは自社のデータセンターのオンプレミス環境で Java アプリケーションサーバ上で稼働するシステムを数多く開発してきました。
