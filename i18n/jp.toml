@@ -44,7 +44,7 @@ other = "Twitterで{{ .name }}をフォローしてください！"
 other = "ソーシャルメディア"
 
 [footer-get-social-content]
-other = "イベント公式Twitterハンドル<a href='https://www.twitter.com/@JakartaOneJPN'>@JakartaOneJPN</a>をフォローして、イベントの最新情報、登壇者の発表、ニュースなどを入手してください！"
+other = "イベント公式Twitterハンドル<a href='https://www.twitter.com/@{{.Count}}'>@{{.Count}}</a>をフォローして、イベントの最新情報、登壇者の発表、ニュースなどを入手してください！"
 
 [footer-our-events-title]
 other = "Upcoming Events"
