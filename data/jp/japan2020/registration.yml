@@ -2,5 +2,5 @@ image: "<img class='img-responsive margin-auto' src='/images/jakarta/jakarta-ee-
 title: "<a href='https://www.crowdcast.io/e/aduh2zba'>参加登録(無料)</a>"
 text: "参加登録は<a href='https://www.crowdcast.io/e/aduh2zba'>こちらから</a>お願いします。"
 end_date: 2020-02-26T23:59:00-00:00
-end_title: "The event has now concluded!"
-end_text: "<p>Thank You for making the first JakartaOne Livestream event a great success!</p><p>This milestone would not be possible without the collective efforts of a dedicated community.</p>"
+end_title: "本イベントは終了しました！"
+end_text: "<p>日本で最初のJakartaOne Livestreamは、皆様のおかげにより、大成功で終えることができました！</p><p>コミュニティの結集により、実現できましたこと、まことに感謝いたします。</p>"
