@@ -22,7 +22,6 @@
     "build_netlify": "NODE_ENV=production npm run disallow_robots_txt && npm run production"
   },
   "dependencies": {
-    "owl.carousel": "2.3.4",
-    "eclipsefdn-hugo-solstice-theme": "0.0.52"
+    "eclipsefdn-hugo-solstice-theme": "0.0.59"
   }
 }
