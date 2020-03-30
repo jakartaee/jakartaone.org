@@ -9,8 +9,6 @@ layout: "single"
 redirect_url: "/japan2020"
 ---
 
-# JakartaOne Live
+# JakartaOne Live  
 
-<div class="alert alert-danger margin-top-20 text-center" role="alert">
-    <strong>Warning!</strong> If you are not redirected automatically, follow this <a href="/japan2020">link to jakartaone.org/japan2020</a>.
-</div>
+{{< alert >}}**Warning!** If you are not redirected automatically, follow this [link to jakartaone.org/japan2020](/japan2020).{{< /alert >}}
