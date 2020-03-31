@@ -15,9 +15,9 @@
 <meta name="robots" content="noindex">
 <meta http-equiv="refresh" content="0; url=japan2020" />
 
-<meta name="description" content=" JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/jp/japan2020.  ">
-<meta property="og:description" content=" JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/jp/japan2020.  ">
-<meta name="twitter:description" content=" JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/jp/japan2020.  ">
+<meta name="description" content="JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/japan2020.  ">
+<meta property="og:description" content="JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/japan2020.  ">
+<meta name="twitter:description" content="JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/japan2020.  ">
 <meta name="author" content="Christopher Guindon"/>
 <link href='https://jakartaone.org/images/jakarta/favicon.ico' rel='icon' type='image/x-icon'/>
 <meta property="og:image" content="https://jakartaone.org/images/jakarta/jakarta_ee_400x400.png" />
@@ -31,7 +31,7 @@
 <meta name="keywords" content="JakartaOne, JakartaOne Live, Jakarta EE software, Java EE, cloud, microservices, enterprise, open source, innovation">
 
 
-<meta name="generator" content="Hugo 0.57.0" />
+<meta name="generator" content="Hugo 0.62.2" />
 <link rel="canonical" href="https://jakartaone.org/jp/" />
 
 <link rel="alternate" href="/jp/index.xml" type="application/rss+xml" title="">
@@ -158,12 +158,10 @@
 
     
   
-  
-
-<h1 id="jakartaone-live">JakartaOne Live</h1>
+  <h1 id="jakartaone-live">JakartaOne Live</h1>
 
 <div class="alert alert-danger margin-top-20 text-center" role="alert">
-    <strong>Warning!</strong> If you are not redirected automatically, follow this <a href="{{ relref "japan2020" }}">link to jakartaone.org/jp/japan2020</a>.
+<strong>Warning!</strong> If you are not redirected automatically, follow this <a href="/japan2020">link to jakartaone.org/japan2020</a>.
 </div>
 
 
@@ -183,59 +181,60 @@
   </div>
   <script>
     var rawStoryJSON = "null";
-    var sort =  null ;
-    var json = JSON.parse(rawStoryJSON);
+    if (json = JSON.parse(rawStoryJSON)) {
+   
+      
+      json = json.filter(a => new Date(a['endDate']) > new Date())
+        .filter(a => a['type'] === "both" || a['type'] === "footer" );
+      
+      
+      if (json.length > 1) {
+        shuffleArray(json);
+      }
+      
+      
+      if (json.length > 0) {
+        var item = json[0];
+        var storyEl = document.querySelector("#featured-footer");
+        
+        if (item['bgImgSrc'] !== undefined && item['bgImgSrc'] !== "") {
+          storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
+          storyEl.style.backgroundSize = 'cover';
+        }
     
-    json = json.filter(a => new Date(a['endDate']) > new Date())
-      .filter(a => a['type'] === "both" || a['type'] === "footer" );
+        
+        if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
+          storyEl.className = item['footer_classes'];
+        }
+        
+        
+        var headingEl = document.createElement('h2');
+        headingEl.innerHTML =  item['title'];
+        
+        var linkEl = document.createElement('span');
+        linkEl.innerHTML =  item['link'];
     
-    
-    if (json.length > 1) {
-      shuffleArray(json);
-    }
-    
-    
-    if (json.length > 0) {
-      var item = json[0];
-      var storyEl = document.querySelector("#featured-footer");
-      
-      if (item['bgImgSrc'] !== undefined && item['bgImgSrc'] !== "") {
-        storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
-        storyEl.style.backgroundSize = 'cover';
+        
+        var preambleEl, contentEl = null;
+        if (item['preamble'] != undefined && item['premble'] != "") {
+          preambleEl = document.createElement('p');
+          preambleEl.innerHTML =  item['preamble'];
+        }
+        if (item['content'] != undefined && item['content'] != "") {
+          contentEl = document.createElement('p');
+          contentEl.innerHTML =  item['content'];
+        }
+        
+        var divEl = storyEl.querySelector(".row > div");
+        if (preambleEl != undefined) {
+          divEl.appendChild(preambleEl);
+        }
+        divEl.appendChild(headingEl);
+        if (contentEl != undefined) {
+          divEl.appendChild(contentEl);
+        }
+        divEl.appendChild(linkEl);
       }
-  
-      
-      if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
-        storyEl.className = item['footer_classes'];
-      }
-      
-      
-      var headingEl = document.createElement('h2');
-      headingEl.innerHTML =  item['title'];
-      
-      var linkEl = document.createElement('span');
-      linkEl.innerHTML =  item['link'];
-  
-      
-      var preambleEl, contentEl = null;
-      if (item['preamble'] != undefined && item['premble'] != "") {
-        preambleEl = document.createElement('p');
-        preambleEl.innerHTML =  item['preamble'];
-      }
-      if (item['content'] != undefined && item['content'] != "") {
-        contentEl = document.createElement('p');
-        contentEl.innerHTML =  item['content'];
-      }
-      
-      var divEl = storyEl.querySelector(".row > div");
-      if (preambleEl != undefined) {
-        divEl.appendChild(preambleEl);
-      }
-      divEl.appendChild(headingEl);
-      if (contentEl != undefined) {
-        divEl.appendChild(contentEl);
-      }
-      divEl.appendChild(linkEl);
     }
     
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JakartaOne Live on JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native</title>
@@ -27,8 +27,8 @@
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
       <guid>https://jakartaone.org/speaker-agreement/</guid>
-      <description>I&amp;rsquo;ll Give the Talk I agree to present my talk at the conference and to adhere to the content and intent as outlined in the description provided to the program committee.
-I&amp;rsquo;m Responsible I acknowledge that I alone am responsible for the published description of my talk. I will use the website to correct any errors in facts, formatting, grammar, spelling, etc.
+      <description>I&#39;ll Give the Talk I agree to present my talk at the conference and to adhere to the content and intent as outlined in the description provided to the program committee.
+I&#39;m Responsible I acknowledge that I alone am responsible for the published description of my talk. I will use the website to correct any errors in facts, formatting, grammar, spelling, etc.
 No Warranties I provide my material &amp;ldquo;as is,&amp;rdquo; without warranties or conditions of any kind, either expressed or implied including, without limitation, any warranty of fitness for any particular purpose.</description>
     </item>
     
@@ -40,7 +40,7 @@ No Warranties I provide my material &amp;ldquo;as is,&amp;rdquo; without warrant
       <guid>https://jakartaone.org/2019/code-of-conduct/</guid>
       <description>All attendees, speakers, sponsors, and volunteers at our conference are required to agree with the following code of conduct.
 Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
-The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion.</description>
+The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.</description>
     </item>
     
     <item>
@@ -51,7 +51,7 @@ The Quick Version Our conference is dedicated to providing a harassment-free con
       <guid>https://jakartaone.org/japan2020/code-of-conduct/</guid>
       <description>All attendees, speakers, sponsors, and volunteers at our conference are required to agree with the following code of conduct.
 Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
-The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion.</description>
+The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.</description>
     </item>
     
     <item>

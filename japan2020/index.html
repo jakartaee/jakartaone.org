@@ -32,7 +32,7 @@ This milestone would not be possible without the collective efforts of a dedicat
 <meta name="keywords" content="JakartaOne, JakartaOne Live, Jakarta EE software, Java EE, cloud, microservices, enterprise, open source, innovation">
 
 
-<meta name="generator" content="Hugo 0.57.0" />
+<meta name="generator" content="Hugo 0.62.2" />
 <link rel="canonical" href="https://jakartaone.org/japan2020/" />
 
 <link rel="alternate" href="/japan2020/index.xml" type="application/rss+xml" title="">
@@ -233,7 +233,6 @@ This milestone would not be possible without the collective efforts of a dedicat
     </div>
   </div>
 </section>
-
 <p>
 
 
@@ -727,59 +726,60 @@ This milestone would not be possible without the collective efforts of a dedicat
   </div>
   <script>
     var rawStoryJSON = "null";
-    var sort =  null ;
-    var json = JSON.parse(rawStoryJSON);
+    if (json = JSON.parse(rawStoryJSON)) {
+   
+      
+      json = json.filter(a => new Date(a['endDate']) > new Date())
+        .filter(a => a['type'] === "both" || a['type'] === "footer" );
+      
+      
+      if (json.length > 1) {
+        shuffleArray(json);
+      }
+      
+      
+      if (json.length > 0) {
+        var item = json[0];
+        var storyEl = document.querySelector("#featured-footer");
+        
+        if (item['bgImgSrc'] !== undefined && item['bgImgSrc'] !== "") {
+          storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
+          storyEl.style.backgroundSize = 'cover';
+        }
     
-    json = json.filter(a => new Date(a['endDate']) > new Date())
-      .filter(a => a['type'] === "both" || a['type'] === "footer" );
+        
+        if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
+          storyEl.className = item['footer_classes'];
+        }
+        
+        
+        var headingEl = document.createElement('h2');
+        headingEl.innerHTML =  item['title'];
+        
+        var linkEl = document.createElement('span');
+        linkEl.innerHTML =  item['link'];
     
-    
-    if (json.length > 1) {
-      shuffleArray(json);
-    }
-    
-    
-    if (json.length > 0) {
-      var item = json[0];
-      var storyEl = document.querySelector("#featured-footer");
-      
-      if (item['bgImgSrc'] !== undefined && item['bgImgSrc'] !== "") {
-        storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
-        storyEl.style.backgroundSize = 'cover';
+        
+        var preambleEl, contentEl = null;
+        if (item['preamble'] != undefined && item['premble'] != "") {
+          preambleEl = document.createElement('p');
+          preambleEl.innerHTML =  item['preamble'];
+        }
+        if (item['content'] != undefined && item['content'] != "") {
+          contentEl = document.createElement('p');
+          contentEl.innerHTML =  item['content'];
+        }
+        
+        var divEl = storyEl.querySelector(".row > div");
+        if (preambleEl != undefined) {
+          divEl.appendChild(preambleEl);
+        }
+        divEl.appendChild(headingEl);
+        if (contentEl != undefined) {
+          divEl.appendChild(contentEl);
+        }
+        divEl.appendChild(linkEl);
       }
-  
-      
-      if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
-        storyEl.className = item['footer_classes'];
-      }
-      
-      
-      var headingEl = document.createElement('h2');
-      headingEl.innerHTML =  item['title'];
-      
-      var linkEl = document.createElement('span');
-      linkEl.innerHTML =  item['link'];
-  
-      
-      var preambleEl, contentEl = null;
-      if (item['preamble'] != undefined && item['premble'] != "") {
-        preambleEl = document.createElement('p');
-        preambleEl.innerHTML =  item['preamble'];
-      }
-      if (item['content'] != undefined && item['content'] != "") {
-        contentEl = document.createElement('p');
-        contentEl.innerHTML =  item['content'];
-      }
-      
-      var divEl = storyEl.querySelector(".row > div");
-      if (preambleEl != undefined) {
-        divEl.appendChild(preambleEl);
-      }
-      divEl.appendChild(headingEl);
-      if (contentEl != undefined) {
-        divEl.appendChild(contentEl);
-      }
-      divEl.appendChild(linkEl);
     }
     
 
