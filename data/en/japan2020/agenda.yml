@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Keynotes
       class: keynote 
@@ -12,10 +12,12 @@ items:
       presenter: Yoshio Terada
       type: keynote
       time: 15:00-15:10 (JST)
+      vod: https://www.youtube.com/watch?v=mTY4_KFORTg&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=2&t=0s
     - name: Technical Overview
       presenter: Kenji Kazumura
       type: keynote
       time: 15:10-16:10 (JST)
+      vod: https://www.youtube.com/watch?v=tGvJV3BpexU&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=3&t=0s
       abstract: |
         <p> 
           Introduce Jakarta EE 8 and 9 technologies including changing package name, pruning features, backward compatibilities, and so on.
@@ -24,6 +26,7 @@ items:
       presenter: Takakiyo Tanaka
       type: opening
       time: 16:20-16:40 (JST)
+      vod: https://www.youtube.com/watch?v=c61P4qHclmE&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=5&t=0s
       abstract: |
         <p> 
           Each vendor of Jakarta EE Working Group presents its Jakarta EE product and roadmap.
@@ -32,6 +35,7 @@ items:
       presenter: Nobuhiro Sue
       type: opening
       time: 16:40-17:00 (JST)
+      vod: https://www.youtube.com/watch?v=tHwXZ32Rwng&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=6&t=0s
       abstract: |
         <p> 
           Each vendor of Jakarta EE Working Group presents its Jakarta EE product and roadmap.
@@ -40,6 +44,7 @@ items:
       presenter: Kenji Hasunuma
       type: opening
       time: 17:00-17:20 (JST)
+      vod: https://www.youtube.com/watch?v=ZOiryc_A8mM&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=7&t=0s
       abstract: |
         <p> 
           Each vendor of Jakarta EE Working Group presents its Jakarta EE product and roadmap.
@@ -48,6 +53,7 @@ items:
       presenter: Takashi Ito
       type: opening
       time: 17:20-17:40 (JST)
+      vod: https://www.youtube.com/watch?v=SOYfv0vYnnA&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=8&t=0s
       abstract: |
         <p> 
           Each vendor of Jakarta EE Working Group presents its Jakarta EE product and roadmap.
@@ -56,6 +62,7 @@ items:
       presenter: Yuichi Kusano
       type: opening
       time: 17:40-18:00 (JST)
+      vod: https://www.youtube.com/watch?v=WX_0q92wIMM&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=9&t=0s
       abstract: |
         <p> 
           Each vendor of Jakarta EE Working Group presents its Jakarta EE product and roadmap.
@@ -68,6 +75,7 @@ items:
       presenter: Hirofumi Iwasaki
       type: cloud
       time: 19:00-19:50 (JST)
+      vod: https://www.youtube.com/watch?v=E-F7Dcf_ye4&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=4&t=0s
       abstract: |
         <p> 
           While looking into the recent specifications of Jakarta EE and MicroProfile, the best practice for the real systems will be discussed in this session.
@@ -76,6 +84,7 @@ items:
       presenter: Yasunari Tanaka
       type: cloud
       time: 20:00-20:50 (JST)
+      vod: https://www.youtube.com/watch?v=Q-TKaCiWrgQ&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=10&t=0s
       abstract: |
         <p> 
           In this session, the distributed tracing technologies will be introduced with the demo using Helidon which is provided by Oracle and Jaeger which is an implementation of OpenTracing.
@@ -84,6 +93,7 @@ items:
       presenter: Shigeru Tatsuta
       type: cloud
       time: 21:00-21:50 (JST)
+      vod: https://www.youtube.com/watch?v=KQbvVke3uoE&list=PLy7t4z5SYNaQBuTOVEiO3wmBkSZg-Qe1q&index=11&t=0s
       abstract: |
         <p> 
           In this session, the knowledge of migrating the applications to Kubernetes with Quarkus will be shared.
