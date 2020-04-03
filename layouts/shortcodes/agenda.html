@@ -76,7 +76,7 @@
               
               {{ if (index $langBase $event_id).agenda.complete }}
               <td class="text-center">
-              <a class="btn btn-primary btn-wide" href="{{ .vod }}" title="{{ i18n "agenda-session-recording-button-alt" . }}">
+              <a class="btn btn-primary" href="{{ .vod }}" title="{{ i18n "agenda-session-recording-button-alt" . }}">
                 <i class="fa fa-play fa-2x"></i> <span class="sr-only">{{ i18n "agenda-session-recording-button-alt" . }}</span>
               </a></td>
               {{ else }}
