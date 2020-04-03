@@ -12,6 +12,7 @@
 {{ $event_id :=  .Page.Section | default "2019" }}
 {{ $menu  :=  (index .Site.Menus $event_id) }}
 {{ range $menu }}
+{{ $anchor:=replaceRE "[^#]+(.*)$" "$1" .URL }}
 {{ if .HasChildren }}
 <li class="dropdown">
   <a href="#" data-toggle="dropdown" class="dropdown-toggle">
@@ -22,12 +23,12 @@
   </a>
   <ul class="dropdown-menu">
     {{ range .Children }}
-    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{ .URL | absLangURL }}">{{ .Name }}</a> </li>
+    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{ .URL | absLangURL }}{{ $anchor }}">{{ .Name }}</a> </li>
     {{ end }}
   </ul>
   {{else}}
 <li>
-  <a class="" href="{{.URL | absLangURL }}">
+  <a class="" href="{{.URL | absLangURL }}{{ $anchor }}">
   {{ .Pre }}
   {{ .Name }}
   </a>
