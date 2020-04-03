@@ -1,0 +1,42 @@
+<!-- 
+  Copyright (c) 2020 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Martin Lowe <martin.lowe@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+{{ $lang := .Page.Lang }}
+{{$langBase:=index .Site.Data $lang}}
+{{$event := .Get 0}}
+<section>
+  <!-- Start: Speakers Area-->
+  <div id="speakers" class="container speaker-container padding-bottom-40 padding-top-40 text-center">
+    <div class="row">
+      <div class="col-xs-24 match-height-item-by-row">
+        <h2 class="padding-bottom-20">{{ i18n "speakers-tiles-title" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+        <!-- Start: Slider Area -->
+        {{ range (index $langBase $event).speaker.items }}
+        <div class="col-xs-12 col-md-8 padding-20">
+          {{ if .img }}
+          <img class="img img-responsive margin-auto match-height-item" src="/images/speakers/{{ .img }}" alt="{{ .name }}">
+          {{ else }}
+          <div class="icon-backdrop">
+            <div class="ratio"></div>
+            <div class="icon-container"><i class="fa fa-user"></i></div>
+          </div>
+          {{ end }}
+          <h3>{{ .name }}</h3>
+          <p>{{ .title }}</p>
+        </div>
+        {{ end }}
+    </div>
+  </div>
+</section>

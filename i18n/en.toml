@@ -1,5 +1,5 @@
 [agenda-schedule]
-other = "Plan of the Day"
+other = "Event Details"
 
 [agenda-legend]
 other = "Legend"
@@ -28,11 +28,14 @@ other = "View {{.name}} abstract"
 [agenda-modal-close-alt]
 other = "Close"
 
+[speakers-tiles-title]
+other = "Speakers"
+
 [committee-carousel-title]
 other = "Meet the Program Committee"
 
 [committee-carousel-content]
-other = "We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&trade; EE and Cloud Native Java community!"
+other = "We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!"
 
 [committee-carousel-button-text]
 other = "Learn more"
@@ -50,7 +53,7 @@ other = "Upcoming Events"
 other = "Follow the official conference Twitter handle <a href='https://www.twitter.com/@{{.Count}}'>@{{.Count}}</a> for live event updates, speaker announcements, news and more!"
 
 [footer-jakarta-callout-content]
-other = "Powered by participation, Jakarta&trade; EE is focused on enabling community-driven collaboration and open innovation for the cloud"
+other = "Powered by participation, Jakarta&reg; EE is focused on enabling community-driven collaboration and open innovation for the cloud"
 
 [footer-jakarta-callout-button-text]
 other = "Learn more"

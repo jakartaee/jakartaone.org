@@ -32,7 +32,7 @@ other = "セッション{{ .name }}のセッションビデオ"
 other = "プログラム委員会のご紹介"
 
 [committee-carousel-content]
-other = "私達は、Eclipse Foundation と独立した Jakarta&trade; EE コミュニティのボランティアスタッフです。プログラム委員会は、クラウドネイティブJavaを推進する、JakartaOne Livestream Event のイベント内容を企画・構成しています。"
+other = "私達は、Eclipse Foundation と独立した Jakarta&reg; EE コミュニティのボランティアスタッフです。プログラム委員会は、クラウドネイティブJavaを推進する、JakartaOne Livestream Event のイベント内容を企画・構成しています。"
 
 [committee-carousel-button-text]
 other = "詳細"
@@ -50,7 +50,7 @@ other = "イベント公式Twitterハンドル<a href='https://www.twitter.com/@
 other = "Upcoming Events"
 
 [footer-jakarta-callout-content]
-other = "Jakarta&trade; EEはコミュニティ主導によるクラウドのための共創とオープンイノベーションの実現を目指します"
+other = "Jakarta&reg; EEはコミュニティ主導によるクラウドのための共創とオープンイノベーションの実現を目指します"
 
 [footer-jakarta-callout-button-text]
 other = "詳細"

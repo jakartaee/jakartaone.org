@@ -14,6 +14,5 @@ layout: "single"
 ---
 
 {{< registration "2019" >}}
-
 {{< agenda "2019" "(Replays)" >}}
 {{< program-committee-carousel "2019" >}}

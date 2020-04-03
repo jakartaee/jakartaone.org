@@ -9,11 +9,13 @@
   <div class="backdrop padding-bottom-40 padding-top-40">
     <div class="container">
       <div class="row">
+        {{ if $registration.image }}
         <div class="col-xs-24 col-md-6 match-height-item-by-row">
           {{$registration.image | safeHTML}}
         </div>
-        <div class="col-xs-24 col-md-18 text-middle text-center match-height-item-by-row">
-          <div style="position:relative; top:20%;">
+        {{ end }}
+        <div class="col-xs-24 {{- if $registration.image }}col-md-18{{ end -}} text-middle text-center match-height-item-by-row">
+          <div>
             {{ if $t.After now }}
               <h2>{{$registration.title | safeHTML}}</h2>
               <p>{{$registration.text | safeHTML}}</p>
