@@ -52,6 +52,7 @@
   </div>
 </section>
 
+{{ if not .Page.Params.hide_footer_events }}
 {{$currLang:=.Page.Lang }}
 {{$langBase:=index .Site.Data $currLang}}
 {{$events := (index $langBase).conferences.items}}
@@ -76,6 +77,7 @@
     </div>
   </div>
 </section>
+{{ end }}
 
 <!-- Modal for usage with agendas -->
 <div id="eclipsefdn-modal" class="modal fade" tabindex="-1" role="dialog">

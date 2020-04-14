@@ -307,3 +307,31 @@ span.panel-icon::after {
 	border-radius: 50%;
 	max-height: 200px;
 }
+
+section.active-events { 
+  & {
+    margin-bottom: 30px; 
+  }
+  .row {
+    & > div { 
+      padding: 10px; 
+    }
+    .event-item { 
+      & {
+        border: 1px solid #cecece; 
+        padding: 15px; 
+        text-align: center; 
+        background-color: #1b208b; 
+        color: #fff; 
+      }
+      h3 { 
+        color: #fff; 
+        font-size: 48px; 
+        font-weight: 100; 
+      }
+      p {
+       padding-bottom: 15px; 
+      }
+    }
+  }
+}

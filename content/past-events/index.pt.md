@@ -1,5 +1,5 @@
 ---
-title: "Past Events"
+title: "Evento anteriores"
 date: 2020-01-17T15:09:45-04:00
 layout: "single"
 hide_page_title: true

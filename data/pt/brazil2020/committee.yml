@@ -1,0 +1,16 @@
+items:
+  - name: "Otavio Santana"
+    title: "DevRel Engineer na Platform.sh"
+    img: "osantana.jpg"
+    bio: "<p></p>"
+  - name: "Elder Moraes"
+    title: "Developer Advocate na Red Hat"
+    img: "emoraes.jpg"
+    bio: "<p></p>"
+  - name: "Paulo Simoes"
+    title: "CNCF Ambassador | Developer Advocate, Cloud Solution Engineer na Oracle"
+    img: "psimoes.jpg"
+    bio: |
+      <p>Paulo capacita arquitetos, desenvolvedores e SREs em todo o mundo para construir e entregar aplicações escaláveis e arquiteturas de sistemas otimizadas para os recursos exclusivos e diferenciais da nuvem; E, apoia organizações a embarcar em sua jornada nativa da nuvem. Apaixonado por arquitetura de sistemas e engenharia de software, Paulo dedica-se a aprender e compartilhar conhecimentos focados em nuvem, Java e outras tecnologias emergentes.</p>
+      <p>Paulo foi reconhecido como embaixador da Cloud Native Computing Foundation, é um palestrante ativo sobre projetos do CNCF e um desenvolvedor de suas comunidades. Também é membro do conselho da SouJava, um dos maiores JUGs do mundo.</p>
+      <p>Como Developer Advocate, ele inspira desenvolvedores e SREs compartilhando experiências e melhores práticas por meio de conteúdo on-line e em eventos como Oracle Open World, The Developers Conference, Campus Party e Meetups espalhados pela América Latina.</p>

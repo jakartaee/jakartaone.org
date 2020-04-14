@@ -14,6 +14,9 @@ themesDir = "node_modules/"
   [languages.jp]
     languageName = "日本語"
     weight =  2
+  [languages.pt]
+    languageName = "Português"
+    weight =  3
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
@@ -161,3 +164,56 @@ themesDir = "node_modules/"
     url = "/cn4j2020/speaker-agreement/"
     weight = 2
     parent = "Attend"
+
+[[languages.en.menu.brazil2020]]
+    name = "Event Details"
+    url = "/brazil2020/#plan-of-the-day"
+    weight = 1
+    
+[[languages.en.menu.brazil2020]]
+    name = "Speakers"
+    url = "/brazil2020/#speakers"
+    weight = 2
+
+[[languages.en.menu.brazil2020]]
+    name = "Attend"
+    weight = 3
+
+[[languages.en.menu.brazil2020]]
+    name = "Code of Conduct"
+    url = "/brazil2020/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[languages.en.menu.brazil2020]]
+    name = "Speaker Agreement"
+    url = "/brazil2020/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+[[languages.pt.menu.brazil2020]]
+    name = "Event Details"
+    url = "/brazil2020/#plan-of-the-day"
+    weight = 1
+    
+[[languages.pt.menu.brazil2020]]
+    name = "Speakers"
+    url = "/brazil2020/#speakers"
+    weight = 2
+
+[[languages.pt.menu.brazil2020]]
+    name = "Attend"
+    weight = 3
+
+[[languages.pt.menu.brazil2020]]
+    name = "Code of Conduct"
+    url = "/brazil2020/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[languages.pt.menu.brazil2020]]
+    name = "Speaker Agreement"
+    url = "/brazil2020/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+    

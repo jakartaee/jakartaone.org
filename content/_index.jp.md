@@ -6,9 +6,9 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 layout: "single"
-redirect_url: "cn4j2020"
+hide_footer_events: true
 ---
 
-# JakartaOne Live  
+{{< active-events >}}
 
-{{< alert >}}**Warning!** If you are not redirected automatically, follow this [link to jakartaone.org/cn4j2020](/cn4j2020).{{< /alert >}}
+{{< past_events >}}

@@ -1,0 +1,11 @@
+complete: false
+types:
+    - name: Keynotes
+      class: keynote
+
+items:
+    - name: TBD
+      presenter: TBD
+      type: keynote
+      time: TBD
+      abstract: TBD

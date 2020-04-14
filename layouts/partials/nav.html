@@ -9,7 +9,7 @@
 -->
 
 {{ $currentNode := . }}
-{{ $event_id :=  .Page.Section | default "2019" }}
+{{ $event_id :=  .Page.Section | default "main" }}
 {{ $menu  :=  (index .Site.Menus $event_id) }}
 {{ range $menu }}
 {{ $anchor:=replaceRE "[^#]+(.*)$" "$1" .URL }}
