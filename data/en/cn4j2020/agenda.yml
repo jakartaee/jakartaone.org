@@ -26,6 +26,11 @@ items:
       type: panel
       time: 11:00 - 12:00 (EDT)
       abstract: <p>Java doesn’t work well in a container on Kubernetes right? Too big? Too slow to start? Not anymore with Quarkus! Quarkus significantly reduces the container resource requirements for memory and startup, while still supporting standard APIs like Eclipse MicroProfile.</p>
+    - name: "Jakarta EE + MicroProfile + Kubernetes = The Productivity Dream #slideless"
+      presenter: Adam Bien
+      type: panel
+      time: 12:00 - 13:00 (EDT)
+      abstract: <p>Small deployable, fast deployments, clear cut between infrastructure and business logic, stable and rich Java environment, functionality on top of CNCF standards. In this session, Adam will explain productivity with plain code and from scratch. Multiple Kubernetes deployments included. A live coding session with ongoing Q&A.</p>
     - name: Building 12-factor Cloud Native Microservices
       presenter: Emily Jiang
       type: panel
