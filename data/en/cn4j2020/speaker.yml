@@ -26,3 +26,6 @@ items:
   - name: "Rudy De Busscher"
     title: "Service Team Engineer & Developer Advocate"
     img: "rdebusscher.jpg"
+  - name: "Adam Bien"
+    title: "Jakarta EE / Java EE / Java SE Developer"
+    img: "abien.jpeg"
