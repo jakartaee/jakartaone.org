@@ -439,19 +439,41 @@ http://www.mushagaeshi.com  &nbsp;Follow Hirofumi Iwasaki on Twitter!     Norito
         
         var headingEl = document.createElement('h2');
         headingEl.innerHTML =  item['title'];
+        if (item['header_class'] != undefined) {
+         var headerClasses = item['header_class'].split(' ');
+         for (var headerClassIdx in headerClasses) {
+             headingEl.classList.add(headerClasses[headerClassIdx]);
+       	  }
+        }
         
         var linkEl = document.createElement('span');
         linkEl.innerHTML =  item['link'];
     
         
-        var preambleEl, contentEl = null;
+        var preambleEl, contentEl, postContentEl = null;
         if (item['preamble'] != undefined && item['premble'] != "") {
           preambleEl = document.createElement('p');
           preambleEl.innerHTML =  item['preamble'];
+	      var preambleClasses = item['preamble_class'].split(' ');
+	      for (var preambleClassIdx in preambleClasses) {
+	        preambleEl.classList.add(preambleClasses[preambleClassIdx]);
+	      }
         }
         if (item['content'] != undefined && item['content'] != "") {
           contentEl = document.createElement('p');
           contentEl.innerHTML =  item['content'];
+	      var contentClasses = item['content_class'].split(' ');
+	   	  for (var contentClassIdx in contentClasses) {
+	   		contentEl.classList.add(contentClasses[contentClassIdx]);
+	   	  }
+        }
+        if (item['post_content'] != undefined && item['post_content'] != "") {
+          postContentEl = document.createElement('p');
+          postContentEl.innerHTML =  item['post_content'];
+	      var postClasses = item['post_class'].split(' ');
+	   	  for (var postClassIdx in postClasses) {
+	   		postContentEl.classList.add(postClasses[postClassIdx]);
+	   	  }
         }
         
         var divEl = storyEl.querySelector(".row > div");
@@ -461,6 +483,9 @@ http://www.mushagaeshi.com  &nbsp;Follow Hirofumi Iwasaki on Twitter!     Norito
         divEl.appendChild(headingEl);
         if (contentEl != undefined) {
           divEl.appendChild(contentEl);
+        }
+        if (postContentEl != undefined) {
+          divEl.appendChild(postContentEl);
         }
         divEl.appendChild(linkEl);
       }
@@ -521,12 +546,29 @@ http://www.mushagaeshi.com  &nbsp;Follow Hirofumi Iwasaki on Twitter!     Norito
 
 
 
+
 <section id="upcoming-events" class="padding-top-30 padding-bottom-30 text-center">
   <div class="container">
     <h2 class="white">Upcoming Events</h2>
     <div class="row">
       <div class="col-sm-24">
         <ul class="list-inline margin-top-20">
+          
+            
+            
+            <li>
+              <a href="/brazil2020"><img width="150" class="img-responsive" src="/images/jakartaone-black.svg"></a>
+              <span>Brazil 2020</span>
+            </li>
+            
+          
+            
+            
+            <li>
+              <a href="/cn4j2020"><img width="150" class="img-responsive" src="/images/jakartaone-black.svg"></a>
+              <span>CN4J 2020</span>
+            </li>
+            
           
             
             
@@ -540,6 +582,7 @@ http://www.mushagaeshi.com  &nbsp;Follow Hirofumi Iwasaki on Twitter!     Norito
     </div>
   </div>
 </section>
+
 
 
 <div id="eclipsefdn-modal" class="modal fade" tabindex="-1" role="dialog">

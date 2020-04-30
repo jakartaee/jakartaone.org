@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brazil 2020 on JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native</title>
+    <link>https://jakartaone.org/brazil2020/</link>
+    <description>Recent content in Brazil 2020 on JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
+    <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
+    <lastBuildDate>Tue, 31 Mar 2020 15:50:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://jakartaone.org/brazil2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speaker Agreement and Recording Waiver</title>
+      <link>https://jakartaone.org/brazil2020/speaker-agreement/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://jakartaone.org/brazil2020/speaker-agreement/</guid>
+      <description>I&#39;ll Give the Talk I agree to present my talk at the conference and to adhere to the content and intent as outlined in the description provided to the program committee.
+I&#39;m Responsible I acknowledge that I alone am responsible for the published description of my talk. I will use the website to correct any errors in facts, formatting, grammar, spelling, etc.
+No Warranties I provide my material &amp;ldquo;as is,&amp;rdquo; without warranties or conditions of any kind, either expressed or implied including, without limitation, any warranty of fitness for any particular purpose.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://jakartaone.org/brazil2020/code-of-conduct/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://jakartaone.org/brazil2020/code-of-conduct/</guid>
+      <description>All attendees, speakers, sponsors, and volunteers at our conference are required to agree with the following code of conduct.
+Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
+The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.</description>
+    </item>
+    
+    <item>
+      <title>Committee Members</title>
+      <link>https://jakartaone.org/brazil2020/program-committee/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://jakartaone.org/brazil2020/program-committee/</guid>
+      <description>Otavio Santana 
+ &amp;nbsp;Follow Otavio Santana on Twitter!     Elder Moraes 
+ &amp;nbsp;Follow Elder Moraes on Twitter!     Paulo Simoes Empowering architects, developers, and SREs worldwide to deliver scalable applications and optimized systems architectures for the unique capabilities of the Cloud; And, organizations to navigate on their cloud-native journey. Passionate about System Architecture and Software Engineering, Paulo is dedicated to learning and share knowledge focused on Cloud, Java, and other emerging technologies.</description>
+    </item>
+    
+  </channel>
+</rss>

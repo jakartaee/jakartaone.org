@@ -11,13 +11,21 @@
 <meta property="og:title" content="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud Native | The Eclipse Foundation" />
 <meta name="twitter:title" content="JakartaOne Live - September 10, 2019 | Jakarta EE Software | Cloud … | The Eclipse Foundation" />
 
-<link rel="canonical" href="/cn4j2020"/>
-<meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="0; url=/cn4j2020" />
-
-<meta name="description" content="JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/cn4j2020.  ">
-<meta property="og:description" content="JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/cn4j2020.  ">
-<meta name="twitter:description" content="JakartaOne Live Warning! If you are not redirected automatically, follow this link to jakartaone.org/cn4j2020.  ">
+<meta name="description" content=" Upcoming Events CN4J 2020 May 12, 2020
+Learn more   Brazil 2020 August 29, 2020
+Learn more     Past Events JakartaOne Japan 2020 February 26, 2020
+Learn more   JakartaOne 2019 January 10, 2019
+Learn more     ">
+<meta property="og:description" content=" Upcoming Events CN4J 2020 May 12, 2020
+Learn more   Brazil 2020 August 29, 2020
+Learn more     Past Events JakartaOne Japan 2020 February 26, 2020
+Learn more   JakartaOne 2019 January 10, 2019
+Learn more     ">
+<meta name="twitter:description" content=" Upcoming Events CN4J 2020 May 12, 2020
+Learn more   Brazil 2020 August 29, 2020
+Learn more     Past Events JakartaOne Japan 2020 February 26, 2020
+Learn more   JakartaOne 2019 January 10, 2019
+Learn …">
 <meta name="author" content="Christopher Guindon"/>
 <link href='https://jakartaone.org/images/jakarta/favicon.ico' rel='icon' type='image/x-icon'/>
 <meta property="og:image" content="https://jakartaone.org/images/jakarta/jakarta_ee_400x400.png" />
@@ -81,6 +89,8 @@
               
               <li><a href="https://jakartaone.org/jp/">日本語</a></li>
               
+              <li><a href="https://jakartaone.org/pt/">Português</a></li>
+              
             </ul>
           </li>
           
@@ -123,45 +133,6 @@
 
 
 
-<li>
-  <a class="" href="https://jakartaone.org/2019/#plan-of-the-day">
-  
-  Plan of the day
-  </a>
-  
-</li>
-
-
-
-<li>
-  <a class="" href="https://jakartaone.org/2019/program-committee/">
-  
-  Program committee
-  </a>
-  
-</li>
-
-
-
-<li class="dropdown">
-  <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-    
-    
-    <span>Attend</span>
-    <b class="caret"></b>
-  </a>
-  <ul class="dropdown-menu">
-    
-    <li><a href="https://jakartaone.org/2019/code-of-conduct/">Code of Conduct</a> </li>
-    
-    <li><a href="https://jakartaone.org/speaker-agreement/">Speaker Agreement</a> </li>
-    
-  </ul>
-  
-</li>
-
-
-
 
 
             </ul>
@@ -197,11 +168,82 @@
 
     
   
-  <h1 id="jakartaone-live">JakartaOne Live</h1>
+  
 
-<div class="alert alert-danger margin-top-20 text-center" role="alert">
-<strong>Warning!</strong> If you are not redirected automatically, follow this <a href="/cn4j2020">link to jakartaone.org/cn4j2020</a>.
-</div>
+
+<section class="container active-events">
+  <h2>Upcoming Events</h2>
+  <div class="row">
+  
+    
+    
+  
+    
+    
+  
+    
+    
+    <div class="col-xs-24 col-sm-12 match-height-item">
+      <div class="event-item">
+        <h3 class="h2">CN4J 2020</h3>
+        <p>May 12, 2020</p>
+        <a class="btn btn-primary" href="/cn4j2020" title="Learn more about CN4J 2020">Learn more</a>
+      </div>
+    </div>
+    
+  
+    
+    
+    <div class="col-xs-24 col-sm-12 match-height-item">
+      <div class="event-item">
+        <h3 class="h2">Brazil 2020</h3>
+        <p>August 29, 2020</p>
+        <a class="btn btn-primary" href="/brazil2020" title="Learn more about Brazil 2020">Learn more</a>
+      </div>
+    </div>
+    
+  
+  </div>
+</section>
+
+
+
+
+
+<section class="container active-events">
+  <h2>Past Events</h2>
+  <div class="row">
+    
+      
+      
+    
+      
+      
+    
+      
+      
+      <div class="col-xs-24 col-sm-12 match-height-item">
+        <div class="event-item">
+          <h3 class="h2">JakartaOne Japan 2020</h3>
+          <p>February 26, 2020</p>
+          <a class="btn btn-primary" href="/japan2020" title="Learn more about JakartaOne Japan 2020">Learn more</a>
+        </div>
+      </div>
+      
+    
+      
+      
+      <div class="col-xs-24 col-sm-12 match-height-item">
+        <div class="event-item">
+          <h3 class="h2">JakartaOne 2019</h3>
+          <p>January 10, 2019</p>
+          <a class="btn btn-primary" href="/2019" title="Learn more about JakartaOne 2019">Learn more</a>
+        </div>
+      </div>
+      
+    
+  </div>
+</section>
 
 
   
@@ -249,19 +291,41 @@
         
         var headingEl = document.createElement('h2');
         headingEl.innerHTML =  item['title'];
+        if (item['header_class'] != undefined) {
+         var headerClasses = item['header_class'].split(' ');
+         for (var headerClassIdx in headerClasses) {
+             headingEl.classList.add(headerClasses[headerClassIdx]);
+       	  }
+        }
         
         var linkEl = document.createElement('span');
         linkEl.innerHTML =  item['link'];
     
         
-        var preambleEl, contentEl = null;
+        var preambleEl, contentEl, postContentEl = null;
         if (item['preamble'] != undefined && item['premble'] != "") {
           preambleEl = document.createElement('p');
           preambleEl.innerHTML =  item['preamble'];
+	      var preambleClasses = item['preamble_class'].split(' ');
+	      for (var preambleClassIdx in preambleClasses) {
+	        preambleEl.classList.add(preambleClasses[preambleClassIdx]);
+	      }
         }
         if (item['content'] != undefined && item['content'] != "") {
           contentEl = document.createElement('p');
           contentEl.innerHTML =  item['content'];
+	      var contentClasses = item['content_class'].split(' ');
+	   	  for (var contentClassIdx in contentClasses) {
+	   		contentEl.classList.add(contentClasses[contentClassIdx]);
+	   	  }
+        }
+        if (item['post_content'] != undefined && item['post_content'] != "") {
+          postContentEl = document.createElement('p');
+          postContentEl.innerHTML =  item['post_content'];
+	      var postClasses = item['post_class'].split(' ');
+	   	  for (var postClassIdx in postClasses) {
+	   		postContentEl.classList.add(postClasses[postClassIdx]);
+	   	  }
         }
         
         var divEl = storyEl.querySelector(".row > div");
@@ -271,6 +335,9 @@
         divEl.appendChild(headingEl);
         if (contentEl != undefined) {
           divEl.appendChild(contentEl);
+        }
+        if (postContentEl != undefined) {
+          divEl.appendChild(postContentEl);
         }
         divEl.appendChild(linkEl);
       }
@@ -329,27 +396,6 @@
 </section>
 
 
-
-
-<section id="upcoming-events" class="padding-top-30 padding-bottom-30 text-center">
-  <div class="container">
-    <h2 class="white">Upcoming Events</h2>
-    <div class="row">
-      <div class="col-sm-24">
-        <ul class="list-inline margin-top-20">
-          
-            
-            
-          
-            
-            
-          
-        </ul>
-        <p><a class="btn btn-secondary margin-top-30" href='/past-events'>Past Events</a></p>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <div id="eclipsefdn-modal" class="modal fade" tabindex="-1" role="dialog">

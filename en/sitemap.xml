@@ -8,6 +8,21 @@
   </url>
   
   <url>
+    <loc>https://jakartaone.org/brazil2020/</loc>
+    <lastmod>2020-03-31T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/brazil2020/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/past-events/</loc>
     <lastmod>2020-01-17T15:09:45-04:00</lastmod>
     <xhtml:link
@@ -17,8 +32,28 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/past-events/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://jakartaone.org/past-events/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/brazil2020/speaker-agreement/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/speaker-agreement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/brazil2020/speaker-agreement/"
                 />
   </url>
   
@@ -48,6 +83,21 @@
   </url>
   
   <url>
+    <loc>https://jakartaone.org/brazil2020/code-of-conduct/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/code-of-conduct/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/brazil2020/code-of-conduct/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/cn4j2020/code-of-conduct/</loc>
     <lastmod>2019-07-04T00:00:00+00:00</lastmod>
   </url>
@@ -70,6 +120,21 @@
   <url>
     <loc>https://jakartaone.org/2019/program-committee/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/brazil2020/program-committee/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/program-committee/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/brazil2020/program-committee/"
+                />
   </url>
   
   <url>
@@ -99,6 +164,11 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://jakartaone.org/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/"
                 />
     <xhtml:link
                 rel="alternate"

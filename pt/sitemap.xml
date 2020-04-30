@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jakartaone.org/jp/past-events/</loc>
+    <loc>https://jakartaone.org/pt/brazil2020/</loc>
+    <lastmod>2020-03-31T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/brazil2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/pt/past-events/</loc>
     <lastmod>2020-01-17T15:09:45-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,63 +27,63 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="pt"
-                href="https://jakartaone.org/pt/past-events/"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/past-events/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/past-events/"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/past-events/"
                 />
   </url>
   
   <url>
-    <loc>https://jakartaone.org/jp/speaker-agreement/</loc>
+    <loc>https://jakartaone.org/pt/brazil2020/speaker-agreement/</loc>
     <lastmod>2019-12-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jakartaone.org/speaker-agreement/"
+                href="https://jakartaone.org/brazil2020/speaker-agreement/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/speaker-agreement/"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/speaker-agreement/"
                 />
   </url>
   
   <url>
-    <loc>https://jakartaone.org/jp/japan2020/code-of-conduct/</loc>
+    <loc>https://jakartaone.org/pt/brazil2020/code-of-conduct/</loc>
     <lastmod>2019-07-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jakartaone.org/japan2020/code-of-conduct/"
+                href="https://jakartaone.org/brazil2020/code-of-conduct/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/japan2020/code-of-conduct/"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/code-of-conduct/"
                 />
   </url>
   
   <url>
-    <loc>https://jakartaone.org/jp/japan2020/program-committee/</loc>
+    <loc>https://jakartaone.org/pt/brazil2020/program-committee/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jakartaone.org/japan2020/program-committee/"
+                href="https://jakartaone.org/brazil2020/program-committee/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/japan2020/program-committee/"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/brazil2020/program-committee/"
                 />
   </url>
   
   <url>
-    <loc>https://jakartaone.org/jp/</loc>
+    <loc>https://jakartaone.org/pt/</loc>
     <lastmod>2018-04-05T15:50:25-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -77,28 +92,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="pt"
-                href="https://jakartaone.org/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="jp"
                 href="https://jakartaone.org/jp/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://jakartaone.org/jp/japan2020/</loc>
-    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://jakartaone.org/japan2020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/japan2020/"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/"
                 />
   </url>
   
