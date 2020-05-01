@@ -27,8 +27,8 @@ items:
   -
     name: JakartaOne 2019
     location: Location, Location
-    date: January 10, 2019
-    end_date: 2019-01-10T23:59:00-00:00
+    date: September 10, 2019
+    end_date: 2019-10-10T23:59:00-00:00
     url: /2019
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
