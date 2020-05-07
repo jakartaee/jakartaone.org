@@ -36,12 +36,14 @@
     <div class="col-xs-24 col-sm-18">
       <h3>{{ .name }}</h3>
       {{ .bio | safeHTML }}
+      {{ if .twitter_handle }}
       <p>
         <a class="twitter-follow-button btn btn-info btn-sm"
           href="https://twitter.com/{{ .twitter_handle }}" target="_blank">
           <i class="fa fa-twitter"></i>&nbsp;{{ i18n "committee-twitter-follow-text" . }}
         </a>
       </p>
+      {{ end }}
     </div>
   </div>
   {{ end }}
