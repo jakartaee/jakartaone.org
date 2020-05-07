@@ -11,8 +11,8 @@ items:
       type: keynote
       time: 9:00 - 9:30 (EDT)
       abstract: <p>Enterprise-ready innovations enable teams to transition smoothly to cloud-first technology through application modernization tools, container-aware runtimes, microservices architectures, and dev-ops practises that make the cloud native future for existing Java teams very promising.</p>
-    - name: 'Future of Enterprise Java: Time to get involved and innovate!'
-      presenter: Tanja Obradovic
+    - name: 'Driving Jakarta EE Success'
+      presenter: Will Lyons
       type: keynote
       time: 9:30 - 10:00 (EDT)
       abstract: <p>Eclipse Foundation with Jakarta EE specification project is enabling community-driven collaboration and open innovation for the cloud. It welcomes opportunities for collaboration with other open source Cloud Native for Java technologies such as Eclipse MicroProfile. This session will give you an update on the current state of Jakarta EE, invite you to get involved, innovate and help shape up the future of Jakarta EE!</p>
