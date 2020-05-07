@@ -24,9 +24,9 @@
     <div class="row">
         <!-- Start: Slider Area -->
         {{ range (index $langBase $event).speaker.items }}
-        <div class="col-xs-12 col-md-8 padding-20">
+        <div class="col-xs-12 col-md-8 padding-20 match-height-item-by-row">
           {{ if .img }}
-          <img class="img img-responsive margin-auto match-height-item" src="/images/speakers/{{ .img }}" alt="{{ .name }}">
+          <img class="img img-responsive margin-auto" src="/images/speakers/{{ .img }}" alt="{{ .name }}">
           {{ else }}
           <div class="icon-backdrop">
             <div class="ratio"></div>
