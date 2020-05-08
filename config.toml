@@ -192,28 +192,28 @@ themesDir = "node_modules/"
     parent = "Attend"
 
 [[languages.pt.menu.brazil2020]]
-    name = "Event Details"
+    name = "Detalhes do Evento"
     url = "/brazil2020/#plan-of-the-day"
     weight = 1
     
 [[languages.pt.menu.brazil2020]]
-    name = "Speakers"
+    name = "Palestrantes"
     url = "/brazil2020/#speakers"
     weight = 2
 
 [[languages.pt.menu.brazil2020]]
-    name = "Attend"
+    name = "Participe"
     weight = 3
 
 [[languages.pt.menu.brazil2020]]
-    name = "Code of Conduct"
+    name = "Código de Conduta"
     url = "/brazil2020/code-of-conduct/"
     weight = 1
-    parent = "Attend"
+    parent = "Participe"
     
 [[languages.pt.menu.brazil2020]]
-    name = "Speaker Agreement"
+    name = "Termo de Compromisso"
     url = "/brazil2020/speaker-agreement/"
     weight = 2
-    parent = "Attend"
+    parent = "Participe"
     
