@@ -9,8 +9,15 @@
 -->
 
 {{ $currentNode := . }}
-{{ $event_id :=  .Page.Section | default "main" }}
-{{ $menu  :=  (index .Site.Menus $event_id) }}
+{{ $currSect := .Page.CurrentSection }}
+{{ if and $currSect (ne $currSect .Page.FirstSection) }}
+  {{ $year := .Page.FirstSection.Section }}
+  {{ .Scratch.Set "menuName" (printf "%s%s" .Page.CurrentSection.Params.menu_name $year ) }}
+{{ else }}
+  {{ .Scratch.Set "menuName" "main" }}
+{{ end }}
+{{ $menuName := .Scratch.Get "menuName" }}
+{{ $menu := (index .Site.Menus $menuName) }}
 {{ range $menu }}
 {{ $anchor:=replaceRE "[^#]+(.*)$" "$1" .URL }}
 {{ if .HasChildren }}

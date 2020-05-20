@@ -5,7 +5,7 @@ items:
     location: Virtual
     date: August 29, 2020
     end_date: 2020-08-29T23:59:00-00:00
-    url: /brazil2020
+    url: /2020/brazil
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakartaone-black.svg
   -
@@ -13,7 +13,7 @@ items:
     location: Virtual
     date: May 12, 2020
     end_date: 2020-05-12T23:59:00-00:00
-    url: /cn4j2020
+    url: /2020/cn4j
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakartaone-black.svg
   -
@@ -21,7 +21,7 @@ items:
     location: Virtual Event
     date: February 26, 2020
     end_date: 2020-02-26T23:59:00-00:00
-    url: /japan2020
+    url: /2020/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakartaone-black.svg
   -

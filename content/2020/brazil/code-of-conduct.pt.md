@@ -4,6 +4,8 @@ date: 2019-07-04
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
+aliases:
+  - /pt/brazil2020/code-of-conduct
 ---
 Todos os participantes, palestrantes, patrocinadores e voluntários de nossa conferência devem concordar com o seguinte código de conduta.
 
