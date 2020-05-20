@@ -1,11 +1,14 @@
 complete: true
 types:
     - name: Keynotes
-      class: keynote 
+      id: keynote 
+      color: "#e44"
     - name: Vendor Track
-      class: opening 
+      id: opening 
+      color: "#a0a"
     - name: Jakarta EE & MicroProfile Sessions
-      class: cloud
+      id: cloud
+      color: "#0a0"
 
 items:
     - name: Keynote

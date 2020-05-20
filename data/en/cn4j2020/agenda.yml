@@ -1,9 +1,11 @@
 complete: false
 types:
     - name: Keynotes
-      class: keynote 
+      id: keynote 
+      color: "#e44"
     - name: Technical Talks
-      class: panel
+      id: panel
+      color: "#c6a061"
 
 items:
     - name: 'Cloud native runtimes: Revolution or evolution?'

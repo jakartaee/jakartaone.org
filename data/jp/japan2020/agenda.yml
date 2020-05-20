@@ -1,11 +1,14 @@
 complete: true
 types:
     - name: キーノート
-      class: keynote 
+      id: keynote 
+      color: "#e44"
     - name: ベンダートラック
-      class: opening 
+      id: opening 
+      color: "#a0a"
     - name: Jakarta EE と MicroProfile のセッション
-      class: cloud
+      id: cloud
+      color: "#0a0"
 
 items:
     - name: キーノート

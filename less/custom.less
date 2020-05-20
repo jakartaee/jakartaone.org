@@ -118,7 +118,7 @@ section.alt {
     & {
         color: #fff;
     }
-    h2, h3 {
+    h2, h3, h4, h5, h6 {
         font-weight: 700;
         color: #fff;
     }
@@ -138,8 +138,6 @@ section#registration .backdrop {
     background-image: url('images/registration-background.jpg');
     background-size: cover;
     background-position: right;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 section#registration img {
     max-width: 256px;
@@ -271,21 +269,6 @@ span.icon::after {
     margin-top: 100%;
   }
 }
-span.opening-icon::after {
-    background-color: #a0a;
-}
-span.keynote-icon::after {
-    background-color: #e44;
-}
-span.demo-icon::after {
-    background-color: #66c;
-}
-span.cloud-icon::after {
-    background-color: #0a0;
-}
-span.panel-icon::after {
-    background-color: #c6a061;
-}
 // Fix issue with absolute position children not inheriting any height
 // Note, could fix w/ flex, but no IE support for needed feature (5% overall traffic)
 .match-height-item-by-row {
@@ -337,4 +320,10 @@ section.active-events, section.past-events {
 }
 section.past-events .row .event-item {
   background-color: fade(#1b208b, 70%);
+}
+.centered-container {
+  min-height: initial;
+}
+.eclipsefdn-user-display-heading {
+  font-size: 18px;
 }

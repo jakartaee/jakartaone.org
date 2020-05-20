@@ -1,17 +1,22 @@
 complete: true
 types:
     - name: Jakarta EE and MicroProfile Opening Sessions
-      class: opening 
+      id: opening 
+      color: "#a0a"
     - name: Demo
-      class: demo 
+      id: demo 
+      color: "#66c"
     - name: Keynote
-      class: keynote 
+      id: keynote 
+      color: "#e44"
     - name: Cloud related topics
-      class: cloud
+      id: cloud
+      color: "#0a0"
     - name: Panel discussion/ How to contribute
-      class: panel 
+      id: panel 
+      color: "#c6a061"
     - name: What's next for the specifications
-      class: whats-next
+      id: whats-next
 
 items:
     - name: Jakarta for DummEEs

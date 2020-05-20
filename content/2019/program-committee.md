@@ -8,4 +8,4 @@ hide_breadcrumb: false
 layout: "program-committee"
 ---
 
-{{< program-committee "2019" >}}
+{{< events/user_bios year="2019" source="committee" >}}
