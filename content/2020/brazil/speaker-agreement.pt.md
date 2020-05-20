@@ -2,6 +2,8 @@
 Title: Acordo do palestrante
 date: 2019-12-17
 hide_sidebar: true
+aliases:
+  - /pt/brazil2020/speaker-agreement
 ---
 
 ## Darei a palestra

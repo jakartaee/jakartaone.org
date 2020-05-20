@@ -2,6 +2,8 @@
 Title: Speaker Agreement and Recording Waiver 
 date: 2019-12-17
 hide_sidebar: true
+aliases:
+  - /cn4j2020/speaker-agreement
 ---
 
 ## I'll Give the Talk

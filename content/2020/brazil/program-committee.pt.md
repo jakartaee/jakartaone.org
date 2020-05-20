@@ -6,6 +6,8 @@ hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
 layout: "program-committee"
+aliases:
+  - /pt/brazil2020/program-committee
 ---
 
-{{< events/user_bios event="brazil2020" source="committee" >}}
+{{< events/user_bios event="brazil" year="2020"  source="committee" >}}

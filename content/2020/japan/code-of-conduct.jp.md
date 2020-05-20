@@ -4,6 +4,8 @@ date: 2019-07-04
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
+aliases:
+  - /jp/japan2020/code-of-conduct
 ---
 All attendees, speakers, sponsors, and volunteers at our conference are required to agree with the following code of conduct.
 
