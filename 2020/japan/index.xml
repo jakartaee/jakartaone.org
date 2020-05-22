@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JakartaOne Live Japan 2020 on JakartaOne Live | Jakarta EE Software | Cloud Native</title>
-    <link>https://jakartaone.org/japan2020/</link>
+    <link>https://jakartaone.org/2020/japan/</link>
     <description>Recent content in JakartaOne Live Japan 2020 on JakartaOne Live | Jakarta EE Software | Cloud Native</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
     <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
     <lastBuildDate>Thu, 05 Apr 2018 15:50:25 -0400</lastBuildDate>
     
-	<atom:link href="https://jakartaone.org/japan2020/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jakartaone.org/2020/japan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code of Conduct</title>
-      <link>https://jakartaone.org/japan2020/code-of-conduct/</link>
+      <link>https://jakartaone.org/2020/japan/code-of-conduct/</link>
       <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
       <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
-      <guid>https://jakartaone.org/japan2020/code-of-conduct/</guid>
+      <guid>https://jakartaone.org/2020/japan/code-of-conduct/</guid>
       <description>All attendees, speakers, sponsors, and volunteers at our conference are required to agree with the following code of conduct.
 Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
 The Quick Version Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.</description>
@@ -25,10 +25,10 @@ The Quick Version Our conference is dedicated to providing a harassment-free con
     
     <item>
       <title>Committee Members</title>
-      <link>https://jakartaone.org/japan2020/program-committee/</link>
+      <link>https://jakartaone.org/2020/japan/program-committee/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
-      <guid>https://jakartaone.org/japan2020/program-committee/</guid>
+      <guid>https://jakartaone.org/2020/japan/program-committee/</guid>
       <description>Yoshio Terada 2015年7月より日本マイクロソフト株式会社に在籍し、現在はマイクロソフト・コーポレーションに所属し担当は Java !! Azure における Java の利用促進・啓蒙活動を実施中。 2016 年 7 月、日本人で 2 人目となる Java Champion に就任。 2018年7月より、マイクロソフト・コーポレーションで日本人初のクラウド・アドボケイトとして活動を開始。2019年6月より、オイシックス・ラ・大地株式会社の技術顧問も務める。 JJUG 幹事の一員でもある。 2013年 日経コンピュータ：我らプロフェッショナル 世界を元気にする 100 人に選ばれた https://www.facebook.com/yoshio.terada
 http://slideshare.net/tyoshio2002
 https://github.com/yoshioterada

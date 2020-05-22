@@ -119,6 +119,11 @@ I&#39;m Responsible I acknowledge …">
 
 
 
+  
+  
+
+
+
 
 
 
@@ -225,16 +230,16 @@ I&#39;m Responsible I acknowledge …">
   <script>
     var rawStoryJSON = "null";
     if (json = JSON.parse(rawStoryJSON)) {
-   
+
       
-      json = json.filter(a => new Date(a['endDate']) > new Date())
-        .filter(a => a['type'] === "both" || a['type'] === "footer" );
-      
+      json = json.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
+        .filter(a => a['type'] === "both" || a['type'] === "footer");
+
       
       if (json.length > 1) {
         shuffleArray(json);
       }
-      
+
       
       if (json.length > 0) {
         var item = json[0];
@@ -244,50 +249,56 @@ I&#39;m Responsible I acknowledge …">
           storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
           storyEl.style.backgroundSize = 'cover';
         }
-    
+
         
         if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
           storyEl.className = item['footer_classes'];
         }
-        
+
         
         var headingEl = document.createElement('h2');
-        headingEl.innerHTML =  item['title'];
-        if (item['header_class'] != undefined) {
-         var headerClasses = item['header_class'].split(' ');
-         for (var headerClassIdx in headerClasses) {
-             headingEl.classList.add(headerClasses[headerClassIdx]);
-       	  }
+        headingEl.innerHTML = item['title'];
+        if (item['header_class']) {
+          var headerClasses = item['header_class'].split(' ');
+          for (var headerClassIdx in headerClasses) {
+            headingEl.classList.add(headerClasses[headerClassIdx]);
+          }
         }
-        
+
         var linkEl = document.createElement('span');
-        linkEl.innerHTML =  item['link'];
-    
+        linkEl.innerHTML = item['link'];
+
         
         var preambleEl, contentEl, postContentEl = null;
-        if (item['preamble'] != undefined && item['premble'] != "") {
+        if (item['preamble']) {
           preambleEl = document.createElement('p');
-          preambleEl.innerHTML =  item['preamble'];
-	      var preambleClasses = item['preamble_class'].split(' ');
-	      for (var preambleClassIdx in preambleClasses) {
-	        preambleEl.classList.add(preambleClasses[preambleClassIdx]);
-	      }
+          preambleEl.innerHTML = item['preamble'];
+          if (item['preamble_class']) {
+            var preambleClasses = item['preamble_class'].split(' ');
+            for (var preambleClassIdx in preambleClasses) {
+              preambleEl.classList.add(preambleClasses[preambleClassIdx]);
+            }
+          }
         }
-        if (item['content'] != undefined && item['content'] != "") {
+        if (item['content']) {
           contentEl = document.createElement('p');
-          contentEl.innerHTML =  item['content'];
-	      var contentClasses = item['content_class'].split(' ');
-	   	  for (var contentClassIdx in contentClasses) {
-	   		contentEl.classList.add(contentClasses[contentClassIdx]);
-	   	  }
+          contentEl.innerHTML = item['content'];
+          if (item['content_class']) {
+            var contentClasses = item['content_class'].split(' ');
+            for (var contentClassIdx in contentClasses) {
+              contentEl.classList.add(contentClasses[contentClassIdx]);
+            }
+          }
         }
-        if (item['post_content'] != undefined && item['post_content'] != "") {
+        if (item['post_content']) {
           postContentEl = document.createElement('p');
-          postContentEl.innerHTML =  item['post_content'];
-	      var postClasses = item['post_class'].split(' ');
-	   	  for (var postClassIdx in postClasses) {
-	   		postContentEl.classList.add(postClasses[postClassIdx]);
-	   	  }
+          postContentEl.innerHTML = item['post_content'];
+          if (item['post_class']) {
+            var postClasses = item['post_class'].split(' ');
+            for (var postClassIdx in postClasses) {
+              postContentEl.classList.add(postClasses[postClassIdx]);
+            }
+          }
         }
         
         var divEl = storyEl.querySelector(".row > div");
@@ -307,12 +318,12 @@ I&#39;m Responsible I acknowledge …">
     
 
     function shuffleArray(array) {
-        for (var i = array.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
-        }
+      for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
     }
   </script>
 
@@ -367,6 +378,17 @@ I&#39;m Responsible I acknowledge …">
     <div class="row">
       <div class="col-sm-24">
         <ul class="list-inline margin-top-20">
+          
+            
+            
+            <li>
+              <a href="/2020/brazil"><img width="150" class="img-responsive" src="/images/jakartaone-black.svg"></a>
+              <span>Brazil 2020</span>
+            </li>
+            
+          
+            
+            
           
             
             

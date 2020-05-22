@@ -1,0 +1,1131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cloud Native for Java Virtual - May 12, 2020 | Jakarta EE Software | Cloud Native | The Eclipse Foundation</title>
+<meta property="og:title" content="Cloud Native for Java Virtual - May 12, 2020 | Jakarta EE Software | Cloud Native | The Eclipse Foundation" />
+<meta name="twitter:title" content="Cloud Native for Java Virtual - May 12, 2020 | Jakarta EE Software | … | The Eclipse Foundation" />
+
+<meta name="description" content="The event has now concluded! This virtual event is a mix of expert talks, demos, and thought-provoking sessions focused on enterprise applications implemented using open source vendor-neutral Jakarta EE (successor of Java EE) and Eclipse MicroProfile specifications on Kubernetes.
+This event is a great opportunity to meet and interact with the industry and community leaders online, to better understand key aspects of Jakarta EE and MicroProfile technologies and share your ideas with the ecosystem leaders and innovators!">
+<meta property="og:description" content="The event has now concluded! This virtual event is a mix of expert talks, demos, and thought-provoking sessions focused on enterprise applications implemented using open source vendor-neutral Jakarta EE (successor of Java EE) and Eclipse MicroProfile specifications on Kubernetes.
+This event is a great opportunity to meet and interact with the industry and community leaders online, to better understand key aspects of Jakarta EE and MicroProfile technologies and share your ideas with the ecosystem leaders and innovators!">
+<meta name="twitter:description" content="The event has now concluded! This virtual event is a mix of expert talks, demos, and thought-provoking sessions focused on enterprise applications implemented using open source vendor-neutral Jakarta …">
+<meta name="author" content="Christopher Guindon"/>
+<link href='https://jakartaone.org/images/jakarta/favicon.ico' rel='icon' type='image/x-icon'/>
+<meta property="og:image" content="https://jakartaone.org/images/jakarta/jakarta_ee_400x400.png" />
+<meta name="twitter:image" content="https://jakartaone.org/images/jakarta/jakarta_ee_400x400.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@EclipseFdn" />
+<meta name="twitter:creator" content="@EclipseFdn" />
+<meta property="og:url" content="https://jakartaone.org/2020/cn4j/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="JakartaOne Live | Jakarta EE Software | Cloud Native" />
+<meta name="keywords" content="JakartaOne, JakartaOne Live, Jakarta EE software, Java EE, cloud, microservices, enterprise, open source, innovation">
+
+
+<meta name="generator" content="Hugo 0.62.2" />
+<link rel="canonical" href="https://jakartaone.org/2020/cn4j/" />
+
+<link rel="alternate" href="/2020/cn4j/index.xml" type="application/rss+xml" title="">
+
+
+<link rel="stylesheet" href="https://jakartaone.org/css/styles.css">
+  
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+  
+<script>
+	
+		var tableClasses = "table";
+	
+</script>
+  
+<link href="//fonts.googleapis.com/css?family=Libre+Franklin:400,700,300,600,100" rel="stylesheet" type="text/css"/>
+
+  
+</head>
+<body>
+  
+<a class="sr-only" href="#content">Skip to main content</a>
+<header class="header-wrapper header-default-bg-img" id="header-wrapper">
+  
+
+<div class="clearfix toolbar-container-wrapper">
+  <div class="container">
+    <div class="text-right toolbar-row row hidden-print">
+      <div class="col-md-24 row-toolbar-col">
+        <ul class="list-inline">
+          <li><a href="https://accounts.eclipse.org/user/edit" class="" data-tab-destination="tab-profile"><i class="fa fa-edit fa-fw"></i> Edit my account</a></li>
+          <li><a class="toolbar-link toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i> Manage Cookies</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="navbar-wrapper">
+  <div class="container">
+    <div class="row" id="header-row">
+      <div class="col-xs-8" id="header-left">
+        <div class="wrapper-logo-default">
+            <a title="JakartaOne Live | Jakarta EE Software | Cloud Native" href="https://jakartaone.org/">
+              <img width="250" class="logo-eclipse-default img-responsive hidden-xs" src="https://jakartaone.org/images/jakartaone_livestream_wht_full-06.svg" alt="JakartaOne Live | Jakarta EE Software | Cloud Native" />
+            </a>
+          
+        </div>
+      </div>
+      
+      
+      <div class="col-sm-16 reset" id="main-menu-wrapper">
+        
+        
+          
+        
+        
+        
+        
+        
+        
+        <div class="navbar float-sm-right yamm" id="main-menu">
+          <div class="navbar-collapse collapse reset float-right" id="navbar-main-menu">
+            <ul class="nav navbar-nav">
+              
+
+
+
+
+  
+  
+
+
+
+
+
+
+<li>
+  <a class="" href="https://jakartaone.org/2020/cn4j/#plan-of-the-day">
+  
+  Event Details
+  </a>
+  
+</li>
+
+
+
+<li>
+  <a class="" href="https://jakartaone.org/2020/cn4j/#speakers">
+  
+  Speakers
+  </a>
+  
+</li>
+
+
+
+<li class="dropdown">
+  <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+    
+    
+    <span>Attend</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    
+    <li><a href="https://jakartaone.org/2020/cn4j/code-of-conduct/">Code of Conduct</a> </li>
+    
+    <li><a href="https://jakartaone.org/2020/cn4j/speaker-agreement/">Speaker Agreement</a> </li>
+    
+  </ul>
+  
+</li>
+
+
+
+
+
+            </ul>
+          </div>
+          
+<div class="navbar-header">
+  
+  <div class="wrapper-logo-mobile">
+      <a class="navbar-brand visible-xs" title="JakartaOne Live | Jakarta EE Software | Cloud Native" href="https://jakartaone.org/">
+        <img width="250" class="logo-eclipse-default-mobile img-responsive" src="https://jakartaone.org/images/jakartaone_livestream_wht_full-06.svg" alt="JakartaOne Live | Jakarta EE Software | Cloud Native" />
+      </a>
+    
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+  <div class="jumbotron featured-jumbotron margin-bottom-0 padding-bottom-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-20 col-md-offset-2 col-sm-18 col-sm-offset-3">
+         <h2>May 12, 2020</h2>
+         <p>JakartaOne Livestream Cloud Native for Java (CN4J) is a one-day virtual conference for developers, engineers and technical business leaders with the focus of building enterprise Java on Kubernetes. </p>
+         <p class='center-block'><img width='180' class='img margin-right-20' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'><img width='240' class='img margin-left-20' src='/images/microprofile.png' alt='Microprofile'></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+  
+  
+  
+
+<main>
+  <div class="container-fluid">
+    
+
+    
+  
+  <!-- raw HTML omitted -->
+
+
+<section class="row " id="registration">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    
+      
+  
+<div class="container">
+ 
+   
+    
+
+
+
+
+
+  
+
+
+
+
+
+<div class="eclipsefdn-registration">
+  <div class="row">
+    
+    <div class="eclipsefdn-registration-content col-xs-24 text-middle text-center "
+      data-end="2020-05-13 23:59:00 &#43;0000 UTC">
+      <h2>The event has now concluded!</h2>
+      <div class="eclipsefdn-registration-body">
+        <p>This virtual event is a mix of expert talks, demos, and thought-provoking sessions focused on enterprise applications implemented using open source vendor-neutral Jakarta EE (successor of Java EE) and Eclipse MicroProfile specifications on Kubernetes.</p>
+<p>This event is a great opportunity to meet and interact with the industry and community leaders online, to better understand key aspects of Jakarta EE and MicroProfile technologies and share your ideas with the ecosystem leaders and innovators!</p>
+
+      </div>
+      
+        <div class="eclipsefdn-registration-content-end">
+         <p>Thank You for making the first JakartaOne Livestream event a great success! This milestone would not be possible without the collective efforts of a dedicated community.</p>
+        </div>
+      
+      
+    </div>
+  </div>
+</div>
+  
+ 
+</div>
+
+   
+  </div>
+</section>
+<!-- raw HTML omitted -->
+
+
+<section class="row alt" id="plan-of-the-day">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    
+      
+  
+<div class="container">
+ 
+   
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<style>
+
+
+span.eclipsefdn-agenda-legend-icon-keynote::after {
+  background-color: #e44;
+}
+
+
+
+span.eclipsefdn-agenda-legend-icon-panel::after {
+  background-color: #c6a061;
+}
+
+
+</style>
+
+<div class="eclipsefdn-agenda">
+  <h2>Sessions</h2>
+  <div class="eclipsefdn-agenda-legend">
+    
+      <h4>Legend</h4>
+      <ul class="list-inline">
+        
+        <li><span class="eclipsefdn-agenda-legend-icon-keynote eclipsefdn-agenda-legend-icon">&nbsp;</span> Keynotes</li>
+        
+        <li><span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon">&nbsp;</span> Technical Talks</li>
+        
+      </ul>
+    
+  </div>  
+  <div class="eclipsefdn-agenda-schedule">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Session Name</th>
+          <th>Presenter Name</th>
+          
+          <th>Scheduled Time</th>
+           
+          
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-keynote eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Keynotes  </span>
+          </span> 
+           
+          Cloud native runtimes: Revolution or evolution? 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Cloud native runtimes: Revolution or evolution?" data-presenter="Tim Ellison" data-time="9:00 - 9:30 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Cloud native runtimes: Revolution or evolution? abstract
+              </span>
+              <div class="modal-content hidden"><p>Enterprise-ready innovations enable teams to transition smoothly to cloud-first technology through application modernization tools, container-aware runtimes, microservices architectures, and dev-ops practises that make the cloud native future for existing Java teams very promising.</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Tim Ellison</td>
+          
+          <td>9:00 - 9:30 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-keynote eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Keynotes  </span>
+          </span> 
+           
+          Driving Jakarta EE Success 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Driving Jakarta EE Success" data-presenter="Will Lyons" data-time="9:30 - 10:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Driving Jakarta EE Success abstract
+              </span>
+              <div class="modal-content hidden"><p>Eclipse Foundation with Jakarta EE specification project is enabling community-driven collaboration and open innovation for the cloud. It welcomes opportunities for collaboration with other open source Cloud Native for Java technologies such as Eclipse MicroProfile. This session will give you an update on the current state of Jakarta EE, invite you to get involved, innovate and help shape up the future of Jakarta EE!</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Will Lyons</td>
+          
+          <td>9:30 - 10:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          Kubernetes and Istio for Jakarta EE Developers 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Kubernetes and Istio for Jakarta EE Developers" data-presenter="Sebastian Daschner" data-time="10:00 - 11:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Kubernetes and Istio for Jakarta EE Developers abstract
+              </span>
+              <div class="modal-content hidden"><p>This session shows how to implement cloud-native microservices using Jakarta EE and MicroProfile. We will develop a mesh of microservices, powered by Quarkus, and managed by Kubernetes and Istio. </p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Sebastian Daschner</td>
+          
+          <td>10:00 - 11:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          Kubernetes Native Java with MicroProfile and Quarkus 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Kubernetes Native Java with MicroProfile and Quarkus" data-presenter="Roberto Cortez" data-time="11:00 - 12:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Kubernetes Native Java with MicroProfile and Quarkus abstract
+              </span>
+              <div class="modal-content hidden"><p>Java doesn’t work well in a container on Kubernetes right? Too big? Too slow to start? Not anymore with Quarkus! Quarkus significantly reduces the container resource requirements for memory and startup, while still supporting standard APIs like Eclipse MicroProfile.</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Roberto Cortez</td>
+          
+          <td>11:00 - 12:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          Jakarta EE &#43; MicroProfile &#43; Kubernetes = The Productivity Dream #slideless 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Jakarta EE &#43; MicroProfile &#43; Kubernetes = The Productivity Dream #slideless" data-presenter="Adam Bien" data-time="12:00 - 13:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Jakarta EE &#43; MicroProfile &#43; Kubernetes = The Productivity Dream #slideless abstract
+              </span>
+              <div class="modal-content hidden"><p>Small deployable, fast deployments, clear cut between infrastructure and business logic, stable and rich Java environment, functionality on top of CNCF standards. In this session, Adam will explain productivity with plain code and from scratch. Multiple Kubernetes deployments included. A live coding session with ongoing Q&A.</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Adam Bien</td>
+          
+          <td>12:00 - 13:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          Building 12-factor Cloud Native Microservices 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Building 12-factor Cloud Native Microservices" data-presenter="Emily Jiang" data-time="13:00 - 14:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Building 12-factor Cloud Native Microservices abstract
+              </span>
+              <div class="modal-content hidden"><p>Planning to build microservices? The b(EDT) practice of building a first-class Cloud Native Microservice is to follow12-Factor app. But how do you fulfil the 12-factor app rules, e.g. how do you externalize the configuration, fault tolerance, etc? Come to this session to build a 12-factor microservice using MicroProfile programming mode (microprofile.io) and Open Liberty (openliberty.io) with a live code demo!</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Emily Jiang</td>
+          
+          <td>13:00 - 14:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          Fly Like a Rocket with Helidon 2.0 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="Fly Like a Rocket with Helidon 2.0" data-presenter="Tomas Langer, Dmitry Kornilov" data-time="14:00 - 15:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View Fly Like a Rocket with Helidon 2.0 abstract
+              </span>
+              <div class="modal-content hidden"><p>Come to our live-coding session to learn about new features added in Helidon 2.0 such as GraalVM native image support in Helidon MP, MicroProfile Reactive Streams and Reactive Stream Operators, Helidon DB Client and HTTP Client in Helidon SE. </p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Tomas Langer, Dmitry Kornilov</td>
+          
+          <td>14:00 - 15:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          MicroProfile Reactive for Java Enterprise Developers 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="MicroProfile Reactive for Java Enterprise Developers" data-presenter="Dr. Clement Escoffier" data-time="15:00 - 16:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View MicroProfile Reactive for Java Enterprise Developers abstract
+              </span>
+              <div class="modal-content hidden"><p>Reactive can be seen as a way to build better Cloud applications - more responsive, more elastic, more robust. In this talk, we explore the changes made in MicroProfile to bring reactive to enterprise development. Want to see how enterprise Java is morphing to become more reactive? How JAX-RS applications can stream data and embrace reactive programming? Then, don’t miss this talk!</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Dr. Clement Escoffier</td>
+          
+          <td>15:00 - 16:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+        <tr>
+          <td>
+           
+          <span class="eclipsefdn-agenda-legend-icon-panel eclipsefdn-agenda-legend-icon"> 
+            <span class="sr-only">  Technical Talks  </span>
+          </span> 
+           
+          MicroProfile, your CloudNative companion for Enterprise Java 
+           
+          <a class="margin-left-10" href="#" title="" 
+            data-toggle="modal" data-target="#eclipsefdn-modal-event-session" data-title="MicroProfile, your CloudNative companion for Enterprise Java" data-presenter="Rudy De Busscher" data-time="16:00 - 17:00 (EDT)"> 
+            <i class="fa fa-external-link"> 
+              <span class="sr-only">
+                View MicroProfile, your CloudNative companion for Enterprise Java abstract
+              </span>
+              <div class="modal-content hidden"><p>When writing micro-services, you need a few goodies for the distributed environment you are running in. With Eclipse MicroProfile you can use etcd for Configuration, OpenTracing and Jaeger for Distributed Tracing and Prometheus for Metrics in combination with your Jakarta EE Application. This session show how you can achieve this with Payara Micro.</p></div>
+            </i>
+          </a> 
+          
+          </td>
+          <td>Rudy De Busscher</td>
+          
+          <td>16:00 - 17:00 (EDT)</td>
+          
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+  
+ 
+</div>
+
+   
+  </div>
+</section>
+<!-- raw HTML omitted -->
+
+
+<section class="row speaker-container padding-bottom-40 padding-top-40 text-center" id="speakers">
+  <div class="container">
+    
+      
+  
+<div class="padding-top-40">
+ 
+   
+    
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="eclipsefdn-user-display">
+  <div class="row">
+    <div class="eclipsefdn-user-display-heading col-xs-24 ">
+      <h2 class="text-center">Speakers</h2>
+      
+    </div>
+    
+    
+    
+    <div class="eclipsefdn-user-display-content col-xs-24">
+      <div >
+        
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/cescoffier.jpg" alt="Clement Escoffier">
+          
+          <h3>
+              Clement Escoffier
+            </h3>
+          <p>Principal Software Engineer at Red Hat</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/rcortez.jpg" alt="Roberto Cortez">
+          
+          <h3>
+              Roberto Cortez
+            </h3>
+          <p>Principal Software Engineer at Red Hat</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/ejiang.jpg" alt="Emily Jiang">
+          
+          <h3>
+              Emily Jiang
+            </h3>
+          <p>Liberty Architect for MicroProfile &amp; CDI</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/sdaschner.jpg" alt="Sebastian Daschner">
+          
+          <h3>
+              Sebastian Daschner
+            </h3>
+          <p>Lead Java Developer Advocate at IBM</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/wlyons.jpg" alt="Will Lyons">
+          
+          <h3>
+              Will Lyons
+            </h3>
+          <p>Senior Director of Enterprise Cloud Native Java Product Management at Oracle Corporation</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/tellison.jpg" alt="Tim Ellison">
+          
+          <h3>
+              Tim Ellison
+            </h3>
+          <p>Java CTO at IBM</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/tlanger.png" alt="Tomas Langer">
+          
+          <h3>
+              Tomas Langer
+            </h3>
+          <p>Helidon Architect &amp; Developer at Oracle</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/dkornilov.jpg" alt="Dmitry Kornilov">
+          
+          <h3>
+              Dmitry Kornilov
+            </h3>
+          <p>Jakarta EE &amp; Helidon Team Lead at Oracle</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/rdebusscher.jpg" alt="Rudy De Busscher">
+          
+          <h3>
+              Rudy De Busscher
+            </h3>
+          <p>Service Team Engineer &amp; Developer Advocate</p>
+        </div>
+        
+        
+        
+          
+        
+        <div class="item padding-40  col-xs-12 col-sm-6 match-height-item-by-row">
+          
+          <img class="img img-responsive" src="/images/speakers/abien.jpeg" alt="Adam Bien">
+          
+          <h3>
+              Adam Bien
+            </h3>
+          <p>Jakarta EE / Java EE / Java SE Developer</p>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+  
+ 
+</div>
+
+   
+  </div>
+</section>
+<!-- raw HTML omitted -->
+
+
+<div class="modal fade " id="eclipsefdn-modal-event-session" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+    
+  </div>
+</main>
+  
+  <div class="featured-footer featured-alternate" id="featured-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-24">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var rawStoryJSON = "null";
+    if (json = JSON.parse(rawStoryJSON)) {
+
+      
+      json = json.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
+        .filter(a => a['type'] === "both" || a['type'] === "footer");
+
+      
+      if (json.length > 1) {
+        shuffleArray(json);
+      }
+
+      
+      if (json.length > 0) {
+        var item = json[0];
+        var storyEl = document.querySelector("#featured-footer");
+        
+        if (item['bgImgSrc'] !== undefined && item['bgImgSrc'] !== "") {
+          storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
+          storyEl.style.backgroundSize = 'cover';
+        }
+
+        
+        if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
+          storyEl.className = item['footer_classes'];
+        }
+
+        
+        var headingEl = document.createElement('h2');
+        headingEl.innerHTML = item['title'];
+        if (item['header_class']) {
+          var headerClasses = item['header_class'].split(' ');
+          for (var headerClassIdx in headerClasses) {
+            headingEl.classList.add(headerClasses[headerClassIdx]);
+          }
+        }
+
+        var linkEl = document.createElement('span');
+        linkEl.innerHTML = item['link'];
+
+        
+        var preambleEl, contentEl, postContentEl = null;
+        if (item['preamble']) {
+          preambleEl = document.createElement('p');
+          preambleEl.innerHTML = item['preamble'];
+          if (item['preamble_class']) {
+            var preambleClasses = item['preamble_class'].split(' ');
+            for (var preambleClassIdx in preambleClasses) {
+              preambleEl.classList.add(preambleClasses[preambleClassIdx]);
+            }
+          }
+        }
+        if (item['content']) {
+          contentEl = document.createElement('p');
+          contentEl.innerHTML = item['content'];
+          if (item['content_class']) {
+            var contentClasses = item['content_class'].split(' ');
+            for (var contentClassIdx in contentClasses) {
+              contentEl.classList.add(contentClasses[contentClassIdx]);
+            }
+          }
+        }
+        if (item['post_content']) {
+          postContentEl = document.createElement('p');
+          postContentEl.innerHTML = item['post_content'];
+          if (item['post_class']) {
+            var postClasses = item['post_class'].split(' ');
+            for (var postClassIdx in postClasses) {
+              postContentEl.classList.add(postClasses[postClassIdx]);
+            }
+          }
+        }
+        
+        var divEl = storyEl.querySelector(".row > div");
+        if (preambleEl != undefined) {
+          divEl.appendChild(preambleEl);
+        }
+        divEl.appendChild(headingEl);
+        if (contentEl != undefined) {
+          divEl.appendChild(contentEl);
+        }
+        if (postContentEl != undefined) {
+          divEl.appendChild(postContentEl);
+        }
+        divEl.appendChild(linkEl);
+      }
+    }
+    
+
+    function shuffleArray(array) {
+      for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
+    }
+  </script>
+
+  
+
+<section class="alt" id="get-social">
+  <div class="backdrop padding-bottom-40 padding-top-40">
+    <div class="container">
+      <h2 class="padding-bottom-20">Get Social</h2>
+      <div class="col-xs-4 match-height-item-by-row">
+        <div class="text-center centered-container">
+          <i class="fa fa-twitter fa-3x"></i>
+        </div>
+      </div>
+      <div class="col-xs-20 match-height-item-by-row">
+        
+      	
+      	  <p data-def>Follow the official conference Twitter handle <a href='https://www.twitter.com/@JakartaOneConf'>@JakartaOneConf</a> for live event updates, speaker announcements, news and more!</p>
+      	
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="jakarta-ee">
+  <div class="container margin-top-30 margin-bottom-30">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        <img src="/images/jakarta/jakarta-ee-linkback.png" class="img" style="width:100%;" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-24 col-sm-16 match-height-item-by-row">
+        <p class="padding-top-30 padding-bottom-20">Powered by participation, Jakarta&reg; EE is focused on enabling community-driven collaboration and open innovation for the cloud</p>
+      </div>
+      <div class="col-xs-24 col-sm-8 match-height-item-by-row">
+        <div class="centered-container">
+          <p><a class="btn btn-gold btn-wide" href="https://jakarta.ee">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section id="upcoming-events" class="padding-top-30 padding-bottom-30 text-center">
+  <div class="container">
+    <h2 class="white">Upcoming Events</h2>
+    <div class="row">
+      <div class="col-sm-24">
+        <ul class="list-inline margin-top-20">
+          
+            
+            
+            <li>
+              <a href="/2020/brazil"><img width="150" class="img-responsive" src="/images/jakartaone-black.svg"></a>
+              <span>Brazil 2020</span>
+            </li>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </ul>
+        <p><a class="btn btn-secondary margin-top-30" href='/past-events'>Past Events</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div id="eclipsefdn-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"></h4>
+        <div class="margin-top-10">
+        	<p id="modal-presenter"></p>
+        	<p id="modal-time"></p>
+        </div>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+  
+<p id="back-to-top">
+  <a class="visible-xs" href="#top">Back to the top</a>
+</p>
+<footer id="solstice-footer">
+  <div class="container">
+    <div class="row">
+      <section class="col-sm-6 hidden-print" id="footer-eclipse-foundation">
+        <h2 class="section-title">Eclipse Foundation</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/org/">About Us</a></li>
+          <li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+          <li><a href="https://www.eclipse.org/donate">Donate</a></li>
+          <li><a href="https://www.eclipse.org/org/documents/">Governance</a></li>
+          <li><a href="https://www.eclipse.org/artwork/">Logo and Artwork</a></li>
+          <li><a href="https://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-legal">
+        <h2 class="section-title">Legal</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+          <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+          <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+          <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+          <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-useful-links">
+        <h2 class="section-title">Useful Links</h2>
+        <ul class="nav">
+          <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+          <li><a href="//help.eclipse.org/">Documentation</a></li>
+          <li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li>
+          <li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li>
+          <li><a href="https://www.eclipse.org/forums/">Forums</a></li>
+          <li><a href="//marketplace.eclipse.org">Marketplace</a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-other">
+        <h2 class="section-title">Other</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li>
+          <li><a href="https://www.eclipse.org/projects">Community of Projects</a></li>
+          <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+          <li><a href="https://www.eclipse.org/org/research/">Research@Eclipse</a></li>
+          <li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li>
+          <li><a href="https://status.eclipse.org">Service Status</a></li>
+        </ul>
+      </section>
+      <div class="col-sm-24 margin-top-20">
+        <div class="row">
+          <div id="copyright" class="col-md-16">
+            <p id="copyright-text">Copyright &copy; Eclipse Foundation, Inc. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-8 social-media">
+            <ul class="list-inline">
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://twitter.com/EclipseFdn">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+                <span class="sr-only">Twitter account</span>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.facebook.com/eclipse.org">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+                <span class="sr-only">Facebook account</span>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.youtube.com/user/EclipseFdn">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-youtube fa-stack-1x"></i>
+                <span class="sr-only">Youtube account</span>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.linkedin.com/company/eclipse-foundation" title="">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+                <span class="sr-only">Linkedin account</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://jakartaone.org/js/solstice.js"></script>
+
+
+    <script src="https://jakartaone.org/js/solstice.hugo.js"></script>
+
+  
+<script src="/js/home.slider.js"></script>
+<script src="/js/home.modal.js"></script>
+
+</body>
+</html>
+

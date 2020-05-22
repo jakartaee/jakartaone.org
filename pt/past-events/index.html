@@ -125,6 +125,11 @@ Saiba mais     ">
 
 
 
+  
+  
+
+
+
 
 
 
@@ -210,7 +215,7 @@ Saiba mais     ">
         <div class="event-item">
           <h3 class="h2">CN4J 2020</h3>
           <p>May 12, 2020</p>
-          <a class="btn btn-primary" href="/cn4j2020" title="Aprenda mais sobre CN4J 2020">Saiba mais</a>
+          <a class="btn btn-primary" href="/2020/cn4j" title="Aprenda mais sobre CN4J 2020">Saiba mais</a>
         </div>
       </div>
       
@@ -221,7 +226,7 @@ Saiba mais     ">
         <div class="event-item">
           <h3 class="h2">JakartaOne Japan 2020</h3>
           <p>February 26, 2020</p>
-          <a class="btn btn-primary" href="/japan2020" title="Aprenda mais sobre JakartaOne Japan 2020">Saiba mais</a>
+          <a class="btn btn-primary" href="/2020/japan" title="Aprenda mais sobre JakartaOne Japan 2020">Saiba mais</a>
         </div>
       </div>
       
@@ -267,16 +272,16 @@ Saiba mais     ">
   <script>
     var rawStoryJSON = "null";
     if (json = JSON.parse(rawStoryJSON)) {
-   
+
       
-      json = json.filter(a => new Date(a['endDate']) > new Date())
-        .filter(a => a['type'] === "both" || a['type'] === "footer" );
-      
+      json = json.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
+        .filter(a => a['type'] === "both" || a['type'] === "footer");
+
       
       if (json.length > 1) {
         shuffleArray(json);
       }
-      
+
       
       if (json.length > 0) {
         var item = json[0];
@@ -286,50 +291,56 @@ Saiba mais     ">
           storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
           storyEl.style.backgroundSize = 'cover';
         }
-    
+
         
         if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
           storyEl.className = item['footer_classes'];
         }
-        
+
         
         var headingEl = document.createElement('h2');
-        headingEl.innerHTML =  item['title'];
-        if (item['header_class'] != undefined) {
-         var headerClasses = item['header_class'].split(' ');
-         for (var headerClassIdx in headerClasses) {
-             headingEl.classList.add(headerClasses[headerClassIdx]);
-       	  }
+        headingEl.innerHTML = item['title'];
+        if (item['header_class']) {
+          var headerClasses = item['header_class'].split(' ');
+          for (var headerClassIdx in headerClasses) {
+            headingEl.classList.add(headerClasses[headerClassIdx]);
+          }
         }
-        
+
         var linkEl = document.createElement('span');
-        linkEl.innerHTML =  item['link'];
-    
+        linkEl.innerHTML = item['link'];
+
         
         var preambleEl, contentEl, postContentEl = null;
-        if (item['preamble'] != undefined && item['premble'] != "") {
+        if (item['preamble']) {
           preambleEl = document.createElement('p');
-          preambleEl.innerHTML =  item['preamble'];
-	      var preambleClasses = item['preamble_class'].split(' ');
-	      for (var preambleClassIdx in preambleClasses) {
-	        preambleEl.classList.add(preambleClasses[preambleClassIdx]);
-	      }
+          preambleEl.innerHTML = item['preamble'];
+          if (item['preamble_class']) {
+            var preambleClasses = item['preamble_class'].split(' ');
+            for (var preambleClassIdx in preambleClasses) {
+              preambleEl.classList.add(preambleClasses[preambleClassIdx]);
+            }
+          }
         }
-        if (item['content'] != undefined && item['content'] != "") {
+        if (item['content']) {
           contentEl = document.createElement('p');
-          contentEl.innerHTML =  item['content'];
-	      var contentClasses = item['content_class'].split(' ');
-	   	  for (var contentClassIdx in contentClasses) {
-	   		contentEl.classList.add(contentClasses[contentClassIdx]);
-	   	  }
+          contentEl.innerHTML = item['content'];
+          if (item['content_class']) {
+            var contentClasses = item['content_class'].split(' ');
+            for (var contentClassIdx in contentClasses) {
+              contentEl.classList.add(contentClasses[contentClassIdx]);
+            }
+          }
         }
-        if (item['post_content'] != undefined && item['post_content'] != "") {
+        if (item['post_content']) {
           postContentEl = document.createElement('p');
-          postContentEl.innerHTML =  item['post_content'];
-	      var postClasses = item['post_class'].split(' ');
-	   	  for (var postClassIdx in postClasses) {
-	   		postContentEl.classList.add(postClasses[postClassIdx]);
-	   	  }
+          postContentEl.innerHTML = item['post_content'];
+          if (item['post_class']) {
+            var postClasses = item['post_class'].split(' ');
+            for (var postClassIdx in postClasses) {
+              postContentEl.classList.add(postClasses[postClassIdx]);
+            }
+          }
         }
         
         var divEl = storyEl.querySelector(".row > div");
@@ -349,12 +360,12 @@ Saiba mais     ">
     
 
     function shuffleArray(array) {
-        for (var i = array.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
-        }
+      for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
     }
   </script>
 
@@ -413,7 +424,7 @@ Saiba mais     ">
             
             
             <li>
-              <a href="/brazil2020"><img width="150" class="img-responsive" src="/images/jakartaone-black.svg"></a>
+              <a href="/2020/brazil"><img width="150" class="img-responsive" src="/images/jakartaone-black.svg"></a>
               <span>Brazil 2020</span>
             </li>
             
