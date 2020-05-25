@@ -26,6 +26,10 @@ Este evento é uma ótima oportunidade para conhecer e interagir com os líderes
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+{{< grid/section-container id="sponsors" class="text-center margin-top-40 margin-bottom-20">}}
+  {{< events/sponsors event="brazil" year="2020" title="Nossos patrocinadores" >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container >}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}

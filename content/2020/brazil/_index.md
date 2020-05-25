@@ -24,6 +24,11 @@ This event is a great opportunity to meet and interact with the industry and com
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+{{< grid/section-container id="sponsors" class="text-center margin-top-40 margin-bottom-20">}}
+  {{< events/sponsors event="brazil" year="2020" title="Our Sponsors" >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
