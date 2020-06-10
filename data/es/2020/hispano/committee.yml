@@ -1,0 +1,28 @@
+items:
+  - name: "Alberto Salazar"
+    title: "Chief Advance Latam - Ecuador JUG Leader"
+    img: "asalazar.jpg"
+    bio: |
+      <p>Emprendedor, Consultor, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, fundador del Grupo de Usuarios de Java en Ecuador, Miembro Asociado de Java Community Process y evangelista/entrenador de Java; activo en twitter en @betosalazar. Es co-autor del libro 'Software Architecture with Spring 5.0'. Alberto ha estado trabajando durante 2 décadas creando sistemas de gran escala y alta carga transaccional desde software militar hasta soluciones bancarias. También es un ponente frecuente en conferencias sobre Java como Oracle Code One, JBCNConf, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne, Oracle Developer Tour Latam, OTN Tours, y reuniones locales de JUG.</p>
+  - name: "Carlos Camacho"
+    title: "Software Developer - Dominican Republic JUG Co-Leader"
+    img: "ccamacho.jpg"
+    bio: |
+      <p>Ingeniero Telemático (Egresado de PUCMM). Actualmente Desarrollador Informático en el Ministerio de Hacienda de la República Dominicana. Entusiasta de la tecnología y el software libre, desarrollador Java, instructor ocasional (Java / Linux), aficionado del béisbol/sóftbol y los bailes latinos.</p>
+      <p>Ganador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del JCP (Java Community Process). Co-fundador / Organizador del grupo de usuarios Java (Java User Group ) de la República Dominicana (aka Java Dominicano) y miembro del staff organizador de JConf Dominicana (https://jconfdominicana.org)</p>
+      <p>En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.</p>
+  - name: "Eudris Cabrera"
+    title: "Software Developer – University professor - Dominican Republic JUG Co-Leader"
+    img: "ecabrera.jpg"
+    bio: |
+      <p>Ingeniero Telemático, Profesor Universitario en la Pontificia Universidad Católica Madre y Maestra (PUCMM), Actualmente Director de la Escuela en Computación y Telecomunicaciones. Co-fundador y organizador del Java User Group en República Dominicana, conocido como Java Dominicano, Miembro de La Fundación Código Libre Dominicano. Co-Organizador del primer evento dedicado a la plataforma Java en República Dominicana, JConf Dominicana 2019 (https://jconfdominicana.org). Co-organizador del Barcamp RD (https://barcamp.org.do/), evento exclusivo para presentar temas relacionado a tecnologías en camino a su octava edición en noviembre del 2020. En mis más de quince años de experiencia me considero un evangelista de la plataforma Java y todos sus derivados, donde he impartido diferentes cursos en diferentes centros educativos en República Dominicana y apoyado proyectos bajo la plataforma. Profesionalmente soy Director de Tecnologías en la empresa AvatharTech, dedicada al desarrollo y consultoría de aplicaciones para los sectores productivos del país.</p>
+  - name: "Hillmer Chona"
+    title: "Java Champion - MedellinJUG Leader"
+    img: "hchona.jpg"
+    bio: |
+      <p>Hillmer es Ingeniero de Sistemas, Java Champion, Oracle GroundBreaker Ambassador, Líder de la Comunidad de Java Medellin, Organizador de la Comunidad Hispana de JUGs, Ganador del reconocimiento Duke’s Choice Award, Contribuidor en proyectos Open Source como Hibernate Validator y Eclipse Collections, y Arquitecto de Software enfocado en Tecnologías Java. En su trabajo combina roles de Administrador de Proyectos y Arquitecto de Software.</p>
+  - name: "Jonathan Vila"
+    title: "Software Engineer en Red Hat"
+    img: "jvila.jpg"
+    bio: |
+      <p>Trabajo en Red Hat como Senior Software Engineer en el area de Middleware, pero he trabajado como desarrollador desde la primera version de El Secreto de Monkey Island, hace unos 30 años. Certificado como PMP por el PMI en Gestion de Proyectos. Tambien leader del Barcelona Java Users Group y fundado de la conferencia JBCNConf en Barcelona. Muy interesado en realidad simulada, psicologia y Java a la par que con metodologias de gestion. Speaker en Oracle Code One, DevNexus y los meetups de BarcelonaJUG y MadridJUG.</p>

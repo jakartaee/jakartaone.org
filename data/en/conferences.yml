@@ -9,6 +9,14 @@ items:
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
   -
+    name: JakartaOne in Spanish 2020
+    location: Virtual
+    date: October 12, 2020
+    end_date: 2020-10-12T23:59:00-00:00
+    url: /2020/hispano
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+  -
     name: Brazil 2020
     location: Virtual
     date: August 29, 2020
