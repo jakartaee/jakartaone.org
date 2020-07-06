@@ -2,3 +2,7 @@ image: "<img class='img-responsive margin-auto' src='/images/jakarta/jakarta-ee-
 title: "Save the date!"
 end_date: 2020-09-16T23:59:00-00:00
 end_title: "The event has now concluded!"
+links:
+    - url: https://www.papercall.io/jakartaone-2020
+      text:  Submit your paper now
+      external: true
