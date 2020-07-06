@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JakartaOne en Español 2020 on JakartaOne Live | Jakarta EE Software | Cloud Native</title>
+    <link>https://jakartaone.org/es/2020/hispano/</link>
+    <description>Recent content in JakartaOne en Español 2020 on JakartaOne Live | Jakarta EE Software | Cloud Native</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
+    <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
+    <lastBuildDate>Tue, 09 Jun 2020 15:50:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://jakartaone.org/es/2020/hispano/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Código de Conducta</title>
+      <link>https://jakartaone.org/es/2020/hispano/code-of-conduct/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://jakartaone.org/es/2020/hispano/code-of-conduct/</guid>
+      <description>Se requiere que todos los asistentes, oradores, patrocinadores y voluntarios de nuestra conferencia estén de acuerdo con el siguiente código de conducta.
+Los organizadores harán cumplir este código durante todo el evento. Esperamos la cooperación de todos los participantes para ayudar a garantizar un entorno seguro para todos.
+La Versión Rápida Nuestra conferencia está dedicada a proporcionar una conferencia libre de acoso para todos, independientemente de su género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza o religión.</description>
+    </item>
+    
+    <item>
+      <title>Acuerdo del orador y permiso para la grabación</title>
+      <link>https://jakartaone.org/es/2020/hispano/speaker-agreement/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://jakartaone.org/es/2020/hispano/speaker-agreement/</guid>
+      <description>Daré la Charla Estoy de acuerdo en presentar mi discurso en la conferencia y adherirme al contenido y la intención como se describe en la descripción proporcionada al comité del programa.
+Soy Responsable Reconozco que solo yo soy responsable de la descripción publicada de mi charla. Usaré el sitio web para corregir cualquier error en hechos, formato, gramática, ortografía, etc.
+Sin Garantías Proporciono mi material &amp;ldquo;tal cual&amp;rdquo;, sin garantías ni condiciones de ningún tipo, ya sea expresas o implícitas, incluida, entre otras, cualquier garantía de aptitud para un propósito particular.</description>
+    </item>
+    
+    <item>
+      <title>Committee Members</title>
+      <link>https://jakartaone.org/es/2020/hispano/program-committee/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://jakartaone.org/es/2020/hispano/program-committee/</guid>
+      <description>Alberto Salazar Emprendedor, Consultor, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, fundador del Grupo de Usuarios de Java en Ecuador, Miembro Asociado de Java Community Process y evangelista/entrenador de Java; activo en twitter en @betosalazar. Es co-autor del libro &#39;Software Architecture with Spring 5.0&#39;. Alberto ha estado trabajando durante 2 décadas creando sistemas de gran escala y alta carga transaccional desde software militar hasta soluciones bancarias. También es un ponente frecuente en conferencias sobre Java como Oracle Code One, JBCNConf, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne, Oracle Developer Tour Latam, OTN Tours, y reuniones locales de JUG.</description>
+    </item>
+    
+  </channel>
+</rss>

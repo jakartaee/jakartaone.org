@@ -23,6 +23,21 @@
   </url>
   
   <url>
+    <loc>https://jakartaone.org/2020/hispano/</loc>
+    <lastmod>2020-03-31T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/hispano/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/2020/hispano/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/past-events/</loc>
     <lastmod>2020-01-17T15:09:45-04:00</lastmod>
     <xhtml:link
@@ -34,6 +49,11 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://jakartaone.org/pt/past-events/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/past-events/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -60,6 +80,21 @@
   <url>
     <loc>https://jakartaone.org/2020/cn4j/speaker-agreement/</loc>
     <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jakartaone.org/2020/hispano/speaker-agreement/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/hispano/speaker-agreement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/2020/hispano/speaker-agreement/"
+                />
   </url>
   
   <url>
@@ -138,6 +173,21 @@
   </url>
   
   <url>
+    <loc>https://jakartaone.org/2020/hispano/program-committee/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/hispano/program-committee/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/2020/hispano/program-committee/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/2020/japan/program-committee/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -172,6 +222,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://jakartaone.org/2020/"
                 />
@@ -189,6 +244,11 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://jakartaone.org/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/"
                 />
     <xhtml:link
                 rel="alternate"

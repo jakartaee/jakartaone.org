@@ -17,6 +17,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/past-events/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="jp"
                 href="https://jakartaone.org/jp/past-events/"
                 />
@@ -82,6 +87,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="jp"
                 href="https://jakartaone.org/jp/"
                 />
@@ -113,6 +123,11 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://jakartaone.org/pt/2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/"
                 />
     <xhtml:link
                 rel="alternate"
