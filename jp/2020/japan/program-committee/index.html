@@ -423,90 +423,90 @@ http://www.mushagaeshi.com  &nbsp;Twitterで岩崎浩文をフォローしてく
   </div>
   <script>
     var rawStoryJSON = "null";
-    if (json = JSON.parse(rawStoryJSON)) {
+    if (footerJson = JSON.parse(rawStoryJSON)) {
 
       
-      json = json.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
+      footerJson = footerJson.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
         .filter(a => a['type'] === "both" || a['type'] === "footer");
 
       
-      if (json.length > 1) {
-        shuffleArray(json);
+      if (footerJson.length > 1) {
+        shuffleArray(footerJson);
       }
 
       
-      if (json.length > 0) {
-        var item = json[0];
-        var storyEl = document.querySelector("#featured-footer");
+      if (footerJson.length > 0) {
+        var footerItem = footerJson[0];
+        var footerStoryEl = document.querySelector("#featured-footer");
         
-        if (item['bgImgSrc'] !== undefined && item['bgImgSrc'] !== "") {
-          storyEl.style.backgroundImage = 'url(\'' + item['bgImgSrc'] + '\')';
-          storyEl.style.backgroundSize = 'cover';
+        if (footerItem['bgImgSrc'] !== undefined && footerItem['bgImgSrc'] !== "") {
+        	footerStoryEl.style.backgroundImage = 'url(\'' + footerItem['bgImgSrc'] + '\')';
+          footerStoryEl.style.backgroundSize = 'cover';
         }
 
         
-        if (item['footer_classes'] !== undefined && item['footer_classes'] !== "") {
-          storyEl.className = item['footer_classes'];
+        if (footerItem['footer_classes'] !== undefined && footerItem['footer_classes'] !== "") {
+          footerStoryEl.className = footerItem['footer_classes'];
         }
 
         
-        var headingEl = document.createElement('h2');
-        headingEl.innerHTML = item['title'];
-        if (item['header_class']) {
-          var headerClasses = item['header_class'].split(' ');
+        var footerHeadingEl = document.createElement('h2');
+        footerHeadingEl.innerHTML = footerItem['title'];
+        if (footerItem['header_class']) {
+          var headerClasses = footerItem['header_class'].split(' ');
           for (var headerClassIdx in headerClasses) {
-            headingEl.classList.add(headerClasses[headerClassIdx]);
+        	  footerHeadingEl.classList.add(headerClasses[headerClassIdx]);
           }
         }
 
-        var linkEl = document.createElement('span');
-        linkEl.innerHTML = item['link'];
+        var footerLinkEl = document.createElement('span');
+        footerLinkEl.innerHTML = footerItem['link'];
 
         
-        var preambleEl, contentEl, postContentEl = null;
-        if (item['preamble']) {
-          preambleEl = document.createElement('p');
-          preambleEl.innerHTML = item['preamble'];
-          if (item['preamble_class']) {
-            var preambleClasses = item['preamble_class'].split(' ');
+        var footerPreambleEl, footerContentEl, footerPostContentEl = null;
+        if (footerItem['preamble']) {
+          footerPreambleEl = document.createElement('p');
+          footerPreambleEl.innerHTML = footerItem['preamble'];
+          if (footerItem['preamble_class']) {
+            var preambleClasses = footerItem['preamble_class'].split(' ');
             for (var preambleClassIdx in preambleClasses) {
-              preambleEl.classList.add(preambleClasses[preambleClassIdx]);
+              footerPreambleEl.classList.add(preambleClasses[preambleClassIdx]);
             }
           }
         }
-        if (item['content']) {
-          contentEl = document.createElement('p');
-          contentEl.innerHTML = item['content'];
-          if (item['content_class']) {
-            var contentClasses = item['content_class'].split(' ');
+        if (footerItem['content']) {
+        	footerContentEl = document.createElement('p');
+        	footerContentEl.innerHTML = footerItem['content'];
+          if (footerItem['content_class']) {
+            var contentClasses = footerItem['content_class'].split(' ');
             for (var contentClassIdx in contentClasses) {
-              contentEl.classList.add(contentClasses[contentClassIdx]);
+            	footerContentEl.classList.add(contentClasses[contentClassIdx]);
             }
           }
         }
-        if (item['post_content']) {
-          postContentEl = document.createElement('p');
-          postContentEl.innerHTML = item['post_content'];
-          if (item['post_class']) {
-            var postClasses = item['post_class'].split(' ');
+        if (footerItem['post_content']) {
+        	footerPostContentEl = document.createElement('p');
+        	footerPostContentEl.innerHTML = footerItem['post_content'];
+          if (footerItem['post_class']) {
+            var postClasses = footerItem['post_class'].split(' ');
             for (var postClassIdx in postClasses) {
-              postContentEl.classList.add(postClasses[postClassIdx]);
+            	footerPostContentEl.classList.add(postClasses[postClassIdx]);
             }
           }
         }
         
-        var divEl = storyEl.querySelector(".row > div");
-        if (preambleEl != undefined) {
-          divEl.appendChild(preambleEl);
+        var footerDivEl = footerStoryEl.querySelector(".row > div");
+        if (footerPreambleEl != undefined) {
+        	footerDivEl.appendChild(footerPreambleEl);
         }
-        divEl.appendChild(headingEl);
-        if (contentEl != undefined) {
-          divEl.appendChild(contentEl);
+        footerDivEl.appendChild(footerHeadingEl);
+        if (footerContentEl != undefined) {
+        	footerDivEl.appendChild(footerContentEl);
         }
-        if (postContentEl != undefined) {
-          divEl.appendChild(postContentEl);
+        if (footerPostContentEl != undefined) {
+        	footerDivEl.appendChild(footerPostContentEl);
         }
-        divEl.appendChild(linkEl);
+        footerDivEl.appendChild(footerLinkEl);
       }
     }
     
