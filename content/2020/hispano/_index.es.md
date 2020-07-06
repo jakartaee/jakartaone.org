@@ -10,6 +10,7 @@ container: "container-fluid"
 headline: "12 de octubre del 2020"
 layout: "single"
 menu_name: "hispano"
+tagline_suffix: <a class="btn btn-primary margin-bottom-20" href="https://www.papercall.io/jakarta-one-es">Envía tu propuesta ahora</a>
 ---
 
 <!-- Add user carousel for committee -->
