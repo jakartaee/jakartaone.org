@@ -10,6 +10,7 @@ container: "container-fluid"
 headline: "October 12, 2020"
 layout: "single"
 menu_name: "hispano"
+tagline_suffix: <a class="btn btn-primary margin-bottom-20" href="https://www.papercall.io/jakarta-one-es">Submit your paper now</a>
 ---
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
