@@ -8,6 +8,7 @@ items:
     url: /2020
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    icon: fa fa-rocket
   -
     name: JakartaOne in Spanish 2020
     location: Virtual
