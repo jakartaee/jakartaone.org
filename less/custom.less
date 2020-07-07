@@ -285,7 +285,11 @@ span.icon::after {
     -webkit-box-flex: 1;
     flex-grow: 1;
 }
-
+// fix for buttons in flex columns being stretched past content
+.flex-column .btn {
+  width: fit-content;
+  margin: auto;
+}
 .speaker-container img {
 	border-radius: 50%;
 	max-height: 200px;
@@ -305,12 +309,13 @@ section.active-events, section.past-events {
         padding: 15px; 
         text-align: center; 
         background-color: #1b208b; 
-        color: #fff; 
+        color: #fff;
+        height: 100%;
       }
       h3 { 
         color: #fff; 
-        font-size: 48px; 
-        font-weight: 100; 
+        font-size: 25px; 
+        font-weight: 600; 
       }
       p {
        padding-bottom: 15px; 
