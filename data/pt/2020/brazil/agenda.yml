@@ -1,11 +1,52 @@
 complete: false
 types:
     - name: Keynotes
-      class: keynote
+      id: keynote 
+      color: "#e44"
+    - name: Vendor Track
+      id: vendor
+      color: "#c6a061"
+    - name: Jakarta EE & MicroProfile Palestras
+      id: jakarta-ee
 
 items:
-    - name: TBD
-      presenter: TBD
+    - name: Keynote
+      presenter: Program Committee
       type: keynote
       time: TBD
-      abstract: TBD
+    - name: Vendor Track (Red Hat)
+      presenter: TBD
+      type: vendor
+      time: TBD
+    - name: Vendor Track (IBM)
+      presenter: TBD
+      type: vendor
+      time: TBD
+    - name: Vendor Track (Red Hat)
+      presenter: TBD
+      type: vendor
+      time: TBD
+    - name: Vendor Track (Oracle)
+      presenter: TBD
+      type: vendor
+      time: TBD
+    - name: Jakarta EE & MicroProfile Palestra
+      presenter: TBD
+      type: jakarta-ee
+      time: TBD
+    - name: Jakarta EE & MicroProfile Palestra
+      presenter: TBD
+      type: jakarta-ee
+      time: TBD
+    - name: Jakarta EE & MicroProfile Palestra
+      presenter: TBD
+      type: jakarta-ee
+      time: TBD
+    - name: Jakarta EE & MicroProfile Palestra
+      presenter: TBD
+      type: jakarta-ee
+      time: TBD
+    - name: Jakarta EE & MicroProfile Palestra
+      presenter: TBD
+      type: jakarta-ee
+      time: TBD
