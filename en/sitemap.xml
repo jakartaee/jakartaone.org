@@ -138,6 +138,21 @@
   </url>
   
   <url>
+    <loc>https://jakartaone.org/2020/hispano/code-of-conduct/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/hispano/code-of-conduct/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/2020/hispano/code-of-conduct/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/2020/japan/code-of-conduct/</loc>
     <lastmod>2019-07-04T00:00:00+00:00</lastmod>
     <xhtml:link
