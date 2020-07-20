@@ -24,6 +24,10 @@ Este evento virtual es una mezcla de charlas de expertos, demostraciones y sesio
 {{</ grid/section-container >}}
 
 
+{{< grid/section-container id="sponsors" class="text-center margin-top-40 ">}}
+  {{< events/sponsors event="hispano" year="2020" title="Comunidades amigas" >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
