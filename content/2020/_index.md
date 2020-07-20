@@ -33,3 +33,13 @@ You are now invited to submit your talk and have the opportunity to share your w
   {{</grid/div >}}
   {{< bootstrap/button href="https://www.papercall.io/jakartaone-2020" pClass="text-center margin-top-30" linkClass="btn-primary">}}Submit your paper today{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
+
+
+<!-- Add user carousel for committee -->
+{{< grid/section-container>}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display  year="2020"  source="committee" subpage="program-committee" useCarousel="false" >}}
+We are proud to say that the sessions and keynotes at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!
+    {{</ events/user_display >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
