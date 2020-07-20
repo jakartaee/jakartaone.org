@@ -1,0 +1,35 @@
+items:
+  - name: "Will Lyons"
+    title: "Senior Director of Enterprise Cloud Native Java Product Management at Oracle Corporation"
+    img: "wlyons.jpg"
+    bio: |
+      <p>Will Lyons is Senior Director of Enterprise Cloud Native Java Product Management at Oracle Corporation. Will has extensive knowledge of Oracle's Enterprise Cloud Native Java capabilities, including Oracle WebLogic Server, Oracle Coherence, Helidon, Oracle Cloud, Kubernetes, Java EE and Jakarta EE, and future technology and product directions. Will has over 20 years of experience working with customers using enterprise software and cloud computing technologies.</p>
+  - name: "Rabea Gransberger"
+    title: "Java Champion, Software Engineer at MEKOS"
+    img: "rgransberger.jpeg"
+    bio: "<p>I studied computer science and got a diploma in 2008 and was named Java Champion in 2017. I’m co-leading the software development department and working as a software engineer on various projects at MEKOS. My main focus is on keeping the code base clean and educating the team on how to write better code. I’m a well known speaker at Java conferences and user groups around the world. I started the Java user group Bremen in 2012 and am part of the organisation team ever since.</p>"
+  - name: "Ivan Ivanov"
+    title: "Java Champion, co-founder and senior programmer at VIDA Software"
+    img: "iivanov.jpg"
+    bio: |
+      <p>Ivan St. Ivanov is Java Champion and co-founder and senior programmer at VIDA Software, doing various consulting gigs and teaching a couple of Java and Microservices related courses. He is an active JUG member, driving the Adopt-a-JSR programme in Bulgaria as well as organising the jPrime conference in Sofia.</p>
+      <p>In his free time he likes contributing to open source software. As such he is a proud contributor to the MicroProfile. Ivan is doing his PhD in the area of cloud multi-tenancy in the University of National and World Economy. He is also teaching Java and Java EE in Sofia University.</p>
+  - name: "Michael Redlich"
+    title: "Principal Consultant for Cybercom Group"
+    img: "mredlich.jpg"
+    bio: |
+      <p>Michael Redlich has been an active member of the Java community for the past 20 years. He founded the ACGNJ Java Users Group in 2001 and has served as a senior Java news editor at InfoQ since 2016.</p>
+      <p>He has presented at venues such as Oracle Code One, Emerging Technologies for the Enterprise, Trenton Computer Festival IT Professional Conference, Philly Java Users Group, Princeton Java Users Group and Capital District Java Developers Network.</p>
+      <p>More recently, Mike has contributed to open source projects and serves on the leadership council of the Jakarta EE Ambassadors.</p>
+  - name: "Ivar Grimstad"
+    title: "Principal Consultant for Cybercom Group"
+    twitter_handle: "ivar_grimstad"
+    img: "igrimstad.png"
+    bio: "<p>Ivar Grimstad is a Java Champion, Oracle Groundbreaker Ambassador and JUG Leader working as Principal Consultant for Cybercom Group in Sweden.</p>
+                <p>He is the PMC Lead for Eclipse Enterprise for Java (EE4J) and was involved in the forming of Jakarta EE. He is also involved in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and has served as Expert Group Member for a number of JSRs, such as JSR 375 (Java EE Security API).</p>
+                <p>Ivar is also involved in Eclipse MicroProfile. He is an Apache NetBeans Committer and a frequent speaker at international developer conferences.</p>"
+  - name: "Tanja Obradovic"
+    title: "Jakarta EE Program Manager"
+    twitter_handle: "tanjaobradovic"
+    img: "tobradovic.png"
+    bio: "<p>Tanja joined Eclipse Foundation as Jakarta EE Program Manager June 2018. Having been involved with Java and Java EE for quite some time, revitalizing Enterprise Java seems like a good challenge and a great fit for her!</p>"
