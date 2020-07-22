@@ -8,7 +8,7 @@ items:
     url: https://www.meetup.com/es/Java-Bs-As/
     width: 200px
   - title: Guadalajara JUG
-    image: /images/sponsors/guadalajara_jug.jpg
+    image: /images/sponsors/guadalajara_jug.png
     url: https://www.meetup.com/es/gdljug/
     width: 200px
   - title: Medellín JUG
@@ -16,6 +16,6 @@ items:
     url: https://twitter.com/MedellinJug
     width: 200px
   - title: JUG Nicaragua
-    image: /images/sponsors/nicaragua_jug.jpg
+    image: /images/sponsors/nicaragua_jug.png
     url: https://www.javanicaragua.org/
     width: 200px
