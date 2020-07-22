@@ -3,3 +3,19 @@ items:
     image: /images/sponsors/barcelona_jug.jpg
     url: https://www.meetup.com/BarcelonaJUG/
     width: 200px
+  - title: JUG JavaBsAs
+    image: /images/sponsors/bsas_jug.jpg
+    url: https://www.meetup.com/es/Java-Bs-As/
+    width: 200px
+  - title: Guadalajara JUG
+    image: /images/sponsors/guadalajara_jug.png
+    url: https://www.meetup.com/es/gdljug/
+    width: 200px
+  - title: Medellín JUG
+    image: /images/sponsors/medellin_jug.jpg
+    url: https://twitter.com/MedellinJug
+    width: 200px
+  - title: JUG Nicaragua
+    image: /images/sponsors/nicaragua_jug.png
+    url: https://www.javanicaragua.org/
+    width: 200px
