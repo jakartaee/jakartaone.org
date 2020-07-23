@@ -24,7 +24,7 @@ This event is a great opportunity to meet and interact with the industry and com
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
-  {{< events/sponsors event="hispano" year="2020" title="Community Partners" >}}
+  {{< events/sponsors event="hispano" year="2020" title="Community Partners" displayBecomeSponsor="false" >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
