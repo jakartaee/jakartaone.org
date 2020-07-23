@@ -1,0 +1,7 @@
+title: "About the Event"
+end_date: 2020-10-12T23:59:00-00:00
+end_text: The event has now concluded!
+links:
+  - url: https://www.papercall.io/jakarta-one-es
+    text:  Submit your paper now
+    external: true

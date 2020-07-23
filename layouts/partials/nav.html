@@ -10,14 +10,19 @@
 
 {{ $currentNode := . }}
 {{ $currSect := .Page.CurrentSection }}
-{{ if and $currSect (ne $currSect .Page.FirstSection) }}
+{{ if and $currSect .Page.FirstSection.Section }}
   {{ $year := .Page.FirstSection.Section }}
-  {{ .Scratch.Set "menuName" (printf "%s%s" .Page.CurrentSection.Params.menu_name $year ) }}
+  {{ if .Page.CurrentSection.Params.menu_name }}
+    {{ .Scratch.Set "menuName" (printf "%s%s" .Page.CurrentSection.Params.menu_name $year ) }}
+  {{ else }}
+    {{ .Scratch.Set "menuName" $year }}
+  {{ end }}
 {{ else }}
   {{ .Scratch.Set "menuName" "main" }}
 {{ end }}
 {{ $menuName := .Scratch.Get "menuName" }}
 {{ $menu := (index .Site.Menus $menuName) }}
+<div hidden="hidden" data-menu="{{.Page.FirstSection.Section}}" data-menu-name="{{.Scratch.Get "menuName"}}"  data-section="{{$currSect}}">{{$menu}}</div>
 {{ range $menu }}
 {{ $anchor:=replaceRE "[^#]+(.*)$" "$1" .URL }}
 {{ if .HasChildren }}

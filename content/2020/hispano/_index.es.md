@@ -8,10 +8,25 @@ hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
 headline: "12 de octubre del 2020"
+tagline: "JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube."
 layout: "single"
 menu_name: "hispano"
-tagline_suffix: <a class="btn btn-primary margin-bottom-20" href="https://www.papercall.io/jakarta-one-es">Envía tu propuesta ahora</a>
 ---
+
+{{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false" >}}
+    {{< events/registration event="hispano" year="2020"  >}}
+Este evento virtual es una mezcla de charlas de expertos, demostraciones y sesiones de reflexión centradas en aplicaciones empresariales implementadas usando Jakarta EE (sucesor de Java EE) neutral de proveedor y de código abierto con especificaciones como Eclipse MicroProfile en Kubernetes.
+
+¡Este evento es una gran oportunidad para conocer e interactuar con los líderes de la industria y la comunidad en línea, para comprender mejor los aspectos clave de las tecnologías Jakarta EE y MicroProfile y compartir sus ideas con los líderes e innovadores del ecosistema!
+    {{</ events/registration >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+
+{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+  {{< events/sponsors event="hispano" year="2020" title="Comunidades amigas" displayBecomeSponsor="false">}}
+{{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}

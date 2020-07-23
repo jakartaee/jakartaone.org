@@ -90,6 +90,10 @@ themesDir = "node_modules/"
     weight = 2
     parent = "Attend"
 
+[[languages.en.menu.2020]]
+    name = "Call for Papers"
+    url = "/2020/#call-for-papers"
+
 [[languages.en.menu.japan2020]]
     name = "Plan of the day"
     url = "/2020/japan/#plan-of-the-day"
@@ -219,11 +223,6 @@ themesDir = "node_modules/"
     url = "/2020/brazil/speaker-agreement/"
     weight = 2
     parent = "Participe"
-    
-[[languages.en.menu.hispano2020]]
-    name = "Event Details"
-    url = "/2020/hispano#plan-of-the-day"
-    weight = 1
 
 [[languages.en.menu.hispano2020]]
     name = "Speakers"
@@ -245,30 +244,25 @@ themesDir = "node_modules/"
     url = "/2020/hispano/speaker-agreement/"
     weight = 2
     parent = "Attend"
-    
-[[languages.es.menu.hispanic2020]]
-    name = "Detalles del Evento"
-    url = "/hispanic2020/#plan-of-the-day"
-    weight = 1
 
-[[languages.es.menu.hispanic2020]]
+[[languages.es.menu.hispano2020]]
     name = "Conferencista"
-    url = "/hispanic2020/#speakers"
+    url = "/2020/hispano/#speakers"
     weight = 2
 
-[[languages.es.menu.hispanic2020]]
+[[languages.es.menu.hispano2020]]
     name = "Asistir"
     weight = 3
 
-[[languages.es.menu.hispanic2020]]
+[[languages.es.menu.hispano2020]]
     name = "Código de Conducta"
-    url = "/hispanic2020/code-of-conduct/"
+    url = "/2020/hispano/code-of-conduct/"
     weight = 1
     parent = "Asistir"
 
-[[languages.es.menu.hispanic2020]]
+[[languages.es.menu.hispano2020]]
     name = "Acuerdo del Conferencista"
-    url = "/hispanic2020/speaker-agreement/"
+    url = "/2020/hispano/speaker-agreement/"
     weight = 2
     parent = "Asistir"
     
