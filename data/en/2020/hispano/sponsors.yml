@@ -19,3 +19,15 @@ items:
     image: /images/sponsors/nicaragua_jug.png
     url: https://www.javanicaragua.org/
     width: 200px
+  - title: Ecuador JUG
+    image: /images/sponsors/ecuador_jug.jpg
+    url: ttps://www.meetup.com/ecuadorjug/
+    width: 200px
+  - title: Java Dominicano
+    image: /images/sponsors/dominicado_jug.png
+    url: https://twitter.com/JavaDominicano
+    width: 200px
+  - title: Málaga JUG
+    image: /images/sponsors/malaga_jug.jpg
+    url: https://meetup.com/es-ES/MalagaJUG
+    width: 200px
