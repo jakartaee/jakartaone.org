@@ -27,7 +27,7 @@ Este evento é uma ótima oportunidade para conhecer e interagir com os líderes
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="sponsors" class="text-center margin-top-40 margin-bottom-20">}}
-  {{< events/sponsors event="brazil" year="2020" title="Nossos apoiadores" >}}
+  {{< events/sponsors event="brazil" year="2020" title="Nossos apoiadores" displayBecomeSponsor="false" >}}
 {{</ grid/section-container >}}
 
 <!-- Add agenda using legacy CSS -->
