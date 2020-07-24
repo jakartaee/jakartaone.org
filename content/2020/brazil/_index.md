@@ -26,7 +26,7 @@ This event is a great opportunity to meet and interact with the industry and com
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="sponsors" class="text-center margin-top-40 margin-bottom-20">}}
-  {{< events/sponsors event="brazil" year="2020" title="HELPED BY" >}}
+  {{< events/sponsors event="brazil" year="2020" title="HELPED BY" displayBecomeSponsor="false" >}}
 {{</ grid/section-container >}}
 
 <!-- Add agenda using legacy CSS -->
