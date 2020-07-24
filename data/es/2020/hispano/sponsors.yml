@@ -19,6 +19,10 @@ items:
     image: /images/sponsors/nicaragua_jug.png
     url: https://www.javanicaragua.org/
     width: 200px
+  - title: JUG Guatemala
+    image: /images/sponsors/guatemala_jug.png
+    url: https://www.guate-jug.net/
+    width: 200px
   - title: Ecuador JUG
     image: /images/sponsors/ecuador_jug.jpg
     url: ttps://www.meetup.com/ecuadorjug/
