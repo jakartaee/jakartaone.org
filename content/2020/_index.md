@@ -9,7 +9,7 @@ hide_breadcrumb: true
 show_featured_footer: false
 container: "container-fluid"
 headline: "JakartaOne Livestream"
-tagline: "September 16, 2020. 6:00 ET - 18:00 ET"
+tagline: "Fall 2020"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 ---
