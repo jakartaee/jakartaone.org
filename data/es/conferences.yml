@@ -3,11 +3,12 @@ items:
   -
     name: JakartaOne 2020
     location: Location, Location
-    date: September 16, 2020
-    end_date: 2020-09-16T23:59:00-00:00
+    date: Otoño 2020
+    end_date: 2020-11-16T23:59:00-00:00
     url: /2020
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    icon: fa fa-rocket
   -
     name: JakartaOne en Español 2020
     location: Virtual
@@ -16,7 +17,6 @@ items:
     url: /es/2020/hispano
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    icon: fa fa-rocket
   -
     name: Brazil 2020
     location: Virtual
