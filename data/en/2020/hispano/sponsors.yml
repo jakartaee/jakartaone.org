@@ -35,3 +35,7 @@ items:
     image: /images/sponsors/malaga_jug.jpg
     url: https://meetup.com/es-ES/MalagaJUG
     width: 200px
+  - title: Barranquilla JUG
+    image: /images/sponsors/barranquilla_jug.png
+    url: http://jugbaq.org/
+    width: 200px
