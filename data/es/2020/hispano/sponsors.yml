@@ -39,3 +39,7 @@ items:
     image: /images/sponsors/barranquilla_jug.png
     url: http://jugbaq.org/
     width: 200px
+  - title: Cali Java user Group
+    image: /images/sponsors/cali_jug.png
+    url: http://www.clojug.org/
+    width: 200px
