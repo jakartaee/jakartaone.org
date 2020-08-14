@@ -30,8 +30,8 @@ items:
       presenter: Paulo Simões
       type: vendor
       time: 10:45 AM BRT
-    - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+    - name: Jumping in Jakarta Open Source Project  - Everything nobody tells you
+      presenter: Roan Brasil
       type: jakarta-ee
       time: 11:00 AM BRT
     - name: Jakarta EE & MicroProfile Session
@@ -46,7 +46,7 @@ items:
       presenter: Lázaro Nixon
       type: jakarta-ee
       time: 02:00 PM BRT
-    - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+    - name: Jakarta EE - Past, Present and Future
+      presenter: Marcelo Ancelmo
       type: jakarta-ee
       time: 03:00 PM BRT
