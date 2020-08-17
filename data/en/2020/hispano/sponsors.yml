@@ -39,3 +39,7 @@ items:
     image: /images/sponsors/barranquilla_jug.png
     url: http://jugbaq.org/
     width: 200px
+  - title: JavaUP Mexico
+    image: /images/sponsors/javaup.png
+    url: https://www.javaup.org.mx/
+    width: 200px
