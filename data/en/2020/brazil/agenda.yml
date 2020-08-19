@@ -38,8 +38,8 @@ items:
       presenter: Victor Orozco
       type: jakarta-ee
       time: 12:00 PM BRT
-    - name: Tudo o que você queria saber sobre MVC no Jakarta EE e tinha vergonha de perguntar
-      presenter: Daniel Dias
+    - name: Jakarta EE: O que todo DEV precisa saber para utiliza-lo
+      presenter: Rhuan Rocha
       type: jakarta-ee
       time: 01:00 PM BRT
     - name: Active Persistence - Uma implementação de active record query para JPA
