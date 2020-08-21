@@ -13,40 +13,40 @@ items:
     - name: Keynote
       presenter: Program Committee
       type: keynote
-      time: TBD
+      time: 9:00 AM BRT
     - name: Vendor Track (Red Hat)
-      presenter: TBD
+      presenter: Elder Moraes
       type: vendor
-      time: TBD
-    - name: Vendor Track (IBM)
-      presenter: TBD
+      time: 10:00 AM BRT
+    - name: Vendor Track (Tomitribe)
+      presenter: Jean-Louis MONTEIRO
       type: vendor
-      time: TBD
+      time: 10:15 AM BRT
     - name: Vendor Track (Payara)
-      presenter: TBD
+      presenter: Veronica Harding
       type: vendor
-      time: TBD
+      time: 10:30 AM BRT
     - name: Vendor Track (Oracle)
-      presenter: TBD
+      presenter: Paulo Simões
       type: vendor
-      time: TBD
-    - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+      time: 10:45 AM BRT
+    - name: Jumping in Jakarta Open Source Project  - Everything nobody tells you
+      presenter: Roan Brasil
       type: jakarta-ee
-      time: TBD
+      time: 11:00 AM BRT
     - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+      presenter: Victor Orozco
       type: jakarta-ee
-      time: TBD
-    - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+      time: 12:00 PM BRT
+    - name: Jakarta EE O que todo DEV precisa saber para utiliza-lo
+      presenter: Rhuan Rocha
       type: jakarta-ee
-      time: TBD
-    - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+      time: 01:00 PM BRT
+    - name: Active Persistence - Uma implementação de active record query para JPA
+      presenter: Lázaro Nixon
       type: jakarta-ee
-      time: TBD
-    - name: Jakarta EE & MicroProfile Session
-      presenter: TBD
+      time: 02:00 PM BRT
+    - name: Jakarta EE - Past, Present and Future
+      presenter: Marcelo Ancelmo
       type: jakarta-ee
-      time: TBD
+      time: 03:00 PM BRT
