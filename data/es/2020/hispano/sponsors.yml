@@ -39,6 +39,10 @@ items:
     image: /images/sponsors/barranquilla_jug.png
     url: http://jugbaq.org/
     width: 200px
+  - title: Cali Java user Group
+    image: /images/sponsors/cali_jug.png
+    url: http://www.clojug.org/
+    width: 200px
   - title: JavaUP Mexico
     image: /images/sponsors/javaup.png
     url: https://www.javaup.org.mx/

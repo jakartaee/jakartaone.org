@@ -15,14 +15,14 @@ items:
       <p>Ivan St. Ivanov is Java Champion and co-founder and senior programmer at VIDA Software, doing various consulting gigs and teaching a couple of Java and Microservices related courses. He is an active JUG member, driving the Adopt-a-JSR programme in Bulgaria as well as organising the jPrime conference in Sofia.</p>
       <p>In his free time he likes contributing to open source software. As such he is a proud contributor to the MicroProfile. Ivan is doing his PhD in the area of cloud multi-tenancy in the University of National and World Economy. He is also teaching Java and Java EE in Sofia University.</p>
   - name: "Michael Redlich"
-    title: "Principal Consultant for Cybercom Group"
+    title: "Senior Research Technician at ExxonMobil and Java Queue senior editor at InfoQ"
     img: "mredlich.jpg"
     bio: |
       <p>Michael Redlich has been an active member of the Java community for the past 20 years. He founded the ACGNJ Java Users Group in 2001 and has served as a senior Java news editor at InfoQ since 2016.</p>
       <p>He has presented at venues such as Oracle Code One, Emerging Technologies for the Enterprise, Trenton Computer Festival IT Professional Conference, Philly Java Users Group, Princeton Java Users Group and Capital District Java Developers Network.</p>
       <p>More recently, Mike has contributed to open source projects and serves on the leadership council of the Jakarta EE Ambassadors.</p>
   - name: "Ivar Grimstad"
-    title: "Principal Consultant for Cybercom Group"
+    title: "Jakarta EE Developer Advocate"
     twitter_handle: "ivar_grimstad"
     img: "igrimstad.png"
     bio: "<p>Ivar Grimstad is a Java Champion, Oracle Groundbreaker Ambassador and JUG Leader working as Principal Consultant for Cybercom Group in Sweden.</p>
