@@ -34,7 +34,7 @@ items:
       presenter: Roan Brasil
       type: jakarta-ee
       time: 11:00 AM BRT
-    - name: Jakarta EE & MicroProfile Session
+    - name: MicroProfile benefits for your monolithic applications
       presenter: Victor Orozco
       type: jakarta-ee
       time: 12:00 PM BRT
