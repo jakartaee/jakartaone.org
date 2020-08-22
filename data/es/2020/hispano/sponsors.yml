@@ -43,3 +43,7 @@ items:
     image: /images/sponsors/cali_jug.png
     url: http://www.clojug.org/
     width: 200px
+  - title: JavaUP Mexico
+    image: /images/sponsors/javaup.png
+    url: https://www.javaup.org.mx/
+    width: 200px
