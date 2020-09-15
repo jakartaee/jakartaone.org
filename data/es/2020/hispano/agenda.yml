@@ -1,0 +1,62 @@
+complete: false
+types:
+    - name: Keynotes
+      id: keynote
+      color: "#e44"
+    - name: Panel
+      id: panel
+      color: "#c6a061"
+    - name: Charlas
+      id: talk
+      color: "purple"
+    - name: Charlas de Empresa
+      id: vendor
+      color: "orange"
+
+items:
+    - name: 'Inicio'
+      vod:
+      presenter: Comité
+      type: keynote
+      time: 9:00 - 9:30 (EDT)
+      abstract: <p>Warmup</p>
+    - name: 'Keynote'
+      vod:
+      presenter:
+      type: keynote
+      time: 9:30 - 10:00 (EDT)
+      abstract: <p>Keynote</p>
+
+    - name: 'Vendor'
+      vod:
+      presenter: Empresas
+      type: vendor
+      time: 10:00 - 11:00 (EDT)
+      abstract: <p>Charlas de empresa</p>
+
+    - name: Charlas
+      vod:
+      presenter:
+      type: talk
+      time: 11:00 - 13:30 (EDT)
+      abstract: <p>Charlas</p>
+    - name: Panel
+      vod:
+      presenter: Conferencistas del panel
+      type: panel
+      time: 13:30 - 14:00 (EDT)
+      abstract: <p>Panel</p>
+    - name: Charlas
+      vod:
+      presenter:
+      type: talk
+      time: 14:00 - 16:30 (EDT)
+      abstract: <p>Charlas</p>
+    - name: Cierre
+      vod:
+      presenter: Comité
+      type: keynote
+      time: 16:30 - 17:00 (EDT)
+      abstract: <p>Cierre</p>
+
+
