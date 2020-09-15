@@ -1,7 +1,7 @@
 title: "Acerca del evento"
 end_date: 2020-10-12T23:59:00-00:00
-end_text: El evento ha concluido!
+end_text: El evento ha finalizado!
 links:
-  - url: https://www.papercall.io/jakarta-one-es
-    text:  Envía tu propuesta hoy
+  - url: https://www.crowdcast.io/e/jakartaone-livestream
+    text: Registrate ahora
     external: true
