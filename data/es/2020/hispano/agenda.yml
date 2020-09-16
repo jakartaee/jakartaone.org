@@ -19,7 +19,7 @@ items:
       presenter: Comité
       type: keynote
       time: 9:00 - 9:30 (EDT)
-      abstract: <p>Warmup</p>
+      abstract: <p>Inicio</p>
     - name: 'Keynote'
       vod:
       presenter:
