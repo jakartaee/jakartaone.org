@@ -14,7 +14,7 @@ types:
       color: "orange"
 
 items:
-    - name: 'Inicio'
+    - name: Inicio
       vod:
       presenter: Comité
       type: keynote
@@ -27,7 +27,7 @@ items:
       time: 9:30 - 10:00 (EDT)
       abstract: <p>Keynote</p>
 
-    - name: 'Vendor'
+    - name: Vendor
       vod:
       presenter: Empresas
       type: vendor
