@@ -9,7 +9,7 @@ hide_breadcrumb: true
 show_featured_footer: false
 container: "container-fluid"
 headline: "JakartaOne Livestream"
-tagline: "Fall 2020"
+tagline: "December 8, 2020"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 ---
@@ -21,6 +21,7 @@ layout: "single"
 JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta&reg; EE and related technologies focused on developing cloud native Java applications.
     {{</ events/registration >}}
   {{</ grid/div >}}
+    {{< bootstrap/button href="https://www.crowdcast.io/e/jakartaonelivestream_dec8/register" pClass="text-center margin-top-30" linkClass="btn-primary">}}Register Now{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
 
 
