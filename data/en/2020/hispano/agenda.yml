@@ -82,8 +82,8 @@ items:
       abstract: <p>A lo largo de todos estos años, los Java Server Faces han sido el framework predilecto por muchos debido a su robustez y seguridad para construir aplicaciones web basadas en Java. A pesar de sus desventajas ampliamente discutidas sigue siendo una muy buena alternativa.</p>
     - name: Sigue tu aplicación en la nube en tiempo real con MicroProfile Metrics!
       vod:
-      presenter:
-      type: Fabio Turizo
+      presenter: Fabio Turizo
+      type: talk
       time: 15:00 - 15:30 (GMT-4)
       abstract: <p>Una de las principales preocupaciones que existen en el dessarollo de aplicaciones modernas en la nube es el monitoreo eficaz de estas en tiempo real. Esta charla mostrara como preparar una aplicacion empresarial para monitoreo en tiempo real mediante el uso de Eclipse MicroProfile Metrics!</p>    
     - name: Isaac Ruiz
