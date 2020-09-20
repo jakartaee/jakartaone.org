@@ -86,9 +86,9 @@ items:
       type: talk
       time: 15:00 - 15:30 (GMT-4)
       abstract: <p>Una de las principales preocupaciones que existen en el dessarollo de aplicaciones modernas en la nube es el monitoreo eficaz de estas en tiempo real. Esta charla mostrara como preparar una aplicacion empresarial para monitoreo en tiempo real mediante el uso de Eclipse MicroProfile Metrics!</p>    
-    - name: Isaac Ruiz
+    - name: Helidon. Una opción dual para desarrollar microservicios en la nube
       vod:
-      presenter: Helidon. Una opción dual para desarrollar microservicios en la nube
+      presenter: Isaac Ruiz
       type: talk
       time: 15:30 - 16:00 (GMT-4)
       abstract: <p>Helidon es un framework para la construcción de microservicios, apoyado por Oracle. Ademas de estar apegado a Microprofile (3.2) permite también la creación de código reactivo. En esta charla veremos todas las bondades que ofrece para ser una opción para el desarrollo de microservicios para la nube.</p>
