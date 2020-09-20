@@ -18,19 +18,19 @@ items:
       vod:
       presenter: Committee
       type: keynote
-      time: 9:00 - 9:30 (EDT)
+      time: 9:00 - 9:30 (GMT-4)
       abstract: <p>Warmup</p>
     - name: 'Keynote'
       vod:
       presenter:
       type: keynote
-      time: 9:30 - 10:00 (EDT)
+      time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
     - name: 'Vendor'
       vod:
       presenter: Vendors
       type: vendor
-      time: 10:00 - 11:00 (EDT)
+      time: 10:00 - 11:00 (GMT-4)
       abstract: <p>Vendors talks</p>
     - name: Kubernetes Nativo con Eclipse MicroProfile
       vod:
@@ -43,7 +43,7 @@ items:
       presenter: Marco Toscano
       type: talk
       time: 11:30 - 12:00 (GMT-4)
-      abstract: <p>Desarrollar una aplicación empresarial básica utilizando varias de las especificaciones de JakartaEE como":" Jakarta Bean Validation, Jakarta Persistence, Jakarta Enterprise Bean, Jakarta Server Faces y Jakarta Security que permite entender tanto el ecosistema de Jakarta como la forma de integrarlos.</p>
+      abstract: <p>Desarrollar una aplicación empresarial básica utilizando varias de las especificaciones de JakartaEE como Jakarta Bean Validation, Jakarta Persistence, Jakarta Enterprise Bean, Jakarta Server Faces y Jakarta Security que permite entender tanto el ecosistema de Jakarta como la forma de integrarlos.</p>
     - name: Crear tests que permiten flow
       vod:
       presenter: Sebastian Daschner
@@ -68,7 +68,7 @@ items:
       type: panel
       time: 13:30 - 14:00 (GMT-4)
       abstract: <p>Panel</p>    
-    - name: Jakarta EE Tips":" Filtros e interceptores
+    - name: Jakarta EE Tips - Filtros e interceptores
       vod:
       presenter: Jorge Cajas
       type: talk
@@ -102,5 +102,5 @@ items:
       vod:
       presenter: Committee
       type: keynote
-      time: 16:30 - 17:00 (EDT)
+      time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Closing</p>
