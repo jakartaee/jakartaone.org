@@ -18,13 +18,13 @@ items:
       vod:
       presenter: Committee
       type: keynote
-      time: 9:00 - 9:30 (EDT)
+      time: 9:00 - 9:30 (GMT-4)
       abstract: <p>Warmup</p>
     - name: 'Keynote'
       vod:
       presenter:
       type: keynote
-      time: 9:30 - 10:00 (EDT)
+      time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
     - name: Kubernetes Nativo con Eclipse MicroProfile
       vod:
@@ -96,7 +96,7 @@ items:
       vod:
       presenter: Committee
       type: keynote
-      time: 16:30 - 17:00 (EDT)
+      time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Closing</p>
 
 
