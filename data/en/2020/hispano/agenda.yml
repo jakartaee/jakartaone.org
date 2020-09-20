@@ -26,14 +26,12 @@ items:
       type: keynote
       time: 9:30 - 10:00 (EDT)
       abstract: <p>Keynote</p>
-
     - name: 'Vendor'
       vod:
       presenter: Vendors
       type: vendor
       time: 10:00 - 11:00 (EDT)
       abstract: <p>Vendors talks</p>
-
     - name: Kubernetes Nativo con Eclipse MicroProfile
       vod:
       presenter: Alex Soto
@@ -57,32 +55,25 @@ items:
       presenter: Cesar Hernandez
       type: talk
       time: 12:30 - 13:00 (GMT-4)
-      abstract: <p>"La migración del paquete javax a jakarta en Jakarta EE 9 introduce un reto en la plataforma, el ecosistema y por ende en usuarios finales.
-En esta sesión se detallan las recomendaciones y estrategias que pueden ayudar a la migración de tus aplicaciones con el proyecto de código abierto Apache TomEE."</p>            
+      abstract: <p>La migración del paquete javax a jakarta en Jakarta EE 9 introduce un reto en la plataforma, el ecosistema y por ende en usuarios finales.En esta sesión se detallan las recomendaciones y estrategias que pueden ayudar a la migración de tus aplicaciones con el proyecto de código abierto Apache TomEE.</p>            
     - name: Escalando aplicaciones Jakarta EE de manera vertical y horizontal con Jelastic PaaS
       vod:
       presenter: Fabio de Carvalho
       type: talk
       time: 13:00 - 13:30 (GMT-4)
-      abstract: <p>Analicemos cómo mantener las aplicaciones de Jakarta EE elásticas y eficientes, compartamos los secretos de tunning y el seguimiento de la carga, así de cómo automatizar el escalado vertical y horizontal.</p>
-      
-    - name: Community Panel
+      abstract: <p>Analicemos cómo mantener las aplicaciones de Jakarta EE elásticas y eficientes, compartamos los secretos de tunning y el seguimiento de la carga, así de cómo automatizar el escalado vertical y horizontal.</p>    
+    - name: Panel de comunidades
       vod:
-      presenter: Panel Speakers
+      presenter: Representantes de Comunidades
       type: panel
-      time: 13:30 - 14:00 (EDT)
-      abstract: <p>Panel</p>
-    
+      time: 13:30 - 14:00 (GMT-4)
+      abstract: <p>Panel</p>    
     - name: Jakarta EE Tips: Filtros e interceptores
       vod:
       presenter: Jorge Cajas
       type: talk
       time: 14:00 - 14:30 (GMT-4)
-      abstract: <p>"¿Cansado de repetir tus validaciones y repetir tu código en cada endpoint ? 
-¿Aburrido de tener que llenar los campos de auditoría de tus entidades a mano?
-
-
-¡No se diga más! Aprende como extraer la lógica común de tus aplicaciones con Filtros, Listeners e interceptores!"</p>
+      abstract: <p>¿Cansado de repetir tus validaciones y repetir tu código en cada endpoint ? ¿Aburrido de tener que llenar los campos de auditoría de tus entidades a mano? ¡No se diga más! Aprende como extraer la lógica común de tus aplicaciones con Filtros, Listeners e interceptores!</p>
     - name: Lo bueno de JSF con lo nuevo de JakartaEE
       vod:
       presenter: Jorge Vargas	
@@ -100,21 +91,16 @@ En esta sesión se detallan las recomendaciones y estrategias que pueden ayudar 
       presenter: Helidon. Una opción dual para desarrollar microservicios en la nube
       type: talk
       time: 15:30 - 16:00 (GMT-4)
-      abstract: <p>Helidon es un framework para la construcción de microservicios, apoyado por Oracle.
-Ademas de estar apegado a Microprofile (3.2) permite también la creación de código reactivo.
-En esta charla veremos todas las bondades que ofrece para ser una opción para el desarrollo de microservicios para la nube.</p>
+      abstract: <p>Helidon es un framework para la construcción de microservicios, apoyado por Oracle. Ademas de estar apegado a Microprofile (3.2) permite también la creación de código reactivo. En esta charla veremos todas las bondades que ofrece para ser una opción para el desarrollo de microservicios para la nube.</p>
     - name: Jakarta EE Security Specification
       vod:
       presenter: Mercedes Wyss	
       type: talk
       time: 16:00 - 16:30 (GMT-4)
-      abstract: <p>Exploraremos los requerimientos de seguridad que determina el estándar de Jakarta EE deben llenarse por parte de los productos desarrollados y cumplir con características de seguridad tales como autenticaciones, control de acceso a recursos, integridad de la data, entre otros.</p>   
-    
+      abstract: <p>Exploraremos los requerimientos de seguridad que determina el estándar de Jakarta EE deben llenarse por parte de los productos desarrollados y cumplir con características de seguridad tales como autenticaciones, control de acceso a recursos, integridad de la data, entre otros.</p>    
     - name: Closing
       vod:
       presenter: Committee
       type: keynote
       time: 16:30 - 17:00 (EDT)
       abstract: <p>Closing</p>
-
-
