@@ -64,7 +64,7 @@ En esta sesión se detallan las recomendaciones y estrategias que pueden ayudar 
       presenter: Fabio de Carvalho
       type: talk
       time: 13:00 - 13:30 (GMT-4)
-      abstract: <p>Let’s discuss how to keep Jakarta EE applications elastic and efficient, share secrets of triggers finetuning and load tracking, as well as how to automate vertical and horizontal scaling.</p>
+      abstract: <p>Analicemos cómo mantener las aplicaciones de Jakarta EE elásticas y eficientes, compartamos los secretos de tunning y el seguimiento de la carga, así de cómo automatizar el escalado vertical y horizontal.</p>
       
     - name: Community Panel
       vod:
