@@ -16,13 +16,13 @@ types:
 items:
     - name: 'Warm-up'
       vod:
-      presenter: Committee
+      presenter: Program Committee
       type: keynote
       time: 9:00 - 9:30 (GMT-4)
       abstract: <p>Warmup</p>
     - name: 'Keynote'
       vod:
-      presenter:
+      presenter: Program Committee - JakartaEE Friends
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
@@ -94,7 +94,7 @@ items:
       abstract: <p>We will explore the security requirements that the Jakarta EE standard determines must be fulfilled by the products developed and comply with security characteristics such as authentication, access control to resources, data integrity, among others.</p>    
     - name: Closing
       vod:
-      presenter: Committee
+      presenter: Program Committee
       type: keynote
       time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Closing</p>
