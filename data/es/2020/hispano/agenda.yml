@@ -16,13 +16,13 @@ types:
 items:
     - name: Inicio
       vod:
-      presenter: Comité de programa
+      presenter: Comité del programa
       type: keynote
       time: 9:00 - 9:30 (GMT-4)
       abstract: <p>Inicio</p>
     - name: 'Keynote'
       vod:
-      presenter:
+      presenter: Comité del programa - Amigos de JakartaEE
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
@@ -100,7 +100,7 @@ items:
       abstract: <p>Exploraremos los requerimientos de seguridad que determina el estándar de Jakarta EE deben llenarse por parte de los productos desarrollados y cumplir con características de seguridad tales como autenticaciones, control de acceso a recursos, integridad de la data, entre otros.</p>    
     - name: Cierre
       vod:
-      presenter: Comité
+      presenter: Comité del programa
       type: keynote
       time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Cierre</p>
