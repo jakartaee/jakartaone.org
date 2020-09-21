@@ -29,7 +29,7 @@ items:
     - name: 'Vendor talks'
       vod:
       presenter: Vendors
-      type: keynote
+      type: vendor
       time: 10:00 - 11:00 (GMT-4)
       abstract: <p>Keynote</p>
     - name: Kubernetes Native with Eclipse MicroProfile
