@@ -26,6 +26,12 @@ items:
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
+    - name: 'Vendor talks'
+      vod:
+      presenter: Vendors
+      type: keynote
+      time: 10:00 - 11:00 (GMT-4)
+      abstract: <p>Keynote</p>
     - name: Kubernetes Native with Eclipse MicroProfile
       vod:
       presenter: Alex Soto
@@ -98,5 +104,3 @@ items:
       type: keynote
       time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Closing</p>
-
-
