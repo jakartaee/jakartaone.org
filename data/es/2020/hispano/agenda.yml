@@ -1,0 +1,106 @@
+complete: false
+types:
+    - name: Keynotes
+      id: keynote
+      color: "#e44"
+    - name: Panel
+      id: panel
+      color: "#c6a061"
+    - name: Charlas
+      id: talk
+      color: "purple"
+    - name: Charlas de Empresa
+      id: vendor
+      color: "orange"
+
+items:
+    - name: Inicio
+      vod:
+      presenter: Comité del programa
+      type: keynote
+      time: 9:00 - 9:30 (GMT-4)
+      abstract: <p>Inicio</p>
+    - name: 'Keynote'
+      vod:
+      presenter: Comité del programa - Amigos de JakartaEE
+      type: keynote
+      time: 9:30 - 10:00 (GMT-4)
+      abstract: <p>Keynote</p>
+    - name: Vendor
+      vod:
+      presenter: Empresas
+      type: vendor
+      time: 10:00 - 11:00 (GMT-4)
+      abstract: <p>Charlas de empresa</p>
+    - name: Kubernetes Nativo con Eclipse MicroProfile
+      vod:
+      presenter: Alex Soto
+      type: talk
+      time: 11:00 - 11:30 (GMT-4)
+      abstract: <p>Kubernetes es la plataforma de-facto platform para desplegar nuestras aplicaciones hoy en día. Pero este movimiento también ha introducido algunos desafíos. En esta sesión veremos cuales son estos desafíos y demostramos cómo resolverlos con Eclipse MicroProfile.</p>
+    - name: JakarteEE  in Action
+      vod:
+      presenter: Marco Toscano
+      type: talk
+      time: 11:30 - 12:00 (GMT-4)
+      abstract: <p>Desarrollar una aplicación empresarial básica utilizando varias de las especificaciones de JakartaEE como Jakarta Bean Validation, Jakarta Persistence, Jakarta Enterprise Bean, Jakarta Server Faces y Jakarta Security que permite entender tanto el ecosistema de Jakarta como la forma de integrarlos.</p>
+    - name: Crear tests que permiten flow
+      vod:
+      presenter: Sebastian Daschner
+      type: talk
+      time: 12:00 - 12:30 (GMT-4)
+      abstract: <p>Por la mayoría de los proyectos empresariales, tests no son realmente agradables. Es aburrido, incómodo, y lleva su tiempo, de que crear tests. De todos modos, tests son importantes; entonces, como podemos abordarlos esos en una manera efectiva?</p>
+    - name: Pavimentando el Camino con Jakarta EE 9 y Apache TomEE 9.0.0
+      vod:
+      presenter: Cesar Hernandez
+      type: talk
+      time: 12:30 - 13:00 (GMT-4)
+      abstract: <p>La migración del paquete javax a jakarta en Jakarta EE 9 introduce un reto en la plataforma, el ecosistema y por ende en usuarios finales.En esta sesión se detallan las recomendaciones y estrategias que pueden ayudar a la migración de tus aplicaciones con el proyecto de código abierto Apache TomEE.</p>            
+    - name: Escalando aplicaciones Jakarta EE de manera vertical y horizontal con Jelastic PaaS
+      vod:
+      presenter: Fabio de Carvalho
+      type: talk
+      time: 13:00 - 13:30 (GMT-4)
+      abstract: <p>Analicemos cómo mantener las aplicaciones de Jakarta EE elásticas y eficientes, compartamos los secretos de tunning y el seguimiento de la carga, así de cómo automatizar el escalado vertical y horizontal.</p>    
+    - name: Panel de comunidades
+      vod:
+      presenter: Representantes de Comunidades
+      type: panel
+      time: 13:30 - 14:00 (GMT-4)
+      abstract: <p>Panel</p>    
+    - name: Jakarta EE Tips- Filtros e interceptores
+      vod:
+      presenter: Jorge Cajas
+      type: talk
+      time: 14:00 - 14:30 (GMT-4)
+      abstract: <p>¿Cansado de repetir tus validaciones y repetir tu código en cada endpoint ? ¿Aburrido de tener que llenar los campos de auditoría de tus entidades a mano? ¡No se diga más! Aprende como extraer la lógica común de tus aplicaciones con Filtros, Listeners e interceptores!</p>
+    - name: Lo bueno de JSF con lo nuevo de JakartaEE
+      vod:
+      presenter: Jorge Vargas	
+      type: talk
+      time: 14:30 - 15:00 (GMT-4)
+      abstract: <p>A lo largo de todos estos años, los Java Server Faces han sido el framework predilecto por muchos debido a su robustez y seguridad para construir aplicaciones web basadas en Java. A pesar de sus desventajas ampliamente discutidas sigue siendo una muy buena alternativa.</p>
+    - name: Sigue tu aplicación en la nube en tiempo real con MicroProfile Metrics!
+      vod:
+      presenter: Fabio Turizo
+      type: talk
+      time: 15:00 - 15:30 (GMT-4)
+      abstract: <p>Una de las principales preocupaciones que existen en el dessarollo de aplicaciones modernas en la nube es el monitoreo eficaz de estas en tiempo real. Esta charla mostrara como preparar una aplicacion empresarial para monitoreo en tiempo real mediante el uso de Eclipse MicroProfile Metrics!</p>    
+    - name: Helidon. Una opción dual para desarrollar microservicios en la nube
+      vod:
+      presenter: Isaac Ruiz
+      type: talk
+      time: 15:30 - 16:00 (GMT-4)
+      abstract: <p>Helidon es un framework para la construcción de microservicios, apoyado por Oracle. Ademas de estar apegado a Microprofile (3.2) permite también la creación de código reactivo. En esta charla veremos todas las bondades que ofrece para ser una opción para el desarrollo de microservicios para la nube.</p>
+    - name: Jakarta EE Security Specification
+      vod:
+      presenter: Mercedes Wyss	
+      type: talk
+      time: 16:00 - 16:30 (GMT-4)
+      abstract: <p>Exploraremos los requerimientos de seguridad que determina el estándar de Jakarta EE deben llenarse por parte de los productos desarrollados y cumplir con características de seguridad tales como autenticaciones, control de acceso a recursos, integridad de la data, entre otros.</p>    
+    - name: Cierre
+      vod:
+      presenter: Comité del programa
+      type: keynote
+      time: 16:30 - 17:00 (GMT-4)
+      abstract: <p>Cierre</p>
