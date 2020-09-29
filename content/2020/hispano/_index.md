@@ -35,6 +35,13 @@ This event is a great opportunity to meet and interact with the industry and com
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add user carousel for speakers -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="hispano" year="2020"  source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-center" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
