@@ -37,4 +37,7 @@ items:
     img: "aalaniz.jpg"
   - name: "Luis Ventocilla"
     title: "Java User Group Buenos Aires"
-    img: "lventocilla.jpg"          
+    img: "lventocilla.jpg"
+  - name: "Ricardo Cantillo"
+    title: "Software Engineer"
+    img: "rcantillo.jpg"          
