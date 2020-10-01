@@ -22,13 +22,13 @@ items:
       abstract: <p>Warmup</p>
     - name: 'Keynote'
       vod:
-      presenter: Program Committee - JakartaEE Friends
+      presenter: Amelia Eiras
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
     - name: 'Vendor talks'
       vod:
-      presenter: Vendors
+      presenter: Payara, Tomitribe, Oracle, Red Hat
       type: vendor
       time: 10:00 - 11:00 (GMT-4)
       abstract: <p>Keynote</p>
@@ -64,7 +64,7 @@ items:
       abstract: <p>Let s discuss how to keep Jakarta EE applications elastic and efficient, share secrets of triggers finetuning and load tracking, as well as how to automate vertical and horizontal scaling.</p>    
     - name: Community Panel
       vod:
-      presenter: Communities friends
+      presenter: Armando Alaniz, Ricardo Cantillo, Luis Ventocilla 
       type: panel
       time: 13:30 - 14:00 (GMT-4)
       abstract: <p>Panel</p>    
@@ -98,9 +98,9 @@ items:
       type: talk
       time: 16:00 - 16:30 (GMT-4)
       abstract: <p>We will explore the security requirements that the Jakarta EE standard determines must be fulfilled by the products developed and comply with security characteristics such as authentication, access control to resources, data integrity, among others.</p>    
-    - name: Closing
+    - name: JakartaEE Present and Future 
       vod:
-      presenter: Program Committee
+      presenter: Otavio Santana, César Hernandez, Diego Botía
       type: keynote
       time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Closing</p>

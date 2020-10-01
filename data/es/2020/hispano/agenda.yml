@@ -22,13 +22,13 @@ items:
       abstract: <p>Inicio</p>
     - name: 'Keynote'
       vod:
-      presenter: Comité del programa - Amigos de JakartaEE
+      presenter: Amelia Eiras
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Keynote</p>
     - name: Vendor
       vod:
-      presenter: Empresas
+      presenter: Payara, Tomitribe, Oracle, Red Hat
       type: vendor
       time: 10:00 - 11:00 (GMT-4)
       abstract: <p>Charlas de empresa</p>
@@ -64,7 +64,7 @@ items:
       abstract: <p>Analicemos cómo mantener las aplicaciones de Jakarta EE elásticas y eficientes, compartamos los secretos de tunning y el seguimiento de la carga, así de cómo automatizar el escalado vertical y horizontal.</p>    
     - name: Panel de comunidades
       vod:
-      presenter: Representantes de Comunidades
+      presenter: Armando Alaniz, Ricardo Cantillo, Luis Ventocilla 
       type: panel
       time: 13:30 - 14:00 (GMT-4)
       abstract: <p>Panel</p>    
@@ -98,9 +98,9 @@ items:
       type: talk
       time: 16:00 - 16:30 (GMT-4)
       abstract: <p>Exploraremos los requerimientos de seguridad que determina el estándar de Jakarta EE deben llenarse por parte de los productos desarrollados y cumplir con características de seguridad tales como autenticaciones, control de acceso a recursos, integridad de la data, entre otros.</p>    
-    - name: Cierre
+    - name: JakartaEE Presente y Futuro 
       vod:
-      presenter: Comité del programa
+      presenter: Otavio Santana, César Hernandez, Diego Botía
       type: keynote
       time: 16:30 - 17:00 (GMT-4)
       abstract: <p>Cierre</p>
