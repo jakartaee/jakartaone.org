@@ -17,7 +17,7 @@ other = "Learn more"
 other = "Learn more about {{ .Count }}"
 
 [regional-jakartaone-livestreams]
-other = "Regional JakartaOne Livestreams"
+other = "Organizing Regional JakartaOne Livestreams Events"
 
 [agenda-schedule]
 other = "Event Details"
