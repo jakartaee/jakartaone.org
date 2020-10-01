@@ -12,3 +12,5 @@ hide_footer_events: true
 {{< active-events >}}
 
 {{< past_events >}}
+
+{{< regional_jakartaone_livestreams >}}

@@ -1,12 +1,11 @@
 
 {{$currLang:=.Page.Lang }}
 {{$langBase:=index .Site.Data $currLang}}
-{{/*  {{$events := (index $langBase).conferences.items}}  */}}
 
 <section class="container regional-jakartaone-livestreams">
   <h2>{{ i18n "regional-jakartaone-livestreams" }}</h2>
   <p>
-    Interested in hosting your own Regional JakartaOne Livestream? Download the resource and get in touch!
+    {{ i18n "regional-jakartaone-livestreams-decription" }}
   </p>
-  <p><a class="btn btn-primary" href="/documents/jakartaone-regional-events.pdf"> Download </a></p>
+  <p><a class="btn btn-primary" href="/documents/jakartaone-regional-events.pdf"> {{ i18n "download-button" }} </a></p>
 </section>
