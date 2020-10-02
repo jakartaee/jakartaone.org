@@ -16,6 +16,15 @@ other = "Learn more"
 [past-events-learn-more-title]
 other = "Learn more about {{ .Count }}"
 
+[regional-jakartaone-livestreams]
+other = "Organizing Regional JakartaOne Livestreams Events"
+
+[regional-jakartaone-livestreams-decription]
+other = "Interested in hosting your own Regional JakartaOne Livestream? Download the resource and get in touch!"
+
+[download-button]
+other = "Download"
+
 [agenda-schedule]
 other = "Event Details"
 

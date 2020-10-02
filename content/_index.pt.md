@@ -12,3 +12,5 @@ layout: "single"
 {{< active-events >}}
 
 {{< past_events >}}
+
+{{< regional_jakartaone_livestreams >}}
