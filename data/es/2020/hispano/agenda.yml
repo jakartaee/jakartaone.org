@@ -64,7 +64,7 @@ items:
       abstract: <p>Analicemos cómo mantener las aplicaciones de Jakarta EE elásticas y eficientes, compartamos los secretos de tunning y el seguimiento de la carga, así de cómo automatizar el escalado vertical y horizontal.</p>    
     - name: Panel de comunidades
       vod:
-      presenter: Armando Alaniz, Ricardo Cantillo, Luis Ventocilla 
+      presenter: Armando Alaniz, Diana Moreno, Luis Ventocilla, Ricardo Cantillo
       type: panel
       time: 13:30 - 14:00 (GMT-4)
       abstract: <p>Panel</p>    
