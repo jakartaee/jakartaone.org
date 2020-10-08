@@ -64,7 +64,7 @@ items:
       abstract: <p>Let s discuss how to keep Jakarta EE applications elastic and efficient, share secrets of triggers finetuning and load tracking, as well as how to automate vertical and horizontal scaling.</p>    
     - name: Community Panel
       vod:
-      presenter: Armando Alaniz, Diana Moreno, Luis Ventocilla, Ricardo Cantillo 
+      presenter: Armando Alaniz, Diana Moreno, Estela Navarrete, Luis Ventocilla, Ricardo Cantillo 
       type: panel
       time: 13:30 - 14:00 (GMT-4)
       abstract: <p>Panel</p>    
