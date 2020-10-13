@@ -53,6 +53,10 @@
 </head>
 <body>
   
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 <a class="sr-only" href="#content">Saltar al Contenido Principal</a>
 <header class="header-wrapper header-default-bg-img" id="header-wrapper">
   
@@ -231,115 +235,6 @@
   </div>
 </main>
   
-  <div class="featured-footer featured-alternate" id="featured-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-24">
-        </div>
-      </div>
-    </div>
-  </div>
-  <script>
-    var rawStoryJSON = "null";
-    if (footerJson = JSON.parse(rawStoryJSON)) {
-
-      
-      footerJson = footerJson.filter(a => new Date(a['endDate']) > new Date() && (a['startDate'] == undefined || new Date(a['startDate']) < new Date()))
-        .filter(a => a['type'] === "both" || a['type'] === "footer");
-
-      
-      if (footerJson.length > 1) {
-        shuffleArray(footerJson);
-      }
-
-      
-      if (footerJson.length > 0) {
-        var footerItem = footerJson[0];
-        var footerStoryEl = document.querySelector("#featured-footer");
-        
-        if (footerItem['bgImgSrc'] !== undefined && footerItem['bgImgSrc'] !== "") {
-        	footerStoryEl.style.backgroundImage = 'url(\'' + footerItem['bgImgSrc'] + '\')';
-          footerStoryEl.style.backgroundSize = 'cover';
-        }
-
-        
-        if (footerItem['footer_classes'] !== undefined && footerItem['footer_classes'] !== "") {
-          footerStoryEl.className = footerItem['footer_classes'];
-        }
-
-        
-        var footerHeadingEl = document.createElement('h2');
-        footerHeadingEl.innerHTML = footerItem['title'];
-        if (footerItem['header_class']) {
-          var headerClasses = footerItem['header_class'].split(' ');
-          for (var headerClassIdx in headerClasses) {
-        	  footerHeadingEl.classList.add(headerClasses[headerClassIdx]);
-          }
-        }
-
-        var footerLinkEl = document.createElement('span');
-        footerLinkEl.innerHTML = footerItem['link'];
-
-        
-        var footerPreambleEl, footerContentEl, footerPostContentEl = null;
-        if (footerItem['preamble']) {
-          footerPreambleEl = document.createElement('p');
-          footerPreambleEl.innerHTML = footerItem['preamble'];
-          if (footerItem['preamble_class']) {
-            var preambleClasses = footerItem['preamble_class'].split(' ');
-            for (var preambleClassIdx in preambleClasses) {
-              footerPreambleEl.classList.add(preambleClasses[preambleClassIdx]);
-            }
-          }
-        }
-        if (footerItem['content']) {
-        	footerContentEl = document.createElement('p');
-        	footerContentEl.innerHTML = footerItem['content'];
-          if (footerItem['content_class']) {
-            var contentClasses = footerItem['content_class'].split(' ');
-            for (var contentClassIdx in contentClasses) {
-            	footerContentEl.classList.add(contentClasses[contentClassIdx]);
-            }
-          }
-        }
-        if (footerItem['post_content']) {
-        	footerPostContentEl = document.createElement('p');
-        	footerPostContentEl.innerHTML = footerItem['post_content'];
-          if (footerItem['post_class']) {
-            var postClasses = footerItem['post_class'].split(' ');
-            for (var postClassIdx in postClasses) {
-            	footerPostContentEl.classList.add(postClasses[postClassIdx]);
-            }
-          }
-        }
-        
-        var footerDivEl = footerStoryEl.querySelector(".row > div");
-        if (footerPreambleEl != undefined) {
-        	footerDivEl.appendChild(footerPreambleEl);
-        }
-        footerDivEl.appendChild(footerHeadingEl);
-        if (footerContentEl != undefined) {
-        	footerDivEl.appendChild(footerContentEl);
-        }
-        if (footerPostContentEl != undefined) {
-        	footerDivEl.appendChild(footerPostContentEl);
-        }
-        footerDivEl.appendChild(footerLinkEl);
-      }
-    }
-    
-
-    function shuffleArray(array) {
-      for (var i = array.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-      }
-    }
-  </script>
-
-  
 
 <section class="alt" id="get-social">
   <div class="backdrop padding-bottom-40 padding-top-40">
@@ -442,6 +337,16 @@
   </div>
 </div>
   
+  <div class="featured-footer" id="featured-footer" data-publish-target="jakarta_ee">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-24 featured-container">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 <p id="back-to-top">
   <a class="visible-xs" href="#top">Volver arriba</a>
 </p>
@@ -534,6 +439,16 @@
 <script>
 (function($, document) {
   
+  
+  
+    $("#featured-story").eclipseFdnApi({
+      type: "featuredStory"
+    });
+  
+  
+    $("#featured-footer").eclipseFdnApi({
+      type: "featuredFooter"
+    });
   
 })(jQuery, document);
 </script>
