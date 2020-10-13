@@ -38,6 +38,7 @@ themesDir = "node_modules/"
   subtheme = "jakarta"
   header_wrapper_class = "header-default-bg-img"
   js = "js/solstice.js"
+  featured_content_publish_target = "jakarta_ee"
 # show_events = true
 # call_for_action_text = ""
 # call_for_action_url = ""
