@@ -30,11 +30,9 @@ JakartaOne Livestream is a one-day virtual conference for developers and technic
   {{< grid/div isMarkdown="true" class="text-center">}}
 ## CALL FOR PAPERS
 
-You are now invited to submit your talk and have the opportunity to share your work with the industry peers!
+The Call For Paper has closed. The Program committee is working to finalize the schedule.
   {{</grid/div >}}
-  {{< bootstrap/button href="https://www.papercall.io/jakartaone-2020" pClass="text-center margin-top-30" linkClass="btn-primary">}}Submit your paper today{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
-
 
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
