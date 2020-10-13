@@ -6,7 +6,6 @@ date: 2018-04-05T15:50:25-04:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-show_featured_footer: false
 container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 8, 2020"
