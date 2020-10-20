@@ -15,10 +15,10 @@ menu_name: "hispano"
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="hispano" year="2020"  >}}
-Este evento virtual es una mezcla de charlas de expertos, demostraciones y sesiones de reflexión centradas en aplicaciones empresariales implementadas usando Jakarta EE (sucesor de Java EE) neutral de proveedor y de código abierto con especificaciones como Eclipse MicroProfile en Kubernetes.
+    {{< events/registration event="hispano" year="2020" title="El evento ha finalizado!" >}}
+Gracias a todos quienes hicieron que el primer JakartaOne Livestream en Español event a great success !
 
-¡Este evento es una gran oportunidad para conocer e interactuar con los líderes de la industria y la comunidad en línea, para comprender mejor los aspectos clave de las tecnologías Jakarta EE y MicroProfile y compartir sus ideas con los líderes e innovadores del ecosistema!
+Esta meta no hubiera sido posible sin el esfuerzo colectivo de nuestras comunidades.  
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}

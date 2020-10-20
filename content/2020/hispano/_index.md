@@ -15,10 +15,10 @@ menu_name: "hispano"
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="hispano" year="2020"  >}}
-This virtual event is a mix of expert talks, demos, and thought-provoking sessions focused on enterprise applications implemented using open source vendor-neutral Jakarta EE (successor of Java EE) and Eclipse MicroProfile specifications on Kubernetes.
+    {{< events/registration event="hispano" year="2020" title="The event has now concluded!" >}}
+Thank You for making the first JakartaOne Livestream in Spanish event a great success!
 
-This event is a great opportunity to meet and interact with the industry and community leaders online, to better understand key aspects of Jakarta EE and MicroProfile technologies and share your ideas with the ecosystem leaders and innovators!  
+This milestone would not be possible without the collective efforts of a dedicated community.
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
