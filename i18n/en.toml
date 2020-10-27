@@ -5,7 +5,7 @@ other = "Upcoming Events"
 other = "Learn more"
 
 [upcoming-events-learn-more-title]
-other = "Learn more about {{ .Count }}"
+other = "Learn more about {{ . }}"
 
 [past-events-header]
 other = "Past Events"
@@ -14,7 +14,7 @@ other = "Past Events"
 other = "Learn more"
 
 [past-events-learn-more-title]
-other = "Learn more about {{ .Count }}"
+other = "Learn more about {{ . }}"
 
 [regional-jakartaone-livestreams]
 other = "Organizing Regional JakartaOne Livestreams Events"
@@ -77,7 +77,7 @@ other = "Get Social"
 other = "Upcoming Events"
 
 [footer-get-social-content]
-other = "Follow the official conference Twitter handle <a href='https://www.twitter.com/@{{.Count}}'>@{{.Count}}</a> for live event updates, speaker announcements, news and more!"
+other = "Follow the official conference Twitter handle <a href='https://www.twitter.com/@{{.}}'>@{{.}}</a> for live event updates, speaker announcements, news and more!"
 
 [footer-jakarta-callout-content]
 other = "Powered by participation, Jakarta&reg; EE is focused on enabling community-driven collaboration and open innovation for the cloud"
