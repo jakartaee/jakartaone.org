@@ -1,3 +1,5 @@
 twitter_handle:
-   default: "JakartaOneConf"
-   japan2020: "JakartaOneJPN"
+   default: 
+      name: "JakartaOneConf"
+   japan2020: 
+      name: "JakartaOneJPN"

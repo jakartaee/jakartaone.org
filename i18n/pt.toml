@@ -5,7 +5,7 @@ other = "Próximos eventos"
 other = "Saiba mais"
 
 [upcoming-events-learn-more-title]
-other = "Aprenda mais sobre {{ . }}"
+other = "Aprenda mais sobre"
 
 [past-events-header]
 other = "Evento anteriores"
@@ -23,7 +23,7 @@ other = "Download"
 other = "Saiba mais"
 
 [past-events-learn-more-title]
-other = "Aprenda mais sobre {{ . }}"
+other = "Aprenda mais sobre"
 
 [agenda-schedule]
 other = "Detalhes do evento"
@@ -77,7 +77,7 @@ other = "Get Social"
 other = "Próximos eventos"
 
 [footer-get-social-content]
-other = "Siga o evento no Twitter <a href='https://www.twitter.com/@{{.}}'>@{{.}}</a> para atualizações, eventos ao vivo, anúncios de palestrantes e muito mais!"
+other = "Siga o evento no Twitter <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a> para atualizações, eventos ao vivo, anúncios de palestrantes e muito mais!"
 
 [footer-jakarta-callout-content]
 other = "Powered by participation, Jakarta&reg; EE is focused on enabling community-driven collaboration and open innovation for the cloud"
