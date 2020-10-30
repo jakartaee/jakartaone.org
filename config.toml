@@ -91,6 +91,36 @@ themesDir = "node_modules/"
     weight = 2
     parent = "Attend"
 
+#### 2020 menus ####
+[[languages.en.menu.2020]]
+    name = "Schedule"
+    url = "/2020/#plan-of-the-day"
+    weight = 1
+    
+[[languages.en.menu.2020]]
+    name = "Program committee"
+    url = "/2020/program-committee/"
+    weight = 2
+
+[[languages.en.menu.2020]]
+    name = "Attend"
+    weight = 3
+
+[[languages.en.menu.2020]]
+    name = "Code of Conduct"
+    url = "/2020/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[languages.en.menu.2020]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+#### 2020 menus end ####
+
+
 [[languages.en.menu.japan2020]]
     name = "Plan of the day"
     url = "/2020/japan/#plan-of-the-day"
