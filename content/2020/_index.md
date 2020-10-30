@@ -23,16 +23,6 @@ JakartaOne Livestream is a one-day virtual conference for developers and technic
     {{< bootstrap/button href="https://www.crowdcast.io/e/jakartaonelivestream_dec8/register" pClass="text-center margin-top-30" linkClass="btn-primary">}}Register Now{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
 
-
-<!-- Add registration using legacy CSS -->
-{{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
-  {{< grid/div isMarkdown="true" class="text-center">}}
-## CALL FOR PAPERS
-
-The Call For Paper has closed. The Program committee is working to finalize the schedule.
-  {{</grid/div >}}
-{{</ grid/section-container >}}
-
 <!-- Add agenda using legacy CSS -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}
