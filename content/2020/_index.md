@@ -33,6 +33,13 @@ The Call For Paper has closed. The Program committee is working to finalize the 
   {{</grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda year="2020" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
