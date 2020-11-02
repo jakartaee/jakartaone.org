@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne 2020"
-seo_title: "JakartaOne Live - September 16, 2020 | Jakarta EE Software | Cloud Native"
+seo_title: "JakartaOne Live - December 8th, 2020 | Jakarta EE Software | Cloud Native"
 headline: "JakartaOne Live"
 date: 2018-04-05T15:50:25-04:00
 hide_page_title: true
