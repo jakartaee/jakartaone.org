@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
     <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
-    <lastBuildDate>Thu, 05 Apr 2018 15:50:25 -0400</lastBuildDate>
-    
-	<atom:link href="https://jakartaone.org/2019/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 05 Apr 2018 15:50:25 -0400</lastBuildDate><atom:link href="https://jakartaone.org/2019/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code of Conduct</title>
       <link>https://jakartaone.org/2019/code-of-conduct/</link>

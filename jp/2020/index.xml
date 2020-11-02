@@ -7,9 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
     <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
-    
-	<atom:link href="https://jakartaone.org/jp/2020/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://jakartaone.org/jp/2020/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

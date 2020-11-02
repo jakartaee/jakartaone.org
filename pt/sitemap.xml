@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jakartaone.org/pt/2020/</loc>
+    <lastmod>2020-03-31T15:50:25-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jakartaone.org/2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://jakartaone.org/jp/2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://jakartaone.org/es/2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://jakartaone.org/pt/2020/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jakartaone.org/pt/2020/brazil/</loc>
     <lastmod>2020-03-31T15:50:25-04:00</lastmod>
     <xhtml:link
@@ -109,30 +134,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://jakartaone.org/pt/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://jakartaone.org/pt/2020/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jakartaone.org/2020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://jakartaone.org/jp/2020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://jakartaone.org/es/2020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://jakartaone.org/pt/2020/"
                 />
   </url>
   
