@@ -5,7 +5,7 @@ other = "Próximos Eventos"
 other = "Aprende más"
 
 [upcoming-events-learn-more-title]
-other = "Aprender más sobre {{ .Count }}"
+other = "Aprender más sobre"
 
 [past-events-header]
 other = "Past Events"
@@ -23,7 +23,7 @@ other = "Download"
 other = "Eventos pasados"
 
 [past-events-learn-more-title]
-other = "Learn more about {{ .Count }}"
+other = "Learn more about"
 
 [agenda-schedule]
 other = "Aprender más sobre"
@@ -77,7 +77,7 @@ other = "Redes Sociales"
 other = "Próximos Eventos"
 
 [footer-get-social-content]
-other = "Siga la dirección oficial de Twitter de la conferencia <a href='https://www.twitter.com/@{{.Count}}'> @ {{.Count}} </a> para actualizaciones de eventos en vivo, anuncios de presentaciones, noticias ¡y más!"
+other = "Siga la dirección oficial de Twitter de la conferencia <a href='https://www.twitter.com/@{{ .name }}'> @ {{ .name }} </a> para actualizaciones de eventos en vivo, anuncios de presentaciones, noticias ¡y más!"
 
 [footer-jakarta-callout-content]
 other = "Impulsado por la participación, Yakarta&reg; EE se centra en permitir la colaboración impulsada por la comunidad y la innovación abierta para La Nube"

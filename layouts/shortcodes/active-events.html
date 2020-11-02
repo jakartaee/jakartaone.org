@@ -11,7 +11,7 @@
       <div class="event-item flex-column">
         <h3 class="h2">{{ if .icon }}<i class="{{ .icon }} margin-right-10" aria-hidden="true"></i>{{ end }}{{ .name }}</h3>
         <p class="flex-grow">{{ .date }}</p>
-        <a class="btn btn-primary" href="{{ .url }}" title="{{ i18n "upcoming-events-learn-more-title" .name }}">{{ i18n "upcoming-events-learn-more" }}</a>
+        <a class="btn btn-primary" href="{{ .url }}" title="{{ i18n "upcoming-events-learn-more-title" }} {{ .name }}">{{ i18n "upcoming-events-learn-more" }}</a>
       </div>
     </div>
     {{ end }}
