@@ -26,7 +26,7 @@ items:
 
     - name: 'Shorten all URLs: Quarkus, Kotlin, Hazelcast and GraalVM in action'
       presenter: Nicolas Frankel
-      type: demo
+      type: microprofile
       time: 3 am PT / 6 am ET / 12:00 CET
 
     - name: 15 min theme slot
