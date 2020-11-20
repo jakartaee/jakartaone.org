@@ -3,9 +3,6 @@ types:
     - name: Jakarta EE
       id: jakarta-ee 
       color: "#a0a"
-    - name: Demo
-      id: demo 
-      color: "#66c"
     - name: Keynote
       id: keynote 
       color: "#e44"
@@ -15,8 +12,8 @@ types:
     - name: Panel
       id: panel 
       color: "#c6a061"
-    - name: 15 Minute Theme Slot
-      id: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      id: studio-jakarta-ee
 
 items:
     - name: Welcome Reception
@@ -29,8 +26,9 @@ items:
       type: microprofile
       time: 3 am PT / 6 am ET / 12:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 3:45 am PT / 6:45 am ET / 12:45 CET
 
     - name: Scaling Jakarta EE Applications Vertically and Horizontally with Jelastic PaaS
@@ -38,8 +36,9 @@ items:
       type: jakarta-ee
       time: 4 am PT / 7 am ET / 13:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 4:45 am PT / 7:45 am ET / 13:45 CET
 
     - name: Testing Jakarta microservices with efficiency & joy
@@ -47,8 +46,9 @@ items:
       type: jakarta-ee
       time: 5 am PT / 8 am ET / 14:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 5:45 am PT / 8:45 am ET / 14:45 CET
 
     - name: GlassFish 6.0.0 a Jakarta EE 9 implementation
@@ -56,8 +56,9 @@ items:
       type: jakarta-ee
       time: 6 am PT / 9 am ET / 15:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 6:45 am PT / 9:45 am ET / 15:45 CET
 
     - name: Eclipse MicroProfile Current and Future
@@ -65,8 +66,9 @@ items:
       type: microprofile
       time: 7 am PT / 10 am ET / 16:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 7:45 am PT / 10:45 am ET /16:45 CET
 
     - name: Contributors Guide to the Jakarta EE 10 Galaxy
@@ -74,8 +76,9 @@ items:
       type: jakarta-ee
       time: 8 am PT / 11 am ET / 17:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 8:45 am  PT / 11:45 am ET / 17:45 CET
 
     - name: Keynote
@@ -93,8 +96,9 @@ items:
       type: panel
       time: 10 am PT / 1 pm ET / 19:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 10:45 am PT / 1:45 pm ET / 19:45 CET
 
     - name: "Jakarta EE and MicroProfile: The Good Parts #slideless"
@@ -102,8 +106,9 @@ items:
       type: jakarta-ee
       time: 11 am PT / 2 pm ET / 20:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 11:45 am PT / 2:45 pm ET / 20:45 CET
 
     - name: What We Learned from Porting PiggyMetrics from Spring Boot to MicroProfile
@@ -111,8 +116,9 @@ items:
       type: microprofile
       time: 12 am PT / 3 pm ET / 21:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 12:45 pm PT / 3:45 pm ET / 21:45 CET
 
     - name: The Eclipse Transformer Project
@@ -120,8 +126,9 @@ items:
       type: jakarta-ee
       time: 1 pm PT / 4 pm ET / 22:00 CET
 
-    - name: 15 min theme slot
-      type: 15-minute-theme-slot
+    - name: Studio Jakarta EE
+      presenter: Tanja, Ivar & Guests
+      type: studio-jakarta-ee
       time: 1:45 pm PT / 4:45 pm ET / 22:45 CET
 
     - name: Keeping Brazil’s Medical Industry Safe with MicroProfile
