@@ -1,0 +1,48 @@
+items:
+  - name: "Nicolas Frankel"
+    title: "Developer Advocate at Hazelcast"
+    img: "nicolas_frankel.png"
+
+  - name: "Ruslan Synytsky"
+    title: "CEO at Jelastic Multi-Cloud PaaS"
+    img: "ruslan_synytsky.png"
+
+  - name: "Sebastian Daschner"
+    title: "Lead Java Developer Advocate at IBM"
+    img: "sebastian_daschner.png"
+
+  - name: "Steve Millidge"
+    title: "Founder of Payara Services Limited"
+    img: "steve_millidge.png"
+
+  - name: "Emily Jiang"
+    title: "STSM, Liberty Microservice Architect and Advocate at IBM"
+    img: "emily_jiang.png"
+
+  - name: "Reza Rahman"
+    title: "Senior Java Technologist, Author, Speaker"
+    img: "reza_rahman.png"
+
+  - name: "Mike Milinkovich"
+    title: "Executive Director at Eclipse Foundation"
+    img: "mike_milinkovich.png"
+
+  - name: "Otávio Santana"
+    title: "Developer Relations Engineer"
+    img: "otavio_santana.png"
+
+  - name: "Adam Bien"
+    title: "Freelancing Consultant, Author, Java Champion"
+    img: "adam_bien.png"
+
+  - name: "Ed Burns"
+    title: "Principal Architect for Java on Azure at Microsoft"
+    img: "ed_burns.png"
+
+  - name: "Thomas Bitonti"
+    title: "Software Engineer at IBM"
+    img: "thomas_bitonti.png"
+
+  - name: "Cesar Hernandez"
+    title: "Senior Software Engineer for Tomitribe"
+    img: "cesar_hernandez.png"       
