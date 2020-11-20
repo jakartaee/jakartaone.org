@@ -14,7 +14,6 @@ types:
       color: "#c6a061"
     - name: Studio Jakarta EE
       id: studio-jakarta-ee
-      # color: "#"
 
 items:
     - name: Welcome Reception
