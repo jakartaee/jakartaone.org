@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm run build_netlify && hugo"
+command = "npm run production && hugo"
 
 [context.production.environment]
 HUGO_VERSION = "0.76.5"
@@ -8,20 +8,20 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "npm run build_netlify && hugo --enableGitInfo"
+command = "npm run production && hugo --enableGitInfo"
 
 [context.split1.environment]
 HUGO_VERSION = "0.76.5"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "npm run build_netlify && hugo --buildFuture -b $DEPLOY_PRIME_URL"
+command = "npm run production && hugo --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.76.5"
 
 [context.branch-deploy]
-command = "npm run build_netlify && hugo -b $DEPLOY_PRIME_URL"
+command = "npm run production && hugo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.76.5"
