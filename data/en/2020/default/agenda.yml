@@ -61,7 +61,7 @@ items:
       type: studio-jakarta-ee
       time: 6:45 am PT / 9:45 am ET / 15:45 CET
 
-    - name: Eclipse MicroProfile Current and Future
+    - name: MicroProfile Current and Future
       presenter: Emily Jiang
       type: microprofile
       time: 7 am PT / 10 am ET / 16:00 CET
