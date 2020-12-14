@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Jakarta EE
       id: jakarta-ee 
@@ -20,125 +20,150 @@ items:
       presenter: Tanja Obradovic & Ivar Grimstad
       type: keynote
       time: 2:45 PT / 5:45 ET / 11:45 CET
+      vod: https://youtu.be/_spXI66OItM
 
     - name: 'Shorten all URLs: Quarkus, Kotlin, Hazelcast and GraalVM in action'
       presenter: Nicolas Frankel
       type: microprofile
       time: 3 am PT / 6 am ET / 12:00 CET
+      vod: 	https://youtu.be/uNZPcrtfZzw
 
     - name: Studio Jakarta EE
       presenter: Ivar
       type: studio-jakarta-ee
       time: 3:45 am PT / 6:45 am ET / 12:45 CET
+      vod: https://youtu.be/C10v6z3CAWA
 
     - name: Scaling Jakarta EE Applications Vertically and Horizontally with Jelastic PaaS
       presenter: Ruslan Synytsky
       type: jakarta-ee
       time: 4 am PT / 7 am ET / 13:00 CET
+      vod: https://youtu.be/-LdAFc2Akvo
 
     - name: Studio Jakarta EE
       presenter: Ivar
       type: studio-jakarta-ee
       time: 4:45 am PT / 7:45 am ET / 13:45 CET
+      vod: https://youtu.be/jWV7cGucKLY
 
     - name: Testing Jakarta microservices with efficiency & joy
       presenter: Sebastian Daschner
       type: jakarta-ee
       time: 5 am PT / 8 am ET / 14:00 CET
+      vod: https://youtu.be/TTToE3B5e_k
 
     - name: Studio Jakarta EE
       presenter: Tanja
       type: studio-jakarta-ee
       time: 5:45 am PT / 8:45 am ET / 14:45 CET
+      vod: 	https://youtu.be/rV_91fzJBTQ
 
     - name: GlassFish 6.0.0 a Jakarta EE 9 implementation
       presenter: Steve Millidge
       type: jakarta-ee
       time: 6 am PT / 9 am ET / 15:00 CET
+      vod: https://youtu.be/aSIQ6ONKJWs
 
     - name: Studio Jakarta EE - Meet the Program Committee
       presenter: Program Committee & Tanja
       type: studio-jakarta-ee
       time: 6:45 am PT / 9:45 am ET / 15:45 CET
+      vod: https://youtu.be/CjRkamh40ds
 
     - name: MicroProfile Current and Future
       presenter: Emily Jiang
       type: microprofile
       time: 7 am PT / 10 am ET / 16:00 CET
+      vod: 	https://youtu.be/uhiywz8jBRA
 
     - name: Studio Jakarta EE - Interview with Arjan Tijms (Piranha)
       presenter: Arjan Tijms & Ivar
       type: studio-jakarta-ee
       time: 7:45 am PT / 10:45 am ET /16:45 CET
+      vod: 	https://youtu.be/YAaE2wSxKDQ
 
     - name: Contributors Guide to the Jakarta EE 10 Galaxy
       presenter: Reza Rahman
       type: jakarta-ee
       time: 8 am PT / 11 am ET / 17:00 CET
+      vod: 	https://youtu.be/AYv52xLsceU
 
     - name: Studio Jakarta EE - Tribute to Bill Shannon
       presenter: Ed Bratt & Tanja
       type: studio-jakarta-ee
       time: 8:45 am  PT / 11:45 am ET / 17:45 CET
+      vod: https://youtu.be/jgRH5IhYkKM
 
     - name: Keynote
       presenter: Mike Milinkovich
       type: keynote
       time: 9:00 am PT / 12 pm ET / 18:00 CET
+      vod: 	https://youtu.be/WdXpiFuDpXU
 
     - name: Industry Keynote
       presenter: Jakarta EE vendors
       type: keynote
       time: 9:20 am PT / 12:20 pm ET / 18:20 CET
+      vod: https://youtu.be/SRFfDICE7eM
 
     - name: Jakarta EE 10 Round Table
       presenter: Otávio Santana
       type: panel
       time: 10 am PT / 1 pm ET / 19:00 CET
+      vod: https://youtu.be/_2cEG27ADEw
 
     - name: Studio Jakarta EE - Interview with Juergen Hoeller (VMware)
       presenter: Juergen Hoeller & Ivar
       type: studio-jakarta-ee
       time: 10:45 am PT / 1:45 pm ET / 19:45 CET
+      vod: https://youtu.be/gQZvuADHn-8
 
     - name: "Jakarta EE and MicroProfile: The Good Parts #slideless"
       presenter: Adam Bien
       type: jakarta-ee
       time: 11 am PT / 2 pm ET / 20:00 CET
+      vod: https://youtu.be/NxCOEPefkuA
 
     - name: Studio Jakarta EE - Interview with Werner Keil
       presenter: Ivar
       type: studio-jakarta-ee
       time: 11:45 am PT / 2:45 pm ET / 20:45 CET
+      vod: 	https://youtu.be/SXU1i5Tg10o
 
     - name: What We Learned from Porting PiggyMetrics from Spring Boot to MicroProfile
       presenter: Ed Burns / Emily Jiang
       type: microprofile
       time: 12 am PT / 3 pm ET / 21:00 CET
+      vod: https://youtu.be/E1Lo4rrTz9Y
 
     - name: "Lightning Talk: The Power of Performance Feedback"	
       presenter: Amber Vanderburg & Ivar
       type: studio-jakarta-ee
       time: 12:45 pm PT / 3:45 pm ET / 21:45 CET
+      vod: https://youtu.be/4107LGHm5yU
 
     - name: The Eclipse Transformer Project
       presenter: Thomas Bitonti
       type: jakarta-ee
       time: 1 pm PT / 4 pm ET / 22:00 CET
+      vod: https://youtu.be/YtAYV6I2wVM
 
     - name: Studio Jakarta EE - Contributor & Committer Celebration
       presenter: Tanja
       type: studio-jakarta-ee
       time: 1:45 pm PT / 4:45 pm ET / 22:45 CET
+      vod: https://youtu.be/YtAYV6I2wVM
 
     - name: Keeping Brazil’s Medical Industry Safe with MicroProfile
       presenter: Rafael Guimarães / Cesar Hernandez
       type: microprofile
       time: 2 pm PT / 5 pm ET / 23:00 CET
+      vod: https://youtu.be/0l2tn-dOMV0
 
     - name: Closing
       presenter: Tanja Obradovic & Ivar Grimstad
       type: keynote
       time: 2:45 pm PT / 5:45 pm ET / 23:45 CET
+      vod: https://youtu.be/p1UEDXgPLTs
 
       
