@@ -16,8 +16,8 @@ layout: "single"
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration year="2020" title="The event has now concluded!" >}}
-Thank You for making the second annual JakartaOne Livestream event a great success!
+    {{< events/registration year="2020" >}}
+Thank You for making the first JakartaOne Livestream in Spanish event a great success!
 
 This milestone would not be possible without the collective efforts of a dedicated community.
     {{</ events/registration >}}
