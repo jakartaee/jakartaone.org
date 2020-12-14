@@ -101,7 +101,7 @@ items:
       vod: 	https://youtu.be/WdXpiFuDpXU
 
     - name: Industry Keynote
-      presenter: Jakarta EE vendors
+      presenter: Fujitsu, IBM, Oracle, Payara, Tomitribe
       type: keynote
       time: 9:20 am PT / 12:20 pm ET / 18:20 CET
       vod: https://youtu.be/SRFfDICE7eM
