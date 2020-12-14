@@ -15,10 +15,7 @@ menu_name: "hispano"
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="hispano" year="2020" title="The event has now concluded!" >}}
-Thank You for making the first JakartaOne Livestream in Spanish event a great success!
-
-This milestone would not be possible without the collective efforts of a dedicated community.
+    {{< events/registration event="hispano" year="2020" >}}
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
