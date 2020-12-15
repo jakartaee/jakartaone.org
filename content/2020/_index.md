@@ -17,10 +17,11 @@ layout: "single"
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/registration year="2020" >}}
-JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta&reg; EE and related technologies focused on developing cloud native Java applications.
+Thank You for making the second annual JakartaOne Livestream event a great success!
+
+This milestone would not be possible without the collective efforts of a dedicated community.
     {{</ events/registration >}}
   {{</ grid/div >}}
-    {{< bootstrap/button href="https://www.crowdcast.io/e/jakartaonelivestream_dec8/register" pClass="text-center margin-top-30" linkClass="btn-primary">}}Register Now{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
 
 <!-- Add agenda using legacy CSS -->
