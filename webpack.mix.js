@@ -27,7 +27,7 @@ mix.styles([
 mix.copy('./js/home.slider.js', 'static/js/home.slider.js');
 mix.copy('./js/home.modal.js', 'static/js/home.modal.js');
 
-mix.scripts([
+mix.babel([
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/bootstrap/dist/js/bootstrap.min.js',
     './node_modules/jquery-match-height/dist/jquery.matchHeight-min.js',
