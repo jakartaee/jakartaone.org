@@ -4,7 +4,6 @@ date: 2019-07-04
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
-event_id: "japan"
 aliases:
   - /japan2020/code-of-conduct
 ---

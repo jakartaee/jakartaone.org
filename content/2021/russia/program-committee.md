@@ -5,7 +5,6 @@ date: 2021-01-20
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
-event_id: "russia"
 layout: "program-committee"
 ---
 

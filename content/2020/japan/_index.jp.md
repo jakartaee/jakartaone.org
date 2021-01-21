@@ -11,7 +11,6 @@ tagline: "JakartaOne Livestream Japan は、クラウドネイティブJavaア�
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 menu_name: "japan"
-event_id: "japan"
 aliases:
   - /jp/japan2020/
 ---

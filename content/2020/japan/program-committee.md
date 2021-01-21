@@ -6,7 +6,6 @@ hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
 layout: "program-committee"
-event_id: "japan"
 aliases:
   - /japan2020/program-committee
 ---
