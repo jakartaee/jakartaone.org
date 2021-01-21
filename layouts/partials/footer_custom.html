@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="col-xs-20 match-height-item-by-row">
-        {{ $event_id :=  .Page.Section | default "2019" }}
+        {{ $event_id := .Page.Params.event_id | default "2019" }}
       	{{ if isset .Site.Data.event_config.twitter_handle $event_id }}
       	  <p>{{ i18n "footer-get-social-content" (index .Site.Data.event_config.twitter_handle $event_id) | safeHTML }} </p>
       	{{ else }}

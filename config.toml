@@ -20,6 +20,9 @@ themesDir = "node_modules/"
   [languages.es]
     languageName = "Español"
     weight =  4
+  [languages.ru]
+    languageName = "русский"
+    weight =  5
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"

@@ -1,0 +1,10 @@
+items:
+  - name: "Dmitry Aleksandrov"
+    title: "..."
+    img: "dmitry_aleksandrov.jpg"
+    bio: |
+      <p>tbd</p>
+  - name: "Dmitry Kornilov"
+    title: "NA"
+    img: "dmitry_kornilov.jpg"
+    bio: "<p>...</p>"
