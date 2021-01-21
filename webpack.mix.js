@@ -18,11 +18,6 @@ mix.setPublicPath('static');
 mix.setResourceRoot('../');
 
 mix.less('./less/styles.less', 'static/css/styles.css');
-mix.styles([
-	'./node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
-	'./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css',
-	'static/css/styles.css'
-],'static/css/styles.css');
 
 mix.copy('./js/home.slider.js', 'static/js/home.slider.js');
 mix.copy('./js/home.modal.js', 'static/js/home.modal.js');
