@@ -1,10 +1,12 @@
 items:
-  - name: "Dmitry Aleksandrov"
-    title: "..."
+  - name: "Дмитрий Александров"
+    title: "Senior Principal программист"
     img: "dmitry_aleksandrov.jpg"
-    bio: |
-      <p>tbd</p>
-  - name: "Dmitry Kornilov"
-    title: "NA"
+    twitter_handle: "bercut2000"
+    bio: "<p>Senior Principal программист в Oracle, Со-лидер болгарской Java User Group, Java Champion, Oracle Groundbreaker. Помимо работы над Project Helidon, читает лекции на конференциях. Организатор конференции jPrime.io — крупнейшей Java-конференции на Балканах. В перечень основных интересов входят динамические языки на JVM, Java Enterprise, MicroProfile, а также вся Spring-инфраструктура. Увлекается всяческими экспериментальными Java-проектами, а также GPU-программированием.</p>"
+    anchor: "Dmitry Aleksandrov"
+  - name: "Дмитрий Корнилов"
+    title: "Директор по разработке"
     img: "dmitry_kornilov.jpg"
-    bio: "<p>...</p>"
+    twitter_handle: "m0mus"
+    bio: "<p>Дмитрий работает в компании Oracle, где руководит разработкой проекта Helidon, нескольких Jakarta EE спецификаций и таких проектов, как Jersey, EclipseLink и Yasson. Он активно участвует в жизни сообществ, принимает участие в проектах с открытым исходным кодом и выступает на международных конференциях. Дмитрий с самого начала работал над переносом Java EE в Eclipse Foundation и по сей день принимает участие в работе нескольких Jakarta EE комитетов.</p>"

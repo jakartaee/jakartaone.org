@@ -1,13 +1,13 @@
 ---
-title: "JakartaOne Livestream - Russian"
-seo_title: "JakartaOne Livestream - Russian | Jakarta EE Software | Cloud Native"
+title: "JakartaOne Livestream - На Русском"
+seo_title: "JakartaOne Livestream - На Русском | JakartaOne Livestream - Russian | Jakarta EE Software | Cloud Native"
 date: 2021-01-05T15:50:25-04:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-headline: "JakartaOne Livestream - Russian"
-tagline: "March 31, 2021"
+headline: "JakartaOne Livestream - На Русском"
+tagline: "31 Марта 2021"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 menu_name: "russia"
@@ -16,13 +16,13 @@ aliases:
 ---
 
 <!-- Add registration using legacy CSS -->
-{{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}} {{< grid/div class="container" isMarkdown="false" >}} {{< events/registration event="russia" year="2021" >}} JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Russian.
+{{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}} {{< grid/div class="container" isMarkdown="false" >}} {{< events/registration event="russia" year="2021" >}} JakartaOne Livestream - это однодневная виртуальная конференция для разработчиков и технических руководителей бизнеса, которая дает представление о текущем состоянии и будущем Jakarta ™ EE и связанных с ней технологий, ориентированных на разработку облачных приложений Java. Это первое мероприятие полностью на русском языке.
 {{</ events/registration >}} {{</ grid/div >}} {{</ grid/section-container >}}
 
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
   {{< grid/div isMarkdown="true" class="text-center">}}
-## Call for Papers - Coming Soon
+## Подача докладов - Совсем скоро
 
 <!-- You are now invited to submit your talk and have the opportunity to share your work with the industry peers! -->
   {{</grid/div >}}
