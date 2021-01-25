@@ -33,7 +33,7 @@ aliases:
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
     {{< events/user_display event="russia" year="2021" source="committee" subpage="program-committee" useCarousel="false" >}}
-We are proud to say that the sessions and keynotes for JakartaOne Livestream - Russian Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
+Мы с гордимся тем, что доклады для JakartaOne Livestream - на Русском выбираются независимым программным комитетом, состоящим из добровольцев из сообщества Jakarta® EE и Cloud Native Java!
     {{</ events/user_display >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
