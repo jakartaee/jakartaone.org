@@ -21,12 +21,13 @@
         </div>
       </div>
       <div class="col-xs-20 match-height-item-by-row">
-        {{ $event_id :=  .Page.Section | default "2019" }}
-      	{{ if isset .Site.Data.event_config.twitter_handle $event_id }}
-      	  <p>{{ i18n "footer-get-social-content" (index .Site.Data.event_config.twitter_handle $event_id) | safeHTML }} </p>
-      	{{ else }}
-      	  <p data-def>{{ i18n "footer-get-social-content" .Site.Data.event_config.twitter_handle.default | safeHTML }} </p>
-      	{{ end }}
+        {{ $default_twitter := index .Site.Data.event_config.twitter_handle "default" }}
+        {{ range $key, $value := .Site.Data.event_config.twitter_handle }}
+          {{ if in $.RelPermalink $key }}
+            {{ $default_twitter = $value }}
+          {{ end }}
+        {{ end }}
+        <p>{{ i18n "footer-get-social-content" $default_twitter | safeHTML }} </p>
       </div>
     </div>
   </div>
@@ -72,7 +73,7 @@
             {{ end }}
           {{ end }}
         </ul>
-        <p><a class="btn btn-secondary margin-top-30" href='{{ "/past-events" | relLangURL }}'>Past Events</a></p>
+        <p><a class="btn btn-secondary margin-top-30" href='{{ "/past-events" | relLangURL }}'>{{ i18n "past-events-header" }}</a></p>
       </div>
     </div>
   </div>

@@ -1,0 +1,12 @@
+items:
+  - name: "Dmitry Aleksandrov"
+    title: "Senior Principal Developer"
+    img: "dmitry_aleksandrov.jpg"
+    twitter_handle: "bercut2000"
+    bio: |
+      <p>Dmitry is a Senior Principal developer at Oracle, Java Champion, Oracle Groundbreaker. Currently working on Project Helidon. He has more than a decade experience mainly in Java Enterprise in banking/telecom, but interested in dynamic languages on JVM and features like massive computations on GPUs. A true believer in open source and community driven initiatives. He is a co-lead of the Bulgarian Java User Group and co-organizer of jPrime Conf. Dmitry is a blogger and also a frequent speaker at local events as well as conferences like JavaOne/CodeOne, Devoxx/Voxxed and Joker/JPoint.</p>
+  - name: "Dmitry Kornilov"
+    title: "Senior Software Development Manager"
+    img: "dmitry_kornilov.jpg"
+    twitter_handle: "m0mus"
+    bio: "<p>Senior Software Development Manager at Oracle. Helidon project lead. Eclipse EE4J Project Management Committee member. Leading JSON Binding, JSON Processing, EclipseLink and Yasson projects. Active JCP member holding the \"Outstanding Spec Lead 2016\" award, JCP Star Spec Lead. Over 20 years of experience in design and implementation of complex software systems, defining systems architecture, team leading and project management. Bachelor of Science in Applied Mathematics from Moscow Aircraft Institute (Technical University).</p>"

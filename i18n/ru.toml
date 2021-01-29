@@ -1,0 +1,87 @@
+[upcoming-events-header]
+other = "Предстоящие События"
+
+[upcoming-events-learn-more]
+other = "Узнать больше"
+
+[upcoming-events-learn-more-title]
+other = "Узнать больше о"
+
+[past-events-header]
+other = "Прошедшие события"
+
+[past-events-learn-more]
+other = "Узнать больше"
+
+[past-events-learn-more-title]
+other = "Изнать больше о"
+
+[regional-jakartaone-livestreams]
+other = "Организация Региональных JakartaOne Livestreams Событий"
+
+[regional-jakartaone-livestreams-decription]
+other = "Заинтересованы в организации вашего регионального JakartaOne Livestream? Загрузите информацию и обращайтесь к нам!"
+
+[download-button]
+other = "Загрузить"
+
+[agenda-schedule]
+other = "Детали события"
+
+[agenda-legend]
+other = "Легенда"
+
+[agenda-sessions]
+other = "Доклады"
+
+[agenda-session-name]
+other = "Название доклада"
+
+[agenda-presenter-name]
+other = "Presenter Name"
+
+[agenda-session-recording]
+other = "Запись доклада"
+
+[agenda-session-schedule]
+other = "Запланированное время"
+
+[agenda-session-recording-button-alt]
+other = "Запись доклада {{ .name }}"
+
+[agenda-abstract-modal-alt]
+other = "Посмотреть описание доклада {{.name}}"
+
+[agenda-modal-close-alt]
+other = "Закрыть"
+
+[speakers-tiles-title]
+other = "Спикеры"
+
+[committee-carousel-title]
+other = "Программный колмитет"
+
+[committee-carousel-content]
+other = "Мы с гордостью сообщаем, что сессии и основные доклады для мероприятия JakartaOne Livestream выбираются независимым программным комитетом, состоящим из добровольцев из Jakarta EE и Cloud Native Java сообществ!"
+
+[committee-carousel-button-text]
+other = "Узнать больше"
+
+[committee-twitter-follow-text]
+other = "Следуй за {{ .name }} на Twitter!"
+
+[footer-get-social-title]
+other = "Социализируйся!"
+
+[footer-our-events-title]
+other = "Предстоящие события"
+
+[footer-get-social-content]
+other = "Последуйте за официальным Twitter аккаунтом <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a> чтобы узнавать о предстоящих событиях, объявлениях спикеров, новостях и д.р.!"
+
+[footer-jakarta-callout-content]
+other = "При поддержке участия, Jakarta&reg; EE ориентирована на обеспечение совместной работы сообщества и открытых инноваций для Cloud"
+
+[footer-jakarta-callout-button-text]
+other = "Узнать больше"
+
