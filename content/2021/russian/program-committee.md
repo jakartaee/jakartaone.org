@@ -6,6 +6,9 @@ hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
 layout: "program-committee"
+aliases: [
+  "/2021/russia/program-committee"
+]
 ---
 
 {{< events/user_bios event="russian" year="2021" source="committee" >}}

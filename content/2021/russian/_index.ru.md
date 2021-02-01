@@ -11,8 +11,11 @@ tagline: "31 Марта 2021"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 menu_name: "russian"
-aliases:
-  - /russian2021/
+aliases: [
+  "/russian2021/",
+  "/ru/2021/russia/"
+]
+
 ---
 
 <!-- Add registration using legacy CSS -->
