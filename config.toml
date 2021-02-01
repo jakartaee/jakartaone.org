@@ -21,7 +21,7 @@ themesDir = "node_modules/"
     languageName = "Español"
     weight =  4
   [languages.ru]
-    languageName = "русский"
+    languageName = "русский язык"
     weight =  5
 
 [Params]
