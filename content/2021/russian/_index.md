@@ -12,6 +12,7 @@ tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/i
 layout: "single"
 menu_name: "russian"
 aliases: [
+  "/russia2021/",
   "/russian2021/",
   "/2021/russia/"
 ]
