@@ -74,7 +74,7 @@ items:
       presenter: Emily Jiang
       type: microprofile
       time: 7 am PT / 10 am ET / 16:00 CET
-      vod: 	https://youtu.be/uhiywz8jBRA
+      vod: 	https://youtu.be/gop3aAp_Us0
 
     - name: Studio Jakarta EE - Interview with Arjan Tijms (Piranha)
       presenter: Arjan Tijms & Ivar
@@ -134,7 +134,7 @@ items:
       presenter: Ed Burns / Emily Jiang
       type: microprofile
       time: 12 am PT / 3 pm ET / 21:00 CET
-      vod: https://youtu.be/E1Lo4rrTz9Y
+      vod: https://youtu.be/MSzfNKSgOCQ
 
     - name: "Lightning Talk: The Power of Performance Feedback"	
       presenter: Amber Vanderburg & Ivar
@@ -146,7 +146,7 @@ items:
       presenter: Thomas Bitonti
       type: jakarta-ee
       time: 1 pm PT / 4 pm ET / 22:00 CET
-      vod: https://youtu.be/YtAYV6I2wVM
+      vod: https://youtu.be/rS5EJb_QYs8
 
     - name: Studio Jakarta EE - Contributor & Committer Celebration
       presenter: Tanja
