@@ -30,7 +30,7 @@ aliases: [
 
 Выступление на JakartaOne Livestream это отличным способ обратиться к обширному сообществу разработчиков JavaЕЕ. Данное событие впервые соберет русскоязычных разработчиков 31 марта 2021 года. Подайте Ваш доклад, чтобы выступить на конференции до 28 февраля 23:59 UTC.
   {{</grid/div >}}
-  {{< bootstrap/button href="https://www.papercall.io/j1l-russian" pClass="text-center margin-top-30" linkClass="btn-primary">}}Submit your paper today{{< /bootstrap/button >}}
+  {{< bootstrap/button href="https://www.papercall.io/j1l-russian" pClass="text-center margin-top-30" linkClass="btn-primary">}}Подать Доклад{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
