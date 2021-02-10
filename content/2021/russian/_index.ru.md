@@ -26,9 +26,9 @@ aliases: [
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
   {{< grid/div isMarkdown="true" class="text-center">}}
-## Подача докладов - Now Open
+## Подача докладов - ОТКРЫТА
 
-Speaking at JakartaOne Livestream is proven to be a great way to reach out to the vast Java developer community, this language-specific edition will bring together Russian-speaking developers for the first time on March 31, 2021. Submit your talk to speak at the event before Feb 28 at 23:59 UTC.
+Выступление на JakartaOne Livestream это отличным способ обратиться к обширному сообществу разработчиков JavaЕЕ. Данное событие впервые соберет русскоязычных разработчиков 31 марта 2021 года. Подайте Ваш доклад, чтобы выступить на конференции до 28 февраля 23:59 UTC.
   {{</grid/div >}}
   {{< bootstrap/button href="https://www.papercall.io/j1l-russian" pClass="text-center margin-top-30" linkClass="btn-primary">}}Submit your paper today{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
