@@ -26,7 +26,7 @@ aliases: [
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
   {{< grid/div isMarkdown="true" class="text-center">}}
-## Подача докладов - Совсем скоро
+## Подача докладов - Now Open
 
 Speaking at JakartaOne Livestream is proven to be a great way to reach out to the vast Java developer community, this language-specific edition will bring together Russian-speaking developers for the first time on March 31, 2021. Submit your talk to speak at the event before Feb 28 at 23:59 UTC.
   {{</grid/div >}}
