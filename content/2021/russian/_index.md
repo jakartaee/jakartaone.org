@@ -26,11 +26,10 @@ aliases: [
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
   {{< grid/div isMarkdown="true" class="text-center">}}
-## Call for Papers - Now Open
+## CALL FOR PAPERS - COMPLETE
 
-Speaking at JakartaOne Livestream is proven to be a great way to reach out to the vast Java developer community, this language-specific edition will bring together Russian-speaking developers for the first time on March 31, 2021. Submit your talk to speak at the event before Feb 28 at 23:59 UTC.
+Thanks to everyone who submitted a paper to speak at JakartaOne Livestream - Russian. The program committee is evaluating submissions and will release the full program soon. Register now for the March 31 event!
   {{</grid/div >}}
-  {{< bootstrap/button href="https://www.papercall.io/j1l-russian" pClass="text-center margin-top-30" linkClass="btn-primary">}}Submit your paper today{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
