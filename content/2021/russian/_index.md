@@ -23,15 +23,6 @@ aliases: [
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}} {{< grid/div class="container" isMarkdown="false" >}} {{< events/registration event="russian" year="2021" >}} JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Russian.
 {{</ events/registration >}} {{</ grid/div >}} {{</ grid/section-container >}}
 
-<!-- Add registration using legacy CSS -->
-{{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
-  {{< grid/div isMarkdown="true" class="text-center">}}
-## CALL FOR PAPERS - COMPLETE
-
-Thanks to everyone who submitted a paper to speak at JakartaOne Livestream - Russian. The program committee is evaluating submissions and will release the full program soon. Register now for the March 31 event!
-  {{</grid/div >}}
-{{</ grid/section-container >}}
-
 <!-- Add agenda using legacy CSS -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}

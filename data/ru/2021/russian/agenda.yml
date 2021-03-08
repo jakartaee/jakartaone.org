@@ -1,15 +1,15 @@
 complete: false
 types:
-    - name: основной доклад(KN)
+    - name: основной доклад
       id: keynote 
       color: "#e44"
-    - name: быстрый разговор (KT)
+    - name: быстрый разговор
       id: lightning-talk
       color: "#0a0"
-    - name: презентация (P)
+    - name: презентация
       id: presentation 
       color: "#c6a061"
-    - name: перемена (B)
+    - name: перемена
       id: break
 
 items:

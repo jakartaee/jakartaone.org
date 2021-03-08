@@ -1,15 +1,15 @@
 complete: false
 types:
-    - name: Keynote (KN)
+    - name: Keynote
       id: keynote 
       color: "#e44"
-    - name: Lightning Talk (KT)
+    - name: Lightning Talk
       id: lightning-talk
       color: "#0a0"
-    - name: Presentation (P)
+    - name: Presentation
       id: presentation 
       color: "#c6a061"
-    - name: Break (B)
+    - name: Break
       id: break
 
 items:
