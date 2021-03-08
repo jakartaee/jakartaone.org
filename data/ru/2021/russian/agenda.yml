@@ -1,0 +1,58 @@
+complete: false
+types:
+    - name: основной доклад(KN)
+      id: keynote 
+      color: "#e44"
+    - name: быстрый разговор (KT)
+      id: lightning-talk
+      color: "#0a0"
+    - name: презентация (P)
+      id: presentation 
+      color: "#c6a061"
+    - name: перемена (B)
+      id: break
+
+items:
+    - name: Открытие
+      presenter: Дмитрий Александров, Дмитрий Корнилов
+      type: keynote
+      time: 10:00 MSK / 09:00 CEST / 03:00 EDT
+    - name: State of Jakarta EE
+      presenter: Ивар Гримстад
+      type: lightning-talk
+      time: 10:15 MSK / 09:15 CEST / 03:15 EDT
+    - name: 7 причин почему Jakarta EE должны задуматься о Quarkus
+      presenter: Себастьян Дашнер
+      type: lightning-talk
+      time: 10:30 MSK / 09:30 CEST / 03:30 EDT
+    - name: Codegen для Microprofile базированных xtend моделей
+      presenter: Андрей Когунь
+      type: presentation
+      time: 11:00 MSK / 10:00 CEST / 04:00 EDT
+    - name: Как там с Jersey?
+      presenter: Максим Несен
+      type: presentation
+      time: 12:00 MSK / 11:00 CEST / 05:00 EDT
+    - name: Перерыв
+      type: break
+      time: 13:00 MSK / 12:00 CEST / 06:00 EDT
+    - name: Мигрируй это!
+      presenter: Юрий Артамонов
+      type: presentation
+      time: 14:00 MSK / 13:00 CEST / 07:00 EDT
+    - name: Helidon - Ласточка в мире микросервисов
+      presenter: Дмитрий Александров
+      type: presentation
+      time: 15:00 MSK / 14:00 CEST / 08:00 EDT
+    - name: Скейлинг Jakarta EE Приложений Вертикально и Горизонтально с помощь Jelastic PaaS
+      presenter: To Be Confirmed
+      type: presentation
+      time: 16:00 MSK / 15:00 CEST / 09:00 EDT
+    - name: От Java EE к Jakarta EE
+      presenter: Дмитрий Корнилов
+      type: presentation
+      time: 17:00 MSK / 16:00 CEST / 10:00 EDT
+    - name: Закрытие
+      presenter: Дмитрий Александров, Дмитрий Корнилов
+      type: keynote
+      time: 17:30 MSK / 16:30 CEST / 10:30 EDT
