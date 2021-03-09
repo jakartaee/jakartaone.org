@@ -26,3 +26,7 @@ items:
   - name: "Dmitry Kornilov"
     title: "Oracle"
     img: "dmitry_kornilov.jpg"
+
+  - name: "Ruslan Synytsky"
+    title: "Jelastic"
+    img: "ruslan-synytsky.jpg"

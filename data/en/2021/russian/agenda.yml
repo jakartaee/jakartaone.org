@@ -45,7 +45,7 @@ items:
       type: presentation
       time: 15:00 MSK / 14:00 CEST / 08:00 EDT
     - name: Scaling Jakarta EE Applications Vertically and Horizontally with Jelastic PaaS
-      presenter: To Be Confirmed
+      presenter: Ruslan Synytsky
       type: presentation
       time: 16:00 MSK / 15:00 CEST / 09:00 EDT
     - name: From Java EE to Jakarta EE

@@ -37,6 +37,11 @@ aliases: [
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add Media Partners using legacy CSS -->
+{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+  {{< events/sponsors event="russian" year="2021" title="Media partners" displayBecomeSponsor="false" >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
