@@ -1,0 +1,58 @@
+complete: false
+types:
+    - name: Keynote
+      id: keynote 
+      color: "#e44"
+    - name: Lightning Talk
+      id: lightning-talk
+      color: "#0a0"
+    - name: Presentation
+      id: presentation 
+      color: "#c6a061"
+    - name: Break
+      id: break
+
+items:
+    - name: Opening
+      presenter: Dmitry Aleksandrov, Dmitry Kornilov
+      type: keynote
+      time: 10:00 MSK / 09:00 CEST / 03:00 EDT
+    - name: State of Jakarta EE
+      presenter: Ivar Grimstad
+      type: lightning-talk
+      time: 10:15 MSK / 09:15 CEST / 03:15 EDT
+    - name: 7 Reasons why Jakarta EE should consider Quarkus
+      presenter: Sebastian Daschner
+      type: lightning-talk
+      time: 10:30 MSK / 09:30 CEST / 03:30 EDT
+    - name: Codegen for MicroProfile based xtend models
+      presenter: Andrey Kogun
+      type: presentation
+      time: 11:00 MSK / 10:00 CEST / 04:00 EDT
+    - name: How is Jersey doing?
+      presenter: Maxim Nesen
+      type: presentation
+      time: 12:00 MSK / 11:00 CEST / 05:00 EDT
+    - name: Break
+      type: break
+      time: 13:00 MSK / 12:00 CEST / 06:00 EDT
+    - name: Migrate it!
+      presenter: Yuriy Artamonov
+      type: presentation
+      time: 14:00 MSK / 13:00 CEST / 07:00 EDT
+    - name: Helidon - Take in the world of Microservices
+      presenter: Dmitry Aleksandrov
+      type: presentation
+      time: 15:00 MSK / 14:00 CEST / 08:00 EDT
+    - name: Scaling Jakarta EE Applications Vertically and Horizontally with Jelastic PaaS
+      presenter: To Be Confirmed
+      type: presentation
+      time: 16:00 MSK / 15:00 CEST / 09:00 EDT
+    - name: From Java EE to Jakarta EE
+      presenter: Dmitry Kornilov
+      type: presentation
+      time: 17:00 MSK / 16:00 CEST / 10:00 EDT
+    - name: Closing
+      presenter: Dmitry Aleksandrov, Dmitry Kornilov
+      type: keynote
+      time: 17:30 MSK / 16:30 CEST / 10:30 EDT

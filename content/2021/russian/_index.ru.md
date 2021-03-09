@@ -23,13 +23,18 @@ aliases: [
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}} {{< grid/div class="container" isMarkdown="false" >}} {{< events/registration event="russian" year="2021" >}} JakartaOne Livestream - это однодневная виртуальная конференция для разработчиков и технических руководителей бизнеса, которая дает представление о текущем состоянии и будущем Jakarta ™ EE и связанных с ней технологий, ориентированных на разработку облачных приложений Java. Это первое мероприятие полностью на русском языке.
 {{</ events/registration >}} {{</ grid/div >}} {{</ grid/section-container >}}
 
-<!-- Add registration using legacy CSS -->
-{{< grid/section-container id="call-for-papers" containerClass="container padding-bottom-40 padding-top-40"  >}}
-  {{< grid/div isMarkdown="true" class="text-center">}}
-## Подача Докладов - закрыта!
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="russian" year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
 
-Спасибо всем, кто прислал доклад для выступления на JakartaOne Livestream - на Русском. Программный комитет оценит поступившие заявки и скоро выпустит полную программу. Зарегистрируйтесь сейчас на мероприятие, которое состоится 31 марта!
-  {{</grid/div >}}
+<!-- Add user carousel for speaker -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="russian" year="2021" source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="СПИКЕРЫ" headerClass="text-center" />}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
