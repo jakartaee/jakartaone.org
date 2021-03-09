@@ -23,11 +23,6 @@ aliases: [
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}} {{< grid/div class="container" isMarkdown="false" >}} {{< events/registration event="russian" year="2021" >}} JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Russian.
 {{</ events/registration >}} {{</ grid/div >}} {{</ grid/section-container >}}
 
-<!-- Add Media Partners using legacy CSS -->
-{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
-  {{< events/sponsors event="russian" year="2021" title="Media partners" displayBecomeSponsor="false" >}}
-{{</ grid/section-container >}}
-
 <!-- Add agenda using legacy CSS -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}
@@ -40,6 +35,11 @@ aliases: [
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
     {{< events/user_display event="russian" year="2021" source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-center" />}}
   {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add Media Partners using legacy CSS -->
+{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+  {{< events/sponsors event="russian" year="2021" title="Media partners" displayBecomeSponsor="false" >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
