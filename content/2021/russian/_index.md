@@ -21,10 +21,10 @@ aliases: [
 
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}} {{< grid/div class="container" isMarkdown="false" >}} {{< events/registration event="russian" year="2021" >}} JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Russian.
-{{</ events/registration >}} {{</ grid/div >}} {{</ grid/section-container >}}
-
+{{</ events/registration >}} 
 <!-- Add Telegram Channel using legacy CSS -->
-{{< bootstrap/button id="telegram-channel" href="https://t.me/jakartaonerussian" pClass="text-center margin-top-30 margin-bottom-30" linkClass="btn-primary">}}Our Telegram channel{{< /bootstrap/button >}}
+{{< bootstrap/button id="telegram-channel" href="https://t.me/jakartaonerussian" pClass="text-center margin-top-30" linkClass="btn-primary">}}<i class="fa fa-telegram margin-right-10" aria-hidden="true"></i>Our Telegram channel{{< /bootstrap/button >}}
+{{</ grid/div >}} {{</ grid/section-container >}}
 
 <!-- Add agenda using legacy CSS -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
