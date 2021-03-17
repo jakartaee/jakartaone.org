@@ -42,7 +42,7 @@ aliases: [
 
 <!-- Add Media Partners using legacy CSS -->
 {{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
-  {{< events/sponsors event="russian" year="2021" title="Медиа партнеры" displayBecomeSponsor="false" >}}
+  {{< events/sponsors event="russian" year="2021" title="Медиа партнеры" displayBecomeSponsor="false" useMax="false">}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
