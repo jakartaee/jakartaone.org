@@ -25,11 +25,11 @@ items:
       presenter: Себастьян Дашнер
       type: lightning-talk
       time: 10:30 MSK / 09:30 CEST / 03:30 EDT
-    - name: Codegen для Microprofile базированных xtend моделей
+    - name: Codegen для Microprofile с применением Xtend
       presenter: Андрей Когунь
       type: presentation
       time: 11:00 MSK / 10:00 CEST / 04:00 EDT
-    - name: Как там с Jersey?
+    - name: Jersey 3.x или переход на Jakarta EE9
       presenter: Максим Несен
       type: presentation
       time: 12:00 MSK / 11:00 CEST / 05:00 EDT

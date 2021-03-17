@@ -1,7 +1,13 @@
 items:
+  - title: JPoint
+    image: /images/sponsors/media-jpoint.png
+    url: https://jpoint.ru/
+    width: 160
   - title: JUG NSK
     image: /images/sponsors/media-jug-nsk.jpeg
     url: https://www.youtube.com/c/JUGNsk
+    width: 120
   - title: JUG MSK
     image: /images/sponsors/media-jug-msk.jpg
     url: http://jug.msk.ru/
+    width: 120
