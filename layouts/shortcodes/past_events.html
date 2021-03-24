@@ -3,7 +3,7 @@
 {{$langBase:=index .Site.Data $currLang}}
 {{$events := (index $langBase).conferences.items}}
 
-<section class="container past-events">
+<section class="container">
   <h2>{{ i18n "past-events-header" }}</h2>
   <ul>
     {{ range (sort $events "date" "asc")}}

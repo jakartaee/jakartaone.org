@@ -7,6 +7,7 @@
  * 
  * Contributors:
  *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ *   Martin Lowe <martin.lowe@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
@@ -14,21 +15,7 @@
 .featured-jumbotron {
     h1, h2, h3, h4, h5, h6 {
         color: inherit;
-        text-transform: uppercase;
-    }
-    h2 {
-        &:after {
-            border-bottom: 3px solid @brand-primary;
-            width: 200px;
-            height: 5px;
-            display: block;
-            content: "";
-            margin: 15px auto 0;
-        }
-    }
-    h3 {
         font-weight: 700;
-        margin-bottom: 1.2em;
     }
     h2, h3 {
         letter-spacing: 2px;
@@ -50,6 +37,28 @@
         }
     }
 }
+.margin-top-150 {
+  margin-top: 150px;
+}
+.margin-bottom-150 {
+  margin-bottom: 150px;
+}
+.featured-jumbotron-tall {
+  & {
+    min-height: calc(82vh);
+  }
+  h2 {
+    font-size: 72px;
+  }
+  p.jumbotron-prefix, p.jumbotron-tagline {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+.header-default-bg-img {
+    background-position: center;
+}
+
 #header-row {
     margin-top: 15px;
 }
@@ -105,6 +114,35 @@ footer#solstice-footer {
 }
 .btn-wide {
     min-width: calc(100% - 20px);
+}
+
+.btn-bordered {
+    & {
+      text-transform: uppercase;
+      font-size: 18px;
+      color: @white;
+      border: 2px solid @white;
+    }
+    &.padded {
+      padding: 20px 40px;
+    }
+    &:focus, &.focus {
+      color: @white;
+      border-color: @white;
+    }
+    &:visited, &.visited {
+        color: @white;
+        border-color: @white;
+    }
+    &:hover {
+        color: @white;
+        border-color: @white;
+    }
+    &:active, &.active {
+        color: @white;
+        background-image: none;
+        border-color: @white;
+    }
 }
 .centered-container {
     width: 100%;
@@ -274,17 +312,6 @@ span.icon::after {
 .match-height-item-by-row {
     min-height: 50px;
 }
-.flex-column {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-}
-.flex-grow {
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-}
 // fix for buttons in flex columns being stretched past content
 .flex-column .btn {
   width: fit-content;
@@ -295,31 +322,61 @@ span.icon::after {
 	max-height: 200px;
 }
 
-section.active-events, section.past-events { 
+
+section.active-events {
+  & {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  table {
+    font-size: 16px;
+  }
+  table tbody tr td{
+    padding: 16px 8px;
+  }
+}
+
+section.about-home {
+  > .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  @media (min-width:992px) {
+    > .container {
+      margin-top: 150px;
+      margin-bottom: 150px;
+    }
+  }
+}
+
+section.past-events { 
   & {
     margin-bottom: 30px; 
+    padding: 40px 0px;
   }
-  .row {
-    & > div { 
-      padding: 10px; 
+  .event-panel {
+    & {
+      margin: 1em 2em;
+      border-radius:1em;
+      border: none;
+      overflow:hidden;
+      padding: 0;
+      height:100%;
+      text-decoration: none;
+      box-shadow: 4px 6px 9px 0px rgba(0,0,0,0.31);
     }
-    .event-item { 
-      & {
-        border: 1px solid #cecece; 
-        padding: 15px; 
-        text-align: center; 
-        background-color: #1b208b; 
-        color: #fff;
-        height: 100%;
-      }
-      h3 { 
-        color: #fff; 
-        font-size: 25px; 
-        font-weight: 600; 
-      }
-      p {
-       padding-bottom: 15px; 
-      }
+    &:hover {
+      text-decoration: underline
+    }
+    .panel-heading{
+      padding: 0;
+    }
+    .panel-heading img{
+      min-width: 100%;
+    }
+    .panel-body {
+    padding:1em;
+    padding-top:0;
     }
   }
 }
@@ -327,6 +384,72 @@ section.past-events {
     background-image:url('images/first-banner.png');
     background-size: cover;
 }
+section.host-jakartaone {
+  & {
+    background-image:url('images/host-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #282e70;
+  }
+
+  > .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  @media (min-width:992px) {
+    > .container {
+      margin-top: 150px;
+      margin-bottom: 150px;
+    }
+  }
+}
+
+.event-highlight {
+  color: @brand-secondary;
+  font-size: 1.5em;
+}
+img.cover-image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.event-testimonials {
+  margin-top: 80px;
+}
+
+.event-testimonials {
+  p {
+    color: @brand-secondary;
+  }
+  .carousel .arrow {
+    & {
+      display: inline-block;
+      border: solid #E88208;
+      border-width: 0 2px 2px 0;
+      height: 66px;
+      width: 66px;
+      margin-top: 25%;
+      margin-left: 25%;
+    }
+    
+    &.right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    
+    &.left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+  }
+  
+  // gets rid of gradients in BS Carousel indicators
+  .right.carousel-control, .left.carousel-control {
+    background: none;
+  }
+}
+
 .centered-container {
   min-height: initial;
 }
@@ -334,6 +457,8 @@ section.past-events {
   font-size: 18px;
 }
 
+
+// russian event specific code
 #registration {
     .telegram {
         display: flex;
