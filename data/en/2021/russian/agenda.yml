@@ -33,9 +33,13 @@ items:
       presenter: Maxim Nesen
       type: presentation
       time: 12:00 MSK / 11:00 CEST / 05:00 EDT
+    - name: Vendor Keynote
+      type: keynote
+      presenter: Jakarta EE Members
+      time: 13:00 MSK / 12:00 CEST / 06:00 EDT
     - name: Break
       type: break
-      time: 13:00 MSK / 12:00 CEST / 06:00 EDT
+      time: 13:30 MSK / 12:30 CEST / 06:30 EDT
     - name: Migrate it!
       presenter: Yuriy Artamonov
       type: presentation
