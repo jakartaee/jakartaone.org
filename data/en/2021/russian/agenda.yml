@@ -35,7 +35,7 @@ items:
       time: 12:00 MSK / 11:00 CEST / 05:00 EDT
     - name: Vendor Keynote
       type: keynote
-      presenter: Jakarta EE Vendors
+      presenter: Jakarta EE Members
       time: 13:00 MSK / 12:00 CEST / 06:00 EDT
     - name: Break
       type: break
