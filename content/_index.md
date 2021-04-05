@@ -8,6 +8,7 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 hide_footer_events: true
+show_featured_footer: false
 layout: "single"
 container: "container-fluid"
 jumbotron_additional_class: "featured-jumbotron-tall"

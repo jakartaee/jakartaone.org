@@ -85,9 +85,6 @@ main {
         font-size: 18px;
     }
 }
-footer#solstice-footer {
-    border-top: 2px solid #eda822;
-}
 .btn-gold {
     text-transform: uppercase;
     font-weight: 400;
@@ -115,16 +112,15 @@ footer#solstice-footer {
 .btn-wide {
     min-width: calc(100% - 20px);
 }
-
+.btn.padded {
+  padding: 20px 40px;
+}
 .btn-bordered {
     & {
       text-transform: uppercase;
       font-size: 18px;
       color: @white;
       border: 2px solid @white;
-    }
-    &.padded {
-      padding: 20px 40px;
     }
     &:focus, &.focus {
       color: @white;
@@ -322,7 +318,7 @@ span.icon::after {
 	max-height: 200px;
 }
 
-
+// HOME PAGE LESS 
 section.active-events {
   & {
     margin-top: 40px;
@@ -351,6 +347,8 @@ section.about-home {
 
 section.past-events { 
   & {
+    background-image:url('images/first-banner.png');
+    background-size: cover;
     margin-bottom: 30px; 
     padding: 40px 0px;
   }
@@ -380,10 +378,6 @@ section.past-events {
     }
   }
 }
-section.past-events {
-    background-image:url('images/first-banner.png');
-    background-size: cover;
-}
 section.host-jakartaone {
   & {
     background-image:url('images/host-banner.jpg');
@@ -404,6 +398,21 @@ section.host-jakartaone {
   }
 }
 
+footer#solstice-footer {
+  background: url("images/jakarta9-footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: @white;
+
+  h2, a, a.social-media-link {
+    color: @white;
+  }
+
+  a:hover, a.social-media-link:hover {
+    color: #bfbebe;
+  }
+}
 .event-highlight {
   color: @brand-secondary;
   font-size: 1.5em;
@@ -415,10 +424,9 @@ img.cover-image {
 }
 
 .event-testimonials {
-  margin-top: 80px;
-}
-
-.event-testimonials {
+  & {
+    margin-top: 80px;
+  }
   p {
     color: @brand-secondary;
   }
@@ -456,7 +464,6 @@ img.cover-image {
 .eclipsefdn-user-display-heading {
   font-size: 18px;
 }
-
 
 // russian event specific code
 #registration {
