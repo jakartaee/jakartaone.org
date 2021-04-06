@@ -13,6 +13,37 @@
 <p id="back-to-top">
   <a class="visible-xs" href="#top">{{ i18n "navigation-back-to-top" }}</a>
 </p>
+<style>
+  footer#solstice-footer {
+    text-align: center;
+  }
+  footer#solstice-footer i {
+    font-size: 24px;
+  }
+@media(min-width:992px) {
+  footer#solstice-footer {
+    text-align: left;
+  }
+}
+footer section {
+  margin-top: 20px;
+}
+
+@media(min-width:992px) {
+  footer section {
+    margin-top: 0px;
+  }
+}
+footer#solstice-footer .nav {
+  margin-left: 0px;
+}
+
+@media(min-width:992px) {
+  footer#solstice-footer .nav {
+    margin-left: -15px;
+  }
+}
+</style>
 <footer id="{{- .Params.footer_id | default .Site.Params.footer_id | default "solstice-footer"}}" class="{{- .Params.footer_class | default .Site.Params.footer_class | default ""}}">
   <div class="container">
     <div class="row">
@@ -35,29 +66,37 @@
           {{ end }}
       
           <a title="{{ $currentPageLogoTitle }}" href="{{ $currentPageLogoLink | absLangURL }}">
-            <img width="{{ $.Page.Params.logo_width | default $.Site.Params.logo_width | default "140"}}" class="logo-eclipse-default img-responsive hidden-xs" src="{{ $currentPageLogo | absURL }}" alt="{{ $currentPageLogoTitle }}" />
+            <img width="{{ $.Page.Params.logo_width | default $.Site.Params.logo_width | default "140"}}" class="logo-eclipse-default img-responsive margin-auto" src="{{ "/images/jakarta/jakarta-ee-logo.svg" | absURL }}" alt="{{ $currentPageLogoTitle }}" />
           </a>
           {{ end }}
         </div>
         
         <div class="vertical-align padding-top-30 white">
           <ul class="list-inline">
-            <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.twitter_url | default "https://twitter.com/EclipseFdn" }}"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
-                class="fa fa-twitter fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-twitter-text" }}</span>
-            </a></li>
-            <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.facebook_url | default "https://www.facebook.com/eclipse.org" }}"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
-                class="fa fa-facebook fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-facebook-text" }}</span>
-            </a></li>
-            <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.youtube_url | default "https://www.youtube.com/user/EclipseFdn" }}"> <i class="fa fa-circle-thin fa-stack-2x"></i> <i
-                class="fa fa-youtube fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-youtube-text" }}</span>
-            </a></li>
-            <li><a class="social-media-link fa-stack fa-lg" href="{{ $.Site.Params.linkedin_url | default " https://www.linkedin.com/company/eclipse-foundation" }}" title="{{ i18n "footer-sr-linkedin-account" }}">
-                <i class="fa fa-circle-thin fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x"></i> <span class="sr-only">{{ i18n "footer-sr-linkedin-text" }}</span>
-            </a></li>
+            <li>
+              <a href="{{ $.Site.Params.facebook_url | default "https://www.facebook.com/eclipse.org" }}">
+                <i class="fa fa-facebook"></i><span class="sr-only">{{ i18n "footer-sr-facebook-text" }}</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ $.Site.Params.linkedin_url | default " https://www.linkedin.com/company/eclipse-foundation" }}" title="{{ i18n "footer-sr-linkedin-account" }}">
+                <i class="fa fa-linkedin"></i> <span class="sr-only">{{ i18n "footer-sr-linkedin-text" }}</span>
+            </a>
+            </li>
+            <li>
+              <a href="{{ $.Site.Params.twitter_url | default "https://twitter.com/EclipseFdn" }}">
+                <i class="fa fa-twitter"></i><span class="sr-only">{{ i18n "footer-sr-twitter-text" }}</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ $.Site.Params.youtube_url | default "https://www.youtube.com/user/EclipseFdn" }}">
+                <i class="fa fa-youtube"></i><span class="sr-only">{{ i18n "footer-sr-youtube-text" }}</span>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
-      <section class="col-md-4 hidden-print" id="footer-eclipse-foundation">
+      <section class="col-md-4 col-sm-12 hidden-print match-height-item-by-row" id="footer-eclipse-foundation">
         <h2 class="section-title">{{ i18n "eclipse-foundation-text" }}</h2>
         <ul class="nav">
           <li><a href="https://www.eclipse.org/org/">{{ i18n "footer-foundation-about-us-text" }}</a></li>
@@ -70,7 +109,7 @@
           <li><a href="https://www.eclipse.org/org/foundation/directors.php">{{ i18n "footer-foundation-board-of-directors-text" }}</a></li>
         </ul>
       </section>
-      <section class="col-md-4 hidden-print" id="footer-legal">
+      <section class="col-md-4 col-sm-12 hidden-print match-height-item-by-row" id="footer-legal">
         <h2 class="section-title">{{ i18n "footer-legal-section-text" }}</h2>
         <ul class="nav">
           <li><a href="https://www.eclipse.org/legal/privacy.php">{{ i18n "footer-legal-privacy-policy-text" }}</a></li>
@@ -80,7 +119,7 @@
           <li><a href="https://www.eclipse.org/legal/">{{ i18n "footer-legal-resources-text" }} </a></li>
         </ul>
       </section>
-      <section class="col-md-4 hidden-print" id="footer-useful-links">
+      <section class="col-md-4 col-sm-12 hidden-print match-height-item-by-row" id="footer-useful-links">
         <h2 class="section-title">{{ i18n "footer-useful-links-section-text" }}</h2>
         <ul class="nav">
           <li><a href="https://bugs.eclipse.org/bugs/">{{ i18n "footer-useful-links-report-bug-text" }}</a></li>
@@ -91,7 +130,7 @@
           <li><a href="//marketplace.eclipse.org">{{ i18n "footer-useful-links-marketplace-text" }}</a></li>
         </ul>
       </section>
-      <section class="col-md-4 hidden-print" id="footer-other">
+      <section class="col-md-4 col-sm-12 hidden-print match-height-item-by-row" id="footer-other">
         <h2 class="section-title">{{ i18n "footer-other-section-text" }}</h2>
         <ul class="nav">
           <li><a href="https://www.eclipse.org/ide/">{{ i18n "footer-other-tools-text" }}</a></li>

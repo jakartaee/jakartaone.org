@@ -15,7 +15,7 @@
   <div class="jumbotron featured-jumbotron margin-bottom-0 padding-bottom-10{{ with .Page.Params.jumbotron_additional_class }} {{ . }}{{ end }}">
     <div class="container">
       <div class="row">
-        <div class="col-xs-16 margin-top-150 text-left">
+        <div class="col-xs-16 text-left">
           {{with .Page.Params.prefix }}<p class="jumbotron-prefix brand-primary">{{ . | safeHTML }}</p>{{ end }}
          <h2>{{ .Page.Params.headline | safeHTML }}</h2>
          <p class="jumbotron-tagline">{{ .Page.Params.tagline | safeHTML }}</p>

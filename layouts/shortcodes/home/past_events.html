@@ -6,15 +6,15 @@
 <section class="past-events row">
   <div class="container">
     <div class="row margin-bottom-30">
-      <h2 class="brand-primary col-xs-24 col-md-5">{{ i18n "past-events-header" }}</h2>
+      <h2 class="brand-primary col-xs-24 col-md-6">{{ i18n "past-events-header" }}</h2>
       {{ $count := 0 }}
       {{ range (sort $events "end_date" "desc")}} 
       {{ if and (lt $count 3) ((time .end_date).Before now)}}
-      <div class=" col-xs-24 col-sm-12 col-md-6 match-height-item-by-row">
+      <div class="event-container col-xs-24 col-sm-12 col-md-6 match-height-item-by-row">
         <a href="{{ .url }}">
           <div class="event-panel panel panel-default">
             <div class="panel-heading" aria-hidden="true">
-              <img class="img cover-image" src="/images/past_events_{{ $count }}.png" />
+              <img class="img cover-image" src="{{ .image }}" />
             </div>
             <div class="panel-body">
               <h3 class="fw-700">{{ .name }}</h3>
