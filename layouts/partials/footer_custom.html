@@ -11,60 +11,42 @@
   SPDX-License-Identifier: EPL-2.0
 -->
 <style>
-#get-social2 ul {
-  font-size: 36px;
-}
-#get-social2 li {
-  padding-right: 20px;
-}
-.btn.padded-sm {
-  padding: 10px 40px;
-}
-#get-social2 .container > div:first-of-type {
-  font-weight: 600;
-  font-size: 20px;
-  padding-bottom: 30px;
-}
-@media(min-width:768px) {
-  #get-social2 .container > div:first-of-type {
-    padding-bottom:0;
+  #mailing-list-socials .container > div:first-of-type * {
+    display: block;
   }
-}
-#get-social2 {
-  background-image: url(../images/vendor/eclipsefdn-solstice-components/featured-story/featured-story-default-bg.jpg);
-  background-position: bottom;
-  background-size: cover;
-  padding-top: 75px;
-  padding-bottom: 65px;
-}
+  @media (min-width: 992px) {
+    #mailing-list-socials .container > div:first-of-type * {
+      display: inline-block;
+    }
+  }
 </style>
-<section class="alt" id="get-social2">
+<section class="alt" id="mailing-list-socials">
   <div class="backdrop padding-bottom-100 padding-top-100">
     <div class="container">
-      <div class="col-sm-12 brand-secondary match-height-item-by-row vertical-align">
+      <div class="col-md-12 brand-secondary match-height-item-by-row vertical-align">
         <span>Join our Mailing List</span>
         <a href="https://accounts.eclipse.org/mailing-list" class="btn btn-secondary padded-sm margin-left-30">Sign up now</a>
       </div>
-      <div class="col-sm-12 match-height-item-by-row vertical-align">
+      <div class="col-md-12 match-height-item-by-row vertical-align">
         <ul class="list-inline">
           <li>
-            <a href="">
-              <i class="fa fa-facebook"></i><span class="sr-only"></span>
+            <a href="{{ $.Site.Params.facebook_url | default "https://www.facebook.com/eclipse.org" }}">
+              <i class="fa fa-facebook"></i><span class="sr-only">{{ i18n "footer-sr-facebook-text" }}</span>
             </a>
           </li>
           <li>
-            <a href="">
-              <i class="fa fa-instagram"></i><span class="sr-only"></span>
+            <a href="{{ $.Site.Params.linkedin_url | default " https://www.linkedin.com/company/eclipse-foundation" }}" title="{{ i18n "footer-sr-linkedin-account" }}">
+              <i class="fa fa-linkedin"></i> <span class="sr-only">{{ i18n "footer-sr-linkedin-text" }}</span>
+          </a>
+          </li>
+          <li>
+            <a href="{{ $.Site.Params.twitter_url | default "https://twitter.com/EclipseFdn" }}">
+              <i class="fa fa-twitter"></i><span class="sr-only">{{ i18n "footer-sr-twitter-text" }}</span>
             </a>
           </li>
           <li>
-            <a href="">
-              <i class="fa fa-twitter"></i><span class="sr-only"></span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fa fa-youtube"></i><span class="sr-only"></span>
+            <a href="{{ $.Site.Params.youtube_url | default "https://www.youtube.com/user/EclipseFdn" }}">
+              <i class="fa fa-youtube"></i><span class="sr-only">{{ i18n "footer-sr-youtube-text" }}</span>
             </a>
           </li>
         </ul>

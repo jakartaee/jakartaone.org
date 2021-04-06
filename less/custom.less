@@ -11,7 +11,10 @@
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
-
+.toolbar-row {
+  font-size: 16px;
+  padding: 16px 0;
+}
 .featured-jumbotron {
     h1, h2, h3, h4, h5, h6 {
         color: inherit;
@@ -37,18 +40,13 @@
         }
     }
 }
-.margin-top-150 {
-  margin-top: 150px;
-}
-.margin-bottom-150 {
-  margin-bottom: 150px;
-}
 .featured-jumbotron-tall {
   & {
-    min-height: calc(82vh);
+    min-height: calc(85vh);
   }
   h2 {
     font-size: 72px;
+    margin-top: 150px;
   }
   p.jumbotron-prefix, p.jumbotron-tagline {
     font-size: 32px;
@@ -58,7 +56,6 @@
 .header-default-bg-img {
     background-position: center;
 }
-
 #header-row {
     margin-top: 15px;
 }
@@ -85,6 +82,9 @@ main {
         font-size: 18px;
     }
 }
+
+
+
 .btn-gold {
     text-transform: uppercase;
     font-weight: 400;
@@ -157,7 +157,7 @@ section.alt {
         color: #fff;
     }
     a:not(.btn-primary) {
-        color: #feb322;
+        color: @brand-primary;
         font-weight: 700;
     }
     a:visited, a:hover, a:active {
@@ -319,6 +319,36 @@ span.icon::after {
 }
 
 // HOME PAGE LESS 
+#mailing-list-socials {
+  & {
+    background-image: url(/images/vendor/eclipsefdn-solstice-components/featured-story/featured-story-default-bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 65px;
+  }
+  ul {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  li {
+    padding-right: 20px;
+  }
+  .btn.padded-sm {
+    padding: 10px 40px;
+  }
+  .container > div:first-of-type {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  @media(min-width:992px) {
+    & .container > div:first-of-type {
+      padding-bottom:0;
+    }
+  }
+}
+
 section.active-events {
   & {
     margin-top: 40px;
@@ -328,7 +358,12 @@ section.active-events {
     font-size: 16px;
   }
   table tbody tr td{
-    padding: 16px 8px;
+    padding: 16px 8px 16px 0;
+  }
+  @media(min-width:992px) {
+    & {
+      margin-top: 0;
+    }
   }
 }
 
@@ -352,10 +387,12 @@ section.past-events {
     margin-bottom: 30px; 
     padding: 40px 0px;
   }
+  .event-container {
+    margin-top: 20px;
+  }
   .event-panel {
     & {
-      margin: 1em 2em;
-      border-radius:1em;
+      border-radius: 1em;
       border: none;
       overflow:hidden;
       padding: 0;
@@ -383,7 +420,10 @@ section.host-jakartaone {
     background-image:url('images/host-banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-color: #282e70;
+    border-top: 7px #282e70 solid;
+    border-bottom: 7px #282e70 solid;
   }
 
   > .container {
@@ -425,7 +465,8 @@ img.cover-image {
 
 .event-testimonials {
   & {
-    margin-top: 80px;
+    margin-top: 125px;
+    margin-bottom: 100px;
   }
   p {
     color: @brand-secondary;
