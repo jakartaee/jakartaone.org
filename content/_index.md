@@ -12,14 +12,14 @@ show_featured_footer: false
 layout: "single"
 container: "container-fluid"
 jumbotron_additional_class: "featured-jumbotron-tall"
-
+header_wrapper_class: header-default-bg-img header-default-bg-centered
 tagline_suffix: |
     <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="#">Registration is open</a>
 --- 
 {{< grid/section-container class="about-home" >}}
 {{<grid/div class="col-xs-24 col-md-12 event-highlight " isMarkdown="false">}}
-<p style="font-size:1.5em;"><strong>JakartaOne Livestream</strong> is a one-day virtual conference for developers and technical business leaders.</p>
-<p style="font-size:1.1em;">We bring insights into the current state and future of JakartaTM EE and related technologies focused on developing cloud native Java applications.</p>
+<p><strong>JakartaOne Livestream</strong> is a one-day virtual conference for developers and technical business leaders.</p>
+<p>We bring insights into the current state and future of <strong>Jakarta™ EE</strong> and related technologies focused on developing cloud native Java applications.</p>
 {{</grid/div>}}
 {{<grid/div class="col-xs-24 col-md-12" isMarkdown="false">}}
 {{< active-events >}}
@@ -32,11 +32,11 @@ tagline_suffix: |
 {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
 {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
 <h2 class="margin-bottom-40 text-center">What they're saying about JakartaOne</h2>
-{{< youtube "IMlrhMcra_k" >}}  
+{{< youtube "CjRkamh40ds" >}}  
 {{</ grid/div >}}
 {{</ grid/div >}}
- 
-{{<home/testimonials>}} 
+
+
 {{</ grid/section-container >}}
 
-{{< host_event >}}
+{{< home/host_event >}}
