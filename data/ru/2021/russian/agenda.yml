@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: основной доклад
       id: keynote 
@@ -17,26 +17,32 @@ items:
       presenter: Дмитрий Александров, Дмитрий Корнилов
       type: keynote
       time: 10:00 MSK / 09:00 CEST / 03:00 EDT
+      vod: https://youtu.be/-wM4wPLxU1A
     - name: State of Jakarta EE
       presenter: Ивар Гримстад
       type: lightning-talk
       time: 10:15 MSK / 09:15 CEST / 03:15 EDT
+      vod: https://youtu.be/p6Mz9wJtVsk
     - name: 7 причин почему Jakarta EE должны задуматься о Quarkus
       presenter: Себастьян Дашнер
       type: lightning-talk
       time: 10:30 MSK / 09:30 CEST / 03:30 EDT
+      vod: https://youtu.be/ZzyP0TJUBJ0
     - name: Codegen для Microprofile с применением Xtend
       presenter: Андрей Когунь
       type: presentation
       time: 11:00 MSK / 10:00 CEST / 04:00 EDT
+      vod: https://youtu.be/wGXx1a7UdJw
     - name: Jersey 3.x или переход на Jakarta EE9
       presenter: Максим Несен
       type: presentation
       time: 12:00 MSK / 11:00 CEST / 05:00 EDT
+      vod: https://youtu.be/IRy9kgkMGiY
     - name: Vendor Keynote
       type: keynote
       presenter: Jakarta EE Members
       time: 13:00 MSK / 12:00 CEST / 06:00 EDT
+      vod: https://youtu.be/hTGeSrlQrOA
     - name: Перерыв
       type: break
       time: 13:30 MSK / 12:30 CEST / 06:30 EDT
@@ -44,19 +50,24 @@ items:
       presenter: Юрий Артамонов
       type: presentation
       time: 14:00 MSK / 13:00 CEST / 07:00 EDT
+      vod: https://youtu.be/jp3GhfuM6ow
     - name: Helidon - Ласточка в мире микросервисов
       presenter: Дмитрий Александров
       type: presentation
       time: 15:00 MSK / 14:00 CEST / 08:00 EDT
+      vod: https://youtu.be/NA71sbnl-qQ
     - name: Скейлинг Jakarta EE Приложений Вертикально и Горизонтально с помощь Jelastic PaaS
       presenter: Руслан Синицкий
       type: presentation
       time: 16:00 MSK / 15:00 CEST / 09:00 EDT
+      vod: https://youtu.be/jBI_rqR23IQ
     - name: От Java EE к Jakarta EE
       presenter: Дмитрий Корнилов
       type: presentation
       time: 17:00 MSK / 16:00 CEST / 10:00 EDT
+      vod: https://youtu.be/Ndn6eGCCK0w
     - name: Закрытие
       presenter: Дмитрий Александров, Дмитрий Корнилов
       type: keynote
       time: 17:30 MSK / 16:30 CEST / 10:30 EDT
+      vod: https://youtu.be/K42Y6ksJxl4
