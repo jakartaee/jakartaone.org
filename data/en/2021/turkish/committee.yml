@@ -1,0 +1,21 @@
+items:
+  - name: "Altuğ Bilgin Altıntaş"
+    title: "Business Agility Engineer"
+    img: "aaltinas.jpg"
+    bio: |
+      <p></p>
+  - name: "Gökalp Gürbüzer"
+    title: "Software Team Lead"
+    img: "gokalp_gurbuzer.jpg"
+    bio: |
+      <p></p>
+  - name: "Hüseyin Akdoğan"
+    title: "Expert Software Consultant and Author/Educator"
+    img: "huseyin_akdogan.jpg"
+    bio: |
+      <p></p>
+  - name: "Taner Diler"
+    title: "Technical Lead"
+    img: "taner_diler.jpg"
+    bio: |
+      <p></p>

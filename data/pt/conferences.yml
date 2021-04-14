@@ -1,5 +1,13 @@
 items:
   -
+    name: Jakarta One Livestream - Turkish
+    location: Virtual
+    date: August 22, 2021
+    end_date: 2021-08-23T00:00:00-00:00
+    url: /2021/turkish
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+  -
     name: Jakarta One Livestream - Russian
     location: Location, Location
     date: March 31, 2021
