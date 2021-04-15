@@ -14,7 +14,7 @@ container: "container-fluid"
 jumbotron_additional_class: "featured-jumbotron-tall"
 header_wrapper_class: header-default-bg-img header-default-bg-centered
 tagline_suffix: |
-    <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="#">Registration is open</a>
+    <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2021/russian">Watch the Recordings</a>
 --- 
 {{< grid/section-container class="about-home" >}}
 {{<grid/div class="col-xs-24 col-md-12 event-highlight " isMarkdown="false">}}
