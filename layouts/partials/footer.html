@@ -13,37 +13,6 @@
 <p id="back-to-top">
   <a class="visible-xs" href="#top">{{ i18n "navigation-back-to-top" }}</a>
 </p>
-<style>
-  footer#solstice-footer {
-    text-align: center;
-  }
-  footer#solstice-footer i {
-    font-size: 24px;
-  }
-@media(min-width:992px) {
-  footer#solstice-footer {
-    text-align: left;
-  }
-}
-footer section {
-  margin-top: 20px;
-}
-
-@media(min-width:992px) {
-  footer section {
-    margin-top: 0px;
-  }
-}
-footer#solstice-footer .nav {
-  margin-left: 0px;
-}
-
-@media(min-width:992px) {
-  footer#solstice-footer .nav {
-    margin-left: -15px;
-  }
-}
-</style>
 <footer id="{{- .Params.footer_id | default .Site.Params.footer_id | default "solstice-footer"}}" class="{{- .Params.footer_class | default .Site.Params.footer_class | default ""}}">
   <div class="container">
     <div class="row">
