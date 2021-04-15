@@ -1,4 +1,3 @@
-
 items:
   -
     name: Jakarta One Livestream - Russian
@@ -8,23 +7,29 @@ items:
     url: /2021/russian
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    image: /images/events/russian.png
+    description: On March 31, 2021 over 150 russian-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 11 speakers over 8 hours, this event was the first edition of JakartaOne entirely in Russian, supported by Jakarta EE members and the Java community
   -
     name: JakartaOne 2020
     location: Location, Location
-    date: Diciembre 8, 2020
+    date: December 8, 2020
     end_date: 2020-12-09T00:00:00-00:00
     url: /2020
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone_2020.png
     icon: fa fa-rocket
+    description: On December 8, 2020 over 1000 attendees gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 27 speakers over 12 hours, this event was the 2nd edition of our annual event which served to celebrate the release of Jakarta EE 9 with the community that built it. Supported by Jakarta EE members and the Java community. 
   -
-    name: JakartaOne en Español 2020
+    name: JakartaOne in Spanish 2020
     location: Virtual
-    date: Octubre 12, 2020
-    end_date: 2020-10-13T00:00:00-00:00
-    url: /es/2020/hispano
+    date: October 12, 2020
+    end_date: 2020-10-12T23:59:00-00:00
+    url: /2020/hispano
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    image: /images/events/spanish_2020.png
+    description: On October 12, 2020 over 500 spanish-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 24 speakers over 8 hours, this event was the 1st edition entirely in Spanish, supported by Jakarta EE members and the Java community. 
   -
     name: Brazil 2020
     location: Virtual
@@ -33,6 +38,8 @@ items:
     url: /2020/brazil
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakartaone-black.svg
+    image: /images/events/brazil_2020.png
+    description: On August 29, 2020 over 300 portuguese-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 12 speakers over 7 hours, this event was the first edition of JakartaOne entirely in Portuguese, supported by Jakarta EE members and the Java community.
   -
     name: CN4J 2020
     location: Virtual
@@ -41,6 +48,8 @@ items:
     url: /2020/cn4j
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakartaone-black.svg
+    image: /images/events/cn4j.png
+    description: On May 12, 2020 over 500 Cloud Native Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 10 speakers over 8 hours, this event was the first edition of JakartaOne Livestream with the focus of building enterprise Java on Kubernetes. supported by Jakarta EE members and the Java community. 
   -
     name: JakartaOne Japan 2020
     location: Location, Location
@@ -49,6 +58,8 @@ items:
     url: /2020/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakartaone-black.svg
+    image: /images/events/japan_2020.png
+    description: On February 26, 2020 over 200 Japanese-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 10 speakers over 9 hours, this event was the first edition of JakartaOne entirely in Japanese, supported by Jakarta EE members and the Java community. 
   -
     name: JakartaOne 2019
     location: Location, Location
@@ -57,3 +68,5 @@ items:
     url: /2019
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone_2019.png
+    description: On September 10, 2019 over 1400 Cloud Native Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 28 speakers over 18 hours, this event was the first edition of the JakartaOne series, supported by Jakarta EE members and the Java community. 
