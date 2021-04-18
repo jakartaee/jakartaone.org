@@ -11,7 +11,7 @@ other = "Hakkında daha fazla bilgi edin"
 other = "Geçmiş Etkinlikler"
 
 [past-events-learn-more]
-other = "Daga fazla bilgi edin"
+other = "Daha fazla bilgi edin"
 
 [past-events-learn-more-title]
 other = "Hakkında daha fazla bilgi edin"
@@ -29,7 +29,7 @@ other = "İndir"
 other = "Etkinlik Detayları"
 
 [agenda-legend]
-other = "Efsane"
+other = "Açıklama/Sembol"
 
 [agenda-sessions]
 other = "Oturumlar"
