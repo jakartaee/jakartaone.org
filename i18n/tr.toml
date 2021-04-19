@@ -77,7 +77,7 @@ other = "Sosyalleşelim"
 other = "Yaklaşan Etkinlikler"
 
 [footer-get-social-content]
-other = "Canlı etkinlik güncellemeleri, konuşmacı duyuruları, haberler ve daha fazlası için konferansın resmi Twitter hesabı <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a>'nı takip edin!
+other = "Canlı etkinlik güncellemeleri, konuşmacı duyuruları, haberler ve daha fazlası için konferansın resmi Twitter hesabı <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a>'nı takip edin!"
 
 [footer-jakarta-callout-content]
 other = "Katılımla güçlenen Jakarta&reg; EE, topluluk odaklı işbirliğini ve bulut için açık inovasyonu etkinleştirmeye odaklanır"
