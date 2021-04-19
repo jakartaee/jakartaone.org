@@ -2,20 +2,25 @@ items:
   - name: "Altuğ Bilgin Altıntaş"
     title: "Business Agility Engineer"
     img: "aaltinas.jpg"
+    twitter_handle: altugaltintas
     bio: |
-      <p></p>
+      <p>Altuğ Bilgin Altıntaş is a Business Agility Engineer based on Istanbul/Turkey. He is the co-founder of Kodcu, co-founder of JUG Istanbul and co-organiser of Java Day Istanbul. He previously worked at Koç.net, Hakia, and Toyota Motor Europe at various technical leadership and coaching roles. He has been actively programming with Java since 1999. He is a active practitioner and coach in Kanban, Lean software development, GTD and Toyota Kata as problem solving approach.</p>
+      <p>He has already spoke at 40+ conferences (like JJUG Tokyo, JCON Germany, Lean Kanban France, Java Day Istanbul, and many others) organized 100+ meetups.</p>
   - name: "Gökalp Gürbüzer"
     title: "Software Team Lead"
     img: "gokalp_gurbuzer.jpg"
+    twitter_handle: ajitatif
     bio: |
-      <p></p>
+      <p>Gökalp is a crafty all-around coder and a face-up four. He participated in coding, designing, selling products in various industries since 2006 and now is leading software teams in order to deliver value in people’s lives. He is actively participating in JUG Istanbul since 2017 and has been in technical committee for Java Day Istanbul since. He is also the main responsible for JUG Istanbul Podcasts which are published bi-weekly.</p>
   - name: "Hüseyin Akdoğan"
     title: "Expert Software Consultant and Author/Educator"
     img: "huseyin_akdogan.jpg"
+    twitter_handle: hakdoganhoca
     bio: |
-      <p></p>
+      <p>Since 2005, Hüseyin Akdoğan has been developing enterprise applications with Java, holding training, writing articles, and consultancy services about Java runtimes(Spring, Vert.x, Quarkus, etc), and some big data technologies(NoSQL, Hadoop, ElasticSearch, etc). Also, he is one of the technical committee members of Java Day Istanbul since 2015 and one of the leaders of JUG Istanbul and has been an organizer or a speaker at many meetings. Along with these, he is the author of Elasticsearch Indexing book, and also he was a reviewer of one of the bestselling books, Mastering Elasticsearch – Second Edition. He says: I keep working so that my two days are not equal.</p>
   - name: "Taner Diler"
     title: "Technical Lead"
     img: "taner_diler.jpg"
+    twitter_handle: tdiler
     bio: |
-      <p></p>
+      <p>Taner Diler is a fullstack,Java and React, developer and has 20 years hands-on coding experience. He worked previously at Biletix, N11 and Emlakjet as consultant and technical leader. He is curious in Event Driven Architecture and Domain Driven Design. He is founder of @ddd_istanbul and an active member of JUG Istanbul. He is working on the personal JEventbus Project.</p>
