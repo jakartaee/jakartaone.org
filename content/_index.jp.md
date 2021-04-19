@@ -31,7 +31,7 @@ tagline_suffix: |
 {{< grid/section-container class="margin-top-40 margin-bottom-40" >}}
 {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
 {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
-<h2 class="margin-bottom-40 text-center">What they're saying about JakartaOne</h2>
+<h2 class="margin-bottom-40 text-center">About the JakartaOne Livestream Program</h2>
 {{< youtube "CjRkamh40ds" >}}  
 {{</ grid/div >}}
 {{</ grid/div >}}
