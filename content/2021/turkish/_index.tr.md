@@ -21,7 +21,7 @@ tagline_suffix: |
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}} 
 {{< events/registration event="turkish" year="2021" >}}
-JakartaOne Livestream, geliştiriciler ve teknik liderler için, Jakarta ™ EE ve ilgili teknolojilerin mevcut durumunu ve geleceğine ilişkin vizyon sağlayan, Cloud Native uygulamalara odaklanan bir günlük online bir konferanstır. Bu, etkinliğin tamamen Türkçe olan ilk yayınıdır.
+JakartaOne Livestream, geliştiriciler ve teknik liderler için, Jakarta™ EE ve ilgili teknolojilerin mevcut durumuna ve geleceğine ilişkin vizyon sağlayan, Cloud Native uygulamalara odaklanan bir günlük online bir konferanstır. Bu, etkinliğin tamamen Türkçe olan ilk yayınıdır.
 {{</ events/registration >}}
 {{</ grid/div >}} 
 {{</ grid/section-container >}}

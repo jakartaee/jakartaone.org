@@ -1,7 +1,7 @@
 ---
-title: "Committee Members"
-seo_title: "JakartaOne Livestream - Turkish | Jakarta EE Software | Cloud Native"
-date: 2021-01-20
+title: "Komite Üyeleri"
+seo_title: "JakartaOne Livestream - Türkiye | Jakarta EE Software | Cloud Native"
+date: 2021-08-22
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
