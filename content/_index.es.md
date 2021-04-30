@@ -11,8 +11,6 @@ hide_footer_events: true
 show_featured_footer: false
 layout: "single"
 container: "container-fluid"
-jumbotron_additional_class: "featured-jumbotron-tall"
-header_wrapper_class: header-default-bg-img header-default-bg-centered
 tagline_suffix: |
     <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2021/russian">Watch the Recordings</a>
 --- 
