@@ -6,16 +6,16 @@
   <table class="table table-hover">
     <thead class="sr-only">
       <tr>
-        <th scope="col">Date of event</th>
-        <th scope="col">Name of event</th>
-        <th scope="col">More information</th>
+        <th scope="col">{{ i18n "upcoming-events-heading-event-date" . }}</th>
+        <th scope="col">{{ i18n "upcoming-events-heading-event-title" . }}</th>
+        <th scope="col">{{ i18n "upcoming-events-heading-learn-information" . }}</th>
       </tr>
     </thead>
     <tbody>
       {{ $count := 0 }}
       {{ range sort $events "end_date" }}
         {{ if (time .end_date).After now }}
-        {{ $count := add $count 1 }}
+        {{ $count = add $count 1 }}
         <tr>
           <td>{{ .date }}</td>
           <td><a href="{{ .url }}">{{ if .icon }}<i class="{{ .icon }} margin-right-10" aria-hidden="true"></i>{{ end }}{{ .name }}
@@ -26,7 +26,7 @@
       {{ end }}
       {{ if eq $count 0 }}
       <tr>
-        <td colspan="3">No current events to display</td>
+        <td colspan="3">{{ i18n "upcoming-events-no-events-text" . }}</td>
       </tr>
       {{ end }}
     </tbody>
