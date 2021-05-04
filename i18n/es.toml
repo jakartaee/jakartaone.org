@@ -7,6 +7,18 @@ other = "Aprende más"
 [upcoming-events-learn-more-title]
 other = "Aprender más sobre"
 
+[upcoming-events-heading-event-date]
+other = "Date of event"
+
+[upcoming-events-heading-event-title]
+other = "Name of event"
+
+[upcoming-events-heading-learn-information]
+other = "More information"
+
+[upcoming-events-no-events-text]
+other = "No current events to display"
+
 [past-events-header]
 other = "Past Events"
 
@@ -192,3 +204,9 @@ other = "Aprende más"
 
 [footer-copyright-text]
   other = "Copyright &copy; Eclipse Foundation, Inc. Todos los derechos reservados."
+
+[footer-join-mailing-list]
+other = "Join our Mailing List"
+
+[footer-join-mailing-list-button-text]
+other = "Sign up now"
