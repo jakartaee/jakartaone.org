@@ -8,16 +8,16 @@ other = "Daha fazla bilgi edin"
 other = "Hakkında daha fazla bilgi edin"
 
 [upcoming-events-heading-event-date]
-other = "Date of event"
+other = "Etkinlik tarihi"
 
 [upcoming-events-heading-event-title]
-other = "Name of event"
+other = "Etkinliğin adı"
 
 [upcoming-events-heading-learn-information]
-other = "More information"
+other = "Daha fazla bilgi"
 
 [upcoming-events-no-events-text]
-other = "No current events to display"
+other = "Görüntülenecek güncel etkinlik yok"
 
 [past-events-header]
 other = "Geçmiş Etkinlikler"
@@ -98,7 +98,7 @@ other = "Katılımla güçlenen Jakarta&reg; EE, topluluk odaklı işbirliğini 
 other = "Daha fazla bilgi edin"
 
 [footer-join-mailing-list]
-other = "Join our Mailing List"
+other = "Mail listemize katılın"
 
 [footer-join-mailing-list-button-text]
-other = "Sign up now"
+other = "Şimdi kaydolun"
