@@ -1,12 +1,12 @@
 ---
-title: "JakartaOne Livestream - Türkiye"
-seo_title: "JakartaOne Livestream - Türkiye | Jakarta EE Software | Cloud Native"
+title: "JakartaOne Livestream - Türkçe"
+seo_title: "JakartaOne Livestream - Türkçe | Jakarta EE Software | Cloud Native"
 date: 2021-04-05T15:50:25-04:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-headline: "JakartaOne Livestream - Türkiye"
+headline: "JakartaOne Livestream - Türkçe"
 tagline: "21 Ağustos 2021"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
