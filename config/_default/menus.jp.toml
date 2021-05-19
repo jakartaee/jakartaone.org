@@ -1,0 +1,26 @@
+
+[[japan2020]]
+    name = "タイムテーブル"
+    url = "/2020/japan/#plan-of-the-day"
+    weight = 1
+
+[[japan2020]]
+    name = "プログラム委員会"
+    url = "/2020/japan/program-committee/"
+    weight = 2
+
+[[japan2020]]
+    name = "行動指針"
+    weight = 3
+
+[[japan2020]]
+    name = "行動規範"
+    url = "/2020/japan/code-of-conduct/"
+    weight = 1
+    parent = "行動指針"
+
+[[japan2020]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "行動指針"
