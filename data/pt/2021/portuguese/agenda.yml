@@ -1,0 +1,14 @@
+types:
+    - name: Keynotes
+      id: keynote 
+      color: "#e44"
+    - name: Vendor Track
+      id: vendor
+      color: "#c6a061"
+    - name: Jakarta EE & MicroProfile Sessions
+      id: jakarta-ee
+
+items:
+    - name: Keynote
+      presenter: Program Committee
+      type: Keynote
