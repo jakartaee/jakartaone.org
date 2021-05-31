@@ -180,3 +180,20 @@
     url = "/2021/portuguese/speaker-agreement/"
     weight = 2
     parent = "Attend"
+
+
+[[hispano2021]]
+    name = "Attend"
+    weight = 3
+
+[[hispano2021]]
+    name = "Code of Conduct"
+    url = "/2021/hispano/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+
+[[hispano2021]]
+    name = "Speaker Agreement"
+    url = "/2021/hispano/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
