@@ -23,7 +23,7 @@ tagline_suffix: |
 {{< events/registration event="turkish" year="2021" >}}
 JakartaOne Livestream, geliştiriciler ve teknik liderler için, Jakarta™ EE ve ilgili teknolojilerin mevcut durumuna ve geleceğine ilişkin vizyon sağlayan, Cloud Native uygulamalara odaklanan bir günlük online bir konferanstır. Bu, etkinliğin tamamen Türkçe olan ilk yayınıdır.  
 
-The call for papers for JakartaOne Turkish is open from June 1 until June 30. If you have an interesting topic related to Cloud Native Java you wish to share with the Turkish Java community, submit a proposal to speak at the event.
+JakartaOne Türkçe CFP 1 Haziran - 30 Haziran tarihleri arasında açıktır. Cloud Native Java ile ilgili Türkçe konuşan Java topluluğuyla paylaşmak istediğiniz ilginç bir konu varsa, etkinlikte konuşmacı olmak için bize gönderin.
 {{</ events/registration >}}
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
