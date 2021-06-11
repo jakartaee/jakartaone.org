@@ -25,7 +25,7 @@ items:
     img: "ccamacho.jpg"
     bio: |
       <p>Telematic Engineer, University Professor at the Pontificia Universidad Católica Madre y Maestra (PUCMM), Currently Director of the School of Computing and Telecommunications. Co-founder and organizer of the Java User Group in the Dominican Republic, known as Java Dominicano, Member of The Dominican Free and Open Source Foundation. Co-Organizer of the first event dedicated to the Java platform in the Dominican Republic, JConf Dominicana 2019 (https://jconfdominicana.org). Co-organizer of the Barcamp RD (https://barcamp.org.do/), an exclusive event to present topics related to technologies on the way to its eighth edition in November 2020. In my more than fifteen years of experience I consider myself an evangelist of the Java platform and all its derivatives, where I have taught different courses in different educational centers in the Dominican Republic and supported projects under the platform. Professionally, I am Director of Technology at the company AvatharTech, dedicated to the development and consulting of applications for the country's productive sectors.</p>
-  - name: "Cristián Gómez"
+  - name: "Christian Gómez"
     title: "Software Engineer,Guadalajara Java User Group Organizer and co-founder of JConf México"
     twitter_handle: chrisom
     img: "cgomez.jpg"
