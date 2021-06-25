@@ -1,0 +1,12 @@
+types:
+    - name: Keynote
+      id: keynote 
+      color: "#e44"
+
+items:
+    - name: Welcome Reception
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: keynote
+      time: 2:45 PT / 5:45 ET / 11:45 CET
+
+      
