@@ -197,3 +197,24 @@
     url = "/2021/hispano/speaker-agreement/"
     weight = 2
     parent = "Attend"
+    
+[[2021]]
+    name = "Program committee"
+    url = "/2021/program-committee/"
+    weight = 2
+
+[[2021]]
+    name = "Attend"
+    weight = 3
+
+[[2021]]
+    name = "Code of Conduct"
+    url = "/2021/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[2021]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"

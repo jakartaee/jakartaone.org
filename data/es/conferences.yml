@@ -1,5 +1,15 @@
 items:
   -
+    name: JakartaOne 2021
+    location: Location, Location
+    date: December 7, 2021
+    end_date: 2021-12-08T00:00:00-00:00
+    url: /2021
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone_2020.png
+    icon: fa fa-rocket
+  -
     name: JakartaOne Livestream en Español
     location: Virtual
     date: October 1, 2021

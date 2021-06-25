@@ -1,0 +1,34 @@
+items:
+  - name: Michael Redlich
+    title: Senior Research Technician at ExxonMobil Research & Engineering
+    twitter_handle: mpredli
+    bio: |
+      <p>Michael Redlich has been an active member of the Java community for the past 20+ years. He founded the Garden State Java User Group in 2001 and serves as one of the Directors. Mike has served on the InfoQ editorial staff since 2016 and is the lead editor for the Java Queue.</p>
+      <p>He has presented at venues such as Oracle Code One, Emerging Technologies for the Enterprise, Philly Java Users Group, Kansas City Java Users Group, Princeton Java Users Group and Capital District Java Developers Network.</p>
+      <p>Mike has contributed to open source projects and serves on the leadership council of the Jakarta EE Ambassadors.</p>
+    img: mredlich_2021.jpg
+  - name: Otávio Santana
+    title: "Principal Engineer @ Zup Innovation"
+    twitter_handle: otaviojava
+    img: "osantana.jpg"
+    bio: |
+      <p>Empowering developers worldwide to deliver better software faster, scalable in the Cloud. Otavio is a passionate software engineer focused on Cloud and Java technology. He has experience mainly in persistence polyglot and high-performance applications in finances, social media, and e-commerce.</p>
+      <p>Otavio is a member of both Expert Groups and Expert Leader in several JSRs and JCP executive committee. He is working on several Apache and Eclipse Foundation projects such as Apache Tamaya, MicroProfile, Jakarta EE, where he is leading the first specification at Jakarta EE with Jakarta NoSQL. A JUG leader and global speaker at JavaOne and Devoxx conferences. Otavio has received recognition for his OSS contributions such as the JCP Outstanding Award, Member of the year and innovative JSR, Duke’s Choice Award, and Java Champion Award, to name a few.</p>
+  - name: Ivan St. Ivanov
+    title: Senior Programmer at VIDA Software
+    twitter_handle: ivan_stefanov
+    img: "iivanov.jpg"
+    bio: |
+      <p>Ivan St. Ivanov is Java Champion and co-founder and senior programmer at VIDA Software, doing various consulting gigs and teaching a couple of Java and Microservices related courses. He is an active JUG member, driving the activities in the Bulgarian Java community as well as organising the jPrime conference in Sofia. Ivan is also one of the hosts of the Virtual JUG.</p>
+  - name: Dalia Abo Sheasha
+    title: Java Developer Advocate at JetBrains
+    twitter_handle: DaliaShea
+    img: "dsheasha.jpg"
+    bio: |
+      <p>Dalia Abo Sheasha is a Java Developer Advocate at JetBrains. Dalia has worked as a Java developer for many years developing Java and Jakarta EE applications. She has deep expertise in Java enterprise technology and has contributed to open source projects like Open Liberty and EclipseLink (JPA). Dalia is also passionate about helping developers adopt newer versions of Java and has spent years developing tools to make the migration easier.</p>
+  - name: Jan Westerkamp
+    title: Managing Director at Sensor Aktor GmbH
+    img: "jwesterkamp.jpg"
+    bio: |
+      <p>With a focus on Systems Engineering, Software Engineering and Project Management, Jan likes mastering the challenges given in complex systems and DevOps environments.</p>
+      <p>Additionally he co-organizes the JUG Darmstadt and is the delegate of iJUG Interessenverbund der Java User Groups e.V. for the relations to Eclipse Foundation, especially within in the Jakarta EE, MicroProfile and Adoptium Working Groups.</p>
