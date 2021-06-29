@@ -32,3 +32,15 @@ items:
     bio: |
       <p>With a focus on Systems Engineering, Software Engineering and Project Management, Jan likes mastering the challenges given in complex systems and DevOps environments.</p>
       <p>Additionally he co-organizes the JUG Darmstadt and is the delegate of iJUG Interessenverbund der Java User Groups e.V. for the relations to Eclipse Foundation, especially within in the Jakarta EE, MicroProfile and Adoptium Working Groups.</p>
+  - name: "Ivar Grimstad"
+    title: "Jakarta EE Developer Advocate"
+    twitter_handle: "ivar_grimstad"
+    img: "igrimstad.png"
+    bio: "<p>Ivar Grimstad is a Java Champion, Oracle Groundbreaker Ambassador and JUG Leader working as Principal Consultant for Cybercom Group in Sweden.</p>
+                <p>He is the PMC Lead for Eclipse Enterprise for Java (EE4J) and was involved in the forming of Jakarta EE. He is also involved in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and has served as Expert Group Member for a number of JSRs, such as JSR 375 (Java EE Security API).</p>
+                <p>Ivar is also involved in Eclipse MicroProfile. He is an Apache NetBeans Committer and a frequent speaker at international developer conferences.</p>"
+  - name: "Tanja Obradovic"
+    title: "Jakarta EE Program Manager"
+    twitter_handle: "tanjaobradovic"
+    img: "tobradovic.png"
+    bio: "<p>Tanja joined Eclipse Foundation as Jakarta EE Program Manager June 2018. Having been involved with Java and Java EE for quite some time, revitalizing Enterprise Java seems like a good challenge and a great fit for her!</p>"
