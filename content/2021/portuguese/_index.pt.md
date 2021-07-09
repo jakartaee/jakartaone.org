@@ -19,7 +19,7 @@ menu_name: "portuguese"
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="portuguese" year="2021" title="Call for Papers - Em breve" >}}
+    {{< events/registration event="portuguese" year="2021" title="Call for Papers - Está aberto" >}}
 O JakartaOne Livestream é uma conferência virtual de um dia para desenvolvedores e líderes técnicos de negócios que traz informações sobre o estado atual e o futuro do Jakarta ™ EE e tecnologias relacionadas, focadas no desenvolvimento de aplicativos Java nativos da nuvem.
     {{</ events/registration >}}
   {{</ grid/div >}}
