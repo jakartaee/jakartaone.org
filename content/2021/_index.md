@@ -10,8 +10,8 @@ container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 7, 2021"
 tagline_suffix: |
-  <p>
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a><a class="btn btn-primary margin-left-10" href="https://www.papercall.io/jakartaone-2021">Call for Papers</a>
+  <p class="text-left">
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a><a class="btn btn-bordered margin-left-10" href="https://www.papercall.io/jakartaone-2021">Call for Papers</a>
   </p>
 layout: "single"
 ---

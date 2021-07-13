@@ -43,12 +43,6 @@
 .header-default-bg-img {
   background-position: top left;
 }
-#header-row {
-    margin-top: 15px;
-}
-.wrapper-logo-default {
-    height: 100%;
-}
 .logo-eclipse-default-mobile {
     max-width: 200px;
 }
@@ -70,101 +64,60 @@ main {
     }
 }
 
-footer#solstice-footer {
-  & {
-    text-align: center;
-  }
-  i {
-    font-size: 24px;
-  }
-  section {
-    margin-top: 20px;
-  }
-  .nav {
-    margin-left: 0px;
-  }
-  @media (min-width:992px) {
-    & {
-      text-align: left;
-    }
-    & section {
-      margin-top: 0px;
-    }
-    & .nav {
-      margin-left: -15px;
-    }
-  }
-}
-
-.btn-gold {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 18px;
-    color: #feb322;
-    border: 3px solid #feb322;
-}
-.btn-gold:focus, .btn-gold.focus {
-    color: #eda822;
-    border-color: #eda822;
-}
-.btn-gold:visited, .btn-gold.visited {
-    color: #eda822;
-    border-color: #eda822;
-}
-.btn-gold:hover {
-    color: #eda822;
-    border-color: #eda822;
-}
-.btn-gold:active, .btn-gold.active {
-    color: #eda822;
-    background-image: none;
-    border-color: #eda822;
-}
 .btn-wide {
     min-width: calc(100% - 20px);
 }
 .btn.padded {
   padding: 20px 40px;
 }
+
+// Btn bordered template to make the code cleaner
+.btn-bordered(@btn-color) {
+  & {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: @btn-color;
+    background-color: transparent;
+    padding: 6px 24px;
+    border: 2px solid @btn-color;
+  }
+  &:focus, &.focus {
+    color: darken(@btn-color, 20%);
+    background-color: transparent;
+    border-color: @btn-color;
+  }
+  &:visited, &.visited {
+      color: darken(@btn-color, 10%);
+      background-color: transparent;
+      border-color: @btn-color;
+  }
+  &:hover {
+    color: darken(@btn-color, 20%);
+      background-color: transparent;
+      border-color: @btn-color;
+  }
+  &:active, &.active {
+      color: @btn-color;
+      background-color: transparent;
+      background-image: none;
+      border-color: @btn-color;
+  }
+}
+// actual bordered btn CSS rules
 .btn-bordered {
-    & {
-      text-transform: uppercase;
-      font-size: 18px;
-      color: @white;
-      border: 2px solid @white;
-    }
-    &:focus, &.focus {
-      color: @white;
-      border-color: @white;
-    }
-    &:visited, &.visited {
-        color: @white;
-        border-color: @white;
-    }
-    &:hover {
-        color: @white;
-        border-color: @white;
-    }
-    &:active, &.active {
-        color: @white;
-        background-image: none;
-        border-color: @white;
-    }
+  & {
+    .btn-bordered(@white);
+  }
+  &.btn-primary {
+    .btn-bordered(@brand-primary);
+  }
+  &.btn-secondary {
+    .btn-bordered(@brand-secondary);
+  }
 }
-.centered-container {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    min-height: 100px;
-}
+// TODO can I remove/update?
 section.alt {
     & {
-        color: #fff;
-    }
-    h2, h3, h4, h5, h6 {
-        font-weight: 700;
         color: #fff;
     }
     a:not(.btn-primary) {
@@ -175,55 +128,33 @@ section.alt {
         color: #eda822;
     }
 }
-section#about .backdrop {
-    background-image: url('images/about-background.jpg');
-    background-size: cover;
-}
-section#registration .backdrop {
-    background-image: url('images/registration-background.jpg');
-    background-size: cover;
-    background-position: right;
-}
-section#registration img {
+.eclipsefdn-registration {
+  & {
+    margin: 60px 0px;
+  }
+  .eclipsefdn-registration-header h2 {
+    margin-top: 0px;
+    text-align: center;
+    color: @brand-primary;
+  }
+  .eclipsefdn-registration-body {
+    text-align: left;
+  }
+  .eclipsefdn-registration-links {
+    padding-top: 30px;
+  }
+  img {
     max-width: 256px;
     width: 100%;
+  }
 }
-section#get-social { 
-    h2{
-        text-transform: uppercase;
-    }
-    .backdrop {
-        background-image: url('images/get-social-background.jpg');
-        background-size: cover;
-    }
-    p{
-        font-size: 18px;
-    }
-    a {
-        color: #feb322;
-        font-weight: 700;
-    }
-    a:visited, a:hover, a:active {
-        color: #eda822;
-    }
-    .fa.fa-twitter {
-        width: 1.5em;
-        border-radius: 100px;
-        background-color: white;
-        height: 1.5em;
-        text-align: center;
-        color: #1c2183;
-        margin-bottom: 20px;
-    }
-    .fa.fa-twitter::before {
-        line-height: 1.5em;
-    }
-    @media (min-width:768px) {
-        .fa.fa-twitter {
-            margin-bottom: 0px;
-        }
-    }
+section#registration .backdrop {
+  background-image: url('images/registration-background.jpg');
+  background-size: cover;
+  background-position: right;
 }
+
+// TODO remove once replaced with new look and feel
 section#upcoming-events {
     background-image:url('images/about-background.jpg');
     background-size: cover;
@@ -252,20 +183,59 @@ section#upcoming-events {
       margin:0 auto;
     }
 }
+
+
 section#plan-of-the-day {
     .backdrop {
         background-image: url('images/plan-of-the-day-background.jpg');
         background-size: cover;
     }
-    li {
-        font-size: 18px;
-    }
-    .btn-primary {
-    	color: @white;
-        width: 67%;
-        border-radius: 10px;
-    }
 }
+
+
+.eclipsefdn-agenda {
+  h2 {
+    color: @brand-primary;
+  }
+  .eclipsefdn-agenda-legend h4, .eclipsefdn-agenda-legend li {
+    color: @brand-secondary;
+    
+  }
+  .eclipsefdn-agenda-legend {
+    h4 {
+      margin-right: 25px;
+    }
+    h4, .list-inline {
+      display: inline-block;
+    }
+  }
+
+  .table > thead > tr > th {
+    border-color: @brand-primary;
+    color: @brand-primary;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  .table > tbody > tr > td {
+    & {
+      border-color: @brand-secondary;
+    }
+    &:first-of-type {
+      color: @brand-primary;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+    &:not(:first-of-type) {
+      color: @brand-secondary;
+    }
+  }
+  .btn {
+    border-radius: 10px;
+  }
+}
+
+
 section#jakarta-ee p {
     color: #2f3495;
 }
@@ -442,18 +412,40 @@ section.host-jakartaone {
 }
 
 footer#solstice-footer {
-  background: url("images/jakarta9-footer.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: @white;
-
+  & {
+    background: url("images/jakarta9-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: @white;
+    text-align: center;
+  }
+  i {
+    font-size: 24px;
+  }
+  section {
+    margin-top: 20px;
+  }
+  .nav {
+    margin-left: 0px;
+  }
   h2, a, a.social-media-link {
     color: @white;
   }
 
   a:hover, a.social-media-link:hover {
     color: #bfbebe;
+  }
+  @media (min-width:992px) {
+    & {
+      text-align: left;
+    }
+    & section {
+      margin-top: 0px;
+    }
+    & .nav {
+      margin-left: -15px;
+    }
   }
 }
 .event-highlight {
@@ -500,10 +492,6 @@ img.cover-image {
   .right.carousel-control, .left.carousel-control {
     background: none;
   }
-}
-
-.centered-container {
-  min-height: initial;
 }
 .eclipsefdn-user-display-heading {
   font-size: 18px;

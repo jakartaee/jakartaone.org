@@ -8,7 +8,8 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "JakartaOne Livestream - Russian"
 tagline: "March 31, 2021"
-tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
+tagline_suffix: |
+  <p class="text-left"><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>
 layout: "single"
 menu_name: "russian"
 aliases: [

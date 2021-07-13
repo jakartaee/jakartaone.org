@@ -10,8 +10,8 @@ hide_breadcrumb: true
 container: "container-fluid"
 tagline: "29 de Setembro de 2021"
 tagline_suffix: |
-  <p>
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakartaone_portuguese">Inscrições</a><a class="btn btn-primary margin-left-10" href="https://twitter.com/JakartaOnePORT">Twitter</a>
+  <p class="text-left">
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone_portuguese">Inscrições</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOnePORT">Twitter</a>
   </p>
 layout: "single"
 menu_name: "portuguese"
