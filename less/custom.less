@@ -54,6 +54,7 @@ main {
         text-transform: uppercase;
         color: #1b208b;
         font-weight: 700;
+        font-size: 24px;
     }
     h3 {
         color: #1b208b;
@@ -148,50 +149,42 @@ section.alt {
     width: 100%;
   }
 }
-section#registration .backdrop {
-  background-image: url('images/registration-background.jpg');
-  background-size: cover;
-  background-position: right;
-}
-
-// TODO remove once replaced with new look and feel
 section#upcoming-events {
-    background-image:url('images/about-background.jpg');
-    background-size: cover;
-    color:#222;
-    h2 {
-      text-transform: uppercase;
-      font-weight:700;
+    & {
+      background-image:url('images/past-events-banner.png');
+      background-size: cover;
       color:#222;
     }
-    ul li span {
-      border-top: 1px solid #222;
-      padding-top: 5px;
-      margin-top: 10px;
-      display: block;
-      text-transform:uppercase;
+    .card-container .card-panel img.cover-image {
+      height: 150px;
     }
-    .btn {
-      text-transform: uppercase;
-      padding: 6px 60px;
-      border: 4px solid #222;
-      background-color: transparent;
-      color: #222;
-      font-weight: 400;
+    h2 {
+      color: @brand-primary;
+      font-weight:600;
     }
-    img {
-      margin:0 auto;
+    h3 {
+      font-size: 18px;
     }
-}
-
-
-section#plan-of-the-day {
-    .backdrop {
-        background-image: url('images/plan-of-the-day-background.jpg');
-        background-size: cover;
+    p {
+      font-size: 16px;
+    }
+    .cta-link {
+      color: @white;
+      font-size: 24px;
+      font-weight: 700;
     }
 }
 
+
+section#plan-of-the-day .backdrop {
+  background-image: url('images/first-banner.png');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.jakarta-ee-sails-br {
+  background: url('images/jakarta-ee-sail-corner.png') no-repeat right bottom;
+}
 
 .eclipsefdn-agenda {
   h2 {
@@ -235,10 +228,6 @@ section#plan-of-the-day {
   }
 }
 
-
-section#jakarta-ee p {
-    color: #2f3495;
-}
 #main-menu .navbar-toggle {
     padding-top: 20px;
 }
@@ -353,6 +342,7 @@ section.about-home > .container {
     margin-bottom: 50px;
 }
 
+// TODO replace with cards-component where possible
 section.past-events { 
   & {
     background-image:url('images/first-banner.png');
