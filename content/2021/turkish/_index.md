@@ -12,8 +12,8 @@ tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/i
 layout: "single"
 menu_name: "turkish"
 tagline_suffix: |
-  <p class="text-center">
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakartaoneturkish_aug21_2">Register now</a><a class="btn btn-primary margin-left-10" href="https://twitter.com/JakartaOneTUR">Twitter</a>
+  <p class="text-left">
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaoneturkish_aug21_2">Register now</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOneTUR">Twitter</a>
   </p>
 ---
 

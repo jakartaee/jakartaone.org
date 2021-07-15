@@ -32,9 +32,9 @@ This milestone would not be possible without the collective efforts of a dedicat
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for speakers -->
-{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 jakarta-ee-sails-br">}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display year="2020" source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-center" />}}
+    {{< events/user_display year="2020" source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 

@@ -10,8 +10,8 @@ container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 7, 2021"
 tagline_suffix: |
-  <p>
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a><a class="btn btn-primary margin-left-10" href="https://www.papercall.io/jakartaone-2021">Call for Papers</a>
+  <p class="text-left">
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a><a class="btn btn-bordered margin-left-10" href="https://www.papercall.io/jakartaone-2021">Call for Papers</a>
   </p>
 layout: "single"
 ---
@@ -30,10 +30,6 @@ The call for papers is open from July 15 to September 15. Submit a paper to spea
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display  year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
+{{< events/program-committee  year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that the sessions and keynotes at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{</ events/program-committee >}}

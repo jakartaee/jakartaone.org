@@ -12,8 +12,8 @@ description: "JakartaOne en Español es una conferencia virtual para desarrollad
 layout: "single"
 menu_name: "hispano"
 tagline_suffix: |
-  <p class="text-center">
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakartaone_spanish21">Register now</a><a class="btn btn-primary margin-left-10" href="https://twitter.com/JakartaOneES">Twitter</a>
+  <p class="text-left">
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone_spanish21">Register now</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOneES">Twitter</a>
   </p>
 ---
 
