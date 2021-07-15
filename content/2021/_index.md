@@ -30,10 +30,6 @@ The call for papers is open from July 15 to September 15. Submit a paper to spea
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display  year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
+{{< events/program-committee  year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that the sessions and keynotes at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{</ events/program-committee >}}

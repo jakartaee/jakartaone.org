@@ -116,19 +116,7 @@ main {
     .btn-bordered(@brand-secondary);
   }
 }
-// TODO can I remove/update?
-section.alt {
-    & {
-        color: #fff;
-    }
-    a:not(.btn-primary) {
-        color: @brand-primary;
-        font-weight: 700;
-    }
-    a:visited, a:hover, a:active {
-        color: #eda822;
-    }
-}
+
 .eclipsefdn-registration {
   & {
     margin: 60px 0px;
@@ -149,6 +137,7 @@ section.alt {
     width: 100%;
   }
 }
+// Footer upcoming events section
 section#upcoming-events {
     & {
       background-image:url('images/past-events-banner.png');
@@ -174,18 +163,32 @@ section#upcoming-events {
       font-weight: 700;
     }
 }
+// event/program-committee styling
+section#program-committee {
+  .program-committee-background {
+    background: url(/images/host-banner.jpg) no-repeat center top;
+    position: absolute;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .eclipsefdn-user-display-heading h2 {
+    color: @brand-primary;
+    margin-bottom: 40px;
+  }
+  .eclipsefdn-user-display-heading p {
+    color: @white;
+  }
+}
 
-
+// Updated Agenda styling
 section#plan-of-the-day .backdrop {
   background-image: url('images/first-banner.png');
   background-size: cover;
   background-position: bottom;
 }
-
-.jakarta-ee-sails-br {
-  background: url('images/jakarta-ee-sail-corner.png') no-repeat right bottom;
-}
-
 .eclipsefdn-agenda {
   h2 {
     color: @brand-primary;
