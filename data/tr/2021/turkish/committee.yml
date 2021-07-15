@@ -28,12 +28,3 @@ items:
     twitter_handle: tdiler
     bio: |
       <p>Taner Diler, 20 yıllık yazılım deneyimine sahip olup fullstack developer olarak Java ve React üzerine uygulamalar geliştirmektedir. Daha önceki deneyimlerinde Biletix, N11 ve Emlakjet gibi hatırı sayılır firmalarda yazılım danışmanı ve teknik lider olarak görev almıştır. Event Driven Design ve Domain Driven Design konularına merakı vardır ve edindiği deneyimleri kişisel projesi olan JEventbus projesinde uygulamaktadır. JUG Istanbul'un aktif bir üyesidir ve DDD Istanbul grubunu oluşturmuştur.</p>
-  - name: Ali Ok
-    title: Kıdemli Yazılım Mühendisi @ RedHat
-    img: ali-ok.jpg
-  - name: Aykut M. Bulgu
-    title: Sistem Zanaatkarı, İçerik Mimarı @ RedHat
-    img: abulgu.jpg
-  - name: Kenan Sevindik
-    title: Yazılım Geliştirici Mimar, Eğitmen, Danışman @ Harezmi Bilişim
-    img: kenan-sevindik.jpg

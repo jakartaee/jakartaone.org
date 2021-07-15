@@ -24,12 +24,3 @@ items:
     twitter_handle: tdiler
     bio: |
       <p>Taner Diler is a fullstack,Java and React, developer and has 20 years hands-on coding experience. He worked previously at Biletix, N11 and Emlakjet as consultant and technical leader. He is curious in Event Driven Architecture and Domain Driven Design. He is founder of @ddd_istanbul and an active member of JUG Istanbul. He is working on the personal JEventbus Project.</p>
-  - name: Ali Ok
-    title: Senior Software Engineer @ RedHat
-    img: ali-ok.jpg
-  - name: Aykut M. Bulgu
-    title: System Craftsman and Services Content Architect @ RedHat
-    img: abulgu.jpg
-  - name: Kenan Sevindik
-    title: Software Developer Architect Trainer Consultant @ Harezmi Bilişim
-    img: kenan-sevindik.jpg
