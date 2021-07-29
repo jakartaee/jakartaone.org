@@ -20,7 +20,9 @@ tagline_suffix: |
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/registration event="hispano" year="2021" title="Envía tu propuesta para participar como conferencista" >}}
-JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español. 
+JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español.  
+
+La fecha límite de recepción de propuestas es el 15 de agosto. Envíe sus propuestas antes de esa fecha, queremos contar con tu participación!  
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
