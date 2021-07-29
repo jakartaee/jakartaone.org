@@ -7,7 +7,7 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-tagline: "October 12, 2020"
+tagline: "October 1, 2020"
 description: "JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the second edition of the event entirely in Spanish"
 layout: "single"
 menu_name: "hispano"
@@ -22,7 +22,7 @@ tagline_suffix: |
     {{< events/registration event="hispano" year="2021" title="Call for Papers - Now Open" >}}
 JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the second edition of the event entirely in Spanish.
 
-The call for papers closes on August 1st. Please submit your proposals before then, we can't wait to see you there!
+The call for papers closes on August 15th. Please submit your proposals before then, we can't wait to see you there!
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
