@@ -11,7 +11,7 @@ Jakarta Enterprise Edition (EE) is the future of cloud native Java. Jakarta EE o
 Install dependencies, build assets and start a webserver:
 
 ```bash
-npm install && npm run dev && hugo server --disableFastRender --buildFuture
+yarn && yarn run dev && hugo server --disableFastRender --buildFuture
 ```
 
 ## Contributing
@@ -39,7 +39,7 @@ Images, less and JavaScript files for the Eclipse Foundation look and feel.
 
 ### [EclipseFdn/hugo-solstice-theme](https://github.com/EclipseFdn/hugo-solstice-theme)
 
-Hugo theme of the Eclipse Foundation look and feel. 
+Hugo theme of the Eclipse Foundation look and feel.
 
 ## Bugs and feature requests
 
