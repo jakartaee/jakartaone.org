@@ -1,0 +1,57 @@
+<!--
+  Copyright (c) 2018 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+<section class="col-md-6 section-footer-prefix">
+  <div class="wrapper-logo-default">
+    {{ with .Page.Params.logo | default .Site.Params.logo | default "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-white-orange.svg" }}
+    {{ $currentPageLogo := . }}
+    {{ $currentPageLogoTitle := $.Site.Title }}
+    {{ $currentPageLogoLink := "" }}
+    {{ range $.Site.Data.subsites_custom_logo.items }}
+    {{ $section := $.Site.GetPage (.page_url) }}
+    {{ if or (eq ($.Section) ($section)) ( $.Page.IsDescendant $section ) }}
+    {{ $currentPageLogo = .logo }}
+    {{ $currentPageLogoTitle = .logo_title }}
+    {{ $currentPageLogoLink = .logo_url }}
+    {{ end }}
+    {{ end }}
+    <a title="{{ $currentPageLogoTitle }}" href="{{ $currentPageLogoLink | absLangURL }}">
+    <img width="{{ $.Page.Params.logo_width | default $.Site.Params.logo_width | default "140"}}" class="logo-eclipse-default img-responsive margin-auto" src="{{ "/images/jakarta/jakarta-ee-logo.svg" | absURL }}" alt="{{ $currentPageLogoTitle }}" />
+    </a>
+    {{ end }}
+  </div>
+  <div class="vertical-align padding-top-30 white">
+    <ul class="list-inline">
+      <li>
+        <a href="{{ $.Site.Params.facebook_url | default "https://www.facebook.com/eclipse.org" }}">
+        <i class="fa fa-facebook"></i><span class="sr-only">{{ i18n "footer-sr-facebook-text" }}</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ $.Site.Params.linkedin_url | default " https://www.linkedin.com/company/eclipse-foundation" }}" title="{{ i18n "footer-sr-linkedin-account" }}">
+        <i class="fa fa-linkedin"></i> <span class="sr-only">{{ i18n "footer-sr-linkedin-text" }}</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ $.Site.Params.twitter_url | default "https://twitter.com/EclipseFdn" }}">
+        <i class="fa fa-twitter"></i><span class="sr-only">{{ i18n "footer-sr-twitter-text" }}</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ $.Site.Params.youtube_url | default "https://www.youtube.com/user/EclipseFdn" }}">
+        <i class="fa fa-youtube"></i><span class="sr-only">{{ i18n "footer-sr-youtube-text" }}</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>

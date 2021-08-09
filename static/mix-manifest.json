@@ -1,6 +1,4 @@
 {
-    "/css/styles.css": "/css/styles.css",
-    "/js/home.slider.js": "/js/home.slider.js",
-    "/js/home.modal.js": "/js/home.modal.js",
-    "/js/solstice.js": "/js/solstice.js"
+    "/js/solstice.js": "/js/solstice.js",
+    "/css/styles.css": "/css/styles.css"
 }
