@@ -28,6 +28,13 @@ The call for papers for JakartaOne Turkish is open from June 1 until June 30. If
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
 
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="turkish" year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for speaker -->
 {{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
