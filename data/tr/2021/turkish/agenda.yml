@@ -1,11 +1,11 @@
 types:
-    - name: Keynote
+    - name: Açılış Konuşması
       id: keynote 
       color: "#e44"
-    - name: Lightning Talk
+    - name: Kısa Konuşma
       id: lightning-talk
       color: "#0a0"
-    - name: Presentation
+    - name: Sunum
       id: presentation 
       color: "#c6a061"
 
