@@ -20,7 +20,7 @@ tagline_suffix: |
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}} 
-{{< events/registration event="turkish" year="2021">}}
+{{< events/registration event="turkish" year="2021" >}}
   Thank You for making the first JakartaOne Livestream in Turkish a great success!
 
   This milestone would not be possible without the collective efforts of a dedicated community.
