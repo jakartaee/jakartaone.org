@@ -20,10 +20,10 @@ tagline_suffix: |
 <!-- Add registration using legacy CSS -->
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}} 
-{{< events/registration event="turkish" year="2021" >}}
-JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Turkish.  
+{{< events/registration event="turkish" year="2021">}}
+  Thank You for making the first JakartaOne Livestream in Turkish a great success!
 
-The call for papers for JakartaOne Turkish is open from June 1 until June 30. If you have an interesting topic related to Cloud Native Java you wish to share with the Turkish Java community, submit a proposal to speak at the event.
+  This milestone would not be possible without the collective efforts of a dedicated community.
 {{</ events/registration >}}
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
