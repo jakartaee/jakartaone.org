@@ -27,6 +27,26 @@ Registration is now open, be sure to register so you don't miss out! We can’t 
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+  {{< events/sponsors event="hispano" year="2020" title="Community Partners" displayBecomeSponsor="false" >}}
+{{</ grid/section-container >}}
+
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="hispano" year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add user carousel for speakers -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="hispano" year="2021"  source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-center" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+
 <!-- Add user carousel for committee -->
 {{< grid/section-container>}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
@@ -36,3 +56,5 @@ We are proud to say that the sessions and keynotes for JakartaOne Livestream Eve
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
