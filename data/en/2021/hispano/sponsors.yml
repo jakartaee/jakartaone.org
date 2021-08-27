@@ -47,3 +47,7 @@ items:
     image: /images/sponsors/javaup.png
     url: https://www.javaup.org.mx/
     width: 200px
+  - title: Bogotá JVM
+    image: /images/sponsors/bogjmv.png
+    url: https://www.meetup.com/es/Bogota-JVM-Meetup/
+    width: 200px

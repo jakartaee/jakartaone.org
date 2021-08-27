@@ -28,7 +28,7 @@ JakartaOne en Español es una conferencia virtual para desarrolladores y lídere
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
-  {{< events/sponsors event="hispano" year="2020" title="Comunidades amigas" displayBecomeSponsor="false">}}
+  {{< events/sponsors event="hispano" year="2021" title="Comunidades amigas" displayBecomeSponsor="false">}}
 {{</ grid/section-container >}}
 
 <!-- Add agenda using legacy CSS -->
