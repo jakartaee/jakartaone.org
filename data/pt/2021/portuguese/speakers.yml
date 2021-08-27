@@ -1,0 +1,10 @@
+items:
+  - name: "Bruno Baptista"
+    title: "Senior Java Consultant. Principal Engineer @ Talkdesk"
+    img: "bbaptista.jpeg"
+  - name: "Kamila Oliveira"
+    title: "Backend Developer @ Ame Digital"
+    img: "koliveira.jpg"
+  - name: Fabio Velloso
+    title: "Technical Director@ Talkdesk"
+    img: "fvelloso.jpeg"
