@@ -1,18 +1,22 @@
 items:
   - name: "Bruno Baptista"
     title: "Senior Java Consultant. Principal Engineer @ Talkdesk"
-    twitter_handle: brunobat_
     img: "bbaptista.jpeg"
-    bio: |
-      <p>Bruno Baptista is a Principal Engineer at Talkdesk. With over 13 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
+  - name: "Cat Buys"
+    title: "Payara Representative"
+    img:
+  - name: "Jean-Louis Monteiro"
+    title: "Tomitribe Representative"
+    img: "jlmonteiro.jpg"
+  - name: "Elder Moraes"
+    title: "Red Hat Representative"
+    img: "emoraes.jpg"
   - name: "Kamila Oliveira"
     title: "Backend Developer @ Ame Digital"
     img: "koliveira.jpg"
-    bio: |
-      <p>I'm a professional Java Developer working in the software development industry for more than 10 years. Mostly working with Enterprise technologies, I'm involved with the community to help other individuals to spread the knowledge with my Blog, my YouTube channel and with OSS contributions. Working as a Freelancer gave me the freedom to travel around the world and speak at conferences like JavaOne, Oracle Code One, Devoxx, JFokus, GeeCon, Devnexus, and others, being recognized by the community with a Java Champion title and Rock Star award. I'm also the leader of the Coimbra JUG, a Java User Group in Portugal with more than 500 members, and founder of the JNation Conference in Portugal a one day event with worldwide speakers. When I'm not working I spend most of my time hanging out with friends, playing computer games and travelling with my family</p>
+  - name: "Paulo Simões"
+    title: "Oracle Representative"
+    img: "psimoes.jpg"
   - name: Fabio Velloso
-    title: "Technical Director@ Talkdesk"
+    title: "Technical Director @ Avalia Systems"
     img: "fvelloso.jpeg"
-    bio: |
-      <p>Empowering developers worldwide to deliver better software faster, scalable in the Cloud. Otavio is a passionate software engineer focused on Cloud and Java technology. He has experience mainly in persistence polyglot and high-performance applications in finances, social media, and e-commerce.</p>
-      <p>Otavio is a member of both Expert Groups and Expert Leader in several JSRs and JCP executive committee. He is working on several Apache and Eclipse Foundation projects such as Apache Tamaya, MicroProfile, Jakarta EE, where he is leading the first specification at Jakarta EE with Jakarta NoSQL. A JUG leader and global speaker at JavaOne and Devoxx conferences. Otavio has received recognition for his OSS contributions such as the JCP Outstanding Award, Member of the year and innovative JSR, Duke’s Choice Award, and Java Champion Award, to name a few.</p>

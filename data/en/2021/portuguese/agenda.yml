@@ -12,6 +12,23 @@ items:
     - name: Keynote
       presenter: Program Committee
       type: keynote
+      time: 09 AM BRT / 1 PM (WEST)
+    - name: Vendor Session (Payara)
+      presenter: Cat Buys
+      type: vendor
+      time: 10 AM (BRT) // 2 PM (WEST)
+    - name: Vendor Session (Red Hat)
+      presenter: Elder Moraes
+      type: vendor
+      time: 10:15 AM (BRT) // 2:15 PM (WEST)
+    - name: Vendor Session (Tomitribe)
+      presenter: Jean-Louis Monteiro
+      type: vendor
+      time: 10:30 AM (BRT) // 2:30 PM (WEST)
+    - name: Vendor Session (Oracle)
+      presenter: Paulo Simões 
+      type: vendor
+      time: 10:45 AM (BRT) // 2:45 PM (WEST)
     - name: Conheça a história da evolução e o futuro do J2EE até JakartaEE e alem!
       presenter: Fabio Velloso
       type: jakarta-ee
