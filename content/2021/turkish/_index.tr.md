@@ -21,11 +21,25 @@ tagline_suffix: |
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}} 
 {{< events/registration event="turkish" year="2021" >}}
-JakartaOne Livestream, geliştiriciler ve teknik liderler için, Jakarta™ EE ve ilgili teknolojilerin mevcut durumuna ve geleceğine ilişkin vizyon sağlayan, Cloud Native uygulamalara odaklanan bir günlük online bir konferanstır. Bu, etkinliğin tamamen Türkçe olan ilk yayınıdır.  
+Türkçe olarak gerçekleştirilen ilk JakartaOne Livestream'i büyük bir başarıya dönüştürdüğünüz için teşekkür ederiz!
 
-JakartaOne Türkçe CFP 1 Haziran - 30 Haziran tarihleri arasında açıktır. Cloud Native Java ile ilgili Türkçe konuşan Java topluluğuyla paylaşmak istediğiniz ilginç bir konu varsa, etkinlikte konuşmacı olmak için bize gönderin.
+Bu dönüm noktası, kendini adamış bir topluluğun kolektif çabaları olmadan mümkün olmazdı.
 {{</ events/registration >}}
 {{</ grid/div >}} 
+{{</ grid/section-container >}}
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="turkish" year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add user carousel for speaker -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="turkish" year="2021" source="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-center" />}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->

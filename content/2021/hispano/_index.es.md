@@ -19,9 +19,29 @@ tagline_suffix: |
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="hispano" year="2021" title="Muy pronto podrás enviar tu propuesta para participar como conferencista." >}}
-JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español. 
+    {{< events/registration event="hispano" year="2021" title="LA RECEPCIÓN DE PROPUESTA PARA PARTICIPAR COMO CONFERENCISTA HA FINALIZADO" >}}
+JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español.  
+
+¡Las inscripciones están abiertas, registrarse ahora para ser parte de esta conferencia! ¡Estamos ansiosos por compartir contigo en nuestro evento !
     {{</ events/registration >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+  {{< events/sponsors event="hispano" year="2021" title="Comunidades amigas" displayBecomeSponsor="false">}}
+{{</ grid/section-container >}}
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="hispano" year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add user carousel for speakers -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="hispano" year="2021"  source="speaker" useCarousel="false" imageRoot="/images/speakers/" title="Conferencistas" headerClass="text-center" />}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
@@ -33,3 +53,6 @@ JakartaOne en Español es una conferencia virtual para desarrolladores y lídere
     {{</ events/user_display >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
