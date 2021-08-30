@@ -40,7 +40,7 @@
 {{ else }}
   {{ $displayLearnMore = "false" }}
 {{ end }}
-{{ $itemClass := .Get "itemClass" | default "col-xs-12 col-sm-6 match-height-item-by-row" }}
+{{ $itemClass := .Get "itemClass" | default "col-xs-12 col-sm-6" }}
 <section id="program-committee">
     <div class="program-committee-background">
     </div>
@@ -66,7 +66,7 @@
                             {{ if not $anchor }}
                                 {{ $anchor = urlize .name }}
                             {{ end }}
-                        <div class="item card-container {{ if ne $useCarousel "true" }}{{ $itemClass }}{{ end }}">
+                        <div class="item card-container match-height-item-by-row {{ if ne $useCarousel "true" }}{{ $itemClass }}{{ end }}">
                             <a href="{{.url}}">
                                 <div class="card-panel panel panel-default text-center">
                                     <div class="panel-heading" aria-hidden="true">
