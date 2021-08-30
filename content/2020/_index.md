@@ -9,7 +9,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 8, 2020"
-tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
+tagline_suffix: "<p><img width='180' class='img-responsive' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 ---
 

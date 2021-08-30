@@ -9,7 +9,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "September 10, 2019"
 tagline: "JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta&trade; EE and related technologies focused on  developing cloud native Java applications."
-tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
+tagline_suffix: "<p><img width='180' class='img-responsive' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 ---
 <!-- Add registration using legacy CSS -->

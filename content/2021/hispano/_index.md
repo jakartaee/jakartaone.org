@@ -48,13 +48,9 @@ Registration is now open, be sure to register so you don't miss out! We can’t 
 
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display event="hispano" year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
+{{< events/program-committee event="hispano" year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{</ events/program-committee >}}
 
 <!-- Add modal for use w/ agenda -->
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}

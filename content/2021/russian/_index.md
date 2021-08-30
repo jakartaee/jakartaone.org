@@ -9,7 +9,7 @@ container: "container-fluid"
 headline: "JakartaOne Livestream - Russian"
 tagline: "March 31, 2021"
 tagline_suffix: |
-  <p class="text-left"><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>
+  <p class="text-left"><img width='180' class='img-responsive' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>
 layout: "single"
 menu_name: "russian"
 aliases: [
@@ -28,11 +28,11 @@ Thank You for making the first JakartaOne Livestream in Russian a great success!
 
 This milestone would not be possible without the collective efforts of a dedicated community.
 {{</ events/registration >}} 
-<!-- Add Telegram Channel using legacy CSS -->
+<!-- Add Telegram Channel -->
 <div class="telegram margin-top-10"><a href="https://t.me/jakartaonerussian" aria-label="Our Telegram channel"><img class="img img-responsive margin-right-15" alt="Our Telegram channel" src="/2021/russian/images/telegram.png"> Our Telegram channel </a></div>
 {{</ grid/div >}} {{</ grid/section-container >}}
 
-<!-- Add agenda using legacy CSS -->
+<!-- Add agenda -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}
     {{< events/agenda event="russian" year="2021" >}}
@@ -46,16 +46,12 @@ This milestone would not be possible without the collective efforts of a dedicat
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
-<!-- Add Media Partners using legacy CSS -->
-{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+<!-- Add Media Partners -->
+{{< grid/section-container id="sponsors">}}
   {{< events/sponsors event="russian" year="2021" title="Media partners" displayBecomeSponsor="false" useMax="false">}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display event="russian" year="2021" source="committee" subpage="program-committee" useCarousel="false" >}}
+{{< events/program-committee event="russian" year="2021" source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream - Russian Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{</ events/program-committee >}}

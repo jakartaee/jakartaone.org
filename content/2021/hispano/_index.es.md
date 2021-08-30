@@ -46,13 +46,8 @@ JakartaOne en Español es una conferencia virtual para desarrolladores y lídere
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display event="hispano" year="2021"  source="committee" subpage="program-committee" title="Comité del Programa" useCarousel="false" >}}
+{{< events/program-committee event="hispano" year="2021"  source="committee" subpage="program-committee" title="Comité del Programa" useCarousel="false" >}}
 ¡Nos enorgullece anunciar que las sesiones y conferencias del evento JakartaOne En Español Livestream son elegidas por un comité independiente compuesto por voluntarios de la comunidad Jakarta® EE y Cloud Native Java!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
-
+{{</ events/program-committee >}}
 <!-- Add modal for use w/ agenda -->
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}

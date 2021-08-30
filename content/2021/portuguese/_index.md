@@ -28,12 +28,8 @@ The call for papers closes on August 1st. Please submit your proposals before th
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display event="portuguese" year="2021"  source="committee" subpage="program-committee" >}}
+{{< events/program-committee event="portuguese" year="2021"  source="committee" subpage="program-committee" >}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{</ events/program-committee >}}
 <!-- Add modal for use w/ agenda -->
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
