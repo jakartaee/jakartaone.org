@@ -33,19 +33,17 @@ items:
       presenter: Fabio Velloso
       type: jakarta-ee
       time: 11 AM (BRT) // 3 PM (WEST)
-      description: |
+      abstract: |
         <p>Na área de tecnologia Java, vivemos uma transição de tecnologia e de forma constante. Vivemos a mudança das gerações presentes nos padrões das arquiteturas corporativas do Java. Inclusive, na sua liderança que começou com a SUN, Oracle e agora na Eclipse Foundation com Jakarta EE. Mas qual a importância, significado e objetivos dessa transição? Será algo positivo ou negativo para o futuro do desenvolvimento Java na web? Sabe um pouco da história e muito mais nessa apresentação.</p>
     - name: "Desvendando a JVM: arquitetura e funcionamento"
       presenter: Kamila Oliveira
       type: jakarta-ee
       time: 12PM (BRT) // 4 PM (WEST)
-      description: |
+      abstract: |
         <p>Nesta palestra vamos falar sobre a famosa JVM, não só o que ela é mas quais são seus componentes e o que cada um deles faz no processo de execução das nossas aplicações, vamos entender o que são class loaders, method area, heap, mecanismo de execução, interfaces e bibliotecas de métodos nativos , garbage collector e o papel de cada um desses componentes dentro dela.</p>
-    - name: Look at these microservices!
+    - name: Olhe para estes microsserviços!
       presenter: Bruno Baptista
       type: jakarta-ee
       time: 1 PM (BRT) // 5 PM (WEST)
-      description: |
-        <p>Now you have Microservices in Java. How do you know if they are behaving properly?</p>
-        <p>In this presentation, we will show you some observability best practices around logging, request tracing, and metrics.</p>
-        <p>We will also explain some tools and frameworks, how to configure and use them to monitor your services.</p>
+      abstract: |
+        <p>Agora temos microsserviços em Java. Como você sabe se eles estão se comportando corretamente? Nesta apresentação, mostraremos algumas práticas recomendadas de observabilidade em logging, rastreamento de requests e métricas. Também explicaremos algumas ferramentas e frameworks, como configurá-los e usá-los para monitorar seus serviços.</p>
