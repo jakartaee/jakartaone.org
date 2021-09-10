@@ -11,4 +11,39 @@ types:
 items:
     - name: Keynote
       presenter: Program Committee
-      type: Keynote
+      type: keynote
+      time: 09 AM BRT / 1 PM (WEST)
+    - name: Vendor Session (Payara)
+      presenter: Cat Buys
+      type: vendor
+      time: 10 AM (BRT) // 2 PM (WEST)
+    - name: Vendor Session (Red Hat)
+      presenter: Elder Moraes
+      type: vendor
+      time: 10:15 AM (BRT) // 2:15 PM (WEST)
+    - name: Vendor Session (Tomitribe)
+      presenter: Jean-Louis Monteiro
+      type: vendor
+      time: 10:30 AM (BRT) // 2:30 PM (WEST)
+    - name: Vendor Session (Oracle)
+      presenter: Paulo Simões 
+      type: vendor
+      time: 10:45 AM (BRT) // 2:45 PM (WEST)
+    - name: Conheça a história da evolução e o futuro do J2EE até JakartaEE e alem!
+      presenter: Fabio Velloso
+      type: jakarta-ee
+      time: 11 AM (BRT) // 3 PM (WEST)
+      abstract: |
+        <p>Na área de tecnologia Java, vivemos uma transição de tecnologia e de forma constante. Vivemos a mudança das gerações presentes nos padrões das arquiteturas corporativas do Java. Inclusive, na sua liderança que começou com a SUN, Oracle e agora na Eclipse Foundation com Jakarta EE. Mas qual a importância, significado e objetivos dessa transição? Será algo positivo ou negativo para o futuro do desenvolvimento Java na web? Sabe um pouco da história e muito mais nessa apresentação.</p>
+    - name: "Desvendando a JVM: arquitetura e funcionamento"
+      presenter: Kamila Oliveira
+      type: jakarta-ee
+      time: 12PM (BRT) // 4 PM (WEST)
+      abstract: |
+        <p>Nesta palestra vamos falar sobre a famosa JVM, não só o que ela é mas quais são seus componentes e o que cada um deles faz no processo de execução das nossas aplicações, vamos entender o que são class loaders, method area, heap, mecanismo de execução, interfaces e bibliotecas de métodos nativos , garbage collector e o papel de cada um desses componentes dentro dela.</p>
+    - name: Olhe para estes microsserviços!
+      presenter: Bruno Baptista
+      type: jakarta-ee
+      time: 1 PM (BRT) // 5 PM (WEST)
+      abstract: |
+        <p>Agora temos microsserviços em Java. Como você sabe se eles estão se comportando corretamente? Nesta apresentação, mostraremos algumas práticas recomendadas de observabilidade em logging, rastreamento de requests e métricas. Também explicaremos algumas ferramentas e frameworks, como configurá-los e usá-los para monitorar seus serviços.</p>
