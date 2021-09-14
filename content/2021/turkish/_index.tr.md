@@ -13,7 +13,7 @@ layout: "single"
 menu_name: "turkish"
 tagline_suffix: |
   <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaoneturkish_aug21_2">Kaydol</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOneTUR">Twitter</a>
+    <img width='180' class='img-responsive' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'>
   </p>
 ---
 

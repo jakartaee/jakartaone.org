@@ -27,6 +27,20 @@ O Call for papers fecha em 1 de agosto. Submeta sua proposta, nos vemos por lá
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="portuguese" year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add user carousel for speaker -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="portuguese" year="2021" source="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-center" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="portuguese" year="2021"  source="committee" subpage="program-committee" >}}
 Estamos orgulhosos de dizer que as sessões e palestras do JakartaOne Livestream Event são escolhidas por um comitê independente composto por voluntários da comunidade Jakarta® EE e Cloud Native Java!
