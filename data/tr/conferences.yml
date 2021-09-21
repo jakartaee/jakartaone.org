@@ -7,7 +7,7 @@ items:
     url: /2021
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone_2020.png
+    image: /images/events/jakartaone_2021.jpg
     icon: fa fa-rocket
   -
     name: Jakarta One Livestream - Spanish
@@ -17,6 +17,7 @@ items:
     url: /2021/hispano
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    image: /images/events/spanish_2021.jpg
   -
     name: Jakarta One Livestream - Portuguese
     location: Virtual
@@ -25,6 +26,7 @@ items:
     url: /2021/portuguese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
+    image: /images/events/portuguese_2021.jpg
   -
     name: Jakarta One Livestream - Türkçe
     location: Sanal
