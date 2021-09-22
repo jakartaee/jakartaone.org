@@ -29,7 +29,7 @@ items:
       presenter: Paulo Simões 
       type: vendor
       time: 10:45 AM (BRT) // 2:45 PM (WEST)
-    - name: Conheça a história da evolução e o futuro do J2EE até JakartaEE e alem!
+    - name: De J2EE a Jakarta EE, história, cenário atual e o que está por vir
       presenter: Fabio Velloso
       type: jakarta-ee
       time: 11 AM (BRT) // 3 PM (WEST)
