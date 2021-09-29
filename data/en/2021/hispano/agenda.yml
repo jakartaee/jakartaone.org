@@ -56,9 +56,9 @@ items:
       type: talk
       time: 14:00 - 14:45 (GMT-4)
       abstract: <p>Join me on this talk where I will showcase how you can rely on Okta (identity management solution) and the Eclipse MicroProfile API to simplify the security aspects of your applications by doing a live demonstration of securing enterprise Java Microservices under 40 minutes!</p>
-    - name: Community Panel
+    - name: Closing Remarks
       vod:
-      presenter: Community Friends
+      presenter: Program Committee
       type: panel
-      time: 14:45 - 15:30 (GMT-4)
-      abstract: <p>Panel / Closing</p>
+      time: 14:45 - 15:00 (GMT-4)
+      abstract: <p>Closing Remarks</p>
