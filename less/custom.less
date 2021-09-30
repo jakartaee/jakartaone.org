@@ -1,16 +1,25 @@
 /*!
  * Copyright (c) 2019 Eclipse Foundation, Inc.
- *
+ * 
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v. 2.0 which is available at
  * http://www.eclipse.org/legal/epl-2.0.
- *
+ * 
  * Contributors:
  *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
  *   Martin Lowe <martin.lowe@eclipse-foundation.org>
- *
+ * 
  * SPDX-License-Identifier: EPL-2.0
 */
+
+@import './components/agenda.less';
+@import './components/program-committee.less';
+@import './components/registration.less';
+@import './components/sponsors.less';
+@import './components/upcoming-events.less';
+
+@import './pages/homepage.less';
+
 .toolbar-row {
   font-size: 16px;
   padding: 16px 0;
@@ -52,6 +61,8 @@
 .logo-eclipse-default-mobile {
     max-width: 200px;
 }
+
+// main content body changes
 main {
     & {
         border-bottom: none;
@@ -60,6 +71,7 @@ main {
         text-transform: uppercase;
         color: #1b208b;
         font-weight: 700;
+        font-size: 24px;
     }
     h3 {
         color: #1b208b;
@@ -70,209 +82,58 @@ main {
     }
 }
 
-footer#solstice-footer {
-  & {
-    text-align: center;
-  }
-  .section-footer-prefix i {
-    font-size: 24px;
-  }
-  section {
-    margin-top: 20px;
-  }
-  .nav {
-    margin-left: 0px;
-  }
-  @media (min-width:992px) {
-    & {
-      text-align: left;
-    }
-    & section {
-      margin-top: 0px;
-    }
-    & .nav {
-      margin-left: -15px;
-    }
-  }
-}
-
-.btn-gold {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 18px;
-    color: #feb322;
-    border: 3px solid #feb322;
-}
-.btn-gold:focus, .btn-gold.focus {
-    color: #eda822;
-    border-color: #eda822;
-}
-.btn-gold:visited, .btn-gold.visited {
-    color: #eda822;
-    border-color: #eda822;
-}
-.btn-gold:hover {
-    color: #eda822;
-    border-color: #eda822;
-}
-.btn-gold:active, .btn-gold.active {
-    color: #eda822;
-    background-image: none;
-    border-color: #eda822;
-}
 .btn-wide {
     min-width: calc(100% - 20px);
 }
 .btn.padded {
   padding: 20px 40px;
 }
-.btn-bordered {
-    & {
-      text-transform: uppercase;
-      font-size: 18px;
-      color: @white;
-      border: 2px solid @white;
-    }
-    &:focus, &.focus {
-      color: @white;
-      border-color: @white;
-    }
-    &:visited, &.visited {
-        color: @white;
-        border-color: @white;
-    }
-    &:hover {
-        color: @white;
-        border-color: @white;
-    }
-    &:active, &.active {
-        color: @white;
-        background-image: none;
-        border-color: @white;
-    }
-}
-.centered-container {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    min-height: 100px;
-}
-section.alt {
-    & {
-        color: #fff;
-    }
-    h2, h3, h4, h5, h6 {
-        font-weight: 700;
-        color: #fff;
-    }
-    a:not(.btn-primary) {
-        color: @brand-primary;
-        font-weight: 700;
-    }
-    a:visited, a:hover, a:active {
-        color: #eda822;
-    }
-}
-section#about .backdrop {
-    background-image: url('images/about-background.jpg');
-    background-size: cover;
-}
-section#registration .backdrop {
-    background-image: url('images/registration-background.jpg');
-    background-size: cover;
-    background-position: right;
-}
-section#registration img {
-    max-width: 256px;
-    width: 100%;
-}
-section#get-social {
-    h2{
-        text-transform: uppercase;
-    }
-    .backdrop {
-        background-image: url('images/get-social-background.jpg');
-        background-size: cover;
-    }
-    p{
-        font-size: 18px;
-    }
-    a {
-        color: #feb322;
-        font-weight: 700;
-    }
-    a:visited, a:hover, a:active {
-        color: #eda822;
-    }
-    .fa.fa-twitter {
-        width: 1.5em;
-        border-radius: 100px;
-        background-color: white;
-        height: 1.5em;
-        text-align: center;
-        color: #1c2183;
-        margin-bottom: 20px;
-    }
-    .fa.fa-twitter::before {
-        line-height: 1.5em;
-    }
-    @media (min-width:768px) {
-        .fa.fa-twitter {
-            margin-bottom: 0px;
-        }
-    }
-}
-section#upcoming-events {
-    background-image:url('images/about-background.jpg');
-    background-size: cover;
-    color:#222;
-    h2 {
-      text-transform: uppercase;
-      font-weight:700;
-      color:#222;
-    }
-    ul li span {
-      border-top: 1px solid #222;
-      padding-top: 5px;
-      margin-top: 10px;
-      display: block;
-      text-transform:uppercase;
-    }
-    .btn {
-      text-transform: uppercase;
-      padding: 6px 60px;
-      border: 4px solid #222;
+
+// Btn bordered template to make the code cleaner
+.btn-bordered(@btn-color) {
+  & {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: @btn-color;
+    background-color: transparent;
+    padding: 6px 24px;
+    border: 2px solid @btn-color;
+  }
+  &:focus, &.focus {
+    color: darken(@btn-color, 20%);
+    background-color: transparent;
+    border-color: @btn-color;
+  }
+  &:visited, &.visited {
+      color: darken(@btn-color, 10%);
       background-color: transparent;
-      color: #222;
-      font-weight: 400;
-    }
-    img {
-      margin:0 auto;
-    }
+      border-color: @btn-color;
+  }
+  &:hover {
+    color: darken(@btn-color, 20%);
+      background-color: transparent;
+      border-color: @btn-color;
+  }
+  &:active, &.active {
+      color: @btn-color;
+      background-color: transparent;
+      background-image: none;
+      border-color: @btn-color;
+  }
 }
-section#plan-of-the-day {
-    .backdrop {
-        background-image: url('images/plan-of-the-day-background.jpg');
-        background-size: cover;
-    }
-    li {
-        font-size: 18px;
-    }
-    // make sure the font size of Scheduled Time is consistent with the whole table
-    ul.margin-0 li{
-      font-size: 14px;
-    }
-    .btn-primary {
-    	color: @white;
-        width: 67%;
-        border-radius: 10px;
-    }
+// actual bordered btn CSS rules
+.btn-bordered {
+  & {
+    .btn-bordered(@white);
+  }
+  &.btn-primary {
+    .btn-bordered(@brand-primary);
+  }
+  &.btn-secondary {
+    .btn-bordered(@brand-secondary);
+  }
 }
-section#jakarta-ee p {
-    color: #2f3495;
-}
+
 #main-menu .navbar-toggle {
     padding-top: 20px;
 }
@@ -333,7 +194,73 @@ span.icon::after {
 	max-height: 200px;
 }
 
-// HOME PAGE LESS
+.jakarta-ee-sails-br {
+  background: url('/images/jakarta-ee-sail-corner.png') bottom right no-repeat;
+  background-size: 650px;
+}
+
+.event-highlight {
+  color: @brand-secondary;
+  font-size: 1.5em;
+}
+img.cover-image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+.centered-container {
+  min-height: initial;
+}
+.eclipsefdn-user-display-heading {
+  font-size: 18px;
+}
+
+// small content specific changes
+.speaker-container .eclipsefdn-user-display-heading h2 {
+  font-size: 28px;
+  color: @brand-primary;
+  margin-bottom: 40px;
+}
+
+// footer changes
+footer#solstice-footer {
+  & {
+    background: url("images/jakarta9-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: @white;
+    text-align: center;
+  }
+  i {
+    font-size: 24px;
+  }
+  section {
+    margin-top: 20px;
+  }
+  .nav {
+    margin-left: 0px;
+  }
+  h2, a, a.social-media-link {
+    color: @white;
+  }
+
+  a:hover, a.social-media-link:hover {
+    color: #bfbebe;
+  }
+  @media (min-width:992px) {
+    & {
+      text-align: left;
+    }
+    & section {
+      margin-top: 0px;
+    }
+    & .nav {
+      margin-left: -15px;
+    }
+  }
+}
+
 #mailing-list-socials {
   & {
     background-image: url(/images/vendor/eclipsefdn-solstice-components/featured-story/featured-story-default-bg.jpg);
@@ -357,160 +284,11 @@ span.icon::after {
     font-size: 20px;
     padding-bottom: 30px;
   }
-  @media(min-width:992px) {
+  @media (min-width: 992px) {
     & .container > div:first-of-type {
-      padding-bottom:0;
+      padding-bottom: 0;
     }
   }
-}
-
-section.active-events {
-  & {
-    margin-top: 40px;
-    margin-bottom: 0;
-  }
-  table {
-    font-size: 16px;
-  }
-  table tbody tr td{
-    padding: 16px 8px 16px 0;
-  }
-  @media(min-width:992px) {
-    & {
-      margin-top: 0;
-    }
-  }
-}
-
-section.about-home > .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-section.past-events {
-  & {
-    background-image:url('images/first-banner.png');
-    background-size: cover;
-    margin-bottom: 30px;
-    padding: 40px 0px;
-  }
-  .event-container {
-    margin-top: 20px;
-  }
-  .event-panel {
-    & {
-      border-radius: 1em;
-      border: none;
-      overflow:hidden;
-      padding: 0;
-      height:100%;
-      text-decoration: none;
-      box-shadow: 4px 6px 9px 0px rgba(0,0,0,0.31);
-    }
-    &:hover {
-      text-decoration: underline
-    }
-    .panel-heading{
-      padding: 0;
-    }
-    .panel-heading img{
-      min-width: 100%;
-    }
-    .panel-body {
-    padding:1em;
-    padding-top:0;
-    }
-  }
-}
-section.host-jakartaone {
-  & {
-    background-image:url('images/host-banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #282e70;
-    border-top: 7px #282e70 solid;
-    border-bottom: 7px #282e70 solid;
-  }
-
-  > .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  @media (min-width:992px) {
-    > .container {
-      margin-top: 150px;
-      margin-bottom: 150px;
-    }
-  }
-}
-
-footer#solstice-footer {
-  background: url("images/jakarta9-footer.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: @white;
-
-  h2, a, a.social-media-link {
-    color: @white;
-  }
-
-  a:hover, a.social-media-link:hover {
-    color: #bfbebe;
-  }
-}
-.event-highlight {
-  color: @brand-secondary;
-  font-size: 1.5em;
-}
-img.cover-image {
-  object-fit: cover;
-  width: 100%;
-  height: 150px;
-}
-
-.event-testimonials {
-  & {
-    margin-top: 125px;
-    margin-bottom: 100px;
-  }
-  p {
-    color: @brand-secondary;
-  }
-  .carousel .arrow {
-    & {
-      display: inline-block;
-      border: solid #E88208;
-      border-width: 0 2px 2px 0;
-      height: 66px;
-      width: 66px;
-      margin-top: 25%;
-      margin-left: 25%;
-    }
-
-    &.right {
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-    }
-
-    &.left {
-      transform: rotate(135deg);
-      -webkit-transform: rotate(135deg);
-    }
-  }
-
-  // gets rid of gradients in BS Carousel indicators
-  .right.carousel-control, .left.carousel-control {
-    background: none;
-  }
-}
-
-.centered-container {
-  min-height: initial;
-}
-.eclipsefdn-user-display-heading {
-  font-size: 18px;
 }
 
 // russian event specific code

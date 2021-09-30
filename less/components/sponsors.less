@@ -1,0 +1,51 @@
+/*!
+ * Copyright (c) 2021 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Martin Lowe <martin.lowe@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+// Used for alignment of the containers
+@media (min-width: 768px) {
+  .eclipsefdn-sponsors-heading {
+    width: 25%;
+    float: left;
+    margin-top: 40px;
+    color: @brand-primary;
+  }
+  .eclipsefdn-sponsors-content {
+    width: 75%;
+    float: right;
+  }
+}
+// add margin to the whole container
+#sponsors {
+    margin: 50px 0;
+}
+// add the borders + remove padding that misaligned the images within the border
+.eclipsefdn-sponsors-content {
+  ul {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  li {
+    margin: 10px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    box-shadow: 4px 6px 9px 0px rgba(0, 0, 0, 0.31);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  li img {
+    padding-right: 0;
+    padding-bottom: 0;
+    max-height: 120px;
+    width: auto;
+  }
+}

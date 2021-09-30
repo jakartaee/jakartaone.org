@@ -1,0 +1,130 @@
+/*!
+ * Copyright (c) 2021 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Martin Lowe <martin.lowe@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+section.active-events {
+  & {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  @media (min-width: 992px) {
+    & {
+      margin-top: 0;
+    }
+  }
+  table {
+    font-size: 16px;
+  }
+  table tbody tr td {
+    padding: 16px 8px 16px 0;
+  }
+}
+
+section.about-home > .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+// TODO replace with cards-component where possible
+section.past-events {
+  & {
+    background-image: url('/images/first-banner.png');
+    background-size: cover;
+    margin-bottom: 30px;
+    padding: 40px 0px;
+  }
+  .event-container {
+    margin-top: 20px;
+  }
+  .event-panel {
+    & {
+      border-radius: 1em;
+      border: none;
+      overflow: hidden;
+      padding: 0;
+      height: 100%;
+      text-decoration: none;
+      box-shadow: 4px 6px 9px 0px rgba(0, 0, 0, 0.31);
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+    .panel-heading {
+      padding: 0;
+    }
+    .panel-heading img {
+      min-width: 100%;
+    }
+    .panel-body {
+      padding: 1em;
+      padding-top: 0;
+    }
+  }
+}
+section.host-jakartaone {
+  & {
+    background-image: url('/images/host-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #282e70;
+    border-top: 7px #282e70 solid;
+    border-bottom: 7px #282e70 solid;
+  }
+
+  > .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  @media (min-width: 992px) {
+    > .container {
+      margin-top: 150px;
+      margin-bottom: 150px;
+    }
+  }
+}
+
+.event-testimonials {
+    & {
+      margin-top: 125px;
+      margin-bottom: 100px;
+    }
+    p {
+      color: @brand-secondary;
+    }
+    .carousel .arrow {
+      & {
+        display: inline-block;
+        border: solid #E88208;
+        border-width: 0 2px 2px 0;
+        height: 66px;
+        width: 66px;
+        margin-top: 25%;
+        margin-left: 25%;
+      }
+      
+      &.right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      
+      &.left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+    }
+    
+    // gets rid of gradients in BS Carousel indicators
+    .right.carousel-control, .left.carousel-control {
+      background: none;
+    }
+  }

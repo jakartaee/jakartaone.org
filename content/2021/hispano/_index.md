@@ -12,8 +12,8 @@ description: "JakartaOne Livestream is a one-day virtual conference for develope
 layout: "single"
 menu_name: "hispano"
 tagline_suffix: |
-  <p class="text-center">
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakartaone_spanish21">Register now</a><a class="btn btn-primary margin-left-10" href="https://twitter.com/JakartaOneES">Twitter</a>
+  <p class="text-left">
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone_spanish21">Register now</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOneES">Twitter</a>
   </p>
 ---
 
@@ -48,13 +48,9 @@ Registration is now open, be sure to register so you don't miss out! We can’t 
 
 
 <!-- Add user carousel for committee -->
-{{< grid/section-container>}}
-  {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display event="hispano" year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
+{{< events/program-committee event="hispano" year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
-    {{</ events/user_display >}}
-  {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{</ events/program-committee >}}
 
 <!-- Add modal for use w/ agenda -->
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}

@@ -49,25 +49,32 @@
 {{$currLang:=.Page.Lang }}
 {{$langBase:=index .Site.Data $currLang}}
 {{$events := (index $langBase).conferences.items}}
-<section id="upcoming-events" class="padding-top-30 padding-bottom-30 text-center">
+<section id="upcoming-events" class="padding-top-50 padding-bottom-50">
   <div class="container">
-    <h2 class="white">{{ i18n "footer-our-events-title" }}</h2>
     <div class="row">
-      <div class="col-sm-24">
-        <ul class="list-inline margin-top-20">
+      <h2 class="col-sm-6">{{ i18n "footer-our-events-title" }}</h2>
+      <div class="col-xs-24 col-sm-18">
+          {{ $count := 0 }}
           {{ range $events}}
             {{$t := time .end_date }}
-            {{ if $t.After now }}
-            <li>
-              <a href="{{.url}}"><img width="150" class="img-responsive" src="{{ .logo_color }}"></a>
-              <span>{{ .name }}</span>
-            </li>
-            {{ end }}
+            {{ if and ($t.After now) (lt $count 3) }}
+              {{ $count = add $count 1}}
+            <div class="card-container col-xs-24 col-sm-8 match-height-item-by-row" data-count="{{ $count }}">
+              <a href="{{.url}}">
+                <div class="card-panel panel panel-default text-center">
+                  <div class="panel-heading" aria-hidden="true"><img class="img cover-image" src="{{ .image }}"></div>
+                  <div class="panel-body">
+                      <h3 class="fw-700">{{ .name }}</h3>
+                      <p>{{ .description }}</p>
+                  </div>
+                </div>
+              </a>
+          </div>
           {{ end }}
-        </ul>
-        <p><a class="btn btn-secondary margin-top-30" href='{{ "/past-events" | relLangURL }}'>{{ i18n "past-events-header" }}</a></p>
+        {{ end }}
       </div>
     </div>
+    <div class="text-right margin-top-30"><a class="cta-link" href='{{ "/past-events" | relLangURL }}'>{{ i18n "past-events-header" }}</a></div>
   </div>
 </section>
 {{ end }}

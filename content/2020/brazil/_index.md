@@ -9,7 +9,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "August 29, 2020"
 tagline: "JakartaOne Brazil is a one-day virtual conference for developers and technical leaders bringing the current state and future of Jakarta EE and related technologies, focused on the enterprise cloud-native application development."
-tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
+tagline_suffix: "<p><img width='180' class='img-responsive' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 menu_name: "brazil"
 aliases:

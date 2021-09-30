@@ -8,7 +8,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "2020年2月26日　午後３時～"
 tagline: "JakartaOne Livestream Japan は、クラウドネイティブJavaアプリケーションの開発にフォーカスした、Jakarta&trade; EEと、その周辺技術についてご紹介するバーチャルカンファレンスです。"
-tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
+tagline_suffix: "<p><img width='180' class='img-responsive' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 menu_name: "japan"
 aliases:
