@@ -11,7 +11,7 @@ headline: "JakartaOne Livestream"
 tagline: "December 7, 2021"
 tagline_suffix: |
   <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a><a class="btn btn-bordered margin-left-10" href="https://www.papercall.io/jakartaone-2021">Call for Papers</a>
+    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a>
   </p>
 layout: "single"
 ---
@@ -20,11 +20,11 @@ layout: "single"
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/registration year="2021" >}}
-**JakartaOne Livestream** is a one-day virtual conference for developers and technical business leaders.  
+**JakartaOne Livestream** is a one-day virtual conference for developers and technical business leaders.
 
-We bring insights into the current state and future of **Jakarta™ EE** and related technologies focused on developing cloud native Java applications.  
+We bring insights into the current state and future of **Jakarta™ EE** and related technologies focused on developing cloud native Java applications.
 
-The call for papers is open from July 15 to September 15. Submit a paper to speak at an event attended by over 1000 each of the last two years.
+Register today to connect with other Java developers at an event attended by over 1000 each of the last two years.
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
