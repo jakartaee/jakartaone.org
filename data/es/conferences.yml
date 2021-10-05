@@ -18,6 +18,7 @@ items:
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/spanish_2021.jpg
+    description: En octubre de 2021, más de 350 entusiastas de Java de habla hispana se reunieron para discutir las tendencias, tecnologías y desafíos actuales relacionados con Jakarta EE. Participaron 5 oradores y 3 charlas de empresas (vendors), este evento fue la segunda edición totalmente en español, con el apoyo de miembros de Jakarta EE y la comunidad Java de habla hispana.
   -
     name: Jakarta One Livestream - Portuguese
     location: Virtual
