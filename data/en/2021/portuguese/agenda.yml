@@ -14,7 +14,7 @@ items:
       presenter: Program Committee
       type: keynote
       time: 09 AM BRT / 1 PM (WEST)
-      vod: https://www.youtube.com/watch?v=rCC4Tv5eW3o&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=1&t=178s
+      vod: https://www.youtube.com/watch?v=rCC4Tv5eW3o&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=1&t=0
     - name: Vendor Session (Payara)
       presenter: Cat Buys
       type: vendor
