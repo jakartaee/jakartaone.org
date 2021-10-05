@@ -27,6 +27,7 @@ items:
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/portuguese_2021.jpg
+    description: On September 29, 2021 over 260 Portuguese Java enthusiasts gathered to discuss current trends, technologies and challenges related to JakartaEE. This event was the second edition entirely in Portuguese, supported by JakartaEE members and the Java community.
   -
     name: Jakarta One Livestream - Turkish
     location: Virtual

@@ -1,10 +1,3 @@
 image: "<img class='img-responsive margin-auto' src='/images/jakarta/jakarta-ee-schooner.png' title='Jakarta EE logo' />"
 title: "The event has now concluded!"
 end_date: 2021-04-01T00:00:00-00:00
-links:
-    - url: https://www.crowdcast.io/e/jakartaone_portuguese 
-      text:  Register
-      external: true
-    - url: https://forms.gle/yjBi8efBmQ2N5sJo9
-      text:  Call for Papers
-      external: true
