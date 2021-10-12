@@ -1,7 +1,7 @@
 ---
 title: "JakartaOne Live"
-headline: "Jakarta One Livestream - Portuguese"
-prefix: "September 29, 2021"
+headline: "JakartaOne 2021"
+prefix: "December 7, 2021"
 seo_title: "JakartaOne Live | Jakarta EE Software | Cloud Native"
 date: 2018-04-05T15:50:25-04:00
 hide_page_title: true
@@ -14,7 +14,7 @@ container: "container-fluid"
 jumbotron_additional_class: "featured-jumbotron-tall"
 header_wrapper_class: header-default-bg-img header-default-bg-centered
 tagline_suffix: |
-    <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2021/portuguese">REGISTER</a>
+    <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2021">REGISTER</a>
 --- 
 {{< grid/section-container class="about-home" >}}
 {{<grid/div class="col-xs-24 col-md-12 event-highlight " isMarkdown="false">}}
