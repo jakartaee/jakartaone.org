@@ -29,6 +29,13 @@ Register today to connect with other Java developers at an event attended by ove
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2021" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< events/program-committee  year="2021"  source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that the sessions and keynotes at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!

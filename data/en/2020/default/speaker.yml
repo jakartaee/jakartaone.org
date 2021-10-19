@@ -17,11 +17,11 @@ items:
 
   - name: "Emily Jiang"
     title: "STSM, Liberty Microservice Architect and Advocate at IBM"
-    img: "emily_jiang.png"
+    img: "emily_jiang.jpg"
 
   - name: "Reza Rahman"
     title: "Senior Java Technologist, Author, Speaker"
-    img: "reza_rahman.png"
+    img: "reza-rahman.jpg"
 
   - name: "Mike Milinkovich"
     title: "Executive Director at Eclipse Foundation"
@@ -33,7 +33,7 @@ items:
 
   - name: "Adam Bien"
     title: "Freelancing Consultant, Author, Java Champion"
-    img: "adam_bien.png"
+    img: "adam-bien.jpg"
 
   - name: "Ed Burns"
     title: "Principal Architect for Java on Azure at Microsoft"
