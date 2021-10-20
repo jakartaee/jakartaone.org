@@ -70,3 +70,6 @@ items:
     bio: |
       <p>Rudy loves to create (web) applications with the Jakarta EE platform and MicroProfile implementations and is currently working for Payara Services Limited as Product Manager. He helps customers, prospects, writes technical content, is part of some MicroProfile implementations and advocates the Payara Products in various ways.</p>
       <p>He is active in the IT industry for more than 20 years and created many applications for customers. He is also a big fan of OpenSource and helped in various OpenSource projects like DeltaSpike, PrimeFaces, and Apache Myfaces. He is also passionate about Web Application Security using OAuth2, OpenId Connect, and JWT. He maintains the Octopus OpenSource project and is a member of the Jakarta EE Security API team.</p>
+  - name: "Graham Charters"
+    title: "Liberty Technical Product Manager at IBM"
+    img: "graham-charters.jpg"
