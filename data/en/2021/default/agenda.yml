@@ -80,7 +80,7 @@ items:
     - name: Studio Jakarta EE (15 min)
       time: 12:45 pm PT / 3:45 pm ET / 21:45 CET
     - name: Powering Jakarta EE and MicroProfile on Azure with Open Liberty and OpenShift
-      presenter: Reza Rahman
+      presenter: Reza Rahman & Graham Charters
       type: jakarta_ee
       time: 1 pm PT / 4 pm ET / 22:00 CET
     - name: Studio Jakarta EE (15 min)
