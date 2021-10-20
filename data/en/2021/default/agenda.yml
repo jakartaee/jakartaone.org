@@ -6,7 +6,7 @@ types:
       id: jakarta_ee
       color: "#BEABE9"
     - name: MicroProfile
-      id: micro_profile
+      id: microprofile
       color: "#99DF82"
     - name: Panel
       id: panel
@@ -25,7 +25,7 @@ items:
       time: 3:45 am PT / 6:45 am ET / 12:45 CET
     - name: The coolest new features to skyrocket your microservices
       presenter: Dmitry Alexandrov
-      type: micro_profile
+      type: microprofile
       time: 4 am PT / 7 am ET / 13:00 CET
     - name: Studio Jakarta EE (15 min)
       time: 4:45 am PT / 7:45 am ET / 13:45 CET
@@ -37,7 +37,7 @@ items:
       time: 5:45 am PT / 8:45 am ET / 14:45 CET
     - name: Look at these microservices!
       presenter: Bruno Baptista
-      type: micro_profile
+      type: microprofile
       time: 6 am PT / 9 am ET / 15:00 CET
     - name: Studio Jakarta EE (15 min)
       time: 6:45 am PT / 9:45 am ET / 15:45 CET
@@ -75,7 +75,7 @@ items:
       time: 11:45 am PT / 2:45 pm ET / 20:45 CET
     - name: MicroProfile 4.1, 5.0 and beyond
       presenter: Emily Jiang
-      type: micro_profile
+      type: microprofile
       time: 12 am PT / 3 pm ET / 21:00 CET
     - name: Studio Jakarta EE (15 min)
       time: 12:45 pm PT / 3:45 pm ET / 21:45 CET
@@ -87,7 +87,7 @@ items:
       time: 1:45 pm PT / 4:45 pm ET / 22:45 CET
     - name: Exploring Stateful Microservices in the Cloud Native World
       presenter: Mary Grygleski
-      type: micro_profile
+      type: microprofile
       time: 2 pm PT / 5 pm ET / 23:00 CET
     - name: Closing
       presenter: Tanja Obradovic & Ivar Grimstad
