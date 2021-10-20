@@ -32,6 +32,12 @@ items:
     bio: |
       <p>Kevin is co-lead of both the Jakarta EE Platform project and the MicroProfile project at the Eclipse Foundation. His involvement with these projects started during the initial investigative phases and continues with all aspects of Code and Specification development – project committer, PMC member, Steering Committee member, and Specification Committee member.</p>
       <p>Kevin’s day job is leading the architecture of Enterprise Java for the WebSphere product family at IBM. Outside of work, he enjoys the outdoors (camping, biking, hiking, skiing) and working on family construction projects.</p>
+  - name: "Mike Milinkovich"
+    title: "Executive Director at Eclipse Foundation"
+    img: "mike_milinkovich.png"
+    twitter_handle: mmilinkov
+    bio: |
+      <p>Mike has been the Executive Director of the Eclipse Foundation since 2004. He also has a few other hats as a director of the Open Source Initiative, and a member of the Java Community Process Executive Committee. He is a passionate believer in open source as the best way to innovate and collaborate. He also considers himself to be the Eclipse community's chief cheerleader.</p>
   - name: "Adam Bien"
     title: "Developer, Consultant, Author and Java (SE/EE) enthusiast"
     img: "adam-bien.jpg"
@@ -76,3 +82,4 @@ items:
     twitter_handle: gcharters
     bio: |
       <p>Graham works as a Developer Advocate in the WebSphere Applications Server development team based at IBM’s R&D Laboratory in Hursley, UK. He takes a keen interest in emerging technologies and practices and in particular programming models. His past exploits include establishing and contributing to open source projects in PHP and at Apache and participation in, and leading, industry standards at OASIS and the OSGi Alliance.</p>
+
