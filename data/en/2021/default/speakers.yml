@@ -73,3 +73,6 @@ items:
   - name: "Graham Charters"
     title: "Liberty Technical Product Manager at IBM"
     img: "graham-charters.jpg"
+    twitter_handle: gcharters
+    bio: |
+      <p>Graham works as a Developer Advocate in the WebSphere Applications Server development team based at IBM’s R&D Laboratory in Hursley, UK. He takes a keen interest in emerging technologies and practices and in particular programming models. His past exploits include establishing and contributing to open source projects in PHP and at Apache and participation in, and leading, industry standards at OASIS and the OSGi Alliance.</p>
