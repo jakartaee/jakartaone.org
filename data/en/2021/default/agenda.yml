@@ -35,8 +35,8 @@ items:
       time: 5 am PT / 8 am ET / 14:00 CET
     - name: Studio Jakarta EE (15 min)
       time: 5:45 am PT / 8:45 am ET / 14:45 CET
-    - name: Look at these microservices!
-      presenter: Bruno Baptista
+    - name: MicroProfile 4.1, 5.0 and beyond
+      presenter: Emily Jiang
       type: microprofile
       time: 6 am PT / 9 am ET / 15:00 CET
     - name: Studio Jakarta EE (15 min)
@@ -73,8 +73,8 @@ items:
       time: 11 am PT / 2 pm ET / 20:00 CET
     - name: Studio Jakarta EE (15 min)
       time: 11:45 am PT / 2:45 pm ET / 20:45 CET
-    - name: MicroProfile 4.1, 5.0 and beyond
-      presenter: Emily Jiang
+    - name: Look at these microservices!
+      presenter: Bruno Baptista
       type: microprofile
       time: 12 am PT / 3 pm ET / 21:00 CET
     - name: Studio Jakarta EE (15 min)
