@@ -15,10 +15,6 @@ require('./node_modules/eclipsefdn-solstice-assets/webpack-solstice-assets.mix.j
 let mix = require('laravel-mix');
 mix.EclipseFdnSolsticeAssets();
 
-mix.options({
-  uglify: { uglifyOptions: { compress: false, output: { comments: true } } },
-});
-
 mix.setPublicPath('static');
 mix.setResourceRoot('../');
 
