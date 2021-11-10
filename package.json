@@ -20,7 +20,7 @@
     "postinstall": "NODE_ENV=production npm run production"
   },
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "0.0.129"
+    "eclipsefdn-hugo-solstice-theme": "0.0.132"
   },
   "browserslist": "last 5 version, > 0.2%, not dead, IE 11"
 }
