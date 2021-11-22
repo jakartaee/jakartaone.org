@@ -1,16 +1,16 @@
 types:
-    - name: Keynote
+    - name: Keynote / Industry Keynote
       id: keynote 
       color: "#85BFF3"
     - name: Jakarta EE
       id: jakarta_ee
-      color: "#BEABE9"
+      color: "#EC8101"
     - name: MicroProfile
       id: microprofile
-      color: "#99DF82"
-    - name: Panel
-      id: panel
       color: "#EDDAA0"
+    - name: Studio Jakarta EE
+      id: studio
+      color: "#99DF82"
 
 items:
     - name: Welcome Reception
@@ -21,37 +21,49 @@ items:
       presenter: Rudy De Busscher
       type: jakarta_ee
       time: 3 am PT / 6 am ET / 12:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Jakarta Persistence
+      presenter: Lukas Jungmann
+      type: studio
       time: 3:45 am PT / 6:45 am ET / 12:45 CET
     - name: The coolest new features to skyrocket your microservices
       presenter: Dmitry Alexandrov
       type: microprofile
       time: 4 am PT / 7 am ET / 13:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Jakarta Security
+      presenter: Werner Keil
+      type: studio
       time: 4:45 am PT / 7:45 am ET / 13:45 CET
     - name: Running Jakarta EE Applications inside Kubernetes with Nested Container Architecture
       presenter: Ruslan Synytsky
       type: jakarta_ee
       time: 5 am PT / 8 am ET / 14:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Ancient magic of migrating Java code with the help of IDE
+      presenter: Yuriy Artamonov
+      type: studio
       time: 5:45 am PT / 8:45 am ET / 14:45 CET
     - name: MicroProfile 4.1, 5.0 and beyond
       presenter: Emily Jiang
       type: microprofile
       time: 6 am PT / 9 am ET / 15:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Jakarta CDI
+      presenter: Ladislav Thon
+      type: studio
       time: 6:45 am PT / 9:45 am ET / 15:45 CET
     - name: Integration Testing of Jakarta EE Applications with Docker and Testcontainers
       presenter: Kevin Wittek 
       type: jakarta_ee
       time: 7 am PT / 10 am ET / 16:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Jakarta Config
+      presenter: Dmitry Kornilov
+      type: studio
       time: 7:45 am PT / 10:45 am ET /16:45 CET
     - name: GlassFish at Eclipse and Jakarta EE 10
       presenter: Arjan Tijms
       type: jakarta_ee
       time: 8 am PT / 11 am ET / 17:00 CET
     - name: Studio Jakarta EE (15 min)
+      presenter: 
+      type: studio
       time: 8:45 am  PT / 11:45 am ET / 17:45 CET
     - name: Keynote
       presenter: Mike Milinkovich
@@ -59,31 +71,39 @@ items:
       time: 9:00 am PT / 12 am ET / 18:00 CET
     - name: Industry Keynote
       presenter: Jakarta EE vendors
-      type: panel
+      type: keynote
       time: 9:20 am PT / 12:20 am ET / 18:20 CET
     - name: Jakarta EE Roadmap
       presenter: Kevin Sutter
       type: jakarta_ee
       time: 10 am PT / 1 pm ET / 19:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: MicroProfile GraphQL
+      presenter: Kito Mann
+      type: studio
       time: 10:45 am PT / 1:45 pm ET / 19:45 CET
     - name: Jakarta EE + MicroProfile = Cloud Native 2.0
       presenter: Adam Bien
       type: jakarta_ee
       time: 11 am PT / 2 pm ET / 20:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Jakarta JSON Processing and Binding
+      presenter: David Král
+      type: studio
       time: 11:45 am PT / 2:45 pm ET / 20:45 CET
     - name: Look at these microservices!
       presenter: Bruno Baptista
       type: microprofile
       time: 12 am PT / 3 pm ET / 21:00 CET
     - name: Studio Jakarta EE (15 min)
+      presenter: 
+      type: studio
       time: 12:45 pm PT / 3:45 pm ET / 21:45 CET
     - name: Powering Jakarta EE and MicroProfile on Azure with Open Liberty and OpenShift
       presenter: Reza Rahman & Graham Charters
       type: jakarta_ee
       time: 1 pm PT / 4 pm ET / 22:00 CET
-    - name: Studio Jakarta EE (15 min)
+    - name: Tools for Cross Cultural Collaboration
+      presenter: Amber Vanderburg
+      type: studio
       time: 1:45 pm PT / 4:45 pm ET / 22:45 CET
     - name: Exploring Stateful Microservices in the Cloud Native World
       presenter: Mary Grygleski
