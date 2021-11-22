@@ -15,7 +15,7 @@ types:
 items:
     - name: Welcome Reception
       presenter: Tanja Obradovic & Ivar Grimstad
-      type: keynote
+      type: studio
       time: 2:45 PT / 5:45 ET / 11:45 CET
     - name: 7 Reasons to Switch to JDK 17 as a Jakarta EE Developer
       presenter: Rudy De Busscher
@@ -111,4 +111,5 @@ items:
       time: 2 pm PT / 5 pm ET / 23:00 CET
     - name: Closing
       presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
       time: 2:45 pm PT / 5:45 pm ET / 23:45 CET
