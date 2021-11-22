@@ -61,18 +61,18 @@ items:
       presenter: Arjan Tijms
       type: jakarta_ee
       time: 8 am PT / 11 am ET / 17:00 CET
-    - name: Studio Jakarta EE (15 min)
-      presenter: 
-      type: studio
-      time: 8:45 am  PT / 11:45 am ET / 17:45 CET
     - name: Keynote
       presenter: Mike Milinkovich
       type: keynote
-      time: 9:00 am PT / 12 am ET / 18:00 CET
+      time: 8:45 am PT / 11:45 am ET / 17:45 CET
     - name: Industry Keynote
       presenter: Jakarta EE vendors
       type: keynote
-      time: 9:20 am PT / 12:20 am ET / 18:20 CET
+      time: 9:05 am PT / 12:05 am ET / 18:05 CET
+    - name: Studio Jakarta EE (5 min)
+      presenter: 
+      type: studio
+      time: 9:55 am PT / 12:55 am ET / 18:55 CET
     - name: Jakarta EE Roadmap
       presenter: Kevin Sutter
       type: jakarta_ee
