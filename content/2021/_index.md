@@ -30,7 +30,7 @@ Register today to connect with other Java developers at an event attended by ove
 {{</ grid/section-container >}}
 
 <!-- Add agenda section -->
-{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+{{< grid/section-container class="alt jakartaone-agenda" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}
     {{< events/agenda year="2021" >}}
   {{</ grid/div >}}
