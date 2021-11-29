@@ -16,7 +16,7 @@ items:
     - name: "Studio Jakarta EE: WELCOME RECEPTION"
       presenter: Tanja Obradovic & Ivar Grimstad
       type: studio
-      time: 02:45 PT / 05:45 ET / 11:45 CET
+      time: 02:45&nbsp;PT&nbsp;/&nbsp;05:45&nbsp;ET&nbsp;/&nbsp;11:45&nbsp;CET
     - name: 7 Reasons to Switch to JDK 17 as a Jakarta EE Developer
       presenter: Rudy De Busscher
       type: jakarta_ee
@@ -48,7 +48,7 @@ items:
     - name: "Studio Jakarta EE: guest Ladislav Thon"
       presenter: Tanja Obradovic & Ivar Grimstad
       type: studio
-      time: 6:45 PT / 9:45 ET / 15:45 CET
+      time: 06:45 PT / 09:45 ET / 15:45 CET
     - name: Integration Testing of Jakarta EE Applications with Docker and Testcontainers
       presenter: Kevin Wittek 
       type: jakarta_ee
@@ -64,11 +64,11 @@ items:
     - name: Keynote
       presenter: Mike Milinkovich
       type: keynote
-      time: 8:45 PT / 11:45 ET / 17:45 CET
+      time: 08:45 PT / 11:45 ET / 17:45 CET
     - name: Industry Keynote
       presenter: "Jakarta EE vendors: IBM, Payara, Oracle, Tomitribe, Jelastic"
       type: keynote
-      time: 9:05 PT / 12:05 ET / 18:05 CET
+      time: 09:05 PT / 12:05 ET / 18:05 CET
     - name: Jakarta EE Roadmap
       presenter: Kevin Sutter
       type: jakarta_ee
