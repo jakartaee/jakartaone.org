@@ -90,7 +90,7 @@ items:
       type: microprofile
       time: 12:00 PT / 15:00 ET / 21:00 CET
     - name: Studio Jakarta EE (15 min)
-      presenter: 
+      presenter: Tanja Obradovic & Ivar Grimstad
       type: studio
       time: 12:45 PT / 15:45 ET / 21:45 CET
     - name: Powering Jakarta EE and MicroProfile on Azure with Open Liberty and OpenShift
