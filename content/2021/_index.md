@@ -20,11 +20,9 @@ layout: "single"
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/registration year="2021" >}}
-**JakartaOne Livestream** is a one-day virtual conference for developers and technical business leaders.
+Thank You for making the third annual JakartaOne Livestream event a great success!
 
-We bring insights into the current state and future of **Jakarta™ EE** and related technologies focused on developing cloud native Java applications.
-
-Register today to connect with other Java developers at an event attended by over 1000 each of the last two years.
+This milestone would not be possible without the collective efforts of a dedicated community.
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
