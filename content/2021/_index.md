@@ -9,10 +9,6 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 7, 2021"
-tagline_suffix: |
-  <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a>
-  </p>
 layout: "single"
 ---
 
