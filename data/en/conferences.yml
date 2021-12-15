@@ -9,6 +9,8 @@ items:
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/jakartaone_2021.jpg
     icon: fa fa-rocket
+    description: |
+      On December 7th, 2021 over 900 Jakarta EE enthusiasts joined for our third annual Livestream event. They discussed Jakarta EE 10, many of the Jakarta EE individual specifications: Jakarta Persistence, Jakarta Config, Jakarta CDI, various implementations of Jakarta EE, MicroProfile and other related cloud technologies. Featuring 11 technical talks, 10 studio sessions and 5 vendor talks. This event was entirely supported by Jakarta EE members and the global Jakarta EE community.
   -
     name: Jakarta One Livestream - Spanish
     location: Virtual
