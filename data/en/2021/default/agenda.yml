@@ -84,7 +84,7 @@ items:
       type: keynote
       time: 09:05 PT / 12:05 ET / 18:05 CET
     - name: Jakarta EE Roadmap
-      vod: https://youtu.be/N8_5OsoYZAA
+      vod: https://www.youtube.com/watch?v=V1YFQSUls5Q&ab_channel=JakartaEE
       presenter: Kevin Sutter
       type: jakarta_ee
       time: 10:00 PT / 13:00 ET / 19:00 CET
@@ -129,7 +129,7 @@ items:
       type: microprofile
       time: 14:00 PT / 17:00 ET / 23:00 CET
     - name: "Studio Jakarta EE: CLOSING"
-      vod: https://youtu.be/8a3bZew6H5Y
+      vod: https://www.youtube.com/watch?v=cMSA0lUvJyE&ab_channel=JakartaEE
       presenter: Tanja Obradovic & Ivar Grimstad
       type: studio
       time: 14:45 PT / 17:45 ET / 23:45 CET
