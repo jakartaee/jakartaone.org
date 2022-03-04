@@ -1,5 +1,27 @@
 items:
   -
+    name: JakartaOne Livestream Portuguese
+    location: Location, Location
+    date: September 29, 2022
+    end_date: 2022-09-30T00:00:00-00:00
+    url: /2022/portuguese
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/portuguese_2021.jpg
+    icon: fa fa-rocket
+    description: 
+  -
+    name: JakartaOne Livestream 2022
+    location: Location, Location
+    date: December 6, 2022
+    end_date: 2022-12-07T00:00:00-00:00
+    url: /2022
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone_2021.jpg
+    icon: fa fa-rocket
+    description: 
+  -
     name: JakartaOne 2021
     location: Location, Location
     date: December 7, 2021

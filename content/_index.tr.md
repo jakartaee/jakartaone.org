@@ -20,6 +20,8 @@ tagline_suffix: |
 {{<grid/div class="col-xs-24 col-md-12 event-highlight " isMarkdown="false">}}
 <p><strong>JakartaOne Livestream</strong> is a one-day virtual conference for developers and technical business leaders.</p>
 <p>We bring insights into the current state and future of <strong>Jakarta™ EE</strong> and related technologies focused on developing cloud native Java applications.</p>
+<p>Find out how to host a JakartaOne Livestream in your language.</p>
+<p><a class="btn btn-primary fw-700 margin-top-10" href="/documents/jakartaone-language-host-process.pdf">Download</a></p>
 {{</grid/div>}}
 {{<grid/div class="col-xs-24 col-md-12" isMarkdown="false">}}
 {{< active-events >}}
@@ -31,8 +33,8 @@ tagline_suffix: |
 {{< grid/section-container class="margin-top-40 margin-bottom-40" >}}
 {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
 {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
-<h2 class="margin-bottom-40 text-center">About the JakartaOne Livestream Program</h2>
-{{< youtube "CjRkamh40ds" >}}  
+<h2 class="margin-bottom-40 text-center">Revisit out latest JakartaOne Livestream 2021 event</h2>
+{{< youtube "playlist?list=PLutlXcN4EAwCxiFhy8X7vi4gxqVUNbqkI" >}}  
 {{</ grid/div >}}
 {{</ grid/div >}}
 
