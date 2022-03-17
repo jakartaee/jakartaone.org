@@ -2486,20 +2486,18 @@ dotignore@~0.1.2:
   dependencies:
     minimatch "^3.0.4"
 
-eclipsefdn-hugo-solstice-theme@^0.0.142:
+"eclipsefdn-hugo-solstice-theme@https://gitlab.eclipse.org/zhoufang/hugo-solstice-theme.git#zhoufang/master/videos":
   version "0.0.142"
-  resolved "https://registry.yarnpkg.com/eclipsefdn-hugo-solstice-theme/-/eclipsefdn-hugo-solstice-theme-0.0.142.tgz#cac2bff54fab9db0f92d9855a306f067231bc0ef"
-  integrity sha512-5tX/JE3WzO0HuVe9myYtqtS3MVaRbmVLVPIUFlVtfgNYbuUHRXS5+RxLr1fUTIiUtU3FRYstjh9bPMhuPyUmig==
+  resolved "https://gitlab.eclipse.org/zhoufang/hugo-solstice-theme.git#037056c1d3d20f7e3cf31d0400aeef7da8228ca8"
   dependencies:
     axios "^0.21.1"
-    eclipsefdn-solstice-assets "0.0.187"
+    eclipsefdn-solstice-assets "https://gitlab.eclipse.org/zhoufang/solstice-assets.git#zhoufang/master/videos"
     json2yaml "^1.1.0"
     toml "^3.0.0"
 
-eclipsefdn-solstice-assets@0.0.187:
+"eclipsefdn-solstice-assets@https://gitlab.eclipse.org/zhoufang/solstice-assets.git#zhoufang/master/videos":
   version "0.0.187"
-  resolved "https://registry.yarnpkg.com/eclipsefdn-solstice-assets/-/eclipsefdn-solstice-assets-0.0.187.tgz#77188a37cb22ced2a9d4e6bb525d6a59bfc0abe6"
-  integrity sha512-fZdCbHIBijQq0tyVaE5tITmc9BSTUvJnYWpm5sE+rvn3k2aDZKZwzqf51xa/JrGMdLicRKYp7/LD60pF32oeLg==
+  resolved "https://gitlab.eclipse.org/zhoufang/solstice-assets.git#c1e84d8ad6e52dccfba90abbc62e4615f87a29f5"
   dependencies:
     "@babel/core" "^7.0.0-0"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
