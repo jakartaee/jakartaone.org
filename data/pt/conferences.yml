@@ -1,5 +1,16 @@
 items:
   -
+    name: JakartaOne Livestream German
+    location: Location, Location
+    date: June 30, 2022
+    end_date: 2022-07-01T00:00:00-00:00
+    url: /2022/german
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone_2021.jpg
+    icon: fa fa-rocket
+    description: 
+  -
     name: JakartaOne Livestream Portuguese
     location: Location, Location
     date: September 29, 2022

@@ -16,3 +16,6 @@ weight =  5
 [tr]
 languageName = "Türkçe"
 weight =  6
+[de]
+languageName = "German"
+weight =  7
