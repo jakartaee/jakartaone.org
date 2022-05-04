@@ -1,7 +1,7 @@
 ---
 title: "Committee Members"
-seo_title: "Jakarta One Livestream - Portuguese 2021 | Jakarta EE Software | Cloud Native"
-date: 2019-06-12
+seo_title: "Jakarta One Livestream - Portuguese 2022 | Jakarta EE Software | Cloud Native"
+date: 2022-05-04
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
