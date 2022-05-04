@@ -10,7 +10,7 @@ hide_breadcrumb: true
 container: "container-fluid"
 tagline: "June 30, 2022"
 layout: "single"
-menu_name: "turkish"
+menu_name: "german"
 ---
 
 {{< grid/section-container class="padding-bottom-40 text-center">}}
