@@ -8,7 +8,6 @@ items:
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/jakartaone_2021.jpg
-    icon: fa fa-rocket
     description: 
   -
     name: JakartaOne Livestream Portuguese
@@ -19,7 +18,6 @@ items:
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/portuguese_2021.jpg
-    icon: fa fa-rocket
     description: 
   -
     name: JakartaOne Livestream 2022
