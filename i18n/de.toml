@@ -29,7 +29,7 @@ other = "Erfahre mehr"
 other = "Erfahre mehr über"
 
 [regional-jakartaone-livestreams]
-other = "Organisation von regionalen JakartaOne Livestream-Veranstaltungen"
+other = "Organisation von regionalen JakartaOne-Livestream-Veranstaltungen"
 
 [regional-jakartaone-livestreams-decription]
 other = "Interessiert an einem eigenen regionalen JakartaOne-Livestream? Lade das Hilfsmittel herunter und trete mit uns in Verbindung!"
@@ -71,10 +71,10 @@ other = "Schließen"
 other = "Sprecher"
 
 [committee-carousel-title]
-other = "Triff das Programm-Komitee"
+other = "Triff das Programmkomitee"
 
 [committee-carousel-content]
-other = "Wir sind stolz zu sagen, daß die Sessions und Keynotes für die JakartaOne-Livestream-Veranstaltung von einem unabhängigen Programm-Komitee bestehend aus Freiwilligen der Jakarta&reg; EE und Cloud Native Java Community kommt!"
+other = "Wir sind stolz zu sagen, daß die Sessions und Keynotes für die JakartaOne-Livestream-Veranstaltung von einem unabhängigen Programmkomitee bestehend aus Freiwilligen der Jakarta&reg; EE und Cloud Native Java Community kommt!"
 
 [committee-carousel-button-text]
 other = "Erfahre mehr"
@@ -92,7 +92,7 @@ other = "Zukünftige Veranstaltungen"
 other = "Folge dem offiziellen Konferenz-Twitter-Handle <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a> um Updates, Sprecher-Ankündigungen, Neuigkeiten und mehr zu erfahren!"
 
 [footer-jakarta-callout-content]
-other = "Durch Partizipation getrieben, fokussiert sich Jakarta&reg; EE auf das Ermöglichen Community-getriebener Zusammenarbeit und Open Innovation für die Cloud"
+other = "Durch Partizipation getrieben, fokussiert sich Jakarta&reg; EE auf das Ermöglichen community-getriebener Zusammenarbeit und Open Innovation für die Cloud"
 
 [footer-jakarta-callout-button-text]
 other = "Erfahre mehr"
