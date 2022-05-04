@@ -16,12 +16,12 @@ items:
     img: "kvarela.jpg"
     bio: |
       <p>Karina M. Varela is an expert on the matter of Business Automation and on Java-based architectures and solutions. She brings a solid background in development, architecting, delivering, and troubleshooting critical software in enterprise environments of different sectors around the world. She's a coordinator of the SouJava and KIE community, and in her free time, enjoys contributing to the open-source community by writing, speaking and promoting tech events.</p>
-  - name: "Bruno Novaes"
-    title: ""
-    twitter_handle: 
-    img: ""
+  - name: "Bruno Baptista"
+    title: "Senior Java Consultant. Principal Engineer @ Talkdesk"
+    twitter_handle: brunobat_
+    img: "bbaptista.jpeg"
     bio: |
-      <p></p>
+      <p>Bruno Baptista is a Principal Engineer at Talkdesk. With over 13 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
   - name: "Roberto Cortez"
     title: "SmallRye Project Lead @ Red Hat"
     twitter_handle: radcortez
