@@ -56,7 +56,7 @@ other = "Sprecher-Name"
 other = "Session-Aufzeichnung"
 
 [agenda-session-schedule]
-other = "Geplante Zeit"
+other = "Zeitplan"
 
 [agenda-session-recording-button-alt]
 other = "Session-Video für Session {{ .name }}"
@@ -74,7 +74,7 @@ other = "Sprecher"
 other = "Triff das Programmkomitee"
 
 [committee-carousel-content]
-other = "Wir sind stolz zu sagen, daß die Sessions und Keynotes für die JakartaOne-Livestream-Veranstaltung von einem unabhängigen Programmkomitee bestehend aus Freiwilligen der Jakarta&reg; EE und Cloud Native Java Community kommt!"
+other = "Wir sind stolz darauf, daß die Sessions und Keynotes für die JakartaOne-Livestream-Veranstaltung von einem unabhängigen Programmkomitee bestehend aus Freiwilligen der Jakarta&reg; EE und Cloud Native Java Community ausgewählt werden!"
 
 [committee-carousel-button-text]
 other = "Erfahre mehr"
@@ -98,7 +98,7 @@ other = "Durch Partizipation getrieben, fokussiert sich Jakarta&reg; EE auf das 
 other = "Erfahre mehr"
 
 [footer-join-mailing-list]
-other = "Schließe dich unserer Mailing-Liste an"
+other = "Melde dich für unsere Mailing-Liste an"
 
 [footer-join-mailing-list-button-text]
 other = "Trage dich jetzt ein"
