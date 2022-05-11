@@ -1,22 +1,22 @@
 items:
-  - name: "Hendrik Ebbers"
-    title: ""
-    twitter_handle: "@hendrikEbbers"
-    img: "hendrik_ebbers.jpg"
-    bio: |
-      <p>Hendrik (@hendrikEbbers) is a JavaChampion, JSR expert group member and JavaOne Rockstar. Hendrik is the founder and leader of the Java User Group Dortmund and gives talks and presentations in user groups and conferences around the world. His JavaFX book “Mastering JavaFX 8 Controls” was released in 2014 by Oracle press. He contributes to several open source projects including JakartaEE and Eclipse Adoptium. Hendrik is a member of the AdoptOpenJDK TSC and of the Eclipse Adoptium WG.</p>
-  - name: "Markus Karg"
-    title: ""
-    twitter_handle: "@mkarg"
-    img: "markus_karg.jpg"
-    bio: |
-      <p>As a German Java-veteran, Markus has been programming passionately since the 1980s and has been working full-time with Java since 1997. He has contributed to numerous open source projects such as Jakarta EE, OpenJDK, Maven and many more. The founder of JUG Goldstadt represents the interests of Java users in numerous committees, such as iJUG-ambassador in the Jakarta EE Working Group. To most the co-author of the JAX-RS specification is probably known from his conference appearances ("JavaLand Kung-Fu"), his YouTube channel, through his column in the magazine Java aktuell, or the co-organization of the JavaLand conference.</p>
   - name: "Susanne Braun"
     title: ""
     twitter_handle: "@susannebraun"
     img: "susanne_braun.jpg"
     bio: |
-      <p>Susanne Braun is a project manager, software architect and researcher at the Fraunhofer Institute of Experimental Software Engineering IESE, part of the Fraunhofer-Gesellschaft, a large organization for applied research in Germany. She has more than twelve years of professional experience and worked as a consultant at two IT consulting companies before joining Fraunhofer IESE. In her PhD, she carries out research on distributed systems, eventual consistency, and software architecture design. She is a regular speaker at conferences, an active member of the Java user group community, a program committee member of a large conference for Java professionals and software architects (JavaLand), and co-organizer of a virtual meetup series on software development (CyberLand).</p>
+      <p>Susanne ist Projektleiterin, Software-Architektin und Forscherin am Fraunhofer IESE. Sie hat mehr als 12 Jahre professionelle Erfahrung und war zunächst für Capgemini sd&m und die Accso GmbH tätig, bevor sie zu Fraunhofer wechselte. In ihrer PhD erforscht sie wie man zu besseren Software-Architektur-Konzepten für moderne verteilte Systeme kommt. Sie spricht regelmäßig auf Konferenzen, ist aktives Mitglied der Java User Group Community, Mitglied mehrerer Programm-Komitees im wissenschaftlichen und nicht-wissenschaftlichen Bereich, sowie Co-Organisatorin der CyberLand Events.</p>
+  - name: "Hendrik Ebbers"
+    title: ""
+    twitter_handle: "@hendrikEbbers"
+    img: "hendrik_ebbers.jpg"
+    bio: |
+      <p>Hendrik Ebbers (@hendrikEbbers) ist Java Champion, JCP Expert Group Member und wurde mehrfach als Rockstar-Speaker der JavaOne ausgezeichnet. Hendrik ist Mitgründer der JUG Dortmund sowie der Cyberland und gibt auf der ganzen Welt Vorträge und Workshop zum Thema Java. Sein Buch "Mastering JavaFX 8 Controls" ist 2014 bei Oracle Press erschienen. Hendrik arbeitet aktiv an Open Source Projekten wie beispielsweise JakartaEE oder Eclipse Adoptium mit. Hendrik ist Mitglied des AdoptOpenJDK TSC und der Eclipse Adoptium WG.</p>
+  - name: "Markus Karg"
+    title: ""
+    twitter_handle: "@mkarg"
+    img: "markus_karg.jpg"
+    bio: |
+      <p>Als deutsches Java-Urgestein programmiert Markus leidenschaftlich seit den 1980er Jahren und ist seit 1997 hauptberuflich mit Java unterwegs. Er hat zu zahlreichen Open-Source-Projekten beigetragen wie beispielsweise Jakarta EE, OpenJDK, Maven und viele weitere. Der Gründer der JUG Goldstadt vertritt die Interessen der Java-Anweder in zahlreichen Kommitees, wie beispielsweise als iJUG-Botschafter in der Jakarta EE Working Group. Den meisten ist der Co-Author der JAX-RS-Spezifikation vermutlich von seinen Konferenzauftritten ("JavaLand Kung-Fu"), seinem Youtube-Kanal, durch seine Kolumne in der Zeitschrift Java aktuell, oder die Co-Organisation der JavaLand-Konferenz bekannt.</p>
   - name: "Falk Sippach"
     title: ""
     twitter_handle: "@sippsack"
