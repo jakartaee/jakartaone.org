@@ -1,31 +1,31 @@
 items:
   - name: "Hendrik Ebbers"
     title: ""
-    twitter_handle: ""
-    img: ""
+    twitter_handle: "@hendrikEbbers"
+    img: "hendrik_ebbers.jpg"
     bio: |
-      <p></p>
+      <p>Hendrik (@hendrikEbbers) is a JavaChampion, JSR expert group member and JavaOne Rockstar. Hendrik is the founder and leader of the Java User Group Dortmund and gives talks and presentations in user groups and conferences around the world. His JavaFX book “Mastering JavaFX 8 Controls” was released in 2014 by Oracle press. He contributes to several open source projects including JakartaEE and Eclipse Adoptium. Hendrik is a member of the AdoptOpenJDK TSC and of the Eclipse Adoptium WG.</p>
   - name: "Markus Karg"
     title: ""
-    twitter_handle: ""
-    img: ""
+    twitter_handle: "@mkarg"
+    img: "markus_karg.jpg"
     bio: |
-      <p></p>
+      <p>As a German Java-veteran, Markus has been programming passionately since the 1980s and has been working full-time with Java since 1997. He has contributed to numerous open source projects such as Jakarta EE, OpenJDK, Maven and many more. The founder of JUG Goldstadt represents the interests of Java users in numerous committees, such as iJUG-ambassador in the Jakarta EE Working Group. To most the co-author of the JAX-RS specification is probably known from his conference appearances ("JavaLand Kung-Fu"), his YouTube channel, through his column in the magazine Java aktuell, or the co-organization of the JavaLand conference.</p>
   - name: "Susanne Braun"
     title: ""
-    twitter_handle: ""
-    img: ""
+    twitter_handle: "@susannebraun"
+    img: "susanne_braun.jpg"
     bio: |
-      <p></p>
+      <p>Susanne Braun is a project manager, software architect and researcher at the Fraunhofer Institute of Experimental Software Engineering IESE, part of the Fraunhofer-Gesellschaft, a large organization for applied research in Germany. She has more than twelve years of professional experience and worked as a consultant at two IT consulting companies before joining Fraunhofer IESE. In her PhD, she carries out research on distributed systems, eventual consistency, and software architecture design. She is a regular speaker at conferences, an active member of the Java user group community, a program committee member of a large conference for Java professionals and software architects (JavaLand), and co-organizer of a virtual meetup series on software development (CyberLand).</p>
   - name: "Falk Sippach"
     title: ""
-    twitter_handle: ""
-    img: ""
+    twitter_handle: "@sippsack"
+    img: "falk_sippach.jpg"
     bio: |
-      <p></p>
+      <p>Falk Sippach ist bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer stets auf der Suche nach dem Funken Leidenschaft, den er bei seinen Teilnehmern, Kunden und Kollegen entfachen kann. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (Mitorganisator der JUG Darmstadt) teilt er zudem sein Wissen gern in Artikeln, Blog-Beiträgen, sowie bei Vorträgen auf Konferenzen oder User Group Treffen und unterstützt bei der Organisation diverser Fachveranstaltungen.</p>
   - name: "Jan Westerkamp"
     title: ""
     twitter_handle: ""
-    img: ""
+    img: "jan_westerkamp.png"
     bio: |
-      <p></p>
+      <p>Mit einem Fokus auf Systems Engineering, Software Engineering und Projektmanagement, Jan mag es sich den Herausforderungen in komplexen Systemen und DevOps-Umgebungen zu stellen. Nebenbei organisiert er die JUG Darmstadt mit und ist der Vertreter des iJUG Interessenverbund der Java User Groups e.V. bezüglich der Beziehungen zur Eclipse Foundation, insbesondere innerhalb der Jakarta EE, MicroProfile und Adoptium Arbeitsgruppen.</p>
