@@ -15,6 +15,11 @@ menu_name: "portuguese"
 
 {{< grid/section-container class="padding-bottom-40 text-center">}}
   {{< grid/div class="padding-top-30" isMarkdown="false">}}
-    <h2>Content coming soon</h2>
+    <h2>More content coming soon</h2>
   {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+<!-- Add user carousel for committee -->
+{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" >}}
+Estamos orgulhosos de dizer que as sessões e palestras do JakartaOne Livestream Event são escolhidas por um comitê independente composto por voluntários da comunidade Jakarta® EE e Cloud Native Java!
+{{</ events/program-committee >}}
