@@ -1,7 +1,7 @@
 ---
-title: "Jakarta One Livestream - German 2022"
-seo_title: "Jakarta One Livestream - German | Jakarta EE Software | Cloud Native"
-headline: "Jakarta One Livestream - German"
+title: "JakartaOne Livestream - German 2022"
+seo_title: "JakartaOne Livestream - German | Jakarta EE Software | Cloud Native"
+headline: "JakartaOne Livestream - German"
 description: ""
 date: 2022-04-24T15:50:25-04:00
 hide_page_title: true
