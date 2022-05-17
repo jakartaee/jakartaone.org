@@ -1,0 +1,7 @@
+title: "About the event"
+end_date: 2022-07-01T00:00:00-04:00
+end_text: The event has now concluded!
+links:
+  - url: https://shop.doag.org/events/cloudland/cfp/
+    text:  Submit a Proposal
+    external: true

@@ -15,11 +15,17 @@ layout: "single"
 menu_name: "german"
 ---
 
-{{< grid/section-container class="padding-bottom-40 text-center">}}
-  {{< grid/div class="padding-top-30" isMarkdown="false">}}
-    <h2>More Content coming soon</h2>
-  {{</ grid/div >}}
+{{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+{{< grid/div class="container" isMarkdown="false" >}}
+{{< events/registration event="german" year="2022" >}}
+JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
+
+JakartaOne Livestream German event will be streamed live form the [CloudLand Festival](https://www.cloudland.org/en/home/) at Phantasialand Brühl, Germany – so you also have the opportunity to attend the event live on the main stage on it’s 2nd [theme day regarding MicroServices & DDD](https://en.shop.doag.org/events/cloudland/2022/agenda/#eventDay.1656540000) there.
+
+Note: You have to register a speaker profile and afterwards you can insert your session(s). Here be sure to set the main focus to "JakartaOne".
+{{</ events/registration >}}
+{{</ grid/div >}} 
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< events/program-committee event="german" year="2022" source="committee" subpage="program-committee" useCarousel="false" />}}
+{{< events/program-committee event="german" year="2022" source="committee" subpage="program-committee" />}}
