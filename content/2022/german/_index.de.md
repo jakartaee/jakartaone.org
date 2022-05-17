@@ -20,9 +20,7 @@ menu_name: "german"
 {{< events/registration event="german" year="2022" >}}
 JakartaOne Livestream ist eine eintägige, virtuelle Konferenz für Entwickler und die technische Geschäftsleitung, welche Einsichten zum aktuellen Stand und der Zukunft von Jakarta EE und zugehörigen Technologien bietet, die auf das Entwicklen cloud-nativer Techniken für geschäftliche Java-Anwendungen fokussiert sind.
 
-Das JakartaOne Livestream German Veranstaltung wird live vom [CloudLand Festival](https://www.cloudland.org/en/home/) im Phantasialand Brühl, Deutschland gestreamt – somit haben Sie auch die Möglichkeit die Veranstaltung live von der Main Stage an ihrem zweiten [Thementag bezüglich MicroServices & DDD](https://en.shop.doag.org/events/cloudland/2022/agenda/#eventDay.1656540000) zu verfolgen.
-
-Hinweis: Registrieren Sie sich ein Sprecher-Profil und danach können Sie Ihre Session(s) einreichen. Stellen Sie hier sicher, dass beim Schwerpunkt „JakartaOne“ ausgewählt ist.
+Das JakartaOne Livestream German Veranstaltung wird live vom [CloudLand Festival](https://www.cloudland.org/de/home/) im Phantasialand Brühl, Deutschland gestreamt – somit haben Sie auch die Möglichkeit die Veranstaltung live von der Main Stage an ihrem zweiten [Thementag bezüglich MicroServices & DDD](https://shop.doag.org/events/cloudland/2022/agenda/#eventDay.1656540000) zu verfolgen.
 {{</ events/registration >}}
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
