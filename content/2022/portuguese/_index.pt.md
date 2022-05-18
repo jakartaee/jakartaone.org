@@ -1,7 +1,7 @@
 ---
-title: "Jakarta One Livestream - Português 2022"
-seo_title: "Jakarta One Livestream - Português | Jakarta EE Software | Cloud Native"
-headline: "Jakarta One Livestream - Português"
+title: "JakartaOne Livestream - Português 2022"
+seo_title: "JakartaOne Livestream - Português | Jakarta EE Software | Cloud Native"
+headline: "JakartaOne Livestream - Português"
 description: "O JakartaOne Livestream é uma conferência virtual de um dia para desenvolvedores e líderes técnicos de negócios que traz informações sobre o estado atual e o futuro do Jakarta™ EE e tecnologias relacionadas, focadas no desenvolvimento de aplicativos Java nativos da nuvem."
 date: 2022-03-03T15:50:25-04:00
 hide_page_title: true
