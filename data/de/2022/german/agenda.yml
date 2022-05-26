@@ -19,7 +19,7 @@ items:
     presenter: 
     time: 09:45 - 10:00
     type: intro
-  - name: "JakartaOne German - Ready for the Future: Jakarta EE in Zeiten von Cloud Native & Co."
+  - name: "Ready for the Future: Jakarta EE in Zeiten von Cloud Native & Co."
     presenter: Lars Röwekamp
     time: 10:00 - 10:45
     type: session
@@ -38,7 +38,7 @@ items:
     presenter: 
     time: 13:00 - 14:00
     type: 
-  - name: "JakartaOne German: Relook at Microservices"
+  - name: "Relook at Microservices"
     presenter: Emily Jiang
     time: 14:00 - 14:50
     type: session
