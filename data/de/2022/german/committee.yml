@@ -1,30 +1,30 @@
 items:
   - name: "Susanne Braun"
-    title: ""
+    title: "JUG Kaiserslautern und iJUG CyberLand"
     twitter_handle: "@susannebraun"
     img: "susanne_braun.jpg"
     bio: |
       <p>Susanne ist Projektleiterin, Software-Architektin und Forscherin am Fraunhofer IESE. Sie hat mehr als 12 Jahre professionelle Erfahrung und war zunächst für Capgemini sd&m und die Accso GmbH tätig, bevor sie zu Fraunhofer wechselte. In ihrer PhD erforscht sie wie man zu besseren Software-Architektur-Konzepten für moderne verteilte Systeme kommt. Sie spricht regelmäßig auf Konferenzen, ist aktives Mitglied der Java User Group Community, Mitglied mehrerer Programm-Komitees im wissenschaftlichen und nicht-wissenschaftlichen Bereich, sowie Co-Organisatorin der CyberLand Events.</p>
   - name: "Hendrik Ebbers"
-    title: ""
+    title: JUG Dortmund, iJUG CyberLand und iJUG Vertreter in der Adoptium Arbeitsgruppe""
     twitter_handle: "@hendrikEbbers"
     img: "hendrik_ebbers.jpg"
     bio: |
       <p>Hendrik Ebbers (@hendrikEbbers) ist Java Champion, JCP Expert Group Member und wurde mehrfach als Rockstar-Speaker der JavaOne ausgezeichnet. Hendrik ist Mitgründer der JUG Dortmund sowie der Cyberland und gibt auf der ganzen Welt Vorträge und Workshop zum Thema Java. Sein Buch "Mastering JavaFX 8 Controls" ist 2014 bei Oracle Press erschienen. Hendrik arbeitet aktiv an Open Source Projekten wie beispielsweise JakartaEE oder Eclipse Adoptium mit. Hendrik ist Mitglied des AdoptOpenJDK TSC und der Eclipse Adoptium WG.</p>
   - name: "Markus Karg"
-    title: ""
+    title: "JUG Goldstadt und iJUG Vertreter in der Jakarta EE Arbeitsgruppe"
     twitter_handle: "@mkarg"
     img: "markus_karg.jpg"
     bio: |
       <p>Als deutsches Java-Urgestein programmiert Markus leidenschaftlich seit den 1980er Jahren und ist seit 1997 hauptberuflich mit Java unterwegs. Er hat zu zahlreichen Open-Source-Projekten beigetragen wie beispielsweise Jakarta EE, OpenJDK, Maven und viele weitere. Der Gründer der JUG Goldstadt vertritt die Interessen der Java-Anweder in zahlreichen Kommitees, wie beispielsweise als iJUG-Botschafter in der Jakarta EE Working Group. Den meisten ist der Co-Author der JAX-RS-Spezifikation vermutlich von seinen Konferenzauftritten ("JavaLand Kung-Fu"), seinem Youtube-Kanal, durch seine Kolumne in der Zeitschrift Java aktuell, oder die Co-Organisation der JavaLand-Konferenz bekannt.</p>
   - name: "Falk Sippach"
-    title: ""
+    title: "JUG Darmstadt und iJUG CyberLand"
     twitter_handle: "@sippsack"
     img: "falk_sippach.jpg"
     bio: |
       <p>Falk Sippach ist bei der embarc Software Consulting GmbH als Softwarearchitekt, Berater und Trainer stets auf der Suche nach dem Funken Leidenschaft, den er bei seinen Teilnehmern, Kunden und Kollegen entfachen kann. Bereits seit über 15 Jahren unterstützt er in meist agilen Softwareentwicklungsprojekten im Java-Umfeld. Als aktiver Bestandteil der Community (Mitorganisator der JUG Darmstadt) teilt er zudem sein Wissen gern in Artikeln, Blog-Beiträgen, sowie bei Vorträgen auf Konferenzen oder User Group Treffen und unterstützt bei der Organisation diverser Fachveranstaltungen.</p>
   - name: "Jan Westerkamp"
-    title: ""
+    title: "JUG Darmstadt, iJUG Vertreter in den Jakarta EE, MicroProfile und Adoptium Arbeitsgruppen"
     twitter_handle: ""
     img: "jan_westerkamp.png"
     bio: |
