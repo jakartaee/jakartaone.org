@@ -7,9 +7,6 @@ types:
     - name: Session
       id: session 
       color: "#c6a061"
-    - name: Keynote
-      id: keynote 
-      color: "#0a0"
     - name: Panel
       id: panel 
       color: "#2a2a70"
@@ -88,4 +85,3 @@ items:
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 17:45 - 18:00
     type: studio
-
