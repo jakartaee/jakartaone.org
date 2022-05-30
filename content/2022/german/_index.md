@@ -37,11 +37,14 @@ JakartaOne Livestream German event will be streamed live form the [CloudLand Fes
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
 
+<!-- Add agenda -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}
     {{< events/agenda event="german" year="2022" >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="german" year="2022" source="committee" subpage="program-committee" />}}
