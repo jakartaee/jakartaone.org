@@ -1,24 +1,21 @@
 dynamicTime: true
 timezone: GMT+02
 types:
-    - name: Intro
-      id: intro 
+    - name: CN4J Studio
+      id: studio
       color: "#e44"
     - name: Session
       id: session 
       color: "#c6a061"
-    - name: Keynote
-      id: keynote 
-      color: "#0a0"
     - name: Panel
       id: panel 
       color: "#2a2a70"
 
 items:
-  - name: Welcome to JakartaOne German!
-    presenter: 
+  - name: "CN4J Studio: Welcome to JakartaOne German!"
+    presenter: Hendrik Ebbers, Jan Westerkamp
     time: 09:45 - 10:00
-    type: intro
+    type: studio
   - name: "Ready for the Future: Jakarta EE in Zeiten von Cloud Native & Co."
     presenter: Lars Röwekamp
     time: 10:00 - 10:45
@@ -26,33 +23,65 @@ items:
     abstract: |
             <p>Auch nach mehr als 20 Jahren ist Jakarta EE (ehemals Java EE) DER Standard, wenn es um die Entwicklung Java-basierte Enterprise Computing Lösungen geht. Dies gilt zumindest immer dann, wenn die Anwendung als Monolithen in einem Application Server deployed werden soll. Wie aber steht es mit einer Anwendung, die aus einer Vielzahl autark laufender Microservices besteht? Und wie gut schlägt sich Jakarta EE in der Cloud, in der geringer Speicherbedarf und schnelle Startzeiten gefragt sind? Die Session zeigt, wie es Jakarta EE geschafft hat, mit der Zeit zu gehen und so, mit Hilfe von Side-Projekten wie dem Eclipse MicroProfile, den Anforderungen moderner Cloud Native Anwendungen gerecht zu werden.</p>
             <p>Ein Ausblick das Zusammenspiel mit GraalVM und Quarkus zeigt, das Jakarta EE dabei auch in extrem verteilten Cloud-Szenarien aka Serverless, eine gute Figur macht.</p>
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 10:45 - 11:00
+    type: studio
   - name: JakartaOne German
     presenter: 
     time: 11:00 - 11:45
     type: session
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 11:45 - 12:00
+    type: studio
   - name: JakartaOne German
     presenter: 
     time: 12:00 - 12:45
     type: session
-  - name: Break
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 12:45 - 13:00
+    type: studio
+  - name: JakartaOne German
     presenter: 
-    time: 13:00 - 14:00
-    type: 
+    time: 13:00 - 13:45
+    type: session
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 13:45 - 14:00
+    type: studio
   - name: "Relook at Microservices"
     presenter: Emily Jiang
     time: 14:00 - 14:50
     type: session
     abstract: |
             <p>Microservice is a buzzword, and it has been around for more than one decade. Some companies tried with success while others did not get much benefit from it and then went back to monolith. Are microservices the ultimate goals for application development? In this session, Emily will take you through the history of microservices, look at microservices from different angles and discuss what modern application development and deployment should be.</p>
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 14:50 - 15:00
+    type: studio
   - name: JakartaOne German
     presenter: 
     time: 15:00 - 15:45
     type: session
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 15:45 - 16:00
+    type: studio
   - name: JakartaOne German
     presenter: 
     time: 16:00 - 16:45
     type: session
-  - name: JakartaOne German
+  - name: "CN4J Studio"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 16:45 - 17:00
+    type: studio
+  - name: CN4J Panel
     presenter: 
     time: 17:00 - 17:45
     type: panel
+  - name: "CN4J Studio: Closing Session"
+    presenter: Hendrik Ebbers, Jan Westerkamp
+    time: 17:45 - 18:00
+    type: studio
