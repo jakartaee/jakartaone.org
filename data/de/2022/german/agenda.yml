@@ -4,15 +4,21 @@ types:
     - name: CN4J Studio
       id: studio
       color: "#e44"
-    - name: Session
+    - name: Technical Session
       id: session 
       color: "#c6a061"
-    - name: Panel
+    - name: Industry Session
+      id: industry 
+      color: "#0a0"
+    - name: Keynote
+      id: keynote 
+      color: "#85BFF3"
+    - name: CN4J Panel
       id: panel 
       color: "#2a2a70"
 
 items:
-  - name: "CN4J Studio: Welcome to JakartaOne German!"
+  - name: CN4J Studio - Welcome to JakartaOne German!
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 09:45 - 10:00
     type: studio
@@ -27,10 +33,14 @@ items:
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 10:45 - 11:00
     type: studio
-  - name: JakartaOne German
-    presenter: 
+  - name: Der Application Server ist tot (?) - es lebe Jakarta EE!
+    presenter: Dirk Weil
     time: 11:00 - 11:45
     type: session
+    abstract: |
+            <p>Die Zeit großer monolithischer Enterprise-Anwendungen auf Applikationservern ist vorbei. Moderne Anwendungen sind kleiner, vielfach in mehrere Microservices aufgeteilt, und laufen in Container-Infrastrukturen on-prem oder in der Cloud. Ein Application Server wirkt da deplatziert wie ein Schlachtschiff, wo eher kleine Schnellboote gefordert sind.</p>
+            <p>Ist damit die Geschichte von Java EE zu Ende?</p>
+            <p>Ich zeige in diesem Vortrag, dass dies nicht so ist. Wir schauen dabei auf den häufig zitierten "Lackmus-Test" für Cloud Readiness - 12 Factor App - und prüfen, ob und wie die geforderten Eigenschaften mit Jakarta EE und MicroProfile zu erreichen sind. Wir werfen einen Blick auf die Runtimes und stellen fest, dass es neben der rasanten Umgebung Quarkus durchaus noch Anwendungsfälle für klassische Server wie WildFly oder Payara gibt. Das alles kommt mit einigen Slides und viel Live Demo.</p>
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 11:45 - 12:00
@@ -43,28 +53,30 @@ items:
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 12:45 - 13:00
     type: studio
-  - name: JakartaOne German
-    presenter: 
+  - name: Cloud-Native Java-Anwendungen für Kubernetes
+    presenter: Alexander Schwartz
     time: 13:00 - 13:45
     type: session
+    abstract: |
+            <p>Kubernetes bietet eine Infrastruktur, in der Anwendungen horizontal skalieren können, bei Fehlern automatisch neu starten und neue Versionen per Rolling-Update ausgerollt werden können. Damit dies reibungslos funktioniert stellt Kubernetes verschiedene APIs bereit, die eine Java-Anwendung nutzen sollte. Zusätzlich können mit OpenTelemetry Traces, Metriken und Logs z. B. mit dem Grafana-Stack gesammelt und ausgewertet werden. So können Entwickler, Betrieb und die Fachseite Informationen abrufen, ob alles wie erwartet funktioniert. Dieser Vortrag bietet Einsteigern einen Überblick über die notwendigen Kubernetes- und Observability-Grundlagen für Java-Anwendungen.</p>    
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 13:45 - 14:00
     type: studio
-  - name: "Relook at Microservices"
+  - name: Relook at Microservices
     presenter: Emily Jiang
     time: 14:00 - 14:50
-    type: session
+    type: keynote
     abstract: |
             <p>Microservice is a buzzword, and it has been around for more than one decade. Some companies tried with success while others did not get much benefit from it and then went back to monolith. Are microservices the ultimate goals for application development? In this session, Emily will take you through the history of microservices, look at microservices from different angles and discuss what modern application development and deployment should be.</p>
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 14:50 - 15:00
     type: studio
-  - name: JakartaOne German
-    presenter: 
+  - name: Industry Session
+    presenter: Jan Westerkamp
     time: 15:00 - 15:45
-    type: session
+    type: industry
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 15:45 - 16:00
@@ -78,10 +90,10 @@ items:
     time: 16:45 - 17:00
     type: studio
   - name: CN4J Panel
-    presenter: 
+    presenter: Jan Westerkamp
     time: 17:00 - 17:45
     type: panel
-  - name: "CN4J Studio: Closing Session"
+  - name: "CN4J Studio - JakartaOne Livestream German Closing"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 17:45 - 18:00
     type: studio
