@@ -15,7 +15,7 @@ items:
     twitter_handle: mobilelarson
   - name: "Alexander Schwartz"
     title: Principal Software Engineer bei Red Hat"
-    img: "alexander_schwartz.png"
+    img: "alexander-schwartz.jpg"
     twitter_handle: ahus1de
     bio: |
       <p>Alexander Schwartz arbeitet als Software-Entwickler und IT Architekt. Er hilft Organisationen und Teams die richtigen Architekturentscheidungen zu treffen. Um wartbare Software zu bauen, unterstützt er mit Best Practices und passenden Werkzeugen. Er geht mit gutem Beispiel voran, um echte agile Prozesse zu leben und ist immer neugierig geblieben. Technologisch geht es meist um JavaScript-Frontends, Java-Backends, Kubernetes und wie man es passend betreiben kann. Auf Konferenzen und bei User Groups spricht er über seine Erfahrungen.</p>
