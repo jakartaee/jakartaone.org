@@ -1,0 +1,27 @@
+items:
+  - name: "Ed Burns"
+    title: "Principal Architect for Java on Azure"
+    img: "ed_burns.png"
+  - name: "Emily Jiang"
+    title: "Cloud Native Java Architect at IBM, Java Champion"
+    img: "emily_jiang.jpg"
+    twitter_handle: emilyfhjiang
+    bio: |
+      <p>Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, Senior Technical Staff Member (STSM) @IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is a CDI Expert Group member.</p>
+      <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and LinkedIn (https://www.linkedin.com/in/emilyfhjiang/).</p>
+  - name: "Lars Röwekamp"
+    title: 
+    img: "lars_röwekamp.jpg"
+    twitter_handle: mobilelarson
+  - name: "Alexander Schwartz"
+    title: 
+    img: "alexander_schwartz.png"
+    twitter_handle: ahus1de
+    bio: |
+      <p>Alexander Schwartz arbeitet als Software-Entwickler und IT Architekt. Er hilft Organisationen und Teams die richtigen Architekturentscheidungen zu treffen. Um wartbare Software zu bauen, unterstützt er mit Best Practices und passenden Werkzeugen. Er geht mit gutem Beispiel voran, um echte agile Prozesse zu leben und ist immer neugierig geblieben. Technologisch geht es meist um JavaScript-Frontends, Java-Backends, Kubernetes und wie man es passend betreiben kann. Auf Konferenzen und bei User Groups spricht er über seine Erfahrungen.</p>
+  - name: "Dirk Weil"
+    title: 
+    img: "dirk_weil.png"
+    twitter_handle: dirkweil
+    bio: |
+      <p>Dirk Weil ist seit 1998 als Berater im Bereich Java tätig. Als Geschäftsführer der GEDOPLAN GmbH ist er für die Konzeption und Realisierung von Informationssystemen auf Basis von Java verantwortlich. Langjährige Erfahrung in der Entwicklung anspruchsvoller Unternehmenslösungen machen ihn und sein Team zu kompetenten Ansprechpartnern und anerkannten Experten auf dem Gebiet Java und JEE. Er ist Fachbuchautor, schreibt Artikel für Fachmagazine und hält Vorträge auf Konferenzen und für User Groups. Für GEDOPLAN IT Training leitet er anspruchsvolle Seminare und Workshops zu diversen Java- und JEE-Themen.</p>
