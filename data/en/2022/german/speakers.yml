@@ -1,7 +1,15 @@
 items:
+  - name: "Claudia Beisiegel"
+    title: Client Engagement Product Manager, IBM Automation
+    img: "claudia-beisiegel.png"
+    bio: |
+      "<p>Claudia Beisiegel ist die Kundenbeziehungs Produktmanagerin von WebSphere und Liberty. Sie ist zuständig für NPS Feedback und leitet ein erfolgreiches Kundenprogramm: das WAS & Liberty CAB (Customer Advisory Board). Nehmen Sie teil! http://ibm.biz/WebSphereandLibertyCAB</p>"
   - name: "Ed Burns"
     title: "Principal Architect for Java on Azure"
     img: "ed_burns.png"
+  - name: "Gunnar Hillert"
+    title: Consulting Member of Technical Staff
+    img: "gunnar-hillert.jpg"
   - name: "Emily Jiang"
     title: "Cloud Native Java Architect at IBM, Java Champion"
     img: "emily_jiang.jpg"
@@ -9,9 +17,14 @@ items:
     bio: |
       <p>Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, Senior Technical Staff Member (STSM) @IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is a CDI Expert Group member.</p>
       <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and LinkedIn (https://www.linkedin.com/in/emilyfhjiang/).</p>
+  - name: "Steve Millidge"
+    title: Founder and CEO of Payara Services
+    img: "steve-millidge-2022.jpg"
+    bio: |
+      <p>Steve Millidge is the founder, CEO and technical director of Payara Services. He is an expert in Java EE, Jakarta EE and MicroProfile, and a Project Lead for the Eclipse Foundation GlassFish and the Jakarta EE platforms. Steve has spoken at a number of events about the performance and scalability of Java systems, including Java One, JBoss World, UK Oracle User Group Conference and Special Interest Groups, JaxLondon, GeeCon, EclipseCon, and Jakarta EE Live Stream. He regularly presents technical workshops and webinars on Jakarta EE, Microprofile and big scale Java. Steve has been working with Java since pre-1.0 and has worked on large scale distributed applications and application servers since the 1990s. Before founding Payara Services, Steve ran a consultancy company providing advice and guidance on architecting, building and running at scale large web applications on Java technologies. Steve has a keen interest in non-functional attributes of big scale Java.</p>
   - name: "Lars Röwekamp"
-    title: 
-    img: "lars-rowekamp.jpg"
+    title: CIO New Technologies at OPEN KNOWLEDGE
+    img: "lars-roewekamp.png"
     twitter_handle: mobilelarson
   - name: "Alexander Schwartz"
     title: "Principal Software Engineer at Red Hat"
@@ -20,7 +33,7 @@ items:
     bio: |
       <p>Alexander Schwartz is a Principal Software and IT Architect. He helps organizations and teams to make architecture decisions that match their needs. To build their software in a maintainable way, he empowers them with best practices, tools and libraries. He leads by example to adopt true agile processes and to stay curious. Ideas spark when sharing thoughts with others. Finding out if an idea works requires experimenting with code and UX. Measurable results of the experiment show if the idea worked out, and might lead to new experiments.</p>
   - name: "Dirk Weil"
-    title: 
+    title: Consultant, Trainer, Java enthusiast, CEO GEDOPLAN GmbH
     img: "dirk-weil.jpg"
     twitter_handle: dirkweil
     bio: |
