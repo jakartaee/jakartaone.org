@@ -73,10 +73,21 @@ items:
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 14:50 - 15:00
     type: studio
-  - name: Industry Session
-    presenter: Jan Westerkamp
+  - name: Industry Session - IBM, Oracle, Payara
+    presenter: Claudia Beisiegel, Gunnar Hillert, Steve Millidge
     time: 15:00 - 15:45
     type: industry
+    abstract: |
+            <p>Claudia Beisiegel (IBM, German)</p>
+            "<p>IBM’s Commitment to Cloud-Native Java: Liberty, Jakarta EE & MicroProfile</p>"
+            <p>It’s an exciting time to be part of the enterprise Java community, as Jakarta EE and MicroProfile push cloud-native Java standards into the future. In our session today, we explore IBM’s long-standing commitment Java and to it’s evolution through the open source Jakarta EE and MicroProfile working groups. Join Claudia Beisiegel as she explores innovation we are driving through the open source Open Liberty compatible implementation and our WebSphere Liberty product.</p>
+            <p>Gunnar Hillert (Oracle, German)</p>
+            <p>Oracle Enterprise Cloud Native Java und Jakarta EE</p>
+            <p>Gunnar Hillert von Oracle fasst zusammen wie Jakarta EE von Oracle unterstützt wird und wie Oracle Jakarta EE Technologien über das Spektrum der Oracle Enterprise Cloud Native Java Produkte nutzt. Die abgedeckten Produkte umfassen unter anderem WebLogic Server, WebLogic Server für Oracle Cloud Infrastructure, Coherence, Helidon und Verrazzano. Wir werden auch einige der bevorstehenden Produktveröffentlichungen ansprechen.</p>
+            <p>Steve Millidge (Payara, English)</p>
+            <p>How Payara 6 and Jakarta EE 10 Affects Developers and Businesses</p>
+            <p>In this talk, Payara CEO Steve Millidge will discuss the main upcoming developments of the Payara Platform that will impact any project or business using the Payara Platform.</p>
+            <p>Jakarta EE 10 is the first major release of Jakarta EE since the “jakarta” namespace update. Many of the component Specifications are introducing Major or Minor version updates to signify key changes in their respective Specifications and APIs. The Platform and/or Web Profile Specifications will be incorporating many of these updated Specifications. As Jakarta EE 10 contains breaking changes, you cannot run your Jakarta EE 8 apps on Payara 6 Community. Steve will explain why you will need to consider Payara Enterprise to stay with Jakarta EE 8 OR prepare for migration to Jakarta EE 10.</p>
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 15:45 - 16:00
@@ -90,7 +101,7 @@ items:
     time: 16:45 - 17:00
     type: studio
   - name: CN4J Panel
-    presenter: Jan Westerkamp
+    presenter: Ed Burns, Werner Keil, Lars Röwekamp, Dirk Weil, Jan Westerkamp
     time: 17:00 - 17:45
     type: panel
   - name: "CN4J Studio - JakartaOne Livestream German Closing"
