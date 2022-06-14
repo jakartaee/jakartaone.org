@@ -79,7 +79,7 @@ items:
     type: industry
     abstract: |
             <p>Claudia Beisiegel (IBM, Deutsch)</p>
-            "<p>IBMs Engagement für Cloud-natives Java: Liberty, Jakarta EE & MicroProfile</p>"
+            <p>IBMs Engagement für Cloud-natives Java: Liberty, Jakarta EE & MicroProfile</p>
             <p>Es ist eine aufregende Zeit, Teil der Enterprise-Java-Community zu sein, da Jakarta EE und MicroProfile Cloud-native Java-Standards in die Zukunft vorantreiben. In unserer heutigen Session untersuchen wir das langjährige Engagement von IBM für Java und seine Entwicklung durch die Open-Source-Arbeitsgruppen Jakarta EE und MicroProfile. Schließen Sie sich Claudia Beisiegel an, wenn sie die Innovation erforscht, die wir durch die Open-Source-Open-Liberty-kompatible Implementierung und unser WebSphere-Liberty-Produkt vorantreiben.</p>
             <p>Gunnar Hillert (Oracle, Deutsch)</p>
             <p>Oracle Enterprise Cloud Native Java und Jakarta EE</p>

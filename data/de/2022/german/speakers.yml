@@ -1,9 +1,9 @@
 items:
   - name: "Claudia Beisiegel"
     title: Client Engagement Product Manager, IBM Automation
-    img: "claudia-beisiegel.png"
+    img: "claudia-beisiegel.jpg"
     bio: |
-      "<p>Claudia Beisiegel ist die Kundenbeziehungs Produktmanagerin von WebSphere und Liberty. Sie ist zuständig für NPS Feedback und leitet ein erfolgreiches Kundenprogramm: das WAS & Liberty CAB (Customer Advisory Board). Nehmen Sie teil! http://ibm.biz/WebSphereandLibertyCAB</p>"
+      <p>Claudia Beisiegel ist die Kundenbeziehungs Produktmanagerin von WebSphere und Liberty. Sie ist zuständig für NPS Feedback und leitet ein erfolgreiches Kundenprogramm: das WAS & Liberty CAB (Customer Advisory Board). Nehmen Sie teil! <a href="http://ibm.biz/WebSphereandLibertyCAB" target="_blank">http://ibm.biz/WebSphereandLibertyCAB</a></p>
   - name: "Ed Burns"
     title: "Principal Architect for Java on Azure"
     img: "ed_burns.png"
@@ -16,7 +16,7 @@ items:
     twitter_handle: emilyfhjiang
     bio: |
       <p>Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, Senior Technical Staff Member (STSM) @IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is a CDI Expert Group member.</p>
-      <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and LinkedIn (https://www.linkedin.com/in/emilyfhjiang/).</p>
+      <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and <a href="https://www.linkedin.com/in/emilyfhjiang/" target="_blank">LinkedIn</a>.</p>
   - name: "Steve Millidge"
     title: Gründer und CEO von Payara Services
     img: "steve-millidge-2022.jpg"
@@ -24,7 +24,7 @@ items:
       <p>Steve Millidge is the founder, CEO and technical director of Payara Services. He is an expert in Java EE, Jakarta EE and MicroProfile, and a Project Lead for the Eclipse Foundation GlassFish and the Jakarta EE platforms. Steve has spoken at a number of events about the performance and scalability of Java systems, including Java One, JBoss World, UK Oracle User Group Conference and Special Interest Groups, JaxLondon, GeeCon, EclipseCon, and Jakarta EE Live Stream. He regularly presents technical workshops and webinars on Jakarta EE, Microprofile and big scale Java. Steve has been working with Java since pre-1.0 and has worked on large scale distributed applications and application servers since the 1990s. Before founding Payara Services, Steve ran a consultancy company providing advice and guidance on architecting, building and running at scale large web applications on Java technologies. Steve has a keen interest in non-functional attributes of big scale Java.</p>
   - name: "Lars Röwekamp"
     title: CIO New Technologies bei OPEN KNOWLEDGE
-    img: "lars-roewekamp.png"
+    img: "lars-roewekamp.jpg"
     twitter_handle: mobilelarson
   - name: "Alexander Schwartz"
     title: "Principal Software Engineer bei Red Hat"
