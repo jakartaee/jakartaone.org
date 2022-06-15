@@ -6,7 +6,8 @@ items:
       <p>Claudia Beisiegel ist die Kundenbeziehungs Produktmanagerin von WebSphere und Liberty. Sie ist zuständig für NPS Feedback und leitet ein erfolgreiches Kundenprogramm: das WAS & Liberty CAB (Customer Advisory Board). Nehmen Sie teil! <a href="http://ibm.biz/WebSphereandLibertyCAB" target="_blank">http://ibm.biz/WebSphereandLibertyCAB</a></p>
   - name: "Ed Burns"
     title: "Principal Architect for Java on Azure"
-    img: "ed_burns.png"
+    img: "ed-burns-2022.jpg"
+    twitter_handle: edburns
   - name: "Gunnar Hillert"
     title: Consulting Member of Technical Staff
     img: "gunnar-hillert.jpg"
