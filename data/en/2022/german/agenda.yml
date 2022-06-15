@@ -45,10 +45,14 @@ items:
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 11:45 - 12:00
     type: studio
-  - name: JakartaOne German
-    presenter: 
+  - name: "Keycloak an die eigenen (Unternehmens-)Anforderungen anpassen #slideless"
+    presenter: Niko Köbler
     time: 12:00 - 12:45
     type: session
+    abstract: |
+            <p>Keycloak hat sich mittlerweile als eines der meist genutzten Authentifzierungs- und Identity- & Access-Management (IAM) Systeme in Unternehmen etabliert. Ganz gleich ob für klassische Enterprise-Anwendungen, moderne Single-Page-Apps oder Microservice-Architekturen, unterstützt Keycloak doch beide gängigen Protokolle SAML und OIDC (OpenID-Connect) und bietet viel Funktionalität „out-of-the-Box“.</p>
+            <p>Viele Unternehmen haben aber spezielle Anforderungen an das eigene Identity Management und den Authentifizierungsvorgang. Hier bietet Keycloak mit seiner SPI-Architektur (Service Provider Interfaces) den perfekten Ansatz, um eigene, unternehmensspezifische Erweiterungen zu entwickeln, ohne den eigentlichen Anwendungskern verändern oder selbst kompilieren zu müssen und somit jederzeit Upgrade-fähig zu bleiben.</p>
+            <p>In dieser Session schauen wir uns in bewährter Hands-on Mentalität die gängigsten Keycloak-SPIs an und welche Funktionalitäten wir damit in Keycloak implementieren können. Code-Beispiele für Event-Listener und 2-Faktor-Authentifikation inklusive! Auch zum Testen von Keycloak-Extensions zeige ich eine interessante Alternative.</p>
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 12:45 - 13:00
@@ -92,10 +96,12 @@ items:
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 15:45 - 16:00
     type: studio
-  - name: JakartaOne German
-    presenter: 
+  - name: Wie Azure Jakarta EE nutzt
+    presenter: Ed Burns
     time: 16:00 - 16:45
     type: session
+    abstract: |
+            <p>Jakarta EE Spezifikationen stecken tief im Herz von mehreren Azure Dienstleistungen. Event Bus, Active Directory, Azure Spring Apps und natürlich die App Server Runtimes von Oracle, Red Hat und IBM nutzen alle eine oder mehrere Jakarta EE Spezifikationen. Dieser Vortrag ist eine Rundreise durch die Überlappungen zwischen diesen Azure Angeboten und den Jakarta EE Spezifikationen. Schaue, wie Servlet, JSP, JSTL und Security auf Azure First Party Angebote aussehen. Erfahre, wie die gesamten Jakarta EE Web und Full Profile bei den App Server Angeboten von Red Hat, IBM, und Oracle, auf verschiedenen Runtimes inklusive App Service, Virtual Machines, Kubernetes und OpenShift, offeriert werden.</p>
   - name: "CN4J Studio"
     presenter: Hendrik Ebbers, Jan Westerkamp
     time: 16:45 - 17:00
