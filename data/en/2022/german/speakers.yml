@@ -3,14 +3,32 @@ items:
     title: Client Engagement Product Manager, IBM Automation
     img: "claudia-beisiegel.jpg"
     bio: |
-      <p>Claudia Beisiegel ist die Kundenbeziehungs Produktmanagerin von WebSphere und Liberty. Sie ist zuständig für NPS Feedback und leitet ein erfolgreiches Kundenprogramm: das WAS & Liberty CAB (Customer Advisory Board). Nehmen Sie teil! <a href="http://ibm.biz/WebSphereandLibertyCAB" target="_blank">http://ibm.biz/WebSphereandLibertyCAB</a></p>
+      <p>Claudia is the Customer Engagement Product Manager for WebSphere and Liberty. She is responsible for all NPS feedback and leads a successful customer program called the WAS & Liberty CAB (Customer Advisory Board). Please join! http://ibm.biz/WebSphereandLibertyCAB</p>
   - name: "Ed Burns"
     title: "Principal Architect for Java on Azure"
     img: "ed-burns-2022.jpg"
     twitter_handle: edburns
+    bio: |
+      <p>Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and most recently, the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT Crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at <https://ridingthecrest.com></https:>.</p>
   - name: "Gunnar Hillert"
     title: Consulting Member of Technical Staff
     img: "gunnar-hillert.jpg"
+    twitter_handle: ghillert
+    bio: |
+      <p>Gunnar is a Consulting Member of Technical Staff at Oracle. As an open-source contributor for the Oracle Coherence team, he is contributing to Oracle Coherence and the Coherence Spring project. As Java Champion, full-stack Spring aficionado and OSS committer, Gunnar has been deeply involved with the Java community for many years. As a former Spring team member for 9 years (and user since 2005), he contributed, among other projects, to Spring Integration, Spring Batch, Spring Security and Spring Cloud Data Flow. Furthermore, he co-founded the DevNexus developer conference in 2009 and was president of the Atlanta Java Users Group for 6 years. If not developing software, he grows his own Java in Hawaii, participates in IRONMAN events and enjoys raising his children tri-lingually.</p>
+  - name: "Werner Keil"
+    title: 
+    img: "werner-keil.jpg"
+    twitter_handle: wernerkeil
+    bio: |
+      <p>|Werner Keil does BDD, Java, Java EE / Jakarta EE, IoT, Security and Microservices. Helping Global 500 clients across industries and IT vendors. He worked for over 30 years as PM, Coach, SW architect and consultant for Finance, Mobile, Media, Transport and Public sector. Werner is Eclipse and Apache Committer, JCP member in JSRs like 354 (Money, also Maintenance Lead), 366 (Java EE 8), 375 (Security), 385 (Units 2.0, also Spec Lead) and Committer member in the Jakarta EE Specification Committee.</p>
+  - name: "Niko Köbler"
+    title: 
+    img: "niko-koebler.jpg"
+    twitter_handle: dasniko
+    bio: |
+      <p>Niko is a freelancer is doing since more than 20 years „something with computers“, on-premise, web and in the cloud. He's writing and deploying software and helps others to do so. Serverless (in AWS) and Identity & Access Management with Keycloak are his main topics. With 2021, Niko started an own Youtube channel, where he’s publishing videos on these topics.</p>
+      <p>Besides, he is a co-lead of JUG Darmstadt, speaker at international conferences and author of the book "Serverless Computing in the AWS Cloud".</p>
   - name: "Emily Jiang"
     title: "Cloud Native Java Architect at IBM, Java Champion"
     img: "emily_jiang.jpg"
