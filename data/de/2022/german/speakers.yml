@@ -9,7 +9,7 @@ items:
     img: "ed-burns-2022.jpg"
     twitter_handle: edburns
     bio: |
-      <p>Seit 1994 hat Ed mit vielen verschiedenen client- und server-seitigen Technologien inklusive NCSA Mosaic, Netscape 6, Mozilla, Sun Java Plug-in, Jakarta Tomcat, JavaServer Faces, und Servlet gearbeitet. Ed hat die JCP Expertengruppen für JavaServer Faces und Servlet geleitet oder mit geleitet. Ed hat vier Bücher bei McGraw-Hill herausgebracht. Die Bücher heißen The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT Crest (2008), JavaServer Faces 2.0: The Complete Reference (2010) und Hudson Continuous Integration In Practice (2013). Um mehr über seine Bücher und Projekte zu erfahren, besuche seine Homepage unter <https://ridingthecrest.com></https:>.</p>
+      <p>Seit 1994 hat Ed mit vielen verschiedenen client- und server-seitigen Technologien inklusive NCSA Mosaic, Netscape 6, Mozilla, Sun Java Plug-in, Jakarta Tomcat, JavaServer Faces, und Servlet gearbeitet. Ed hat die JCP Expertengruppen für JavaServer Faces und Servlet geleitet oder mit geleitet. Ed hat vier Bücher bei McGraw-Hill herausgebracht. Die Bücher heißen The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT Crest (2008), JavaServer Faces 2.0: The Complete Reference (2010) und Hudson Continuous Integration In Practice (2013). Um mehr über seine Bücher und Projekte zu erfahren, besuche seine Homepage unter <a href="https://ridingthecrest.com" target="_blank">https://ridingthecrest.com</a>.</p>
   - name: "Gunnar Hillert"
     title: Consulting Member of Technical Staff
     img: "gunnar-hillert.jpg"
