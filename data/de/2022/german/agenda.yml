@@ -109,7 +109,7 @@ items:
     time: 15:45 - 16:00
     type: studio
     abstract: |
-            <p>Mittlerweile gibt es durch den iJUG verschiedene Initiativen die eine Mitarbeit an Open Source Projekten fördern. Neben den Aktivitäten des Cyberland gibt es auch das iJUG Stipendium welches die Mitarbeit an Open Source wie JakartaEE mit Benefits belohnt. Für Einsteiger in den Bereich Open Source schauen wir hier einmal auf die verschiedenen Möglichkeiten.</p>
+            <p>Mittlerweile gibt es durch den iJUG verschiedene Initiativen die eine Mitarbeit an Open Source Projekten fördern. Neben den Aktivitäten des Cyberland gibt es auch das iJUG Stipendium welches die Mitarbeit an Open Source wie Jakarta EE mit Benefits belohnt. Für Einsteiger in den Bereich Open Source schauen wir hier einmal auf die verschiedenen Möglichkeiten.</p>
   - name: Wie Azure Jakarta EE nutzt
     presenter: Ed Burns
     time: 16:00 - 16:45
