@@ -16,6 +16,12 @@ items:
     twitter_handle: ghillert
     bio: |
       <p>Gunnar ist ein Consulting Member of Technical Staff bei Oracle. Als Open-Source-Entwickler für das Oracle Coherence-Team entwickelt er Code für Oracle Coherence und Coherence Spring. Als Java-Champion, Full-Stack-Spring-Entwickler und durch seine Erfahrungen im Open-Source-Bereich ist Gunnar seit vielen Jahren eng mit der Java-Community verbunden. Er war Mitglied des Spring-Teams für 9 Jahre (und Benutzer seit 2005),  hat unter anderem an Projekten wie Spring Integration, Spring Batch, Spring Security und Spring Cloud Data Flow gearbeitet. Darüber hinaus war er 2009 Mitbegründer der DevNexus Entwicklerkonferenz und 6 Jahre lang Präsident der Atlanta Java Users Group. Wenn er nicht gerade Software entwickelt, baut er sein eigenes Java auf Hawaii an, nimmt an IRONMAN-Events teil und genießt es, seine Kinder dreisprachig zu erziehen.</p>
+  - name: "Jürgen Höller"
+    title: Technical Director bei Vmware, Spring Framework Project Lead
+    img: "juergen-hoeller.jpg"
+    twitter_handle: springjuergen
+    bio: |
+      <p>Jürgen Höller ist Mitbegründer des Open-Source-Projekts Spring Framework und begleitet das Kernprojekt bereits seit 2003 als Projektleiter und Releasemanager.</p>
   - name: "Emily Jiang"
     title: "Cloud Native Java Architect at IBM, Java Champion"
     img: "emily_jiang.jpg"
@@ -24,7 +30,7 @@ items:
       <p>Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, Senior Technical Staff Member (STSM) @IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is a CDI Expert Group member.</p>
       <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and <a href="https://www.linkedin.com/in/emilyfhjiang/" target="_blank">LinkedIn</a>.</p>
   - name: "Werner Keil"
-    title: 
+    title: Director bei CATMedia, Jakarta EE Spec Committee Member
     img: "werner-keil.jpg"
     twitter_handle: wernerkeil
     bio: |
@@ -41,10 +47,18 @@ items:
     img: "steve-millidge-2022.jpg"
     bio: |
       <p>Steve Millidge is the founder, CEO and technical director of Payara Services. He is an expert in Java EE, Jakarta EE and MicroProfile, and a Project Lead for the Eclipse Foundation GlassFish and the Jakarta EE platforms. Steve has spoken at a number of events about the performance and scalability of Java systems, including Java One, JBoss World, UK Oracle User Group Conference and Special Interest Groups, JaxLondon, GeeCon, EclipseCon, and Jakarta EE Live Stream. He regularly presents technical workshops and webinars on Jakarta EE, Microprofile and big scale Java. Steve has been working with Java since pre-1.0 and has worked on large scale distributed applications and application servers since the 1990s. Before founding Payara Services, Steve ran a consultancy company providing advice and guidance on architecting, building and running at scale large web applications on Java technologies. Steve has a keen interest in non-functional attributes of big scale Java.</p>
+  - name: "Mario-Leander Reimer"
+    title: Business Unit Director bei QAware, Principal Software Architect
+    img: "mario-leander-reimer.png"
+    twitter_handle: LeanderReimer
+    bio: |
+      "<p>Passionierter Entwickler. Stolzer Vater. #CloudNativeNerd. Leander arbeitet als Principal Software Architect bei der QAware GmbH. Er beschäftigt sich intensiv mit den Innovationen und Technologien rund um den Cloud Native Stack und deren Einsatzmöglichkeiten im Unternehmensumfeld. Als Lehrbeauftragter unterrichtet er Software-Qualitätssicherung an der TH Rosenheim.</p>"
   - name: "Lars Röwekamp"
     title: CIO New Technologies bei OPEN KNOWLEDGE
     img: "lars-rowekamp.jpg"
     twitter_handle: mobilelarson
+    bio: |
+      <p>Lars Röwekamp, Gründer des IT-Beratungs- und Entwicklungsunternehmens open knowledge GmbH, beschäftigt sich im Rahmen seiner Tätigkeit als "CIO New Technologies" mit der eingehenden Analyse und Bewertung neuer Software- und Technologietrends. Ein besonderer Schwerpunkt seiner Arbeit liegt derzeit in den Bereichen Enterprise und Cloud Computing sowie AI und ML, wobei neben Design- und Architekturfragen insbesondere die Real-Life-Aspekte im Fokus seiner Betrachtung stehen.</p>
   - name: "Alexander Schwartz"
     title: "Principal Software Engineer bei Red Hat"
     img: "alexander-schwartz.jpg"
