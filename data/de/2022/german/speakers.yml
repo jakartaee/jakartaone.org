@@ -52,7 +52,7 @@ items:
     img: "mario-leander-reimer.png"
     twitter_handle: LeanderReimer
     bio: |
-      "<p>Passionierter Entwickler. Stolzer Vater. #CloudNativeNerd. Leander arbeitet als Principal Software Architect bei der QAware GmbH. Er beschäftigt sich intensiv mit den Innovationen und Technologien rund um den Cloud Native Stack und deren Einsatzmöglichkeiten im Unternehmensumfeld. Als Lehrbeauftragter unterrichtet er Software-Qualitätssicherung an der TH Rosenheim.</p>"
+      <p>Passionierter Entwickler. Stolzer Vater. #CloudNativeNerd. Leander arbeitet als Principal Software Architect bei der QAware GmbH. Er beschäftigt sich intensiv mit den Innovationen und Technologien rund um den Cloud Native Stack und deren Einsatzmöglichkeiten im Unternehmensumfeld. Als Lehrbeauftragter unterrichtet er Software-Qualitätssicherung an der TH Rosenheim.</p>
   - name: "Lars Röwekamp"
     title: CIO New Technologies bei OPEN KNOWLEDGE
     img: "lars-rowekamp.jpg"
