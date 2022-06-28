@@ -52,7 +52,7 @@ items:
     img: "mario-leander-reimer.png"
     twitter_handle: LeanderReimer
     bio: |
-      "<p>Passionate developer. Proud father. #CloudNativeNerd. M.-Leander Reimer is a principal software architect working for QAware GmbH. He is continuously looking for innovations and ways to combine and apply state-of-the-art cloud native technology and open source software components in real-world projects. He is teaching software quality assurance as a part time lecturer at the Rosenheim university of applied sciences.</p>"
+      <p>Passionate developer. Proud father. #CloudNativeNerd. M.-Leander Reimer is a principal software architect working for QAware GmbH. He is continuously looking for innovations and ways to combine and apply state-of-the-art cloud native technology and open source software components in real-world projects. He is teaching software quality assurance as a part time lecturer at the Rosenheim university of applied sciences.</p>
   - name: "Lars Röwekamp"
     title: CIO New Technologies at OPEN KNOWLEDGE
     img: "lars-rowekamp.jpg"
