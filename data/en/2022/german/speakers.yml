@@ -16,8 +16,14 @@ items:
     twitter_handle: ghillert
     bio: |
       <p>Gunnar is a Consulting Member of Technical Staff at Oracle. As an open-source contributor for the Oracle Coherence team, he is contributing to Oracle Coherence and the Coherence Spring project. As Java Champion, full-stack Spring aficionado and OSS committer, Gunnar has been deeply involved with the Java community for many years. As a former Spring team member for 9 years (and user since 2005), he contributed, among other projects, to Spring Integration, Spring Batch, Spring Security and Spring Cloud Data Flow. Furthermore, he co-founded the DevNexus developer conference in 2009 and was president of the Atlanta Java Users Group for 6 years. If not developing software, he grows his own Java in Hawaii, participates in IRONMAN events and enjoys raising his children tri-lingually.</p>
+  - name: "Jürgen Höller"
+    title: Technical Director at Vmware, Spring Framework Project Lead
+    img: "juergen-hoeller.jpg"
+    twitter_handle: springjuergen
+    bio: |
+      <p>Juergen Hoeller is co-founder of the Spring Framework open source project and has been serving as the project lead and release manager for the core framework since 2003.</p>
   - name: "Werner Keil"
-    title: 
+    title: Director at CATMedia, Jakarta EE Spec Committee Member
     img: "werner-keil.jpg"
     twitter_handle: wernerkeil
     bio: |
@@ -41,10 +47,18 @@ items:
     img: "steve-millidge-2022.jpg"
     bio: |
       <p>Steve Millidge is the founder, CEO and technical director of Payara Services. He is an expert in Java EE, Jakarta EE and MicroProfile, and a Project Lead for the Eclipse Foundation GlassFish and the Jakarta EE platforms. Steve has spoken at a number of events about the performance and scalability of Java systems, including Java One, JBoss World, UK Oracle User Group Conference and Special Interest Groups, JaxLondon, GeeCon, EclipseCon, and Jakarta EE Live Stream. He regularly presents technical workshops and webinars on Jakarta EE, Microprofile and big scale Java. Steve has been working with Java since pre-1.0 and has worked on large scale distributed applications and application servers since the 1990s. Before founding Payara Services, Steve ran a consultancy company providing advice and guidance on architecting, building and running at scale large web applications on Java technologies. Steve has a keen interest in non-functional attributes of big scale Java.</p>
+  - name: "Mario-Leander Reimer"
+    title: Business Unit Director at QAware, Principal Software Architect
+    img: "mario-leander-reimer.png"
+    twitter_handle: LeanderReimer
+    bio: |
+      "<p>Passionate developer. Proud father. #CloudNativeNerd. M.-Leander Reimer is a principal software architect working for QAware GmbH. He is continuously looking for innovations and ways to combine and apply state-of-the-art cloud native technology and open source software components in real-world projects. He is teaching software quality assurance as a part time lecturer at the Rosenheim university of applied sciences.</p>"
   - name: "Lars Röwekamp"
     title: CIO New Technologies at OPEN KNOWLEDGE
     img: "lars-rowekamp.jpg"
     twitter_handle: mobilelarson
+    bio: |
+      <p>Lars Röwekamp, founder of the IT consulting and development company open knowledge GmbH, deals with the in-depth analysis and evaluation of new software and technology trends as part of his work as "CIO New Technologies". A particular focus of his work currently lies in the areas of enterprise and cloud computing as well as AI and ML, with a particular focus on real-life aspects in addition to design and architecture issues.</p>
   - name: "Alexander Schwartz"
     title: "Principal Software Engineer at Red Hat"
     img: "alexander-schwartz.jpg"
