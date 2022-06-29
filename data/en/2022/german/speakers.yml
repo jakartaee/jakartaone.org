@@ -21,7 +21,7 @@ items:
     img: "werner-keil.jpg"
     twitter_handle: wernerkeil
     bio: |
-      <p>|Werner Keil does BDD, Java, Java EE / Jakarta EE, IoT, Security and Microservices. Helping Global 500 clients across industries and IT vendors. He worked for over 30 years as PM, Coach, SW architect and consultant for Finance, Mobile, Media, Transport and Public sector. Werner is Eclipse and Apache Committer, JCP member in JSRs like 354 (Money, also Maintenance Lead), 366 (Java EE 8), 375 (Security), 385 (Units 2.0, also Spec Lead) and Committer member in the Jakarta EE Specification Committee.</p>
+      <p>Werner Keil does BDD, Java, Java EE / Jakarta EE, IoT, Security and Microservices. Helping Global 500 clients across industries and IT vendors. He worked for over 30 years as PM, Coach, SW architect and consultant for Finance, Mobile, Media, Transport and Public sector. Werner is Eclipse and Apache Committer, JCP member in JSRs like 354 (Money, also Maintenance Lead), 366 (Java EE 8), 375 (Security), 385 (Units 2.0, also Spec Lead) and Committer member in the Jakarta EE Specification Committee.</p>
   - name: "Niko Köbler"
     title: "Freelancer"
     img: "niko-koebler.jpg"
