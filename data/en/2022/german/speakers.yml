@@ -42,6 +42,12 @@ items:
     bio: |
       <p>Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, Senior Technical Staff Member (STSM) @IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is a CDI Expert Group member.</p>
       <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and <a href="https://www.linkedin.com/in/emilyfhjiang/" target="_blank">LinkedIn</a>.</p>
+  - name: "Will Lyons"
+    title: Senior Director Oracle Enterprise Cloud Native Java Product Management
+    img: "wlyons.jpg"
+    twitter_handle: wa_lyons
+    bio: |
+      <p>Will Lyons is Senior Director of Enterprise Cloud Native Java Product Management at Oracle Corporation. Will has extensive knowledge of Oracle's Enterprise Cloud Native Java capabilities, including Oracle WebLogic Server, Oracle Coherence, Helidon, Verrazzano, Oracle Cloud, Kubernetes, Java EE and Jakarta EE, and future technology and product directions. Will has over 20 years of experience working with customers using enterprise software and cloud computing technologies.</p>
   - name: "Steve Millidge"
     title: Founder and CEO of Payara Services
     img: "steve-millidge-2022.jpg"

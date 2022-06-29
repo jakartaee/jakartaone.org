@@ -42,6 +42,12 @@ items:
     bio: |
       <p>Niko Köbler ist Freelancer und macht seit über 20 Jahren „irgendwas mit Computern“, On-Premise, im Web und in der Cloud. Er schreibt und deployt Software und hilft Anderen dabei, dies zu tun. Serverless (in AWS) und Identity & Access Management mit Keycloak sind dabei seine Steckenpferde. Seit Anfang 2021 betreibt er auch einen Youtube-Channel und veröffentlicht regelmäßig Videos zu diesen Themen.</p>
       <p>Daneben ist er Co-Lead der JUG Darmstadt, Sprecher auf internationalen Konferenzen und Autor des Buchs „Serverless Computing in der AWS Cloud“.</p>
+  - name: "Will Lyons"
+    title: Senior Director Oracle Enterprise Cloud Native Java Product Management
+    img: "wlyons.jpg"
+    twitter_handle: wa_lyons
+    bio: |
+      <p>Will Lyons is Senior Director of Enterprise Cloud Native Java Product Management at Oracle Corporation. Will has extensive knowledge of Oracle's Enterprise Cloud Native Java capabilities, including Oracle WebLogic Server, Oracle Coherence, Helidon, Verrazzano, Oracle Cloud, Kubernetes, Java EE and Jakarta EE, and future technology and product directions. Will has over 20 years of experience working with customers using enterprise software and cloud computing technologies.</p>
   - name: "Steve Millidge"
     title: Gründer und CEO von Payara Services
     img: "steve-millidge-2022.jpg"
