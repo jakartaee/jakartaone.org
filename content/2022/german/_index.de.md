@@ -11,10 +11,8 @@ container: "container-fluid"
 tagline: "June 30, 2022"
 tagline_suffix: |
   <p>
-    <a class="btn btn-primary margin-right-10" href="https://shop.doag.org/events/cloudland/cfp/">Call For Papers</a>
     <a class="btn btn-primary margin-right-10" href="https://shop.doag.org/events/cloudland/shop/">Registrieren</a>
-  </p>
-  
+  </p> 
 layout: "single"
 menu_name: "german"
 ---
