@@ -2,8 +2,5 @@ title: "Über die Veranstaltung"
 end_date: 2022-07-01T00:00:00-04:00
 end_text: The event has now concluded!
 links:
-  - url: https://shop.doag.org/events/cloudland/cfp/
-    text:  Einen Vorschlag einreichen
-    external: true
 custom_content: |
     <p class="text-left margin-top-20">Hinweis: Registrieren Sie sich ein Sprecher-Profil und danach können Sie Ihre Session(s) einreichen. Stellen Sie hier sicher, dass beim Schwerpunkt „JakartaOne“ ausgewählt ist. Einreichung schließt am 27. Mai.</p>
