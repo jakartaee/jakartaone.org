@@ -8,7 +8,7 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-tagline: "September 16, 2022"
+tagline: "September 16, 2022 PM1:00(JST)<br>JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the second edition of the event entirely in Japanese"
 layout: "single"
 menu_name: "japan"
 ---
@@ -18,5 +18,16 @@ menu_name: "japan"
     <h2>More content coming soon</h2>
   {{</ grid/div >}}
 {{</ grid/section-container >}}
+<!-- Add agenda -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="japan" year="2022" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
 
+
+
+<!-- Add speakers section -->
+
+<!-- Add user carousel for committee -->
 {{< events/program-committee event="japan" year="2022" source="committee" subpage="program-committee" />}}

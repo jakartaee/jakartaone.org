@@ -1,0 +1,26 @@
+timezone: GMT+09
+types:
+    - name: Keynotes
+      id: keynote 
+      color: "#85BFF3"
+    - name: CN4J Studio
+      id: studio
+      color: "#e44"
+    - name: Vendor Track
+      id: opening 
+      color: "#a0a"
+    - name: Jakarta EE & MicroProfile Sessions
+      id: cloud
+      color: "#0a0"
+
+items:
+    - name: Keynote
+      presenter: Yoshio Terada
+      type: keynote
+      time: 13:00-13:30 (JST)
+
+    - name: TBD
+      presenter: TBD
+      type: studio
+      time: 13:30-21:00 (JST)
+

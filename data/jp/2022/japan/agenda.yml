@@ -1,0 +1,26 @@
+timezone: GMT+09
+types:
+    - name: キーノート
+      id: keynote 
+      color: "#85BFF3"
+    - name: CN4Jスタジオ
+      id: studio
+      color: "#e44"
+    - name: ベンダートラック
+      id: opening 
+      color: "#a0a"
+    - name: Jakarta EE と MicroProfile のセッション
+      id: cloud
+      color: "#0a0"
+
+items:
+    - name: キーノート
+      presenter: 寺田佳央
+      type: keynote
+      time: 13:00-13:30 (JST)
+
+    - name: TBD
+      presenter: TBD
+      type: studio
+      time: 13:30-21:00 (JST)
+
