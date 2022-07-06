@@ -8,13 +8,15 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "JakartaOne Livestream - Japan"
 tagline: "2022年9月16日　午後１時～(日本時間)<br>JakartaOne Livestream Japan は、クラウドネイティブJavaアプリケーションの開発にフォーカスした、Jakarta&trade; EEと、その周辺技術についてご紹介するバーチャルカンファレンスです。完全日本語で実施する２回目のイベントです。"
+tagline_suffix: |
+  <p><a class="btn btn-primary margin-right-10" href="https://docs.google.com/forms/d/e/1FAIpQLSfF7n9z9EKW5tZpFHg7dWNFuW7mP0yXpJW3Pt9pxDtUXXyzsg/viewform">Call For Papers</a></p>
 layout: "single"
 menu_name: "japan"
 ---
 
 {{< grid/section-container class="padding-bottom-40 text-center">}}
   {{< grid/div class="padding-top-30" isMarkdown="false">}}
-    <h2>まもなくオープン</h2>
+    <h2><a href="https://docs.google.com/forms/d/e/1FAIpQLSfF7n9z9EKW5tZpFHg7dWNFuW7mP0yXpJW3Pt9pxDtUXXyzsg/viewform">CFP</a>をオープンしました</h2>
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
