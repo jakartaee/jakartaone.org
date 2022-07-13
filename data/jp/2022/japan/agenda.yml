@@ -7,20 +7,93 @@ types:
       id: studio
       color: "#e44"
     - name: ベンダートラック
-      id: opening 
+      id: vendor
       color: "#a0a"
     - name: Jakarta EE と MicroProfile のセッション
       id: cloud
       color: "#0a0"
+    - name: パネル
+      id: panel
+      color: "#2a2a70"
 
 items:
     - name: キーノート
-      presenter: 寺田佳央
+      presenter: TBD
       type: keynote
       time: 13:00-13:30 (JST)
 
-    - name: TBD
+    - name: ベンダートラック
+      presenter: TBD
+      type: vendor
+      time: 13:30-13:50 (JST)
+
+    - name: CN4Jスタジオ
       presenter: TBD
       type: studio
-      time: 13:30-21:00 (JST)
+      time: 13:50-14:05 (JST)
+
+    - name: ベンダートラック
+      presenter: TBD
+      type: vendor
+      time: 14:10-14:30 (JST)
+
+    - name: CN4Jスタジオ
+      presenter: TBD
+      type: studio
+      time: 14:30-14:45 (JST)
+
+    - name: ベンダートラック
+      presenter: TBD
+      type: vendor
+      time: 14:45-15:05 (JST)
+
+    - name: CN4Jスタジオ
+      presenter: TBD
+      type: studio
+      time: 15:10-15:25 (JST)
+
+    - name: ベンダートラック
+      presenter: TBD
+      type: vendor
+      time: 15:25-15:45 (JST)
+
+    - name: CN4Jスタジオ
+      presenter: TBD
+      type: studio
+      time: 15:45-16:00 (JST)
+
+    - name: ベンダートラック
+      presenter: TBD
+      type: vendor
+      time: 16:05-16:25 (JST)
+
+    - name: CN4Jスタジオ
+      presenter: TBD
+      type: studio
+      time: 16:25-16:40 (JST)
+
+    - name: コミュニティセッション
+      presenter: CFP
+      type: cloud
+      time: 17:00-17:40 (JST)
+
+    - name: コミュニティセッション
+      presenter: CFP
+      type: cloud
+      time: 17:40-18:20 (JST)
+
+    - name: コミュニティセッション
+      presenter: CFP
+      type: cloud
+      time: 18:30-19:10 (JST)
+
+    - name: コミュニティセッション
+      presenter: CFP
+      type: cloud
+      time: 19:10-19:50 (JST)
+
+    - name: パネルディスカッション
+      presenter: TBD
+      type: panel
+      time: 19:55-21:00 (JST)
 
