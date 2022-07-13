@@ -23,3 +23,8 @@ items:
     title: "日本オラクル株式会社"
     twitter_handle: "itakash"
     img: "TakashiIto.jpg"
+
+  - name: "瀬戸智"
+    title: "Red Hat"
+    twitter_handle: "megascus"
+    img: "seto.png"

@@ -23,3 +23,9 @@ items:
     title: "Oracle"
     twitter_handle: "itakash"
     img: "TakashiIto.jpg"
+
+  - name: "Seto Satoshi"
+    title: "Red Hat"
+    twitter_handle: "megascus"
+    img: "seto.png"
+
