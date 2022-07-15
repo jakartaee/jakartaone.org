@@ -11,6 +11,8 @@ container: "container-fluid"
 tagline: "September 29, 2022"
 layout: "single"
 menu_name: "portuguese"
+tagline_suffix: |
+  <p><a class="btn btn-primary margin-right-10" href="https://forms.gle/e5xrvX6N2MpNaNJMA">Call For Papers</a></p>
 ---
 
 {{< grid/section-container class="padding-bottom-40 text-center">}}
