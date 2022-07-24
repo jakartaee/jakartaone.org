@@ -22,48 +22,48 @@ items:
       type: keynote
       time: 13:00-13:30 (JST)
 
-    - name: ベンダートラック
-      presenter: TBD
+    - name: ベンダートラック - IBM
+      presenter: 田中孝清
       type: vendor
       time: 13:30-13:50 (JST)
 
-    - name: CN4Jスタジオ
+    - name: CN4Jスタジオ - Config
       presenter: TBD
       type: studio
       time: 13:50-14:05 (JST)
 
-    - name: ベンダートラック
-      presenter: TBD
+    - name: ベンダートラック - Red Hat
+      presenter: 瀬戸智
       type: vendor
       time: 14:10-14:30 (JST)
 
-    - name: CN4Jスタジオ
+    - name: CN4Jスタジオ - CDI Lite
       presenter: TBD
       type: studio
       time: 14:30-14:45 (JST)
 
-    - name: ベンダートラック
-      presenter: TBD
+    - name: ベンダートラック - Microsoft
+      presenter: 寺田佳央
       type: vendor
       time: 14:45-15:05 (JST)
 
-    - name: CN4Jスタジオ
+    - name: CN4Jスタジオ - JSON-B
       presenter: TBD
       type: studio
       time: 15:10-15:25 (JST)
 
-    - name: ベンダートラック
-      presenter: TBD
+    - name: ベンダートラック - オラクル
+      presenter: 伊藤敬
       type: vendor
       time: 15:25-15:45 (JST)
 
-    - name: CN4Jスタジオ
+    - name: CN4Jスタジオ - Concurrency
       presenter: TBD
       type: studio
       time: 15:45-16:00 (JST)
 
-    - name: ベンダートラック
-      presenter: TBD
+    - name: ベンダートラック - 富士通
+      presenter: 草野優一
       type: vendor
       time: 16:05-16:25 (JST)
 
