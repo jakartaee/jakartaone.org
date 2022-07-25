@@ -22,48 +22,48 @@ items:
       type: keynote
       time: 13:00-13:30 (JST)
 
-    - name: Vendor
-      presenter: TBD
+    - name: Vendor - IBM
+      presenter: Takakiyo Tanaka
       type: vendor
       time: 13:30-13:50 (JST)
 
-    - name: CN4J Studio
+    - name: CN4J Studio - Config
       presenter: TBD
       type: studio
       time: 13:50-14:05 (JST)
 
-    - name: Vendor
-      presenter: TBD
+    - name: Vendor - Red Hat
+      presenter: Satochi Seto
       type: vendor
       time: 14:10-14:30 (JST)
 
-    - name: CN4J Studio
+    - name: CN4J Studio - CDI Lite
       presenter: TBD
       type: studio
       time: 14:30-14:45 (JST)
 
-    - name: Vendor
-      presenter: TBD
+    - name: Vendor - Microsoft
+      presenter: Yoshio Terada
       type: vendor
       time: 14:45-15:05 (JST)
 
-    - name: CN4J Studio
+    - name: CN4J Studio - JSON-B
       presenter: TBD
       type: studio
       time: 15:10-15:25 (JST)
 
-    - name: Vendor
-      presenter: TBD
+    - name: Vendor - Oracle
+      presenter: Takashi Ito
       type: vendor
       time: 15:25-15:45 (JST)
 
-    - name: CN4J Studio
+    - name: CN4J Studio - Concurrency
       presenter: TBD
       type: studio
       time: 15:45-16:00 (JST)
 
-    - name: Vendor
-      presenter: TBD
+    - name: Vendor - Fujitsu
+      presenter: Yuichi Kusano
       type: vendor
       time: 16:05-16:25 (JST)
 
