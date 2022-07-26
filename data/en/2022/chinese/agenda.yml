@@ -1,11 +1,7 @@
 complete: false
 types:
     - name: Keynote / Industry Keynote
-<<<<<<< HEAD
       id: keynote
-=======
-      id: keynote
->>>>>>> 46adc7e (update chinese version of the event)
       color: "#85BFF3"
     - name: Jakarta EE
       id: jakarta_ee
