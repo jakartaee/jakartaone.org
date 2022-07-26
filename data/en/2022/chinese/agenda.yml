@@ -1,11 +1,7 @@
 complete: false
 types:
     - name: Keynote / Industry Keynote
-<<<<<<< HEAD
       id: keynote
-=======
-      id: keynote
->>>>>>> 46adc7e (update chinese version of the event)
       color: "#85BFF3"
     - name: Jakarta EE
       id: jakarta_ee
@@ -29,18 +25,8 @@ items:
       type: keynote
       time: 14:10-14:15 GMT+08
       abstract: |
-<<<<<<< HEAD
-<<<<<<< HEAD
-        About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
-    - name: What's new in Jakarta EE 10 and MicroProfile
-=======
         About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
     - name: What's new in Jakarta EE 10 and MicroProfile (IBM)
->>>>>>> 9b8f31f (update event start time and profiles of speakers)
-=======
-        About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
-    - name: What's new in Jakarta EE 10 and MicroProfile
->>>>>>> c073fec (adding speaker and fix pic size)
       presenter: Emily Jiang
       type: jakarta_ee
       abstract: |
@@ -90,7 +76,7 @@ items:
       presenter: Presenters
       type: roundtable
       time: 17:15-17:45 GMT+08
-    - name: Lottery Draw && Chatting 
+    - name: Lottery Draw && Chatting
       presenter: All
       type: lottery-draw
       time: 17:45-18:15 GMT+08
