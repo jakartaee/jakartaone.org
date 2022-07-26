@@ -41,9 +41,7 @@ items:
     - name: MicroProfile Embrace Cloud Native
       presenter: Maggie
       type: microprofile
-      time: 15:05-15:25 GMT+08
-      abstract: |
-        Overview of cloud native and microservice development, introduction to MicroProfile specification, MicroProfile support for cloud native and MicroProfile  practice of Shandong Cvicse Middleware Co.,Ltd.
+      time: 15:15-15:35 GMT+08
     - name: MicroProfile VS Microservices
       presenter: Jay Ni
       type: microprofile
