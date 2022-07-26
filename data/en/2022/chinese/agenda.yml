@@ -1,0 +1,71 @@
+complete: false
+types:
+    - name: Keynotes
+      id: keynote 
+      color: "#e44"
+    - name: Vendor Track
+      id: vendor
+      color: "#c6a061"
+    - name: Jakarta EE & MicroProfile Sessions
+      id: jakarta-ee
+    - name: Round Table
+      id: roundtable
+      color: "#c6f061"
+
+items:
+    - name: Kick Start Keynote
+      presenter: Eclise Foundation
+      type: keynote
+      time: 10 Minutes
+    - name: Kick Start Keynote
+      presenter: Jakarta EE Community China
+      type: keynote
+      time: 5 Minutes
+    - name: What's new in Jakarta EE 10 and MicroProfile
+      presenter: Emily Jiang
+      type: jakarta-ee
+      time: 30 Minutes
+    - name: Vendor Session（Primeton）
+      presenter: Vendor from China
+      type: vendor
+      time: 30 Minutes
+    - name: Open for Paper
+      presenter: To Be Confirm
+      type: jakarta-ee
+      time: 30 Minutes
+    - name: Vendor Session（Asia Info）
+      presenter: Vendor from China
+      type: vendor
+      time: 30 Minutes
+    - name: Open for Paper
+      presenter: To Be Confirm
+      type: jakarta-ee
+      time: 30 Minutes
+    - name: Vendor Session（TongTech）
+      presenter: Vendor from China
+      type: vendor
+      time: 30 Minutes
+    - name: Open for Paper
+      presenter: To Be Confirm
+      type: jakarta-ee
+      time: 30 Minutes
+    - name: Vendor Session（Apusic）
+      presenter: Vendor from China
+      type: vendor
+      time: 30 Minutes
+    - name: Open for Paper
+      presenter: To Be Confirm
+      type: jakarta-ee
+      time: 30 Minutes
+    - name: Vendor Session（Cvise）
+      presenter: Vendor from China
+      type: vendor
+      time: 30 Minutes
+    - name: Open for Paper
+      presenter: To Be Confirm
+      type: jakarta-ee
+      time: 30 Minutes
+    - name: Round Table
+      presenter: Presenters
+      type: roundtable
+      time: 45 Minutes
