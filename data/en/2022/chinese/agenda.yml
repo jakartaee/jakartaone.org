@@ -1,7 +1,7 @@
 complete: false
 types:
     - name: Keynote / Industry Keynote
-      id: keynote 
+      id: keynote
       color: "#85BFF3"
     - name: Jakarta EE
       id: jakarta_ee
@@ -11,7 +11,7 @@ types:
       color: "#EDDAA0"
     - name: Round Table
       id: roundtable
-      color: "#99DF82"      
+      color: "#99DF82"
 
 items:
     - name: Kick Start Keynote
@@ -25,7 +25,7 @@ items:
       type: keynote
       time: 14:10-14:15 GMT+08
       abstract: |
-        About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.        
+        About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
     - name: What's new in Jakarta EE 10 and MicroProfile
       presenter: Emily Jiang
       type: jakarta_ee
@@ -38,11 +38,11 @@ items:
       time: 14:45-15:15 GMT+08
       abstract: |
         This topic talks about the core technologies of JakartaEE mainstream open source application server, including microkernel and module loading, extension mechanisms, clustering capabilities, domain management, etc.Each application server had started support for microservices and cloud-native, MicroProfile compatibility, and reactive programming. Listener will known about the latest technical standards and specifications for Java middleware servers.
-    - name: MicroProfile Embrace Cloud Native 
+    - name: MicroProfile Embrace Cloud Native
       presenter: Maggie
       type: microprofile
       time: 15:15-15:35 GMT+08
-    - name: MicroProfile VS Microservices 
+    - name: MicroProfile VS Microservices
       presenter: Jay Ni
       type: microprofile
       time: 15:35-15:55 GMT+08

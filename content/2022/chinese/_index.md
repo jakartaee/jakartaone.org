@@ -13,7 +13,11 @@ layout: "single"
 menu_name: "chinese"
 tagline_suffix: |
   <p>
+<<<<<<< HEAD
     <!--<a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>-->
+=======
+    <a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>
+>>>>>>> 1a802d4 (Adding JakartaOne LiveStream Chinese pages)
     <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/TXsPDu3cifdI?ch=WcjkOXa2pvOIQ">Register</a>
   </p>
 ---
@@ -23,10 +27,10 @@ tagline_suffix: |
 {{< events/registration event="chinese" year="2022" >}}
 JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
 The First JakartaOne Livestream in Chinese is still in process and we appreciate all your involving!
-The event is hosting by Jakarta EE China community which is authorized by Eclipse Foundation and founded by Primeton. 
-With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other developers, the Commnunity is committed to promoting the knowledge and technology sharing of Jakarta EE in China. 
+The event is hosting by Jakarta EE China community which is authorized by Eclipse Foundation and founded by Primeton.
+With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other developers, the Commnunity is committed to promoting the knowledge and technology sharing of Jakarta EE in China.
 {{</ events/registration >}}
-{{</ grid/div >}} 
+{{</ grid/div >}}
 {{</ grid/section-container >}}
 
 {{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
