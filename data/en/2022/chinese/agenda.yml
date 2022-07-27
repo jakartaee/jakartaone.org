@@ -21,44 +21,44 @@ items:
       presenter: Jakarta EE Community China
       type: keynote
       time: 5 Minutes
-    - name: What's new in Jakarta EE 10 and MicroProfile
+    - name: What's new in Jakarta EE 10 and MicroProfile (IBM)
       presenter: Emily Jiang
       type: jakarta-ee
       time: 30 Minutes
-    - name: Vendor Session（Primeton）
-      presenter: Vendor from China
+    - name: MicroProfile Embrace Cloud Native (Cvicse)
+      presenter: Maggie
       type: vendor
       time: 30 Minutes
     - name: Open for Paper
       presenter: To Be Confirm
       type: jakarta-ee
       time: 30 Minutes
-    - name: Vendor Session（Asia Info）
-      presenter: Vendor from China
+    - name: MicroProfile VS Microservices (Primeton)
+      presenter: Jay
       type: vendor
       time: 30 Minutes
     - name: Open for Paper
       presenter: To Be Confirm
       type: jakarta-ee
       time: 30 Minutes
-    - name: Vendor Session（TongTech）
-      presenter: Vendor from China
+    - name: Jakarta EE Co-evolution with Domestic Middleware（TongTech）
+      presenter: Sniffer
       type: vendor
       time: 30 Minutes
     - name: Open for Paper
       presenter: To Be Confirm
       type: jakarta-ee
       time: 30 Minutes
-    - name: Vendor Session（Apusic）
-      presenter: Vendor from China
+    - name: Development of Jakarta EE Technology in Financial Field（Apusic）
+      presenter: Neal Lin
       type: vendor
       time: 30 Minutes
     - name: Open for Paper
       presenter: To Be Confirm
       type: jakarta-ee
       time: 30 Minutes
-    - name: Vendor Session（Cvise）
-      presenter: Vendor from China
+    - name: Application of Jakarta EE Technology in Communication Industry System（Asiainfo）
+      presenter: Peak
       type: vendor
       time: 30 Minutes
     - name: Open for Paper
