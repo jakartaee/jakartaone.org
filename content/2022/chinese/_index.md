@@ -24,7 +24,7 @@ tagline_suffix: |
 JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
 The First JakartaOne Livestream in Chinese is still in process and we appreciate all your involving!
 The event is hosting by Jakarta EE China community which is authorized by Eclipse Foundation and founded by Primeton. 
-With the participation of Asia Info,IBM,TongTech,Apusic,Cvise and other developers, the Commnunity is committed to promoting the knowledge and technology sharing of Jakarta EE in China. 
+With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other developers, the Commnunity is committed to promoting the knowledge and technology sharing of Jakarta EE in China. 
 {{</ events/registration >}}
 
 <div class="row registration-2022-german-custom">
