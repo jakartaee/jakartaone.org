@@ -14,7 +14,7 @@ types:
 
 items:
     - name: Kick Start Keynote
-      presenter: Eclise Foundation
+      presenter: Eclipse Foundation
       type: keynote
       time: 10 Minutes
     - name: Kick Start Keynote
