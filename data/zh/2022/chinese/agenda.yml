@@ -1,0 +1,64 @@
+complete: false
+types:
+    - name: 主题演讲 / 行业主题
+      id: keynote 
+      color: "#85BFF3"
+    - name: Jakarta EE
+      id: jakarta_ee
+      color: "#EC8101"
+    - name: MicroProfile
+      id: microprofile
+      color: "#EDDAA0"
+    - name: 圆桌讨论
+      id: roundtable
+      color: "#99DF82"      
+
+items:
+    - name: 开场演讲
+      presenter: Eclipse Foundation
+      type: keynote
+      time: 14:00-14:10 GMT+08
+    - name: 开场演讲
+      presenter: Jakarta EE 中国社区
+      type: keynote
+      time: 14:10-14:15 GMT+08
+    - name: Jakarta EE 10 和 MicroProfile 全新特性(IBM)
+      presenter: 蒋丰慧
+      type: jakarta_ee
+      time: 14:15-14:45 GMT+08
+    - name: 主流开源 JEE 服务器核心技术及对云原生支持 (Useopen)
+      presenter: 张建锋
+      type: jakarta_ee
+      time: 14:45-15:15 GMT+08
+    - name: MicroProfile 拥抱云原生 (中创)
+      presenter: 赵欣
+      type: microprofile
+      time: 15:15-15:45 GMT+08
+    - name: MicroProfile 标准 VS 微服务最佳实践 (普元)
+      presenter: 倪坚
+      type: microprofile
+      time: 15:45-16:15 GMT+08
+      abstract: |
+        解读Microprofile规范内容，以及每个规范点对于微服务开发的意义，再从普元近几年的微服务项目实施中遇到的问题分享在每个环节上的微服务开发最佳实践，最后谈谈对于Microprofile规范的展望
+    - name: Jakarta EE 与国产共同演进（东方通）
+      presenter: 胡勇
+      type: jakarta_ee
+      time: 16:15-16:45 GMT+08
+    - name: JakartaEE 技术在金融领域应用的发展（金蝶）
+      presenter: 林琳
+      type: jakarta_ee
+      time: 16:45-17:15 GMT+08
+    - name: Jakarta EE 技术在通信行业系统中的应用（亚信）
+      presenter: 王锋
+      type: jakarta_ee
+      time: 17:15-17:45 GMT+08
+      abstract: |
+        介绍中国通信行业的发展简史，通信行业的系统结构，Jakarta EE的技术发展简史，Jakarta EE技术对通信行业系统发展的助力情况。通信行业的系统现状以及后续发展对技术的需求。希望Jakarta EE能有更多匹配通信行业发展的技术。
+    - name: 行业主题 (普元,亚信,IBM,东方通,金蝶,中创）
+      presenter: Jakarta EE 工作组成员
+      type: keynote
+      time: 17:45-18:15 GMT+08
+    - name: 圆桌讨论 (IBM,Useopen,中创,普元,东方通,金蝶,亚信）
+      presenter: 与会嘉宾
+      type: roundtable
+      time: 18:15-18:45 GMT+08

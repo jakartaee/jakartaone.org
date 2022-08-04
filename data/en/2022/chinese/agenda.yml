@@ -1,71 +1,64 @@
 complete: false
 types:
-    - name: Keynotes
+    - name: Keynote / Industry Keynote
       id: keynote 
-      color: "#e44"
-    - name: Vendor Track
-      id: vendor
-      color: "#c6a061"
-    - name: Jakarta EE & MicroProfile Sessions
-      id: jakarta-ee
+      color: "#85BFF3"
+    - name: Jakarta EE
+      id: jakarta_ee
+      color: "#EC8101"
+    - name: MicroProfile
+      id: microprofile
+      color: "#EDDAA0"
     - name: Round Table
       id: roundtable
-      color: "#c6f061"
+      color: "#99DF82"      
 
 items:
     - name: Kick Start Keynote
       presenter: Eclipse Foundation
       type: keynote
-      time: 10 Minutes
+      time: 14:00-14:10 GMT+08
     - name: Kick Start Keynote
       presenter: Jakarta EE Community China
       type: keynote
-      time: 5 Minutes
+      time: 14:10-14:15 GMT+08
     - name: What's new in Jakarta EE 10 and MicroProfile (IBM)
       presenter: Emily Jiang
-      type: jakarta-ee
-      time: 30 Minutes
+      type: jakarta_ee
+      time: 14:15-14:45 GMT+08
+    - name: Mainstream open source JEE server core technology and Cloud Native support (Useopen)
+      presenter: Jeff Zhang
+      type: jakarta_ee
+      time: 14:45-15:15 GMT+08
     - name: MicroProfile Embrace Cloud Native (Cvicse)
       presenter: Maggie
-      type: vendor
-      time: 30 Minutes
-    - name: Open for Paper
-      presenter: To Be Confirm
-      type: jakarta-ee
-      time: 30 Minutes
+      type: microprofile
+      time: 15:15-15:45 GMT+08
     - name: MicroProfile VS Microservices (Primeton)
-      presenter: Jay
-      type: vendor
-      time: 30 Minutes
-    - name: Open for Paper
-      presenter: To Be Confirm
-      type: jakarta-ee
-      time: 30 Minutes
+      presenter: Jay Ni
+      type: microprofile
+      time: 15:45-16:15 GMT+08
+      abstract: |
+        Interpret the content of the MicroProfile specification and the significance of each specification point for microservice development, share the best practices of microservice development in each link from the problems encountered in the implementation of the microservice project of Primeton in recent years, and finally talk about the outlook for the Microprofile specification
     - name: Jakarta EE Co-evolution with Domestic Middleware（TongTech）
       presenter: Sniffer
-      type: vendor
-      time: 30 Minutes
-    - name: Open for Paper
-      presenter: To Be Confirm
-      type: jakarta-ee
-      time: 30 Minutes
+      type: jakarta_ee
+      time: 16:15-16:45 GMT+08
     - name: Development of Jakarta EE Technology in Financial Field（Apusic）
       presenter: Neal Lin
-      type: vendor
-      time: 30 Minutes
-    - name: Open for Paper
-      presenter: To Be Confirm
-      type: jakarta-ee
-      time: 30 Minutes
+      type: jakarta_ee
+      time: 16:45-17:15 GMT+08
     - name: Application of Jakarta EE Technology in Communication Industry System（Asiainfo）
-      presenter: Peak
-      type: vendor
-      time: 30 Minutes
-    - name: Open for Paper
-      presenter: To Be Confirm
-      type: jakarta-ee
-      time: 30 Minutes
-    - name: Round Table
+      presenter: Peak Wang
+      type: jakarta_ee
+      time: 17:15-17:45 GMT+08
+      abstract: |
+        This paper introduces the development history of China's communication industry, the system structure of the communication industry, the development history of Jakarta EE technology, and the help of Jakarta EE technology to the development of the communication industry system. The current state of the systems in the communications industry and the technical requirements for subsequent developments. Hopefully Jakarta EE will have more technology to match the growth of the communications industry.
+    - name: Industry Session (Primeton,Asiainfo,IBM,TongTech,Apusic,Cvicse）
+      presenter: WG Members
+      type: keynote
+      time: 17:45-18:15 GMT+08
+    - name: Round Table (IBM,Useopen,Cvicse,Primeton,TongTech,Apusic,Asiainfo）
       presenter: Presenters
       type: roundtable
-      time: 45 Minutes
+      time: 18:15-18:45 GMT+08
