@@ -1,7 +1,7 @@
 complete: false
 types:
     - name: 主题演讲 / 行业主题
-      id: keynote 
+      id: keynote
       color: "#85BFF3"
     - name: Jakarta EE
       id: jakarta_ee
@@ -11,7 +11,7 @@ types:
       color: "#EDDAA0"
     - name: 圆桌讨论
       id: roundtable
-      color: "#99DF82"      
+      color: "#99DF82"
 
 items:
     - name: 开场演讲
