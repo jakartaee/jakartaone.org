@@ -13,11 +13,7 @@ layout: "single"
 menu_name: "chinese"
 tagline_suffix: |
   <p>
-<<<<<<< HEAD
     <!--<a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>-->
-=======
-    <a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>
->>>>>>> 1a802d4 (Adding JakartaOne LiveStream Chinese pages)
     <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/TXsPDu3cifdI?ch=WcjkOXa2pvOIQ">Register</a>
   </p>
 ---
@@ -41,6 +37,15 @@ With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other develop
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false">}}
     {{< events/agenda event="chinese" year="2022" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2022" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
