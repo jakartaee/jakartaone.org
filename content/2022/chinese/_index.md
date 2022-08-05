@@ -26,16 +26,6 @@ The First JakartaOne Livestream in Chinese is still in process and we appreciate
 The event is hosting by Jakarta EE China community which is authorized by Eclipse Foundation and founded by Primeton. 
 With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other developers, the Commnunity is committed to promoting the knowledge and technology sharing of Jakarta EE in China. 
 {{</ events/registration >}}
-
-<div class="row registration-2022-german-custom">
-  <div class="col-xs-24 col-sm-8 col-md-6"></div>
-  <div class="col-xs-24 col-sm-16 col-md-18">
-    <p><a class="btn btn-bordered btn-secondary" href="https://meeting.tencent.com/dw/TXsPDu3cifdI?ch=WcjkOXa2pvOIQ">Register</a></p>
-    <p class="margin-top-20">
-      When you would like to attend live on site, you can book yourself a free of charge <a href="https://meeting.tencent.com/dw/TXsPDu3cifdI?ch=WcjkOXa2pvOIQ">livestream ticket</a> to follow the event online from where ever you want to.
-    </p>
-  </div>
-</div>
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
 
