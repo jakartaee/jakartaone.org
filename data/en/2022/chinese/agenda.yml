@@ -29,8 +29,13 @@ items:
       type: keynote
       time: 14:10-14:15 GMT+08
       abstract: |
+<<<<<<< HEAD
         About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
     - name: What's new in Jakarta EE 10 and MicroProfile
+=======
+        About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
+    - name: What's new in Jakarta EE 10 and MicroProfile (IBM)
+>>>>>>> 9b8f31f (update event start time and profiles of speakers)
       presenter: Emily Jiang
       type: jakarta_ee
       abstract: |
