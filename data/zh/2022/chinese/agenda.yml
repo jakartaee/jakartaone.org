@@ -36,6 +36,8 @@ items:
       presenter: 张建锋
       type: jakarta_ee
       time: 14:45-15:15 GMT+08
+      abstract: |
+        本议题阐述JakartaEE主流开源应用服务器的核心技术，包括微内核和模块加载，扩展机制等内容，集群能力和域管理。各应用服务器也逐步对微服务、云原生等技术提供的支持，兼容MicroProfile，提供响应式编程能力。了解Java中间件服务器的最新技术发展和对标准和规范的支持。
     - name: MicroProfile 拥抱云原生
       presenter: 赵欣
       type: microprofile

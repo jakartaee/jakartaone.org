@@ -39,8 +39,6 @@ With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other develop
     {{< events/agenda event="chinese" year="2022" >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
-<!-- Add modal for use w/ agenda -->
-{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
 <!-- Add speakers section -->
 {{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}

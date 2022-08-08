@@ -36,6 +36,8 @@ items:
       presenter: Jeff Zhang
       type: jakarta_ee
       time: 14:45-15:15 GMT+08
+      abstract: |
+        This topic talks about the core technologies of JakartaEE mainstream open source application server, including microkernel and module loading, extension mechanisms, clustering capabilities, domain management, etc.Each application server had started support for microservices and cloud-native, MicroProfile compatibility, and reactive programming. Listener will known about the latest technical standards and specifications for Java middleware servers.
     - name: MicroProfile Embrace Cloud Native (Cvicse)
       presenter: Maggie
       type: microprofile
