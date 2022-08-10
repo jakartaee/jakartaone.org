@@ -52,8 +52,8 @@ items:
       presenter: 胡勇
       type: jakarta_ee
       time: 15:55-16:15 GMT+08
-    - name: JakartaEE 技术在金融领域应用的发展
-      presenter: 林琳
+    - name: JakartaEE 拥抱云原生
+      presenter: 黄小满
       type: jakarta_ee
       time: 16:15-16:35 GMT+08
     - name: Jakarta EE 技术在通信行业系统中的应用

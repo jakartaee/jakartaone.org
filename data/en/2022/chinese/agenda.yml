@@ -26,7 +26,7 @@ items:
       time: 14:10-14:15 GMT+08
       abstract: |
         About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.        
-    - name: What's new in Jakarta EE 10 and MicroProfile (IBM)
+    - name: What's new in Jakarta EE 10 and MicroProfile
       presenter: Emily Jiang
       type: jakarta_ee
       abstract: |
@@ -38,25 +38,25 @@ items:
       time: 14:45-15:15 GMT+08
       abstract: |
         This topic talks about the core technologies of JakartaEE mainstream open source application server, including microkernel and module loading, extension mechanisms, clustering capabilities, domain management, etc.Each application server had started support for microservices and cloud-native, MicroProfile compatibility, and reactive programming. Listener will known about the latest technical standards and specifications for Java middleware servers.
-    - name: MicroProfile Embrace Cloud Native (Cvicse)
+    - name: MicroProfile Embrace Cloud Native 
       presenter: Maggie
       type: microprofile
       time: 15:15-15:35 GMT+08
-    - name: MicroProfile VS Microservices (Primeton)
+    - name: MicroProfile VS Microservices 
       presenter: Jay Ni
       type: microprofile
       time: 15:35-15:55 GMT+08
       abstract: |
         Interpret the content of the MicroProfile specification and the significance of each specification point for microservice development, share the best practices of microservice development in each link from the problems encountered in the implementation of the microservice project of Primeton in recent years, and finally talk about the outlook for the Microprofile specification
-    - name: Jakarta EE Co-evolution with Domestic Middleware（TongTech）
+    - name: Jakarta EE Co-evolution with Domestic Middleware
       presenter: Sniffer
       type: jakarta_ee
       time: 15:55-16:15 GMT+08
-    - name: Development of Jakarta EE Technology in Financial Field（Apusic）
+    - name: Jakarta EE Embrace Cloud Native
       presenter: Neal Lin
       type: jakarta_ee
       time: 16:15-16:35 GMT+08
-    - name: Application of Jakarta EE Technology in Communication Industry System（Asiainfo）
+    - name: Application of Jakarta EE Technology in Communication Industry System
       presenter: Peak Wang
       type: jakarta_ee
       time: 16:35-16:55 GMT+08
