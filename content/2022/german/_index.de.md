@@ -9,10 +9,6 @@ hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
 tagline: "June 30, 2022"
-tagline_suffix: |
-  <p>
-    <a class="btn btn-primary margin-right-10" href="https://shop.doag.org/events/cloudland/shop/">Registrieren</a>
-  </p> 
 layout: "single"
 menu_name: "german"
 ---
@@ -24,16 +20,7 @@ JakartaOne Livestream ist eine eintägige, virtuelle Konferenz für Entwickler u
 
 Das JakartaOne Livestream German Veranstaltung wird live vom [CloudLand Festival](https://www.cloudland.org/de/home/) im Phantasialand Brühl, Deutschland gestreamt – somit haben Sie auch die Möglichkeit die Veranstaltung live von der Main Stage an ihrem zweiten [Thementag bezüglich MicroServices & DDD](https://shop.doag.org/events/cloudland/2022/agenda/#eventDay.1656540000) zu verfolgen.
 {{</ events/registration >}}
-<div class="row registration-2022-german-custom">
-  <div class="col-xs-24 col-sm-8 col-md-6"></div>
-  <div class="col-xs-24 col-sm-16 col-md-18">
-    <p><a class="btn btn-bordered btn-secondary" href="https://shop.doag.org/events/cloudland/shop/">Registrieren</a></p>
-    <p class="margin-top-20">
-      Wenn Sie live vor Ort dabei sein möchten, können Sie sich entweder ein <a href="https://shop.doag.org/shop/prd.271.cloudland-festival-pass/">Festival-Ticket</a> oder nur ein <a href="https://shop.doag.org/shop/prd.273.cloudland-day-ticket-day-2/">Ticket für den 2. Tag</a> kaufen. Alternativ können Sie auch einfach ein kostenfreies <a href="https://shop.doag.org/shop/prd.345.jakartaone-livestream/">Livestream-Ticket</a> buchen, um die Veranstaltung von wo immer Sie wollen online zu verfolgen.
-    </p>
-  </div>
-</div>
-{{</ grid/div >}} 
+{{</ grid/div >}}
 {{</ grid/section-container >}}
 
 <!-- Add agenda -->
