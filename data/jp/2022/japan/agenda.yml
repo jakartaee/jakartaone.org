@@ -18,7 +18,7 @@ types:
 
 items:
     - name: キーノート
-      presenter: TBD
+      presenter: 数村憲治
       type: keynote
       time: 13:00-13:30 (JST)
 
@@ -28,7 +28,7 @@ items:
       time: 13:30-13:50 (JST)
 
     - name: CN4Jスタジオ - Config
-      presenter: TBD
+      presenter: 田中孝清
       type: studio
       time: 13:50-14:05 (JST)
 
@@ -38,7 +38,7 @@ items:
       time: 14:10-14:30 (JST)
 
     - name: CN4Jスタジオ - CDI Lite
-      presenter: TBD
+      presenter: 瀬戸智
       type: studio
       time: 14:30-14:45 (JST)
 
@@ -47,8 +47,8 @@ items:
       type: vendor
       time: 14:45-15:05 (JST)
 
-    - name: CN4Jスタジオ - JSON-B
-      presenter: TBD
+    - name: CN4Jスタジオ - Jakarta JSON Binding
+      presenter: 寺田佳央
       type: studio
       time: 15:10-15:25 (JST)
 
@@ -57,8 +57,8 @@ items:
       type: vendor
       time: 15:25-15:45 (JST)
 
-    - name: CN4Jスタジオ - Concurrency
-      presenter: TBD
+    - name: CN4Jスタジオ - Jakarta Concurrency
+      presenter: 伊藤敬
       type: studio
       time: 15:45-16:00 (JST)
 
@@ -67,33 +67,38 @@ items:
       type: vendor
       time: 16:05-16:25 (JST)
 
-    - name: CN4Jスタジオ
-      presenter: TBD
+    - name: CN4Jスタジオ - MicroProfile OpenTelemetry
+      presenter: 河阪幸機
       type: studio
       time: 16:25-16:40 (JST)
 
-    - name: コミュニティセッション
-      presenter: CFP
-      type: cloud
-      time: 17:00-17:40 (JST)
+    - name: ベンダートラック - Payara
+      presenter: 蓮沼賢志
+      type: vendor
+      time: 17:00-17:20 (JST)
 
     - name: コミュニティセッション
       presenter: CFP
       type: cloud
-      time: 17:40-18:20 (JST)
+      time: 17:20-18:00 (JST)
 
     - name: コミュニティセッション
       presenter: CFP
       type: cloud
-      time: 18:30-19:10 (JST)
+      time: 18:10-18:50 (JST)
 
     - name: コミュニティセッション
       presenter: CFP
       type: cloud
-      time: 19:10-19:50 (JST)
+      time: 18:50-19:30 (JST)
 
     - name: パネルディスカッション
       presenter: TBD
       type: panel
-      time: 19:55-21:00 (JST)
+      time: 19:35-20:30 (JST)
+
+    - name: Q&A
+      presenter: TBD
+      type: panel
+      time: 20:30-21:00 (JST)
 
