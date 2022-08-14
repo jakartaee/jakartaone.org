@@ -18,7 +18,7 @@ types:
 
 items:
     - name: Keynote
-      presenter: TBD
+      presenter: Kenji Kazumura
       type: keynote
       time: 13:00-13:30 (JST)
 
@@ -28,17 +28,17 @@ items:
       time: 13:30-13:50 (JST)
 
     - name: CN4J Studio - Config
-      presenter: TBD
+      presenter: Takakiyo Tanaka
       type: studio
       time: 13:50-14:05 (JST)
 
     - name: Vendor - Red Hat
-      presenter: Satochi Seto
+      presenter: Satoshi Seto
       type: vendor
       time: 14:10-14:30 (JST)
 
     - name: CN4J Studio - CDI Lite
-      presenter: TBD
+      presenter: Satoshi Seto
       type: studio
       time: 14:30-14:45 (JST)
 
@@ -47,8 +47,8 @@ items:
       type: vendor
       time: 14:45-15:05 (JST)
 
-    - name: CN4J Studio - JSON-B
-      presenter: TBD
+    - name: CN4J Studio - Jakarta JSON Binding
+      presenter: Yoshio Terada
       type: studio
       time: 15:10-15:25 (JST)
 
@@ -57,8 +57,8 @@ items:
       type: vendor
       time: 15:25-15:45 (JST)
 
-    - name: CN4J Studio - Concurrency
-      presenter: TBD
+    - name: CN4J Studio - Jakarta Concurrency
+      presenter: Takashi Ito
       type: studio
       time: 15:45-16:00 (JST)
 
@@ -67,34 +67,38 @@ items:
       type: vendor
       time: 16:05-16:25 (JST)
 
-    - name: CN4J Studio
-      presenter: TBD
+    - name: CN4J Studio - MicroProfile OpenTelemetry
+      presenter: Kouki Kousaka
       type: studio
       time: 16:25-16:40 (JST)
 
-    - name: Community
-      presenter: CFP
-      type: cloud
-      time: 17:00-17:40 (JST)
+    - name: Vendor - Payara
+      presenter: Kenji Hasunuma
+      type: vendor
+      time: 17:00-17:20 (JST)
 
     - name: Community
       presenter: CFP
       type: cloud
-      time: 17:40-18:20 (JST)
+      time: 17:20-18:00 (JST)
 
     - name: Community
       presenter: CFP
       type: cloud
-      time: 18:30-19:10 (JST)
+      time: 18:10-18:50 (JST)
 
     - name: Community
       presenter: CFP
       type: cloud
-      time: 19:10-19:50 (JST)
+      time: 18:50-19:30 (JST)
 
     - name: Pnael Discussion
       presenter: TBD
       type: panel
-      time: 19:55-21:00 (JST)
+      time: 19:35-20:30 (JST)
 
+    - name: Q&A
+      presenter: TBD
+      type: panel
+      time: 20:30-21:00 (JST)
 
