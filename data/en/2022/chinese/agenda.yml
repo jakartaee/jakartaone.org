@@ -49,38 +49,44 @@ items:
     - name: Mainstream open source JEE server core technology and Cloud Native support (Useopen)
       presenter: Jeff Zhang
       type: jakarta_ee
-      time: 14:45-15:15 GMT+08
+      time: 14:45-15:05 GMT+08
       abstract: |
         This topic talks about the core technologies of JakartaEE mainstream open source application server, including microkernel and module loading, extension mechanisms, clustering capabilities, domain management, etc.Each application server had started support for microservices and cloud-native, MicroProfile compatibility, and reactive programming. Listener will known about the latest technical standards and specifications for Java middleware servers.
     - name: MicroProfile Embrace Cloud Native
       presenter: Maggie
       type: microprofile
-      time: 15:15-15:35 GMT+08
+      time: 15:05-15:25 GMT+08
+      abstract: |
+        Overview of cloud native and microservice development, introduction to MicroProfile specification, MicroProfile support for cloud native and MicroProfile  practice of Shandong Cvicse Middleware Co.,Ltd.
     - name: MicroProfile VS Microservices
       presenter: Jay Ni
       type: microprofile
-      time: 15:35-15:55 GMT+08
+      time: 15:25-15:45 GMT+08
       abstract: |
         Interpret the content of the MicroProfile specification and the significance of each specification point for microservice development, share the best practices of microservice development in each link from the problems encountered in the implementation of the microservice project of Primeton in recent years, and finally talk about the outlook for the Microprofile specification
     - name: Jakarta EE Co-evolution with Domestic Middleware
       presenter: Sniffer
       type: jakarta_ee
-      time: 15:55-16:15 GMT+08
+      time: 15:45-16:05 GMT+08
+      abstract: |
+        The development of technology can not be separated from the promotion of business needs, accompanied by one business story in the round of technological change. In these business stories, Jakarta EE co-evolved with the domestic middleware, and in some cases kept pace, facing some challenges and sometimes being a little sluggish.We will share some ancient stories from Jakarta EE and discuss the challenges and opportunities facing the cloud native environment.
     - name: Jakarta EE Embrace Cloud Native
-      presenter: Neal Lin
+      presenter: Huang Xiaoman
       type: jakarta_ee
-      time: 16:15-16:35 GMT+08
+      time: 16:05-16:25 GMT+08
+      abstract: |
+        We will not only consider development processing when designing an enterprise application at this cloud age, we need to understand the capability cloud can give us, and how we use this capability to promote our application’s capability.This presentation will share some thoughts on what should be considered when we design a cloud-native enterprise application with the Jakarta EE technology, like testing, CI, CD, monitoring, container etc., and what this connection with Micro-Profile.
     - name: Application of Jakarta EE Technology in Communication Industry System
       presenter: Peak Wang
       type: jakarta_ee
-      time: 16:35-16:55 GMT+08
+      time: 16:25-16:45 GMT+08
       abstract: |
         This paper introduces the development history of China's communication industry, the system structure of the communication industry, the development history of Jakarta EE technology, and the help of Jakarta EE technology to the development of the communication industry system. The current state of the systems in the communications industry and the technical requirements for subsequent developments. Hopefully Jakarta EE will have more technology to match the growth of the communications industry.
     - name: Industry Session (Primeton,Asiainfo,IBM,TongTech,Apusic,Cvicse）
       presenter: WG Members
       type: keynote
-      time: 16:55-17:25 GMT+08
+      time: 16:45-17:15 GMT+08
     - name: Round Table (IBM,Useopen,Cvicse,Primeton,TongTech,Apusic,Asiainfo）
       presenter: Presenters
       type: roundtable
-      time: 17:25-17:55 GMT+08
+      time: 17:15-17:45 GMT+08
