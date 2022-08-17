@@ -14,7 +14,7 @@ menu_name: "chinese"
 tagline_suffix: |
   <p>
     <!--<a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>-->
-    <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/TXsPDu3cifdI?ch=WcjkOXa2pvOIQ">Register</a>
+    <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/5U7mti09N1FF?ch=XbeaPp7zc4XU4">Register</a>
   </p>
 ---
 
