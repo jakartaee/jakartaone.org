@@ -24,11 +24,11 @@ tagline_suffix: |
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+{{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="portuguese" year="2022" >}}
+{{</ grid/div >}}
+
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" >}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
 {{</ events/program-committee >}}
-
-{{< grid/div class="container" isMarkdown="false">}}
-    {{< events/agenda event="portuguese" year="2022" >}}
-{{</ grid/div >}}
