@@ -26,13 +26,13 @@ items:
       time: 14:10-14:15 GMT+08
       abstract: |
         About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is crucial to expanding the influence of Enterprise Cloud native Java in China.
-    - name: What's new in Jakarta EE 10 and MicroProfile (IBM)
+    - name: What's new in Jakarta EE 10 and MicroProfile
       presenter: Emily Jiang
       type: jakarta_ee
       abstract: |
         Jakarta EE and MicroProfile are the standards for developing cloud-native applications. In this session, Emily will bring you up to date with the latest release of Jakarta EE and MicroProfile and explore their usage in Serverless.
       time: 14:15-14:45 GMT+08
-    - name: Mainstream open source JEE server core technology and Cloud Native support (Useopen)
+    - name: Mainstream open source JEE server core technology and Cloud Native support
       presenter: Jeff Zhang
       type: jakarta_ee
       time: 14:45-15:05 GMT+08
