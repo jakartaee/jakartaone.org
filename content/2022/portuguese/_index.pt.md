@@ -12,7 +12,10 @@ tagline: "29 de Setembro de 2022"
 layout: "single"
 menu_name: "portuguese"
 tagline_suffix: |
-  <p><a class="btn btn-primary margin-right-10" href="https://forms.gle/e5xrvX6N2MpNaNJMA">Call For Papers</a></p>
+  <p>
+    <a class="btn btn-primary margin-right-10" href="https://forms.gle/e5xrvX6N2MpNaNJMA">Call For Papers</a>
+    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakarta-portuguese-2022">Register</a>
+  </p>
 ---
 
 {{< grid/section-container class="padding-bottom-40 text-center">}}
@@ -25,3 +28,7 @@ tagline_suffix: |
 {{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" >}}
 Estamos orgulhosos de dizer que as sessões e palestras do JakartaOne Livestream Event são escolhidas por um comitê independente composto por voluntários da comunidade Jakarta® EE e Cloud Native Java!
 {{</ events/program-committee >}}
+
+{{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="portuguese" year="2022" >}}
+{{</ grid/div >}}
