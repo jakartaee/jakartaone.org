@@ -14,7 +14,7 @@ menu_name: "chinese"
 tagline_suffix: |
   <p>
     <!--<a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>-->
-    <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/TXsPDu3cifdI?ch=WcjkOXa2pvOIQ">报名参会</a>
+    <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/5U7mti09N1FF?ch=XbeaPp7zc4XU4">报名参会</a>
   </p>
 ---
 
@@ -33,10 +33,14 @@ Jakarta EE中国社区，经Eclipse基金会授权，由普元信息发起创立
   <div class="col-xs-24 col-sm-8 col-md-6"></div>
   <div class="col-xs-24 col-sm-16 col-md-18">
     <p class="margin-top-20">
-      现在就可以免费预订直播参与席位，与演讲嘉宾语音沟通，现场交流。
+      现在就可以免费预订直播参与席位，与演讲嘉宾语音沟通，现场交流。<br>
+	  	  <p>
+			参与活动还有机会获得<span style="color:blue;">Jakarta官方T-Shirt</span>哟。<br><br>
+			<img src="/images/giveaways/jakarta.tshirt.2022.jpg" align=center></p>
     </p>
   </div>
 </div>
+
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
 

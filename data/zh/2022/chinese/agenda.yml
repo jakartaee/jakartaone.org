@@ -76,3 +76,7 @@ items:
       presenter: 与会嘉宾
       type: roundtable
       time: 17:15-17:45 GMT+08
+    - name: 抽奖 & 交流
+      presenter: 与会嘉宾与观众
+      type: lottery-draw
+      time: 17:45-18:15 GMT+08
