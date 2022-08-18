@@ -13,7 +13,6 @@ layout: "single"
 menu_name: "portuguese"
 tagline_suffix: |
   <p>
-    <a class="btn btn-primary margin-right-10" href="https://forms.gle/e5xrvX6N2MpNaNJMA">Call For Papers</a>
     <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakarta-portuguese-2022">Register</a>
   </p>
 ---
