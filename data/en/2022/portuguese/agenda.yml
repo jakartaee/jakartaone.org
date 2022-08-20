@@ -20,7 +20,7 @@ items:
       time: 13:00-13:15 (WET) | 09:00-09:15 (GMT+3)
 
     - name: Is Java still worth learning in 2022?
-      presenter: Isidro
+      presenter: Professor Isidro
       type: cloud
       time: 13:15-14:00 (WET) | 09:15-10:00 (GMT+3)
 
@@ -37,7 +37,7 @@ items:
     - name: IBM
       presenter: Sergio Costa
       type: vendor
-      time: 15:00-15:15 (WET) 11:00-11:15 (GMT+3)
+      time: 15:00-15:15 (WET) | 11:00-11:15 (GMT+3)
 
     - name: Tomitribe
       presenter: Jean-Louis Monteiro
@@ -45,7 +45,7 @@ items:
       time: 16:00-16:15 (WET) | 11:15-11:30 (GMT+3)
 
     - name: Everything you need to know about the new Jakarta EE 10
-      presenter: Karina Varela
+      presenter: Karina Varela & Otávio Santana
       type: keynote
       time: 15:15-16:00 (WET) | 11:30-12:15 (GMT+3)
 

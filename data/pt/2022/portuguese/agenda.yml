@@ -36,7 +36,7 @@ items:
 
     - name: IBM
       presenter: Sergio Costa
-      type: cloud
+      type: vendor
       time: 15:00-15:15 (WET) | 11:00-11:15 (GMT+3)
 
     - name: Tomitribe
