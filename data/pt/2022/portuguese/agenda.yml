@@ -19,28 +19,28 @@ items:
       type:
       time: 13:00-13:15 (WET) | 09:00-09:15 (GMT+3)
 
+    - name: Tomitribe
+      presenter: Jean-Louis Monteiro
+      type: vendor
+      time: 13:15-13:30 (WET) | 09:15-09:30 (GMT+3)
+
     - name: Ainda vale a pena aprender Java em 2022?
       presenter: Professor Isidro
       type: cloud
-      time: 13:15-14:00 (WET) | 09:15-10:00 (GMT+3)
+      time: 13:30-14:15 (WET) | 09:30-10:15 (GMT+3)
 
     - name: Payara
       presenter: Emanuel Saad
       type: vendor
-      time: 14:00-14:15 (WET) | 10:00-10:15 (GMT+3)
+      time: 14:15-14:30 (WET) | 10:15-10:30 (GMT+3)
 
     - name: OpenTelemetry com Eclipse Microprofile
       presenter: Bruno baptista & Roberto Cortez
       type: cloud
-      time: 14:15-15:00 (WET) | 10:15-11:00 (GMT+3)
+      time: 14:30-15:15 (WET) | 10:30-11:15 (GMT+3)
 
     - name: IBM
       presenter: Sergio Costa
-      type: vendor
-      time: 15:00-15:15 (WET) | 11:00-11:15 (GMT+3)
-
-    - name: Tomitribe
-      presenter: Jean-Louis Monteiro
       type: vendor
       time: 15:15-15:30 (WET) | 11:15-11:30 (GMT+3)
 
@@ -56,6 +56,6 @@ items:
 
     - name: "Como o JakartaEE pode te transformar em um Staff+ : 5 passos infalíveis"
       presenter: Bruno Souza
-      type: keynote
+      type: cloud
       time: 16:30-17:30 (WET) | 12:30-13:30 (GMT+3)
 
