@@ -39,6 +39,6 @@ Não perca esta oportunidade, confirme sua participação gratuitamente:
 {{</ grid/div >}}
 
 <!-- Add user carousel for committee -->
-{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" useCarousel="false">}}
+{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" useCarousel="true" displayDetails="false">}}
 Estamos orgulhosos de dizer que as sessões e palestras do JakartaOne Livestream Event são escolhidas por um comitê independente composto por voluntários da comunidade Jakarta® EE e Cloud Native Java!
 {{</ events/program-committee >}}
