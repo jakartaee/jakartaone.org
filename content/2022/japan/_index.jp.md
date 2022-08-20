@@ -36,6 +36,8 @@ menu_name: "japan"
 {{</ grid/section-container >}}
 
 
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
 <!-- Add speakers section -->
 

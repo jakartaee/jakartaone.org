@@ -12,7 +12,9 @@ tagline: "29 de Setembro de 2022"
 layout: "single"
 menu_name: "portuguese"
 tagline_suffix: |
-  <p><a class="btn btn-primary margin-right-10" href="https://forms.gle/e5xrvX6N2MpNaNJMA">Call For Papers</a></p>
+  <p>
+    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakarta-portuguese-2022">Register</a>
+  </p>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
@@ -32,6 +34,9 @@ Não perca esta oportunidade, confirme sua participação gratuitamente:
 {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+{{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="portuguese" year="2022" >}}
+{{</ grid/div >}}
 
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" useCarousel="false">}}
