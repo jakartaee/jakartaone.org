@@ -32,7 +32,8 @@ Don't miss it, confirm your participation for free:
 {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+
 <!-- Add user carousel for committee -->
-{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" >}}
+{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" useCarousel="false">}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
 {{</ events/program-committee >}}

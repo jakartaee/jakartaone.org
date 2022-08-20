@@ -17,18 +17,18 @@ items:
     img: "kvarela.jpg"
     bio: |
       <p>Karina M. Varela is an expert on the matter of Business Automation and on Java-based architectures and solutions. She brings a solid background in development, architecting, delivering, and troubleshooting critical software in enterprise environments of different sectors around the world. She's a coordinator of the SouJava and KIE community, and in her free time, enjoys contributing to the open-source community by writing, speaking and promoting tech events.</p>
-  - name: "Bruno Baptista"
-    title: "Senior Java Consultant. Principal Engineer @ Talkdesk"
-    twitter_handle: brunobat_
-    img: "bbaptista.jpeg"
-    bio: |
-      <p>Bruno Baptista is a Principal Engineer at Talkdesk. With over 13 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
   - name: "Roberto Cortez"
     title: "SmallRye Project Lead @ Red Hat"
     twitter_handle: radcortez
     img: "rcortez.jpeg"
     bio: |
       <p>I'm a professional Java Developer working in the software development industry for more than 10 years. Mostly working with Enterprise technologies, I'm involved with the community to help other individuals to spread the knowledge with my Blog, my YouTube channel and with OSS contributions. Working as a Freelancer gave me the freedom to travel around the world and speak at conferences like JavaOne, Oracle Code One, Devoxx, JFokus, GeeCon, Devnexus, and others, being recognized by the community with a Java Champion title and Rock Star award. I'm also the leader of the Coimbra JUG, a Java User Group in Portugal with more than 500 members, and founder of the JNation Conference in Portugal a one day event with worldwide speakers. When I'm not working I spend most of my time hanging out with friends, playing computer games and travelling with my family</p>
+  - name: "Bruno Baptista"
+    title: "Senior Java Consultant. Principal Engineer @ Talkdesk"
+    twitter_handle: brunobat_
+    img: "bbaptista.jpeg"
+    bio: |
+      <p>Bruno Baptista is a Principal Engineer at Talkdesk. With over 13 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
   - name: "Elder Moraes"
     title: "Developer Advocate @ Red Hat"
     twitter_handle: elderjava
