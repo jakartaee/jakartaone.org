@@ -27,7 +27,7 @@ relacionadas focadas no desenvolvimento de tecnologias nativas de nuvem para apl
 Com aproximadamente 250 milhões de falantes nativos e 24 milhões que têm o Português como segunda língua, há um enorme potencial para capacitar, nutrir e fortalecer a comunidade Java falante da
 língua portuguesa
 
-Convidamos usuários e desenvolvedores de todo o mundo para se juntar a nós em **29 de setembro de 2022** para um dia de muito aprendizado e totalmente em português!
+No dia **29 de setembro de 2022**, convidamos desenvolvedores Java de todo o mundo para se juntar a nós em um dia de muito aprendizado, e o melhor: totalmente em português!
 
 Não perca esta oportunidade, confirme sua participação gratuitamente:
 {{</ events/registration >}}
