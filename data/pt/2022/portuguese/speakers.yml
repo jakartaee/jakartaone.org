@@ -1,0 +1,72 @@
+items:
+  - name: "Professor Isidro"
+    title: "PhD, Professor, palestrante e pesquisador @ UFABC"
+    img: "prof_isidro.jpg"
+    twitter_handle: prof_isidro
+    bio: |
+      <p>Francisco Isidro Massetto é professor universitário da UFABC, palestrante e pesquisador. Desenvolve trabalhos junto à comunidade de desenvolvedores a fim de fortalecer fundamentos e aplicações práticas de conceitos, formando melhores profissionais para atuarem no mercado de trabalho. Em suas redes sociais (YouTube e Instagram ) ministra cursos e palestras virtuais para ajudar principalmente a galera que está iniciando na carreira</p>
+
+  - name: "Bruno Souza"
+    title: "Brazilian JavaMan, the Guy with the Flag"
+    twitter_handle: brjavaman
+    img: "bsouza.jpg"
+    bio: "<p>Since 1995, Bruno helps Java developers improve their careers and work on cool projects with great people! Java Evangelist at ToolsCloud and Leader of SouJava, the Brazilian Java Users Society, Bruno discuss Java and the Developer Career in his <a href=\"https://code4.life\">https://code4.life</a> project.</p>"
+
+  - name: "Bruno Baptista"
+    title: "Senior Java Consultant. Principal Engineer @ Talkdesk"
+    twitter_handle: brunobat_
+    img: "bbaptista.jpeg"
+    bio: |
+      <p>Bruno Baptista is a Principal Engineer at Talkdesk. With over 13 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
+
+  - name: "Roberto Cortez"
+    title: "SmallRye Project Lead @ Red Hat"
+    twitter_handle: radcortez
+    img: "rcortez.jpg"
+    bio: |
+      <p>I'm a professional Java Developer working in the software development industry for more than 10 years. Mostly working with Enterprise technologies, I'm involved with the community to help other individuals to spread the knowledge with my Blog, my YouTube channel and with OSS contributions. Working as a Freelancer gave me the freedom to travel around the world and speak at conferences like JavaOne, Oracle Code One, Devoxx, JFokus, GeeCon, Devnexus, and others, being recognized by the community with a Java Champion title and Rock Star award. I'm also the leader of the Coimbra JUG, a Java User Group in Portugal with more than 500 members, and founder of the JNation Conference in Portugal a one day event with worldwide speakers. When I'm not working I spend most of my time hanging out with friends, playing computer games and travelling with my family</p>
+
+  - name: "Karina Varela"
+    title: "Principal Technical Marketing Manager @ Red Hat"
+    twitter_handle: kvarel4
+    img: "kvarela.jpg"
+    bio: |
+      <p>Karina M. Varela is an expert on the matter of Business Automation and on Java-based architectures and solutions. She brings a solid background in development, architecting, delivering, and troubleshooting critical software in enterprise environments of different sectors around the world. She's a coordinator of the SouJava and KIE community, and in her free time, enjoys contributing to the open-source community by writing, speaking and promoting tech events.</p>
+
+  - name: "Jean-Louis Monteiro"
+    title: "Director of Engineering @ Tomitribe"
+    img: "jlmonteiro.jpg"
+    twitter_handle: JLouisMonteiro
+    bio: |
+      <p>Jean-Louis Monteiro is the Director Of Engineering at Tomitribe. He is a Senior Java Enterprise Software Architect and is passionate about Open Source.</p>
+
+  - name: Otávio Santana
+    title: "Distinguished Engineer @ Zup Innovation"
+    twitter_handle: otaviojava
+    img: "osantana.jpg"
+    bio: |
+      <p>Empowering developers worldwide to deliver better software faster, scalable in the Cloud. Otavio is a passionate software engineer focused on Cloud and Java technology. He has experience mainly in persistence polyglot and high-performance applications in finances, social media, and e-commerce.</p>
+      <p>Otavio is a member of both Expert Groups and Expert Leader in several JSRs and JCP executive committee. He is working on several Apache and Eclipse Foundation projects such as Apache Tamaya, MicroProfile, Jakarta EE, where he is leading the first specification at Jakarta EE with Jakarta NoSQL. A JUG leader and global speaker at JavaOne and Devoxx conferences. Otavio has received recognition for his OSS contributions such as the JCP Outstanding Award, Member of the year and innovative JSR, Duke’s Choice Award, and Java Champion Award, to name a few.</p>
+
+  - name: "Emanuel Saad"
+    title: "Sales Consultant @ Payara "
+    img: "emanuel_saad.jpg"
+    twitter_handle:
+    bio: |
+      <p>Sales Consultant | Payara Services Ltd | The supported Jakarta EE runtime</p>
+
+
+  - name: "Paulo Simões"
+    title: "Developer Evangelist, Messaging and Microservices, Oracle Database"
+    img: "psimoes_2022.jpg"
+    bio: |
+      <p>Paulo capacita arquitetos, desenvolvedores e SREs em todo o mundo para construir e entregar aplicações escaláveis e arquiteturas de sistemas otimizadas para os recursos exclusivos e diferenciais da nuvem; E, apoia organizações a embarcar em sua jornada nativa da nuvem. Apaixonado por arquitetura de sistemas e engenharia de software, Paulo dedica-se a aprender e compartilhar conhecimentos focados em nuvem, Java e outras tecnologias emergentes.</p>
+      <p>Paulo foi reconhecido como embaixador da Cloud Native Computing Foundation, é um palestrante ativo sobre projetos do CNCF e um desenvolvedor de suas comunidades. Também é membro do conselho da SouJava, um dos maiores JUGs do mundo.</p>
+      <p>Como Developer Advocate, ele inspira desenvolvedores e SREs compartilhando experiências e melhores práticas por meio de conteúdo on-line e em eventos como Oracle Open World, The Developers Conference, Campus Party e Meetups espalhados pela América Latina.</p>
+
+  - name: "Sergio Costa"
+    title: "Gerente de Desenvolvimento de Software – IBM Corp"
+    img: "scosta.jpg"
+    twitter_handle: sscosta1
+    bio: |
+      <p>Formado pela Escola Politecnica da USP em 1984, ingressei na IBM em 1986 no Brasil e fui transferido para IBM EUA em 1999, onde venho atuando em desenvolvimento de software na area de Telecomunicacoes e Servidores de Aplicacao WebSphere.  Minha equipe é responsavel pela camada de rede do WebSphere Application Server, envolvendo o Servlet Container, JSP, JSF, Channel Framework, WebSockets, HTTP/2, SIP, etc.</p>
