@@ -38,6 +38,13 @@ Não perca esta oportunidade, confirme sua participação gratuitamente:
     {{< events/agenda event="portuguese" year="2022" >}}
 {{</ grid/div >}}
 
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+{{< grid/div class="padding-top-40" isMarkdown="false">}}
+{{< events/user_display year="2022" event="portuguese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+{{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" useCarousel="true" displayDetails="false">}}
 Estamos orgulhosos de dizer que as sessões e palestras do JakartaOne Livestream Event são escolhidas por um comitê independente composto por voluntários da comunidade Jakarta® EE e Cloud Native Java!

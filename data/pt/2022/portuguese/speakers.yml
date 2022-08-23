@@ -56,17 +56,17 @@ items:
       <p>Sales Consultant | Payara Services Ltd | The supported Jakarta EE runtime</p>
 
 
-  - name: "Paulo Simoes"
-    title: "CNCF Ambassador | Developer Advocate, Cloud Solution Engineer na Oracle"
-    img: "psimoes.jpg"
+  - name: "Paulo Simões"
+    title: "Developer Evangelist, Messaging and Microservices, Oracle Database"
+    img: "psimoes_2022.jpg"
     bio: |
       <p>Paulo capacita arquitetos, desenvolvedores e SREs em todo o mundo para construir e entregar aplicações escaláveis e arquiteturas de sistemas otimizadas para os recursos exclusivos e diferenciais da nuvem; E, apoia organizações a embarcar em sua jornada nativa da nuvem. Apaixonado por arquitetura de sistemas e engenharia de software, Paulo dedica-se a aprender e compartilhar conhecimentos focados em nuvem, Java e outras tecnologias emergentes.</p>
       <p>Paulo foi reconhecido como embaixador da Cloud Native Computing Foundation, é um palestrante ativo sobre projetos do CNCF e um desenvolvedor de suas comunidades. Também é membro do conselho da SouJava, um dos maiores JUGs do mundo.</p>
       <p>Como Developer Advocate, ele inspira desenvolvedores e SREs compartilhando experiências e melhores práticas por meio de conteúdo on-line e em eventos como Oracle Open World, The Developers Conference, Campus Party e Meetups espalhados pela América Latina.</p>
 
   - name: "Sergio Costa"
-    title: "IBM"
-    img: ""
-    twitter_handle:
+    title: "Gerente de Desenvolvimento de Software – IBM Corp"
+    img: "scosta.jpg"
+    twitter_handle: sscosta1
     bio: |
-      <p></p>
+      <p>Formado pela Escola Politecnica da USP em 1984, ingressei na IBM em 1986 no Brasil e fui transferido para IBM EUA em 1999, onde venho atuando em desenvolvimento de software na area de Telecomunicacoes e Servidores de Aplicacao WebSphere.  Minha equipe é responsavel pela camada de rede do WebSphere Application Server, envolvendo o Servlet Container, JSP, JSF, Channel Framework, WebSockets, HTTP/2, SIP, etc.</p>

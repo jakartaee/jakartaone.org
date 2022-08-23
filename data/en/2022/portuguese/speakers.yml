@@ -55,18 +55,17 @@ items:
     bio: |
       <p>Sales Consultant | Payara Services Ltd | The supported Jakarta EE runtime</p>
 
-
-  - name: "Paulo Simoes"
-    title: "CNCF Ambassador | Developer Advocate, Cloud Solution Engineer na Oracle"
-    img: "psimoes.jpg"
+  - name: "Paulo Simões"
+    title: "Developer Evangelist, Messaging and Microservices, Oracle Database"
+    img: "psimoes_2022.jpg"
     bio: |
-      <p>Paulo capacita arquitetos, desenvolvedores e SREs em todo o mundo para construir e entregar aplicações escaláveis e arquiteturas de sistemas otimizadas para os recursos exclusivos e diferenciais da nuvem; E, apoia organizações a embarcar em sua jornada nativa da nuvem. Apaixonado por arquitetura de sistemas e engenharia de software, Paulo dedica-se a aprender e compartilhar conhecimentos focados em nuvem, Java e outras tecnologias emergentes.</p>
-      <p>Paulo foi reconhecido como embaixador da Cloud Native Computing Foundation, é um palestrante ativo sobre projetos do CNCF e um desenvolvedor de suas comunidades. Também é membro do conselho da SouJava, um dos maiores JUGs do mundo.</p>
-      <p>Como Developer Advocate, ele inspira desenvolvedores e SREs compartilhando experiências e melhores práticas por meio de conteúdo on-line e em eventos como Oracle Open World, The Developers Conference, Campus Party e Meetups espalhados pela América Latina.</p>
+      <p>During these last 22 years, I could serve in different roles, from consultant for infrastructure implementation on a large Energy company, CTO implementing a digitalization of a small Healthcare company, and developer of Telecom Performance Systems, until arrived at BEA/Oracle as Enterprise Architect were I am proud that during 15 years helped our biggest customers from Latin America to deliver better solutions and architectures.</p>
+      <p>Currently, I am a member of a dream team — The Oracle Database Developer Evangelists — Building communities, sharing knowledge, and enabling developers to code, ship, and run modern solutions with speed and safety using the Best-in-Class Database to care for the most important asset — the Data.</p>
+      <p>I am passionate about learning and love sharing my knowledge and help. If you want to connect, share experiences, and learn together, I am proud to meet you.</p>
 
   - name: "Sergio Costa"
-    title: "IBM"
-    img: ""
-    twitter_handle:
+    title: "Software development manager – IBM Corp"
+    img: "scosta.jpg"
+    twitter_handle: sscosta1
     bio: |
-      <p></p>
+      <p>Formado pela Escola Politecnica da USP em 1984, ingressei na IBM em 1986 no Brasil e fui transferido para IBM EUA em 1999, onde venho atuando em desenvolvimento de software na area de Telecomunicacoes e Servidores de Aplicacao WebSphere.  Minha equipe é responsavel pela camada de rede do WebSphere Application Server, envolvendo o Servlet Container, JSP, JSF, Channel Framework, WebSockets, HTTP/2, SIP, etc.</p>

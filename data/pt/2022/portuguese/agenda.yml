@@ -39,7 +39,7 @@ items:
       type: cloud
       time: 14:30-15:15 (WET) | 10:30-11:15 (GMT+3)
 
-    - name: IBM
+    - name: "O compromisso da IBM com Java, Liberty, Jakarta EE e Microprofile"
       presenter: Sergio Costa
       type: vendor
       time: 15:15-15:30 (WET) | 11:15-11:30 (GMT+3)
