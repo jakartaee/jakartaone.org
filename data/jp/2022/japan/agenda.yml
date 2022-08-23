@@ -92,10 +92,12 @@ items:
       type: studio
       time: 16:25-16:40 (JST)
 
-    - name: ベンダートラック - Payara
+    - name: Introduction to Payara 6 Community
       presenter: 蓮沼賢志
       type: vendor
       time: 17:00-17:20 (JST)
+      abstract: |
+              <p>まもなく Jakarta EE 10 に準拠した Payara 6 Community がリリースされます。Payara Community エディションは今後 Jakarta EE 8 から Jakarta EE 10 に切り替わるため、まずその違いを押さえていただきたいと思います。このセッションでは、Payara 6 Community での変更点と、バージョン 5 から 6 への移行手順についてご説明します。</p>
 
     - name: MicroProfile と CloudRunで作るサーバレスJakartaEE
       presenter: 紅月

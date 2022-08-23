@@ -94,10 +94,12 @@ items:
       abstract: |
               <p></p>
 
-    - name: Vendor - Payara
+    - name: Introduction to Payara 6 Community
       presenter: Kenji Hasunuma
       type: vendor
       time: 17:00-17:20 (JST)
+      abstract: |
+              <p>We will very soon release Payara 6 Community with Jakarta EE 10 compatiblility and some new features. As Payara Community Edition will switch from Jakarta EE 8 to Jakarta EE 10, we would like you to know these differences at first. In this talk, I will explain what is changed and how to migrate from Version 5 to 6.</p>
 
     - name: Serverless Jakarta EE with MicroProfile and CloudRun
       presenter: koduki
