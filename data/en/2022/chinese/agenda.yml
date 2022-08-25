@@ -68,7 +68,7 @@ items:
       time: 16:25-16:45 GMT+08
       abstract: |
         This paper introduces the development history of China's communication industry, the system structure of the communication industry, the development history of Jakarta EE technology, and the help of Jakarta EE technology to the development of the communication industry system. The current state of the systems in the communications industry and the technical requirements for subsequent developments. Hopefully Jakarta EE will have more technology to match the growth of the communications industry.
-    - name: Industry Session (Primeton,Asiainfo,IBM,TongTech,Apusic,Cvicse）
+    - name: Industry Session (Primeton,Asiainfo,IBM,TongTech,Apusic,Cvicse,Oracle）
       presenter: WG Members
       type: keynote
       time: 16:45-17:15 GMT+08
