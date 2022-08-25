@@ -68,7 +68,7 @@ items:
       time: 16:25-16:45 GMT+08
       abstract: |
         介绍中国通信行业的发展简史，通信行业的系统结构，Jakarta EE的技术发展简史，Jakarta EE技术对通信行业系统发展的助力情况。通信行业的系统现状以及后续发展对技术的需求。希望Jakarta EE能有更多匹配通信行业发展的技术。
-    - name: 行业主题 (普元,亚信,IBM,东方通,金蝶,中创）
+    - name: 行业主题 (普元,亚信,IBM,东方通,金蝶天燕,中创,Oracle）
       presenter: Jakarta EE 工作组成员
       type: keynote
       time: 16:45-17:15 GMT+08
