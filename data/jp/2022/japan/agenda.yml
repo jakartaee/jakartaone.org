@@ -87,10 +87,12 @@ items:
       abstract: |
               <p>富士通では25年以上Java開発に始まり、最近ではEclipse Foundationに日本国内ベンダーで唯一Strategic memberとして参加し、Jakarta EE/MicroProfileの発展に貢献しています。製品としてはInterstageを20年以上継続して提供しており、今後も最新技術を取り入れ製品を提供し、Javaアプリケーションの安定稼働を支援していく計画です。このセッションでは富士通のJavaへの取り組みと、製品の特長や今後の提供計画についてご紹介します。</p>
 
-    - name: CN4Jスタジオ - MicroProfile OpenTelemetry
+    - name: CN4Jスタジオ - MicroProfile Telemetryの紹介と使い方
       presenter: 河阪幸機
       type: studio
       time: 16:25-16:40 (JST)
+      abstract: |
+              <p>MicroProfileには、Observabilityの実現に必要な分散トレースを定めた仕様「MicoroProfile OpenTracing」があります。今後リリース予定のMicroProfile 6.0から、この「MicroProfile OpenTracing」が「MicroProfile Telemetry」へと刷新される予定です。このセッションでは、MicroProfile Telemetryに変更される背景や変更点、実際にどうやって使っていくのかを説明します。</p>
 
     - name: Introduction to Payara 6 Community
       presenter: 蓮沼賢志
