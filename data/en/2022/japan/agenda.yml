@@ -87,12 +87,12 @@ items:
       abstract: |
               <p>Fujitsu has been developing Java for more than 25 years, and recently joined the Eclipse Foundation as the only Japanese vendor as a Strategic Member, contributing to the development of Jakarta EE/MicroProfile.We have been providing Interstage for more than 20 years and plan to continue providing products incorporating the latest technologies to support stable operation of Java applications.In this session, introduce about Fujitsu's Java efforts, product features, and future delivery plans.</p>
 
-    - name: CN4J Studio - MicroProfile OpenTelemetry
+    - name: CN4J Studio - Introduction and Usage of MicroProfile Telemetry
       presenter: Kouki Kousaka
       type: studio
       time: 16:25-16:40 (JST)
       abstract: |
-              <p></p>
+              <p>MicroProfile includes MicorProfile OpenTracing for distrubuted tracing as to implement observabilities. From the upcoming MicroProfile 6.0 release, MicroProfile OpenTracing will be replaced to MicroProfile Telemetry. In this session, I'll explain the background of the change to MicroProfile Telemetry and how it works.</p>
 
     - name: Vendor - Payara
       presenter: Kenji Hasunuma
