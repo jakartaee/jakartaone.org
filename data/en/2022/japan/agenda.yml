@@ -108,8 +108,8 @@ items:
       abstract: |
               <p>How do you create a serverless EE environment using Google's CloudRun with Quarkus and Helidon? I will talk about what points should be considered in comparison with conventional EE environment.</p>
 
-    - name: Community
-      presenter: CFP
+    - name: Using Jakarta EE in financial enterprise systems
+      presenter: Hiromi Takahashi
       type: cloud
       time: 18:10-18:50 (JST)
 

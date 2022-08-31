@@ -108,10 +108,12 @@ items:
       abstract: |
               <p>QuarkusやHelidonといったMicroProfileとGoogleのCloudRunを使ってどのようにサーバレスなEE環境を作るのか？そして、どのような点を従来のEE環境と比べて意識した方が良いかという点について話します。</p>
 
-    - name: コミュニティセッション
-      presenter: CFP
+    - name: 金融系のエンタープライズ企業におけるJakarta EEへの期待、活用方法について
+      presenter: 髙橋 博実
       type: cloud
       time: 18:10-18:50 (JST)
+      abstract: |
+              <p>システムのライフサイクルが比較的長くなると言われている金融システムにおけるこれまでのJava EEの活用と今後のJakarta EEへの期待、活用方法について整理、紹介させていただきます。</p>
 
     - name: MicroProfile 5で超手軽に始める今どきのクラウド完全対応エンタープライズシステム
       presenter: 岩崎浩文
