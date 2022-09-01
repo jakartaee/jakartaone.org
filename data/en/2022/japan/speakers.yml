@@ -34,6 +34,13 @@ items:
 
   - name: "Hiromi Takahashi"
     title: Mitsubishi UFJ Information Technology, Ltd. Digital Innovation Group, Senior Technical Lead
+    img: "takahashi-san.jpg"
     bio: |
       <p>In 2006, I joined UFJIS (currently Mitsubishi UFJ Information Technology, Ltd.), and was in charge of the current post after developing market-based web applications, developing in-house frameworks utilizing Java EE, standardizing various technologies, agile development of smartphone applications for customers using SpringBoot as the back end, and managing director of the Digital Produce Department. While emphasizing technical skill improvement and utilization, and team growth, I am engaged in activities to disseminate new technologies both inside and outside the company.I have contributed Java-related articles to Nikkei SYSTEMS magazine and have appeared multiple times at various Java and agile events, and aims to contribute to the community and share information by speaking at the event.I have three children, lively and happy.</p>
 
+  - name: "Takakiyo, TANAKA"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    twitter_handle: ttakakiyo
+    bio: |
+      <p>Joined IBM Japan at 1998. Technical Specialist of WebSphere Application Server since 2000. Technical writing, session speaker in Java/Java EE technology.</p>

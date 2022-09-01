@@ -73,12 +73,12 @@ items:
       abstract: |
               <p>Oracle Enterprise Cloud Native JavaはWebLogic Serverをはじめとするオラクルの重要なミドルウェア製品群であり、２５年以上におよぶ世界中での活用を経て、現在では最新のJakarta EEに準拠した製品へと進化しつつあります。このセッションではオラクルのJava EEからJakarta EEへの変遷においても変わらず続く貢献と、WebLogic Server、Coherence、Helidon、Verrazzanoなどの製品群におけるJakarta EEへの対応について、その製品の特長や今後のリリース予定なども含めてご紹介します。</p>
 
-    - name: CN4Jスタジオ - Jakarta Concurrency
+    - name: CN4Jスタジオ - Jakarta Concurrencyの現在と今後
       presenter: 伊藤敬
       type: studio
       time: 15:45-16:00 (JST)
       abstract: |
-              <p></p>
+              <p>Jakarta Concurrency は、Jakarta EE プラットフォームの基本的な利点を維持しながら、コンテナーの整合性を損なうことなく、アプリケーション コンポーネントからの同時実行を使用するための仕様を提供します。本セッションではJakarta EE 9でのConcurrency 2.0仕様の概要とJakarta EE 10で実装予定のConurrency 3.0仕様についてご紹介します。</p>
 
     - name: 富士通とJakarta EE &MicroProfile
       presenter: 草野優一
@@ -123,12 +123,12 @@ items:
               <p>MicroProfileが公開され5年。このアプリケーションサーバーが不要であるクラウドネイティブ型デファクトスタンダード仕様であるMicroProfileも遂に5が公開され、ほど経ち、筆者も多くの実績を積み上げてきました。今回は公開されたばかりのMicroProfile 5対応実装であるHelidon 3を使い、そのままコンテナーとして配備するまでを、実際に設計時・実装時に気をつけるべきポイントを押さえながらひととおり見ていきます。</p>
 
     - name: パネルディスカッション
-      presenter: TBD
+      presenter: 伊藤敬
       type: panel
       time: 19:35-20:30 (JST)
 
     - name: Q&A
-      presenter: TBD
+      presenter: 登壇者
       type: panel
       time: 20:30-21:00 (JST)
 
