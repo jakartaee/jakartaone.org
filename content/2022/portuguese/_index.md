@@ -12,16 +12,40 @@ tagline: "September 29, 2022"
 layout: "single"
 menu_name: "portuguese"
 tagline_suffix: |
-  <p><a class="btn btn-primary margin-right-10" href="https://forms.gle/e5xrvX6N2MpNaNJMA">Call For Papers</a></p>
+  <p>
+    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/jakarta-portuguese-2022">Register</a>
+  </p>
 ---
 
-{{< grid/section-container class="padding-bottom-40 text-center">}}
-  {{< grid/div class="padding-top-30" isMarkdown="false">}}
-    <h2>More content coming soon</h2>
-  {{</ grid/div >}}
+{{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+{{< grid/div class="container" isMarkdown="false" >}}
+{{< events/registration event="portuguese" year="2022" >}}
+This is the **third edition of JakartaOne Livestream Portuguese**! 
+
+JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the 
+current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
+With approximately 250 million native speakers and 24 million that has Portuguese as their second language, there is a huge potential to enable, nurture and strengthen the Portuguese-speaking 
+Java community! 
+
+We welcome users and developers from all over the globe to join us on **September 29, 2022** for a day of knowledge growth fully in Portuguese!
+
+Don't miss it, confirm your participation for free:
+{{</ events/registration >}}
+{{</ grid/div >}}
+{{</ grid/section-container >}}
+
+{{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="portuguese" year="2022" >}}
+{{</ grid/div >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+{{< grid/div class="padding-top-40" isMarkdown="false">}}
+{{< events/user_display year="2022" event="portuguese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+{{</ grid/div >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" >}}
+{{< events/program-committee event="portuguese" year="2022" source="committee" subpage="program-committee" useCarousel="true" displayDetails="false">}}
 We are proud to say that the sessions and keynotes for JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta&reg; EE and Cloud Native Java community!
 {{</ events/program-committee >}}

@@ -17,88 +17,118 @@ types:
       color: "#2a2a70"
 
 items:
-    - name: キーノート
+    - name: Jakarta EE 10とこれから
       presenter: 数村憲治
       type: keynote
       time: 13:00-13:30 (JST)
+      abstract: |
+              <p>Jakarta EE 10のハイライト、jakartaパッケージ名への移行状況(ベンダー製品、IDE/ツールなど)、Jakarta EE 11の展望を紹介します。</p>
 
-    - name: ベンダートラック - IBM
+    - name: LibertyでJava EEをクラウドネイティブの世界へ
       presenter: 田中孝清
       type: vendor
       time: 13:30-13:50 (JST)
+      abstract: |
+              <p>IBMの提供するOSSのランタイムOpen Liberty，ならびに製品版であるWebSphere Libertyは，最新のJakarta EE仕様ならびにMicroProfile仕様に対応した軽量・高速な次世代のアプリケーションサーバーです。完全にモジュール化されたLibertyは，必要とする機能だけを組み合わせることができ，豊富な機能が提供されているにもかかわらず，最小限のディスク・メモリのフットプリントを実現しています。Libertyランタイムを活用することで，既存のJava EEのシステムをいかにクラウドネイティブの世界に対応させることができるのかをご紹介します。</p>
 
-    - name: CN4Jスタジオ - Config
+    - name: CN4Jスタジオ - MicroProfile Config
       presenter: 田中孝清
       type: studio
       time: 13:50-14:05 (JST)
+      abstract: |
+              <p>MicroProfileで提供されているConfig仕様は，さまざまな構成ソースから共通の手順で構成情報をアプリケーションに提供できます。将来のJakarta EEでも採用が検討されており，マイクロサービスを採用したアプリケーションだけでなく，多くのアプリケーションで活用することができる便利なAPIです。Open Libertyを利用すれば，現在ご利用いただいているJava EEアプリケーションからでも利用できます。</p>
 
-    - name: ベンダートラック - Red Hat
+    - name: Jakarta EE/MicroProfileの世界をひろげるRed Hat Application Foundations
       presenter: 瀬戸智
       type: vendor
       time: 14:10-14:30 (JST)
+      abstract: |
+              <p>Jakarta EE(Java EE)はエンタープライズシステムに必要な多くの仕様をカバーしており、それらを柔軟に組み合わせて信頼性の高いアプリケーションを作ることができます。Red Hatは、基本としてのJakarta EEやMicroProfileをカバーするだけでなく、より高度なユースケースに対応可能なミドルウェア製品群を自由に組み合わせて使えるRed Hat Application Foundationsを発表しました。このセッションではApplication Fundationsを導入するメリットと、どのような製品が含まれるのか、どうやって使っていくのかを説明します。</p>
 
     - name: CN4Jスタジオ - CDI Lite
       presenter: 瀬戸智
       type: studio
       time: 14:30-14:45 (JST)
+      abstract: |
+              <p></p>
 
-    - name: ベンダートラック - Microsoft
+    - name: Jakarta EE/MicroProfile の利用者が Azure を選択する理由
       presenter: 寺田佳央
       type: vendor
       time: 14:45-15:05 (JST)
+      abstract: |
+              <p>Microsoft は、Jakarta EE/MicroProfile の利用者が便利に使えるサービスを提供するため、日々開発・投資を行っています。開発者の中には、かつて Servlet/JSF のスペック・リードを務めた Ed Burn や、Beginning Java EE 6 のオリジナル著者である Antonio Goncalves なども在籍し、Java EE/MicroProfile に精通したエンジニアも多数在籍しています。Microsoft の Jakarta EE/MicroProfile に対する継続した投資で、今では、リフト＆シフトやクラウド・ネィティブ・アプリを作成したいニーズに応えるため、IaaS, PaaS, コンテナ, Kubernetes など様々な実行環境を提供しています。本セッションをご覧いただく事で、エンタープライズ・アプリケーションを最適な環境で動かす方法について理解できます。</p>
 
-    - name: CN4Jスタジオ - Jakarta JSON Binding
+    - name: CN4Jスタジオ - Jakarta JSON Binding の概要と便利な使い方について
       presenter: 寺田佳央
       type: studio
       time: 15:10-15:25 (JST)
+      abstract: |
+              <p>JSON-B は、Java オブジェクトを JSON メッセージとの間で変換するための標準 JSON バインディングです。既存の Java クラスを JSON に変換するためのデフォルトのマッピング・アルゴリズムを定義し、開発者が Java アノテーションを使用してマッピング内容をカスタマイズできるます。本セッションでは JSON-B の基本的な使い方から、他のテクノロジーと組み合わせた便利な使い方についてご紹介します。</p>
 
-    - name: ベンダートラック - オラクル
+    - name: Jakarta EE と Oracle Enterprise Cloud Native Javaのエコシステム
       presenter: 伊藤敬
       type: vendor
       time: 15:25-15:45 (JST)
+      abstract: |
+              <p>Oracle Enterprise Cloud Native JavaはWebLogic Serverをはじめとするオラクルの重要なミドルウェア製品群であり、２５年以上におよぶ世界中での活用を経て、現在では最新のJakarta EEに準拠した製品へと進化しつつあります。このセッションではオラクルのJava EEからJakarta EEへの変遷においても変わらず続く貢献と、WebLogic Server、Coherence、Helidon、Verrazzanoなどの製品群におけるJakarta EEへの対応について、その製品の特長や今後のリリース予定なども含めてご紹介します。</p>
 
-    - name: CN4Jスタジオ - Jakarta Concurrency
+    - name: CN4Jスタジオ - Jakarta Concurrencyの現在と今後
       presenter: 伊藤敬
       type: studio
       time: 15:45-16:00 (JST)
+      abstract: |
+              <p>Jakarta Concurrency は、Jakarta EE プラットフォームの基本的な利点を維持しながら、コンテナーの整合性を損なうことなく、アプリケーション コンポーネントからの同時実行を使用するための仕様を提供します。本セッションではJakarta EE 9でのConcurrency 2.0仕様の概要とJakarta EE 10で実装予定のConurrency 3.0仕様についてご紹介します。</p>
 
-    - name: ベンダートラック - 富士通
+    - name: 富士通とJakarta EE &MicroProfile
       presenter: 草野優一
       type: vendor
       time: 16:05-16:25 (JST)
+      abstract: |
+              <p>富士通では25年以上Java開発に始まり、最近ではEclipse Foundationに日本国内ベンダーで唯一Strategic memberとして参加し、Jakarta EE/MicroProfileの発展に貢献しています。製品としてはInterstageを20年以上継続して提供しており、今後も最新技術を取り入れ製品を提供し、Javaアプリケーションの安定稼働を支援していく計画です。このセッションでは富士通のJavaへの取り組みと、製品の特長や今後の提供計画についてご紹介します。</p>
 
-    - name: CN4Jスタジオ - MicroProfile OpenTelemetry
+    - name: CN4Jスタジオ - MicroProfile Telemetryの紹介と使い方
       presenter: 河阪幸機
       type: studio
       time: 16:25-16:40 (JST)
+      abstract: |
+              <p>MicroProfileには、Observabilityの実現に必要な分散トレースを定めた仕様「MicoroProfile OpenTracing」があります。今後リリース予定のMicroProfile 6.0から、この「MicroProfile OpenTracing」が「MicroProfile Telemetry」へと刷新される予定です。このセッションでは、MicroProfile Telemetryに変更される背景や変更点、実際にどうやって使っていくのかを説明します。</p>
 
-    - name: ベンダートラック - Payara
+    - name: Introduction to Payara 6 Community
       presenter: 蓮沼賢志
       type: vendor
       time: 17:00-17:20 (JST)
+      abstract: |
+              <p>まもなく Jakarta EE 10 に準拠した Payara 6 Community がリリースされます。Payara Community エディションは今後 Jakarta EE 8 から Jakarta EE 10 に切り替わるため、まずその違いを押さえていただきたいと思います。このセッションでは、Payara 6 Community での変更点と、バージョン 5 から 6 への移行手順についてご説明します。</p>
 
-    - name: コミュニティセッション
-      presenter: CFP
+    - name: MicroProfile と CloudRunで作るサーバレスJakartaEE
+      presenter: 紅月
       type: cloud
       time: 17:20-18:00 (JST)
+      abstract: |
+              <p>QuarkusやHelidonといったMicroProfileとGoogleのCloudRunを使ってどのようにサーバレスなEE環境を作るのか？そして、どのような点を従来のEE環境と比べて意識した方が良いかという点について話します。</p>
 
-    - name: コミュニティセッション
-      presenter: CFP
+    - name: 金融系のエンタープライズ企業におけるJakarta EEへの期待、活用方法について
+      presenter: 髙橋 博実
       type: cloud
       time: 18:10-18:50 (JST)
+      abstract: |
+              <p>システムのライフサイクルが比較的長くなると言われている金融システムにおけるこれまでのJava EEの活用と今後のJakarta EEへの期待、活用方法について整理、紹介させていただきます。</p>
 
-    - name: コミュニティセッション
-      presenter: CFP
+    - name: MicroProfile 5で超手軽に始める今どきのクラウド完全対応エンタープライズシステム
+      presenter: 岩崎浩文
       type: cloud
       time: 18:50-19:30 (JST)
+      abstract: |
+              <p>MicroProfileが公開され5年。このアプリケーションサーバーが不要であるクラウドネイティブ型デファクトスタンダード仕様であるMicroProfileも遂に5が公開され、ほど経ち、筆者も多くの実績を積み上げてきました。今回は公開されたばかりのMicroProfile 5対応実装であるHelidon 3を使い、そのままコンテナーとして配備するまでを、実際に設計時・実装時に気をつけるべきポイントを押さえながらひととおり見ていきます。</p>
 
     - name: パネルディスカッション
-      presenter: TBD
+      presenter: 伊藤敬
       type: panel
       time: 19:35-20:30 (JST)
 
     - name: Q&A
-      presenter: TBD
+      presenter: 登壇者
       type: panel
       time: 20:30-21:00 (JST)
 

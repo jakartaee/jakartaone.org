@@ -1,0 +1,46 @@
+items:
+  - name: "Yoshio Terada"
+    title: Microsoft Corporation Sr. Cloud Advocate
+    img: "yoshio-2018.jpg"
+    twitter_handle: yoshioterada
+    bio: |
+      <p>I have been active as a Java evangelist since Sun Microsystems and Oracle Japan for a long time, providing the latest Java technical information and revitalizing Java community activities with the Japan Java User Group (JJUG). In July 2015, I moved to Microsoft Japan Co., Ltd. Even after changing company, I am still promoting and enlightening the use of Java on the Microsoft platform. In July 2016, I became the second Japanese Java Champion. Since July 2018, I have been working as a Cloud Advocate at Microsoft Corporation.I am also one of the board members of Japanese Java Users Group. 2013 Nikkei Computer: I was selected as one of the 100 people who invigorate the world. SNS Twitter: @yoshioterada</p>
+
+  - name: "Takashi Ito"
+    title: Principal Product Manager, Oracle Corporation
+    img: "TakashiIto.jpg"
+    twitter_handle: itakash
+    bio: |
+      <p>Over 20years of experiences of product management for application server products at BEA Systems Japan, Sun Microsystems and Oracle Japan. In pallarel, organizing huge Java events in Japan - JavaOne Tokyo and Java Day Tokyo for several times coopration with japanese java communities. Currently working for Oracle Corporation and covering Japan and Asia, Principal product manager for Enterprise Java products such as WebLogic Server and Helidon. SNS Twitter: @itakash</p>
+
+  - name: "Kenji Kazumura"
+    title: Senior Architect, Fujitsu Limited
+    img: "kazumura.jpg"
+    twitter_handle: kkzr
+    bio: |
+      <p>Kenji Kazumura is a member of Jakarta EE Speficiation Committee and MicroProfile Steering Committee. He is actively working for defining Jakarta EE and MicroProfile specifications as a committee member. He is also a member of JCP EC and advocating Java and Java related technologies  worldwide. He lead the development of Interstage Application Server and Application Platform at Fujitsu.</p>
+
+  - name: "koduki"
+    img: "koduki.png"
+    twitter_handle: koduki
+    bio: |
+      <p></p>
+
+  - name: "Satochi Seto"
+    img: "seto.png"
+    twitter_handle: megascus
+    bio: |
+      <p></p>
+
+  - name: "Hiromi Takahashi"
+    title: Mitsubishi UFJ Information Technology, Ltd. Digital Innovation Group, Senior Technical Lead
+    img: "takahashi-san.jpg"
+    bio: |
+      <p>In 2006, I joined UFJIS (currently Mitsubishi UFJ Information Technology, Ltd.), and was in charge of the current post after developing market-based web applications, developing in-house frameworks utilizing Java EE, standardizing various technologies, agile development of smartphone applications for customers using SpringBoot as the back end, and managing director of the Digital Produce Department. While emphasizing technical skill improvement and utilization, and team growth, I am engaged in activities to disseminate new technologies both inside and outside the company.I have contributed Java-related articles to Nikkei SYSTEMS magazine and have appeared multiple times at various Java and agile events, and aims to contribute to the community and share information by speaking at the event.I have three children, lively and happy.</p>
+
+  - name: "Takakiyo, TANAKA"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    twitter_handle: ttakakiyo
+    bio: |
+      <p>Joined IBM Japan at 1998. Technical Specialist of WebSphere Application Server since 2000. Technical writing, session speaker in Java/Java EE technology.</p>
