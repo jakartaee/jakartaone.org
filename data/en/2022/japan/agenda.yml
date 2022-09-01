@@ -71,14 +71,14 @@ items:
       type: vendor
       time: 15:25-15:45 (JST)
       abstract: |
-              <p>Oracle Enterprise Cloud Native Java is Oracle’s essential middleware product line, including WebLogic Server. More than 25 years of adoption around the world, the products have been evolving and the latest Jakarta EE compliant. In this session, you could hear about Oracle’s continued contributions for Jakarta EE, and support for Jakarta EE in the product lineup such as WebLogic Server/Coherence/Helidon/Verrazzano with the latest features and future release of those products.</p>
+              <p>Oracle Enterprise Cloud Native Java is Oracle's essential middleware product line, including WebLogic Server. More than 25 years of adoption around the world, the products have been evolving and the latest Jakarta EE compliant. In this session, you could hear about Oracle's continued contributions for Jakarta EE, and support for Jakarta EE in the product lineup such as WebLogic Server/Coherence/Helidon/Verrazzano with the latest features and future release of those products.</p>
 
-    - name: CN4J Studio - Jakarta Concurrency
+    - name: CN4J Studio - Jakarta Concurrency, now and future
       presenter: Takashi Ito
       type: studio
       time: 15:45-16:00 (JST)
       abstract: |
-              <p></p>
+              <p>Jakarta Concurrency provides specifications for using concurrency from application components without compromising container integrity while preserving the fundamental benefits of the Jakarta EE platform. In this session, you can hear the outline of the Concurrency 2.0 specification in Jakarta EE 9 and the Concurrency 3.0 specification scheduled to be implemented in Jakarta EE 10.</p>
 
     - name: Fujitsu & Jakarta EE/MicroProfie
       presenter: Yuichi Kusano
@@ -121,12 +121,12 @@ items:
               <p>MicroProfile was released 5 years ago. MicroProfile, which is a cloud-native standard specification that does not require an application server, has finally released version 5. This time, I will use Helidon 3, which is an implementation for MicroProfile 5 that has just been released, and take a look at how it is deployed as a container while keeping in mind the points to be taken care of when designing and implementing it.</p>
 
     - name: Pnael Discussion
-      presenter: TBD
+      presenter: Takashi Ito
       type: panel
       time: 19:35-20:30 (JST)
 
     - name: Q&A
-      presenter: TBD
+      presenter: Speakers
       type: panel
       time: 20:30-21:00 (JST)
 

@@ -28,7 +28,7 @@ items:
       <p>YouTubeやニコニコ動画でIT技術に関連する動画や毎週のITニュースの配信等を活動中。エンタープライズシステムの設計/開発/運用を得意としており、JavaやDevOps、クラウドのエンジニアとしても働いている。<br/><b>SNS</b><ul><li>Twitter: <a href="https://twitter.com/koduki">@koduki</a></li><li><a href="https://t.co/kBqSAQJMZJ">YouTubeチャンネル</a></li><li><a href="https://com.nicovideo.jp/live/co4229895">ニコ生</a></li></ul></p>
 
   - name: "瀬戸　智"
-    title: スペシャリストソリューションアーキテクト
+    title: スペシャリストソリューションアーキテクト, Red Hat
     img: "seto.png"
     twitter_handle: megascus
     bio: |
@@ -36,7 +36,14 @@ items:
 
   - name: "髙橋 博実"
     title: 三菱UFJインフォメーションテクノロジー株式会社デジタルイノベーション本部　シニアテクニカルリード
+    img: "takahashi-san.jpg"
     bio: |
        <p>2006年に前身の旧UFJIS社(現 三菱UFJインフォメーションテクノロジー)に入社し、市場系Webアプリケーション開発、Java EEを活用したインハウスフレームワーク開発、各種技術標準化、バックエンドにSpringBootを使ったお客様向けスマホアプリ開発のアジャイル開発、デジタルプロデュース部長を経て現ポストを担当。技術スキル研鑽と活用、チーム成長に重きを置きながら社内外にて新技術普及活動を実施中。雑誌 日経SYSTEMSにてJava関連記事の寄稿、Java関連、アジャイル関連各種イベントに複数回登壇経験あり、登壇することでのコミュニティへの貢献、情報交換を狙いとしている。家庭では3児の父としてにぎやかな日々を送っている。</p>
 
+  - name: "田中 孝清"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    twitter_handle: ttakakiyo
+    bio: |
+       <p>1998年日本IBM入社。2000年よりソフトウェア事業でWebSphere Application Serverの技術者として日本でのセールス活動に携わっています。様々なセミナーやWebサイトでIBMからのJavaの情報発信を続けています。</p>
 
