@@ -47,3 +47,29 @@ items:
     bio: |
        <p>1998年日本IBM入社。2000年よりソフトウェア事業でWebSphere Application Serverの技術者として日本でのセールス活動に携わっています。様々なセミナーやWebサイトでIBMからのJavaの情報発信を続けています。</p>
 
+  - name: "蓮沼 賢志"
+    title: Payara コントリビューター
+    img: "khasunuma.jpg"
+    twitter_handle: khasunuma
+    bio: |
+      <p>国内のシステム・インテグレーターにてソフトウェア・システムの要求定義・設計・開発、新規事業の企画・推進を担当した後、Payara Services Ltd にてカスタマー・サポート、日本語化、Jakarta EE および MicroProfile のエバンジェリストなどに携わりました。</p>
+
+  - name: "草野 優一"
+    title: Interstageテクニカルセールス担当マネージャー,富士通
+    img: "kusano.jpg"
+    twitter_handle: kusano_yuichi
+    bio: |
+       <p>2011年より富士通(株)に在籍し、現在は主に富士通製Javaアプリケーションサーバである「Interstage」のマーケティングや適用支援を担当。最近はセミナーやブログでJakarta EEやMicroProfileの啓蒙活動を行っている。</p>
+
+  - name: "岩崎 浩文"
+    title: IT エンジニア
+    img: "HirofumiIwasaki.jpg"
+    twitter_handle: HirofumiIwasaki
+    bio: |
+      <p>20年以上エンタープライズシステム設計・構築の持つ、Jakarta EE及びMicroProfileのスペシャリストとして、国内外の多くの重要システムの開発に携わる。JavaOneカンファレンスでの発表を始めとした講演多数。福岡在住。</p>
+
+  - name: "河阪 幸機"
+    title: エンジニア, 富士通株式会社
+    img: "kosaka.jpg"
+    bio: |
+      <p>2017年に富士通に入社。2021年から富士通のJava製品であるEnterprise Application Platform、Launcherの開発を担当。Jakarta EE関連のコミュニティにContributorとして貢献。</p>
