@@ -13,7 +13,9 @@ layout: "single"
 ---
 
 {{< grid/section-container class="padding-bottom-40 text-center">}}
-  {{< grid/div class="padding-top-30" isMarkdown="false">}}
-    <h2>Content coming soon</h2>
-  {{</ grid/div >}}
+  <h2>Section 1</h2>
+{{</ grid/section-container >}}
+
+{{< grid/section-container class="padding-bottom-40 text-center">}}
+  <h2>Section 2</h2>
 {{</ grid/section-container >}}
