@@ -10,11 +10,12 @@ items:
       </p>
     img: tobradovic.png
   - name: Shabnam Mayel
-    title: Todo     
+    title: Senior Marketing Manager, Cloud Native Java
     bio: |
       <p>
-        Todo 
+        No bio 
       </p>
+    img: shabnam-mayel-2022.png
   - name: Ivar Grimstad
     title: Jakarta EE Developer Advocate"
     bio: |
