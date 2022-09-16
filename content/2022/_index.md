@@ -21,12 +21,12 @@ JakartaOne Livestream is a one day virtual conference for developers and technic
 {{</ grid/div >}}
 {{</ grid/section-container >}}
 
-{{< grid/div class="row" isMarkdown="false" >}}
+{{< grid/div class="row margin-bottom-40" isMarkdown="false" >}}
   {{< events/program-committee title="Program  Committee" year="2022" source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that this year, sessions at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!
   {{</ events/program-committee >}}
 {{</ grid/div >}}
 
-{{< grid/div class="row" isMarkdown="false" >}}
-  {{< events/program-committee title="Organizers" year="2022" source="organizers" subpage="organizers" useCarousel="false" >}}
-{{</ grid/div >}}
+{{< grid/section-container id="organizers" class="row" isMarkdown="false" >}}
+  {{< events/user_display title="Organizers" year="2022" source="organizers" subpage="organizers" >}}
+{{</ grid/section-container >}}
