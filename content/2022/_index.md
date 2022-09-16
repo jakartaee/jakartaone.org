@@ -13,6 +13,14 @@ layout: "single"
 tagline_suffix: |
   <a class="btn btn-primary margin-right-10 margin-bottom-10" href="https://www.papercall.io/jakartaone-2022">Call For Papers</a>
 ---
+{{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+{{< grid/div class="container" isMarkdown="false" >}}
+{{< events/registration year="2022" >}}
+JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
+{{</ events/registration >}}
+{{</ grid/div >}}
+{{</ grid/section-container >}}
+
 {{< grid/div class="row" isMarkdown="false" >}}
   {{< events/program-committee title="Program  Committee" year="2022" source="committee" subpage="program-committee" useCarousel="false" >}}
 We are proud to say that this year, sessions at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!
