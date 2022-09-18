@@ -1,4 +1,5 @@
 timezone: GMT+09
+complete: true
 types:
     - name: キーノート
       id: keynote 
