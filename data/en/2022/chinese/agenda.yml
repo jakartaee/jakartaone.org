@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Keynote / Industry Keynote
       id: keynote
@@ -15,9 +15,11 @@ types:
 
 items:
     - name: Kick Start Keynote
+      
       presenter: Eclipse Foundation
       type: keynote
       time: 14:00-14:10 GMT+08
+      vod: "https://www.youtube.com/watch?v=JGbtlW3Dhno"
       abstract: |
         From the official information of Eclipse Foundation, the content involves the working group, Jakarta EE and Microprofile project, etc.
     - name: Kick Start Keynote
