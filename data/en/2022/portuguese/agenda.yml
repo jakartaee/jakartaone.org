@@ -14,7 +14,7 @@ types:
     color: "#2a2a70"
 
 items:
-    - name: Welcome
+    - name: "Welcome"
       presenter: Program Comittee
       type:
       time: 13:00-13:15 (WET) | 09:00-09:15 (GMT+3)
@@ -24,7 +24,7 @@ items:
       type: vendor
       time: 13:15-13:30 (WET) | 09:15-09:30 (GMT+3)
 
-    - name: Is Java still worth learning in 2022?
+    - name: "Is Java still worth learning in 2022?"
       presenter: Professor Isidro
       type: cloud
       time: 13:30-14:15 (WET) | 09:30-10:15 (GMT+3)
@@ -34,7 +34,7 @@ items:
       type: vendor
       time: 14:15-14:30 (WET) | 10:15-10:30 (GMT+3)
 
-    - name: OpenTelemetry with Eclipse Microprofile
+    - name: "OpenTelemetry with Eclipse Microprofile"
       presenter: Bruno baptista & Roberto Cortez
       type: cloud
       time: 14:30-15:15 (WET) | 10:30-11:15 (GMT+3)
@@ -44,13 +44,13 @@ items:
       type: vendor
       time: 15:15-15:30 (WET) | 11:15-11:30 (GMT+3)
 
-    - name: Everything you need to know about the new Jakarta EE 10
+    - name: "Make your life easier with Jakarta's new persistence features: Data and NoSQL"
       presenter: Karina Varela & Otávio Santana
       type: keynote
       time: 15:15-16:00 (WET) | 11:30-12:15 (GMT+3)
 
-    - name: Oracle
-      presenter: Paulo Simoes
+    - name: "Oracle and Jakarta EE"
+      presenter: Paulo Simões
       type: vendor
       time: 17:00-17:15 (WET) | 12:15-12:30 (GMT+3)
 
