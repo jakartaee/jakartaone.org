@@ -1,7 +1,7 @@
 ---
 title: "JakartaOne Livestream - Chinese 2022"
 seo_title: "JakartaOne Livestream - Chinese | Jakarta EE Software | Cloud Native"
-headline: "JakartaOne Livestream - Chinese"
+headline: "JakartaOne Livestream - Chinese successfully concluded with 5000 people viewed"
 description: "JakartaOne Livestream Chinese is a virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Chinese"
 date: 2022-05-18T15:50:25-04:00
 hide_page_title: true
@@ -11,20 +11,20 @@ container: "container-fluid"
 tagline: "August 31, 2022"
 layout: "single"
 menu_name: "chinese"
-tagline_suffix: |
-  <p>
-    <!--<a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>-->
-    <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/5U7mti09N1FF?ch=XbeaPp7zc4XU4">Register</a>
-  </p>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}}
-{{< events/registration event="chinese" year="2022" >}}
+{{< events/registration event="chinese" year="2022" isMarkdown="true" >}}
 JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
-The First JakartaOne Livestream in Chinese is still in process and we appreciate all your involving!
-The event is hosting by Jakarta EE China community which is authorized by Eclipse Foundation and founded by Primeton.
+
+The First JakartaOne Livestream in Chinese is closed and had attracted nearly 5000 people's attention and browsing!
+
+The event is hosting by [Jakarta EE Community China](https://jakarta.ee/zh/community/china/) which is authorized by Eclipse Foundation and founded by Primeton.
+
 With the participation of Asia Info,IBM,TongTech,Apusic,Cvcise and other developers, the Commnunity is committed to promoting the knowledge and technology sharing of Jakarta EE in China.
+
+The event has now concluded!
 {{</ events/registration >}}
 {{</ grid/div >}}
 {{</ grid/section-container >}}

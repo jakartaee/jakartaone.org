@@ -13,10 +13,10 @@ items:
     twitter_handle:
     img: "emily_jiang.jpg"
     bio: ""
-  - name: "Betty"
+  - name: "Joy"
     title: "WG Member(TongTech)"
-    twitter_handle:
-    img: "bettyzhang2022.jpg"
+    twitter_handle: 
+    img: "joyzhao2022.jpg" 
     bio: ""
   - name: "David Liu"
     title: "WG Member(Apusic)"

@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: 主题演讲 / 行业主题
       id: keynote
@@ -19,63 +19,75 @@ items:
       type: keynote
       time: 14:00-14:10 GMT+08
       abstract: |
-        来自 Eclipse Foundation 官方的内容介绍，内容涉及工作组与 Jakarta EE 及 MicroProfile 项目计划等。
+        来自 Eclipse Foundation 官方的内容介绍，内容涉及工作组与 Jakarta EE 及 MicroProfile 项目计划等。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>       
+      vod: https://www.youtube.com/watch?v=JGbtlW3Dhno&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=1 
     - name: 开场演讲
       presenter: Jakarta EE 中国社区
       type: keynote
       time: 14:10-14:15 GMT+08
       abstract: |
-        关于本次活动的主办方，Jakarta EE 中国社区的情况介绍，社区的诞生发展和壮大，对于在中国区扩大企业级云原生 Java 的影响力至关重要。
+        关于本次活动的主办方，Jakarta EE 中国社区的情况介绍，社区的诞生发展和壮大，对于在中国区扩大企业级云原生 Java 的影响力至关重要。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=pfD3b3SJRx0&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=5
     - name: Jakarta EE 和 MicroProfile 的最新动向
       presenter: 蒋丰慧
       type: jakarta_ee
       time: 14:15-14:45 GMT+08
       abstract: |
-        Jakarta EE 和 MicroProfile 是开发云原生应用程序的标准。在本次会议中，Emily 将为您带来最新版本的 Jakarta EE 和 MicroProfile，并探索它们在无服务器中的使用。
+        Jakarta EE 和 MicroProfile 是开发云原生应用程序的标准。在本次会议中，Emily 将为您带来最新版本的 Jakarta EE 和 MicroProfile，并探索它们在无服务器中的使用。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=sWbx5lWQa1Y&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=3
     - name: 主流开源 JEE 服务器核心技术及对云原生支持
       presenter: 张建锋
       type: jakarta_ee
       time: 14:45-15:05 GMT+08
       abstract: |
-        本议题阐述JakartaEE主流开源应用服务器的核心技术，包括微内核和模块加载，扩展机制等内容，集群能力和域管理。各应用服务器也逐步对微服务、云原生等技术提供的支持，兼容MicroProfile，提供响应式编程能力。了解Java中间件服务器的最新技术发展和对标准和规范的支持。
+        本议题阐述JakartaEE主流开源应用服务器的核心技术，包括微内核和模块加载，扩展机制等内容，集群能力和域管理。各应用服务器也逐步对微服务、云原生等技术提供的支持，兼容MicroProfile，提供响应式编程能力。了解Java中间件服务器的最新技术发展和对标准和规范的支持。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=K1pSx4GNoVE&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=4
     - name: MicroProfile 拥抱云原生
       presenter: 赵欣
       type: microprofile
       time: 15:05-15:25 GMT+08
       abstract: |
-        云原生微服务发展概述，MicroProfile规范介绍，MicroProfile对于云原生的支持以及中创MicroProfile版本实践。
+        云原生微服务发展概述，MicroProfile规范介绍，MicroProfile对于云原生的支持以及中创MicroProfile版本实践。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=EiSYhEgvYzg&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=2
     - name: MicroProfile 标准 VS 微服务最佳实践
       presenter: 倪坚
       type: microprofile
       time: 15:25-15:45 GMT+08
       abstract: |
-        解读Microprofile规范内容，以及每个规范点对于微服务开发的意义，再从普元近几年的微服务项目实施中遇到的问题分享在每个环节上的微服务开发最佳实践，最后谈谈对于Microprofile规范的展望
+        解读Microprofile规范内容，以及每个规范点对于微服务开发的意义，再从普元近几年的微服务项目实施中遇到的问题分享在每个环节上的微服务开发最佳实践，最后谈谈对于Microprofile规范的展望 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=bWfJIqMd-Aw&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=6
     - name: Jakarta EE 与国产共同演进
       presenter: 胡勇
       type: jakarta_ee
       time: 15:45-16:05 GMT+08
       abstract: |
-        技术的发展离不开业务需求的推动，在一轮轮的技术更迭中伴随着一个个商业故事。在这些商业故事里，Jakarta EE与国产中间件共同演进，在某些故事中Jakarta EE恰好跟上了步伐，面临某些挑战有时又略显乏力。本场分享主要讲述Jakarta EE的一些古早故事，讨论面对云原生场景下的挑战与机遇。
+        技术的发展离不开业务需求的推动，在一轮轮的技术更迭中伴随着一个个商业故事。在这些商业故事里，Jakarta EE与国产中间件共同演进，在某些故事中Jakarta EE恰好跟上了步伐，面临某些挑战有时又略显乏力。本场分享主要讲述Jakarta EE的一些古早故事，讨论面对云原生场景下的挑战与机遇。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=Pifuv3P7I64&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=7
     - name: JakartaEE 拥抱云原生
       presenter: 黄小满
       type: jakarta_ee
       time: 16:05-16:25 GMT+08
       abstract: |
-        云时代我们在架构一个企业应用的时候不仅仅要考虑开发的过程，更要理解云能够提供给我们的能力，以及我们如何利用这样一些能力来提高我们设计的应用能够输出的能力。本场分享主要讨论我们在设计云原生Jakarta EE应用时要考虑的问题，例如测试，持续集成，持续交付，可扩展性，监控，容器相关等内容，以及这些和Micro-Profile的关系。
+        云时代我们在架构一个企业应用的时候不仅仅要考虑开发的过程，更要理解云能够提供给我们的能力，以及我们如何利用这样一些能力来提高我们设计的应用能够输出的能力。本场分享主要讨论我们在设计云原生Jakarta EE应用时要考虑的问题，例如测试，持续集成，持续交付，可扩展性，监控，容器相关等内容，以及这些和Micro-Profile的关系。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=8CSITAmY-rQ&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=8
     - name: Jakarta EE 技术在通信行业系统中的应用
       presenter: 王峰
       type: jakarta_ee
       time: 16:25-16:45 GMT+08
       abstract: |
-        介绍中国通信行业的发展简史，通信行业的系统结构，Jakarta EE的技术发展简史，Jakarta EE技术对通信行业系统发展的助力情况。通信行业的系统现状以及后续发展对技术的需求。希望Jakarta EE能有更多匹配通信行业发展的技术。
+        介绍中国通信行业的发展简史，通信行业的系统结构，Jakarta EE的技术发展简史，Jakarta EE技术对通信行业系统发展的助力情况。通信行业的系统现状以及后续发展对技术的需求。希望Jakarta EE能有更多匹配通信行业发展的技术。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+      vod: https://www.youtube.com/watch?v=JGXmatsNoTc&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=9
     - name: 行业主题 (普元,亚信,IBM,东方通,金蝶天燕,中创,Oracle）
       presenter: Jakarta EE 工作组成员
       type: keynote
       time: 16:45-17:15 GMT+08
+      abstract: |
+        各厂商的演讲内容回放：<a href="https://www.youtube.com/watch?v=lUCROUSg1r8&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=11">普元</a>，<a href="https://www.youtube.com/watch?v=jjbiGqlntXg&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=12">亚信</a>，<a href="https://www.youtube.com/watch?v=bWE2gA4X9RU&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=13">IBM</a>，<a href="https://www.youtube.com/watch?v=sKUzLfWwM7E&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=14">东方通</a>，<a https://www.youtube.com/watch?v=oUpf2yhbZRA&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=17">Oracle</a>
     - name: 圆桌讨论 (蒋丰慧,张建锋,赵欣,倪坚,胡勇,黄小满,王峰）
       presenter: 与会嘉宾
       type: roundtable
       time: 17:15-17:45 GMT+08
+      vod: https://www.youtube.com/watch?v=RweMRKYgFgQ&list=PLutlXcN4EAwD9dYz_b3xMC24YDMmYxQrA&index=10
     - name: 抽奖 & 交流
       presenter: 与会嘉宾与观众
       type: lottery-draw

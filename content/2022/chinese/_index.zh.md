@@ -1,7 +1,7 @@
 ---
 title: "JakartaOne Livestream - Chinese 2022"
 seo_title: "JakartaOne Livestream - Chinese | Jakarta EE Software | Cloud Native"
-headline: "JakartaOne Livestream - 中文 - Jakarta EE 在中国的首次技术盛会，来了！"
+headline: "Jakarta EE 在中国的首次技术盛会圆满成功！<br>获得近5000人次关注！"
 description: "JakartaOne Livestream Chinese is a virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the first edition of the event entirely in Chinese"
 date: 2022-05-18T15:50:25-04:00
 hide_page_title: true
@@ -11,36 +11,19 @@ container: "container-fluid"
 tagline: "2022年8月31日"
 layout: "single"
 menu_name: "chinese"
-tagline_suffix: |
-  <p>
-    <!--<a class="btn btn-primary margin-right-10" href="https://www.wjx.top/vm/YBwxgmC.aspx">Call For Papers</a>-->
-    <a class="btn btn-primary margin-right-10" href="https://meeting.tencent.com/dw/5U7mti09N1FF?ch=XbeaPp7zc4XU4">报名参会</a>
-  </p>
 ---
 
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}}
-{{< events/registration event="chinese" year="2022" >}}
+{{< events/registration event="chinese" year="2022" isMarkdown="true" >}}
 JakartaOne Livestream是Jakarta EE工作组面向开发人员及技术业务负责人的线上会议，主要关注企业级Java应用云原生技术，探讨关于Jakarta EE和技术发展现状及未来趋势。<br>
 
-本次中文的JakartaOne Livestream线上会议，是Jakarta国际开源规范组织在中国区的首次技术活动，敬请保持关注，期待您的参与。<br>
+本次中文的JakartaOne Livestream线上会议，是Jakarta国际开源规范组织在中国区的首次技术活动，本次活动获得了近5000人次的关注和浏览。<br>
 
-Jakarta EE中国社区，经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。
+[Jakarta EE中国社区](https://jakarta.ee/zh/community/china/)，经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。
+
 {{</ events/registration >}}
-
-<div class="row registration-2022-german-custom">
-  <div class="col-xs-24 col-sm-8 col-md-6"></div>
-  <div class="col-xs-24 col-sm-16 col-md-18">
-    <p class="margin-top-20">
-      现在就可以免费预订直播参与席位，与演讲嘉宾语音沟通，现场交流。<br>
-	  	  <p>
-			参与活动还有机会获得<span style="color:blue;">Jakarta官方T-Shirt</span>哟。<br><br>
-			<img src="/images/giveaways/jakarta.tshirt.2022.jpg" align=center></p>
-    </p>
-  </div>
-</div>
-
 {{</ grid/div >}} 
 {{</ grid/section-container >}}
 
