@@ -21,6 +21,7 @@ items:
     - name: Jakarta EE 10 and Beyond
       presenter: Kenji Kazumura
       type: keynote
+      vod: https://www.youtube.com/watch?v=CIWWUTNb0u0&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=1
       time: 13:00-13:30 (JST)
       abstract: |
               <p>Introduce Jakarta EE 10 highlight, transformation status of jakarta package name (vendor products and IDEs/tools), and Jakarta EE 11 prospects.</p>
@@ -28,6 +29,7 @@ items:
     - name: Cloud Native journey of Java EE applications with Liberty runtime.
       presenter: Takakiyo Tanaka
       type: vendor
+      vod: https://www.youtube.com/watch?v=pYM6Q2fkdd8&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=2
       time: 13:30-13:50 (JST)
       abstract: |
               <p>An IBM OSS project "Open Liberty" and its product version "WebSphere Liberty", are lightweight, high-speed, next-generation application servers that support the latest Jakarta EE and MicroProfile specifications. Fully modulized runtime, Liberty provides a rich set of features, and allows you to select just the features you need with a minimal disk and memory footprint. This session introduces how your existing Java EE systems can be adapted to the cloud-native world with Liberty runtime.</p>
@@ -35,6 +37,7 @@ items:
     - name: CN4J Studio - MicroProfile Config
       presenter: Takakiyo Tanaka
       type: studio
+      vod: https://www.youtube.com/watch?v=FqY2FNNFI2I&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=3
       time: 13:50-14:05 (JST)
       abstract: |
               <p>MicroProfile Config specification allows a common procedure to provide configuration information to applications from various sources. It is a convenient and useful API for not only microservices but also traditional Java EE applications. With Open Liberty runtime, you can use it with existing Java EE applications.</p>
@@ -42,6 +45,7 @@ items:
     - name: Red Hat Application Foundations Expanding the Jakarta EE/MicroProfile World
       presenter: Satoshi Seto
       type: vendor
+      vod: https://www.youtube.com/watch?v=VRYxkVpK2A0&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=4
       time: 14:10-14:30 (JST)
       abstract: |
               <p>Jakarta EE (Java EE) covers many specifications required for enterprise systems and enables you to flexibly combine them to create highly reliable applications. Red Hat has introduced Red Hat Application Foundations, a set of middleware products that not only cover the basics, Jakarta EE and MicroProfile, but can also be used in any combination to support more advanced use cases.This session will focus on the benefits of implementing Application Foundations, what products are included, and how to use them.</p>
@@ -49,6 +53,7 @@ items:
     - name: CN4J Studio - CDI Lite
       presenter: Satoshi Seto
       type: studio
+      vod: https://www.youtube.com/watch?v=M5q66O_6yEA&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=5
       time: 14:30-14:45 (JST)
       abstract: |
               <p></p>
@@ -56,6 +61,7 @@ items:
     - name: Why Jakarta EE/MicroProfile Customers Choose Azure
       presenter: Yoshio Terada
       type: vendor
+      vod: https://www.youtube.com/watch?v=KtRtejtjH3M&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=6
       time: 14:45-15:05 (JST)
       abstract: |
               <p>Microsoft has been developing and investing in convenient services for Jakarta EE/MicroProfile.Among the developers are Ed Burn, who used to be the spec lead for Servlet/JSF, Antonio Goncalves, the original author of Beginning Java EE 6, and many engineers familiar with Java EE/MicroProfile. With continued investment in Microsoft's Jakarta EE/MicroProfile, it now offers various execution environments such as IaaS, PaaS, Containers, Kubernetes, etc. to meet the needs of creating lift-and-shift and cloud-native apps.Watch this session to understand how to run your enterprise applications in the best cloud environment.</p>
@@ -63,6 +69,7 @@ items:
     - name: CN4J Studio - An introduction of Jakarta JSON Binding and useful use cases
       presenter: Yoshio Terada
       type: studio
+      vod: https://www.youtube.com/watch?v=rj-NAGYlZRI&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=7
       time: 15:10-15:25 (JST)
       abstract: |
               <p>JSON-B is a standard JSON binding framework for converting Java objects to and from JSON messages. It defines a default mapping algorithm for converting existing Java classes to JSON and allows developers to customize the mapping content using Java annotations. In this session, we will introduce the basic usage of JSON-B and its convenient usage in combination with other technologies.</p>
@@ -70,6 +77,7 @@ items:
     - name: An ecosystem built with Jakarta EE and Oracle Enterprise Cloud Native Java
       presenter: Takashi Ito
       type: vendor
+      vod: https://www.youtube.com/watch?v=EGgsGt-pKy4&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=8
       time: 15:25-15:45 (JST)
       abstract: |
               <p>Oracle Enterprise Cloud Native Java is Oracle's essential middleware product line, including WebLogic Server. More than 25 years of adoption around the world, the products have been evolving and the latest Jakarta EE compliant. In this session, you could hear about Oracle's continued contributions for Jakarta EE, and support for Jakarta EE in the product lineup such as WebLogic Server/Coherence/Helidon/Verrazzano with the latest features and future release of those products.</p>
@@ -77,6 +85,7 @@ items:
     - name: CN4J Studio - Jakarta Concurrency, now and future
       presenter: Takashi Ito
       type: studio
+      vod: https://www.youtube.com/watch?v=tQNI4eoz7as&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=9
       time: 15:45-16:00 (JST)
       abstract: |
               <p>Jakarta Concurrency provides specifications for using concurrency from application components without compromising container integrity while preserving the fundamental benefits of the Jakarta EE platform. In this session, you can hear the outline of the Concurrency 2.0 specification in Jakarta EE 9 and the Concurrency 3.0 specification scheduled to be implemented in Jakarta EE 10.</p>
@@ -84,6 +93,7 @@ items:
     - name: Fujitsu & Jakarta EE/MicroProfie
       presenter: Yuichi Kusano
       type: vendor
+      vod: https://www.youtube.com/watch?v=cdTtckw-mIU&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=10
       time: 16:05-16:25 (JST)
       abstract: |
               <p>Fujitsu has been developing Java for more than 25 years, and recently joined the Eclipse Foundation as the only Japanese vendor as a Strategic Member, contributing to the development of Jakarta EE/MicroProfile.We have been providing Interstage for more than 20 years and plan to continue providing products incorporating the latest technologies to support stable operation of Java applications.In this session, introduce about Fujitsu's Java efforts, product features, and future delivery plans.</p>
@@ -91,6 +101,7 @@ items:
     - name: CN4J Studio - Introduction and Usage of MicroProfile Telemetry
       presenter: Kouki Kousaka
       type: studio
+      vod: https://www.youtube.com/watch?v=5ONSizpvKhU&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=11
       time: 16:25-16:40 (JST)
       abstract: |
               <p>MicroProfile includes MicorProfile OpenTracing for distrubuted tracing as to implement observabilities. From the upcoming MicroProfile 6.0 release, MicroProfile OpenTracing will be replaced to MicroProfile Telemetry. In this session, I'll explain the background of the change to MicroProfile Telemetry and how it works.</p>
@@ -98,6 +109,7 @@ items:
     - name: Introduction to Payara 6 Community
       presenter: Kenji Hasunuma
       type: vendor
+      vod: https://www.youtube.com/watch?v=2acp3yJNz9g&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=12
       time: 17:00-17:20 (JST)
       abstract: |
               <p>We will very soon release Payara 6 Community with Jakarta EE 10 compatiblility and some new features. As Payara Community Edition will switch from Jakarta EE 8 to Jakarta EE 10, we would like you to know these differences at first. In this talk, I will explain what is changed and how to migrate from Version 5 to 6.</p>
@@ -105,6 +117,7 @@ items:
     - name: Serverless Jakarta EE with MicroProfile and CloudRun
       presenter: koduki
       type: cloud
+      vod: https://www.youtube.com/watch?v=vrkNcf5uJN0&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=13
       time: 17:20-18:00 (JST)
       abstract: |
               <p>How do you create a serverless EE environment using Google's CloudRun with Quarkus and Helidon? I will talk about what points should be considered in comparison with conventional EE environment.</p>
@@ -112,11 +125,13 @@ items:
     - name: Using Jakarta EE in financial enterprise systems
       presenter: Hiromi Takahashi
       type: cloud
+      vod: https://www.youtube.com/watch?v=v9kplkEd7yg&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=14
       time: 18:10-18:50 (JST)
 
     - name: Using MicroProfile5, Getting Started With Cloud-Ready Enterprise Systems
       presenter: Hirofumi Iwasaki
       type: cloud
+      vod: https://www.youtube.com/watch?v=5qjrxK6dTso&list=PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8&index=15
       time: 18:50-19:30 (JST)
       abstract: |
               <p>MicroProfile was released 5 years ago. MicroProfile, which is a cloud-native standard specification that does not require an application server, has finally released version 5. This time, I will use Helidon 3, which is an implementation for MicroProfile 5 that has just been released, and take a look at how it is deployed as a container while keeping in mind the points to be taken care of when designing and implementing it.</p>
@@ -124,6 +139,7 @@ items:
     - name: Pnael Discussion
       presenter: Takashi Ito
       type: panel
+      vod: https://www.youtube.com/watch?v=gnvAnlcggrk
       time: 19:35-20:30 (JST)
 
     - name: Q&A
