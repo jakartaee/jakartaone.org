@@ -36,7 +36,7 @@ items:
     name: JakartaOne Livestream Japan
     location: Virtual
     date: September 16, 2022
-    start_date:   2022-09-16T00:00:00-00:00
+    start_date: 2022-09-16T00:00:00-00:00
     end_date:   2022-09-17T23:59:00-00:00
     url: /2022/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -47,8 +47,8 @@ items:
     name: JakartaOne Livestream 2022
     location: Location, Location
     date: December 6, 2022
-    start_date:   2022-12-06T00:00:00-00:00
-    end_date:   2022-12-07T23:59:00-00:00
+    start_date: 2022-12-06T00:00:00-00:00
+    end_date: 2022-12-07T23:59:00-00:00
     url: /2022
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
@@ -72,8 +72,8 @@ items:
     name: Jakarta One Livestream - Spanish
     location: Virtual
     date: October 1, 2021
-    start_date:   2021-10-01T00:00:00-00:00
-    end_date:   2021-10-02T23:59:00-00:00
+    start_date: 2021-10-01T00:00:00-00:00
+    end_date: 2021-10-02T23:59:00-00:00
     url: /2021/hispano
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
