@@ -24,7 +24,7 @@
       <h3>{{ . }}</h3>
       {{ range (sort (index $years_with_events .) "start_date" "desc") }}
           <li class="margin-left-20">
-            <a href="{{ .url }}">{{ .name }} - {{ .start_date }}</a>
+            <a href="{{ .url }}">{{ .name }} - {{ time.Format "January 06, 2006" .start_date }}</a>
           </li>
       {{ end }}
     {{ end }}
