@@ -3,6 +3,7 @@ items:
     name: JakartaOne Livestream German
     location: Location, Location
     date: June 30, 2022
+    start_date: 2022-07-30T00:00:00-00:00
     end_date: 2022-07-01T00:00:00-00:00
     url: /2022/german
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -13,6 +14,7 @@ items:
     name: JakartaOne Livestream Japan
     location: Virtual
     date: September 16, 2022
+    start_date: 2022-09-16T00:00:00-00:00
     end_date: 2022-09-17T00:00:00-00:00
     url: /2022/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -23,6 +25,7 @@ items:
     name: JakartaOne Livestream Portuguese
     location: Virtual
     date: September 29, 2022
+    start_date: 2022-09-29T23:59:00-00:00
     end_date: 2022-09-30T00:00:00-00:00
     url: /2022/portuguese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -33,6 +36,7 @@ items:
     name: JakartaOne Livestream 2022
     location: Location, Location
     date: December 6, 2022
+    start_date: 2022-12-06T00:00:00-00:00
     end_date: 2022-12-07T00:00:00-00:00
     url: /2022
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -44,6 +48,7 @@ items:
     name: JakartaOne 2021
     location: Location, Location
     date: December 7, 2021
+    start_date: 2021-12-07T00:00:00-00:00
     end_date: 2021-12-08T00:00:00-00:00
     url: /2021
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -54,6 +59,7 @@ items:
     name: Jakarta One Livestream - Spanish
     location: Virtual
     date: October 1, 2021
+    start_date: 2021-10-01T00:00:00-00:00
     end_date: 2021-10-02T00:00:00-00:00
     url: /2021/hispano
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -63,6 +69,7 @@ items:
     name: Jakarta One Livestream - Portuguese
     location: Virtual
     date: September 29, 2021
+    start_date: 2021-09-29T00:00:00-00:00
     end_date: 2021-09-30T00:00:00-00:00
     url: /pt/2021/portuguese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -73,6 +80,7 @@ items:
     name: Jakarta One Livestream - Turkish
     location: Virtual
     date: August 21, 2021
+    start_date: 2021-08-21T00:00:00-00:00
     end_date: 2021-08-23T00:00:00-00:00
     url: /2021/turkish
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -83,6 +91,7 @@ items:
     name: Jakarta One Livestream - Russian
     location: Location, Location
     date: March 31, 2021
+    start_date: 2021-03-31T00:00:00-00:00
     end_date: 2021-04-01T00:00:00-00:00
     url: /2021/russian
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -93,6 +102,7 @@ items:
     name: JakartaOne 2020
     location: Location, Location
     date: December 8, 2020
+    start_date: 2020-12-08T00:00:00-00:00
     end_date: 2020-12-09T00:00:00-00:00
     url: /2020
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -104,6 +114,7 @@ items:
     name: JakartaOne in Spanish 2020
     location: Virtual
     date: October 12, 2020
+    start_date: 2020-10-12T00:00:00-00:00
     end_date: 2020-10-12T23:59:00-00:00
     url: /2020/hispano
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -114,6 +125,7 @@ items:
     name: Brazil 2020
     location: Virtual
     date: August 29, 2020
+    start_date: 2020-08-29T00:00:00-00:00
     end_date: 2020-08-29T23:59:00-00:00
     url: /2020/brazil
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -124,6 +136,7 @@ items:
     name: CN4J 2020
     location: Virtual
     date: May 12, 2020
+    start_date: 2020-05-12T00:00:00-00:00
     end_date: 2020-05-12T23:59:00-00:00
     url: /2020/cn4j
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -134,6 +147,7 @@ items:
     name: JakartaOne Japan 2020
     location: Location, Location
     date: February 26, 2020
+    start_date: 2020-02-26T00:00:00-00:00
     end_date: 2020-02-26T23:59:00-00:00
     url: /2020/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
@@ -144,6 +158,7 @@ items:
     name: JakartaOne 2019
     location: Location, Location
     date: September 10, 2019
+    start_date: 2019-10-10T00:00:00-00:00
     end_date: 2019-10-10T23:59:00-00:00
     url: /2019
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
