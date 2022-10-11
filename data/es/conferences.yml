@@ -14,6 +14,7 @@ items:
     name: JakartaOne Livestream Japan
     location: Virtual
     date: September 16, 2022
+    start_date: 2022-09-16T00:00:00-00:00
     end_date: 2022-09-17T00:00:00-00:00
     url: /2022/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
