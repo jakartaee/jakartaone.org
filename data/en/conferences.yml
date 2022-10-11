@@ -4,7 +4,7 @@ items:
     location: Location, Location
     date: June 30, 2022
     start_date: 2022-07-30T00:00:00-00:00
-    end_date:   2022-07-01T23:59:00-00:00
+    end_date: 2022-07-01T23:59:00-00:00
     url: /2022/german
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
@@ -37,7 +37,7 @@ items:
     location: Virtual
     date: September 16, 2022
     start_date: 2022-09-16T00:00:00-00:00
-    end_date:   2022-09-17T23:59:00-00:00
+    end_date: 2022-09-17T23:59:00-00:00
     url: /2022/japan
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
