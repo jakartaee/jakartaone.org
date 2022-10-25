@@ -10,8 +10,6 @@ container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 6, 2022"
 layout: "single"
-tagline_suffix: |
-  <a class="btn btn-primary margin-right-10 margin-bottom-10" href="https://www.papercall.io/jakartaone-2022">Call For Papers</a>
 ---
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}}
