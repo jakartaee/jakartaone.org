@@ -14,7 +14,7 @@ items:
     name: JakartaOne Livestream Chinese
     location: Virtual
     date: August 31, 2022
-    start_date: 2022-10-31T23:59:00-00:00
+    start_date: 2022-08-31T23:59:00-00:00
     end_date: 2022-09-01T23:59:00-00:00
     url: /zh/2022/chinese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
