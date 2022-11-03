@@ -5,3 +5,14 @@ items:
     bio: |
       <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.</p>
       <p>She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, QCon, GeeCon, JFokus, etc.</p>
+  - name: Rudy De Busscher
+    title: Product Manager at Payara Services Ltd
+    img: rudy-debusscher.jpg
+    bio: |
+      <p>Rudy loves to create (web) applications with the Jakarta EE platform and MicroProfile implementations and is currently working for Payara Services Limited as Product Manager. He helps customers, prospects, writes technical content, is part of some MicroProfile implementations and advocates the Payara Products in various ways.</p>
+      <p>He is active in the IT industry for more than 20 years and created many applications for customers. He is also a big fan of OpenSource and helped in various OpenSource projects like DeltaSpike, PrimeFaces, and Apache Myfaces. He is also passionate about Web Application Security using OAuth2, OpenId Connect, and JWT. He maintains the Octopus OpenSource project and is a member of the Jakarta EE Security API team.</p>
+  - name: Adam Bien
+    title: Developer, Consultant, Author and Java (SE/EE) enthusiast
+    img: adam-bien.jpg
+    bio: |
+      <p>Developer, Consultant, Author and Java (SE/EE) enthusiast Adam Bien (<a href="https://www.adambien.blog">adambien.blog</a>) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing Java code. Adam regularly organizes Java EE / WebStandards / JavaScript workshops at Munich’s airport <a href="airhacks.com">airhacks.com</a>.</p>
