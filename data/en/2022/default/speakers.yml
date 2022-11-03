@@ -6,7 +6,7 @@ items:
       <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.</p>
       <p>She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, QCon, GeeCon, JFokus, etc.</p>
   - name: Rudy De Busscher
-    title: Product Manager at Payara Services Ltd
+    title: Product Manager at Payara Services Ltd.
     img: rudy-debusscher.jpg
     bio: |
       <p>Rudy loves to create (web) applications with the Jakarta EE platform and MicroProfile implementations and is currently working for Payara Services Limited as Product Manager. He helps customers, prospects, writes technical content, is part of some MicroProfile implementations and advocates the Payara Products in various ways.</p>
@@ -16,3 +16,27 @@ items:
     img: adam-bien.jpg
     bio: |
       <p>Developer, Consultant, Author and Java (SE/EE) enthusiast Adam Bien (<a href="https://www.adambien.blog">adambien.blog</a>) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing Java code. Adam regularly organizes Java EE / WebStandards / JavaScript workshops at Munich’s airport <a href="airhacks.com">airhacks.com</a>.</p>
+  - name: Bruno Baptista
+    title: Principal Engineer at Talkdesk
+    img: bruno-baptista.jpg
+    bio: |
+      <p>Principal Engineer at Talkdesk. With over 14 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
+  - name: Reza Rahman
+    title: Principal Program Manager for Java on Azure at Microsoft
+    img: reza-rahman.jpg 
+    bio: |
+      <p>Reza has been an official Java technologist at Oracle. He is the author of the popular book EJB 3 in Action from Manning Publishing. Reza has long been a frequent speaker at Java User Groups and conferences worldwide including JavaOne and Devoxx. He has been the lead for the Java EE track at JavaOne as well as a JavaOne Rock Star Speaker award recipient. He was the program chair for the inaugural JakartaOne conference. Reza is an avid contributor to industry journals like DZone. He has been a member of the Java EE, EJB and JMS expert groups over the years. Reza implemented the EJB container for the Resin open source Java EE application server. He helps lead the Philadelphia Java User Group. Reza is proud to be a founding member of the Jakarta EE Ambassadors.</p>
+  - name: Fabio Andrés Turizo Correa
+    title: Senior Java Engineer - Payara Services Ltd.
+    img: fabio-correa-2022.jpg
+    bio: |
+      <p>Fabio is a software Engineer offering over 12 years in the IT industry with a focus on software architecture and development. Oracle Certified Professional and Specialist in Java SE and EE platforms. Currently working as Service manager and developer advocate at Payara Services Limited, working all things Jakarta EE and MicroProfile related. Likes to present talks about modern tech topics for developers, and architects about DevOps topics, Enterprise Java and microservices.</p>
+      <p>Likes Java a lot, but Python will always have a special place in his heart.</p>
+  - name: Ondro Mihály
+    title: Director, Jakarta EE expert
+    img: ondro-mihaly-2022.jpg
+    bio: |
+      <p>Ondro is a software developer and consultant specializing in combining standard and proven tools to solve new and challenging problems. He's been developing in Java for over 10 years. He’s worked for clients like Payara, LottoLand, Uniqa and others.</p>
+      <p>He has co-founded OmniFish, which provides enterprise support for Eclipse GlassFish and expert Jakarta EE services. He’s passionate about helping his clients and the wider Java community with their projects based on Jakarta EE and similar technologies.</p>
+      <p>As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes.</p>
+      <p>He's a core member of several opensource projects and Jakarta EE specification projects. He’s a frequent conference speaker, leader of the Czech JUG and a Java Champion.</p>
