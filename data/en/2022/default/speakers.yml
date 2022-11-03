@@ -15,7 +15,7 @@ items:
     title: Developer, Consultant, Author and Java (SE/EE) enthusiast
     img: adam-bien.jpg
     bio: |
-      <p>Developer, Consultant, Author and Java (SE/EE) enthusiast Adam Bien (<a href="https://www.adambien.blog">adambien.blog</a>) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing Java code. Adam regularly organizes Java EE / WebStandards / JavaScript workshops at Munich’s airport <a href="airhacks.com">airhacks.com</a>.</p>
+      <p>Developer, Consultant, Author and Java (SE/EE) enthusiast Adam Bien (<a href="https://www.adambien.blog">adambien.blog</a>) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing Java code. Adam regularly organizes Java EE / WebStandards / JavaScript workshops at Munich’s airport <a href="https://airhacks.com">airhacks.com</a>.</p>
   - name: Bruno Baptista
     title: Principal Engineer at Talkdesk
     img: bruno-baptista.jpg
@@ -40,3 +40,20 @@ items:
       <p>He has co-founded OmniFish, which provides enterprise support for Eclipse GlassFish and expert Jakarta EE services. He’s passionate about helping his clients and the wider Java community with their projects based on Jakarta EE and similar technologies.</p>
       <p>As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes.</p>
       <p>He's a core member of several opensource projects and Jakarta EE specification projects. He’s a frequent conference speaker, leader of the Czech JUG and a Java Champion.</p>
+  - name: Grace Jansen
+    title: Java Champion and Developer Advocate at IBM
+    img: grace-jansen-2022.jpg
+    bio: ''
+  - name: Thomas Watson
+    title: Senior Software Engineer at IBM
+    img: thomas-watson-2022.jpg
+    bio: ''
+  - name: Rustam Mehmandarov
+    title: Passionate computer scientist. Java Champion. Google Devs Expert for Cloud
+    img: rustam-mehmandarov.jpeg
+    bio: ''
+  #- name: Kito Mann
+  #  title: ''
+  #  img: ''
+  #  bio: ''
+    
