@@ -1,0 +1,51 @@
+complete: false
+types:
+  - name: Keynote
+    id: keynote
+    color: '#85BFF3'
+  - name: Jakarta EE
+    id: jakarta_ee
+    color: "#EC8101"
+  - name: MicroProfile
+    id: microprofile
+    color: "#EDDAA0"
+
+items:
+  - name: Welcome
+    presenter: Tanja Obradovic & Ivar Grimstad
+    times:
+      - 2:45 am PT
+      - 5:45 am ET
+      - 11:45 CET
+  - name: Explore the new Jakarta EE Core Profile
+    presenter: Rudy de Busscher
+    times:
+      - 3 am PT
+      - 6 am ET
+      - 11:45 CET
+  - name: Studio Jakarta EE (15 min)
+    presenter: ''
+    times:
+      - 3:45 am PT
+      - 6:00 am ET
+      - 12:00 CET
+  - name: (Mis)Understanding Cloud Native Java
+    presenter: Ana-Maria Mihalceanu
+    times:
+      - 4:00 am PT
+      - 7:00 am ET
+      - 13:00 CET
+  - name: Studio Jakarta EE (15 min)
+    presenter: ''
+    times:
+      - 4:45 am PT
+      - 7:45 am ET
+      - 13:45 CET
+  - name: Piranha Cloud - From Eclipse GlassFish to supe fast Cloud and Serverless Jakarta EE
+    presenter: Ondro Mihályi
+    times:
+      - 5:00 am PT
+      - 8:00 am ET
+      - 14:00 CET
+  
+    
