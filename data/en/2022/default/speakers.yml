@@ -17,10 +17,11 @@ items:
     bio: |
       <p>Developer, Consultant, Author and Java (SE/EE) enthusiast Adam Bien (<a href="https://www.adambien.blog">adambien.blog</a>) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing Java code. Adam regularly organizes Java EE / WebStandards / JavaScript workshops at Munich’s airport <a href="https://airhacks.com">airhacks.com</a>.</p>
   - name: Bruno Baptista
-    title: Principal Engineer at Talkdesk
+    title: Principal Engineer at RedHat
     img: bruno-baptista.jpg
     bio: |
-      <p>Principal Engineer at Talkdesk. With over 14 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
+      <p>Bruno Baptista is a Principal Engineer at Red Hat working with observability subjects in the Quarkus team at Red Hat. With over 14 years as an enterprise-level engineer, Bruno has worked as a Systems Architect, led QA and development teams, garnered skills in requirements analysis and development processes.</p>
+      <p>During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
   - name: Reza Rahman
     title: Principal Program Manager for Java on Azure at Microsoft
     img: reza-rahman.jpg 
@@ -43,7 +44,9 @@ items:
   - name: Grace Jansen
     title: Java Champion and Developer Advocate at IBM
     img: grace-jansen-2022.jpg
-    bio: ''
+    bio: |
+      <p>Grace is a Java Champion and Developer Advocate at IBM, working with Open Liberty, MicroProfile and Cloud Technologies. She has been with IBM since graduating from Exeter University with a Degree in Biology. Grace enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures.</p>
+      <p>As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials. She is a regular presenter at international technology conferences and has authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers.</p>
   - name: Thomas Watson
     title: Senior Software Engineer at IBM
     img: thomas-watson-2022.jpg
@@ -52,6 +55,18 @@ items:
     title: Passionate computer scientist. Java Champion. Google Devs Expert for Cloud
     img: rustam-mehmandarov.jpeg
     bio: ''
+  - name: Maarten Mulders
+    title: 
+    img: maarten-mulders.jpg
+    bio: |
+      <p>Passionate architect, senior developer and trainer; also Java Champion. Passionate about "building the right thing" and "building the thing right".</p>
+      <p>Focusing on lean and elegant solutions. Loves to share new ideas and knowledge. Outside work, he appreciates creating and consuming good food, photography, and music, in no particular order.</p>
+  - name: Ana-Maria Mihalceaunu
+    title: Java Champion Alumni
+    img: ana-maria-mihalceaunu.jpg
+    bio: |
+      <p>Ana is a Java Champion Alumni, Developer Advocate, guest author of the book “DevOps tools for Java Developers”, and a constant adopter of challenging technical scenarios involving Java-based frameworks and multiple cloud providers.</p>
+      <p>She actively supports technical communities’ growth through knowledge sharing and enjoys curating content for conferences as a program committee member. To learn more about/from her, follow her on Twitter @ammbra1508.</p>
   #- name: Kito Mann
   #  title: ''
   #  img: ''
