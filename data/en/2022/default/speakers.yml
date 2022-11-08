@@ -50,13 +50,14 @@ items:
   - name: Thomas Watson
     title: Senior Software Engineer at IBM
     img: thomas-watson-2022.jpg
-    bio: ''
+    bio: |
+      <p>Thomas Watson has over 20 years of experience contributing to and leading various open source projects at the Eclipse and the Apache Foundations. His current focus includes development of the Open Liberty project, moving the Eclipse Jakarta and Eclipse OSGi specifications forward as well as contributing to the Eclipse IDE project and the Apache Felix project. Thomas lives and works in Austin Texas as a Senior Software Engineer at IBM.</p>
   - name: Rustam Mehmandarov
     title: Passionate computer scientist. Java Champion. Google Devs Expert for Cloud
     img: rustam-mehmandarov.jpeg
     bio: ''
   - name: Maarten Mulders
-    title: 
+    title: Java Champion
     img: maarten-mulders.jpg
     bio: |
       <p>Passionate architect, senior developer and trainer; also Java Champion. Passionate about "building the right thing" and "building the thing right".</p>
@@ -67,6 +68,12 @@ items:
     bio: |
       <p>Ana is a Java Champion Alumni, Developer Advocate, guest author of the book “DevOps tools for Java Developers”, and a constant adopter of challenging technical scenarios involving Java-based frameworks and multiple cloud providers.</p>
       <p>She actively supports technical communities’ growth through knowledge sharing and enjoys curating content for conferences as a program committee member. To learn more about/from her, follow her on Twitter @ammbra1508.</p>
+  - name: Bazlur Rahman
+    title: Editor for the Java Queue at InfoQ and Foojay.io
+    img: bazlur-rahman.jpg
+    bio: |
+      <p>A N M Bazlur Rahman is a Software Engineer, Java Champion, Jakarta EE Ambassador, Author, Blogger, and Speaker. He has more than a decade of experience in the software industry, primarily with Java and Java-related technologies.</p>
+      <p>He enjoys mentoring, writing, delivering talks at conferences, and contributing to open-source projects. He is the founder and current moderator of the Bangladesh Java User Group. He is an editor for the Java Queue at InfoQ and Foojay.io.</p>
   #- name: Kito Mann
   #  title: ''
   #  img: ''
