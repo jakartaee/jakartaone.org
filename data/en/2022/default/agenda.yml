@@ -3,162 +3,194 @@ types:
   - name: Keynote
     id: keynote
     color: '#85BFF3'
+  - name: Panel
+    id: panel
+    color: '#C6A061'
   - name: Jakarta EE
     id: jakarta_ee
     color: "#EC8101"
   - name: MicroProfile
     id: microprofile
     color: "#EDDAA0"
+  - name: Studio Jakarta EE
+    id: studio
+    color: "#99DF82"
 
 items:
   - name: Welcome
+    type: studio
     presenter: Tanja Obradovic, Ivar Grimstad & Shabnam Mayel
     times:
       - 2:45 AM PT
       - 5:45 AM ET
       - 11:45 CET
   - name: Explore the new Jakarta EE Core Profile
+    type: jakarta_ee
     presenter: Rudy de Busscher
     times:
       - 3:00 AM PT
       - 6:00 AM ET
-      - 11:45 CET
+      - 12:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     presenter: ''
     times:
       - 3:45 AM PT
       - 6:45 AM ET
       - 12:45 CET
   - name: (Mis)Understanding Cloud Native Java
+    type: panel
     presenter: Ana-Maria Mihalceanu & Rustam Mehmandarov 
     times:
       - 4:00 AM PT
       - 7:00 AM ET
       - 13:00 CET
   - name: Studio Jakarta EE (15 min)
-    presenter: ''
+    type: studio
     times:
       - 4:45 AM PT
       - 7:45 AM ET
       - 13:45 CET
   - name: What's Cooking in Maven?
+    type: panel
     presenter: Maarten Muliders
     times:
       - 5:00 AM PT
       - 8:00 AM ET
       - 14:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 5:45 AM PT
       - 8:45 AM ET
       - 14:45 CET
   - name: "To InstanOn and Beyond: Jakarta EE Applications at Lightspeed"
+    type: jakarta_ee
     presenter: Grace Jansen & Tom Watson
     times:
       - 6:00 AM PT
       - 9:00 AM ET
       - 15:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 6:45 AM PT
       - 9:45 AM ET
       - 15:45 CET
   - name: Ideas for Lean, Maintainable, and Productive Jakarta EE / MicroProfile Projects
+    type: jakarta_ee
     presenter: Adam Bien
     times:
       - 7:00 AM PT
       - 10:00 AM ET
       - 16:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 7:45 AM PT
       - 10:45 AM ET
       - 16:45 CET
   - name: Piranha Cloud - From Eclipse GlassFish to super fast Cloud and Serverless Jakarta EE
+    type: jakarta_ee
     presenter: Ondro Mihályi
     times:
       - 8:00 AM PT
       - 11:00 AM ET
       - 17:00 CET
   - name: Keynote
+    type: keynote
     presenter: Mike Milinkovich
     times:
       - 8:45 AM PT
       - 11:45 AM ET
       - 17:45 CET
   - name: Industry Keynote
+    type: keynote
     presenter: Jakarta EE vendors
     times:
       - 9:00 AM PT
       - 12:00 AM ET
       - 18:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 9:55 AM PT
       - 12:55 AM ET
       - 18:55 CET
   - name: Deep Dive MicroProfile 6.0 
+    type: microprofile
     presenter: Emily Jiang
     times:
       - 10:00 AM PT
       - 1:00 PM ET
       - 19:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 10:45 AM PT
       - 1:45 PM ET
       - 19:45 CET
   - name: OpenTelemetry with MicroProfile
+    type: microprofile
     presenter: Bruno Baptista
     times:
       - 11:00 AM PT
       - 2:00 PM ET
       - 20:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 11:45 AM PT
       - 2:45 PM ET
       - 20:45 CET
   - name: "Jakarta Starter: Create, build and run Jakarta EE Applications in under a minute"
+    type: jakarta_ee
     presenter: A N M Bazlur Rahman
     times:
       - 12:00 PM PT
       - 3:00 PM ET
       - 21:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 12:45 PM PT
-      - PM ET
-      - CET
+      - 3:45 PM ET
+      - 21:45 CET
   - name: Easy Java Integration Testing with Testcontainers
+    type: panel
     presenter: Fabio Andrés Turizo Correa
     times:
       - 1:00 PM PT
       - 4:00 PM ET
       - 22:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 1:45 PM PT
       - 4:45 PM ET
       - 22:45 CET
   - name: Jakarta NoSQL - Powered by Cosmos DB on the Cloud
+    type: jakarta_ee
     presenter: Reza Rahman
     times:
       - 2:00 PM PT
       - 5:00 PM ET
       - 23:00 CET
   - name: Studio Jakarta EE (15 min)
+    type: studio
     times:
       - 2:45 PM PT
       - 5:45 PM ET
       - 23:45 CET
   - name: Foundations of Modern Java Server Apps 
+    type: panel
     presenter: Kito Mann
     times:
       - 3:00 PM PT
       - 6:00 PM ET
       - 00:00 CET
   - name: Closing 
+    type: studio
     presenter: Tanja Obradovic & Ivar Grimstad
     times:
       - 3:45 PM PT
