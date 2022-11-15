@@ -12,40 +12,155 @@ types:
 
 items:
   - name: Welcome
-    presenter: Tanja Obradovic & Ivar Grimstad
+    presenter: Tanja Obradovic, Ivar Grimstad & Shabnam Mayel
     times:
-      - 2:45 am PT
-      - 5:45 am ET
+      - 2:45 AM PT
+      - 5:45 AM ET
       - 11:45 CET
   - name: Explore the new Jakarta EE Core Profile
     presenter: Rudy de Busscher
     times:
-      - 3 am PT
-      - 6 am ET
+      - 3:00 AM PT
+      - 6:00 AM ET
       - 11:45 CET
   - name: Studio Jakarta EE (15 min)
     presenter: ''
     times:
-      - 3:45 am PT
-      - 6:00 am ET
-      - 12:00 CET
+      - 3:45 AM PT
+      - 6:45 AM ET
+      - 12:45 CET
   - name: (Mis)Understanding Cloud Native Java
-    presenter: Ana-Maria Mihalceanu
+    presenter: Ana-Maria Mihalceanu & Rustam Mehmandarov 
     times:
-      - 4:00 am PT
-      - 7:00 am ET
+      - 4:00 AM PT
+      - 7:00 AM ET
       - 13:00 CET
   - name: Studio Jakarta EE (15 min)
     presenter: ''
     times:
-      - 4:45 am PT
-      - 7:45 am ET
+      - 4:45 AM PT
+      - 7:45 AM ET
       - 13:45 CET
-  - name: Piranha Cloud - From Eclipse GlassFish to supe fast Cloud and Serverless Jakarta EE
+  - name: What's Cooking in Maven?
+    presenter: Maarten Muliders
+    times:
+      - 5:00 AM PT
+      - 8:00 AM ET
+      - 14:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 5:45 AM PT
+      - 8:45 AM ET
+      - 14:45 CET
+  - name: "To InstanOn and Beyond: Jakarta EE Applications at Lightspeed"
+    presenter: Grace Jansen & Tom Watson
+    times:
+      - 6:00 AM PT
+      - 9:00 AM ET
+      - 15:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 6:45 AM PT
+      - 9:45 AM ET
+      - 15:45 CET
+  - name: Ideas for Lean, Maintainable, and Productive Jakarta EE / MicroProfile Projects
+    presenter: Adam Bien
+    times:
+      - 7:00 AM PT
+      - 10:00 AM ET
+      - 16:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 7:45 AM PT
+      - 10:45 AM ET
+      - 16:45 CET
+  - name: Piranha Cloud - From Eclipse GlassFish to super fast Cloud and Serverless Jakarta EE
     presenter: Ondro Mihályi
     times:
-      - 5:00 am PT
-      - 8:00 am ET
-      - 14:00 CET
-  
-    
+      - 8:00 AM PT
+      - 11:00 AM ET
+      - 17:00 CET
+  - name: Keynote
+    presenter: Mike Milinkovich
+    times:
+      - 8:45 AM PT
+      - 11:45 AM ET
+      - 17:45 CET
+  - name: Industry Keynote
+    presenter: Jakarta EE vendors
+    times:
+      - 9:00 AM PT
+      - 12:00 AM ET
+      - 18:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 9:55 AM PT
+      - 12:55 AM ET
+      - 18:55 CET
+  - name: Deep Dive MicroProfile 6.0 
+    presenter: Emily Jiang
+    times:
+      - 10:00 AM PT
+      - 1:00 PM ET
+      - 19:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 10:45 AM PT
+      - 1:45 PM ET
+      - 19:45 CET
+  - name: OpenTelemetry with MicroProfile
+    presenter: Bruno Baptista
+    times:
+      - 11:00 AM PT
+      - 2:00 PM ET
+      - 20:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 11:45 AM PT
+      - 2:45 PM ET
+      - 20:45 CET
+  - name: "Jakarta Starter: Create, build and run Jakarta EE Applications in under a minute"
+    presenter: A N M Bazlur Rahman
+    times:
+      - 12:00 PM PT
+      - 3:00 PM ET
+      - 21:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 12:45 PM PT
+      - PM ET
+      - CET
+  - name: Easy Java Integration Testing with Testcontainers
+    presenter: Fabio Andrés Turizo Correa
+    times:
+      - 1:00 PM PT
+      - 4:00 PM ET
+      - 22:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 1:45 PM PT
+      - 4:45 PM ET
+      - 22:45 CET
+  - name: Jakarta NoSQL - Powered by Cosmos DB on the Cloud
+    presenter: Reza Rahman
+    times:
+      - 2:00 PM PT
+      - 5:00 PM ET
+      - 23:00 CET
+  - name: Studio Jakarta EE (15 min)
+    times:
+      - 2:45 PM PT
+      - 5:45 PM ET
+      - 23:45 CET
+  - name: Foundations of Modern Java Server Apps 
+    presenter: Kito Mann
+    times:
+      - 3:00 PM PT
+      - 6:00 PM ET
+      - 00:00 CET
+  - name: Closing 
+    presenter: Tanja Obradovic & Ivar Grimstad
+    times:
+      - 3:45 PM PT
+      - 6:45 PM ET
+      - 00:45 CET
