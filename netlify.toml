@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "yarn run production && hugo --gc --minify"
+command = "yarn run production && hugo --gc --minify --buildFuture"
 
 [build.environment]
 NODE_VERSION = "12.18.3"
