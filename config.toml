@@ -58,3 +58,6 @@ themesDir = "node_modules/"
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
+
+[frontmatter]
+  publishDate = ['publishDate']
