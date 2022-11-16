@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "yarn run production && hugo --gc --minify --buildFuture"
+command = "yarn run production && hugo --gc --minify"
 
 [build.environment]
 NODE_VERSION = "12.18.3"
@@ -18,7 +18,7 @@ HUGO_VERSION = "0.76.5"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "yarn run production && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "yarn run production && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.76.5"
@@ -31,3 +31,6 @@ HUGO_VERSION = "0.76.5"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[frontmatter]
+  publishDate = ['publishDate']
