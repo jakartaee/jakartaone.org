@@ -2,7 +2,7 @@
 title: "JakartaOne 2022"
 seo_title: "JakartaOne Live - December 6th, 2022 | Jakarta EE Software | Cloud Native"
 headline: "JakartaOne Live Stream 2022"
-date: 2022-03-03T15:50:25
+date: 2022-12-06T00:00:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
@@ -41,7 +41,7 @@ We are proud to say that this year, sessions at JakartaOne Livestream Event are 
   {{</ events/program-committee >}}
 {{</ grid/div >}}
 
-<!-- Organizers section -->
-{{< grid/section-container id="organizers" class="row" isMarkdown="false" >}}
-  {{< events/user_display title="Organizers" year="2022" source="organizers" subpage="organizers" >}}
+<!-- Hosts section -->
+{{< grid/section-container id="hosts" class="row" isMarkdown="false" >}}
+  {{< events/user_display title="Hosts" year="2022" source="hosts" subpage="hosts" >}}
 {{</ grid/section-container >}}
