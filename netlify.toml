@@ -31,6 +31,3 @@ HUGO_VERSION = "0.76.5"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
-[frontmatter]
-  publishDate = ['publishDate']
