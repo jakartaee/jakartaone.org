@@ -2,7 +2,7 @@
 title: "JakartaOne 2022"
 seo_title: "JakartaOne Live - December 6th, 2022 | Jakarta EE Software | Cloud Native"
 headline: "JakartaOne Live Stream 2022"
-date: 2022-03-03T15:50:25
+date: 2022-12-06T00:00:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
