@@ -21,7 +21,7 @@ types:
 items:
   - name: Welcome
     type: studio
-    presenter: Shabnam, Tanja & Ivar
+    presenter: "Hosted by: Shabnam, Tanja & Ivar"
     times:
       - 2:45 AM PT
       - 5:45 AM ET
