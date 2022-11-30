@@ -68,7 +68,7 @@ items:
       - 5:45 AM PT
       - 8:45 AM ET
       - 14:45 CET
-  - name: "To InstanOn and Beyond: Jakarta EE Applications at Lightspeed"
+  - name: "To InstantOn and Beyond: Jakarta EE Applications at Lightspeed"
     type: jakarta-ee
     presenter: Grace Jansen & Tom Watson
     times:
