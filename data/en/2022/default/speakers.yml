@@ -74,8 +74,11 @@ items:
     bio: |
       <p>A N M Bazlur Rahman is a Software Engineer, Java Champion, Jakarta EE Ambassador, Author, Blogger, and Speaker. He has more than a decade of experience in the software industry, primarily with Java and Java-related technologies.</p>
       <p>He enjoys mentoring, writing, delivering talks at conferences, and contributing to open-source projects. He is the founder and current moderator of the Bangladesh Java User Group. He is an editor for the Java Queue at InfoQ and Foojay.io.</p>
-  #- name: Kito Mann
-  #  title: ''
-  #  img: ''
-  #  bio: ''
+  - name: Kito Mann
+    title: Principal Consultant at Virtua, Inc.
+    img: 'kito-mann-2022.jpg'
+    bio: |
+      <p>
+        Kito D. Mann is the Principal Consultant at <a href="https://virtua.tech/">Virtua, Inc.</a>, specializing in enterprise application architecture, training, development, and mentoring with microservices, cloud, Web Components, Angular, and Jakarta/Java EE technologies. He is also the co-host of <a href="http://stackdpodcast.com/">The Stackd Podcast</a> and the author of JavaServer Faces in Action. Mann has participated in several Java Community Process expert groups (including CDI, JSF, and Portlets) and is an internationally recognized speaker. He is also a Java Champion and Google Developer Expert in Web Technologies. He holds a BA in Computer Science from Johns Hopkins University.
+      </p>
     
