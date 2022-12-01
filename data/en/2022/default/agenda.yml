@@ -112,7 +112,7 @@ items:
       - 17:45 CET
   - name: Industry Keynote
     type: keynote
-    presenter: Jakarta EE vendors
+    presenter: Steve Millidge, Jean-Louis Monteiro, Ian Robinson, Will Lyons, and Scott Hunter 
     times:
       - 9:00 AM PT
       - 12:00 AM ET
