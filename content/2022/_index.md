@@ -11,13 +11,14 @@ headline: "JakartaOne Livestream"
 tagline: "December 6, 2022"
 layout: "single"
 ---
+
 <!-- Registration section -->
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
-{{< grid/div class="container" isMarkdown="false" >}}
-{{< events/registration year="2022" >}}
-JakartaOne Livestream is a one day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta EE and related technologies focused on developing cloud native technologies for enterprise Java applications.
-{{</ events/registration >}}
-{{</ grid/div >}}
+  {{< grid/div class="container" isMarkdown="false" >}}
+    {{< events/registration year="2022" >}}
+Thank you for making the JakartaOne Livestream event a success!
+    {{</ events/registration >}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 <!-- Agenda section -->
