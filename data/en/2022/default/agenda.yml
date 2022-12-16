@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
   - name: Jakarta EE
     id: jakarta-ee
@@ -22,6 +22,7 @@ items:
   - name: Welcome
     type: studio
     presenter: "Hosted by: Shabnam, Tanja & Ivar"
+    vod: https://youtu.be/ldEzUoI4APo
     times:
       - 2:45 AM PT
       - 5:45 AM ET
@@ -29,13 +30,15 @@ items:
   - name: Explore the new Jakarta EE Core Profile
     type: jakarta-ee
     presenter: Rudy de Busscher
+    vod: https://youtu.be/kFrjgnuys9Q
     times:
       - 3:00 AM PT
       - 6:00 AM ET
       - 12:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Jakarta EE 10
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
     type: studio
+    vod: https://www.youtube.com/watch?v=gz6UkNU9OaQ
     times:
       - 3:45 AM PT
       - 6:45 AM ET
@@ -43,13 +46,15 @@ items:
   - name: (Mis)Understanding Cloud Native Java
     type: architecture
     presenter: Ana-Maria Mihalceanu & Rustam Mehmandarov 
+    vod: https://youtu.be/yVA7bGpptAs
     times:
       - 4:00 AM PT
       - 7:00 AM ET
       - 13:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Adoptium
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/2RcXDMo72Qg
     times:
       - 4:45 AM PT
       - 7:45 AM ET
@@ -57,13 +62,15 @@ items:
   - name: What's Cooking in Maven?
     type: tools
     presenter: Maarten Muliders
+    vod: https://youtu.be/-Pw0NKc5vrA
     times:
       - 5:00 AM PT
       - 8:00 AM ET
       - 14:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Get involved in Jakarta EE
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/Mql74FIbRxs
     times:
       - 5:45 AM PT
       - 8:45 AM ET
@@ -71,13 +78,15 @@ items:
   - name: "To InstantOn and Beyond: Jakarta EE Applications at Lightspeed"
     type: jakarta-ee
     presenter: Grace Jansen & Tom Watson
+    vod: https://youtu.be/WKaekNABI_o
     times:
       - 6:00 AM PT
       - 9:00 AM ET
       - 15:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: 2022 in Review
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/yQltSjGnQMw
     times:
       - 6:45 AM PT
       - 9:45 AM ET
@@ -85,13 +94,15 @@ items:
   - name: Ideas for Lean, Maintainable, and Productive Jakarta EE / MicroProfile Projects
     type: jakarta-ee
     presenter: Adam Bien
+    vod: https://youtu.be/Sra6MDmPcuI
     times:
       - 7:00 AM PT
       - 10:00 AM ET
       - 16:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: The Jakarta EE Community
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/2KZQEkhw9c4
     times:
       - 7:45 AM PT
       - 10:45 AM ET
@@ -99,6 +110,7 @@ items:
   - name: Piranha Cloud - From Eclipse GlassFish to super fast Cloud and Serverless Jakarta EE
     type: jakarta-ee
     presenter: Ondro Mihályi
+    vod: https://youtu.be/LAcjP8m15Vw
     times:
       - 8:00 AM PT
       - 11:00 AM ET
@@ -106,6 +118,7 @@ items:
   - name: Keynote
     type: keynote
     presenter: Mike Milinkovich
+    vod: https://youtu.be/DKIYBvuFMrU
     times:
       - 8:45 AM PT
       - 11:45 AM ET
@@ -113,6 +126,7 @@ items:
   - name: Industry Keynote
     type: keynote
     presenter: Steve Millidge, Jean-Louis Monteiro, Ian Robinson, Will Lyons, and Scott Hunter 
+    vod: https://youtu.be/eqxrVeKdnPo
     times:
       - 9:00 AM PT
       - 12:00 AM ET
@@ -127,13 +141,15 @@ items:
   - name: Deep Dive MicroProfile 6.0 
     type: microprofile
     presenter: Emily Jiang
+    vod: https://youtu.be/1r9UKRoDF7o
     times:
       - 10:00 AM PT
       - 1:00 PM ET
       - 19:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: What's next for Jakarta EE
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/_j5QXkxi7N8
     times:
       - 10:45 AM PT
       - 1:45 PM ET
@@ -141,13 +157,15 @@ items:
   - name: OpenTelemetry with MicroProfile
     type: microprofile
     presenter: Bruno Baptista
+    vod: https://youtu.be/Xzm9m0PG5Wk
     times:
       - 11:00 AM PT
       - 2:00 PM ET
       - 20:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Specifications
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/vEsyp8Ekrb0
     times:
       - 11:45 AM PT
       - 2:45 PM ET
@@ -155,13 +173,15 @@ items:
   - name: "Jakarta Starter: Create, build and run Jakarta EE Applications in under a minute"
     type: jakarta-ee
     presenter: A N M Bazlur Rahman
+    vod: https://youtu.be/IuOuY4vk0cU
     times:
       - 12:00 PM PT
       - 3:00 PM ET
       - 21:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Why Jakarta EE?
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/bHJGvR4vFrg
     times:
       - 12:45 PM PT
       - 3:45 PM ET
@@ -169,13 +189,15 @@ items:
   - name: Easy Java Integration Testing with Testcontainers
     type: tools
     presenter: Fabio Andrés Turizo Correa
+    vod: https://youtu.be/2benv6_Ezvg
     times:
       - 1:00 PM PT
       - 4:00 PM ET
       - 22:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Why choose Jakarta EE?
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/kfZSrb3Ele0
     times:
       - 1:45 PM PT
       - 4:45 PM ET
@@ -183,13 +205,15 @@ items:
   - name: Jakarta NoSQL - Powered by Cosmos DB on the Cloud
     type: jakarta-ee
     presenter: Reza Rahman
+    vod: https://youtu.be/oEbJSEfFqBQ
     times:
       - 2:00 PM PT
       - 5:00 PM ET
       - 23:00 CET
-  - name: Studio Jakarta EE (15 min)
+  - name: Contribution Awards
     type: studio
     presenter: "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/Gfy5QeTve7E
     times:
       - 2:45 PM PT
       - 5:45 PM ET
@@ -197,6 +221,7 @@ items:
   - name: Foundations of Modern Java Server Apps 
     type: architecture
     presenter: Kito Mann
+    vod: https://youtu.be/p84Cl8cMBds
     times:
       - 3:00 PM PT
       - 6:00 PM ET
@@ -204,6 +229,7 @@ items:
   - name: Closing 
     type: studio
     presenter: "Hosted by Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/NFCpOyBnvw4
     times:
       - 3:45 PM PT
       - 6:45 PM ET
