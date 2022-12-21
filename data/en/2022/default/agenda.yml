@@ -131,13 +131,6 @@ items:
       - 9:00 AM PT
       - 12:00 AM ET
       - 18:00 CET
-  - name: Studio Jakarta EE (15 min)
-    type: studio
-    presenter: "Hosted by: Shabnam, Tanja, & Ivar"
-    times:
-      - 9:55 AM PT
-      - 12:55 AM ET
-      - 18:55 CET
   - name: Deep Dive MicroProfile 6.0 
     type: microprofile
     presenter: Emily Jiang
