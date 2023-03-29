@@ -1,7 +1,7 @@
 ---
 title: JakartaOne 2023
 seo_title: JakartaOne Live - December 5, 2023 | Jakarta EE Software | Cloud Native
-headline: JakartaOne Live Stream 2023
+headline: JakartaOne Livestream 2023
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
