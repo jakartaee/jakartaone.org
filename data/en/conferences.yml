@@ -1,5 +1,16 @@
 items:
-  - 
+  -  
+    name: JakartaOne Livestream Portuguese
+    location: Brazil, Portugal
+    date: August 15, 2023
+    start_date: 2023-08-15
+    end_date: 2023-08-16
+    url: /2023/portuguese
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone-2022.png
+    description: 
+  -
     name: JakartaOne Livestream Spanish
     location: Colombia, Dominican Republic, Ecuador, Mexico
     date: November 9, 2023
