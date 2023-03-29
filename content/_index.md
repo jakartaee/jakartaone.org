@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne Live"
-headline: "JakartaOne Livestream 2022"
+headline: "JakartaOne Livestream 2023"
 #prefix: "December 2022"
 seo_title: "JakartaOne Live | Jakarta EE Software | Cloud Native"
 date: 2018-04-05T15:50:25-04:00
@@ -29,8 +29,8 @@ container: "container-fluid"
 {{< grid/section-container class="margin-top-40 margin-bottom-40" >}}
 {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
 {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
-<h2 class="margin-bottom-40 text-center">Revisit out latest JakartaOne Livestream 2021 event</h2>
-{{< youtube "playlist?list=PLutlXcN4EAwCxiFhy8X7vi4gxqVUNbqkI" >}}  
+<h2 class="margin-bottom-40 text-center">Revisit out latest JakartaOne Livestream 2022 event</h2>
+{{< youtube "playlist?list=PLutlXcN4EAwBwhwfmPBajbiu-YlAVKG0r" >}}  
 {{</ grid/div >}}
 {{</ grid/div >}}
 
