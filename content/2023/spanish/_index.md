@@ -1,14 +1,12 @@
 ---
-title: JakartaOne 2023
-seo_title: JakartaOne Live - December 5, 2023 | Jakarta EE Software | Cloud Native
-headline: JakartaOne Livestream 2023
+title: JakartaOne Livestream - Spanish 2023
+seo_title: JakartaOne Livestream - November 9, 2023 | Jakarta EE Software | Cloud Native
+headline: JakartaOne Livestream - Spanish
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: container-fluid
-tagline: December 5, 2023
-# tagline_suffix: |
-#    <a class="btn btn-primary margin-bottom-30" href="">Call for Papers</a>
+tagline: November 9, 2023
 layout: single
 ---
 
@@ -21,3 +19,4 @@ JakartaOne Livestream is a one day virtual conference for developers and technic
         {{</ events/registration >}}
     {{</ grid/div >}}
 {{</ grid/section-container >}}
+
