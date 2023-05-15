@@ -1,0 +1,33 @@
+items:
+  - name: Mala Gupta
+    title: Developer Advocate, JetBrains
+    img: null
+    bio: ""
+  - name: Edwin Derks
+    title: Principal Consultant, Team Rockstars IT
+    img: null
+    bio: ""
+  - name: Tobias Frech
+    title: ""
+    img: null
+    bio: ""
+  - name: Abraham Marin-Perez
+    title: Software Developer, UK Home Office
+    img: null
+    bio: ""
+  - name: Dmitry Aleksandrov
+    title: Software Developer 5, Oracle
+    img: null
+    bio: |
+      <p>
+        Dmitry Aleksandrov is a chief architect at T-Systems, a Java Champion, Oracle
+        Groundbreaker, and blogger. He has more than a decade experience mainly in Java
+        Enterprise in banking/telecom, but he is also interested in dynamic languages
+        on JVM and features such as massive-parallel computations on GPUs.
+      </p>
+      <p>
+        He is a co-lead of the Bulgarian Java User Group and co-organizer of
+        jPrime Conf. Dmitry is also a frequent speaker at local events as well
+        as conferences such as JavaOne/Code One, Devoxx, JavaZone, and
+        Joker/JPoint.
+      </p>
