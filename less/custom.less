@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2019 Eclipse Foundation, Inc.
+ * Copyright (c) 2019, 2023 Eclipse Foundation, Inc.
  * 
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v. 2.0 which is available at
@@ -8,6 +8,7 @@
  * Contributors:
  *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
  *   Martin Lowe <martin.lowe@eclipse-foundation.org>
+ *   Olivier Goulet <olivier.goulet@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
@@ -220,6 +221,29 @@ img.cover-image {
   font-size: 28px;
   color: @brand-primary;
   margin-bottom: 40px;
+}
+
+.eclipsefdn-user-bios-picture {
+  .icon-backdrop {
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.speaker-container img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.speaker-container .icon-backdrop {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 // footer changes
