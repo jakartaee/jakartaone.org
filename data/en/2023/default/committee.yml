@@ -2,22 +2,86 @@ items:
   - name: Mala Gupta
     title: Developer Advocate, JetBrains
     img: mala-gupta-2022.jpg
-    bio: ""
+    bio: |
+      <p>
+        A proud wife, Mala Gupta is an author and a Java Champion. She works as a Java
+        Developer Advocate with JetBrains. She has authored multiple books with
+        Manning, Packt and O'Reilly Publications. She is an international speaker at
+        industry conferences and has over two decades of experience in the software
+        industry. She has been actively supporting Java certification as a path to
+        career advancement. She co-leads Delhi's Java User Group. A strong supporter of
+        Women in Technology, she drives initiatives of the Women Who Code Delhi chapter
+        to augment the participation of women in tech.
+      </p>
   - name: Edwin Derks
     title: Principal Consultant, Team Rockstars IT
     img: edwin-derks-2022.jpg
-    bio: ""
+    bio: |
+      <p>
+        Edwin Derks is a Java Champion and Principal Consultant with Team Rockstars IT.
+        He has a passion for gathering and sharing knowledge about anything related to
+        the Java ecosystem and cloud-driven development in general. He’s a contributor
+        to MicroProfile and Jakarta EE, writes articles and often speaks at
+        conferences. In his spare time, he can often be found in the gym or having a
+        good time at dance parties or metal concerts.
+      </p>
   - name: Michael Redlich
     title: Senior Research Technician, ExxonMobil
     img: michael-redlich-2023.jpg
+    bio: |
+      <p>
+        Michael Redlich is a Java Champion and retired Senior Research Technician at
+        ExxonMobil Technology & Engineering in Clinton, New Jersey with over 33 years
+        experience in polymer physics and developing custom scientific laboratory and
+        web applications.
+      </p>
+      <p>
+        Mike has been an active member within the Java community for the past 25 years.
+        He founded the Garden State Java User Group (formerly the ACGNJ Java Users
+        Group) in 2001 that remains in continuous operation. Since 2016, Mike has
+        served as a Java community news editor for InfoQ where his contributions
+        include monthly news items, technical writing and technical reviews. Mike has
+        co-authored nine (9) articles with Barry Burd for Java Boutique (now jGuru). He
+        has presented at conferences including: Oracle Code One, Emerging Technologies
+        for the Enterprise (ETE), Trenton Computer Festival (TCF) and TCF IT
+        Professional Conference, and Java User Groups including: Philly Java Users
+        Group, Kansas City Java Users Group, Princeton Java Users Group and Capital
+        District Java Developers Network. More recently, Mike has contributed to open
+        source projects and has been elected as a committer to the Jakarta NoSQL,
+        Jakarta Data and Eclipse JNoSQL projects. He also participates on the
+        leadership council of the Jakarta EE Ambassadors. Mike was elected as a Java
+        Champion in April 2023.
+      </p>
+      <p>
+        Mike makes his home in Flemington, New Jersey with his lovely wife, Rowena,
+        where they spend quality time cycling/running and traveling to New Orleans,
+        Louisiana and Newport, Rhode Island throughout the year.
+      </p>
   - name: Tobias Frech
     title: ""
     img: tobias-frech-2023.jpg
-    bio: ""
+    bio: |
+      <p>
+        J2EE - JavaEE - JakartaEE, monolith and microservices. Tobias has a broad range
+        of experiences in the enterprise software development and operations space.
+        It's more likely to find him dissecting IP packets than moving pixels.
+        Community and conference organizer, Java Champion.
+      </p>
   - name: Abraham Marin-Perez
     title: Software Developer, UK Home Office
     img: abraham-marin-perez-2023.jpg
-    bio: ""
+    bio: |
+      <p>
+        Abraham Marín-Pérez is a Java programmer, consultant, author, and public
+        speaker with more than fifteen years of experience in a variety of industries.
+        Originally from Valencia, Spain, Abraham has built most of his career in
+        London, UK, working with entities like JP Morgan or the United Kingdom’s Home
+        Office, frequently in collaboration with Equal Experts. Thinking his
+        experiences could be useful to others, Abraham became a Java news editor at
+        InfoQ, authored “Real-World Maintainable Software”, and co-authored “Continuous
+        Delivery in Java”. He also helps run the London Java Community. Always the
+        learner, Abraham is pursuing a degree in Physics.
+      </p>
   - name: Dmitry Aleksandrov
     title: Software Developer 5, Oracle
     img: null
