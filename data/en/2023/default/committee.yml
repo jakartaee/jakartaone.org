@@ -1,7 +1,7 @@
 items:
   - name: Mala Gupta
     title: Developer Advocate, JetBrains
-    img: mala-gupta.jpg
+    img: mala-gupta-2022.jpg
     bio: ""
   - name: Edwin Derks
     title: Principal Consultant, Team Rockstars IT
@@ -9,13 +9,14 @@ items:
     bio: ""
   - name: Michael Redlich
     title: Senior Research Technician, ExxonMobil
+    img: michael-redlich-2023.jpg
   - name: Tobias Frech
     title: ""
-    img: null
+    img: tobias-frech-2023.jpg
     bio: ""
   - name: Abraham Marin-Perez
     title: Software Developer, UK Home Office
-    img: abraham-marin-perez.jpg
+    img: abraham-marin-perez-2023.jpg
     bio: ""
   - name: Dmitry Aleksandrov
     title: Software Developer 5, Oracle
