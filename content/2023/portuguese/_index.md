@@ -9,7 +9,11 @@ container: container-fluid
 tagline: August 15, 2023
 layout: single
 tagline_suffix: |
-  <p><a class="btn btn-primary margin-right-10" href="https://www.papercall.io/portuguese">Call For Papers</a></p>
+  <p>
+    <a class="btn btn-primary margin-right-10" href="https://www.papercall.io/portuguese">Call For Papers</a>
+    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/August15_JakartaOnePortuguese/register">Register now</a>
+    
+  </p>
 ---
 
 <!-- Registration section -->
