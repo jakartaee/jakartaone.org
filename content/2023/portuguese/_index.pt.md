@@ -26,3 +26,9 @@ O JakartaOne Livestream é uma conferência virtual de um dia para desenvolvedor
 {{</ events/registration >}}
 {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+
+<!-- Add user carousel for committee -->
+{{< events/program-committee event="portuguese" year="2023" source="committee" subpage="program-committee" useCarousel="true" displayDetails="false">}}
+Estamos orgulhosos de dizer que as sessões e palestras do JakartaOne Livestream Event são escolhidas por um comitê independente composto por voluntários da comunidade Jakarta® EE e Cloud Native Java!
+{{</ events/program-committee >}}
