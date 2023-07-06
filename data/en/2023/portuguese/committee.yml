@@ -5,7 +5,7 @@ items:
     bio: |
       <ul>
         <li>I'm currently working as a Developer Advocate/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
-        <li>JUG leader at <a href="">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
         <li>I'm always looking for helping developers with the best programming practices;
         <li>seedling I'm always learning to improve my skills and to be the better person that I can be!-
         <li>I love martial arts, especially Aikido and Ninjitsu!
@@ -16,10 +16,10 @@ items:
     img: "marruda-2023.jpg"
     bio: |
       <ul>
-        <li>I'm currently working as a Developer Advocate/Specialist at Zup Innovation;
-        <li>JUG leader at SouJava (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>I'm currently working as a Developer Advocate/Specialist at <a href="https://zup.com.br/" target="_blank">Zup Innovation</a>;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
         <li>Jakarta EE Contributor and Ambassador;
-        <li>Eclipse Foundation Committer: Eclipse JNoSQL project
+        <li><a href="https://accounts.eclipse.org/users/maxdearruda">Eclipse Foundation Committer</a>: <a href="http://www.jnosql.org/">Eclipse JNoSQL</a> project
         <li>Speaker/coordinator at The Developers Conference;
         <li>Cloud Conference Day Java Track Ambassador;
         <li>I'm always looking for helping developers with the best programming practices;
