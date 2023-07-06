@@ -2,6 +2,8 @@ items:
   - name: Paulo Simoes
     title: Developer Advocate/Product Manager @ Oracle
     img: "psimoes-2023.jpg"
+    twitter_handle: pasimoes
+    linkedin: pasimoes
     bio: |
       <ul>
         <li>I'm currently working as a Developer Advocate/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
@@ -14,6 +16,8 @@ items:
   - name: Maximillian Arruda
     title: Developer Advocate @ Zup Innovation
     img: "marruda-2023.jpg"
+    twitter_handle: maxdearruda
+    linkedin: maxarruda
     bio: |
       <ul>
         <li>I'm currently working as a Developer Advocate/Specialist at <a href="https://zup.com.br/" target="_blank">Zup Innovation</a>;
