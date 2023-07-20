@@ -43,6 +43,6 @@ We are proud to say that this year, sessions at JakartaOne Livestream Event are 
 <!-- Organizers section -->
 {{< grid/div class="container" id="hosts" isMarkdown="false">}}
   {{< grid/section-container id="organizers" isMarkdown="false" >}}
-    {{< events/user_display title="Hosts" year="2022" source="hosts" subpage="hosts" >}}
+    {{< events/user_display title="Hosts" year="2022" source="hosts" subpage="hosts" />}}
   {{</ grid/section-container >}}
 {{</ grid/div >}}
