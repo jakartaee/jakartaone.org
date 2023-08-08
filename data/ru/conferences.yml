@@ -2,10 +2,10 @@ items:
   -  
     name: JakartaOne Livestream Portuguese
     location: Brazil, Portugal
-    date: August 15, 2023
-    start_date: 2023-08-15
-    end_date: 2023-08-16
-    url: /2023/portuguese
+    date: January 19, 2024
+    start_date: 2024-01-19
+    end_date: 2024-01-20
+    url: /2024/portuguese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/jakartaone-2022.png
