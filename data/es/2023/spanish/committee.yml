@@ -13,12 +13,6 @@ items:
       <p>Ingeniero Telemático (Egresado de PUCMM). Actualmente Desarrollador Informático en el Ministerio de Hacienda de la República Dominicana. Entusiasta de la tecnología y el software libre, desarrollador Java, instructor ocasional (Java / Linux), aficionado del béisbol/sóftbol y los bailes latinos.</p>
       <p>Ganador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del JCP (Java Community Process). Co-fundador / Organizador del grupo de usuarios Java (Java User Group ) de la República Dominicana (aka Java Dominicano) y miembro del staff organizador de JConf Dominicana (https://jconfdominicana.org)</p>
       <p>En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.</p>
-  - name: "Carlos Obregón"
-    title: "Software Developer - Bogotá JUG Co-founder and leader"
-    twitter_handle: gaijinco
-    img: "cobregon.jpg"
-    bio: |
-      <p>Carlos es un desarrollador de software con 12 años de experiencia principalmente en desarrollo web. Co-fundó el JUG de Bogotá hace 8 años donde es un conferencista frecuente hablando de diferentes temas sobre desarrollo en general y Java en particular. No tuve un amor a primera vista con Java, pero gracias a las excelentes herramientas, especialmente Eclipse, se convirtió en su alma gemela.</p>
   - name: "Carlos Camacho"
     title: "Software Developer – University professor - Dominican Republic JUG Co-Leader"
     twitter_handle: ccamachog
