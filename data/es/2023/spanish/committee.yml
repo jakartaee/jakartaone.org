@@ -26,13 +26,13 @@ items:
     bio: |
       <p>Ingeniero Telemático, Profesor Universitario en la Pontificia Universidad Católica Madre y Maestra (PUCMM), Actualmente Director de la Escuela en Computación y Telecomunicaciones. Co-fundador y organizador del Java User Group en República Dominicana, conocido como Java Dominicano, Miembro de La Fundación Código Libre Dominicano. Co-Organizador del primer evento dedicado a la plataforma Java en República Dominicana, JConf Dominicana 2019 (https://jconfdominicana.org). Co-organizador del Barcamp RD (https://barcamp.org.do/), evento exclusivo para presentar temas relacionado a tecnologías en camino a su octava edición en noviembre del 2020. En mis más de quince años de experiencia me considero un evangelista de la plataforma Java y todos sus derivados, donde he impartido diferentes cursos en diferentes centros educativos en República Dominicana y apoyado proyectos bajo la plataforma. Profesionalmente soy Director de Tecnologías en la empresa AvatharTech, dedicada al desarrollo y consultoría de aplicaciones para los sectores productivos del país.</p>
   - name: "Christian Gómez"
-    title: "Software Engineer,Guadalajara Java User Group Organizer and co-founder of JConf México"
+    title: "Software Engineer, Guadalajara Java User Group Organizer and co-founder of JConf México"
     twitter_handle: chrisom
     img: "cgomez.jpg"
     bio: |
       <p>Ingeniero de Software con 14 años de experiencia en el rubro de las tecnologías de la información, actualmente con el rol de Full Stack Java Developer en IBM, parte del equipo organizador de Guadalajara Java User Group y cofundador de JConf México. Colaborador en las charlas virtuales de Java por JUGs Latam.</p>
   - name: Fabio Turizo
-    title: Software Engineer
+    title: Software Engineer - Payara
     img: fabio-turizo.jpg
     bio: |
       Fabio es un ingeniero de software que ofrece más de 12 años en la
