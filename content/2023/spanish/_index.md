@@ -8,8 +8,13 @@ hide_breadcrumb: true
 container: container-fluid
 tagline: November 9, 2023
 layout: single
+tagline_suffix: |
+    <div class="display-flex gap-10 margin-bottom-30">    
+      <a class="btn btn-primary" href="https://www.papercall.io/spanish">
+       Apply to become a speaker
+      </a>
+    </div>
 ---
-
 <!-- Registration section -->
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
