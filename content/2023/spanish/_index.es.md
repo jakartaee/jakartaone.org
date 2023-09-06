@@ -8,17 +8,23 @@ hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
 tagline: "9 de noviembre del 2023"
-description: "JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español"
+description: "JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual, así como también, el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la tercerca edición del evento con contenido complementamente en español"
 layout: "single"
 menu_name: "hispano"
+tagline_suffix: |
+    <div class="display-flex gap-10 margin-bottom-30">    
+      <a class="btn btn-primary" href="https://www.papercall.io/spanish">
+       ¡Envía tu propuesta aquí!
+      </a>
+    </div>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="spanish" year="2023" title="Muy pronto podrás enviar tu propuesta para participar como conferencista." >}}
+    {{< events/registration event="spanish" year="2023" title="Sobre el evento" >}}
 
 JakartaOne en Español es una conferencia virtual para desarrolladores y líderes
-técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías
+técnicos que ofrece el estado actual, así como también, el futuro de Jakarta EE y tecnologías
 relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas
 para la nube. Esta es la tercera edición del evento con contenido
 complementamente en español.

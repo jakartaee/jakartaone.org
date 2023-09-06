@@ -1,5 +1,5 @@
 ---
-title: "Committee Members"
+title: "Comité del Programa"
 seo_title: "JakartaOne Livestream en Español 2023 | Jakarta EE Software | Cloud Native"
 date: 2023-09-01
 hide_page_title: false
