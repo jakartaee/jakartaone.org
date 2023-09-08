@@ -9,7 +9,7 @@ container: container-fluid
 tagline: December 5, 2023
 tagline_suffix: |
     <div class="display-flex gap-10 margin-bottom-30">
-      <a class="btn btn-primary" href="https://www.crowdcast.io/e/dec05_2023_jakartaone">
+      <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartane-05122023">
         Register Now
       </a>
       <a class="btn btn-primary" href="https://www.papercall.io/jakartaone-2023">
