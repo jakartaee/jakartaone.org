@@ -8,8 +8,13 @@ hide_breadcrumb: true
 container: container-fluid
 tagline: November 9, 2023
 layout: single
+tagline_suffix: |
+    <div class="display-flex gap-10 margin-bottom-30">    
+      <a class="btn btn-primary" href="https://www.papercall.io/spanish">
+       Apply to become a speaker
+      </a>
+    </div>
 ---
-
 <!-- Registration section -->
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
@@ -20,3 +25,12 @@ JakartaOne Livestream is a one day virtual conference for developers and technic
     {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+
+<!-- Program Committee section -->
+{{< events/program-committee event="spanish" year="2023"  source="committee" subpage="program-committee" useCarousel="false" >}}
+
+We are proud to say that the sessions and keynotes for JakartaOne Livestream
+Event are chosen by an independent program committee made up of volunteers from
+the Jakarta&reg; EE and Cloud Native Java community!
+
+{{</ events/program-committee >}}
