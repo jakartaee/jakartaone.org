@@ -10,22 +10,54 @@ container: container-fluid
 tagline: September 27, 2023
 layout: single
 menu_name: "chinese"
+tagline_suffix: |
+    <div class="display-flex gap-10 margin-bottom-30">
+      <a class="btn btn-primary" href="https://meeting.tencent.com/dw/OYvhdc8AQsTK?ch=nxgCi8mdbizBv">
+        报名注册，预约在线观看席位
+      </a>
+    </div>
 ---
 
 <!-- Registration section -->
 
-{{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
+{{< grid/section-container id="registration" containerClass="backdrop padding-top-40" >}}
     {{< grid/div class="container" isMarkdown="false" >}}
         {{< events/registration event="chinese" year="2023" >}}
+亲爱的Java和云原生的技术爱好者们，我们诚挚地邀请您参加即将召开的 JakartaOne Livestream 会议！<br>
+
 JakartaOne Livestream是Jakarta EE工作组面向开发人员及技术业务负责人的线上会议，主要关注企业级Java应用云原生技术，探讨关于Jakarta EE和技术发展现状及未来趋势。<br>
 
-2022年，我们成功举办了JakartaOne Livestream Chinese 线上会议，是Jakarta国际开源规范组织在中国区的首次技术活动，活动获得了近5000人次的关注和浏览。<br>
+本次盛会将带领我们深入探讨云原生应用中间件的建设思路、效益及发展，分析企业Java EE应用迁移至Jakarta环境的策略与路径，研究Java应用创新与Jakarta EE云原生启动的优化方法，一并揭秘Java事务处理的发展历程、核心概念和分布式模型。<br>
 
-2023年9月27日，我们邀您共享又一次的 Jakarta EE 技术盛会。
+更令人振奋的是，我们还将分享基于MicroProfile构建云原生应用的开发实践，为您提供实际可行的技术指导。<br>
 
-[Jakarta EE中国社区](https://jakarta.ee/zh/community/china/)，经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。
-        {{</ events/registration >}}
+在本次 JakartaOne Livestream 会议上，您将有机会与全球顶级的技术专家、开发者共同探讨云原生时代的发展趋势，共同迈向云原生时代的关键里程碑！<br>
+
+无论您是Java开发老手，还是新兴的云原生应用开发者，Jakarta EE 10都将是您不容错过的技术盛宴。立即报名，加入我们，共同探索云原生时代的无限可能！<br>
+
+本次会议的中文版本，由[Jakarta EE中国社区](https://jakarta.ee/zh/community/china/) 主办，Jakarta EE中国社区经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。<br>
+
+[报名注册](https://meeting.tencent.com/dw/OYvhdc8AQsTK?ch=nxgCi8mdbizBv) 本次研讨会，可以在活动现场参与抽奖。
+		{{</ events/registration >}}
     {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+{{< grid/section-container id="sponsors" class="backdrop">}}
+  {{< events/sponsors event="chinese" year="2023" title="现场抽奖" displayBecomeSponsor="false" >}}
+{{</ grid/section-container >}}
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="chinese" year="2023" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2023" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="演讲人" headerClass="text-left" />}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 <!-- Add user carousel for committee -->
