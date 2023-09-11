@@ -30,12 +30,10 @@ items:
       presenter: 李杰
       type: jakarta_ee
       time: 14:10-14:40 GMT+08
-      abstract:
     - name: 云原生应用中间件的建设思路、效益及发展
       presenter: 王峰
       type: jakarta_ee
       time: 14:40-15:10 GMT+08
-      abstract:
     - name: 企业Java EE应用到Jakarta环境的迁移之道
       presenter: 倪坚
       type: jakarta_ee
@@ -52,7 +50,6 @@ items:
       presenter: 赵欣
       type: jakarta_ee
       time: 16:10-16:40 GMT+08
-      abstract:
     - name: Java事务处理的发展历程、核心概念和分布式模型
       presenter: 马震
       type: jakarta_ee
@@ -69,14 +66,11 @@ items:
       presenter: Jakarta EE 工作组成员
       type: keynote
       time: 17:40-18:20 GMT+08
-      abstract:
     - name: 圆桌讨论 
       presenter: 与会嘉宾
       type: roundtable
       time: 18:20-18:50 GMT+08
-      abstract:
     - name: 抽奖 & 交流
       presenter: 与会嘉宾与观众
       type: lottery-draw
       time: 18:50-19:00 GMT+08
-      abstract:
