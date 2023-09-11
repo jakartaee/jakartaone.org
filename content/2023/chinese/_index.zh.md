@@ -25,17 +25,17 @@ tagline_suffix: |
         {{< events/registration event="chinese" year="2023" >}}
 亲爱的Java和云原生的技术爱好者们，我们诚挚地邀请您参加即将召开的 JakartaOne Livestream 会议！<br>
 
-JakartaOne Livestream是Jakarta EE工作组面向开发人员及技术业务负责人的线上会议，主要关注企业级Java应用云原生技术，探讨关于Jakarta EE和技术发展现状及未来趋势。<br>
+JakartaOne Livestream 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开发人员及技术负责人的线上会议，主要关注企业级Java应用云原生技术，探讨 Jakarta EE 技术发展现状及未来趋势。<br>
 
-本次盛会将带领我们深入探讨云原生应用中间件的建设思路、效益及发展，分析企业Java EE应用迁移至Jakarta环境的策略与路径，研究Java应用创新与Jakarta EE云原生启动的优化方法，一并揭秘Java事务处理的发展历程、核心概念和分布式模型。<br>
+本次盛会将带领我们深入探讨云原生应用中间件的建设思路、效益及发展，分析企业 Java EE 应用迁移至 Jakarta EE 环境的策略与路径，研究Java应用创新与 Jakarta EE 云原生启动的优化方法，一并揭秘Java事务处理的发展历程、核心概念和分布式模型。<br>
 
-更令人振奋的是，我们还将分享基于MicroProfile构建云原生应用的开发实践，为您提供实际可行的技术指导。<br>
+更令人振奋的是，我们还将分享基于 MicroProfile 构建云原生应用的开发实践，为您提供实际可行的技术指导。<br>
 
 在本次 JakartaOne Livestream 会议上，您将有机会与全球顶级的技术专家、开发者共同探讨云原生时代的发展趋势，共同迈向云原生时代的关键里程碑！<br>
 
-无论您是Java开发老手，还是新兴的云原生应用开发者，Jakarta EE 10都将是您不容错过的技术盛宴。立即报名，加入我们，共同探索云原生时代的无限可能！<br>
+无论您是Java开发老手，还是新兴的云原生应用开发者，JakartaOne Livestream 都将是您不容错过的技术盛宴。立即报名，加入我们，共同探索云原生时代的无限可能！<br>
 
-本次会议的中文版本，由[Jakarta EE中国社区](https://jakarta.ee/zh/community/china/) 主办，Jakarta EE中国社区经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。<br>
+本次会议的中文版本，由 [Jakarta EE中国社区](https://jakarta.ee/zh/community/china/) 主办，Jakarta EE中国社区经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。<br>
 
 [报名注册](https://meeting.tencent.com/dw/OYvhdc8AQsTK?ch=nxgCi8mdbizBv) 本次研讨会，可以在活动现场参与抽奖。
 		{{</ events/registration >}}
