@@ -30,7 +30,7 @@ items:
       presenter: 李杰
       type: jakarta_ee
       time: 14:10-14:40 GMT+08
-    - name: 云原生应用中间件的建设思路、效益及发展
+    - name: 一种云原生应用中间件的实现及演进
       presenter: 王峰
       type: jakarta_ee
       time: 14:40-15:10 GMT+08
@@ -46,7 +46,7 @@ items:
       time: 15:40-16:10 GMT+08
       abstract: |
         如您所知，Java 应用程序一直面临启动缓慢的巨大挑战，这使得它们在容器中使用无服务器时处于劣势，因为需要快速启动。近年来，一种名为 GraalVM 的技术试图解决这个问题，但它也存在一些缺点，因此并未被广泛采用。好消息是，Open Liberty 和 OpenJ9 最近发布的 InstantOn 技术使用 Linux CRIU可以毫无妥协地解决了这个技术难题。在容器中，您的 Jakarta EE 和 MicroProfile 应用程序可以在几百毫秒内启动，并且仍然使用传统的 JVM。参加本次会议了解更多信息并观看现场演示。
-    - name: Jakarta EE 性能优化
+    - name: Java EE/Jakarta EE 性能优化
       presenter: 赵欣
       type: jakarta_ee
       time: 16:10-16:40 GMT+08
