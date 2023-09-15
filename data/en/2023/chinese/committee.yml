@@ -1,10 +1,10 @@
 items:
   - name: "Eric Meng"
-    title: "WG Member(普元信息)"
+    title: "WG Member(Primeton)"
     img: ""
     bio: ""
   - name: "Peak Wong"
-    title: "WG Member(亚信安慧)"
+    title: "WG Member(AsiaInfo)"
     twitter_handle:
     img: "peakwang.2023.jpg"
     bio: ""
@@ -14,17 +14,17 @@ items:
     img: "emily_jiang.jpg"
     bio: ""
   - name: "Sniffer Hu"
-    title: "WG Member(东方通)"
+    title: "WG Member(TongTech)"
     twitter_handle: 
     img: "sniffhu2023.jpg" 
     bio: ""
   - name: "David Liu"
-    title: "WG Member(金蝶中间件)"
+    title: "WG Member(Apusic)"
     twitter_handle:
     img: "davidliu2022.jpg"
     bio: ""
   - name: "Maggie"
-    title: "WG Member(中创中间件)"
+    title: "WG Member(Cvicse)"
     twitter_handle:
     img: "maggiezhao.2023.jpg"
     bio: ""

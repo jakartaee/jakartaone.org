@@ -30,10 +30,14 @@ items:
       presenter: 李杰
       type: jakarta_ee
       time: 14:10-14:40 GMT+08
+      abstract: |
+        云原生架构提供了可伸缩性、弹性和高可用性等优势，已成为现代应用开发的新趋势。JAKARTA EE 10旨在将Java EE平台转化为适应云原生环境的创新解决方案。
     - name: 一种云原生应用中间件的实现及演进
       presenter: 王峰
       type: jakarta_ee
       time: 14:40-15:10 GMT+08
+      abstract: |
+        应用中间件通过自身云原生化，作为应用和云平台桥梁，实现应用平滑上云；并提供一种云原生微服务的技术方案。
     - name: 企业Java EE应用到Jakarta环境的迁移之道
       presenter: 倪坚
       type: jakarta_ee
@@ -50,6 +54,8 @@ items:
       presenter: 赵欣
       type: jakarta_ee
       time: 16:10-16:40 GMT+08
+      abstract: |
+        Java或Jakarta EE项目实践过程中的性能问题诊断、调优，以及实际工作项目性能优化案例分享
     - name: Java事务处理的发展历程、核心概念和分布式模型
       presenter: 马震
       type: jakarta_ee
@@ -61,16 +67,22 @@ items:
       type: microprofile
       time: 17:10-17:40 GMT+08
       abstract: |
-        介绍中国通信行业的发展简史，通信行业的系统结构，Jakarta EE的技术发展简史，Jakarta EE技术对通信行业系统发展的助力情况。通信行业的系统现状以及后续发展对技术的需求。希望Jakarta EE能有更多匹配通信行业发展的技术。 <a href="https://pan.baidu.com/s/1-8SsfcmdS7I_OiqCSVczyQ?pwd=yw9d">演讲资料</a>
+        1. 总体介绍（Jakarta EE on Azure / MicroProfile）；2. 架构设计（服务划分，开源组件）；3. 代码实现（MicroProfile特性的应用）；4. 构建部署（容器化，云端部署，持续集成）
     - name: 行业主题 (普元,亚信,IBM,东方通,金蝶天燕,中创,微软,甲骨文）
       presenter: Jakarta EE 工作组成员
       type: keynote
       time: 17:40-18:20 GMT+08
+      abstract: |
+        由Jakarta EE工作组成员对各自所在的企业进行简单的介绍
     - name: 圆桌讨论 
       presenter: 与会嘉宾
       type: roundtable
       time: 18:20-18:50 GMT+08
+      abstract: |
+        所有参会嘉宾将与大家就共同感兴趣的话题进入深入讨论
     - name: 抽奖 & 交流
       presenter: 与会嘉宾与观众
       type: lottery-draw
       time: 18:50-19:00 GMT+08
+      abstract: |
+        向所有参会者提供幸运抽奖的机会

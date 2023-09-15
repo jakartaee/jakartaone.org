@@ -1,6 +1,6 @@
 items:
   - name: "李杰"
-    title: "Microprofile大使，QCon中国明星讲师和优秀出品人，JBossAS7开发团队核心成员@永源中间件"
+    title: "系统架构师，Traefik Ambassador、TraefikLab中国社区发起人"
     img: "lijie.2023.jpg"
     bio: |
       <p>系统架构师，Traefik Ambassador、TraefikLab中国社区发起人，公众号架构驿站（priest-arc）主理人，专注于 Java 虚拟机技术、云原生技术领域的探索与研究</p>
@@ -31,7 +31,7 @@ items:
     bio: |
       <p>金蝶应用中间件架构师，专注于Jakarta EE应用服务器产品研发。在技术领域方面，热衷于分布式系统、分布式数据库、微服务以及云原生等领域。拥有丰富的实践经验，致力于设计和优化创新性的解决方案，以应对复杂的技术挑战。</p>
   - name: "马建国"
-    title: "Traefik Ambassador/TraefikLab中国社区发起人"
+    title: "微软高级工程师"
     img: "majianguo.2023.jpg"
     bio: |
       <p>微软高级工程师，专注和致力于在Azure云上更好地支持Jakarta EE、MicroProfile、Quarkus等云原生技术和框架。</p>

@@ -1,7 +1,7 @@
 ---
 title: JakartaOne Livestream - Chinese 2023
 seo_title: JakartaOne Livestream - September 27, 2023 | Jakarta EE Software | Cloud Native
-headline: The Jakarta EE Chinese Technology Festival kicked off on September 27th!
+headline: The Jakarta EE Chinese Technology Festival kicks off on September 27th!
 date: 2023-09-27 
 hide_page_title: true
 hide_sidebar: true
@@ -23,19 +23,19 @@ tagline_suffix: |
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40" >}}
     {{< grid/div class="container" isMarkdown="false" >}}
         {{< events/registration event="chinese" year="2023" >}}
-Dear Java and cloud native technology enthusiasts, we sincerely invite you to participate in the upcoming Jakarta One Livestream conference< Br>
+Dear Java and Cloud Native technology enthusiasts, we sincerely invite you to participate in the upcoming Jakarta One Livestream conference.
 
-Jakarta One Livestream is an online meeting of the Jakarta EE working group for developers and technical business leaders, mainly focusing on enterprise Java application cloud native technology, exploring the current status and future trends of Jakarta EE and technology development< Br>
+Jakarta One Livestream is an online meeting of the Jakarta EE working group for developers and technical business leaders, mainly focusing on enterprise Java application Cloud Native technology, exploring the current status and future trends of Jakarta EE and technology development.
 
-This grand event will lead us to deeply explore the construction ideas, benefits, and development of cloud native application middleware, analyze the strategies and paths for enterprise Java EE applications to migrate to the Jakarta environment, study Java application innovation and optimization methods for Jakarta EE cloud native startup, and reveal the development process, core concepts, and distributed models of Java business processing< Br>
+This grand event will lead us to deeply explore the construction ideas, benefits, and development of Cloud Native application middleware, analyze the strategies and paths for enterprise Java EE applications to migrate to the Jakarta environment, study Java application innovation and optimization methods for Jakarta EE Cloud Native startup, and reveal the development process, core concepts, and distributed models of Java business processing.
 
-What's even more exciting is that we will also share the development practice of building cloud native applications based on MicroProfile, providing you with practical and feasible technical guidance< Br>
+What's even more exciting is that we will also share the development practice of building Cloud Native applications based on MicroProfile, providing you with practical and feasible technical guidance.
 
-At this Jakarta One Livestream conference, you will have the opportunity to discuss the development trends of the cloud native era with top global technical experts and developers, and jointly move towards key milestones in the cloud native era< Br>
+At this Jakarta One Livestream conference, you will have the opportunity to discuss the development trends of the Cloud Native era with top global technical experts and developers, and jointly move towards key milestones in the Cloud Native era.
 
-Whether you are an experienced Java developer or an emerging cloud native application developer, JakartaOne Livestream will be a technology feast that you cannot miss. Register now and join us to explore the infinite possibilities of the cloud native era together< Br>
+Whether you are an experienced Java developer or an emerging Cloud Native application developer, JakartaOne Livestream will be a technology feast that you cannot miss. Register now and join us to explore the infinite possibilities of the Cloud Native era together.
 
-The Chinese version of this meeting is provided by [Jakarta EE China Community]（ https://jakarta.ee/zh/community/china/ ）Sponsored by the Eclipse Foundation and initiated by Primeton Information, the Jakarta EE China Community is jointly built and developed by enterprises such as AsiaInfo, IBM, Tongtech, Kingdee, and Cvicse, as well as individual developers. It is committed to promoting Jakarta EE's awareness and technology sharing in the Greater China region< Br>
+The Chinese version of this meeting is provided by [Jakarta EE China Community]（ https://jakarta.ee/zh/community/china/ ）Sponsored by the Eclipse Foundation and initiated by Primeton Information, the Jakarta EE China Community is jointly built and developed by enterprises such as AsiaInfo, IBM, Tongtech, Kingdee, and Cvicse, as well as individual developers. It is committed to promoting Jakarta EE's awareness and technology sharing in the Greater China region.
 
 [Register]（ https://meeting.tencent.com/dw/OYvhdc8AQsTK?ch=nxgCi8mdbizBv ）You can participate in the lucky draw at the event site for this seminar.		{{</ events/registration >}}
     {{</ grid/div >}}
@@ -61,6 +61,6 @@ The Chinese version of this meeting is provided by [Jakarta EE China Community]�
 
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="chinese" year="2023"  source="committee" useCarousel="false">}}
-The speech topics and sessions of the Jakarta One Livestream conference were determined by an independent preparatory committee, with all committee members from the Jakarta EE and cloud native Java communities, especially the Jakarta EE China community.{{</ events/program-committee >}}
+The speech topics and sessions of the Jakarta One Livestream conference were determined by an independent preparatory committee, with all committee members from the Jakarta EE and Cloud Native Java communities, especially the Jakarta EE China community.{{</ events/program-committee >}}
 <!-- Add modal for use w/ agenda -->
 

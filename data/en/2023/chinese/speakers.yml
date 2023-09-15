@@ -1,38 +1,36 @@
 items:
-  - name: "倪坚"
-    title: "普元信创中间件实验室资深顾问"
+  - name: "Jay Ni"
+    title: "Senior Consultant, Innovation Middleware Laboratory"
     img: "jayzhang2022.jpg"
     bio: |
-      <p>普元信创中间实验室资深顾问，负责公司微服务、容器云相关产品的研发和实施，在分布式架构、微服务、DevOps、容器云、软件工程等领域方向具有较深的积累。</p>
-  - name: "王峰"
-    title: "王峰，湖南亚信安慧科技有限公司，中间件产品总监。"
+      <p>Senior Consultant of the Middleware R&D laboratory of Primeton Ltd., responsible for the R&D and implementation of Micro Services, Container Cloud related products, and has a deep accumulation in the fields of distributed architecture, Micro Services, Devops, Container Cloud, software engineering, etc</p>
+  - name: "Peak Wong"
+    title: "Director of middleware products at AsiaInfo."
     img: "peakwang.2023.jpg"
     bio: |
-      <p>王峰，湖南亚信安慧科技有限公司，中间件产品总监。	2005年开始使用Java语言从事通信系统的程序编写工作，主要擅长行业内的应用系统技术架构，性能分析，开发框架的设计建设，2016年开始应用中间件的开发工作，熟悉Jakarta EE、微服务、PaaS、SaaS、通信业务系统等，希望构建一个能够在线按需构建的业务应用平台。</p>
-  - name: "赵欣"
-    title: "高级软件工程师。山东中创软件商用中间件股份有限公司基础软件产品部部门经理"
+      <p>Since 2003, I have been engaged in programming of ISP system using Java language. I am mainly good at the technical architecture, performance analysis and design and construction of development framework of application system. In 2016, I started to develop application middleware, familiar with Jakarta EE, Micro Services, PaaS, SaaS in ISP system and so on. I want to build a business application platform that can built applications online on-demand.</p>
+  - name: "Maggie Zhao"
+    title: "Senior Software Engineer. Department Manager of Cvicse Basic Software Product Department"
     img: "maggiezhao.2023.jpg"
     bio: |
-      <p>高级软件工程师。山东中创软件商用中间件股份有限公司基础软件产品部部门经理，中创应用服务器软件产品经理。2008年进入中间件行业，多年来致力于中间件相关技术研究，主要研究领域：Java EE、Jakarta EE、应用服务器中间件、微服务技术、PaaS相关技术、安全技术、中间件高可用技术等，被中国软件行业协会评为“2019年中国软件行业优秀工程师”。</p>
-  - name: "马震"
-    title: "金蝶应用中间件架构师"
+      <p>Senior Software Engineer. Department Manager of Basic software product department of Shandong Cvicse Middleware Co., Ltd., and product manager of InforSuite Application Server.She entered the middleware industry in 2008 and has been committed to middleware related technology research for many years. Her main research fields include Java EE, Jakarta EE, application server middleware, Micro Services technology, PAAS related technology, security technology, middleware high availability technology, etc. She was rated as "2019 excellent engineer in China's software industry" by the China Software Industry Association.</p>
+  - name: "Ma Zhen"
+    title: "Kingdee application middleware architect"
     img: "mazhen.2023.jpg"
     bio: |
-      <p>金蝶应用中间件架构师，专注于Jakarta EE应用服务器产品研发。在技术领域方面，热衷于分布式系统、分布式数据库、微服务以及云原生等领域。拥有丰富的实践经验，致力于设计和优化创新性的解决方案，以应对复杂的技术挑战。</p>
-  - name: "蒋丰慧"
-    title: "MicroProfile 和 Jakarta EE 首席架构师@IBM"
+      <p>Kingdee application middleware architect, specializing in the development of Jakarta EE application server products. In the field of technology, I am passionate about distributed systems, distributed databases, Micro Services, and Cloud Native technologies. Having rich practical experience, committed to designing and optimizing innovative solutions to address complex technological challenges.</p>
+  - name: "Emily Jiang"
+    title: "MicroProfile and Jakarta EE Chief Architect @ IBM"
     img: "emily_jiang.jpg"
-    twitter_handle: emilyfhjiang
     bio: |
-      <p>Emily Jiang 是 Java Champion。她是 IBM 的 Liberty Cloud Native 架构师和首席倡导者、高级技术人员 (STSM)，常驻英国 Hursley 实验室。 Emily 是一位 MicroProfile 专家，自 2016 年以来一直致力于 MicroProfile，并领导了包括 MicroProfile Config 和 Fault Tolerance 在内的多项规范。她与大多数其他 MicroProfile 规范进行交互。她还积极参与 Jakarta EE 规范。她是 Jakarta Config 的联合负责人，也是 Jakarta 上下文和依赖注入 (CDI) 提交者。在 IBM，她负责在 Open Liberty 上实施所有 MicroProfile 规范。 她对 MicroProfile 和 Jakarta EE 充满热情。她经常在 QCon、Code One、DevNexus、JAX London、Voxxed、Devoxx、EclipseCon、GeeCon、JFokus 等会议上发表演讲。通过 Twitter（@emilyfhjiang）或  <a href="https://www.linkedin.com/in/emilyfhjiang">LinkedIn</a> 与Emily联系。</p>
-  - name: "马建国"
-    title: "Traefik Ambassador/TraefikLab中国社区发起人"
+      <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also active in Jakarta EE specifications. She is a co-lead in Jakarta Config and also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc.You can find her on Twitter @emilyfhjiang and LinkedIn.</p>
+  - name: "Ma Jianguo"
+    title: "Microsoft Senior Engineer"
     img: "majianguo.2023.jpg"
-    twitter_handle: emilyfhjiang
     bio: |
-      <p>微软高级工程师，专注和致力于在Azure云上更好地支持Jakarta EE、MicroProfile、Quarkus等云原生技术和框架。</p>
-  - name: "李杰"
-    title: "Microprofile大使，QCon中国明星讲师和优秀出品人，JBossAS7开发团队核心成员@永源中间件"
+      <p>Microsoft Senior Engineer, dedicated to better supporting Cloud Native technologies and frameworks such as Jakarta EE, MicroProfile, and Quarkus on Azure Cloud.</p>
+  - name: "Leon Li"
+    title: "Traefik Ambassador/TraefikLab Chinese Community Founder"
     img: "lijie.2023.jpg"
     bio: |
-      <p>系统架构师，Traefik Ambassador、TraefikLab中国社区发起人，公众号架构驿站（priest-arc）主理人，专注于 Java 虚拟机技术、云原生技术领域的探索与研究</p>
+      <p>System architect, initiator of Traefik Ambassador, TraefikLab Chinese community, and principal of official account priest arc, focusing on the exploration and research of Java virtual machine technology and Cloud Native technology</p>
