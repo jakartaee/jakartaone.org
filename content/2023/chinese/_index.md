@@ -62,5 +62,6 @@ The Chinese version of this meeting is provided by [Jakarta EE China Community]ï
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="chinese" year="2023"  source="committee" useCarousel="false">}}
 The speech topics and sessions of the Jakarta One Livestream conference were determined by an independent preparatory committee, with all committee members from the Jakarta EE and Cloud Native Java communities, especially the Jakarta EE China community.{{</ events/program-committee >}}
-<!-- Add modal for use w/ agenda -->
 
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
