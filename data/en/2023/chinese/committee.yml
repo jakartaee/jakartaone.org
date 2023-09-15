@@ -4,9 +4,9 @@ items:
     img: ""
     bio: ""
   - name: "Peak Wong"
-    title: "WG Member(Asia Info)"
+    title: "WG Member(AsiaInfo)"
     twitter_handle:
-    img: "peakwong2022.jpg"
+    img: "peakwang.2023.jpg"
     bio: ""
   - name: "Emily Jiang"
     title: "WG Member(IBM)"
@@ -26,5 +26,5 @@ items:
   - name: "Maggie"
     title: "WG Member(Cvicse)"
     twitter_handle:
-    img: "maggiezhao2023.jpg"
+    img: "maggiezhao.2023.jpg"
     bio: ""

@@ -1,0 +1,36 @@
+items:
+  - name: "Jay Ni"
+    title: "Senior Consultant, Innovation Middleware Laboratory"
+    img: "jayzhang2022.jpg"
+    bio: |
+      <p>Senior Consultant of the Middleware R&D laboratory of Primeton Ltd., responsible for the R&D and implementation of Micro Services, Container Cloud related products, and has a deep accumulation in the fields of distributed architecture, Micro Services, Devops, Container Cloud, software engineering, etc</p>
+  - name: "Peak Wong"
+    title: "Director of middleware products at AsiaInfo."
+    img: "peakwang.2023.jpg"
+    bio: |
+      <p>Since 2003, I have been engaged in programming of ISP system using Java language. I am mainly good at the technical architecture, performance analysis and design and construction of development framework of application system. In 2016, I started to develop application middleware, familiar with Jakarta EE, Micro Services, PaaS, SaaS in ISP system and so on. I want to build a business application platform that can built applications online on-demand.</p>
+  - name: "Maggie Zhao"
+    title: "Senior Software Engineer. Department Manager of Cvicse Basic Software Product Department"
+    img: "maggiezhao.2023.jpg"
+    bio: |
+      <p>Senior Software Engineer. Department Manager of Basic software product department of Shandong Cvicse Middleware Co., Ltd., and product manager of InforSuite Application Server.She entered the middleware industry in 2008 and has been committed to middleware related technology research for many years. Her main research fields include Java EE, Jakarta EE, application server middleware, Micro Services technology, PAAS related technology, security technology, middleware high availability technology, etc. She was rated as "2019 excellent engineer in China's software industry" by the China Software Industry Association.</p>
+  - name: "Ma Zhen"
+    title: "Kingdee application middleware architect"
+    img: "mazhen.2023.jpg"
+    bio: |
+      <p>Kingdee application middleware architect, specializing in the development of Jakarta EE application server products. In the field of technology, I am passionate about distributed systems, distributed databases, Micro Services, and Cloud Native technologies. Having rich practical experience, committed to designing and optimizing innovative solutions to address complex technological challenges.</p>
+  - name: "Emily Jiang"
+    title: "MicroProfile and Jakarta EE Chief Architect @ IBM"
+    img: "emily_jiang.jpg"
+    bio: |
+      <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also active in Jakarta EE specifications. She is a co-lead in Jakarta Config and also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc.You can find her on Twitter @emilyfhjiang and LinkedIn.</p>
+  - name: "Ma Jianguo"
+    title: "Microsoft Senior Engineer"
+    img: "majianguo.2023.jpg"
+    bio: |
+      <p>Microsoft Senior Engineer, dedicated to better supporting Cloud Native technologies and frameworks such as Jakarta EE, MicroProfile, and Quarkus on Azure Cloud.</p>
+  - name: "Leon Li"
+    title: "Traefik Ambassador/TraefikLab Chinese Community Founder"
+    img: "lijie.2023.jpg"
+    bio: |
+      <p>System architect, initiator of Traefik Ambassador, TraefikLab Chinese community, and principal of official account priest arc, focusing on the exploration and research of Java virtual machine technology and Cloud Native technology</p>
