@@ -13,8 +13,8 @@ layout: "single"
 menu_name: "hispano"
 tagline_suffix: |
     <div class="display-flex gap-10 margin-bottom-30">    
-      <a class="btn btn-primary" href="https://www.papercall.io/spanish">
-       ¡Envía tu propuesta aquí!
+     <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartaone-11092023">
+       Regístrese ahora
       </a>
     </div>
 ---
