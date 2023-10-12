@@ -10,8 +10,8 @@ tagline: November 9, 2023
 layout: single
 tagline_suffix: |
     <div class="display-flex gap-10 margin-bottom-30">    
-      <a class="btn btn-primary" href="https://www.papercall.io/spanish">
-       Apply to become a speaker
+     <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartaone-11092023">
+        Register Now
       </a>
     </div>
 ---
