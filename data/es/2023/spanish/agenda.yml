@@ -1,0 +1,64 @@
+complete: false
+types:
+    - name: Keynotes
+      id: keynote
+      color: "#e44"
+    - name: Panel
+      id: panel
+      color: "#c6a061"
+    - name: Charlas
+      id: talk
+      color: "purple"
+    - name: Charlas de Empresa
+      id: vendor
+      color: "orange"
+
+items:
+    - name: Bienvenida
+      vod: false
+      presenter: Comité del programa - Amigos de JakartaEE
+      type: keynote
+      time: TBD
+      abstract: <p>Bienvenida</p>
+    - name: Vendor
+      vod: false
+      presenter: Empresas
+      type: vendor
+      time: TBD
+      abstract: <p>Charlas de empresa</p>
+    - name: Charla 1
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract: 
+    - name: Charla 2
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract: 
+    - name: Charla 3
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract: 
+    - name: Charla 4
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract: 
+    - name: Charla 5
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract: 
+    - name: Cierre del Evento
+      vod: false
+      presenter: Comité del programa
+      type: panel
+      time: TBD
+      abstract: <p>Cierre del Evento</p>

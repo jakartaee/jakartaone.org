@@ -26,6 +26,13 @@ JakartaOne Livestream is a one day virtual conference for developers and technic
     {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="spanish" year="2023" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for speakers -->
 {{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
