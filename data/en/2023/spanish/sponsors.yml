@@ -1,27 +1,15 @@
 items:
-  - title: BarcelonaJUG
-    image: /images/sponsors/barcelona_jug.jpg
-    url: https://www.meetup.com/BarcelonaJUG/
-    width: 200px
-  - title: JUG JavaBsAs
-    image: /images/sponsors/bsas_jug.png
-    url: https://www.meetup.com/es/Java-Bs-As/
-    width: 200px
   - title: Guadalajara JUG
     image: /images/sponsors/guadalajara_jug.png
     url: https://www.meetup.com/es/gdljug/
     width: 200px
-  - title: Medellín JUG
-    image: /images/sponsors/medellin_jug.jpg
-    url: https://twitter.com/MedellinJug
-    width: 200px
-  - title: JUG Nicaragua
-    image: /images/sponsors/nicaragua_jug.png
-    url: https://www.javanicaragua.org/
-    width: 200px
-  - title: JUG Guatemala
-    image: /images/sponsors/guatemala_jug.png
-    url: https://www.guate-jug.net/
+  - title: Bogotá JVM
+    image: /images/sponsors/bogjmv.png
+    url: https://www.meetup.com/es/Bogota-JVM-Meetup/
+    width: 200px   
+  - title: Barranquilla JUG
+    image: /images/sponsors/barranquilla_jug.png
+    url: http://jugbaq.org/
     width: 200px
   - title: Ecuador JUG
     image: /images/sponsors/ecuador_jug.jpg
@@ -31,23 +19,4 @@ items:
     image: /images/sponsors/dominicano_jug.png
     url: https://twitter.com/JavaDominicano
     width: 200px
-  - title: Málaga JUG
-    image: /images/sponsors/malaga_jug.jpg
-    url: https://meetup.com/es-ES/MalagaJUG
-    width: 200px
-  - title: Barranquilla JUG
-    image: /images/sponsors/barranquilla_jug.png
-    url: http://jugbaq.org/
-    width: 200px
-  - title: Cali Java user Group
-    image: /images/sponsors/cali_jug.png
-    url: http://www.clojug.org/
-    width: 200px
-  - title: JavaUP Mexico
-    image: /images/sponsors/javaup.png
-    url: https://www.javaup.org.mx/
-    width: 200px
-  - title: Bogotá JVM
-    image: /images/sponsors/bogjmv.png
-    url: https://www.meetup.com/es/Bogota-JVM-Meetup/
-    width: 200px
+
