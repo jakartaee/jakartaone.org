@@ -1,0 +1,17 @@
+items:
+  - name: "Francisco Contreras"
+    title: "Gerente de Informática en GInIEm S.A."
+    img: "francisco-contreras.png"    
+  - name: "Eddú Meléndez Gonzales"
+    title: "Ingeniero de Software en AtomicJar"
+    img: "eddu-melendez.jpeg" 
+  - name: "Isaac Ruiz Guerra"
+    title: "Arquitecto de software"
+    img: "isaac-ruiz.png"
+  - name: "Carlos Zela Bueno"
+    title: "Senior Cloud Engineer en Oracle"
+    img: "carlos-zela.jpg"  
+  - name: "Alfonso Valdez"
+    title: "Ingeniero de software"
+    img: "alfonso-valdez.jpg"
+    
