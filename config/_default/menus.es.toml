@@ -35,4 +35,25 @@
     url = "/2021/hispano/speaker-agreement/"
     weight = 2
     parent = "Asistir"
+
+[[spanish2023]]
+    name = "Conferencista"
+    url = "/2023/spanish/#speakers"
+    weight = 2
+
+[[spanish2023]]
+    name = "Código de Conducta"
+    url = "/2023/spanish/code-of-conduct/"
+    weight = 1
+    parent = "Asistir"
+
+[[spanish2023]]
+    name = "Acuerdo del Conferencista"
+    url = "/2023/spanish/speaker-agreement/"
+    weight = 2
+    parent = "Asistir"    
+
+[[spanish2023]]
+    name = "Asistir"
+    weight = 3
     
