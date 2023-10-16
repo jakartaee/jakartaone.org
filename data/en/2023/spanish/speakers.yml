@@ -1,0 +1,35 @@
+items:
+  - name: "Francisco Contreras"
+    title: "CTO at GInIEm S.A."
+    img: "francisco-contreras.png" 
+    twitter_handle: "Frank_JCG"
+    bio: |
+     <p>Senior software architect with more than 12 years of experience. Co-organizer of the Java User Group Nicaragua, Java and mobile tech’s enthusiast, and international speaker.</p><p>Experienced in working with companies all around the world in the development of business/marketing solutions including, among others, back-end development, front-end web/desktop development, business intelligence, and mobile development.</p><p>System engineer with a master’s in business informatics. Enjoys the challenges and projects that demand going the extra mile to accomplish extraordinary results.</p>
+  - name: "Eddú Meléndez Gonzales"
+    title: "Software Engineer at AtomicJar"
+    img: "eddu-melendez.jpeg" 
+    twitter_handle: "eddumelendez"
+    bio: |
+      <p>Eddú Meléndez is a Software Engineer at AtomicJar, Open Source Contributor and Java Champion. In his leisure time, he enjoys researching new trends and contributing to Open Source projects.</p>
+  - name: "Isaac Ruiz Guerra"
+    title: "Software Architect"
+    img: "isaac-ruiz.png"
+    twitter_handle: "rugi"
+    bio: |
+     <p>Isaac is a graduate of the Technological Institute of the Isthmus in Oaxaca, México.</p>
+     <p>He began to use Java in its 1.2 version (2000) when doing his professional practices in the artificial intelligence laboratory of the Center for Research in Computing (CIC), of the National Polytechnic Institute in Mexico.He is a software consultant since 2003, is specialized in applications Integration and has participated in projects related mainly to the financial sector.</p>
+     <p>For more than 10 years he has worked with different application servers for the java world and now he is trying to adapt this knowledge to the new deployment architectures.</p>
+     <p>Isaac is a promoter of the java language and has participated in different communities such as javaHispano and javaMéxico.As part of the staff of the javaMexico community, Isaac promotes the use of Java and Java-related technologies by writing on his blog and as a speaker at JUG events.</p>
+     <p>Isaac has published several articles about the java ecosystem on different websites, including OTN and is frequent Speaker at LAOUC/ORAMEX events.He was recently named part of the Neo4j Ninja program (https://neo4j.com/ninjas-program/)</p>
+  - name: "Carlos Zela Bueno"
+    title: "Senior Cloud Engineer at Oracle"
+    img: "carlos-zela.jpg"  
+    twitter_handle: "c_zela"
+    bio: |
+      <p>Senior Software Engineer, Cloud Architect, Peru JUG Co-Leader, Open-Source advocate. Senior Cloud Engineer at Oracle</p>
+  - name: "Alfonso Valdez"
+    title: "Software Engineer at Payara"
+    img: "alfonso-valdez.jpg"
+    twitter_handle: "breakponchito"
+    bio: |
+       <p>Software engineer with more than 18 years of experience mainly working on enterprise java. Currently working at Payara and participating in the open source ecosystem around Jakarta EE and Microprofile.</p>
