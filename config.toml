@@ -43,7 +43,7 @@ themesDir = "node_modules/"
   tag = "tags"
 
 [Author]
-  name = "Christopher Guindon"
+  name = "Eclipse Foundation"
   website = "https://www.eclipse.org"
   email = "webdev@eclipse-foundation.org"
   facebook = "eclipse.org"
