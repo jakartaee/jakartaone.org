@@ -1,0 +1,88 @@
+complete: true
+types:
+    - name: Keynote Speech/Industry Session
+      id: keynote
+      color: "#85BFF3"
+    - name: Jakarta EE
+      id: jakarta_ee
+      color: "#EC8101"
+    - name: MicroProfile
+      id: microprofile
+      color: "#EDDAA0"
+    - name: Round-Table Discussion
+      id: roundtable
+      color: "#99DF82"
+
+items:
+    - name: Opening Speech
+      presenter: Eclipse Foundation
+      type: keynote
+      time: 14:00-14:05 GMT+08
+      abstract: |
+        An official introduction from Eclipse Foundation, covering the Working Group, Jakarta EE and MicroProfile project plan, etc.
+    - name: Opening Speech
+      presenter: Jakarta EE Community China
+      type: keynote
+      time: 14:05-14:10 GMT+08
+      abstract: |
+        About the organizer of this event, Jakarta EE China Community, the birth, development and growth of the community is very important for expanding the influence of enterprise-level Cloud Native Java in China.
+    - name: Jakarta EE 10-a key milestone in the Era of Cloud Native
+      presenter: Li Jie
+      type: jakarta_ee
+      time: 14:10-14:40 GMT+08
+      abstract: |
+        Cloud Native architecture provides advantages such as scalability, flexibility and high availability, and has become a new trend of modern application development.
+    - name: Implementation and evolution of a cloud native application middleware
+      presenter: Peak Wong
+      type: jakarta_ee
+      time: 14:40-15:10 GMT+08
+      abstract: |
+        Application middleware, through its own cloud native technology, serves as a bridge between applications and cloud platforms, achieving smooth cloud access for applications; And provide a technical solution for Cloud Native microservices.
+    - name: The migration of enterprise Java EE application to Jakarta environment.
+      presenter: Jay Jiang
+      type: jakarta_ee
+      time: 15:10-15:40 GMT+08
+      abstract: |
+        The migration of enterprise Java EE to Jakarta environment: 1. Why to migrate and what are the benefits; 2. How to do a good job of evaluation before migration; 3. The process path of migration; 4. How to verify after migration?
+    - name: New innovation of Java application - How to best improve the native startup of Jakarta EE cloud
+      presenter: Emily Jiang
+      type: jakarta_ee
+      time: 15:40-16:10 GMT+08
+      abstract: |
+        As you know, Java applications have been facing a huge challenge of slow startup, which makes them at a disadvantage when using serverless in containers because they need to start quickly. In recent years, a technology called GraalVM tries to solve this problem, but it also has some shortcomings, so it has not been widely adopted. The good news is that the InstantOn technology recently released by Open Liberty and OpenJ9 can solve this technical problem without compromise by using Linux CRIU. In the container, your Jakarta EE and MicroProfile applications can start in a few hundred milliseconds and still use the traditional JVM. Attend this meeting to learn more and watch the live demonstration.
+    - name: Java EE/Jakarta EE performance optimization
+      presenter: Maggie Zhao
+      type: jakarta_ee
+      time: 16:10-16:40 GMT+08
+      abstract: |
+        Diagnosis and tuning of performance issues during Java or Jakarta EE project practice, as well as sharing of performance optimization cases for actual work projects
+    - name: The development history, core concepts and distributed model of Java transaction processing
+      presenter: Ma Zhen 
+      type: jakarta_ee
+      time: 16:40-17:10 GMT+08
+      abstract: |
+        The development history, core concepts, distributed transaction processing model and Java-related transaction processing technology are deeply discussed. The main contents of this speech include: 1. A brief history of transaction processing; 2. Conceptual basis of transaction, ACID attribute, isolation level, distributed transaction, two-phase commit, transaction mode; 3. Distributed transaction processing model, X/Open DTP, X/OpenXA; 4. Java Transaction API (JTA)； 5. Java transaction service (JTS), CORBA, ORB, GIOP and IIOP, RMI/IIOP, OTS, JTS.
+    - name: Development practice of building Cloud Native application based on MicroProfile
+      presenter: Ma JianGuo 
+      type: microprofile
+      time: 17:10-17:40 GMT+08
+      abstract: |
+        1. general introduction (Jakarta EE on Azure/MicroProfile); 2. Architecture design (service division, open source components); 3. Code implementation (application of MicroProfile features); 4. Build and deploy (containerization, cloud deployment and continuous integration)
+    - name: Industry Theme (Primeton, AsiaInfo, IBM, TongTech, Apusic, Cvicse, Microsoft, Oracle)
+      presenter: Member of Jakarta EE WG
+      type: keynote
+      time: 17:40-18:20 GMT+08
+      abstract: |
+        Members of Jakarta EE Working Group give a brief introduction to their respective enterprises.
+    - name: Round-table discussion 
+      presenter: Speakers
+      type: roundtable
+      time: 18:20-18:50 GMT+08
+      abstract: |
+        All the speakers will have in-depth discussions with you on topics of common interest.
+    - name: Luky draw & talking
+      presenter: Audience
+      type: lottery-draw
+      time: 18:50-19:00 GMT+08
+      abstract: |
+        Provide all participants with the chance of lucky draw.
