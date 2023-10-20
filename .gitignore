@@ -1,4 +1,8 @@
 /node_modules/
+.DS_Store
+.idea/
+.hugo_build.lock
+*.iml
 /static/images/vendor/
 /static/fonts/vendor/
 /static/js/

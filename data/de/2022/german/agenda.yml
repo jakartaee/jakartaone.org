@@ -1,0 +1,153 @@
+dynamicTime: true
+timezone: GMT+02
+complete: true
+types:
+    - name: CN4J Studio
+      id: studio
+      color: "#e44"
+    - name: Technische Session
+      id: session 
+      color: "#c6a061"
+    - name: Industrie Session
+      id: industry 
+      color: "#0a0"
+    - name: Keynote
+      id: keynote 
+      color: "#85BFF3"
+    - name: CN4J Panel
+      id: panel 
+      color: "#2a2a70"
+
+items:
+  - name: CN4J Studio - Welcome to JakartaOne German!
+    presenter: Hendrik Ebbers, Falk Sippach, Jan Westerkamp
+    time: 09:45 - 10:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=UKHfqvUEqbg&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=1&ab_channel=JakartaEE
+    abstract: |
+            <p>Das Cloud Native for Java (CN4J) Studio begrüßt die Zuschauer und gibt eine Übersicht zum Tag und den Themen.</p>
+  - name: "Ready for the Future: Jakarta EE in Zeiten von Cloud Native & Co."
+    presenter: Lars Röwekamp
+    time: 10:00 - 10:45
+    type: session
+    vod: https://www.youtube.com/watch?v=z2LfEM8PcY0&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=2&ab_channel=JakartaEE
+    abstract: |
+            <p>Auch nach mehr als 20 Jahren ist Jakarta EE (ehemals Java EE) DER Standard, wenn es um die Entwicklung Java-basierte Enterprise Computing Lösungen geht. Dies gilt zumindest immer dann, wenn die Anwendung als Monolithen in einem Application Server deployed werden soll. Wie aber steht es mit einer Anwendung, die aus einer Vielzahl autark laufender Microservices besteht? Und wie gut schlägt sich Jakarta EE in der Cloud, in der geringer Speicherbedarf und schnelle Startzeiten gefragt sind? Die Session zeigt, wie es Jakarta EE geschafft hat, mit der Zeit zu gehen und so, mit Hilfe von Side-Projekten wie dem Eclipse MicroProfile, den Anforderungen moderner Cloud Native Anwendungen gerecht zu werden.</p>
+            <p>Ein Ausblick das Zusammenspiel mit GraalVM und Quarkus zeigt, das Jakarta EE dabei auch in extrem verteilten Cloud-Szenarien aka Serverless, eine gute Figur macht.</p>
+  - name: "CN4J Studio - Die Specs von Jakarta EE"
+    presenter: Hendrik Ebbers, Falk Sippach, Jan Westerkamp
+    time: 10:45 - 11:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=WNHDZDP4ahQ&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=3&ab_channel=JakartaEE
+    abstract: |
+            <p>Wir geben eine Übersicht der JakartaEE (10) Specs und zeigen, dass diese nicht nur für Jakarta EE Entwickler interessant sind sondern auch in weiteren Frameworks wie Spring oder Mirconaut genutzt werden.</p>
+  - name: Der Application Server ist tot (?) - es lebe Jakarta EE!
+    presenter: Dirk Weil
+    time: 11:00 - 11:45
+    type: session
+    vod: https://www.youtube.com/watch?v=Jw8k0-GpNXw&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=4&ab_channel=JakartaEE
+    abstract: |
+            <p>Die Zeit großer monolithischer Enterprise-Anwendungen auf Applikationservern ist vorbei. Moderne Anwendungen sind kleiner, vielfach in mehrere Microservices aufgeteilt, und laufen in Container-Infrastrukturen on-prem oder in der Cloud. Ein Application Server wirkt da deplatziert wie ein Schlachtschiff, wo eher kleine Schnellboote gefordert sind.</p>
+            <p>Ist damit die Geschichte von Java EE zu Ende?</p>
+            <p>Ich zeige in diesem Vortrag, dass dies nicht so ist. Wir schauen dabei auf den häufig zitierten "Lackmus-Test" für Cloud Readiness - 12 Factor App - und prüfen, ob und wie die geforderten Eigenschaften mit Jakarta EE und MicroProfile zu erreichen sind. Wir werfen einen Blick auf die Runtimes und stellen fest, dass es neben der rasanten Umgebung Quarkus durchaus noch Anwendungsfälle für klassische Server wie WildFly oder Payara gibt. Das alles kommt mit einigen Slides und viel Live Demo.</p>
+  - name: "CN4J Studio - Interview mit Jürgen Höller"
+    presenter: Hendrik Ebbers, Jürgen Höller, Falk Sippach, Jan Westerkamp
+    time: 11:45 - 12:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=7jHm2Kj4rqk&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=5&ab_channel=JakartaEE
+    abstract: |
+            <p>Der Spring Framework Project Lead Jürgen Höller wird mit uns über Jakarta EE, Spring und die Verbindung zwischen beiden reden.</p>
+  - name: "Keycloak an die eigenen (Unternehmens-)Anforderungen anpassen #slideless"
+    presenter: Niko Köbler
+    time: 12:00 - 12:45
+    type: session
+    vod: https://www.youtube.com/watch?v=ZEuQvO1gIec&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=6&ab_channel=JakartaEE
+    abstract: |
+            <p>Keycloak hat sich mittlerweile als eines der meist genutzten Authentifzierungs- und Identity- & Access-Management (IAM) Systeme in Unternehmen etabliert. Ganz gleich ob für klassische Enterprise-Anwendungen, moderne Single-Page-Apps oder Microservice-Architekturen, unterstützt Keycloak doch beide gängigen Protokolle SAML und OIDC (OpenID-Connect) und bietet viel Funktionalität „out-of-the-Box“.</p>
+            <p>Viele Unternehmen haben aber spezielle Anforderungen an das eigene Identity Management und den Authentifizierungsvorgang. Hier bietet Keycloak mit seiner SPI-Architektur (Service Provider Interfaces) den perfekten Ansatz, um eigene, unternehmensspezifische Erweiterungen zu entwickeln, ohne den eigentlichen Anwendungskern verändern oder selbst kompilieren zu müssen und somit jederzeit Upgrade-fähig zu bleiben.</p>
+            <p>In dieser Session schauen wir uns in bewährter Hands-on Mentalität die gängigsten Keycloak-SPIs an und welche Funktionalitäten wir damit in Keycloak implementieren können. Code-Beispiele für Event-Listener und 2-Faktor-Authentifikation inklusive! Auch zum Testen von Keycloak-Extensions zeige ich eine interessante Alternative.</p>
+  - name: "CN4J Studio - Jakarta EE Developer Survey"
+    presenter: Hendrik Ebbers, Falk Sippach, Jan Westerkamp
+    time: 12:45 - 13:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=oqfPdO9_WnE&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=7&ab_channel=JakartaEE
+    abstract: |
+            <p>Zusammen schauen wir uns die aktuellen Ergebnisse der Developer Survey an. Hier lassen sich nicht nur interessante Tendenzen für die Nutzung von Jakarta EE sondern für das gesamte Java Ökosystem ablesen.</p>
+  - name: Cloud-Native Java-Anwendungen für Kubernetes
+    presenter: Alexander Schwartz
+    time: 13:00 - 13:45
+    type: session
+    vod: https://www.youtube.com/watch?v=ayLyo3VPw6U&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=8&ab_channel=JakartaEE
+    abstract: |
+            <p>Kubernetes bietet eine Infrastruktur, in der Anwendungen horizontal skalieren können, bei Fehlern automatisch neu starten und neue Versionen per Rolling-Update ausgerollt werden können. Damit dies reibungslos funktioniert stellt Kubernetes verschiedene APIs bereit, die eine Java-Anwendung nutzen sollte. Zusätzlich können mit OpenTelemetry Traces, Metriken und Logs z. B. mit dem Grafana-Stack gesammelt und ausgewertet werden. So können Entwickler, Betrieb und die Fachseite Informationen abrufen, ob alles wie erwartet funktioniert. Dieser Vortrag bietet Einsteigern einen Überblick über die notwendigen Kubernetes- und Observability-Grundlagen für Java-Anwendungen.</p>    
+  - name: "CN4J Studio - API, TCK & Documentation - Über den Aufbau einer Spec"
+    presenter: Hendrik Ebbers, Falk Sippach, Jan Westerkamp
+    time: 13:45 - 14:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=XA8TLR9H0qU&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=9&ab_channel=JakartaEE
+    abstract: |
+            <p>Wir schauen uns an wie eine Spec in Jakarta EE bzw. Microprofile aufgebaut ist und wo man die Sourcen und Definitionen der einzelnen Specs finden kann.</p>
+  - name: Relook at Microservices
+    presenter: Emily Jiang
+    time: 14:00 - 14:50
+    type: keynote
+    vod: https://www.youtube.com/watch?v=xfX1aJh1sB4&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=10&ab_channel=JakartaEE
+    abstract: |
+            <p>Microservice is a buzzword, and it has been around for more than one decade. Some companies tried with success while others did not get much benefit from it and then went back to monolith. Are microservices the ultimate goals for application development? In this session, Emily will take you through the history of microservices, look at microservices from different angles and discuss what modern application development and deployment should be.</p>
+  - name: "CN4J Studio - Über den Tellerrand: Jakarta EE, Adoptium & Microprofile"
+    presenter: Hendrik Ebbers, Falk Sippach, Jan Westerkamp
+    time: 14:50 - 15:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=9E7zujYAcFc&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=11&ab_channel=JakartaEE
+    abstract: |
+            <p>Der iJUG ist mittlerweile ein festes Mitglied in verschiedenen Top-Level Projekten und Working Groups der Eclipse Foundation. Zusammen schauen wir uns an, an welchen Projekten der iJUG sich aktuell aktiv beteiligt und welche Aufgaben hier übernommen werden.</p>
+  - name: Industry Session - IBM, Oracle, Payara
+    presenter: Claudia Beisiegel, Gunnar Hillert, Steve Millidge
+    time: 15:00 - 15:45
+    type: industry
+    vod: https://www.youtube.com/watch?v=NUA-nwWT9VI&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=12&ab_channel=JakartaEE
+    abstract: |
+            <p>Claudia Beisiegel (IBM, Deutsch)</p>
+            <p>IBMs Engagement für Cloud-natives Java: Liberty, Jakarta EE & MicroProfile</p>
+            <p>Es ist eine aufregende Zeit, Teil der Enterprise-Java-Community zu sein, da Jakarta EE und MicroProfile Cloud-native Java-Standards in die Zukunft vorantreiben. In unserer heutigen Session untersuchen wir das langjährige Engagement von IBM für Java und seine Entwicklung durch die Open-Source-Arbeitsgruppen Jakarta EE und MicroProfile. Schließen Sie sich Claudia Beisiegel an, wenn sie die Innovation erforscht, die wir durch die Open-Source-Open-Liberty-kompatible Implementierung und unser WebSphere-Liberty-Produkt vorantreiben.</p>
+            <p>Gunnar Hillert (Oracle, Deutsch)</p>
+            <p>Oracle Enterprise Cloud Native Java und Jakarta EE</p>
+            <p>Gunnar Hillert von Oracle fasst zusammen wie Jakarta EE von Oracle unterstützt wird und wie Oracle Jakarta EE Technologien über das Spektrum der Oracle Enterprise Cloud Native Java Produkte nutzt. Die abgedeckten Produkte umfassen unter anderem WebLogic Server, WebLogic Server für Oracle Cloud Infrastructure, Coherence, Helidon und Verrazzano. Wir werden auch einige der bevorstehenden Produktveröffentlichungen ansprechen.</p>
+            <p>Steve Millidge (Payara, Englisch)</p>
+            <p>How Payara 6 and Jakarta EE 10 Affects Developers and Businesses</p>
+            <p>In this talk, Payara CEO Steve Millidge will discuss the main upcoming developments of the Payara Platform that will impact any project or business using the Payara Platform.</p>
+            <p>Jakarta EE 10 is the first major release of Jakarta EE since the “jakarta” namespace update. Many of the component Specifications are introducing Major or Minor version updates to signify key changes in their respective Specifications and APIs. The Platform and/or Web Profile Specifications will be incorporating many of these updated Specifications. As Jakarta EE 10 contains breaking changes, you cannot run your Jakarta EE 8 apps on Payara 6 Community. Steve will explain why you will need to consider Payara Enterprise to stay with Jakarta EE 8 OR prepare for migration to Jakarta EE 10.</p>
+  - name: "CN4J Studio - Wie kann ich meinen ersten Commit machen? - Vorstellung von Cyberland und das iJUG Stipendium"
+    presenter: Hendrik Ebbers, Markus Karg, Falk Sippach, Jan Westerkamp
+    time: 15:45 - 16:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=YPUcg3LPvw8&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=13&ab_channel=JakartaEE
+    abstract: |
+            <p>Mittlerweile gibt es durch den iJUG verschiedene Initiativen die eine Mitarbeit an Open Source Projekten fördern. Neben den Aktivitäten des Cyberland gibt es auch das iJUG Stipendium welches die Mitarbeit an Open Source wie Jakarta EE mit Benefits belohnt. Für Einsteiger in den Bereich Open Source schauen wir hier einmal auf die verschiedenen Möglichkeiten.</p>
+  - name: Wie Azure Jakarta EE nutzt
+    presenter: Ed Burns
+    time: 16:00 - 16:45
+    type: session
+    vod: https://www.youtube.com/watch?v=iMACmfoegHI&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=14&ab_channel=JakartaEE
+    abstract: |
+            <p>Jakarta EE Spezifikationen stecken tief im Herz von mehreren Azure Dienstleistungen. Event Bus, Active Directory, Azure Spring Apps und natürlich die App Server Runtimes von Oracle, Red Hat und IBM nutzen alle eine oder mehrere Jakarta EE Spezifikationen. Dieser Vortrag ist eine Rundreise durch die Überlappungen zwischen diesen Azure Angeboten und den Jakarta EE Spezifikationen. Schaue, wie Servlet, JSP, JSTL und Security auf Azure First Party Angebote aussehen. Erfahre, wie die gesamten Jakarta EE Web und Full Profile bei den App Server Angeboten von Red Hat, IBM, und Oracle, auf verschiedenen Runtimes inklusive App Service, Virtual Machines, Kubernetes und OpenShift, offeriert werden.</p>
+  - name: "CN4J Studio - Jakarta EE 10 Pre-Release Party!"
+    presenter: Hendrik Ebbers, Emily Jiang, Will Lyons, Falk Sippach, Jan Westerkamp
+    time: 16:45 - 17:00
+    type: studio
+    vod: https://www.youtube.com/watch?v=f3w1myeLAG8&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=15&ab_channel=JakartaEE
+    abstract: |
+            <p>Celebrate with us the upcoming Jakarta EE 10 Release!</p>
+  - name: CN4J Panel
+    presenter: Ed Burns, Hendrik Ebbers, Werner Keil, Mario-Leander Reimer, Lars Röwekamp, Dirk Weil, Jan Westerkamp
+    time: 17:00 - 17:45
+    type: panel
+    vod: https://www.youtube.com/watch?v=qFYHmMcX0RU&list=PLutlXcN4EAwBd6S3fBcgS8yCOqhTwHOwj&index=16&ab_channel=JakartaEE
+    abstract: |
+            <p>Erfahre von den Cloud Native for Java (CN4J) Experten die Hintergründe, letzten Neuigkeiten und Ziele in aktuellen und zuküftigen Releases, z.B. von Jakarta EE und MicroProfile.</p>
+  - name: "CN4J Studio - JakartaOne Livestream German Closing"
+    presenter: Hendrik Ebbers, Falk Sippach, Jan Westerkamp
+    time: 17:45 - 18:00
+    type: studio
+    abstract: |
+            <p>Verabschiedung der JakarteOne LiveStream German Teilnehmer aus dem CloudLand.</p>

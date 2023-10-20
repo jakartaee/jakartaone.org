@@ -1,0 +1,85 @@
+items:
+  - name: "Ruslan Synytsky"
+    title: "CEO and co-founder of Jelastic PaaS"
+    img: "ruslan-synytsky.jpg"
+    twitter_handle: siruslan
+    bio: |
+      <p>CEO and co-founder of Jelastic PaaS, company that delivers turnkey business multi-cloud platform for MSPs, Telcos and hosting providers. Java Champion and expert in large-scale distributed applications and enterprise platforms. Designed the core technology of the Platform-as-a-Service that runs millions of containers across decentralized network of independent data center providers worldwide. Designed and created solutions for National Data Center (NDC) and National Antarctic Scientific Centre (NASC) of Ukraine. Was one of the key engineering leads at the National Space Agency of Ukraine. Focusing on development of cutting edge cloud solutions and business relations around it.</p>
+  - name: "Reza Rahman"
+    title: "Principal Program Manager for Java on Azure at Microsoft"
+    img: "reza-rahman.jpg"
+    twitter_handle: reza_rahman
+    bio: |
+      <p>Reza Rahman is Principal Program Manager for Java on Azure at Microsoft. He works to make sure Java developers are first class citizens at Microsoft and Microsoft is a first class citizen of the Java ecosystem.</p>
+      <p>Reza has been an official Java technologist at Oracle. He is the author of the popular book EJB 3 in Action from Manning Publishing. Reza has long been a frequent speaker at Java User Groups and conferences worldwide including JavaOne and Devoxx. He has been the lead for the Java EE track at JavaOne as well as a JavaOne Rock Star Speaker award recipient. He was the program chair for the inaugural JakartaOne conference. Reza is an avid contributor to industry journals like DZone. He has been a member of the Java EE, EJB and JMS expert groups over the years. Reza implemented the EJB container for the Resin open source Java EE application server. He helps lead the Philadelphia Java User Group. Reza is proud to be a founding member of the Jakarta EE Ambassadors.</p>
+  - name: "Emily Jiang"
+    title: "STSM, Liberty Microservice Architect and Advocate at IBM"
+    img: "emily_jiang.jpg"
+    twitter_handle: emilyfhjiang
+    bio: |
+      <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.</p>
+      <p>She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, QCon, GeeCon, JFokus, etc.</p>
+  - name: "Bruno Baptista"
+    title: "Principal Engineer at Talkdesk"
+    img: "bbaptista.jpeg"
+    twitter_handle: brunobat_
+    bio: |
+      <p>Principal Engineer at Talkdesk. With over 14 years as an enterprise-level engineer, Bruno has led QA and development teams, garnered skills in requirements analysis and development processes. During his career path, he has contributed to open source projects like Apache TomEE and Eclipse Microprofile. He also continues to help organize the Coimbra Java Users Group (JUG) and the JNation conference.</p>
+  - name: "Kevin Sutter"
+    title: "Lead architect for WebSphere's Jakarta EE and Microprofile solutions"
+    img: "kevin-sutter.jpg"
+    twitter_handle: kwsutter
+    bio: |
+      <p>Kevin is co-lead of both the Jakarta EE Platform project and the MicroProfile project at the Eclipse Foundation. His involvement with these projects started during the initial investigative phases and continues with all aspects of Code and Specification development – project committer, PMC member, Steering Committee member, and Specification Committee member.</p>
+      <p>Kevin’s day job is leading the architecture of Enterprise Java for the WebSphere product family at IBM. Outside of work, he enjoys the outdoors (camping, biking, hiking, skiing) and working on family construction projects.</p>
+  - name: "Mike Milinkovich"
+    title: "Executive Director at Eclipse Foundation"
+    img: "mike_milinkovich.png"
+    twitter_handle: mmilinkov
+    bio: |
+      <p>Mike has been the Executive Director of the Eclipse Foundation since 2004. He also has a few other hats as a director of the Open Source Initiative, and a member of the Java Community Process Executive Committee. He is a passionate believer in open source as the best way to innovate and collaborate. He also considers himself to be the Eclipse community's chief cheerleader.</p>
+  - name: "Adam Bien"
+    title: "Developer, Consultant, Author and Java (SE/EE) enthusiast"
+    img: "adam-bien.jpg"
+    twitter_handle: AdamBien
+    bio: |
+      <p>Developer, Consultant, Author and Java (SE/EE) enthusiast Adam Bien (adambien.blog) uses Java since JDK 1.0 and JavaScript since LiveScript and still enjoys writing Java code. Adam regularly organizes Java EE / WebStandards / JavaScript workshops at Munich’s airport airhacks.com.</p>
+  - name: "Kevin Wittek"
+    title: "Engineer at Atomic Jar and Test Containers co-maintainer"
+    img: "kevin-wittek.jpg"
+    twitter_handle: Kiview
+    bio: |
+      <p>Testcontainers co-maintainer, passionate about FLOSS, containers, and Java. Oracle Groundbreaker Ambassador. Likes to write Python programs to support his wife in performing behavioral science experiments with pigeons. Plays the electric guitar and is a musician in his second life. After many years working in the industry as a software engineer and a short detour into the world of academic blockchain research, Kevin is now working at AtomicJar Inc., trying to make developers more happy and productive, one container at a time.</p>
+  - name: "Dmitry Alexandrov"
+    title: "Software developer at Oracle, Java Champion, Oracle Groundbreaker"
+    img: "dmitry-alexandrov.jpg"
+    twitter_handle: bercut2000
+    bio: |
+      <p>Dmitry is a software developer at Oracle, Java Champion, Oracle Groundbreaker. Currently working on Project Helidon. He has more than a decade experience mainly in Java Enterprise in banking/telecom, but interested in dynamic languages on JVM and features like massive computations on GPUs. A true believer in open source and community driven initiatives. He is a co-lead of the Bulgarian Java User Group and co-organizer of jPrime Conf. Dmitry is a blogger and also a frequent speaker at local events as well as conferences like JavaOne/CodeOne, Devoxx/Voxxed and Joker/JPoint.</p>
+  - name: "Arjan Tijms"
+    title: "Project lead for various Jakarta projects, founder of the Piranha project and GlassFish committer"
+    img: "arjan-tijms.jpg"
+    twitter_handle: arjan_tijms
+    bio: |
+      <p>Arjan Tijms is the project lead for a number of Jakarta projects including Jakarta- Security, Authentication, Authorization, Faces, and Expression Language, and is a Jakarta EE steering committee member. He is one of the founders of the Piranha project, which aims to develop a simplified Jakarta EE runtime, and is one of the GlassFish committers actively releasing new versions.</p>
+      <p>Arjan regularly writes for Java Magazine about Jakarta EE, is the author of two books: The Definitive Guide to JSF and Pro CDI 2 in Java EE 8, and has spoken at conferences such as JakartaOne Live. He is also a Java Champion and the co-creator of the popular OmniFaces library for Jakarta Faces that was a 2015 Duke’s Choice Award winner. Arjan holds an MSc degree in computer science from the University of Leiden, The Netherlands</p>
+  - name: "Mary Grygleski"
+    title: "Senior Developer Advocate at IBM"
+    img: "mary-grygleski.jpg"
+    twitter_handle: mgrygles
+    bio: |
+      <p>Mary is a Senior Developer Advocate at IBM, specializing in Reactive Java, Open Source, Cloud, and Distributed Systems. She started working as a software engineer with C and Unix, then got into Java, Open Source, and web development in the new Millennium, and now she has ventured into Reactive, Mobile, and the DevOps space. In her previous incarnations, she worked for several technology product companies in the Route 128 Boston Technology Corridor as well the San Francisco Bay Area. She now resides in the Greater Chicago area, and is the President and Executive Board Member of the Chicago Java Users Group (CJUG). She is also an active co-organizers for the Data, Cloud and AI In Chicago, Chicago Cloud, and IBM Cloud Chicago meetup groups. Mary continues to be amazed by how software innovations can dramatically transform our lives. Despite the many challenges in an ever-evolving technical world, she gets energized by the constant change and believes that she has uncovered the pathway to staying young. She can’t wait to see what the next tech wave will be like.</p>
+  - name: "Rudy De Busscher"
+    title: "Product Manager at Payara Services Ltd"
+    img: "rudy-debusscher.jpg"
+    twitter_handle: rdebusscher
+    bio: |
+      <p>Rudy loves to create (web) applications with the Jakarta EE platform and MicroProfile implementations and is currently working for Payara Services Limited as Product Manager. He helps customers, prospects, writes technical content, is part of some MicroProfile implementations and advocates the Payara Products in various ways.</p>
+      <p>He is active in the IT industry for more than 20 years and created many applications for customers. He is also a big fan of OpenSource and helped in various OpenSource projects like DeltaSpike, PrimeFaces, and Apache Myfaces. He is also passionate about Web Application Security using OAuth2, OpenId Connect, and JWT. He maintains the Octopus OpenSource project and is a member of the Jakarta EE Security API team.</p>
+  - name: "Graham Charters"
+    title: "Liberty Technical Product Manager at IBM"
+    img: "graham-charters.jpg"
+    twitter_handle: gcharters
+    bio: |
+      <p>Graham works as a Developer Advocate in the WebSphere Applications Server development team based at IBM’s R&D Laboratory in Hursley, UK. He takes a keen interest in emerging technologies and practices and in particular programming models. His past exploits include establishing and contributing to open source projects in PHP and at Apache and participation in, and leading, industry standards at OASIS and the OSGi Alliance.</p>
+

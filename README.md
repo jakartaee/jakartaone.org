@@ -2,7 +2,9 @@
 
 The [jakartaone.org](https://jakartaone.org) website is generated with [Hugo](https://gohugo.io/documentation/) 0.76.5.
 
-Jakarta Enterprise Edition (EE) is the future of cloud native Java. Jakarta EE open source software drives cloud native innovation, modernizes enterprise applications and protects investments in Java EE.
+Jakarta EE is the future of cloud native Java. Jakarta EE open source software drives cloud native innovation, modernizes enterprise applications and protects investments in Java EE.
+
+This site is powered by [Netlify](https://www.netlify.com/). 
 
 ## Getting started
 

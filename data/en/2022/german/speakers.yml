@@ -1,0 +1,79 @@
+items:
+  - name: "Claudia Beisiegel"
+    title: Client Engagement Product Manager, IBM Automation
+    img: "claudia-beisiegel.jpg"
+    bio: |
+      <p>Claudia is the Customer Engagement Product Manager for WebSphere and Liberty. She is responsible for all NPS feedback and leads a successful customer program called the WAS & Liberty CAB (Customer Advisory Board). Please join! http://ibm.biz/WebSphereandLibertyCAB</p>
+  - name: "Ed Burns"
+    title: "Principal Architect for Java on Azure"
+    img: "ed-burns-2022.jpg"
+    twitter_handle: edburns
+    bio: |
+      <p>Ed has worked on a wide variety of client and server side web technologies since 1994, including NCSA Mosaic, Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer Faces, and most recently, the Servlet specification. Ed has lead or co-lead the expert groups for Servlet and JavaServer Faces. Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT Crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013). To learn more about his books or projects, you can visit his website at <a href="https://ridingthecrest.com" target="_blank">https://ridingthecrest.com</a>.</p>
+  - name: "Gunnar Hillert"
+    title: Consulting Member of Technical Staff
+    img: "gunnar-hillert.jpg"
+    twitter_handle: ghillert
+    bio: |
+      <p>Gunnar is a Consulting Member of Technical Staff at Oracle. As an open-source contributor for the Oracle Coherence team, he is contributing to Oracle Coherence and the Coherence Spring project. As Java Champion, full-stack Spring aficionado and OSS committer, Gunnar has been deeply involved with the Java community for many years. As a former Spring team member for 9 years (and user since 2005), he contributed, among other projects, to Spring Integration, Spring Batch, Spring Security and Spring Cloud Data Flow. Furthermore, he co-founded the DevNexus developer conference in 2009 and was president of the Atlanta Java Users Group for 6 years. If not developing software, he grows his own Java in Hawaii, participates in IRONMAN events and enjoys raising his children tri-lingually.</p>
+  - name: "Jürgen Höller"
+    title: Technical Director at Vmware, Spring Framework Project Lead
+    img: "juergen-hoeller.jpg"
+    twitter_handle: springjuergen
+    bio: |
+      <p>Juergen Hoeller is co-founder of the Spring Framework open source project and has been serving as the project lead and release manager for the core framework since 2003.</p>
+  - name: "Werner Keil"
+    title: Director at CATMedia, Jakarta EE Spec Committee Member
+    img: "werner-keil.jpg"
+    twitter_handle: wernerkeil
+    bio: |
+      <p>Werner Keil does BDD, Java, Java EE / Jakarta EE, IoT, Security and Microservices. Helping Global 500 clients across industries and IT vendors. He worked for over 30 years as PM, Coach, SW architect and consultant for Finance, Mobile, Media, Transport and Public sector. Werner is Eclipse and Apache Committer, JCP member in JSRs like 354 (Money, also Maintenance Lead), 366 (Java EE 8), 375 (Security), 385 (Units 2.0, also Spec Lead) and Committer member in the Jakarta EE Specification Committee.</p>
+  - name: "Niko Köbler"
+    title: "Freelancer"
+    img: "niko-koebler.jpg"
+    twitter_handle: dasniko
+    bio: |
+      <p>Niko is a freelancer is doing since more than 20 years „something with computers“, on-premise, web and in the cloud. He's writing and deploying software and helps others to do so. Serverless (in AWS) and Identity & Access Management with Keycloak are his main topics. With 2021, Niko started an own Youtube channel, where he’s publishing videos on these topics.</p>
+      <p>Besides, he is a co-lead of JUG Darmstadt, speaker at international conferences and author of the book "Serverless Computing in the AWS Cloud".</p>
+  - name: "Emily Jiang"
+    title: "Cloud Native Java Architect at IBM, Java Champion"
+    img: "emily_jiang.jpg"
+    twitter_handle: emilyfhjiang
+    bio: |
+      <p>Emily Jiang is a Java Champion. She is Liberty Microservices Architect and Advocate, Senior Technical Staff Member (STSM) @IBM, based at Hursley Lab in the UK. Emily is MicroProfile guru and has been working on MicroProfile since 2016 and leads the specifications of MicroProfile Config, Fault Tolerance and Service Mesh. She is a CDI Expert Group member.</p>
+      <p>She is passionate about Java, MicroProfile, and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, Devoxx, DevNexus, JAX, Voxxed, EclipseCon, GeeCon, JFokus, etc. You can find her on Twitter @emilyfhjiang and <a href="https://www.linkedin.com/in/emilyfhjiang/" target="_blank">LinkedIn</a>.</p>
+  - name: "Will Lyons"
+    title: Senior Director Oracle Enterprise Cloud Native Java Product Management
+    img: "wlyons.jpg"
+    twitter_handle: wa_lyons
+    bio: |
+      <p>Will Lyons is Senior Director of Enterprise Cloud Native Java Product Management at Oracle Corporation. Will has extensive knowledge of Oracle's Enterprise Cloud Native Java capabilities, including Oracle WebLogic Server, Oracle Coherence, Helidon, Verrazzano, Oracle Cloud, Kubernetes, Java EE and Jakarta EE, and future technology and product directions. Will has over 20 years of experience working with customers using enterprise software and cloud computing technologies.</p>
+  - name: "Steve Millidge"
+    title: Founder and CEO of Payara Services
+    img: "steve-millidge-2022.jpg"
+    bio: |
+      <p>Steve Millidge is the founder, CEO and technical director of Payara Services. He is an expert in Java EE, Jakarta EE and MicroProfile, and a Project Lead for the Eclipse Foundation GlassFish and the Jakarta EE platforms. Steve has spoken at a number of events about the performance and scalability of Java systems, including Java One, JBoss World, UK Oracle User Group Conference and Special Interest Groups, JaxLondon, GeeCon, EclipseCon, and Jakarta EE Live Stream. He regularly presents technical workshops and webinars on Jakarta EE, Microprofile and big scale Java. Steve has been working with Java since pre-1.0 and has worked on large scale distributed applications and application servers since the 1990s. Before founding Payara Services, Steve ran a consultancy company providing advice and guidance on architecting, building and running at scale large web applications on Java technologies. Steve has a keen interest in non-functional attributes of big scale Java.</p>
+  - name: "Mario-Leander Reimer"
+    title: Business Unit Director at QAware, Principal Software Architect
+    img: "mario-leander-reimer.png"
+    twitter_handle: LeanderReimer
+    bio: |
+      <p>Passionate developer. Proud father. #CloudNativeNerd. M.-Leander Reimer is a principal software architect working for QAware GmbH. He is continuously looking for innovations and ways to combine and apply state-of-the-art cloud native technology and open source software components in real-world projects. He is teaching software quality assurance as a part time lecturer at the Rosenheim university of applied sciences.</p>
+  - name: "Lars Röwekamp"
+    title: CIO New Technologies at OPEN KNOWLEDGE
+    img: "lars-rowekamp.jpg"
+    twitter_handle: mobilelarson
+    bio: |
+      <p>Lars Röwekamp, founder of the IT consulting and development company open knowledge GmbH, deals with the in-depth analysis and evaluation of new software and technology trends as part of his work as "CIO New Technologies". A particular focus of his work currently lies in the areas of enterprise and cloud computing as well as AI and ML, with a particular focus on real-life aspects in addition to design and architecture issues.</p>
+  - name: "Alexander Schwartz"
+    title: "Principal Software Engineer at Red Hat"
+    img: "alexander-schwartz.jpg"
+    twitter_handle: ahus1de
+    bio: |
+      <p>Alexander Schwartz is a Principal Software and IT Architect. He helps organizations and teams to make architecture decisions that match their needs. To build their software in a maintainable way, he empowers them with best practices, tools and libraries. He leads by example to adopt true agile processes and to stay curious. Ideas spark when sharing thoughts with others. Finding out if an idea works requires experimenting with code and UX. Measurable results of the experiment show if the idea worked out, and might lead to new experiments.</p>
+  - name: "Dirk Weil"
+    title: Consultant, Trainer, Java enthusiast, CEO GEDOPLAN GmbH
+    img: "dirk-weil.jpg"
+    twitter_handle: dirkweil
+    bio: |
+      <p>Dirk Weil has been working as a Java consultant since 1998. As Managing Director of GEDOPLAN GmbH, he is responsible for the conception and realization of Java based information systems. With many years of experience in developing sophisticated business solutions he and his team are competent partners and recognized experts for Java and JEE. He is a book author, writes articles for magazines and speaks at conferences and user groups. He works as trainer for GEDOPLAN IT Training holding various Java and JEE seminars and workshops.</p>

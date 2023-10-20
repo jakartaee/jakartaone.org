@@ -1,0 +1,104 @@
+[upcoming-events-header]
+other = "Zukünftige Veranstaltungen"
+
+[upcoming-events-learn-more]
+other = "Erfahre mehr"
+
+[upcoming-events-learn-more-title]
+other = "Erfahre mehr über"
+
+[upcoming-events-heading-event-date]
+other = "Datum der Veranstaltung"
+
+[upcoming-events-heading-event-title]
+other = "Name der Veranstaltung"
+
+[upcoming-events-heading-learn-information]
+other = "Weitere Informationen"
+
+[upcoming-events-no-events-text]
+other = "Keine aktuellen Veranstaltungen anzeigbar"
+
+[past-events-header]
+other = "Vergangene Veranstaltungen"
+
+[past-events-learn-more]
+other = "Erfahre mehr"
+
+[past-events-learn-more-title]
+other = "Erfahre mehr über"
+
+[regional-jakartaone-livestreams]
+other = "Organisation von regionalen JakartaOne-Livestream-Veranstaltungen"
+
+[regional-jakartaone-livestreams-decription]
+other = "Interessiert an einem eigenen regionalen JakartaOne-Livestream? Lade das Hilfsmittel herunter und trete mit uns in Verbindung!"
+
+[download-button]
+other = "Download"
+
+[agenda-schedule]
+other = "Veranstaltungs-Details"
+
+[agenda-legend]
+other = "Legende"
+
+[agenda-sessions]
+other = "Sessions"
+
+[agenda-session-name]
+other = "Session-Name"
+
+[agenda-presenter-name]
+other = "Sprecher-Name"
+
+[agenda-session-recording]
+other = "Session-Aufzeichnung"
+
+[agenda-session-schedule]
+other = "Zeitplan"
+
+[agenda-session-recording-button-alt]
+other = "Session-Video für Session {{ .name }}"
+
+[agenda-abstract-modal-alt]
+other = "Zeige {{.name}} Zusammenfassung"
+
+[agenda-modal-close-alt]
+other = "Schließen"
+
+[speakers-tiles-title]
+other = "Sprecher"
+
+[committee-carousel-title]
+other = "Triff das Programmkomitee"
+
+[committee-carousel-content]
+other = "Wir sind stolz darauf, daß die Sessions und Keynotes für die JakartaOne-Livestream-Veranstaltung von einem unabhängigen Programmkomitee bestehend aus Freiwilligen der Jakarta&reg; EE und Cloud Native Java Community ausgewählt werden!"
+
+[committee-carousel-button-text]
+other = "Erfahre mehr"
+
+[committee-twitter-follow-text]
+other = "Folge {{ .name }} auf Twitter!"
+
+[footer-get-social-title]
+other = "Get Social"
+
+[footer-our-events-title]
+other = "Zukünftige Veranstaltungen"
+
+[footer-get-social-content]
+other = "Folge dem offiziellen Konferenz-Twitter-Handle <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a> um Updates, Sprecher-Ankündigungen, Neuigkeiten und mehr zu erfahren!"
+
+[footer-jakarta-callout-content]
+other = "Durch Partizipation getrieben, fokussiert sich Jakarta&reg; EE auf das Ermöglichen community-getriebener Zusammenarbeit und Open Innovation für die Cloud"
+
+[footer-jakarta-callout-button-text]
+other = "Erfahre mehr"
+
+[footer-join-mailing-list]
+other = "Melde dich für unsere Mailing-Liste an"
+
+[footer-join-mailing-list-button-text]
+other = "Trage dich jetzt ein"

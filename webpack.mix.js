@@ -11,24 +11,14 @@
  * SPDX-License-Identifier: EPL-2.0
  */
 
-mix = require('laravel-mix');
-require('laravel-mix-transpile-node-modules');
-mix.transpileNodeModules(['eclipsefdn-solstice-assets']);
-mix.options({
-  uglify: { uglifyOptions: { compress: false, output: { comments: true } } },
-});
+require('./node_modules/eclipsefdn-solstice-assets/webpack-solstice-assets.mix.js');
+let mix = require('laravel-mix');
+mix.EclipseFdnSolsticeAssets();
 
 mix.setPublicPath('static');
 mix.setResourceRoot('../');
 
 mix.less('./less/styles.less', 'static/css/styles.css');
-mix.webpackConfig({
-  resolve: {
-    alias: {
-      jquery: 'jquery/src/jquery',
-    },
-  },
-});
 
 mix.js(
   './js/main.js',

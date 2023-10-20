@@ -9,20 +9,18 @@ hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
 tagline: "29 de Setembro de 2021"
-tagline_suffix: |
-  <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone_portuguese">Inscrições</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOnePORT">Twitter</a>
-  </p>
 layout: "single"
 menu_name: "portuguese"
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="portuguese" year="2021" title="Call for Papers - Fechado" >}}
-O JakartaOne Livestream é uma conferência virtual de um dia para desenvolvedores e líderes técnicos de negócios que traz informações sobre o estado atual e o futuro do Jakarta ™ EE e tecnologias relacionadas, focadas no desenvolvimento de aplicativos Java nativos da nuvem.
+    {{< events/registration event="portuguese" year="2021" title="THE EVENT HAS NOW CONCLUDED!" >}}
+Thank You for making the second JakartaOne Livestream in Portuguese another great success!
 
-O Call for papers fecha em 1 de agosto. Submeta sua proposta, nos vemos por lá
+This milestone would not be possible without the collective efforts of a dedicated community.
+
+The event has now concluded!
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}

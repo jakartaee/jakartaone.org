@@ -11,18 +11,16 @@ tagline: "October 1, 2020"
 description: "JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the second edition of the event entirely in Spanish"
 layout: "single"
 menu_name: "hispano"
-tagline_suffix: |
-  <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone_spanish21">Register now</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOneES">Twitter</a>
-  </p>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="hispano" year="2021" title="Call for Papers - Now Closed" >}}
-JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta™ EE and related technologies focused on developing cloud native Java applications. This is the second edition of the event entirely in Spanish.
+    {{< events/registration event="hispano" year="2021" title="THE EVENT HAS NOW CONCLUDED!" >}}
+Thank you for making the second JakartaOne Livestream in Spanish another great success!
 
-Registration is now open, be sure to register so you don't miss out! We can’t wait to see you there!
+This milestone would not be possible without the collective efforts of a dedicated community.
+
+The event has now concluded!
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}

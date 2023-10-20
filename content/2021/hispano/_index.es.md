@@ -11,18 +11,16 @@ tagline: "1 de octubre del 2021"
 description: "JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español"
 layout: "single"
 menu_name: "hispano"
-tagline_suffix: |
-  <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone_spanish21">Register now</a><a class="btn btn-bordered margin-left-10" href="https://twitter.com/JakartaOneES">Twitter</a>
-  </p>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
-    {{< events/registration event="hispano" year="2021" title="LA RECEPCIÓN DE PROPUESTA PARA PARTICIPAR COMO CONFERENCISTA HA FINALIZADO" >}}
-JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual y el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la segunda edición del evento con contenido complementamente en español.  
+    {{< events/registration event="hispano" year="2021" title="EL EVENTO HA FINALIZADO!" >}}
+¡Gracias por hacer de la segunda versión de JakartaOne Livestream en Español otro gran éxito!
 
-¡Las inscripciones están abiertas, registrarse ahora para ser parte de esta conferencia! ¡Estamos ansiosos por compartir contigo en nuestro evento !
+Esta meta no hubiera sido posible sin el esfuerzo colectivo de nuestras comunidades.
+
+¡El evento ha finalizado!
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}

@@ -1,12 +1,135 @@
+complete: true
 types:
-    - name: Keynote
+    - name: Keynote / Industry Keynote
       id: keynote 
-      color: "#e44"
+      color: "#85BFF3"
+    - name: Jakarta EE
+      id: jakarta_ee
+      color: "#EC8101"
+    - name: MicroProfile
+      id: microprofile
+      color: "#EDDAA0"
+    - name: Studio Jakarta EE
+      id: studio
+      color: "#99DF82"
 
 items:
-    - name: Welcome Reception
+    - name: "Studio Jakarta EE: WELCOME RECEPTION"
+      vod: https://youtu.be/wHzOphP2bpU
       presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 02:45&nbsp;PT&nbsp;/&nbsp;05:45&nbsp;ET&nbsp;/&nbsp;11:45&nbsp;CET
+    - name: 7 Reasons to Switch to JDK 17 as a Jakarta EE Developer
+      vod: https://youtu.be/XV1zYez65L8
+      presenter: Rudy De Busscher
+      type: jakarta_ee
+      time: 03:00 PT / 06:00 ET / 12:00 CET
+    - name: "Studio Jakarta EE: guest Lukas Jungmann"
+      vod: https://youtu.be/ju5ML4ZpkG0
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 03:45 PT / 06:45 ET / 12:45 CET
+    - name: The coolest new features to skyrocket your microservices
+      vod: https://youtu.be/kSl5h3bmuRg
+      presenter: Dmitry Alexandrov
+      type: microprofile
+      time: 04:00 PT / 07:00 ET / 13:00 CET
+    - name: "Studio Jakarta EE: guest Amber Vanderburg"
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 04:45 PT / 07:45 ET / 13:45 CET
+    - name: Running Jakarta EE Applications inside Kubernetes with Nested Container Architecture
+      vod: https://youtu.be/d7rcane96M8
+      presenter: Ruslan Synytsky
+      type: jakarta_ee
+      time: 05:00 PT / 08:00 ET / 14:00 CET
+    - name: "Studio Jakarta EE: guest Yuriy Artamonov"
+      vod: https://youtu.be/OIoeulLGeas
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 05:45 PT / 08:45 ET / 14:45 CET
+    - name: MicroProfile 4.1, 5.0 and beyond
+      vod: https://youtu.be/P9ex_2Kk_HI
+      presenter: Emily Jiang
+      type: microprofile
+      time: 06:00 PT / 09:00 ET / 15:00 CET
+    - name: "Studio Jakarta EE: guest Ladislav Thon"
+      vod: https://youtu.be/O1CBWCW7BNE
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 06:45 PT / 09:45 ET / 15:45 CET
+    - name: Integration Testing of Jakarta EE Applications with Docker and Testcontainers
+      vod: https://youtu.be/GY4RK4dmnb0
+      presenter: Kevin Wittek 
+      type: jakarta_ee
+      time: 07:00 PT / 10:00 ET / 16:00 CET
+    - name: "Studio Jakarta EE: guests Dmitry Kornilov & Tomas Langer"
+      vod: https://youtu.be/urQ7rKy23wE
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 07:45 PT / 10:45 ET /16:45 CET
+    - name: GlassFish at Eclipse and Jakarta EE 10
+      vod: https://youtu.be/3EiPRbjteug
+      presenter: Arjan Tijms
+      type: jakarta_ee
+      time: 08:00 PT / 11:00 ET / 17:00 CET
+    - name: Keynote
+      vod: https://youtu.be/0PTziW_EPng
+      presenter: Mike Milinkovich
       type: keynote
-      time: 2:45 PT / 5:45 ET / 11:45 CET
-
-      
+      time: 08:45 PT / 11:45 ET / 17:45 CET
+    - name: Industry Keynote
+      vod: https://youtu.be/yaWJ59Lbl-Q
+      presenter: "Jakarta EE vendors: IBM, Payara, Oracle, Tomitribe, Jelastic"
+      type: keynote
+      time: 09:05 PT / 12:05 ET / 18:05 CET
+    - name: Jakarta EE Roadmap
+      vod: https://www.youtube.com/watch?v=V1YFQSUls5Q&ab_channel=JakartaEE
+      presenter: Kevin Sutter
+      type: jakarta_ee
+      time: 10:00 PT / 13:00 ET / 19:00 CET
+    - name: "Studio Jakarta EE: guest Werner Keil"
+      vod: https://youtu.be/SzoAJw6uqSI
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 10:45 PT / 13:45 ET / 19:45 CET
+    - name: Jakarta EE + MicroProfile = Cloud Native 2.0
+      vod: https://youtu.be/MHJbp6iTu7I
+      presenter: Adam Bien
+      type: jakarta_ee
+      time: 11:00 PT / 14:00 ET / 20:00 CET
+    - name: "Studio Jakarta EE: guest David Král"
+      vod: https://youtu.be/oLoPA5SrgfA
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 11:45 PT / 14:45 ET / 20:45 CET
+    - name: Look at these microservices!
+      vod: https://youtu.be/jL2ZPdBqdLk
+      presenter: Bruno Baptista
+      type: microprofile
+      time: 12:00 PT / 15:00 ET / 21:00 CET
+    - name: Studio Jakarta EE (15 min)
+      vod: https://youtu.be/TdVPYCRZvdc
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 12:45 PT / 15:45 ET / 21:45 CET
+    - name: Powering Jakarta EE and MicroProfile on Azure with Open Liberty and OpenShift
+      vod: https://youtu.be/IacUgrhyv2o
+      presenter: Reza Rahman & Graham Charters
+      type: jakarta_ee
+      time: 13:00 PT / 16:00 ET / 22:00 CET
+    - name: "Studio Jakarta EE: guest Kito Mann"
+      vod: https://youtu.be/PTchNoQOMAM
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 13:45 PT / 16:45 ET / 22:45 CET
+    - name: Exploring Stateful Microservices in the Cloud Native World
+      vod: https://youtu.be/IC9GNGjYOO8
+      presenter: Mary Grygleski
+      type: microprofile
+      time: 14:00 PT / 17:00 ET / 23:00 CET
+    - name: "Studio Jakarta EE: CLOSING"
+      vod: https://www.youtube.com/watch?v=cMSA0lUvJyE&ab_channel=JakartaEE
+      presenter: Tanja Obradovic & Ivar Grimstad
+      type: studio
+      time: 14:45 PT / 17:45 ET / 23:45 CET

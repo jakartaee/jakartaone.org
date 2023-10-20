@@ -8,34 +8,34 @@ other = "Aprende más"
 other = "Aprender más sobre"
 
 [upcoming-events-heading-event-date]
-other = "Date of event"
+other = "Fecha del evento"
 
 [upcoming-events-heading-event-title]
-other = "Name of event"
+other = "Nombre del evento"
 
 [upcoming-events-heading-learn-information]
-other = "More information"
+other = "Más información"
 
 [upcoming-events-no-events-text]
-other = "No current events to display"
+other = "No hay eventos actuales que mostrar"
 
 [past-events-header]
-other = "Past Events"
+other = "Eventos pasados"
 
 [regional-jakartaone-livestreams]
-other = "Organizing Regional JakartaOne Livestreams Events"
+other = "Organización de eventos regionales JakartaOne Livestreams"
 
 [regional-jakartaone-livestreams-decription]
-other = "Interested in hosting your own Regional JakartaOne Livestream? Download the resource and get in touch!"
+other = "¿Te interesa organizar tu propio Livestream regional de JakartaOne? Descargue el recurso y póngase en contacto con nosotros."
 
 [download-button]
-other = "Download"
+other = "Descargar"
 
 [past-events-learn-more]
 other = "Eventos pasados"
 
 [past-events-learn-more-title]
-other = "Learn more about"
+other = "Más información sobre"
 
 [agenda-schedule]
 other = "Aprender más sobre"
@@ -206,7 +206,7 @@ other = "Aprende más"
   other = "Copyright &copy; Eclipse Foundation, Inc. Todos los derechos reservados."
 
 [footer-join-mailing-list]
-other = "Join our Mailing List"
+other = "Únete a nuestra lista de correo"
 
 [footer-join-mailing-list-button-text]
-other = "Sign up now"
+other = "Regístrese ahora"

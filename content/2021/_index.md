@@ -9,10 +9,6 @@ hide_breadcrumb: true
 container: "container-fluid"
 headline: "JakartaOne Livestream"
 tagline: "December 7, 2021"
-tagline_suffix: |
-  <p class="text-left">
-    <a class="btn btn-bordered margin-right-10" href="https://www.crowdcast.io/e/jakartaone-livestream-2">Register now</a><a class="btn btn-bordered margin-left-10" href="https://www.papercall.io/jakartaone-2021">Call for Papers</a>
-  </p>
 layout: "single"
 ---
 
@@ -20,12 +16,24 @@ layout: "single"
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/registration year="2021" >}}
-**JakartaOne Livestream** is a one-day virtual conference for developers and technical business leaders.  
+Thank You for making the third annual JakartaOne Livestream event a great success!
 
-We bring insights into the current state and future of **Jakarta™ EE** and related technologies focused on developing cloud native Java applications.  
-
-The call for papers is open from July 15 to September 15. Submit a paper to speak at an event attended by over 1000 each of the last two years.
+This milestone would not be possible without the collective efforts of a dedicated community.
     {{</ events/registration >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add agenda section -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda year="2021" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2021" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 

@@ -1,4 +1,4 @@
-<!-- 
+<!--
   Copyright (c) 2020 Eclipse Foundation, Inc.
 
   This program and the accompanying materials are made available under the
@@ -25,6 +25,13 @@
 {{ $title := .Get "title" | default (i18n "committee-carousel-title") }}
 {{ $imageRoot := .Get "imageRoot" | default "/images/committee/" }}
 {{ $displayLearnMore := .Get "displayLearnMore" | default "true" }}
+{{ $displayDetails := .Get "displayDetails" | default "true" }}
+{{ $committeeCssBackground := "program-committee-background" }}
+
+{{ if eq $displayDetails "false" }}
+    {{ $committeeCssBackground = "program-committee-background-short" }}
+{{ end }}
+
 {{ $subpage := .Get "subpage" }}
 {{ $subpageURL := "" }}
 {{ if $subpage }}
@@ -41,8 +48,8 @@
   {{ $displayLearnMore = "false" }}
 {{ end }}
 {{ $itemClass := .Get "itemClass" | default "col-xs-12 col-sm-6" }}
-<section id="program-committee">
-    <div class="program-committee-background">
+<section id="program-committee" class="row">
+    <div class="{{$committeeCssBackground}}">
     </div>
     <div class="container">
         <div class="eclipsefdn-user-display margin-top-40 margin-bottom-30">
@@ -51,13 +58,14 @@
                     <h2{{ if not .Inner }} class="text-center"{{ end }}>{{ $title }}</h2>
                     <p>{{ with .Inner }}{{ . | markdownify }}{{ end }}</p>
                 </div>
-                
+
                 {{ if and (ne $subpageURL "") (eq $displayLearnMore "true") }}
                 <div class="eclipsefdn-user-display-subpage col-xs-24 text-center margin-top-30 margin-bottom-50">
                     <a href="{{ $subpageURL | relLangURL }}" class="btn btn-bordered padded">{{ i18n "committee-carousel-button-text" }}</a>
                 </div>
                 {{ end }}
-                
+
+                {{ if eq $displayDetails "true" }}
                 <div class="eclipsefdn-user-display-content col-xs-24">
                     <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ end }}>
                         <!-- Start: image Area -->
@@ -89,14 +97,17 @@
                                         </h3>
                                         <p>{{ .title }}</p>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        {{ end }}
-                    </div>
-                <!-- End: "image" Area -->
+            </div>
+
+            </a>
+
+        </div>
+        {{ end }}
+        {{ end }}
                 </div>
+            <!-- End: "image" Area -->
             </div>
         </div>
     </div>
+</div>
 </section>
