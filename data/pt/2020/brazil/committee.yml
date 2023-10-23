@@ -1,0 +1,22 @@
+items:
+  - name: "Otavio Santana"
+    title: "DevRel Engineer na Platform.sh"
+    img: "osantana.jpg"
+    bio: |
+      <p>Otávio é engenheiro de software, com grande experiência em desenvolvimento open source, com diversas contribuições ao JBoss Weld, Hibernate, Apache Commons e outros projetos. Focado em desenvolvimento poliglota e aplicações de alto desempenho, Otávio trabalhou em grandes projetos nas áreas de finanças, governo, mídias sociais e e-commerce. Membro do comitê executivo do JCP e de vários Expert Groups de JSRs, é também Java Champion e recebeu os prêmios JCP Outstanding Award e Duke's Choice Award.</p>
+  - name: "Elder Moraes"
+    title: "Developer Advocate na Red Hat"
+    img: "emoraes.jpg"
+    bio: |
+      <p>Elder auxilia desenvolvedores server-side a trabalhar em projetos incríveis ao guiá-los na construção e entrega de aplicações seguras, disponíveis e de alta performance. Ele é o autor do livro “Java EE 8 Cookbook“, onde provê um conteúdo profundo sobre as APIs do Java EE 8 e como utilizá-las para resolver problemas reais do meio corporativo. Ele é também membro da diretoria do SouJava, um dos maiores JUGs do mundo. Como Developer Advocate, inspira desenvolvedores ao compartilhar experiências e melhores práticas através de conteúdo online e em eventos internacionais como JavaOne, The Developers Conference, QCon, Oracle Code One, Campus Party e Devnexus.</p>
+  - name: "Paulo Simoes"
+    title: "CNCF Ambassador | Developer Advocate, Cloud Solution Engineer na Oracle"
+    img: "psimoes.jpg"
+    bio: |
+      <p>Paulo capacita arquitetos, desenvolvedores e SREs em todo o mundo para construir e entregar aplicações escaláveis e arquiteturas de sistemas otimizadas para os recursos exclusivos e diferenciais da nuvem; E, apoia organizações a embarcar em sua jornada nativa da nuvem. Apaixonado por arquitetura de sistemas e engenharia de software, Paulo dedica-se a aprender e compartilhar conhecimentos focados em nuvem, Java e outras tecnologias emergentes.</p>
+      <p>Paulo foi reconhecido como embaixador da Cloud Native Computing Foundation, é um palestrante ativo sobre projetos do CNCF e um desenvolvedor de suas comunidades. Também é membro do conselho da SouJava, um dos maiores JUGs do mundo.</p>
+      <p>Como Developer Advocate, ele inspira desenvolvedores e SREs compartilhando experiências e melhores práticas por meio de conteúdo on-line e em eventos como Oracle Open World, The Developers Conference, Campus Party e Meetups espalhados pela América Latina.</p>
+  - name: "Bruno Souza"
+    title: "Java Evangelist, SouJava"
+    img: "bsouza.jpg"
+    bio: "<p>Bruno ajuda desenvolvedores profissionais de Java a compartilhar sua paixão para que possam crescer em suas carreiras e trabalhar em projetos incríveis. Bruno quer que todos os desenvolvedores do mundo trabalhem com outros grandes desenvolvedores, em projetos que transformem suas vidas. Por isso, ele está em uma cruzada pessoal para conectar desenvolvedores e comunidades às suas paixões, para eliminar o trabalho não interessante e mal remunerado.</p>"

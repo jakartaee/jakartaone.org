@@ -1,0 +1,61 @@
+complete: true
+types:
+    - name: Keynotes
+      id: keynote 
+      color: "#e44"
+    - name: Vendor Track
+      id: vendor
+      color: "#c6a061"
+    - name: Jakarta EE & MicroProfile Sessions
+      id: jakarta-ee
+
+items:
+    - name: Keynote
+      presenter: Program Committee
+      type: keynote
+      time: 09 AM BRT / 1 PM (WEST)
+      vod: https://www.youtube.com/watch?v=rCC4Tv5eW3o&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=1&t=0
+    - name: Vendor Session (Payara)
+      presenter: Cat Buys
+      type: vendor
+      time: 10 AM (BRT) // 2 PM (WEST)
+      vod: https://www.youtube.com/watch?v=D0PWMSSUE_o&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=2
+    - name: Vendor Session (Red Hat)
+      presenter: Elder Moraes
+      type: vendor
+      time: 10:15 AM (BRT) // 2:15 PM (WEST)
+      vod: https://www.youtube.com/watch?v=vtr-UpLwmc8&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=3
+    - name: Vendor Session (Tomitribe)
+      presenter: Jean-Louis Monteiro
+      type: vendor
+      time: 10:30 AM (BRT) // 2:30 PM (WEST)
+      vod: https://www.youtube.com/watch?v=rjHIypkwxk4&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=4
+    - name: Vendor Session (Oracle)
+      presenter: Paulo Simões 
+      type: vendor
+      time: 10:45 AM (BRT) // 2:45 PM (WEST)
+      vod: https://www.youtube.com/watch?v=0mbj9K4xuNk&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=5
+    - name: From J2EE to Jakarta EE, history, present and what's to come
+      presenter: Fabio Velloso
+      type: jakarta-ee
+      time: 11 AM (BRT) // 3 PM (WEST)
+      abstract: |
+        <p>In the field of Java technology, we are experiencing a constant transition of technology. We live the generations change present in the patterns of enterprise architectures of Java. Including Java's leadership which started with SUN, Oracle Foundation and now at Eclipse with Jakarta EE. But what are the importance, meaning and objectives of this transition? Will it be positive or negative for the future of Java web development? Know a little bit of history and more in this presentation.</p>
+      vod: https://www.youtube.com/watch?v=14YJai6H81o&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=6
+    - name: "Unraveling the JVM: architecture and functioning"
+      presenter: Kamila Oliveira
+      type: jakarta-ee
+      time: 12PM (BRT) // 4 PM (WEST)
+      abstract: |
+        <p>Ever wanted to know what happens in the JVM when you are running your Application?</p>
+        <p>Let's talk about the JVM, how it works and what is its architecture. Let's see what are class loader, method area, heap, execution engine, Native method interfaces and libraries and what all this does in the process of compiling our applications.</p>
+      vod: https://www.youtube.com/watch?v=jB4QDaVpnV0&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=7
+    - name: Look at these microservices!
+      presenter: Bruno Baptista
+      type: jakarta-ee
+      time: 1 PM (BRT) // 5 PM (WEST)
+      abstract: |
+        <p>Now you have Microservices in Java. How do you know if they are behaving properly?</p>
+        <p>In this presentation, we will show you some observability best practices around logging, request tracing, and metrics.</p>
+        <p>We will also explain some tools and frameworks, how to configure and use them to monitor your services.</p>
+      vod: https://www.youtube.com/watch?v=8NZqHoYluaI&list=PLutlXcN4EAwCEsKLYLFPoE-EjnaBWj7oQ&index=8

@@ -1,0 +1,104 @@
+[upcoming-events-header]
+other = "Yaklaşan Etkinlikler"
+
+[upcoming-events-learn-more]
+other = "Daha fazla bilgi edin"
+
+[upcoming-events-learn-more-title]
+other = "Hakkında daha fazla bilgi edin"
+
+[upcoming-events-heading-event-date]
+other = "Etkinlik tarihi"
+
+[upcoming-events-heading-event-title]
+other = "Etkinliğin adı"
+
+[upcoming-events-heading-learn-information]
+other = "Daha fazla bilgi"
+
+[upcoming-events-no-events-text]
+other = "Görüntülenecek güncel etkinlik yok"
+
+[past-events-header]
+other = "Geçmiş Etkinlikler"
+
+[past-events-learn-more]
+other = "Daha fazla bilgi edin"
+
+[past-events-learn-more-title]
+other = "Hakkında daha fazla bilgi edin"
+
+[regional-jakartaone-livestreams]
+other = "Bölgesel JakartaOne Livestreams Etkinlikleri Düzenleme"
+
+[regional-jakartaone-livestreams-decription]
+other = "Kendi bölgesel JakartaOne canlı yayınınıza ev sahipliği yapmakla ilgileniyor musunuz? Kaynağı indirin ve iletişime geçin!"
+
+[download-button]
+other = "İndir"
+
+[agenda-schedule]
+other = "Etkinlik Detayları"
+
+[agenda-legend]
+other = "Açıklama/Sembol"
+
+[agenda-sessions]
+other = "Oturumlar"
+
+[agenda-session-name]
+other = "Oturum İsmi"
+
+[agenda-presenter-name]
+other = "Sunucu İsmi"
+
+[agenda-session-recording]
+other = "Oturum Kaydı"
+
+[agenda-session-schedule]
+other = "Planlanan Zaman"
+
+[agenda-session-recording-button-alt]
+other = "{{ .name }} oturumu için oturum videosu"
+
+[agenda-abstract-modal-alt]
+other = "{{.name}} özetini görüntüleyin"
+
+[agenda-modal-close-alt]
+other = "Kapat"
+
+[speakers-tiles-title]
+other = "Konuşmacılar"
+
+[committee-carousel-title]
+other = "Program Komitesi ile tanışın"
+
+[committee-carousel-content]
+other = "JakartaOne Livestream etkinliği oturumları ve Keynot'u Jakarta&reg; EE ve Cloud Native Java topluluğu gönüllülerinden oluşan bağımsız bir program komitesi tarafından seçildiğini söylemekten gurur duyuyoruz!"
+
+[committee-carousel-button-text]
+other = "Daha fazla bilgi edin"
+
+[committee-twitter-follow-text]
+other = "{{ .name }} Twitter'da takip et!"
+
+[footer-get-social-title]
+other = "Sosyalleşelim"
+
+[footer-our-events-title]
+other = "Yaklaşan Etkinlikler"
+
+[footer-get-social-content]
+other = "Canlı etkinlik güncellemeleri, konuşmacı duyuruları, haberler ve daha fazlası için konferansın resmi Twitter hesabı <a href='https://www.twitter.com/@{{ .name }}'>@{{ .name }}</a>'nı takip edin!"
+
+[footer-jakarta-callout-content]
+other = "Katılımla güçlenen Jakarta&reg; EE, topluluk odaklı işbirliğini ve bulut için açık inovasyonu etkinleştirmeye odaklanır"
+
+[footer-jakarta-callout-button-text]
+other = "Daha fazla bilgi edin"
+
+[footer-join-mailing-list]
+other = "Mail listemize katılın"
+
+[footer-join-mailing-list-button-text]
+other = "Şimdi kaydolun"

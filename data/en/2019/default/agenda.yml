@@ -1,0 +1,110 @@
+complete: true
+types:
+    - name: Jakarta EE and MicroProfile Opening Sessions
+      id: opening 
+      color: "#a0a"
+    - name: Demo
+      id: demo 
+      color: "#66c"
+    - name: Keynote
+      id: keynote 
+      color: "#e44"
+    - name: Cloud related topics
+      id: cloud
+      color: "#0a0"
+    - name: Panel discussion/ How to contribute
+      id: panel 
+      color: "#c6a061"
+    - name: What's next for the specifications
+      id: whats-next
+
+items:
+    - name: Jakarta for DummEEs
+      presenter: Kevin Sutter
+      type: opening
+      vod: https://www.youtube.com/watch?v=UhkqyuQgc4I&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=2&t=0s
+    - name: Jakarta EE 8 - An Overview of Features
+      presenter: Josh Juneau
+      type: opening
+      vod: https://www.youtube.com/watch?v=IMlrhMcra_k&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=3&t=0s
+    - name: Building Interoperable Microservices with Eclipse MicroProfile
+      presenter: Ivar Grimstad
+      type: opening
+      vod: https://www.youtube.com/watch?v=kD7QHPfC5to&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=4&t=0s
+    - name: "Live Coding with Jakarta EE and MicroProfile #slideless"
+      presenter: Adam Bien
+      type: demo
+      vod: https://www.youtube.com/watch?v=5yKjvPeUHQg&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=5&t=0s
+    - name: 'Kotlin+Jakarta EE+MicroProfile: Teaching 20 year old tricks to a new language'
+      presenter: Victor Orozco
+      type: cloud
+      vod: https://www.youtube.com/watch?v=KpfnNPGQPTY&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=6&t=0s
+    - name: Opening Keynote
+      presenter: Mike Milinkovich
+      type: keynote
+      vod: https://www.youtube.com/watch?v=OB6dwAU_eAE&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=7&t=0s
+    - name: Supporting Keynote
+      presenter: James Gosling
+      type: keynote
+      vod: https://www.youtube.com/watch?v=msmtcImrg1Q&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=8&t=0s
+    - name: Industry Keynote
+      presenter: IBM, Red Hat, Payara, Oracle, Tomitrbe
+      type: keynote
+      vod: https://www.youtube.com/watch?v=zroNT2mQbtk&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=9&t=0s
+    - name: Industry Keynote
+      presenter: Fujitsu
+      type: keynote
+      vod: https://www.youtube.com/watch?v=U-fJBSC7t6Y&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=10&t=0s
+    - name: Turbocharged Java with Quarkus
+      presenter: Marcus Biel
+      type: cloud
+      vod: https://www.youtube.com/watch?v=oJx2Dd8yrG4&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=11&t=0s
+    - name: Building Cloud-Native Microservices with Project Helidon
+      presenter: Dmitry Kornilov
+      type: cloud
+      vod: https://www.youtube.com/watch?v=T0iqCXiNX7A&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=12&t=0s
+    - name: "Jakarta Concurrency: Present and Future"
+      presenter: Steve Millidge
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=ji667K0AXPw&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=13&t=0s
+    - name: "JSON support in Jakarta EE: Present and Future"
+      presenter: Dmitry Kornilov
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=vTPTAkxpngY&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=14&t=0s
+    - name: Jakarta EE Steering Committee Panel
+      presenter: Members of the Jakarta EE Steering Committee
+      type: panel
+      vod: https://www.youtube.com/watch?v=TIbbqsk02pQ&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=15&t=0s
+    - name: "Jakarta NoSQL: Meet the first Jakarta EE specification in the Cloud"
+      presenter: Otavio Santana
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=twGzS9jlOjI&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=16&t=0s
+    - name: What's coming to Jakarta Security
+      presenter: Arjan Tijms
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=-MISp-holcE&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=17&t=0s
+    - name: "Jakarta RESTful Web Services: Status Quo and Roadmap"
+      presenter: Markus Karg
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=plsVWw_hORU&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=18&t=0s
+    - name: "Jakarta Servlet: A new Twist on an Old Favourite"
+      presenter: Ed Burns
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=Eprlsepysww&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=18
+    - name: Q&A with Reza Rahman 
+      presenter: Reza Rahman
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=wyFzS75PA08&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=20&t=0s
+    - name: Jakarta Messaging 3.0, Redefining JMS
+      presenter: David Blevins
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=1E2_FE7ZQ64&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=21&t=0s
+    - name: What's Coming to Jakarta Faces?
+      presenter: Arjan Tijms
+      type: whats-next
+      vod: https://www.youtube.com/watch?v=fMzQ0B1szSw&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=22&t=0s
+    - name: Jakarta EE on Azure Magic Mystery Show
+      presenter: Reza Rahman
+      type: cloud
+      vod: https://www.youtube.com/watch?v=FHCgC64Rdbk&list=PLy7t4z5SYNaSxBfGMW-NRQkV_qWM0NipB&index=23&t=0s
+      

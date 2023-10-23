@@ -1,0 +1,27 @@
+<!-- 
+  Copyright (c) 2018 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Christopher Guindon <chris.guindon@eclipse-foundation.org>
+
+  SPDX-License-Identifier: EPL-2.0
+-->
+
+{{ if isset .Page.Params "headline" }}
+  <div class="jumbotron featured-jumbotron margin-bottom-0 padding-bottom-10{{ with .Page.Params.jumbotron_additional_class }} {{ . }}{{ end }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-16 text-left">
+          {{with .Page.Params.prefix }}<p class="jumbotron-prefix brand-primary">{{ . | safeHTML }}</p>{{ end }}
+         <h2>{{ .Page.Params.headline | safeHTML }}</h2>
+         <p class="jumbotron-tagline">{{ .Page.Params.tagline | safeHTML }}</p>
+         {{ .Page.Params.tagline_suffix | safeHTML }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

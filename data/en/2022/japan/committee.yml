@@ -1,0 +1,31 @@
+items:
+  - name: "Yoshio Terada"
+    title: "Microsoft Corporation"
+    twitter_handle: "yoshioterada"
+    img: "yoshio-2018.jpg"
+
+  - name: "Hirofumi Iwasaki"
+    title: "Rakuten Card Co., Ltd."
+    twitter_handle: "HirofumiIwasaki"
+    img: "HirofumiIwasaki.jpg"
+
+  - name: "Takakiyo Tanaka"
+    title: "IBM Japan"
+    twitter_handle: "ttakakiyo"
+    img: "Tanaka.jpg"
+
+  - name: "Yuichi Kusano"
+    title: "Fujitsu Limited"
+    twitter_handle: ""
+    img: "kusano.jpg"
+
+  - name: "Takashi Ito"
+    title: "Oracle"
+    twitter_handle: "itakash"
+    img: "TakashiIto.jpg"
+
+  - name: "Seto Satoshi"
+    title: "Red Hat"
+    twitter_handle: "megascus"
+    img: "seto.png"
+

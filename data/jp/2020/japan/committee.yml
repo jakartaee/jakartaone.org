@@ -1,0 +1,56 @@
+items:
+  - name: "寺田佳央"
+    title: "Microsoft Corporation"
+    twitter_handle: "yoshioterada"
+    img: "yoshio-2018.jpg"
+    bio: "<p>2015年7月より日本マイクロソフト株式会社に在籍し、現在はマイクロソフト・コーポレーションに所属し担当は Java !! Azure における Java の利用促進・啓蒙活動を実施中。 2016 年 7 月、日本人で 2 人目となる Java Champion に就任。 2018年7月より、マイクロソフト・コーポレーションで日本人初のクラウド・アドボケイトとして活動を開始。2019年6月より、オイシックス・ラ・大地株式会社の技術顧問も務める。 JJUG 幹事の一員でもある。
+<br> 
+2013年 日経コンピュータ：我らプロフェッショナル 世界を元気にする 100 人に選ばれた
+ <br>
+https://www.facebook.com/yoshio.terada<br>
+http://slideshare.net/tyoshio2002<br>
+https://github.com/yoshioterada<br>
+http://yoshio3.com<br>
+</p>"
+    anchor: "Terada Yoshio"
+  - name: "岩崎浩文"
+    title: "Rakuten Card Co., Ltd."
+    twitter_handle: "HirofumiIwasaki"
+    img: "HirofumiIwasaki.jpg"
+    bio: "<p>2010年より楽天(株)在籍、現在楽天カード(株)へ出向、テクノロジー戦略グループマネジャーとして技術戦略担当。2000年初頭より実システムへのJ2EE適用を開始、現職まで継続して大規模系エンタープライズシステムの戦略・設計・実装を主戦場としている。国内カンファレンスを含めOracle Code One (JavaOne)にてほぼ毎年講演を実施中。設計ポリシーはsustainability(持続可能性)。JCP会員。TOGAF9 Certified。レトロPCマニア。<br>
+http://www.mushagaeshi.com
+</p>"
+    anchor: "Iwasaki Hirofumi"
+  - name: "上妻宜人"
+    title: "GlassFish Users Group Japan"
+    twitter_handle: "nagetsum"
+    img: "agetuma.jpg"
+    bio: "<p>ボランティアのコミュニティメンバとしてJava EE/Jakarta EE/MicroProfileに関する勉強会を年数回開催。日中はOSSをこよなく愛する紳士淑女に囲まれながら、OSSのアプリケーションサーバのサポートを担当。共著にパーフェクトJava EE (技術評論社)。
+</p>"
+    anchor: "Agatsuma Yo Nin"
+  - name: "田中孝清"
+    title: "IBM Japan"
+    twitter_handle: "ttakakiyo"
+    img: "Tanaka.jpg"
+    bio: "<p>1998年日本IBM入社。2000年よりソフトウェア事業で WebSphere Application Server の技術者として日本でのセールス活動に携わっています。Javaやコンテナ技術のセミナー活動も行っている。</p>"
+    anchor: "Tanaka Takashi Kiyoshi"
+  - name: "草野優一"
+    title: "Fujitsu Limited"
+    twitter_handle: ""
+    img: "kusano.jpg"
+    bio: "<p>2011年より富士通(株)に在籍し、データベース関連のデータ加工製品やネットワーク高速化ミドルウェアなどの製品開発、マーケティング、現場での適用支援など幅広い業務に従事。現在は富士通製Javaアプリケーションサーバである「Interstage」のマーケティングや適用支援を担当。最近はセミナーやブログでMicroProfileの啓蒙活動を行っている。</p>"
+    anchor: "Kusano Yuichi"
+  - name: "伊藤敬"
+    title: "日本オラクル株式会社"
+    twitter_handle: "itakash"
+    img: "TakashiIto.jpg"
+    bio: "<p>2010年、サン・マイクロシステムズ買収により日本オラクル株式会社に所属。Java、Java EEのコミュニティ活動支援に携わりつつ、Oracle WebLogic Server等のミドルウェア製品の販促を担当。2019年からOracle Corporationに移籍、WebLogic Server, Coherence、Heidonを開発する部門にて日本、およびアジアパシフィック地域を担当するProduct Managerとして活動中。</p>"
+    anchor: "Ito Takashi"
+  - name: "蓮沼賢志"
+    title: "Payara Services Ltd."
+    twitter_handle: "khasunuma"
+    img: "khasunuma.jpg"
+    bio: "<p>2010年頃からJavaコミュニティで活動中。現在はPayara Services LtdのService Engineerとして、カスタマー・サポート、コミュニティ・サポート、日本のJavaコミュニティに向けたJakarta EE/MicroProfileの啓蒙活動を行っている。</p>"
+    anchor: "Kenji Hasunuma"
+
+

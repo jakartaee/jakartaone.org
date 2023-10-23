@@ -1,0 +1,62 @@
+complete: true
+types:
+    - name: Keynotes
+      id: keynote 
+      color: "#e44"
+    - name: Vendor Track
+      id: vendor
+      color: "#c6a061"
+    - name: Jakarta EE & MicroProfile Palestras
+      id: jakarta-ee
+
+items:
+    - name: Keynote
+      presenter: Program Committee
+      type: keynote
+      time: 9:00 AM BRT
+      vod: https://youtu.be/jgS447wLyV8
+    - name: Vendor Track (Red Hat)
+      presenter: Elder Moraes
+      type: vendor
+      time: 10:00 AM BRT
+      vod: https://youtu.be/gA5I4ilfs5k
+    - name: Vendor Track (Tomitribe)
+      presenter: Jean-Louis MONTEIRO
+      type: vendor
+      time: 10:15 AM BRT
+      vod: https://youtu.be/vYrvjQY7jQc
+    - name: Vendor Track (Payara)
+      presenter: Veronica Harding
+      type: vendor
+      time: 10:30 AM BRT
+      vod: https://youtu.be/YmZb4PE4zEQ
+    - name: Vendor Track (Oracle)
+      presenter: Paulo Simões
+      type: vendor
+      time: 10:45 AM BRT
+      vod: https://youtu.be/qFU553u5hGQ
+    - name: Jumping in Jakarta Open Source Project  - Everything nobody tells you
+      presenter: Roan Brasil
+      type: jakarta-ee
+      time: 11:00 AM BRT
+      vod: https://youtu.be/lozfTWAU_xQ
+    - name: MicroProfile benefits for your monolithic applications
+      presenter: Victor Orozco
+      type: jakarta-ee
+      time: 12:00 PM BRT
+      vod: https://youtu.be/3_OKvIVtpeY
+    - name: Jakarta EE O que todo DEV precisa saber para utiliza-lo
+      presenter: Rhuan Rocha
+      type: jakarta-ee
+      time: 01:00 PM BRT
+      vod: https://youtu.be/Rxg_rNjMk8Q
+    - name: Active Persistence - Uma implementação de active record query para JPA
+      presenter: Lázaro Nixon
+      type: jakarta-ee
+      time: 02:00 PM BRT
+      vod: https://youtu.be/Hw8iKrZQk4o
+    - name: Q&A Roundtable
+      presenter: Program Committee
+      type: jakarta-ee
+      time: 03:00 PM BRT
+      vod: https://youtu.be/vBl5eIYL9fw

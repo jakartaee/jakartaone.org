@@ -1,0 +1,220 @@
+
+[[2019]]
+    name = "Plan of the day"
+    url = "/2019/#plan-of-the-day"
+    weight = 1
+    
+[[2019]]
+    name = "Program committee"
+    url = "/2019/program-committee/"
+    weight = 2
+
+[[2019]]
+    name = "Attend"
+    weight = 3
+
+[[2019]]
+    name = "Code of Conduct"
+    url = "/2019/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[2019]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+#### 2020 menus ####
+[[2020]]
+    name = "Schedule"
+    url = "/2020/#plan-of-the-day"
+    weight = 1
+    
+[[2020]]
+    name = "Program committee"
+    url = "/2020/program-committee/"
+    weight = 2
+
+[[2020]]
+    name = "Attend"
+    weight = 3
+
+[[2020]]
+    name = "Code of Conduct"
+    url = "/2020/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[2020]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+#### 2020 menus end ####
+
+
+[[japan2020]]
+    name = "Plan of the day"
+    url = "/2020/japan/#plan-of-the-day"
+    weight = 1
+
+[[japan2020]]
+    name = "Program committee"
+    url = "/2020/japan/program-committee/"
+    weight = 2
+
+[[japan2020]]
+    name = "Attend"
+    weight = 3
+
+[[japan2020]]
+    name = "Code of Conduct"
+    url = "/2020/japan/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+
+[[japan2020]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+
+[[cn4j2020]]
+    name = "Event Details"
+    url = "/2020/cn4j/#plan-of-the-day"
+    weight = 1
+    
+[[cn4j2020]]
+    name = "Speakers"
+    url = "/2020/cn4j/#speakers"
+    weight = 2
+
+[[cn4j2020]]
+    name = "Attend"
+    weight = 3
+
+[[cn4j2020]]
+    name = "Code of Conduct"
+    url = "/2020/cn4j/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[cn4j2020]]
+    name = "Speaker Agreement"
+    url = "/2020/cn4j/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+[[brazil2020]]
+    name = "Event Details"
+    url = "/2020/brazil/#plan-of-the-day"
+    weight = 1
+    
+[[brazil2020]]
+    name = "Speakers"
+    url = "/2020/brazil/#speakers"
+    weight = 2
+
+[[brazil2020]]
+    name = "Attend"
+    weight = 3
+
+[[brazil2020]]
+    name = "Code of Conduct"
+    url = "/2020/brazil/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[brazil2020]]
+    name = "Speaker Agreement"
+    url = "/2020/brazil/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+[[hispano2020]]
+    name = "Speakers"
+    url = "/2020/hispano/#speakers"
+    weight = 2
+
+[[hispano2020]]
+    name = "Attend"
+    weight = 3
+
+[[hispano2020]]
+    name = "Code of Conduct"
+    url = "/2020/hispano/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+
+[[hispano2020]]
+    name = "Speaker Agreement"
+    url = "/2020/hispano/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+[[portuguese2021]]
+    name = "Event Details"
+    url = "/2021/portuguese/#plan-of-the-day"
+    weight = 1
+    
+[[portuguese2021]]
+    name = "Speakers"
+    url = "/2021/portuguese/#speakers"
+    weight = 2
+
+[[portuguese2021]]
+    name = "Attend"
+    weight = 3
+
+[[portuguese2021]]
+    name = "Code of Conduct"
+    url = "/2021/portuguese/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[portuguese2021]]
+    name = "Speaker Agreement"
+    url = "/2021/portuguese/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+
+
+[[hispano2021]]
+    name = "Attend"
+    weight = 3
+
+[[hispano2021]]
+    name = "Code of Conduct"
+    url = "/2021/hispano/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+
+[[hispano2021]]
+    name = "Speaker Agreement"
+    url = "/2021/hispano/speaker-agreement/"
+    weight = 2
+    parent = "Attend"
+    
+[[2021]]
+    name = "Program committee"
+    url = "/2021/program-committee/"
+    weight = 2
+
+[[2021]]
+    name = "Attend"
+    weight = 3
+
+[[2021]]
+    name = "Code of Conduct"
+    url = "/2021/code-of-conduct/"
+    weight = 1
+    parent = "Attend"
+    
+[[2021]]
+    name = "Speaker Agreement"
+    url = "/speaker-agreement/"
+    weight = 2
+    parent = "Attend"

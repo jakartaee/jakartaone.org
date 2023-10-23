@@ -1,0 +1,333 @@
+/*!
+ * Copyright (c) 2019, 2023 Eclipse Foundation, Inc.
+ * 
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ * 
+ * Contributors:
+ *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ *   Martin Lowe <martin.lowe@eclipse-foundation.org>
+ *   Olivier Goulet <olivier.goulet@eclipse-foundation.org>
+ * 
+ * SPDX-License-Identifier: EPL-2.0
+*/
+
+@import './components/agenda.less';
+@import './components/program-committee.less';
+@import './components/registration.less';
+@import './components/sponsors.less';
+@import './components/upcoming-events.less';
+
+@import './pages/homepage.less';
+
+.toolbar-row {
+  font-size: 16px;
+  padding: 16px 0;
+}
+.featured-jumbotron {
+    h1, h2, h3, h4, h5, h6 {
+        color: inherit;
+        font-weight: 700;
+    }
+    h2, h3 {
+        letter-spacing: 2px;
+    }
+    p {
+        margin-bottom: 30px;
+        &.small {
+            font-size: 18px;
+        }
+    }
+    .btn-simple {
+        text-transform: uppercase;
+        padding: 10px 20px;
+    }
+    .content a {
+        font-weight: 700;
+        &:link, &:visited {
+            color: @brand-primary !important;
+        }
+    }
+}
+.header-default-bg-img {
+  background-position: top left;
+}
+#header-row {
+    margin-top: 15px;
+}
+.wrapper-logo-default {
+    height: 100%;
+}
+.logo-eclipse-default-mobile {
+    max-width: 200px;
+}
+
+// main content body changes
+main {
+    & {
+        border-bottom: none;
+    }
+    h2 {
+        text-transform: uppercase;
+        color: #1b208b;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    h3 {
+        color: #1b208b;
+        font-weight: 400;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+.btn-wide {
+    min-width: calc(100% - 20px);
+}
+.btn.padded {
+  padding: 20px 40px;
+}
+
+// Btn bordered template to make the code cleaner
+.btn-bordered(@btn-color) {
+  & {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: @btn-color;
+    background-color: transparent;
+    padding: 6px 24px;
+    border: 2px solid @btn-color;
+  }
+  &:focus, &.focus {
+    color: darken(@btn-color, 20%);
+    background-color: transparent;
+    border-color: @btn-color;
+  }
+  &:visited, &.visited {
+      color: darken(@btn-color, 10%);
+      background-color: transparent;
+      border-color: @btn-color;
+  }
+  &:hover {
+    color: darken(@btn-color, 20%);
+      background-color: transparent;
+      border-color: @btn-color;
+  }
+  &:active, &.active {
+      color: @btn-color;
+      background-color: transparent;
+      background-image: none;
+      border-color: @btn-color;
+  }
+}
+// actual bordered btn CSS rules
+.btn-bordered {
+  & {
+    .btn-bordered(@white);
+  }
+  &.btn-primary {
+    .btn-bordered(@brand-primary);
+  }
+  &.btn-secondary {
+    .btn-bordered(@brand-secondary);
+  }
+}
+
+#main-menu .navbar-toggle {
+    padding-top: 20px;
+}
+@media (min-width:768px) {
+    #main-menu-wrapper {
+        padding-top: 20px;
+    }
+}
+span.icon::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    padding-top: 2px;
+    margin-right: 15px;
+    position: relative;
+    bottom: -3px;
+    display: inline-block;
+}
+.icon-backdrop {
+  & {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: @brand-secondary;
+  }
+  i {
+    font-size: 13em;
+    padding-top: 18%;
+    text-align: center;
+    display: block;
+    color: #fff;
+  }
+  .icon-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .ratio {
+    margin-top: 100%;
+  }
+}
+// Fix issue with absolute position children not inheriting any height
+// Note, could fix w/ flex, but no IE support for needed feature (5% overall traffic)
+.match-height-item-by-row {
+    min-height: 50px;
+}
+// fix for buttons in flex columns being stretched past content
+.flex-column .btn {
+  width: fit-content;
+  margin: auto;
+}
+.speaker-container img {
+	border-radius: 50%;
+	max-height: 200px;
+}
+
+.jakarta-ee-sails-br {
+  background: url('/images/jakarta-ee-sail-corner.png') bottom right no-repeat;
+  background-size: 650px;
+}
+
+.event-highlight {
+  color: @brand-secondary;
+  font-size: 1.5em;
+}
+img.cover-image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+.centered-container {
+  min-height: initial;
+}
+.eclipsefdn-user-display-heading {
+  font-size: 18px;
+}
+
+// small content specific changes
+.speaker-container .eclipsefdn-user-display-heading h2 {
+  font-size: 28px;
+  color: @brand-primary;
+  margin-bottom: 40px;
+}
+
+.eclipsefdn-user-bios-picture {
+  .icon-backdrop {
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.speaker-container img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.speaker-container .icon-backdrop {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+// footer changes
+footer#solstice-footer {
+  & {
+    background: url("images/jakarta9-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: @white;
+    text-align: center;
+  }
+  i {
+    font-size: 24px;
+  }
+  section {
+    margin-top: 20px;
+  }
+  .nav {
+    margin-left: 0px;
+  }
+  h2, a, a.social-media-link {
+    color: @white;
+  }
+
+  a:hover, a.social-media-link:hover {
+    color: #bfbebe;
+  }
+  @media (min-width:992px) {
+    & {
+      text-align: left;
+    }
+    & section {
+      margin-top: 0px;
+    }
+    & .nav {
+      margin-left: -15px;
+    }
+  }
+}
+
+#mailing-list-socials {
+  & {
+    background-image: url(/images/vendor/eclipsefdn-solstice-components/featured-story/featured-story-default-bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 65px;
+  }
+  ul {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  li {
+    padding-right: 20px;
+  }
+  .btn.padded-sm {
+    padding: 10px 40px;
+  }
+  .container > div:first-of-type {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    & .container > div:first-of-type {
+      padding-bottom: 0;
+    }
+  }
+}
+
+// russian event specific code
+#registration {
+    .telegram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            max-width: 60px;
+            display: inline-block;
+        }
+        a {
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+}

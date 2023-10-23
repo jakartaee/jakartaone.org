@@ -1,0 +1,23 @@
+items:
+  - name: "Otavio Santana"
+    title: "DevRel Engineer at Platform.sh"
+    img: "osantana.jpg"
+    bio: |
+      <p>Empowering developers worldwide to deliver better software faster, scalable in the Cloud. Otavio is a passionate software engineer focused on Cloud and Java technology. He has experience mainly in persistence polyglot and high-performance applications in finances, social media, and e-commerce.</p>
+      <p>Otavio is a member of both Expert Groups and Expert Leader in several JSRs and JCP executive committee. He is working on several Apache and Eclipse Foundation projects such as Apache Tamaya, MicroProfile, Jakarta EE, where he is leading the first specification at Jakarta EE with Jakarta NoSQL. A JUG leader and global speaker at JavaOne and Devoxx conferences. Otavio has received recognition for his OSS contributions such as the JCP Outstanding Award, Member of the year and innovative JSR, Duke’s Choice Award, and Java Champion Award, to name a few.</p>
+  - name: "Elder Moraes"
+    title: "Developer Advocate at Red Hat"
+    img: "emoraes.jpg"
+    bio: |
+      <p>Elder helps server-side developers to work on great projects by guiding them on how to build and deliver secure, available, and fast applications. He is the author of “Java EE 8 Cookbook“, where he provides deep knowledge about Java EE 8 APIs and how to use them to solve real enterprise problems. Elder is also a board member at SouJava, one of the biggest JUGs in the world. As a Developer Advocate, he inspires developers by sharing experiences and best practices through online content and at international events like JavaOne, The Developers Conference, QCon, Oracle Code One, Campus Party, and Devnexus.</p>
+  - name: "Paulo Simoes"
+    title: "CNCF Ambassador | Developer Advocate, Cloud Solution Engineer at Oracle"
+    img: "psimoes.jpg"
+    bio: |
+      <p>Empowering architects, developers, and SREs worldwide to deliver scalable applications and optimized systems architectures for the unique capabilities of the Cloud; And, organizations to navigate on their cloud-native journey. Passionate about System Architecture and Software Engineering, Paulo is dedicated to learning and share knowledge focused on Cloud, Java, and other emerging technologies.</p>
+      <p>Paulo was recognized as an Ambassador from Cloud Native Computing Foundation, is an active speaker about CNCF projects and a community developer. Also is a board member at SouJava, one of the biggest JUGs in the world.</p>
+      <p>As a Developer Advocate, he inspires developers and SREs by sharing experiences and best practices through online content and at events like Oracle Open World, The Developers Conference, Campus Party, and Meetups spread across Latin America.</p>
+  - name: "Bruno Souza"
+    title: "Java Evangelist, SouJava"
+    img: "bsouza.jpg"
+    bio: "<p>Bruno helps professional Java developers to share their passion so they can grow in their careers and work on amazing projects. Bruno wants every developer in the world to work with other great developers, in life-changing projects. For that he is on a personal crusade to connect developers and communities to their passions, to eliminate boring, low paying work.</p>"

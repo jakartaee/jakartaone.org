@@ -1,0 +1,32 @@
+items:
+  - name: "Ivar Grimstad"
+    title: "Jakarta EE"
+    img: "ivar-grimstad.jpg"
+
+  - name: "Sebastian Daschner"
+    title: "IBM"
+    img: "sebastian_daschner.png"
+
+  - name: "Andrey Kogun"
+    title: "CROC"
+    img: "andreykogun.jpg"
+
+  - name: "Maxim Nesen"
+    title: "Oracle"
+    img: "maxim-nesen.jpg"
+
+  - name: "Yuriy Artamonov"
+    title: "JetBrains"
+    img: "yuriy-artamonov.jpg"
+
+  - name: "Dmitry Aleksandrov"
+    title: "Oracle"
+    img: "dmitry_aleksandrov.jpg"
+
+  - name: "Dmitry Kornilov"
+    title: "Oracle"
+    img: "dmitry_kornilov.jpg"
+
+  - name: "Ruslan Synytsky"
+    title: "Jelastic"
+    img: "ruslan-synytsky.jpg"

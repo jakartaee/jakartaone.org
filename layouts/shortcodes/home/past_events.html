@@ -1,0 +1,35 @@
+
+{{$currLang:=.Page.Lang }}
+{{$langBase:=index .Site.Data $currLang}}
+{{$events := (index $langBase).conferences.items}}
+
+<section class="past-events row">
+  <div class="container">
+    <div class="row margin-bottom-30">
+      <h2 class="brand-primary col-xs-24 col-md-6">{{ i18n "past-events-header" }}</h2>
+      {{ $count := 0 }}
+      {{ range (sort $events "end_date" "desc")}} 
+      {{ if and (lt $count 3) ((time .end_date).Before now)}}
+      <div class="event-container col-xs-24 col-sm-12 col-md-6 match-height-item-by-row">
+        <a href="{{ .url }}">
+          <div class="event-panel panel panel-default">
+            <div class="panel-heading" aria-hidden="true">
+              <img class="img cover-image" src="{{ .image }}" />
+            </div>
+            <div class="panel-body">
+              <h3 class="fw-700">{{ .name }}</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{ $count = (add $count 1) }}
+      {{ end }}
+    {{ end }}
+    </div>
+    <div class="row">
+      <p class="pull-right margin-top-30 margin-right-20">
+        <a href="{{ "/past-events" | absLangURL }}"><i class="fa fa-chevron-right margin-right-10" aria-hidden="true"></i>See all past events</a>
+      </p>
+    </div>
+  </div>
+</section>

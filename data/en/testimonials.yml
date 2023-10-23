@@ -1,0 +1,9 @@
+items:
+   - name: John A.
+     title: developer
+     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     img: http://placehold.it/250
+   - name: Marco D.
+     title: CIO
+     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     img: http://placehold.it/250

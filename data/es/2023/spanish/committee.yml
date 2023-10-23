@@ -1,0 +1,40 @@
+items:
+  - name: "Alberto Salazar"
+    title: "Chief Advance Latam - Ecuador JUG Leader"
+    twitter_handle: betoSalazar
+    img: "asalazar.jpg"
+    bio: |
+      <p>Emprendedor, Consultor, Java Champion, Oracle Groundbreaker Ambassador, JUG Leader, Auth0 Ambassador, fundador del Grupo de Usuarios de Java en Ecuador, Miembro Asociado de Java Community Process y evangelista/entrenador de Java; activo en twitter en @betosalazar. Es co-autor del libro 'Software Architecture with Spring 5.0'. Alberto ha estado trabajando durante 2 décadas creando sistemas de gran escala y alta carga transaccional desde software militar hasta soluciones bancarias. También es un ponente frecuente en conferencias sobre Java como Oracle Code One, JBCNConf, Voxxed Days, Oracle Code, Red Hat Summit, JavaOne, Oracle Developer Tour Latam, OTN Tours, y reuniones locales de JUG.</p>
+  - name: "Eudris Cabrera"
+    title: "Software Developer - Dominican Republic JUG Co-Leader"
+    twitter_handle: eudriscabrera
+    img: "ecabrera.jpg"
+    bio: |
+      <p>Ingeniero Telemático (Egresado de PUCMM). Actualmente Desarrollador Informático en el Ministerio de Hacienda de la República Dominicana. Entusiasta de la tecnología y el software libre, desarrollador Java, instructor ocasional (Java / Linux), aficionado del béisbol/sóftbol y los bailes latinos.</p>
+      <p>Ganador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del JCP (Java Community Process). Co-fundador / Organizador del grupo de usuarios Java (Java User Group ) de la República Dominicana (aka Java Dominicano) y miembro del staff organizador de JConf Dominicana (https://jconfdominicana.org)</p>
+      <p>En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.</p>
+  - name: "Carlos Camacho"
+    title: "Software Developer – University professor - Dominican Republic JUG Co-Leader"
+    twitter_handle: ccamachog
+    img: "ccamacho.jpg"
+    bio: |
+      <p>Ingeniero Telemático, Profesor Universitario en la Pontificia Universidad Católica Madre y Maestra (PUCMM), Actualmente Director de la Escuela en Computación y Telecomunicaciones. Co-fundador y organizador del Java User Group en República Dominicana, conocido como Java Dominicano, Miembro de La Fundación Código Libre Dominicano. Co-Organizador del primer evento dedicado a la plataforma Java en República Dominicana, JConf Dominicana 2019 (https://jconfdominicana.org). Co-organizador del Barcamp RD (https://barcamp.org.do/), evento exclusivo para presentar temas relacionado a tecnologías en camino a su octava edición en noviembre del 2020. En mis más de quince años de experiencia me considero un evangelista de la plataforma Java y todos sus derivados, donde he impartido diferentes cursos en diferentes centros educativos en República Dominicana y apoyado proyectos bajo la plataforma. Profesionalmente soy Director de Tecnologías en la empresa AvatharTech, dedicada al desarrollo y consultoría de aplicaciones para los sectores productivos del país.</p>
+  - name: "Christian Gómez"
+    title: "Software Engineer, Guadalajara Java User Group Organizer and co-founder of JConf México"
+    twitter_handle: chrisom
+    img: "cgomez.jpg"
+    bio: |
+      <p>Ingeniero de Software con mas de 15 años de experiencia en el rubro de las tecnologías de la información, actualmente con el rol de Principal Java Cloud Developer en Oracle, parte del equipo organizador de Guadalajara Java User Group y cofundador de JConf México. Colaborador en las charlas virtuales de Java por JUGs Latam.</p>
+  - name: Fabio Turizo
+    title: Software Engineer - Payara
+    img: fabio-turizo.jpg
+    bio: |
+      <p>Fabio es un ingeniero de software que ofrece más de 12 años en la
+      industria de TI con un enfoque en arquitectura y desarrollo de software.
+      Profesional Certificado Oracle y Especialista en plataformas Java SE y
+      EE. Actualmente trabajo como gerente de servicio y developer advocate en
+      Payara Services Limited, trabajando en todo lo relacionado con Jakarta EE
+      y MicroProfile. Le gusta presentar charlas sobre temas de tecnología
+      moderna para desarrolladores y arquitectos sobre temas de DevOps,
+      Enterprise Java y microservicios.Le gusta mucho Java, pero Python siempre
+      tendrá un lugar especial en su corazón.</p>

@@ -1,0 +1,9 @@
+twitter_handle:
+   default: 
+      name: "JakartaOneConf"
+   japan: 
+      name: "JakartaOneJPN"
+   russian: 
+      name: "JakartaOneRUS"
+   portuguese: 
+      name: "JakartaOnePORT"
