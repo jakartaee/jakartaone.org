@@ -30,7 +30,13 @@ items:
       <p>Senior Software Engineer, Cloud Architect, Peru JUG Co-Leader, Open-Source advocate. Senior Cloud Engineer en Oracle</p> 
   - name: "Alfonso Valdez"
     title: "Ingeniero de software"
-    img: "alfonso-valdez.jpg"
+    img: "alfonso-valdez.jpeg"
     twitter_handle: "breakponchito"
     bio: | 
       <p>Ingeniero de software con más de 18 años de experiencia principalmente trabajando en java empresarial. Actualmente trabajando con Payara y participando en el ecosistema de software libre alrededor de Jakarta EE y Microprofile.</p>
+  - name: "Carlos Bustamante"
+    title: "Senior Full Stack Engineer"
+    img: "cbustamantem.jpeg"
+    twitter_handle: "cbustamantem"
+    bio: | 
+      <p>Programador en Java hace +15 años, Clean Coder, Docker, Kubernetes Expert, JUG-PY Founder (Java user group Paraguay)</p>

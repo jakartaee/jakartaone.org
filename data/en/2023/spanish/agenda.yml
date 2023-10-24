@@ -56,6 +56,12 @@ items:
       type: talk
       time: TBD
       abstract:  
+    - name: Talks 6
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract: 
     - name: Closing Remarks
       vod: false
       presenter: Program Committee

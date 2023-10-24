@@ -29,7 +29,13 @@ items:
       <p>Senior Software Engineer, Cloud Architect, Peru JUG Co-Leader, Open-Source advocate. Senior Cloud Engineer at Oracle</p>
   - name: "Alfonso Valdez"
     title: "Software Engineer at Payara"
-    img: "alfonso-valdez.jpg"
+    img: "alfonso-valdez.jpeg"
     twitter_handle: "breakponchito"
     bio: |
        <p>Software engineer with more than 18 years of experience mainly working on enterprise java. Currently working at Payara and participating in the open source ecosystem around Jakarta EE and Microprofile.</p>
+  - name: "Carlos Bustamante"
+    title: "Senior Full Stack Engineer"
+    img: "cbustamantem.jpeg"
+    twitter_handle: "cbustamantem"
+    bio: | 
+      <p>Java programmer +15 years ago, Clean Coder, Docker, Kubernetes Expert, JUG-PY Founder (Java user group Paraguay)</p>

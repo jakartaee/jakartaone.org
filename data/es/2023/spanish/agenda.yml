@@ -56,6 +56,12 @@ items:
       type: talk
       time: TBD
       abstract: 
+    - name: Charla 6
+      vod: false
+      presenter: TBA
+      type: talk
+      time: TBD
+      abstract:    
     - name: Cierre del Evento
       vod: false
       presenter: Comité del programa
