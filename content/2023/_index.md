@@ -12,9 +12,6 @@ tagline_suffix: |
       <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartane-05122023">
         Register Now
       </a>
-      <a class="btn btn-primary" href="https://www.papercall.io/jakartaone-2023">
-        Call for Papers
-      </a>
     </div>
 layout: single
 ---
