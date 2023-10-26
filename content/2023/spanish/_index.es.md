@@ -57,3 +57,6 @@ En Español Livestream son elegidas por un comité independiente compuesto por
 voluntarios de la comunidad Jakarta® EE y Cloud Native Java!
 
 {{</ events/program-committee >}}
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
