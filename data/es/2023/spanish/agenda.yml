@@ -1,0 +1,85 @@
+complete: false
+types:
+    - name: Keynotes
+      id: keynote
+      color: "#e44"
+    - name: Panel
+      id: panel
+      color: "#c6a061"
+    - name: Charlas
+      id: talk
+      color: "purple"
+    - name: Charlas de Empresa
+      id: vendor
+      color: "orange"
+
+items:
+    - name: Bienvenida
+      vod: 
+      presenter: Comité del programa - Amigos de JakartaEE
+      type: keynote
+      time: 9:30 - 10:00 (GMT-4)
+      abstract: <p>Bienvenida</p>
+    - name: Vendor
+      vod: 
+      presenter: Payara, Tomitribe, Oracle, IBM
+      type: vendor
+      time: 10:00 - 11:00 (GMT-4)
+      abstract: |
+       <p>Charlas de empresa</p>
+    - name: Pasos simples para una fácil migración a Jakarta EE 10
+      vod: 
+      presenter: Alfonso Valdez
+      type: talk
+      time: 11:00 - 11:35 (GMT-4)
+      abstract: | 
+       <p>Si quieres aprender pasos más simples para realizar una migración de versiones previas de Jakarta EE a Jakarta EE 10 tienes que asistir a esta sesión, en donde se mostrarán algunas recomendaciones que puedes aplicar ya mismo en el proceso de migración de tus aplicaciones.</p>
+    - name: Observabilidad y monitoreo de aplicaciones usando MicroProfile
+      vod: 
+      presenter: Francisco Contreras
+      type: talk
+      time:  11:40 - 12:15 (GMT-4)
+      abstract: | 
+       <p>Esta charla se centrará en cómo utilizar las características de MicroProfile para mejorar la observabilidad y el monitoreo en aplicaciones empresariales basadas en microservicios.</p> 
+    - name: Java y grafos. Iniciemos con Neo4j. 
+      vod: 
+      presenter: Isaac Ruiz Guerra
+      type: talk
+      time: 12:20 - 12:55 (GMT-4)
+      abstract: |
+       <p>Los NoSQL ya son el día a día de nuestras aplicaciones, de entre los distintos tipos, existe uno que a veces no exploramos para nuestras soluciones: las orientadas a grafos.En esta charla veremos por qué son importantes y cómo podemos usarlas en nuestros proyectos con Java(Jakarta NoSQL).</p>
+    - name: Pruebas de integración en aplicaciones Jakarta EE con Testcontainers
+      vod: 
+      presenter: Eddú Meléndez Gonzales
+      type: talk
+      time: 13:00 - 13:35 (GMT-4)
+      abstract: | 
+       <p>Las aplicaciones Jakarta EE requieren de un servidor de aplicaciones para que puedan ser ejecutadas y durante las pruebas pueden existir otras dependencias como una base de datos o un message broker. Testcontainers es la libraría perfecta para poder proveer estás dependencias.</p>
+    - name: "Se nativo: Aplicaciones Java ++ con Jakarta EE y GraalVM en un mundo nativo en nube"
+      vod: 
+      presenter: Carlos Zela Bueno
+      type: talk
+      time: 13:40 - 14:15 (GMT-4)
+      abstract: | 
+       <p>En una era de cloud e IA  las aplicaciones java tienen el gran reto de ser ligeras, performantes, elásticas, rápidas y consumir lo minimo de recursos. Aprenderás como darle superpoderes a tus aplicaciones JakartaEE creando imágenes nativas optimizadas para entornos de alto rendimiento como la nube.</p>
+    - name: Pruebas automatizadas de estrés en ambientes de integración continua con aplicaciones Java y Eclipse MicroProfile
+      vod: 
+      presenter: Carlos Bustamante
+      type: talk
+      time: 14:20 - 14:55 (GMT-4)
+      abstract: | 
+       <p>Demostrar como cumplir un SLA Ej. de 1 segundo de tiempo de respuesta de un microservicio utilizando CI/CD con rondas de pruebas de cargas automatizadas y evaluando las métricas.\nPruebas Integración (10%)\nMicroProfile (30%)\nDocker  (30%)\nEvaluación de métricas- (30%)\ntinyurl.com/microtesting</p>    
+    - name: Panel 
+      vod: 
+      presenter: TBA
+      type: panel
+      time: 15:00 - 15:30 (GMT-4)
+      abstract: | 
+       <p>Q & A</p>
+    - name: Cierre del Evento
+      vod: 
+      presenter: Comité del programa
+      type: panel
+      time: 15:35 - 15:45 (GMT-4)
+      abstract: |
+       <p>Cierre del Evento</p>
