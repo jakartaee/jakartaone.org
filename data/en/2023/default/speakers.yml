@@ -1,1 +1,205 @@
 items:
+  - name: Reza Rahman 
+    title: Principal Program Manager, Java on Azure at Microsoft
+    img: reza-rahman-2023.jpg
+    bio: |
+      <p>
+        Reza Rahman is Principal Program Manager for Java on Azure at
+        Microsoft. He works to make sure Java developers are first class
+        citizens at Microsoft and Microsoft is a first class citizen of the
+        Java ecosystem.
+      </p>
+      <p>
+        Reza has been an official Java technologist at Oracle. He is the author
+        of the popular book EJB 3 in Action from Manning Publishing. Reza has
+        long been a frequent speaker at Java User Groups and conferences
+        worldwide including JavaOne and Devoxx. He has been the lead for the
+        Java EE track at JavaOne as well as a JavaOne Rock Star Speaker award
+        recipient. He was the program chair for the inaugural JakartaOne
+        conference. Reza is an avid contributor to industry journals like
+        DZone. He has been a member of the Java EE, EJB and JMS expert groups
+        over the years. Reza implemented the EJB container for the Resin open
+        source Java EE application server. He helps lead the Philadelphia Java
+        User Group. Reza is proud to be a founding member of the Jakarta EE
+        Ambassadors.
+      </p>
+  - name: Igor De Souza
+    title: Teckro
+    img: igor-de-souza.jpg
+    bio: |
+      <p>
+        Igor currently works as a Software Engineer in a Data Engineer team.
+        With over 20 years of experience with Java and over 10 years in the Big
+        Data world, Igor had the opportunity to work with Hadoop and its
+        ecosystem right when Hadoop was created. In his spare time, he enjoys
+        playing with Raspberry Pi and is an active member of the Maker
+        community, highly engaged with STEM and CoderDojo. Igor Organizes a
+        Facebook group for Brazilian IT in Ireland with over 12k participants.
+        He is currently working on a pet project where he uses a Led Strip to
+        teach basic concepts of data structure e data streaming.
+      </p>
+  - name: Ondro Mihályi
+    title: Director & Jakarta EE Expert at OmniFish
+    img: ondro-mihalyi.jpg
+    bio: |
+      <p>
+        Ondro is a software developer and consultant specializing in combining
+        standard and proven tools to solve new and challenging problems. He's
+        been developing in Java for over 10 years. He’s worked for clients like
+        Payara, LottoLand, Uniqa and others.
+      </p>
+      <p>
+        He has co-founded OmniFish, which provides enterprise support for
+        Eclipse GlassFish and expert Jakarta EE services. He’s passionate about
+        helping his clients and the wider Java community with their projects
+        based on Jakarta EE and similar technologies.
+      </p>
+      <p>
+        As an experienced Java developer and instructor, he's helped companies
+        build and educate their development teams and improve their development
+        processes.
+      </p>
+      <p>
+        He's a core member of several opensource projects and Jakarta EE
+        specification projects. He’s a frequent conference speaker, leader of
+        the Czech JUG, and a Java Champion.
+      </p>
+  - name: Mads Opheim
+    title: Principal Engineer at Computas
+    img: mads-opheim.jpg
+    bio: |
+      <p>
+        Developer who wants to make people awesome in a safe environment.
+        Test-driven development, Domain-driven design and Modern agile. Working
+        at Computas, currently on an assignment for the Norwegian Welfare
+        Administration (NAV).
+      </p>
+  - name: Luqman Saeed
+    title: Tech Writer at Payara
+    img: luqman-saeed.jpg
+    bio: |
+      <p>
+        Luqman Saeed is currently an Enterprise Java developer, technical
+        writer, trainer and published author. His almost two decades of
+        industrial experience spans management and leadership positions across
+        various sectors, including software development and teaching. He is
+        currently in the production process of the second edition of the much
+        popular Java Enterprise Edition 8 for Beginners course on Udemy, this
+        time updated and revised for Jakarta EE.
+      </p>
+  - name: David Matejcek
+    title: Founder of OmniFish OU
+    img: david-matejcek.jpg
+    bio: |
+      <p>
+        I am a Java EE and Jakarta EE developer since 2005, rescuing "dead
+        horse projects" especially when it is widely accepted that it is not
+        possible. Do you know that relief when you reduce complexity? Do you
+        know that happiness of all those side effects which were not expected
+        at all? I mean ... not those bad side effects, zombies attacking from
+        your suite case - I mean positive side effects. You just wanted to
+        understand the code, so you changed formatting, renamed variables,
+        methods, reduced their visibility, understood the API, started moving
+        things ... and when you understood, somehow it worked with a better
+        performance. Something broke? Easier to fix than to fix a typo before
+        your changes. You even have fun of writing tests, huh! Found bug is a
+        good bug. Are you happy? I am!
+      </p>
+  - name: Thomas Watson
+    title: Senior Software Engineer at IBM
+    img: thomas-watson.jpg
+    bio: |
+      <p>
+        Thomas Watson has over 20 years experience contributing to and leading
+        various open source projects at the Eclipse and the Apache Foundations.
+        His current focus includes development of the Open Liberty project,
+        moving the Eclipse Jakarta and Eclipse OSGi specifications forward as
+        well as contributing to the Eclipse IDE project and the Apache Felix
+        project. Thomas lives and works in Austin Texas as a Senior Software
+        Engineer at IBM.
+      </p>
+  - name: José Paumard
+    title: Developer Advocate at Oracle
+    img: jose-paumard.jpg
+    bio: |
+      <p>
+        José works as Java Developer Advocate at Oracle. PhD in applied maths
+        and computer science, assistant professor at the University Sorbonne
+        Paris Nord for 25 years, he is a Java Champion Alumnus and JavaOne
+        Rockstar. He is a member of the french Paris Java User Group, has been
+        a co-organizer of the conference Devoxx France, and is a disorganizer
+        of JChateau, an unconference held in the Chateau of the Loire Valley.
+        He works on the dev.java documentation website, publishes the JEP Café,
+        a monthly video cast on YouTube.
+      </p>
+  - name: Emily Jiang
+    title: Liberty Cloud Native Architect and Advocate
+    img: emily-jiang.jpg
+    bio: |
+      <p>
+        Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect
+        and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based
+        at Hursley Lab in the UK. Emily is a MicroProfile guru and has been
+        working on MicroProfile since 2016 and leads a number of specifications
+        including MicroProfile Config and Fault Tolerance. She interacts with
+        most of the other MicroProfile specifications. She is also active in
+        Jakarta EE specifications. She is a co-lead in Jakarta Config and also
+        a Jakarta Context and Dependency Injection  (CDI) committer. At IBM,
+        she leads the effort of implementing all of MicroProfile specifications
+        on Open Liberty.
+      </p>
+      <p>
+        She is passionate about MicroProfile and Jakarta EE. She regularly
+        speaks at conferences, such as QCon, Code One, DevNexus, JAX London,
+        Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc. 
+      </p>
+      <p>Connect with Emily on</p> 
+      <ul>
+        <li><a href="https://twitter.com/emilyfhjiang">Twitter</a></li>
+        <li><a href="https://twitter.com/emilyfhjiang">LinkedIn</a></li>
+      </ul>
+  - name: Otavio Santana
+    title: Software Engineer, Architect, and Open Source Committer
+    img: otavio-santana-2023.jpg
+    bio: |
+      <p>
+        Empowering software engineers to deliver highly scalable and efficient
+        software on the cloud with the ultimate sophistication techniques using
+        the best practices on open source; lets them become productive and more
+        influential, moving their technical careers to the next level.
+      </p>
+      <p>
+        Otavio is a passionate architect and software engineer focused on cloud
+        and Java technologies. He has deep expertise in polyglot persistence
+        and high-performance applications in finance, social media, and
+        e-commerce.
+      </p>
+      <p>
+        Otavio has contributed to the Java and the Open source ecosystem in
+        several ways, such helped the direction and objectives of the Java
+        platform since Java 8 as a JCP executive member, besides being a
+        committer and leader in several open-source products and
+        specifications.
+      </p>
+      <p>
+        Otavio is recognized for his Open Source contributions and has received
+        many awards, including all JCP Awards categories and the Duke’s Choice
+        Award, to name a few. Otávio is also a distinguished Java Champions and
+        Oracle ACE program member.
+      </p>
+      <p>
+        Otávio loves history, economy, traveling, programming, and real-world
+        languages. He speaks Portuguese, English, Spanish, Italian, and French
+        fluently in dad jokes.
+      </p>
+  - name: Nathan Rauh
+    title: Software Engineer at IBM
+    img: nathan-rauh.jpg
+    bio: |
+      <p>
+        Nathan has been an employee of IBM for the past 23 years as a software
+        engineer. He works on Open Liberty and is involved in both Jakarta EE
+        and Microprofile. Nathan is a committer on several Jakarta
+        specification projects, including Jakarta Data, Jakarta Concurrency,
+        Jakarta Connectors, and Jakarta JSON-B.
+      </p>
