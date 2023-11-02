@@ -23,24 +23,9 @@ items:
         User Group. Reza is proud to be a founding member of the Jakarta EE
         Ambassadors.
       </p>
-  - name: Igor De Souza
-    title: Teckro
-    img: igor-de-souza.jpg
-    bio: |
-      <p>
-        Igor currently works as a Software Engineer in a Data Engineer team.
-        With over 20 years of experience with Java and over 10 years in the Big
-        Data world, Igor had the opportunity to work with Hadoop and its
-        ecosystem right when Hadoop was created. In his spare time, he enjoys
-        playing with Raspberry Pi and is an active member of the Maker
-        community, highly engaged with STEM and CoderDojo. Igor Organizes a
-        Facebook group for Brazilian IT in Ireland with over 12k participants.
-        He is currently working on a pet project where he uses a Led Strip to
-        teach basic concepts of data structure e data streaming.
-      </p>
   - name: Ondro Mihályi
     title: Director & Jakarta EE Expert at OmniFish
-    img: ondro-mihalyi.jpg
+    img: ondro-mihalyi-2023.jpg
     bio: |
       <p>
         Ondro is a software developer and consultant specializing in combining
@@ -66,7 +51,7 @@ items:
       </p>
   - name: Mads Opheim
     title: Principal Engineer at Computas
-    img: mads-opheim.jpg
+    img: mads-opheim-2023.jpg
     bio: |
       <p>
         Developer who wants to make people awesome in a safe environment.
@@ -76,7 +61,7 @@ items:
       </p>
   - name: Luqman Saeed
     title: Tech Writer at Payara
-    img: luqman-saeed.jpg
+    img: luqman-saeed-2023.jpg
     bio: |
       <p>
         Luqman Saeed is currently an Enterprise Java developer, technical
@@ -87,9 +72,24 @@ items:
         popular Java Enterprise Edition 8 for Beginners course on Udemy, this
         time updated and revised for Jakarta EE.
       </p>
+  - name: Igor De Souza
+    title: Teckro
+    img: igor-souza-2023.jpg
+    bio: |
+      <p>
+        Igor currently works as a Software Engineer in a Data Engineer team.
+        With over 20 years of experience with Java and over 10 years in the Big
+        Data world, Igor had the opportunity to work with Hadoop and its
+        ecosystem right when Hadoop was created. In his spare time, he enjoys
+        playing with Raspberry Pi and is an active member of the Maker
+        community, highly engaged with STEM and CoderDojo. Igor Organizes a
+        Facebook group for Brazilian IT in Ireland with over 12k participants.
+        He is currently working on a pet project where he uses a Led Strip to
+        teach basic concepts of data structure e data streaming.
+      </p>
   - name: David Matejcek
     title: Founder of OmniFish OU
-    img: david-matejcek.jpg
+    img: david-matejcek-2023.jpg
     bio: |
       <p>
         I am a Java EE and Jakarta EE developer since 2005, rescuing "dead
@@ -107,7 +107,7 @@ items:
       </p>
   - name: Thomas Watson
     title: Senior Software Engineer at IBM
-    img: thomas-watson.jpg
+    img: thomas-watson-2023.jpg
     bio: |
       <p>
         Thomas Watson has over 20 years experience contributing to and leading
@@ -120,7 +120,7 @@ items:
       </p>
   - name: José Paumard
     title: Developer Advocate at Oracle
-    img: jose-paumard.jpg
+    img: jose-paumard-2023.jpg
     bio: |
       <p>
         José works as Java Developer Advocate at Oracle. PhD in applied maths
@@ -134,7 +134,7 @@ items:
       </p>
   - name: Emily Jiang
     title: Liberty Cloud Native Architect and Advocate
-    img: emily-jiang.jpg
+    img: emily-jiang-2023.jpg
     bio: |
       <p>
         Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect
@@ -194,7 +194,7 @@ items:
       </p>
   - name: Nathan Rauh
     title: Software Engineer at IBM
-    img: nathan-rauh.jpg
+    img: nathan-rauh-2023.jpg
     bio: |
       <p>
         Nathan has been an employee of IBM for the past 23 years as a software
