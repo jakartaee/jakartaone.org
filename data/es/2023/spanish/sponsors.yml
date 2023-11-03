@@ -19,3 +19,15 @@ items:
     image: /images/sponsors/dominicano_jug.png
     url: https://twitter.com/JavaDominicano
     width: 200px
+  - title: Perú JUG
+    image: /images/sponsors/peru-jug.png
+    url: https://www.meetup.com/peru-java-user-group/
+    width: 200px
+  - title: JugPY - Java User Group del Paraguay
+    image: /images/sponsors/JugPY.jpeg
+    url: https://twitter.com/jugpy
+    width: 200px 
+  - title: JUG Nicaragua
+    image: /images/sponsors/nicaragua_jug.png
+    url: https://www.jugnicaragua.org/
+    width: 200px
