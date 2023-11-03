@@ -9,11 +9,9 @@ types:
   - name: MicroProfile
     id: microprofile
     color: '#92e874'
-  - name: Architecture
-    id: architecture
-    color: '#e6806a'
   - name: Studio Jakarta EE
     id: studio
+    color: '#ec8101'
 
 items:
   - name: Welcome Session
