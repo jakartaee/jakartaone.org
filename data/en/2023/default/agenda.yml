@@ -1,0 +1,144 @@
+complete: true
+types:
+  - name: Jakarta EE
+    id: jakarta-ee
+    color: '#9e7ee6'
+  - name: Keynote
+    id: keynote
+    color: '#85BFF3'
+  - name: MicroProfile
+    id: microprofile
+    color: '#92e874'
+  - name: Architecture
+    id: architecture
+    color: '#e6806a'
+  - name: Studio Jakarta EE
+    id: studio
+
+items:
+  - name: Welcome Session
+    type: studio
+    presenters:
+      - Ivar Grimstad
+      - Shabnam Mayel
+      - Tanja Obradovic
+    times: []
+  - name: A Freakonomic Take on Open Standards and Jakarta EE
+    type: jakarta-ee
+    presenters:
+      - Reza Rahman
+    times: []
+    abstract: |
+      <p>
+        This session aims to crystalize why open standards like Jakarta EE are
+        critically important to you today and in the future. We will explore
+        these concepts in the context of well-established economic theories - in
+        true Freakonomist style!
+      </p>
+  - name: Jakarta EE in the Raspberry Pi World
+    type: jakarta-ee 
+    presenters:
+      - Igor De Souza
+    times: []
+    abstract: |
+      <p>
+        Controlling physical things with some lines of code is magic! Learn how
+        to install and use Jakarta EE applications on the Raspberry Pi.
+      </p>
+      <p>
+        Let's build a web application to control a LCD and some sensors using
+        Jakarta Faces, build an animation and project this animation using a Lego
+        magnifying glass.
+      </p>
+  - name: "Enterprise Kotlin: Jakarta EE for Kotlin Developers"
+    type: jakarta-ee 
+    presenters:
+      - Mads Opheim 
+    times: []
+    abstract: |
+      <p>
+        Kotlin is nice. Jakarta EE is nice. Let’s dive into how to make them
+        play well together!
+      </p>
+  - name: MicroProfile Current and Future
+    type: microprofile
+    presenters:
+      - Emily Jiang
+    times: []
+    abstract: |
+      <p>
+        Come to this session to get the latest news on MicroProfile.
+      </p>
+  - name: "GlassFish Story: How to Make a Huge Unmaintainable Obsoleted Project Maintainable and Modern"
+    type: jakarta-ee
+    presenters:
+      - David Matějček
+    times: []
+    abstract: |
+      <p>
+        Developers are just common people, lazy and scared of changes. But they
+        are also selfish and they have passion and desire to be happy.
+        Sometimes they go crazy and do something they were told that it is not
+        possible. Refactor and modernize an unmaintainable project. How?
+      </p>
+  - name: InstantOn Startup for Jakarta, MicroProfile and Spring Boot Applications Using Checkpoint / Restore
+    type: jakarta-ee
+    presenters:
+      - Thomas Watson
+    times: []
+    abstract: |
+      <p>
+        Did you know you can containerize your Jakarta EE, MicroProfile and
+        Spring Boot applications to start up in milliseconds, without
+        compromising on throughput, memory, development-production parity, or
+        Java language features?  InstantOn with org.crac support enables rapid
+        startup for native cloud apps.
+      </p>
+  - name: "Unlocking Data Access Excellence with Jakarta Data: Simplifying Persistence for Modern Cloud-Native Applications" 
+    type: jakarta-ee 
+    presenters:
+      - Otávio Santana
+    times: []
+    abstract: |
+      <p>
+        Jakarta Data: Simplify data access for Java devs with a unified,
+        domain-centric API. Seamlessly integrate diverse databases for modern
+        cloud-native apps
+      </p>
+  - name: "How to Upgrade to Jakarta EE 10: javax to jakarta Prefix Without a Hassle"
+    type: jakarta-ee
+    presenters:
+      - Ondro Mihályi
+    times: []
+    abstract: |
+      <p>
+        Upgrading to Jakarta EE 10 brings some challenges - renaming packages
+        from javax to jakarta and dealing with removed APIs. I'll show you how
+        to seamlessly upgrade apps to Jakarta EE 10 in a very short time,
+        automating transformation of the source code and dealing with
+        application dependencies.
+      </p>
+  - name: "Concurrent and Asynchronous Programming: State of Loom in Java 21"
+    type: null
+    presenters:
+      - José Paumard
+    times: []
+    abstract: |
+      <p>
+        Loom brings virtual threads. You can have million of them: they are
+        cheap to create and cheap to block. Consequence? Forget about your
+        old asynchronous, callback based code. Improve your performances with
+        simple, imperative, mono-thread, blocking code!
+      </p>
+  - name: Continuous Integration and Continuous Deployment (CI/CD) for Jakarta EE Applications
+    type: jakarta-ee
+    presenters:
+      - Luqman Saeed
+    times: []
+    abstract: |
+      <p>
+        Want to release Jakarta EE applications faster and more reliably? My
+        talk will show you how to build a CI/CD pipeline tailored for Jakarta
+        EE. From automated testing to containerized deployment, you'll learn to
+        automate every step, enabling quicker and more confident releases.
+      </p>
