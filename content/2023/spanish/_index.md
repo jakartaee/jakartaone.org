@@ -53,3 +53,5 @@ Event are chosen by an independent program committee made up of volunteers from
 the Jakarta&reg; EE and Cloud Native Java community!
 
 {{</ events/program-committee >}}
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
