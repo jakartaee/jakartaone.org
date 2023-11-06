@@ -40,3 +40,15 @@ items:
     twitter_handle: "cbustamantem"
     bio: | 
       <p>Programador en Java hace +15 años, Clean Coder, Docker, Kubernetes Expert, JUG-PY Founder (Java user group Paraguay)</p>
+  - name: "Otavio Santana"
+    title: "Ingeniero de software, arquitecto y Open Source Committer"
+    img: "otavio-santana-2023.jpg"
+    twitter_handle: "otaviojava"
+    bio: | 
+      <p>Otavio, un apasionado experto en la nube y Java, brinda a los ingenieros de software las mejores prácticas de código abierto para un software eficiente y altamente escalable. Es un reconocido colaborador de los ecosistemas Java y de código abierto, y ha recibido numerosos premios y reconocimientos. Los intereses de Octavio incluyen historia, economía, viajes y dominio de varios idiomas, todo ello aderezado con sentido del humor.</p>
+  - name: "Jorge Vargas"
+    title: "Java Champion - Agilista - Director de Ingeniería - Director de Gestión de Producto - Coach - Mentor"
+    img: "jorge-vargas-2023.jpeg"
+    twitter_handle: "edivargas"
+    bio: | 
+      <p>Jorge Vargas no es solo un líder tecnológico experimentado, sino también un apasionado del desarrollo de software. Como Java Champion desde 2007, Jorge ha sido un referente en el mundo de la programación durante más de dos décadas. Comenzó su viaje como desarrollador en 1994 y desde entonces ha acumulado un impresionante conjunto de logros. Ha demostrado ser un líder que valora la colaboración, la eficiencia y la innovación; con una habilidad especial para seleccionar las tecnologías y plataformas adecuadas, se destaca a la hora de lograr el equilibrio ideal entre complejidad y simplicidad. Le encanta enseñar y platicar con la gente.</p>
