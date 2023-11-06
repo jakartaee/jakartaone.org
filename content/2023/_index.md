@@ -5,7 +5,7 @@ headline: JakartaOne Livestream 2023
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-container: container-fluid
+container: container-fluid jakartaone-2023-en
 tagline: December 5, 2023
 tagline_suffix: |
     <div class="display-flex gap-10 margin-bottom-30">
@@ -25,6 +25,14 @@ JakartaOne Livestream is a one day virtual conference for developers and technic
         {{</ events/registration >}}
     {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+<!-- Agenda section -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false" >}}
+    {{< events/agenda year="2023" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
 <!-- Speakers section -->
 {{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
