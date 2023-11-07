@@ -22,11 +22,14 @@ items:
       abstract: <p>Welcome / Community Session</p>
     - name: 'Vendor talks'
       vod: 
-      presenter: Payara, Tomitribe, Oracle, IBM
+      presenter: Oracle, IBM, Payara, Tomitribe
       type: vendor
       time: 10:00 - 11:00 (GMT-4)
       abstract: |
-        <p>Vendor talks</p>
+            <p>Oracle: Monica Riccelli</p>
+             <p>IBM: Erica Banda</p> 
+             <p>Payara:  Louise Castens</p> 
+             <p>Tomitribe: Cesar Hernandez</p>
     - name: Simple steps for easy migration to Jakarta EE 10
       vod: 
       presenter: Alfonso Valdez
@@ -69,17 +72,17 @@ items:
       time: 14:20 - 14:55 (GMT-4)
       abstract: | 
        <p>Demonstrate how to meet an SLA e.g. 1 second response time of a microservice using CI/CD with automated load testing rounds and evaluating metrics. Integration Testing (10%) MicroProfile (30%) Docker (30%) Metrics Evaluation (30%)</p>
-    - name: Panel 
+    - name: "Jakarta EE in the Industry Q&A" 
       vod: 
-      presenter: TBA
+      presenter: Otavio Santana and Jorge Vargas
       type: panel
       time: 15:00 - 15:30 (GMT-4)
       abstract: | 
-       <p>Q & A</p>
+       <p>Jakarta EE in the Industry Q&A</p>
     - name: Closing Remarks
       vod: 
       presenter: Program Committee
       type: panel
-      time: 15:35 - 15:45 (GMT-4)
+      time: 15:30 - 15:45 (GMT-4)
       abstract: |
        <p>Closing Remarks</p>
