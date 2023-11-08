@@ -20,13 +20,16 @@ items:
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Bienvenida</p>
-    - name: Vendor
+    - name: Charlas de empresa
       vod: 
-      presenter: Payara, Tomitribe, Oracle, IBM
+      presenter: Oracle, IBM, Payara, Tomitribe
       type: vendor
       time: 10:00 - 11:00 (GMT-4)
       abstract: |
-       <p>Charlas de empresa</p>
+       <p>Oracle: Monica Riccelli</p>
+       <p>IBM: Erica Banda</p> 
+       <p>Payara:  Louise Castens</p> 
+       <p>Tomitribe: Cesar Hernandez</p>
     - name: Pasos simples para una fácil migración a Jakarta EE 10
       vod: 
       presenter: Alfonso Valdez
@@ -69,17 +72,17 @@ items:
       time: 14:20 - 14:55 (GMT-4)
       abstract: | 
        <p>Demostrar como cumplir un SLA Ej. de 1 segundo de tiempo de respuesta de un microservicio utilizando CI/CD con rondas de pruebas de cargas automatizadas y evaluando las métricas.\nPruebas Integración (10%)\nMicroProfile (30%)\nDocker  (30%)\nEvaluación de métricas- (30%)\ntinyurl.com/microtesting</p>    
-    - name: Panel 
+    - name: "Jakarta EE en la industria: Q&A" 
       vod: 
-      presenter: TBA
+      presenter: Otavio Santana y Jorge Vargas
       type: panel
       time: 15:00 - 15:30 (GMT-4)
       abstract: | 
-       <p>Q & A</p>
+       <p>Panel sobre Jakarta EE en la industria</p>
     - name: Cierre del Evento
       vod: 
       presenter: Comité del programa
       type: panel
-      time: 15:35 - 15:45 (GMT-4)
+      time: 15:30 - 15:45 (GMT-4)
       abstract: |
        <p>Cierre del Evento</p>
