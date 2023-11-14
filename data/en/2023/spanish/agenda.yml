@@ -1,4 +1,4 @@
-complete: false
+complete: true
 types:
     - name: Keynotes
       id: keynote
@@ -15,13 +15,13 @@ types:
 
 items:
     - name: 'Welcome Reception'
-      vod: 
+      vod: https://youtu.be/79_MA8KpkC0 
       presenter: Program Committee - JakartaEE Friends
       type: keynote
       time: 9:30 - 10:00 (GMT-4)
       abstract: <p>Welcome / Community Session</p>
     - name: 'Vendor talks'
-      vod: 
+      vod: https://youtu.be/frymTs7qd5M 
       presenter: Oracle, IBM, Payara, Tomitribe
       type: vendor
       time: 10:00 - 11:00 (GMT-4)
@@ -31,56 +31,52 @@ items:
              <p>Payara:  Louise Castens</p> 
              <p>Tomitribe: Cesar Hernandez</p>
     - name: Simple steps for easy migration to Jakarta EE 10
-      vod: 
+      vod: https://youtu.be/TnZmjcjqpF8  
       presenter: Alfonso Valdez
       type: talk
       time: 11:00 - 11:35 (GMT-4)
       abstract: |
        <p>If you want to learn the simplest steps to migrate from previous versions of Jakarta EE to Jakarta EE 10, you must attend this session, which will show you some recommendations that you can apply right now in the migration process of your applications.</p>
     - name: Observability and monitoring of applications using Microprofile
-      vod: 
+      vod: https://youtu.be/2JzepYmOUi8 
       presenter: Francisco Contreras
       type: talk
       time: 11:40 - 12:15 (GMT-4)
       abstract: | 
        <p>This talk will focus on how to use MicroProfile features to improve observability and monitoring in microservices-based enterprise applications.</p>
     - name: Java and graphs. Let's start with Neo4j
-      vod: 
+      vod: https://youtu.be/By3T-zZr0Zw
       presenter: Isaac Ruiz Guerra
       type: talk
       time: 12:20 - 12:55 (GMT-4)
       abstract: |
        <p>NoSQLs are already a part of our everyday applications, but among the different types, there is one that we sometimes do not explore for our solutions: graph oriented NoSQLs. In this talk we will see why they are important and how we can use them in our Java (Jakarta NoSQL) projects.</p> 
     - name: Integration testing of Jakarta EE applications with Testcontainers
-      vod: 
+      vod: https://youtu.be/RT6yFV6adPI 
       presenter: Eddú Meléndez Gonzales
       type: talk
       time: 13:00 - 13:35 (GMT-4)
       abstract: | 
        <p>Jakarta EE applications require an application server in order to be executed and during testing there may be other dependencies such as a database or a message broker. Testcontainers is the perfect library to provide these dependencies.</p>
     - name: "Go native: Java ++ applications with Jakarta EE and GraalVM in a cloud-native world"
-      vod: 
       presenter: Carlos Zela Bueno
       type: talk
       time: 13:40 - 14:15 (GMT-4)
       abstract: | 
        <p>In an era of cloud and AI java applications have the great challenge of being light, performing, elastic, fast and consume the minimum of resources. You will learn how to give superpowers to your JakartaEE applications by creating native images optimized for high performance environments such as the cloud.</p> 
     - name: Automated stress testing in continuous integration environments with Java and Eclipse MicroProfile applications
-      vod: 
       presenter: Carlos Bustamante
       type: talk
       time: 14:20 - 14:55 (GMT-4)
       abstract: | 
        <p>Demonstrate how to meet an SLA e.g. 1 second response time of a microservice using CI/CD with automated load testing rounds and evaluating metrics. Integration Testing (10%) MicroProfile (30%) Docker (30%) Metrics Evaluation (30%)</p>
     - name: "Jakarta EE in the Industry Q&A" 
-      vod: 
       presenter: Otavio Santana and Jorge Vargas
       type: panel
       time: 15:00 - 15:30 (GMT-4)
       abstract: | 
        <p>Jakarta EE in the Industry Q&A</p>
     - name: Closing Remarks
-      vod: 
       presenter: Program Committee
       type: panel
       time: 15:30 - 15:45 (GMT-4)
