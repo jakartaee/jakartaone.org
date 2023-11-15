@@ -37,7 +37,7 @@ O JakartaOne Livestream é uma conferência virtual de um dia para desenvolvedor
 <!-- Speakers section -->
 {{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display event="portuguese" year="2024" source="speakers" subpage="speakers" useCarousel="true" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+    {{< events/user_display event="portuguese" year="2024" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
