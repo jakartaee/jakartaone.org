@@ -1,18 +1,4 @@
 items:
-  - name: Paulo Simoes
-    title: Developer Advocate/Product Manager @ Oracle
-    img: "psimoes-2023.jpg"
-    twitter_handle: pasimoes
-    linkedin: pasimoes
-    bio: |
-      <ul>
-        <li>I'm currently working as a Developer Advocate/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
-        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
-        <li>I'm always looking for helping developers with the best programming practices;
-        <li>seedling I'm always learning to improve my skills and to be the better person that I can be!-
-        <li>I love martial arts, especially Aikido and Ninjitsu!
-        <li>I'm from Rio de Janeiro, RJ - Brazil
-      </ul>
   - name: Maximillian Arruda
     title: Developer Advocate/Backend Software Engineer @ Digibee
     img: "marruda-2023.jpg"
@@ -33,4 +19,18 @@ items:
         <li>I love to play video games with my kids!
         <li>I'm a lucky man married to a beautiful wife!
         <li>I'm from São Paulo, SP - Brazil
+      </ul>
+  - name: Paulo Simoes
+    title: Developer Evangelist/Product Manager @ Oracle
+    img: "psimoes-2023.jpg"
+    twitter_handle: pasimoes
+    linkedin: pasimoes
+    bio: |
+      <ul>
+        <li>I'm currently working as a Developer Evangelist/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>I'm always looking for helping developers with the best programming practices;
+        <li>seedling I'm always learning to improve my skills and to be the better person that I can be!-
+        <li>I love martial arts, especially Aikido and Ninjitsu!
+        <li>I'm from Rio de Janeiro, RJ - Brazil
       </ul>
