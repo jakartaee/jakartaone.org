@@ -1,0 +1,98 @@
+complete: true
+types:
+    - name: Keynotes
+      id: keynote
+      color: "#e44"
+    - name: Panel
+      id: panel
+      color: "#c6a061"
+    - name: Talks
+      id: talk
+      color: "purple"
+    - name: Vendor Talks
+      id: vendor
+      color: "orange"
+
+items:
+  - name: Welcome Session
+    type: keynote
+    presenters:
+      - Paulo Simoes
+      - Maximillian Arruda
+    times: []
+  - name: 'Vendor talks'
+    presenters: [Oracle, IBM, Payara]
+    type: vendor
+    abstract: |
+          <p>Oracle: Paulo Simoes</p>
+          <p>Payara: Marcelo Gonçalves</p> 
+          <p>IBM: Fabio Franco</p> 
+  - name: Jakarta EE in the Raspberry Pi world
+    type: talk 
+    presenters:
+      - Igor De Souza
+    times: []
+    abstract: |
+      <p>
+        Controlling physical things with some lines of code is magic! Learn how
+        to install and use Jakarta EE applications on the Raspberry Pi.
+      </p>
+      <p>
+        Let's build a web application to control a LCD and some sensors using
+        Jakarta Faces, build an animation and project this animation using a Lego
+        magnifying glass.
+      </p>
+  - name: "O poder do data-driven testing: um mergulho nas especificações Jakarta e NoSQL" 
+    type: talk 
+    presenters:
+      - Elias Nogueira
+      - Otávio Santana
+    times: []
+    abstract: |
+      <p>
+        Junte-se a nós para uma apresentação esclarecedora sobre o tópico de ponta de testes orientados 
+        a dados usando as mais recentes Jakarta Persistence Specifications: Data and NoSQL. 
+      </p>
+      <p>  
+        Iremos nos aprofundar em frameworks Java como JUnit Jupiter, AssertJ e Testcontainesr, mostrando 
+        como elas podem capacitar os desenvolvedores a obter qualidade de código excepcional por meio de testes orientados a domínio. 
+      </p>
+      <p>  
+        Aproveitando o conhecimento contextual e as técnicas de data driven, exploraremos estratégias práticas para otimizar 
+        seus esforços de teste e elevar a qualidade geral de sua base de código.
+      </p>
+  - name: "Simplifying NoSQL Database Integration with Jakarta NoSQL: A Hands-on Approach"
+    type: talk
+    presenters:
+      - Maximillian Arruda
+    times: []
+    abstract: |
+      <p>
+        Nowadays, it’s normal to see cloud-native solutions dealing with a huge amount of information. 
+        In this scenario, the NoSQL databases are getting a huge relevant position, but dealing with many 
+        NoSQL solutions from many different vendors is very difficult.
+      </p>
+      <p>
+       In terms of dealing with relational databases, there’s no doubt that JPA specification is a 
+       well-established API in the Java world, but what if there’s a well-defined way, pretty similar to JPA, to work with NoSQL with Java?
+      </p>
+      <p>
+       Jakarta NoSQL specification was created to increase the developer experience between Java and NoSQL databases. 
+       This spec allows developers to handle easily with many NoSQL databases.
+      </p>
+      <p>
+       In this talk, we will make a live coding session presenting a solution with Jakarta NoSQL and Jakarta Data. 
+       Even more, we’re going to mix other Jakarta EE specifications like Jakarta Faces and Jakarta WebSocket.
+      </p>
+  - name: "O Futuro do Java Enterprise com Jakarta EE"
+    type: panel
+    presenters:
+      - Elias Nogueira
+      - Otávio Santana
+      - Maximillian Arruda
+      - Paulo Simoes
+    times: []
+    abstract: |
+      <p>
+        Uma papo sobre o futuro do Java Enterprise com Jakarta EE
+      </p>

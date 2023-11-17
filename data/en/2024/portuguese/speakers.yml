@@ -1,0 +1,105 @@
+items:
+  - name: Elias Nogueira
+    title: Senior Principal Software Engineer @ Backbase
+    img: elias-nogueira.jpeg
+    twitter_handle: eliasnogueira
+    bio: |
+      <p>
+        Elias é Senior Principal Software Engineer Backbase com experiência em engenharia de software, 
+        consultoria, ágil e liderança técnica. Ele ajuda os engenheiros de software a desenvolver sua mentalidade 
+        de qualidade e a fornecer software livre de bugs.
+      </p>
+      <p>  
+       Ele é especialista em Engenharia de Qualidade para tecnologias backend, frontend e móveis. Ele é escritor, 
+       blogueiro e adora ajudar a comunidade realizando encontros e compartilhando conhecimento fazendo apresentações em todo o mundo.
+      </p>
+      <p>
+       Ele também é Java Champion, Oracle ACE para Java, DevOps e Cloud Native, editor da Java Magazine Netherlands, TDC Rockstar e Browserstack Champion.
+      </p>
+  - name: Igor De Souza
+    title: Teckro
+    img: igor-souza-2023.jpg
+    twitter_handle: Igfasouza
+    bio: |
+      <p>
+        Igor currently works as a Software Engineer in a Data Engineer team.
+        With over 20 years of experience with Java and over 10 years in the Big
+        Data world, Igor had the opportunity to work with Hadoop and its
+        ecosystem right when Hadoop was created. In his spare time, he enjoys
+        playing with Raspberry Pi and is an active member of the Maker
+        community, highly engaged with STEM and CoderDojo. Igor Organizes a
+        Facebook group for Brazilian IT in Ireland with over 12k participants.
+        He is currently working on a pet project where he uses a Led Strip to
+        teach basic concepts of data structure e data streaming.
+      </p>
+  - name: Maximillian Arruda
+    title: Developer Advocate/Backend Software Engineer @ Digibee
+    img: "marruda-2023.jpg"
+    twitter_handle: maxdearruda
+    linkedin: maxarruda
+    bio: |
+      <ul>
+        <li>I'm currently working as a Developer Advocate/Backend Software Engineer at <a href="https://digibee.com" target="_blank">Digibee</a>;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>Jakarta EE Contributor and Ambassador;
+        <li><a href="https://accounts.eclipse.org/users/maxdearruda">Eclipse Foundation Committer</a>: <a href="http://www.jnosql.org/">Eclipse JNoSQL</a> project
+        <li>Speaker/coordinator at The Developers Conference;
+        <li>Speaker at EclipseCON 2023 and GeeCON 2023 Prague Conference;
+        <li>Cloud Conference Day Java Track Ambassador;
+        <li>I'm always looking for helping developers with the best programming practices;
+        <li>I'm always learning to improve my skills and to be the better person that I can be!
+        <li>I love martial arts, especially Karate!
+        <li>I love to play video games with my kids!
+        <li>I'm a lucky man married to a beautiful wife!
+        <li>I'm from São Paulo, SP - Brazil
+      </ul>
+  - name: Otávio Santana
+    title: Software Engineer, Architect, and Open Source Committer
+    img: otavio-santana-2023.jpg
+    twitter_handle: otaviojava
+    bio: |
+      <p>
+        Empowering software engineers to deliver highly scalable and efficient
+        software on the cloud with the ultimate sophistication techniques using
+        the best practices on open source; lets them become productive and more
+        influential, moving their technical careers to the next level.
+      </p>
+      <p>
+        Otávio is a passionate architect and software engineer focused on cloud
+        and Java technologies. He has deep expertise in polyglot persistence
+        and high-performance applications in finance, social media, and
+        e-commerce.
+      </p>
+      <p>
+        Otavio has contributed to the Java and the Open source ecosystem in
+        several ways, such helped the direction and objectives of the Java
+        platform since Java 8 as a JCP executive member, besides being a
+        committer and leader in several open-source products and
+        specifications.
+      </p>
+      <p>
+        Otavio is recognized for his Open Source contributions and has received
+        many awards, including all JCP Awards categories and the Duke’s Choice
+        Award, to name a few. Otávio is also a distinguished Java Champions and
+        Oracle ACE program member.
+      </p>
+      <p>
+        Otávio loves history, economy, traveling, programming, and real-world
+        languages. He speaks Portuguese, English, Spanish, Italian, and French
+        fluently in dad jokes.
+      </p>
+  - name: Paulo Simoes
+    title: Developer Evangelist/Product Manager @ Oracle
+    img: "psimoes-2023.jpg"
+    twitter_handle: pasimoes
+    linkedin: pasimoes
+    bio: |
+      <ul>
+        <li>I'm currently working as a Developer Advocate/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>I'm always looking for helping developers with the best programming practices;
+        <li>seedling I'm always learning to improve my skills and to be the better person that I can be!-
+        <li>I love martial arts, especially Aikido and Ninjitsu!
+        <li>I'm from Rio de Janeiro, RJ - Brazil
+      </ul>
+  
