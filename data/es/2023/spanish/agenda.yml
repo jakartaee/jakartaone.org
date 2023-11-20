@@ -59,24 +59,28 @@ items:
       abstract: | 
        <p>Las aplicaciones Jakarta EE requieren de un servidor de aplicaciones para que puedan ser ejecutadas y durante las pruebas pueden existir otras dependencias como una base de datos o un message broker. Testcontainers es la libraría perfecta para poder proveer estás dependencias.</p>
     - name: "Se nativo: Aplicaciones Java ++ con Jakarta EE y GraalVM en un mundo nativo en nube"
+      vod: https://youtu.be/mFencxfjyGg
       presenter: Carlos Zela Bueno
       type: talk
       time: 13:40 - 14:15 (GMT-4)
       abstract: | 
        <p>En una era de cloud e IA  las aplicaciones java tienen el gran reto de ser ligeras, performantes, elásticas, rápidas y consumir lo minimo de recursos. Aprenderás como darle superpoderes a tus aplicaciones JakartaEE creando imágenes nativas optimizadas para entornos de alto rendimiento como la nube.</p>
     - name: Pruebas automatizadas de estrés en ambientes de integración continua con aplicaciones Java y Eclipse MicroProfile
+      vod: https://youtu.be/aI_Sc4IaGoA
       presenter: Carlos Bustamante
       type: talk
       time: 14:20 - 14:55 (GMT-4)
       abstract: | 
        <p>Demostrar como cumplir un SLA Ej. de 1 segundo de tiempo de respuesta de un microservicio utilizando CI/CD con rondas de pruebas de cargas automatizadas y evaluando las métricas.\nPruebas Integración (10%)\nMicroProfile (30%)\nDocker  (30%)\nEvaluación de métricas- (30%)\ntinyurl.com/microtesting</p>    
     - name: "Jakarta EE en la industria: Q&A" 
+      vod: https://youtu.be/1NNMN-UbhPo
       presenter: Otavio Santana y Jorge Vargas
       type: panel
       time: 15:00 - 15:30 (GMT-4)
       abstract: | 
        <p>Panel sobre Jakarta EE en la industria</p>
     - name: Cierre del Evento
+      vod: https://youtu.be/lAhEUH7sVjc
       presenter: Comité del programa
       type: panel
       time: 15:30 - 15:45 (GMT-4)
