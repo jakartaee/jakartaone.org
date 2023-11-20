@@ -148,7 +148,7 @@ items:
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: 15:45 - 16:00 PM"
+    time: "15:45 - 16:00 PM"
   - name: MicroProfile Current and Future
     type: session
     presenters:
