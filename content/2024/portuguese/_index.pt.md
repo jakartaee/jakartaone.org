@@ -7,7 +7,7 @@ date: 2023-06-28T15:50:25-04:00
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-container: container-fluid jakartaone-2023-en
+container: container-fluid jakartaone-2023-pt
 tagline: "19 de Janeiro de 2024"
 layout: "single"
 tagline_suffix: |

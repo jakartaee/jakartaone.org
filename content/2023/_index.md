@@ -5,7 +5,7 @@ headline: JakartaOne Livestream 2023
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-container: container-fluid jakartaone-2023-en
+container: container-fluid
 tagline: December 5, 2023
 tagline_suffix: |
     <div class="display-flex gap-10 margin-bottom-30">
