@@ -153,7 +153,7 @@ items:
     type: session
     presenters:
       - Emily Jiang
-    time: "16:00 - 16:45"
+    time: "16:00 - 16:45 PM"
     abstract: |
       <p>
         Come to this session to get the latest news on MicroProfile.
@@ -175,4 +175,4 @@ items:
       </p>
   - name: Closing
     type: studio
-    time: "17:45 - 18:00 AM"
+    time: "17:45 - 18:00 PM"
