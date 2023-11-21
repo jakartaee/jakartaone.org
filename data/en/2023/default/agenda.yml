@@ -13,12 +13,12 @@ types:
 items:
   - name: Welcome Session
     type: studio
-    time: "6:45 AM"
+    time: "6:45 AM EST"
   - name: "GlassFish Story: How to Make a Huge Unmaintainable Obsoleted Project Maintainable and Modern"
     type: session 
     presenters:
       - David Matějček
-    time: "7:00 - 7:45 AM"
+    time: "7:00 - 7:45 AM EST"
     abstract: |
       <p>
         Developers are just common people, lazy and scared of changes. But they
@@ -28,12 +28,12 @@ items:
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: "7:45 - 8:00 AM"
+    time: "7:45 - 8:00 AM EST"
   - name: Jakarta EE in the Raspberry Pi World
     type: session
     presenters:
       - Igor De Souza
-    time: "8:00 - 8:45 AM"
+    time: "8:00 - 8:45 AM EST"
     abstract: |
       <p>
         Controlling physical things with some lines of code is magic! Learn how
@@ -45,12 +45,12 @@ items:
         magnifying glass.
       </p>
   - name: Studio Jakarta EE
-    time: "8:45 - 9:00 AM"
+    time: "8:45 - 9:00 AM EST"
   - name: "Enterprise Kotlin: Jakarta EE for Kotlin Developers"
     type: session
     presenters:
       - Mads Opheim 
-    time: "9:00 - 9:45 AM"
+    time: "9:00 - 9:45 AM EST"
     abstract: |
       <p>
         Kotlin is nice. Jakarta EE is nice. Let’s dive into how to make them
@@ -58,12 +58,12 @@ items:
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: "9:45 - 10:00 AM"
+    time: "9:45 - 10:00 AM EST"
   - name: InstantOn Startup for Jakarta, MicroProfile and Spring Boot Applications Using Checkpoint / Restore
     type: session 
     presenters:
       - Thomas Watson
-    time: "10:00 - 10:45 AM"
+    time: "10:00 - 10:45 AM EST"
     abstract: |
       <p>
         Did you know you can containerize your Jakarta EE, MicroProfile and
@@ -74,12 +74,12 @@ items:
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: "10:45 - 11:00 AM"
+    time: "10:45 - 11:00 AM EST"
   - name: "Concurrent and Asynchronous Programming: State of Loom in Java 21"
     type: session
     presenters:
       - José Paumard
-    time: "11:00 - 11:45 AM"
+    time: "11:00 - 11:45 AM EST"
     abstract: |
       <p>
         Loom brings virtual threads. You can have million of them: they are
@@ -91,7 +91,7 @@ items:
     type: keynote
     presenters:
       - Mike Milinkovich
-    time: "11:45 - 12:00 PM"
+    time: "11:45 - 12:00 PM EST"
   - name: Industry Keynote
     type: keynote
     presenters:
@@ -101,15 +101,15 @@ items:
       - Emily Jiang
       - Takahiro Nagao
       - Cesar Hernandez
-    time: "12:00 - 12:50 PM"
+    time: "12:00 - 12:50 PM EST"
   - name: Studio Jakarta EE
     type: studio
-    time: "12:50 - 13:00 PM"
+    time: "12:50 - 13:00 PM EST"
   - name: "How to Upgrade to Jakarta EE 10: javax to jakarta Prefix Without a Hassle"
     type: session 
     presenters:
       - Ondro Mihályi
-    time: "13:00 - 13:45 PM"
+    time: "13:00 - 13:45 PM EST"
     abstract: |
       <p>
         Upgrading to Jakarta EE 10 brings some challenges - renaming packages
@@ -120,13 +120,13 @@ items:
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: "13:45 - 14:00 PM"
+    time: "13:45 - 14:00 PM EST"
   - name: "Unlocking Data Access Excellence with Jakarta Data: Simplifying Persistence for Modern Cloud-Native Applications" 
     type: session
     presenters:
       - Otávio Santana
       - Nathan Rauh
-    time: "14:00 - 14:45 PM"
+    time: "14:00 - 14:45 PM EST"
     abstract: |
       <p>
         Jakarta Data: Simplify data access for Java devs with a unified,
@@ -134,12 +134,12 @@ items:
         cloud-native apps
       </p>
   - name: Studio Jakarta EE
-    time: "14:45 - 15:00 PM"
+    time: "14:45 - 15:00 PM EST"
   - name: Continuous Integration and Continuous Deployment (CI/CD) for Jakarta EE Applications
     type: session
     presenters:
       - Luqman Saeed
-    time: "15:00 - 15:45 PM"
+    time: "15:00 - 15:45 PM EST"
     abstract: |
       <p>
         Want to release Jakarta EE applications faster and more reliably? My
@@ -149,24 +149,24 @@ items:
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: "15:45 - 16:00 PM"
+    time: "15:45 - 16:00 PM EST"
   - name: MicroProfile Current and Future
     type: session
     presenters:
       - Emily Jiang
-    time: "16:00 - 16:45 PM"
+    time: "16:00 - 16:45 PM EST"
     abstract: |
       <p>
         Come to this session to get the latest news on MicroProfile.
       </p>
   - name: Studio Jakarta EE
     type: studio
-    time: "16:45 - 17:00 PM"
+    time: "16:45 - 17:00 PM EST"
   - name: A Freakonomic Take on Open Standards and Jakarta EE
     type: session 
     presenters:
       - Reza Rahman
-    time: "17:00 - 17:45 PM"
+    time: "17:00 - 17:45 PM EST"
     abstract: |
       <p>
         This session aims to crystalize why open standards like Jakarta EE are
@@ -176,4 +176,4 @@ items:
       </p>
   - name: Closing
     type: studio
-    time: "17:45 - 18:00 PM"
+    time: "17:45 - 18:00 PM EST"
