@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2019 Eclipse Foundation, Inc.
+ * Copyright (c) 2019, 2023 Eclipse Foundation, Inc.
  * 
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v. 2.0 which is available at
@@ -7,6 +7,7 @@
  * 
  * Contributors:
  *   Christopher Guindon <chris.guindon@eclipse-foundation.org>
+ *   Olivier Goulet <olivier.goulet@eclipse-foundation.org>
  * 
  * SPDX-License-Identifier: EPL-2.0
 */
@@ -17,6 +18,18 @@
 @import (less) "~owl.carousel/dist/assets/owl.carousel.min.css";
 @import (less) "~owl.carousel/dist/assets/owl.theme.default.min.css";
 
+.eclipsefdn-agenda {
+  // Prevent session name from taking too much horizontal space
+  td:first-of-type,
+  th:first-of-type {
+    max-width: 30rem;
+  }
+
+  // Prevent lists from being indented
+  &-schedule ul {
+    padding-inline-start: 1ch;
+  }
+}
 
 // Temp for hiding time in agenda
 .jakartaone-2023-pt {
