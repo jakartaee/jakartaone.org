@@ -100,8 +100,6 @@ items:
       </p>
   - name: Keynote
     type: keynote
-    presenters:
-      - Mike Milinkovich
     time: "11:45 - 12:00 PM EST (GMT-05:00)"
   - name: Industry Keynote
     type: keynote
