@@ -98,7 +98,7 @@ items:
         old asynchronous, callback based code. Improve your performances with
         simple, imperative, mono-thread, blocking code!
       </p>
-  - name: Keynote
+  - name: A Sweet Journey to the Future with Jakarta EE
     type: keynote
     time: "11:45 - 12:00 PM EST (GMT-05:00)"
   - name: Industry Keynote
