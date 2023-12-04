@@ -100,6 +100,8 @@ items:
       </p>
   - name: A Sweet Journey to the Future with Jakarta EE
     type: keynote
+    presenters:
+      - Shabnam, Tanja, & Ivar
     time: "11:45 - 12:00 PM EST (GMT-05:00)"
   - name: Industry Keynote
     type: keynote
