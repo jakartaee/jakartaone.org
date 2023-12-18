@@ -10,8 +10,8 @@ tagline: January 19, 2024
 layout: single
 tagline_suffix: |
   <p>
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/e/August15_JakartaOnePortuguese/register">Register now</a>
-    
+    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/c/jakartaone-01182024">Register now</a>
+
   </p>
 ---
 
