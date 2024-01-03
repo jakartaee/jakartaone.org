@@ -59,7 +59,7 @@ items:
        In this talk, we will make a live coding session presenting a solution with Jakarta NoSQL and Jakarta Data. 
        Even more, we’re going to mix other Jakarta EE specifications like Jakarta Faces and Jakarta WebSocket.
       </p>
-  - name: IBM - Vendor talk
+  - name: "O compromisso da IBM com Java nativo na nuvem: Liberty, Jakarta EE e MicroProfile"
     type: vendor
     presenters:
       - Fabio Franco
@@ -67,7 +67,12 @@ items:
       <li>Fabio Franco</li>
     time: 11:15 - 11:45 AM BRT (GMT-03:00)
     abstract: |
-      <p>TBD
+      <p>
+       É um momento emocionante para fazer parte da comunidade Java à medida que Jakarta EE e MicroProfile 
+       levam os padrões Java nativos na nuvem para o futuro. Nessa sessão, exploraremos o compromisso de 
+       longa data da IBM com o Java e sua evolução por meio dos grupos open-source, Jakarta EE e MicroProfile. 
+       Junte-se a nós para explorar a inovação que estamos promovendo por meio da implementação open-source 
+       Open Liberty e de nosso produto WebSphere Liberty.
       </p>
 
   - name: TDB
