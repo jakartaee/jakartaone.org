@@ -16,6 +16,19 @@ items:
       <p>
        Ele também é Java Champion, Oracle ACE para Java, DevOps e Cloud Native, editor da Java Magazine Netherlands, TDC Rockstar e Browserstack Champion.
       </p>
+  - name: Fabio Franco
+    title: Software Developer @ IBM
+    img: Fabio.jpeg
+    linkedin: fabio-franco-8401055
+    bio: |
+      <p>
+       Fabio é desenvolvedor sênior com mais de nove anos de experiência como desenvolvedor de software na IBM e 
+       está atualmente trabalhando no IBM Canada Lab. Ele faz parte da equipe de modernização de aplicativos, que 
+       desenvolve ferramentas que ajudam os clientes a modernizar seus aplicativos monolíticos. Com mestrado e 
+       bacharelado em Ciência da Computação e experiência em pesquisa em Inteligência Artificial, Fabio também 
+       tem experiência como professor na Faculdade SENAC e na Universidade Cruzeiro do Sul. Além disso, já 
+       apresentou tópicos sobre tecnologias Java e microsserviços em algumas conferências importantes, como ATO, JConf, WeavesSphere/CASCON e TDC Connections.
+      </p>
   - name: Igor De Souza
     title: Teckro
     img: igor-souza-2023.jpg
@@ -32,6 +45,13 @@ items:
         He is currently working on a pet project where he uses a Led Strip to
         teach basic concepts of data structure e data streaming.
       </p>
+  - name: "Professor Isidro"
+    title: "PhD, Professor, palestrante e pesquisador @ UFABC"
+    img: "prof_isidro.jpg"
+    twitter_handle: prof_isidro
+    bio: |
+      <p>Francisco Isidro Massetto é professor universitário da UFABC, palestrante e pesquisador. Desenvolve trabalhos junto à comunidade de desenvolvedores a fim de fortalecer fundamentos e aplicações práticas de conceitos, formando melhores profissionais para atuarem no mercado de trabalho. Em suas redes sociais (YouTube e Instagram ) ministra cursos e palestras virtuais para ajudar principalmente a galera que está iniciando na carreira</p>
+
   - name: Maximillian Arruda
     title: Developer Advocate/Backend Software Engineer @ Digibee
     img: "marruda-2024.jpg"
@@ -95,7 +115,7 @@ items:
     linkedin: pasimoes
     bio: |
       <ul>
-        <li>I'm currently working as a Developer Evangelist/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
+        <li>I'm currently working as a Developer Advocate/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
         <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
         <li>I'm always looking for helping developers with the best programming practices;
         <li>seedling I'm always learning to improve my skills and to be the better person that I can be!-
