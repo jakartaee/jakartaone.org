@@ -75,17 +75,14 @@ items:
        Open Liberty e de nosso produto WebSphere Liberty.
       </p>
 
-  - name: TDB
+  - name: TBD
     type: session 
     presenters:
       - Professor Isidro
     presenter: |
       <li>Professor Isidro</li>
     time: 11:45 - 12:30 AM BRT (GMT-03:00)
-    abstract: |
-      <p>
-        TDB  
-      </p>
+   
   - name: Jakarta EE in the Raspberry Pi world
     type: session 
     presenters:
