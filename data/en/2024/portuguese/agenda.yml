@@ -100,7 +100,7 @@ items:
         Jakarta Faces, build an animation and project this animation using a Lego
         magnifying glass.
       </p>
-  - name: Payara - Vendor talk
+  - name: "Leading Innovation in Jakarta EE: Payara's Role in Evolving Enterprise Java"
     type: vendor
     presenters:
       - Marcelo Gonçalves
@@ -108,7 +108,8 @@ items:
       <li>Marcelo Gonçalves</li>
     time: 3:15 - 3:45 PM BRT (GMT-03:00)
     abstract: |
-      <p>TBD
+      <p>
+       An overview of Payara's products and services and how we are shaping the future of Java applications
       </p>
 
   - name: "O poder do data-driven testing: um mergulho nas especificações Jakarta e NoSQL" 

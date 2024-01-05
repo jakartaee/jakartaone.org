@@ -52,6 +52,14 @@ items:
     bio: |
       <p>Francisco Isidro Massetto é professor universitário da UFABC, palestrante e pesquisador. Desenvolve trabalhos junto à comunidade de desenvolvedores a fim de fortalecer fundamentos e aplicações práticas de conceitos, formando melhores profissionais para atuarem no mercado de trabalho. Em suas redes sociais (YouTube e Instagram ) ministra cursos e palestras virtuais para ajudar principalmente a galera que está iniciando na carreira</p>
 
+  - name: Marcelo Gonçalves
+    title: "Senior Software Engineer"
+    img: "marcelo-goncalves-2024.jpeg"
+    bio: |
+      <p>
+      Marcelo é Engenheiro de Software Senior na Payara Services, atualmente trabalhando no desenvolvimento do Payara Cloud. É formado em Ciência da Computação e tem mais de 30 anos de experiência em desenvolvimento de software, atuando em uma variedade de indústrias e mercados como comunicações, bancos, logística, petroquímica e governo, com passagens em empresas do Brasil, Portugal, França, Alemanha e Reino Unido. Essa experiência garantiu a Marcelo um entendimento diverso e profundo sobre as necessidades inerentes aos mais diferentes domínios de negócio. Marcelo é Mestre em Informática Aplicada, onde estudou Planejamento de Capacidade para aplicações web rodando em provedores IaaS, tendo sido premiado com o Best Paper Award do XXXIII Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC).
+      </p>
+
   - name: Maximillian Arruda
     title: Developer Advocate/Backend Software Engineer @ Digibee
     img: "marruda-2024.jpg"
