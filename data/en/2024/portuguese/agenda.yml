@@ -5,10 +5,10 @@ types:
       color: "#e44"
     - name: Panel
       id: panel
-      color: "#c6a061"
-    - name: Talks
-      id: talk
-      color: "purple"
+      color: "blue"
+    - name: Jakarta EE & MicroProfile Sessions
+      id: session
+      color: "green"
     - name: Vendor Talks
       id: vendor
       color: "orange"
@@ -17,55 +17,30 @@ items:
   - name: Welcome Session
     type: keynote
     presenters:
+      - Maximillian Arruda
       - Paulo Simoes
-      - Maximillian Arruda
-    times: []
-  - name: 'Vendor talks'
-    presenters: [Oracle, IBM, Payara]
+    presenter: |
+      <li>Maximillian Arruda</li>
+      <li>Paulo Simoes</li>
+    time: 9:30 - 10:00 AM BRT (GMT-03:00)  
+  - name: Oracle - Vendor talk
     type: vendor
-    abstract: |
-          <p>Oracle: Paulo Simoes</p>
-          <p>Payara: Marcelo Gonçalves</p> 
-          <p>IBM: Fabio Franco</p> 
-  - name: Jakarta EE in the Raspberry Pi world
-    type: talk 
     presenters:
-      - Igor De Souza
-    times: []
+      - Paulo Simoes
+    presenter: | 
+      <li>Paulo Simoes</li>
+    time: 10:00 - 10:30 AM BRT (GMT-03:00)
     abstract: |
-      <p>
-        Controlling physical things with some lines of code is magic! Learn how
-        to install and use Jakarta EE applications on the Raspberry Pi.
+      <p>TBD
       </p>
-      <p>
-        Let's build a web application to control a LCD and some sensors using
-        Jakarta Faces, build an animation and project this animation using a Lego
-        magnifying glass.
-      </p>
-  - name: "O poder do data-driven testing: um mergulho nas especificações Jakarta e NoSQL" 
-    type: talk 
-    presenters:
-      - Elias Nogueira
-      - Otávio Santana
-    times: []
-    abstract: |
-      <p>
-        Junte-se a nós para uma apresentação esclarecedora sobre o tópico de ponta de testes orientados 
-        a dados usando as mais recentes Jakarta Persistence Specifications: Data and NoSQL. 
-      </p>
-      <p>  
-        Iremos nos aprofundar em frameworks Java como JUnit Jupiter, AssertJ e Testcontainesr, mostrando 
-        como elas podem capacitar os desenvolvedores a obter qualidade de código excepcional por meio de testes orientados a domínio. 
-      </p>
-      <p>  
-        Aproveitando o conhecimento contextual e as técnicas de data driven, exploraremos estratégias práticas para otimizar 
-        seus esforços de teste e elevar a qualidade geral de sua base de código.
-      </p>
+
   - name: "Simplifying NoSQL Database Integration with Jakarta NoSQL: A Hands-on Approach"
-    type: talk
+    type: session
     presenters:
       - Maximillian Arruda
-    times: []
+    presenter: |
+      <li>Maximillian Arruda</li>
+    time: 10:30 - 11:15 AM BRT (GMT-03:00) 
     abstract: |
       <p>
         Nowadays, it’s normal to see cloud-native solutions dealing with a huge amount of information. 
@@ -84,6 +59,93 @@ items:
        In this talk, we will make a live coding session presenting a solution with Jakarta NoSQL and Jakarta Data. 
        Even more, we’re going to mix other Jakarta EE specifications like Jakarta Faces and Jakarta WebSocket.
       </p>
+  - name: "O compromisso da IBM com Java nativo na nuvem: Liberty, Jakarta EE e MicroProfile"
+    type: vendor
+    presenters:
+      - Fabio Franco
+    presenter: | 
+      <li>Fabio Franco</li>
+    time: 11:15 - 11:45 AM BRT (GMT-03:00)
+    abstract: |
+      <p>
+       É um momento emocionante para fazer parte da comunidade Java à medida que Jakarta EE e MicroProfile 
+       levam os padrões Java nativos na nuvem para o futuro. Nessa sessão, exploraremos o compromisso de 
+       longa data da IBM com o Java e sua evolução por meio dos grupos open-source, Jakarta EE e MicroProfile. 
+       Junte-se a nós para explorar a inovação que estamos promovendo por meio da implementação open-source 
+       Open Liberty e de nosso produto WebSphere Liberty.
+      </p>
+
+  - name: TBD
+    type: session 
+    presenters:
+      - Professor Isidro
+    presenter: |
+      <li>Professor Isidro</li>
+    time: 11:45 - 12:30 AM BRT (GMT-03:00)
+   
+  - name: Jakarta EE in the Raspberry Pi world
+    type: session 
+    presenters:
+      - Igor De Souza
+    presenter: |
+      <li>Igor De Souza</li>
+    time: 2:30 - 3:15 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Controlling physical things with some lines of code is magic! Learn how
+        to install and use Jakarta EE applications on the Raspberry Pi.
+      </p>
+      <p>
+        Let's build a web application to control a LCD and some sensors using
+        Jakarta Faces, build an animation and project this animation using a Lego
+        magnifying glass.
+      </p>
+  - name: "Leading Innovation in Jakarta EE: Payara's Role in Evolving Enterprise Java"
+    type: vendor
+    presenters:
+      - Marcelo Gonçalves
+    presenter: | 
+      <li>Marcelo Gonçalves</li>
+    time: 3:15 - 3:45 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+       An overview of Payara's products and services and how we are shaping the future of Java applications
+      </p>
+
+  - name: "O poder do data-driven testing: um mergulho nas especificações Jakarta e NoSQL" 
+    type: session 
+    presenters:
+      - Elias Nogueira
+      - Otávio Santana
+    presenter: |
+      <li>Elias Nogueira</li>
+      <li>Otávio Santana</li>
+    time: 3:45 - 4:30 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Junte-se a nós para uma apresentação esclarecedora sobre o tópico de ponta de testes orientados 
+        a dados usando as mais recentes Jakarta Persistence Specifications: Data and NoSQL. 
+      </p>
+      <p>  
+        Iremos nos aprofundar em frameworks Java como JUnit Jupiter, AssertJ e Testcontainesr, mostrando 
+        como elas podem capacitar os desenvolvedores a obter qualidade de código excepcional por meio de testes orientados a domínio. 
+      </p>
+      <p>  
+        Aproveitando o conhecimento contextual e as técnicas de data driven, exploraremos estratégias práticas para otimizar 
+        seus esforços de teste e elevar a qualidade geral de sua base de código.
+      </p>
+
+  - name: Microsoft - Vendor talk
+    type: vendor
+    presenters:
+      - Bruno Borges
+    presenter: | 
+      <li>Bruno Borges</li>
+    time: 4:30 - 5:00 PM BRT (GMT-03:00)
+    abstract: |
+      <p>TBD
+      </p>
+
   - name: "O Futuro do Java Enterprise com Jakarta EE"
     type: panel
     presenters:
@@ -91,7 +153,12 @@ items:
       - Otávio Santana
       - Maximillian Arruda
       - Paulo Simoes
-    times: []
+    presenter: | 
+      <li>Elias Nogueira</li>
+      <li>Otávio Santana</li>
+      <li>Maximillian Arruda</li>
+      <li>Paulo Simoes</li>
+    time: 5:00 - 5:45 PM BRT (GMT-03:00)
     abstract: |
       <p>
         Uma papo sobre o futuro do Java Enterprise com Jakarta EE
