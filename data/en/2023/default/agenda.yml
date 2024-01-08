@@ -14,14 +14,17 @@ items:
   - name: Welcome Session
     type: studio
     time: "6:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/ldEzUoI4APo
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/F_FqLnyGQEY 
   - name: "GlassFish Story: How to Make a Huge Unmaintainable Obsoleted Project Maintainable and Modern"
     type: session 
     presenters:
       - David Matějček
       - Arjan Tijms
     time: "7:00 - 7:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/uU0bmGxeWTw
     abstract: |
       <p>
         Developers are just common people, lazy and scared of changes. But they
@@ -34,11 +37,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "7:45 - 8:00 AM EST (GMT-05:00)"
+    vod: https://www.youtube.com/watch?v=XmCLqaLYIrI
   - name: Jakarta EE in the Raspberry Pi World
     type: session
     presenters:
       - Igor De Souza
     time: "8:00 - 8:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/ap8ZTXeGBPI
     abstract: |
       <p>
         Controlling physical things with some lines of code is magic! Learn how
@@ -54,11 +59,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "8:45 - 9:00 AM EST (GMT-05:00)"
+    vod: https://youtu.be/R-Q_ZCB_0eU
   - name: "Enterprise Kotlin: Jakarta EE for Kotlin Developers"
     type: session
     presenters:
       - Mads Opheim 
     time: "9:00 - 9:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/gBQxryz10mw
     abstract: |
       <p>
         Kotlin is nice. Jakarta EE is nice. Let’s dive into how to make them
@@ -69,11 +76,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "9:45 - 10:00 AM EST (GMT-05:00)"
+    vod: https://youtu.be/BX1P_fmQdZQ
   - name: InstantOn Startup for Jakarta, MicroProfile and Spring Boot Applications Using Checkpoint / Restore
     type: session 
     presenters:
       - Thomas Watson
     time: "10:00 - 10:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/EHHJAt6N5eE
     abstract: |
       <p>
         Did you know you can containerize your Jakarta EE, MicroProfile and
@@ -87,11 +96,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "10:45 - 11:00 AM EST (GMT-05:00)"
+    vod: https://youtu.be/VdJ-H2VNusw
   - name: "Concurrent and Asynchronous Programming: State of Loom in Java 21"
     type: session
     presenters:
       - José Paumard
     time: "11:00 - 11:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/K_5GOX6_8GE
     abstract: |
       <p>
         Loom brings virtual threads. You can have million of them: they are
@@ -106,6 +117,7 @@ items:
       - Tanja Obradović
       - Ivar Grimstad
     time: "11:45 - 12:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/bVwlHaP8YoY
   - name: Industry Keynote
     type: keynote
     presenters:
@@ -116,16 +128,19 @@ items:
       - Takahiro Nagao
       - Cesar Hernandez
     time: "12:00 - 12:50 PM EST (GMT-05:00)"
+    vod: https://youtu.be/aL4cVJKOB8M
   - name: Studio Jakarta EE
     type: studio
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/k0LkPEgXUMQ
     time: "12:50 - 13:00 PM EST (GMT-05:00)"
   - name: "How to Upgrade to Jakarta EE 10: javax to jakarta Prefix Without a Hassle"
     type: session 
     presenters:
       - Ondro Mihályi
     time: "13:00 - 13:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/AlCePDf7Ldw
     abstract: |
       <p>
         Upgrading to Jakarta EE 10 brings some challenges - renaming packages
@@ -139,12 +154,14 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "13:45 - 14:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/vHv1fIDZs7I
   - name: "Unlocking Data Access Excellence with Jakarta Data: Simplifying Persistence for Modern Cloud-Native Applications" 
     type: session
     presenters:
       - Otávio Santana
       - Nathan Rauh
     time: "14:00 - 14:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/Ivv_wazXalo
     abstract: |
       <p>
         Jakarta Data: Simplify data access for Java devs with a unified,
@@ -156,11 +173,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "14:45 - 15:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/BrsBt0l-TXY
   - name: Continuous Integration and Continuous Deployment (CI/CD) for Jakarta EE Applications
     type: session
     presenters:
       - Luqman Saeed
     time: "15:00 - 15:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/wiCSgM_ifm4
     abstract: |
       <p>
         Want to release Jakarta EE applications faster and more reliably? My
@@ -173,11 +192,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "15:45 - 16:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/VoddLfpkjl4
   - name: MicroProfile Current and Future
     type: session
     presenters:
       - Emily Jiang
     time: "16:00 - 16:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/x_qBXEeuAVM
     abstract: |
       <p>
         Come to this session to get the latest news on MicroProfile.
@@ -187,11 +208,13 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "16:45 - 17:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/VoddLfpkjl4
   - name: A Freakonomic Take on Open Standards and Jakarta EE
     type: session 
     presenters:
       - Reza Rahman
     time: "17:00 - 17:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/qzLuOrhdjis
     abstract: |
       <p>
         This session aims to crystalize why open standards like Jakarta EE are
@@ -204,3 +227,4 @@ items:
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
     time: "17:45 - 18:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/eUS4Olh4EW8
