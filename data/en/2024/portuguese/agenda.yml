@@ -75,14 +75,24 @@ items:
        Open Liberty e de nosso produto WebSphere Liberty.
       </p>
 
-  - name: TBD
+  - name: "Usando specs a seu favor: Criando o próprio CDI"
     type: session 
     presenters:
       - Professor Isidro
     presenter: |
       <li>Professor Isidro</li>
     time: 11:45 - 12:30 AM BRT (GMT-03:00)
-   
+    abstract: |
+      <p>
+        Uma forma de você entender bem o mundo das especificações e também entender os bastidores da tecnologia é você 
+        poder criar ferramentas que implementam conceitos que são usados hoje e que muitos Desenvolvedores pouco questionam 
+        seus bastidores. Um exemplo é a Injeção de Dependência. Como isso é possível? 
+        Como é possível delegar a instanciação de uma classe e seu gerenciamento de ciclo de vida a um framework? 
+        Como podemos "descobrir" implementações de interfaces em tempo real? Como poder criar novas instâncias usando desde 
+        uma criação "simples" até um padrão de projeto mais sofisticado? Como tudo isso se junta num framework web, por exemplo? 
+        Nesta palestra vamos discutir com exemplos práticos como tudo isso funciona!
+      </p>
+        
   - name: Jakarta EE in the Raspberry Pi world
     type: session 
     presenters:
