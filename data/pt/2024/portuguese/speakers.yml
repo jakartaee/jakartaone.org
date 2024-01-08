@@ -65,10 +65,14 @@ items:
       </p>
   - name: "Professor Isidro"
     title: "PhD, Professor, Java Champion, palestrante e pesquisador @ UFABC"
-    img: "prof_isidro.jpg"
+    img: "prof_isidro-2024.jpg"
     twitter_handle: prof_isidro
     bio: |
-      <p>Francisco Isidro Massetto é professor universitário da UFABC, Java Champion, palestrante e pesquisador. Desenvolve trabalhos junto à comunidade de desenvolvedores a fim de fortalecer fundamentos e aplicações práticas de conceitos, formando melhores profissionais para atuarem no mercado de trabalho. Em suas redes sociais (YouTube e Instagram ) ministra cursos e palestras virtuais para ajudar principalmente a galera que está iniciando na carreira</p>
+      <p>
+        Professor Isidro é professor (ah não diga), Java Champion, Bacharel, 
+        Mestre e Doutor em computação. Desenvolve trabalho de levar os fundamentos 
+        da computação para formar melhor as gerações de desenvolvedores pelo Brasil e pelo mundo.
+      </p>
 
   - name: Marcelo Gonçalves
     title: "Senior Software Engineer"
