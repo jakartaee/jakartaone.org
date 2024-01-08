@@ -1,4 +1,22 @@
 items:
+  - name: "Bruno Borges"
+    title: "Java Champion, Principal PM Manager for Java @ Microsoft"
+    twitter_handle: brunoborges
+    img: "bborges-2024.jpeg"
+    bio: |
+      <p>
+        Greetings, I'm Bruno, a Brazilian living in Vancouver, Canada. I'm a Product Manager at Microsoft. We help Microsoft internal teams and Azure customers to optimize Java workloads for better performance and lower cost. We also ship the Microsoft Build of OpenJDK. Before that I was on Azure DevRel, a Cloud Developer Engagement PM at Oracle, and a Java developer at heart. But most importantly, I'm opinionated!
+      </p>
+
+  - name: "Bruno Souza"
+    title: "Brazilian JavaMan, the Guy with the Flag"
+    twitter_handle: brjavaman
+    img: "bsouza-2024.jpg"
+    bio: |
+      <p>
+        Since 1995, Bruno helps Java developers improve their careers and work on cool projects with great people! Java Evangelist at ToolsCloud and Leader of SouJava, the Brazilian Java Users Society, Bruno discuss Java and the Developer Career in his <a href=\"https://code4.life\">https://code4.life</a> project.
+      </p>
+
   - name: Elias Nogueira
     title: Java Champion, Senior Principal Software Engineer @ Backbase
     img: elias-nogueira.jpeg
@@ -47,10 +65,14 @@ items:
       </p>
   - name: "Professor Isidro"
     title: "PhD, Professor, Java Champion, palestrante e pesquisador @ UFABC"
-    img: "prof_isidro.jpg"
+    img: "prof_isidro-2024.jpg"
     twitter_handle: prof_isidro
     bio: |
-      <p>Francisco Isidro Massetto é professor universitário da UFABC, Java Champion, palestrante e pesquisador. Desenvolve trabalhos junto à comunidade de desenvolvedores a fim de fortalecer fundamentos e aplicações práticas de conceitos, formando melhores profissionais para atuarem no mercado de trabalho. Em suas redes sociais (YouTube e Instagram ) ministra cursos e palestras virtuais para ajudar principalmente a galera que está iniciando na carreira</p>
+      <p>
+        Professor Isidro é professor (ah não diga), Java Champion, Bacharel, 
+        Mestre e Doutor em computação. Desenvolve trabalho de levar os fundamentos 
+        da computação para formar melhor as gerações de desenvolvedores pelo Brasil e pelo mundo.
+      </p>
 
   - name: Marcelo Gonçalves
     title: "Senior Software Engineer"
