@@ -142,23 +142,30 @@ items:
     presenter: | 
       <li>Bruno Borges</li>
     time: 4:30 - 5:00 PM BRT (GMT-03:00)
-    abstract: |
-      <p>TBD
-      </p>
+
+  - name: TBD
+    type: session
+    presenters:
+      - Bruno Souza
+    presenter: | 
+      <li>Bruno Souza</li>
+    time: 5:00 - 5:45 PM BRT (GMT-03:00)
 
   - name: "O Futuro do Java Enterprise com Jakarta EE"
     type: panel
     presenters:
+      - Bruno Souza
       - Elias Nogueira
       - Otávio Santana
       - Maximillian Arruda
       - Paulo Simoes
     presenter: | 
+      <li>Bruno Souza</li>
       <li>Elias Nogueira</li>
       <li>Otávio Santana</li>
       <li>Maximillian Arruda</li>
       <li>Paulo Simoes</li>
-    time: 5:00 - 5:45 PM BRT (GMT-03:00)
+    time: 5:45 - 6:30 PM BRT (GMT-03:00)
     abstract: |
       <p>
         Uma papo sobre o futuro do Java Enterprise com Jakarta EE
