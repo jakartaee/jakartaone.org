@@ -57,7 +57,7 @@ items:
       </p>
       <p>
        In this talk, we will make a live coding session presenting a solution with Jakarta NoSQL and Jakarta Data. 
-       Even more, we’re going to mix other Jakarta EE specifications like Jakarta Faces and Jakarta WebSocket.
+       Even more, we’re going to mix other Jakarta EE specifications like Jakarta WebSocket.
       </p>
   - name: "O compromisso da IBM com Java nativo na nuvem: Liberty, Jakarta EE e MicroProfile"
     type: vendor

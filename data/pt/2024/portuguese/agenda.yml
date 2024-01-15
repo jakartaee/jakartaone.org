@@ -34,7 +34,7 @@ items:
       <p>TBD
       </p>
 
-  - name: "Simplifying NoSQL Database Integration with Jakarta NoSQL: A Hands-on Approach"
+  - name: "Simplificando a integração com banco de dados NoSQL com Jakarta NoSQL: uma abordagem prática"
     type: session
     presenters:
       - Maximillian Arruda
@@ -43,22 +43,24 @@ items:
     time: 10:30 - 11:15 AM BRT (GMT-03:00) 
     abstract: |
       <p>
-        Nowadays, it’s normal to see cloud-native solutions dealing with a huge amount of information. 
-        In this scenario, the NoSQL databases are getting a huge relevant position, but dealing with many 
-        NoSQL solutions from many different vendors is very difficult.
+        Hoje em dia é normal ver soluções cloud-native lidando com uma enorme quantidade de informações. 
+        Nesse cenário, os bancos de dados NoSQL estão ganhando uma posição de grande relevância no mercado, 
+        mas lidar com muitas soluções NoSQL de diversos fornecedores é muito difícil.
       </p>
       <p>
-       In terms of dealing with relational databases, there’s no doubt that JPA specification is a 
-       well-established API in the Java world, but what if there’s a well-defined way, pretty similar to JPA, to work with NoSQL with Java?
+       Em termos de lidar com bancos de dados relacionais, não há dúvida de que a especificação Jakarta persistence 
+       é uma API bem estabelecida no mundo Java, mas e se houver uma maneira bem definida, 
+       bem semelhante ao Jakarta Persistence, de trabalhar com NoSQL no Java?
       </p>
       <p>
-       Jakarta NoSQL specification was created to increase the developer experience between Java and NoSQL databases. 
-       This spec allows developers to handle easily with many NoSQL databases.
+       A especificação Jakarta NoSQL foi criada para melhorar a experiência do desenvolvedor entre trabalhar com bancos de dados NoSQL no Java. 
+       Esta especificação permite que os desenvolvedores lidem facilmente com muitos bancos de dados NoSQL.
       </p>
       <p>
-       In this talk, we will make a live coding session presenting a solution with Jakarta NoSQL and Jakarta Data. 
-       Even more, we’re going to mix other Jakarta EE specifications like Jakarta Faces and Jakarta WebSocket.
+       Nesta palestra, faremos um live-coding apresentando uma solução com Jakarta NoSQL e Jakarta Data. 
+       Ainda mais, vamos misturar outras especificações do Jakarta EE, como Jakarta WebSocket.
       </p>
+  
   - name: "O compromisso da IBM com Java nativo na nuvem: Liberty, Jakarta EE e MicroProfile"
     type: vendor
     presenters:
