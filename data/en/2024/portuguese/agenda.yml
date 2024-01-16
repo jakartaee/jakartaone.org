@@ -153,13 +153,19 @@ items:
       <li>Bruno Borges</li>
     time: 4:30 - 5:00 PM BRT (GMT-03:00)
   
-  - name: TBD
+  - name: "A Fórmula da Reputação: Construindo sua Carreira com Java, Padrões e Open Source"
     type: session
     presenters:
       - Bruno Souza
     presenter: | 
       <li>Bruno Souza</li>
     time: 5:00 - 5:45 PM BRT (GMT-03:00)
+    abstract: | 
+      <p>
+        Sua reputação é mais importante do que seu emprego, salário ou a empresa que você trabalha. 
+        Venha descobrir nessa conversa franca como o JakartaEE pode te ajudar a construir uma reputação sólida no mercado, 
+        que vai te abrir portas para seus maiores objetivos de carreira.
+      </p>
 
   - name: "O Futuro do Java Enterprise com Jakarta EE"
     type: panel
