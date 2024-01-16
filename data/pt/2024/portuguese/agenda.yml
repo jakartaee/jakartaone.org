@@ -14,7 +14,7 @@ types:
       color: "orange"
 
 items:
-  - name: Welcome Session
+  - name: "Sessão de Abertura"
     type: keynote
     presenters:
       - Maximillian Arruda
@@ -95,7 +95,7 @@ items:
         Nesta palestra vamos discutir com exemplos práticos como tudo isso funciona!
       </p>
    
-  - name: Jakarta EE in the Raspberry Pi world
+  - name: Jakarta EE no mundo do Raspberry Pi
     type: session 
     presenters:
       - Igor De Souza
@@ -104,13 +104,11 @@ items:
     time: 2:30 - 3:15 PM BRT (GMT-03:00)
     abstract: |
       <p>
-        Controlling physical things with some lines of code is magic! Learn how
-        to install and use Jakarta EE applications on the Raspberry Pi.
+        Controlar coisas físicas com algumas linhas de código é mágico! Aprenda como instalar e usar aplicativos Jakarta EE no Raspberry Pi.
       </p>
       <p>
-        Let's build a web application to control a LCD and some sensors using
-        Jakarta Faces, build an animation and project this animation using a Lego
-        magnifying glass.
+        Vamos construir uma aplicação web para controlar um LCD e alguns sensores usando Jakarta Faces, 
+        construir uma animação e projetar essa animação usando uma lupa Lego.
       </p>
   - name: "Liderando a Inovação no Jakarta EE: O papel da Payara na evolução do Java corporativo"
     type: vendor
@@ -155,13 +153,19 @@ items:
       <li>Bruno Borges</li>
     time: 4:30 - 5:00 PM BRT (GMT-03:00)
 
-  - name: TBD
+  - name: "A Fórmula da Reputação: Construindo sua Carreira com Java, Padrões e Open Source"
     type: session
     presenters:
       - Bruno Souza
     presenter: | 
       <li>Bruno Souza</li>
     time: 5:00 - 5:45 PM BRT (GMT-03:00)
+    abstract: | 
+      <p>
+        Sua reputação é mais importante do que seu emprego, salário ou a empresa que você trabalha. 
+        Venha descobrir nessa conversa franca como o JakartaEE pode te ajudar a construir uma reputação sólida no mercado, 
+        que vai te abrir portas para seus maiores objetivos de carreira.
+      </p>
 
   - name: "O Futuro do Java Enterprise com Jakarta EE"
     type: panel
