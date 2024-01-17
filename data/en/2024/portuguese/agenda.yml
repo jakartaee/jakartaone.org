@@ -145,13 +145,30 @@ items:
         seus esforços de teste e elevar a qualidade geral de sua base de código.
       </p>
 
-  - name: Microsoft - Vendor talk
+  - name: "Fortalecendo o Ecossistema Jakarta EE no Microsoft Azure"
     type: vendor
     presenters:
       - Bruno Borges
     presenter: | 
       <li>Bruno Borges</li>
     time: 4:30 - 5:00 PM BRT (GMT-03:00)
+    abstract: | 
+      <p>
+        Java e Jakarta EE são tecnologias importantes para suportar no Azure. Enterprise Java é um ecossistema heterogêneo, 
+        com até um terço das cargas de trabalho ainda em execução em servidores de aplicação Jakarta EE, como WebLogic, 
+        WebSphere/Open Liberty, JBoss EAP, WildFly e Payara. Isso é particularmente verdadeiro para grandes empresas que 
+        precisam transferir e adaptar suas aplicações críticas, em grande parte monolíticas, para uma nuvem como Microsoft Azure.
+      </p>
+      <p>
+        Esta sessão irá cobrir os esforços que a Microsoft tem feito para melhorar o suporte a aplicações Jakarta EE no Azure. 
+        Abordaremos a história do movimento Java Enterprise de padrão aberto e por que os padrões abertos são e continuam sendo 
+        importantes para as empresas. Discutiremos o que é possível agora, o que virá em breve e o que está mais distante. 
+        Isso inclui serviços, ferramentas e orientações para melhor apoiar os usuários do Jakarta EE que optam por máquinas virtuais, 
+        Kubernetes ou PaaS. Também veremos a integração com serviços do Azure, como o Azure Service Bus, por meio de APIs do Jakarta EE, como JMS.
+      </p>
+      <p>
+        Esta é também nossa oportunidade para ouvir de você, e entender melhor, como a Microsoft pode apoiá-lo da melhor maneira.
+      </p>
   
   - name: "A Fórmula da Reputação: Construindo sua Carreira com Java, Padrões e Open Source"
     type: session
