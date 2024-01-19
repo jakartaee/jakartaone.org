@@ -22,8 +22,9 @@ items:
     presenter: |
       <li>Maximillian Arruda</li>
       <li>Paulo Simoes</li>
-    time: 9:30 - 10:00 AM BRT (GMT-03:00)  
-  - name: Oracle - Vendor talk
+    time: 9:30 - 10:00 AM BRT (GMT-03:00)
+
+  - name: "Oracle, JakartaEE e Java Native para Nuvem. Investindo durante o Passado, o Presente e participando do Futuro do Java."
     type: vendor
     presenters:
       - Paulo Simoes
@@ -31,7 +32,12 @@ items:
       <li>Paulo Simoes</li>
     time: 10:00 - 10:30 AM BRT (GMT-03:00)
     abstract: |
-      <p>TBD
+      <p>
+         Nessa sessão vamos visitar o continuo esforço da Oracle desde a concepção do projeto JakartaEE 
+         até os dias de hoje como o principal contribuidor do projeto tanto nas especificações quanto na codificação. 
+         Também veremos o esforço para habilitar o Java para uma arquitetura nativa para nuvem, alavancando o uso do 
+         Servidores de App no Kubernetes, e também desenvolvendo um framework muito interessante para arquitetura de microserviços, 
+         compatível com MicroProfile 6.0 e o primeiro a suportar Java 21 Virtual Threads — nosso querido Helidon.
       </p>
 
   - name: "Simplifying NoSQL Database Integration with Jakarta NoSQL: A Hands-on Approach"
