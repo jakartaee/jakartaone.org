@@ -30,14 +30,12 @@ tagline_suffix: |
 
 
 {{< grid/section-container class="margin-top-40 margin-bottom-40" >}}
-{{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
-{{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
-<h2 class="margin-bottom-40 text-center">Revisit out latest JakartaOne Livestream 2021 event</h2>
-{{< youtube "playlist?list=PLutlXcN4EAwCxiFhy8X7vi4gxqVUNbqkI" >}}  
-{{</ grid/div >}}
-{{</ grid/div >}}
-
-
+  {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
+    {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
+      <h2 class="margin-bottom-40 text-center">Revisit Our Latest JakartaOne Livestream 2023 Event</h2>
+      {{< youtube "playlist?list=PLutlXcN4EAwDNN2lVNlfV3u2rBvJMOFCn" >}}  
+    {{</ grid/div >}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 {{< home/host_event >}}

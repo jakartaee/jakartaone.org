@@ -27,14 +27,12 @@ container: "container-fluid"
 
 
 {{< grid/section-container class="margin-top-40 margin-bottom-40" >}}
-{{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
-{{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
-<h2 class="margin-bottom-40 text-center">Revisit out latest JakartaOne Livestream 2022 event</h2>
-{{< youtube "playlist?list=PLutlXcN4EAwBwhwfmPBajbiu-YlAVKG0r" >}}  
-{{</ grid/div >}}
-{{</ grid/div >}}
-
-
+  {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
+    {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
+      <h2 class="margin-bottom-40 text-center">Revisit Our Latest 2023 Event</h2>
+      {{< youtube "playlist?list=PLutlXcN4EAwDNN2lVNlfV3u2rBvJMOFCn" >}}  
+    {{</ grid/div >}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 {{< home/host_event >}}
