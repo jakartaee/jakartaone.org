@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne Live"
-headline: "JakartaOne Livestream 2023"
+headline: "JakartaOne Livestream 2024"
 seo_title: "JakartaOne Live | Jakarta EE Software | Cloud Native"
 date: 2018-04-05T15:50:25-04:00
 hide_page_title: true
@@ -26,16 +26,13 @@ tagline_suffix: |
  {{</ grid/section-container >}}
 {{< home/past_events >}}
 
-
 {{< grid/section-container class="margin-top-40 margin-bottom-40" >}}
-{{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
-{{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
-<h2 class="margin-bottom-40 text-center">Revisit out latest JakartaOne Livestream 2021 event</h2>
-{{< youtube "playlist?list=PLutlXcN4EAwCxiFhy8X7vi4gxqVUNbqkI" >}}  
-{{</ grid/div >}}
-{{</ grid/div >}}
-
-
+  {{< grid/div class="row margin-bottom-40" isMarkdown="false">}}
+    {{<grid/div class="col-sm-18 col-sm-offset-3" isMarkdown="false">}}
+      <h2 class="margin-bottom-40 text-center">Revisit Our Latest JakartaOne Livestream 2023 Event</h2>
+      {{< youtube "playlist?list=PLutlXcN4EAwDNN2lVNlfV3u2rBvJMOFCn" >}}  
+    {{</ grid/div >}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
 
 {{< home/host_event >}}
