@@ -8,6 +8,19 @@ This site is powered by [Netlify](https://www.netlify.com/).
 
 ## Getting started
 
+
+### Required Software
+
+| Software  | Version   |
+|---        |---        |
+| node.js   | 18.13.0   |
+| npm       | 8.19      |
+| Hugo      | 0.110     |
+| Git       | > 2.31    |
+
+See our [Managing Required Software](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-solstice-theme/-/wikis/Managing-Required-Software) 
+wiki page for more information on this topic. 
+
 Install dependencies, build assets and start a webserver:
 
 ```bash
