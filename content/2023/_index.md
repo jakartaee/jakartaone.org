@@ -7,12 +7,6 @@ hide_sidebar: true
 hide_breadcrumb: true
 container: container-fluid
 tagline: December 5, 2023
-tagline_suffix: |
-    <div class="display-flex gap-10 margin-bottom-30">
-      <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartane-05122023">
-        Register Now
-      </a>
-    </div>
 layout: single
 ---
 
