@@ -1,7 +1,7 @@
 items:
   - name: "Josh Juneau" 
     title: "Senior Software Engineer"
-    img: "josh-juneau.jpg"
+    img: "josh-juneau-2024.jpg"
     bio: |
       <p>
         Josh Juneau is a Java Champion who works as an application developer,
@@ -22,7 +22,7 @@ items:
       </p>
   - name: "Mala Gupta" 
     title: "Developer Advocate, JetBrains and Author"
-    img: "mala-gupta.jpg"
+    img: "mala-gupta-2024.jpg"
     bio: |
       <p>
         Mala Gupta is a Developer Advocate at JetBrains, a Java Champion, book
@@ -42,7 +42,7 @@ items:
       </p>
   - name: "Abraham Marin-Perez" 
     title: "Senior Principal Software Development Engineer, Oracle"
-    img: "abraham-marin-perez.jpg"
+    img: "abraham-marin-perez-2024.jpg"
     bio: |
       <p>
         Abraham Marín-Pérez, a Java and Agile expert with over fifteen years of
@@ -61,7 +61,7 @@ items:
       </p>
   - name: "Edwin Derks" 
     title: "Principal Consultant, Team Rockstars IT"
-    img: "edwin-derks.jpg"
+    img: "edwin-derks-2024.jpg"
     bio: |
       <p>
         Edwin Derks is a Java Champion from The Netherlands who loves solving
@@ -76,7 +76,7 @@ items:
       </p>
   - name: "Mary Grygleski"
     title: "Senior Developer Advocate"
-    img: "mary-grygleski.jpg"
+    img: "mary-grygleski-2024.jpg"
     bio: |
       <p>
         Mary is a Java Champion and a passionate Senior Developer Advocate at
