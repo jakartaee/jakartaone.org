@@ -1,0 +1,93 @@
+items:
+  - name: "Josh Juneau" 
+    title: "Senior Software Engineer"
+    img: "josh-juneau-2024.jpg"
+    bio: |
+      <p>
+        Josh Juneau is a Java Champion who works as an application developer,
+        system analyst, and database administrator. He primarily develops using
+        Java, PL/SQL, and other Java Virtual Machine (JVM) languages. He is an
+        open source contributor and has authored several books on Java and Java
+        EE/Jakarta EE. Josh is a regular voice on the Java OffHeap and Stackd
+        podcasts, and a member of the Jakarta EE Ambassadors.
+      </p>
+  - name: "Rustam Mehamndarov" 
+    title: "Chief Engineer, Computas"
+    img: ""
+    bio: |
+      <p>
+        Passionate computer scientist. Java Champion, Google Developer Expert
+        for Cloud. Public speaker. Mentor. Community builder. More info &rarr;
+        <a href="https://rustam.no">https://rustam.no</a>.
+      </p>
+  - name: "Mala Gupta" 
+    title: "Developer Advocate, JetBrains and Author"
+    img: "mala-gupta-2024.jpg"
+    bio: |
+      <p>
+        Mala Gupta is a Developer Advocate at JetBrains, a Java Champion, book
+        author with Manning, Packt, and O'Reilly Publications.
+      </p>
+      <p>
+        An international speaker at industry conferences, she has experience of
+        more than two decades in the software industry. She has been actively
+        supporting Java certification as a path to career advancement. Since
+        2006, she has been coaching students and professionals to succeed in
+        these certifications. Mala Gupta's Java books with Manning
+        Publications, USA, are top-rated for Java Certification around the
+        globe.
+      </p>
+      <p>
+        She co-leads Delhi's Java User Group.
+      </p>
+  - name: "Abraham Marin-Perez" 
+    title: "Senior Principal Software Development Engineer, Oracle"
+    img: "abraham-marin-perez-2024.jpg"
+    bio: |
+      <p>
+        Abraham Marín-Pérez, a Java and Agile expert with over fifteen years of
+        experience, has become a prominent figure in software development.
+        Originally from Valencia, Spain, he has built a significant career in
+        London, UK, contributing to organisations such as JP Morgan and the
+        UK's Home Office, often in collaboration with Equal Experts. Abraham
+        has shared his extensive experiences through various channels: as a Java
+        news editor at InfoQ, authoring 'Real-World Maintainable Software',
+        co-authoring 'Continuous Delivery in Java', and actively participating in
+        the London Java Community. His commitment to continual learning is
+        evident in his pursuit of a Physics degree and his role as a public
+        speaker, sharing insights on both technical and non-technical challenges
+        in software
+        development.
+      </p>
+  - name: "Edwin Derks" 
+    title: "Principal Consultant, Team Rockstars IT"
+    img: "edwin-derks-2024.jpg"
+    bio: |
+      <p>
+        Edwin Derks is a Java Champion from The Netherlands who loves solving
+        complex and strategic IT problems. He is also passionate about
+        gathering and sharing knowledge about anything related to the Java
+        ecosystem, software architecture and cloud-driven development in
+        general. He contributes to MicroProfile and Jakarta EE and often speaks
+        at conferences, passionately sharing his knowledge and experience. In
+        his spare time, he is a loving husband and a father of three and can
+        often be found in the gym or having a good time at dance parties or
+        heavy metal concerts.
+      </p>
+  - name: "Mary Grygleski"
+    title: "Senior Developer Advocate, DataStax"
+    img: "mary-grygleski-2024.jpg"
+    bio: |
+      <p>
+        Mary is a Java Champion and a passionate Senior Developer Advocate at
+        DataStax, a leading data management company that champions Open Source
+        software and specializes in Big Data, DB-as-a-service, Streaming, and
+        Cloud-Native systems. She spent 3.5 years as a very effective advocate
+        at IBM, focusing on Java, Jakarta EE, OpenJ9, Open Source, Cloud, and
+        Distributed Systems. She transitioned from Unix/C to Java around 2000
+        and has never looked back since then. She considers herself a polyglot
+        and loves to continue learning new and better ways to solve real-life
+        problems. She is an active tech community builder outside of her day
+        job, and currently the President of the Chicago Java Users Group
+        (CJUG).
+      </p>
