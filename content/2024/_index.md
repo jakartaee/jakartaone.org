@@ -10,6 +10,9 @@ tagline: "3 December 2024"
 layout: "single"
 tagline_suffix: |
   <div class="display-flex gap-10 margin-bottom-30">
+    <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartaone-120324">
+      Register 
+    </a>
     <a class="btn btn-primary" href="https://www.papercall.io/jakartaone-2024">
       Call for Papers
     </a>
