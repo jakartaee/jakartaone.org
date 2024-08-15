@@ -10,10 +10,6 @@ hide_breadcrumb: true
 container: container-fluid
 tagline: "19 de Janeiro de 2024"
 layout: "single"
-tagline_suffix: |
-  <p>
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/c/jakartaone-01182024">Registre-se agora</a>
-  </p>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
