@@ -8,11 +8,6 @@ hide_breadcrumb: true
 container: container-fluid
 tagline: January 19, 2024
 layout: single
-tagline_suffix: |
-  <p>
-    <a class="btn btn-primary margin-right-10" href="https://www.crowdcast.io/c/jakartaone-01182024">Register now</a>
-
-  </p>
 ---
 
 <!-- Registration section -->
