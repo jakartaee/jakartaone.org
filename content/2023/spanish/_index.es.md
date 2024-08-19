@@ -27,7 +27,7 @@ JakartaOne en Español es una conferencia virtual para desarrolladores y lídere
 técnicos que ofrece el estado actual, así como también, el futuro de Jakarta EE y tecnologías
 relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas
 para la nube. Esta es la tercera edición del evento con contenido
-complementamente en español.
+completamente en español.
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}

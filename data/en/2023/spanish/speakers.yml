@@ -39,3 +39,24 @@ items:
     twitter_handle: "cbustamantem"
     bio: | 
       <p>Java programmer +15 years ago, Clean Coder, Docker, Kubernetes Expert, JUG-PY Founder (Java user group Paraguay)</p>
+  - name: Otavio Santana
+    title: Software Engineer, Architect, and Open Source Committer
+    img: otavio-santana-2023.jpg
+    bio: |      
+      <p>
+        Otavio is a passionate architect and software engineer focused on cloud
+        and Java technologies. He has deep expertise in polyglot persistence
+        and high-performance applications in finance, social media, and
+        e-commerce.
+      </p>
+      <p>
+        Otávio loves history, economy, traveling, programming, and real-world
+        languages. He speaks Portuguese, English, Spanish, Italian, and French
+        fluently in dad jokes.
+      </p>
+  - name: "Jorge Vargas"
+    title: "Java Champion, Agilist, Coach and Mentor"
+    img: "jorge-vargas-2023.jpeg"
+    twitter_handle: "edivargas"
+    bio: | 
+      <p>Jorge is a seasoned CTO with a proven record of launching successful products and enhancing user experiences. Over his career, he has led high-performing engineering and product teams that consistently met and exceeded our key objectives, all supported by meticulously defined OKRs. His core focus has always been on fostering cross-team collaboration to maximize efficiency and resource optimization.</p>

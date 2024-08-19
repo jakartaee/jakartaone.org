@@ -1,0 +1,230 @@
+complete: true
+types:
+  - name: Keynote
+    id: keynote
+    color: '#F6B26B'
+  - name: Session
+    id: session
+    color: '#4A86E8'
+  - name: Studio Jakarta EE
+    id: studio
+    color: '#B7B7B7'
+
+items:
+  - name: Welcome Session
+    type: studio
+    time: "6:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/ldEzUoI4APo
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/F_FqLnyGQEY 
+  - name: "GlassFish Story: How to Make a Huge Unmaintainable Obsoleted Project Maintainable and Modern"
+    type: session 
+    presenters:
+      - David Matějček
+      - Arjan Tijms
+    time: "7:00 - 7:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/uU0bmGxeWTw
+    abstract: |
+      <p>
+        Developers are just common people, lazy and scared of changes. But they
+        are also selfish and they have passion and desire to be happy.
+        Sometimes they go crazy and do something they were told that it is not
+        possible. Refactor and modernize an unmaintainable project. How?
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "7:45 - 8:00 AM EST (GMT-05:00)"
+    vod: https://www.youtube.com/watch?v=XmCLqaLYIrI
+  - name: Jakarta EE in the Raspberry Pi World
+    type: session
+    presenters:
+      - Igor De Souza
+    time: "8:00 - 8:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/ap8ZTXeGBPI
+    abstract: |
+      <p>
+        Controlling physical things with some lines of code is magic! Learn how
+        to install and use Jakarta EE applications on the Raspberry Pi.
+      </p>
+      <p>
+        Let's build a web application to control a LCD and some sensors using
+        Jakarta Faces, build an animation and project this animation using a Lego
+        magnifying glass.
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "8:45 - 9:00 AM EST (GMT-05:00)"
+    vod: https://youtu.be/R-Q_ZCB_0eU
+  - name: "Enterprise Kotlin: Jakarta EE for Kotlin Developers"
+    type: session
+    presenters:
+      - Mads Opheim 
+    time: "9:00 - 9:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/gBQxryz10mw
+    abstract: |
+      <p>
+        Kotlin is nice. Jakarta EE is nice. Let’s dive into how to make them
+        play well together!
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "9:45 - 10:00 AM EST (GMT-05:00)"
+    vod: https://youtu.be/BX1P_fmQdZQ
+  - name: InstantOn Startup for Jakarta, MicroProfile and Spring Boot Applications Using Checkpoint / Restore
+    type: session 
+    presenters:
+      - Thomas Watson
+    time: "10:00 - 10:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/EHHJAt6N5eE
+    abstract: |
+      <p>
+        Did you know you can containerize your Jakarta EE, MicroProfile and
+        Spring Boot applications to start up in milliseconds, without
+        compromising on throughput, memory, development-production parity, or
+        Java language features?  InstantOn with org.crac support enables rapid
+        startup for native cloud apps.
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "10:45 - 11:00 AM EST (GMT-05:00)"
+    vod: https://youtu.be/VdJ-H2VNusw
+  - name: "Concurrent and Asynchronous Programming: State of Loom in Java 21"
+    type: session
+    presenters:
+      - José Paumard
+    time: "11:00 - 11:45 AM EST (GMT-05:00)"
+    vod: https://youtu.be/K_5GOX6_8GE
+    abstract: |
+      <p>
+        Loom brings virtual threads. You can have million of them: they are
+        cheap to create and cheap to block. Consequence? Forget about your
+        old asynchronous, callback based code. Improve your performances with
+        simple, imperative, mono-thread, blocking code!
+      </p>
+  - name: A Sweet Journey to the Future with Jakarta EE
+    type: keynote
+    presenters:
+      - Shabnam Mayel
+      - Tanja Obradović
+      - Ivar Grimstad
+    time: "11:45 - 12:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/bVwlHaP8YoY
+  - name: Industry Keynote
+    type: keynote
+    presenters:
+      - Jon Weatherill
+      - Scott Hunter
+      - Will Lyons
+      - Emily Jiang
+      - Takahiro Nagao
+      - Cesar Hernandez
+    time: "12:00 - 12:50 PM EST (GMT-05:00)"
+    vod: https://youtu.be/aL4cVJKOB8M
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: https://youtu.be/k0LkPEgXUMQ
+    time: "12:50 - 13:00 PM EST (GMT-05:00)"
+  - name: "How to Upgrade to Jakarta EE 10: javax to jakarta Prefix Without a Hassle"
+    type: session 
+    presenters:
+      - Ondro Mihályi
+    time: "13:00 - 13:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/AlCePDf7Ldw
+    abstract: |
+      <p>
+        Upgrading to Jakarta EE 10 brings some challenges - renaming packages
+        from javax to jakarta and dealing with removed APIs. I'll show you how
+        to seamlessly upgrade apps to Jakarta EE 10 in a very short time,
+        automating transformation of the source code and dealing with
+        application dependencies.
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "13:45 - 14:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/vHv1fIDZs7I
+  - name: "Unlocking Data Access Excellence with Jakarta Data: Simplifying Persistence for Modern Cloud-Native Applications" 
+    type: session
+    presenters:
+      - Otávio Santana
+      - Nathan Rauh
+    time: "14:00 - 14:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/Ivv_wazXalo
+    abstract: |
+      <p>
+        Jakarta Data: Simplify data access for Java devs with a unified,
+        domain-centric API. Seamlessly integrate diverse databases for modern
+        cloud-native apps
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "14:45 - 15:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/BrsBt0l-TXY
+  - name: Continuous Integration and Continuous Deployment (CI/CD) for Jakarta EE Applications
+    type: session
+    presenters:
+      - Luqman Saeed
+    time: "15:00 - 15:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/wiCSgM_ifm4
+    abstract: |
+      <p>
+        Want to release Jakarta EE applications faster and more reliably? My
+        talk will show you how to build a CI/CD pipeline tailored for Jakarta
+        EE. From automated testing to containerized deployment, you'll learn to
+        automate every step, enabling quicker and more confident releases.
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "15:45 - 16:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/VoddLfpkjl4
+  - name: MicroProfile Current and Future
+    type: session
+    presenters:
+      - Emily Jiang
+    time: "16:00 - 16:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/x_qBXEeuAVM
+    abstract: |
+      <p>
+        Come to this session to get the latest news on MicroProfile.
+      </p>
+  - name: Studio Jakarta EE
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "16:45 - 17:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/VoddLfpkjl4
+  - name: A Freakonomic Take on Open Standards and Jakarta EE
+    type: session 
+    presenters:
+      - Reza Rahman
+    time: "17:00 - 17:45 PM EST (GMT-05:00)"
+    vod: https://youtu.be/qzLuOrhdjis
+    abstract: |
+      <p>
+        This session aims to crystalize why open standards like Jakarta EE are
+        critically important to you today and in the future. We will explore
+        these concepts in the context of well-established economic theories - in
+        true Freakonomist style!
+      </p>
+  - name: Closing
+    type: studio
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    time: "17:45 - 18:00 PM EST (GMT-05:00)"
+    vod: https://youtu.be/eUS4Olh4EW8

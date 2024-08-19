@@ -1,5 +1,27 @@
 items:
   -  
+    name: JakartaOne Livestream Chinese 2024
+    location: China
+    date: 26 September 2024
+    start_date: 2024-09-26
+    end_date: 2024-09-27
+    url: /2024/chinese
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone-2022.png
+    description: 
+  -  
+    name: JakartaOne Livestream 2024
+    location: Canada
+    date: 3 December 2024
+    start_date: 2024-12-03
+    end_date: 2024-12-04
+    url: /2024/
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone-2022.png
+    description: 
+  -  
     name: JakartaOne Livestream Português
     location: Brazil, Portugal
     date: January 19, 2024
