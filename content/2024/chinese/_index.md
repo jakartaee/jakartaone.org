@@ -41,10 +41,3 @@ We are proud to say that this year, sessions at JakartaOne Livestream Event are
 chosen by an independent program committee made up of volunteers from the
 Jakarta EE and cloud native Java community!
 {{</ events/program-committee >}}
-
-<!-- Hosts section -->
-{{< grid/div class="container" id="hosts" isMarkdown="false">}}
-  {{< grid/section-container id="organizers" isMarkdown="false" >}}
-    {{< events/user_display title="Hosts" year="2024" source="hosts" displayLearnMore="false" useCarousel="false" />}}
-  {{</ grid/section-container >}}
-{{</ grid/div >}}
