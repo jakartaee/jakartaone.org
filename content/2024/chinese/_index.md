@@ -1,12 +1,12 @@
 ---
-title: "JakartaOne 2024"
-seo_title: "JakartaOne Live - 3 December 2024 | Jakarta EE Software | Cloud Native"
-headline: "JakartaOne Livestream 2024"
+title: "JakartaOne 2024 Chinese"
+seo_title: "JakartaOne Livestream - 26 September 2024 | Jakarta EE Software | Cloud Native"
+headline: "JakartaOne Livestream 2024 Chinese"
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-tagline: "3 December 2024"
+tagline: "26 September 2024"
 layout: "single"
 tagline_suffix: |
   <div class="display-flex gap-10 margin-bottom-30">
