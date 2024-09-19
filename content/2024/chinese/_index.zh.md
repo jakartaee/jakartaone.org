@@ -12,8 +12,8 @@ layout: "single"
 menu_name: "chinese"
 tagline_suffix: |
   <div class="display-flex gap-10 margin-bottom-30">
-    <a class="btn btn-primary" href="https://www.wjx.cn/vm/OiTpQPV.aspx" target="_blank">
-      报名成为演讲嘉宾
+    <a class="btn btn-primary" href="https://meeting.tencent.com/dw/83rhRbomdYsC" target="_blank">
+      报名参加本次活动
     </a>
   </div>
 ---
