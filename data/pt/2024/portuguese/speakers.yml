@@ -1,0 +1,155 @@
+items:
+  - name: "Bruno Borges"
+    title: "Java Champion, Principal PM Manager for Java @ Microsoft"
+    twitter_handle: brunoborges
+    img: "bborges-2024.jpeg"
+    bio: |
+      <p>
+        Greetings, I'm Bruno, a Brazilian living in Vancouver, Canada. I'm a Product Manager at Microsoft. We help Microsoft internal teams and Azure customers to optimize Java workloads for better performance and lower cost. We also ship the Microsoft Build of OpenJDK. Before that I was on Azure DevRel, a Cloud Developer Engagement PM at Oracle, and a Java developer at heart. But most importantly, I'm opinionated!
+      </p>
+
+  - name: "Bruno Souza"
+    title: "Brazilian JavaMan, the Guy with the Flag"
+    twitter_handle: brjavaman
+    img: "bsouza-2024.jpg"
+    bio: |
+      <p>
+        Since 1995, Bruno helps Java developers improve their careers and work on cool projects with great people! Java Evangelist at ToolsCloud and Leader of SouJava, the Brazilian Java Users Society, Bruno discuss Java and the Developer Career in his <a href=\"https://code4.life\">https://code4.life</a> project.
+      </p>
+
+  - name: Elias Nogueira
+    title: Java Champion, Senior Principal Software Engineer @ Backbase
+    img: elias-nogueira.jpeg
+    twitter_handle: eliasnogueira
+    bio: |
+      <p>
+        Elias é Senior Principal Software Engineer Backbase com experiência em engenharia de software, 
+        consultoria, ágil e liderança técnica. Ele ajuda os engenheiros de software a desenvolver sua mentalidade 
+        de qualidade e a fornecer software livre de bugs.
+      </p>
+      <p>  
+       Ele é especialista em Engenharia de Qualidade para tecnologias backend, frontend e móveis. Ele é escritor, 
+       blogueiro e adora ajudar a comunidade realizando encontros e compartilhando conhecimento fazendo apresentações em todo o mundo.
+      </p>
+      <p>
+       Ele também é Java Champion, Oracle ACE para Java, DevOps e Cloud Native, editor da Java Magazine Netherlands, TDC Rockstar e Browserstack Champion.
+      </p>
+  - name: Fabio Franco
+    title: Software Developer @ IBM
+    img: fabio-franco.jpeg
+    linkedin: fabio-franco-8401055
+    bio: |
+      <p>
+       Fabio é desenvolvedor sênior com mais de nove anos de experiência como desenvolvedor de software na IBM e 
+       está atualmente trabalhando no IBM Canada Lab. Ele faz parte da equipe de modernização de aplicativos, que 
+       desenvolve ferramentas que ajudam os clientes a modernizar seus aplicativos monolíticos. Com mestrado e 
+       bacharelado em Ciência da Computação e experiência em pesquisa em Inteligência Artificial, Fabio também 
+       tem experiência como professor na Faculdade SENAC e na Universidade Cruzeiro do Sul. Além disso, já 
+       apresentou tópicos sobre tecnologias Java e microsserviços em algumas conferências importantes, como ATO, JConf, WeavesSphere/CASCON e TDC Connections.
+      </p>
+  - name: Igor De Souza
+    title: Teckro
+    img: igor-souza-2024.jpg
+    twitter_handle: Igfasouza
+    bio: |
+      <p>
+        Igor currently works as a Software Engineer in a Data Engineer team.
+        With over 20 years of experience with Java and over 10 years in the Big
+        Data world, Igor had the opportunity to work with Hadoop and its
+        ecosystem right when Hadoop was created. In his spare time, he enjoys
+        playing with Raspberry Pi and is an active member of the Maker
+        community, highly engaged with STEM and CoderDojo. Igor Organizes a
+        Facebook group for Brazilian IT in Ireland with over 12k participants.
+        He is currently working on a pet project where he uses a Led Strip to
+        teach basic concepts of data structure e data streaming.
+      </p>
+  - name: "Professor Isidro"
+    title: "PhD, Professor, Java Champion, palestrante e pesquisador @ UFABC"
+    img: "prof_isidro-2024.jpg"
+    twitter_handle: prof_isidro
+    bio: |
+      <p>
+        Professor Isidro é professor (ah não diga), Java Champion, Bacharel, 
+        Mestre e Doutor em computação. Desenvolve trabalho de levar os fundamentos 
+        da computação para formar melhor as gerações de desenvolvedores pelo Brasil e pelo mundo.
+      </p>
+
+  - name: Marcelo Gonçalves
+    title: "Senior Software Engineer @ Payara"
+    img: "marcelo-goncalves-2024.jpeg"
+    bio: |
+      <p>
+      Marcelo é Engenheiro de Software Senior na Payara Services, atualmente trabalhando no desenvolvimento do Payara Cloud. É formado em Ciência da Computação e tem mais de 30 anos de experiência em desenvolvimento de software, atuando em uma variedade de indústrias e mercados como comunicações, bancos, logística, petroquímica e governo, com passagens em empresas do Brasil, Portugal, França, Alemanha e Reino Unido. Essa experiência garantiu a Marcelo um entendimento diverso e profundo sobre as necessidades inerentes aos mais diferentes domínios de negócio. Marcelo é Mestre em Informática Aplicada, onde estudou Planejamento de Capacidade para aplicações web rodando em provedores IaaS, tendo sido premiado com o Best Paper Award do XXXIII Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC).
+      </p>
+
+  - name: Maximillian Arruda
+    title: Developer Advocate/Backend Software Engineer @ Digibee
+    img: "marruda-2024.jpg"
+    twitter_handle: maxdearruda
+    linkedin: maxarruda
+    bio: |
+      <ul>
+        <li>I'm currently working as a Developer Advocate/Backend Software Engineer at <a href="https://digibee.com" target="_blank">Digibee</a>;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>Jakarta EE Contributor and Ambassador;
+        <li><a href="https://accounts.eclipse.org/users/maxdearruda">Eclipse Foundation Committer</a>: <a href="http://www.jnosql.org/">Eclipse JNoSQL</a> project
+        <li>Speaker/coordinator at The Developers Conference;
+        <li>Speaker at EclipseCON 2023 and GeeCON 2023 Prague Conference;
+        <li>Cloud Conference Day Java Track Ambassador;
+        <li>I'm always looking for helping developers with the best programming practices;
+        <li>I'm always learning to improve my skills and to be the better person that I can be!
+        <li>I love martial arts, especially Karate!
+        <li>I love to play video games with my kids!
+        <li>I'm a lucky man married to a beautiful wife!
+        <li>I'm from São Paulo, SP - Brazil
+      </ul>
+  - name: Otávio Santana
+    title: Software Engineer, Architect, Open Source Committer, Java Champion
+    img: otavio-santana-2023.jpg
+    twitter_handle: otaviojava
+    bio: |
+      <p>
+        Empowering software engineers to deliver highly scalable and efficient
+        software on the cloud with the ultimate sophistication techniques using
+        the best practices on open source; lets them become productive and more
+        influential, moving their technical careers to the next level.
+      </p>
+      <p>
+        Otávio is a passionate architect and software engineer focused on cloud
+        and Java technologies. He has deep expertise in polyglot persistence
+        and high-performance applications in finance, social media, and
+        e-commerce.
+      </p>
+      <p>
+        Otavio has contributed to the Java and the Open source ecosystem in
+        several ways, such helped the direction and objectives of the Java
+        platform since Java 8 as a JCP executive member, besides being a
+        committer and leader in several open-source products and
+        specifications.
+      </p>
+      <p>
+        Otavio is recognized for his Open Source contributions and has received
+        many awards, including all JCP Awards categories and the Duke’s Choice
+        Award, to name a few. Otávio is also a distinguished Java Champions and
+        Oracle ACE program member.
+      </p>
+      <p>
+        Otávio loves history, economy, traveling, programming, and real-world
+        languages. He speaks Portuguese, English, Spanish, Italian, and French
+        fluently in dad jokes.
+      </p>
+  - name: Paulo Simoes
+    title: Developer Evangelist/Product Manager @ Oracle
+    img: "psimoes-2023.jpg"
+    twitter_handle: pasimoes
+    linkedin: pasimoes
+    bio: |
+      <ul>
+        <li>I'm currently working as a Developer Advocate/Product Manager at <a href="https://www.oracle.com/" target="_blank">Oracle</a>;
+        <li>JUG leader at <a href="https://github.com/soujava" target="_blank">SouJava</a> (The Java Users Society), one of the world's largest Java User Groups Community;
+        <li>I'm always looking for helping developers with the best programming practices;
+        <li>seedling I'm always learning to improve my skills and to be the better person that I can be!-
+        <li>I love martial arts, especially Aikido and Ninjitsu!
+        <li>I'm from Rio de Janeiro, RJ - Brazil
+      </ul>
+  

@@ -1,0 +1,54 @@
+items:
+  - name: "Francisco Contreras"
+    title: "Gerente de Informática en GInIEm S.A."
+    img: "francisco-contreras.png" 
+    twitter_handle: "Frank_JCG"  
+    bio: | 
+     <p>Francisco es Gerente de Informática en GInIEm S.A., es un experimentado desarrollador de software con más de 15 años de experiencia en la industria. Además de su trabajo en GInIEm, Francisco es coorganizador del Grupo de Usuarios de Java (JUG) Nicaragua y el organizador de Flutter Managua, donde demuestra un sólido entusiasmo por Java y las tecnologías móviles.</p>
+     <p>A lo largo de su carrera, Francisco ha colaborado con empresas de alcance global en la creación de soluciones empresariales y de marketing, incluyendo desarrollo de backend, frontend web y de escritorio, así como proyectos de inteligencia empresarial y desarrollo de aplicaciones móviles. Con una formación en ingeniería de sistemas y una maestría en informática empresarial, encuentra su pasión en abordar desafíos y proyectos que requieren esfuerzo adicional para alcanzar resultados extraordinarios.</p>
+  - name: "Eddú Meléndez Gonzales"
+    title: "Ingeniero de Software en AtomicJar"
+    img: "eddu-melendez.jpeg" 
+    twitter_handle: "eddumelendez"
+    bio: | 
+      <p>Eddú Meléndez es Ingeniero de Software en AtomicJar, Open Source Contributor y Java Champion. Durante su tiempo libre, le gusta investigar sobre las nuevas tendencias y contribuir a proyectos Open Source.</p>
+  - name: "Isaac Ruiz Guerra"
+    title: "Arquitecto de software"
+    img: "isaac-ruiz.png"
+    twitter_handle: "rugi"
+    bio: |
+      <p>Isaac es egresado del Instituto Tecnológico del Istmo en Oaxaca, México.</p>
+      <p>Comenzó a utilizar Java en su versión 1.2 (2000) cuando realizaba sus prácticas profesionales en el laboratorio de inteligencia artificial del Centro de Investigación en Computación (CIC), del Instituto Politécnico Nacional en México.Es consultor de software desde 2003, está especializado en Integración de aplicaciones y ha participado en proyectos relacionados principalmente con el sector financiero.</p> 
+      <p>Durante más de 10 años ha trabajado con diferentes servidores de aplicaciones para el mundo java y ahora está intentando adaptar estos conocimientos a las nuevas arquitecturas de despliegue.</p>
+      <p>Isaac es un promotor del lenguaje java y ha participado en diferentes comunidades como javaHispano y javaMéxico.Como parte del staff de la comunidad javaMéxico, Isaac promueve el uso de Java y tecnologías relacionadas con Java escribiendo en su blog y como ponente en eventos de grupos de usuarios Java(JUG).</p> 
+      <p>Isaac ha publicado varios artículos sobre el ecosistema java en diferentes sitios web, incluyendo OTN y es ponente frecuente en eventos LAOUC/ORAMEX.Recientemente fue nombrado parte del programa Neo4j Ninja (https://neo4j.com/ninjas-program/)</p>
+  - name: "Carlos Zela Bueno"
+    title: "Senior Cloud Engineer en Oracle"
+    img: "carlos-zela.jpg"  
+    twitter_handle: "c_zela"
+    bio: | 
+      <p>Senior Software Engineer, Cloud Architect, Peru JUG Co-Leader, Open-Source advocate. Senior Cloud Engineer en Oracle</p> 
+  - name: "Alfonso Valdez"
+    title: "Ingeniero de software"
+    img: "alfonso-valdez.jpeg"
+    twitter_handle: "breakponchito"
+    bio: | 
+      <p>Ingeniero de software con más de 18 años de experiencia principalmente trabajando en java empresarial. Actualmente trabajando con Payara y participando en el ecosistema de software libre alrededor de Jakarta EE y Microprofile.</p>
+  - name: "Carlos Bustamante"
+    title: "Senior Full Stack Engineer"
+    img: "cbustamantem.jpeg"
+    twitter_handle: "cbustamantem"
+    bio: | 
+      <p>Programador en Java hace +15 años, Clean Coder, Docker, Kubernetes Expert, JUG-PY Founder (Java user group Paraguay)</p>
+  - name: "Otavio Santana"
+    title: "Ingeniero de software, arquitecto y Open Source Committer"
+    img: "otavio-santana-2023.jpg"
+    twitter_handle: "otaviojava"
+    bio: | 
+      <p>Otavio, un apasionado experto en la nube y Java, brinda a los ingenieros de software las mejores prácticas de código abierto para un software eficiente y altamente escalable. Es un reconocido colaborador de los ecosistemas Java y de código abierto, y ha recibido numerosos premios y reconocimientos. Los intereses de Octavio incluyen historia, economía, viajes y dominio de varios idiomas, todo ello aderezado con sentido del humor.</p>
+  - name: "Jorge Vargas"
+    title: "Java Champion, Agilista, Coach y Mentor"
+    img: "jorge-vargas-2023.jpeg"
+    twitter_handle: "edivargas"
+    bio: | 
+      <p>Jorge Vargas no es solo un líder tecnológico experimentado, sino también un apasionado del desarrollo de software. Como Java Champion desde 2007, Jorge ha sido un referente en el mundo de la programación durante más de dos décadas. Comenzó su viaje como desarrollador en 1994 y desde entonces ha acumulado un impresionante conjunto de logros. Ha demostrado ser un líder que valora la colaboración, la eficiencia y la innovación; con una habilidad especial para seleccionar las tecnologías y plataformas adecuadas, se destaca a la hora de lograr el equilibrio ideal entre complejidad y simplicidad. Le encanta enseñar y platicar con la gente.</p>

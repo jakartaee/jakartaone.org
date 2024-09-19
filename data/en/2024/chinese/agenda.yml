@@ -1,0 +1,82 @@
+complete: false
+types:
+    - name: Keynote / Industry Topic
+      id: keynote
+      color: "#85BFF3"
+    - name: Jakarta EE
+      id: jakarta_ee
+      color: "#EC8101"
+    - name: MicroProfile
+      id: microprofile
+      color: "#EDDAA0"
+    - name: Roundtable Discussion
+      id: roundtable
+      color: "#99DF82"
+
+items:
+    - name: Opening Speech
+      presenter: Eclipse Foundation
+      type: keynote
+      time: 14:00-14:15 GMT+08
+      abstract: |
+        An official introduction from the Eclipse Foundation, covering the workgroup and Jakarta EE & MicroProfile project plans, etc.
+    - name: Jakarta EE China Community
+      presenter: Liu Zhijie
+      type: keynote
+      time: 14:15-14:25 GMT+08
+      abstract: |
+        An introduction to the organizer of this event, the Jakarta EE China Community, its birth, development, and growth, which is crucial for expanding the influence of enterprise-level cloud-native Java in China.
+    - name: The New Era of Jakarta EE 11 - Exploring the Highlights!
+      presenter: Jiang Fenghui
+      type: jakarta_ee
+      time: 14:25-14:55 GMT+08
+      abstract: |
+        Jakarta EE 11 is on the horizon, and to date, all updated specifications in Jakarta EE 11 have been released. In this session, we will take you on a journey through the latest developments of Jakarta EE 11, revealing why now is the perfect time to move towards Jakarta EE 11. You will receive firsthand information about the innovative advancements of Jakarta EE 11 and a sneak preview of the future blueprint for Jakarta EE 12. This is a presentation not to be missed!
+    - name: Introducing the Key Jakarta EE Certification Testing Tools - TCK Environment Setup
+      presenter: Wang Feng
+      type: jakarta_ee
+      time: 14:55-15:25 GMT+08
+      abstract: |
+        Jakarta EE TCK (Technology Compatibility Kit) is a set of tools and tests used to verify whether Jakarta EE technology implementations from vendors comply with the applicable specifications. The core purpose of TCK is to ensure compatibility, correctness, completeness, and consistency across different implementations. Each version of the Jakarta EE specification has a corresponding TCK test suite, and only by passing all TCK cases can one obtain the official Jakarta EE certification. This topic will discuss the setup and use of TCK, helping more enterprises join Jakarta EE.
+    - name: Java Virtual Threads/Coroutines
+      presenter: Wu Dshuai
+      type: jakarta_ee
+      time: 15:25-15:55 GMT+08
+      abstract: |
+        On January 1996, JDK 1.0 was released, and its green threads became the earliest coroutines in Java; in May 2000, JDK 1.3 was released, and green threads were removed, discarding the coroutine feature in Java; in September 2023, with the release of Java 21, Java gained coroutine support again through the virtual thread feature. The development course of Java coroutines not only reflects the trend of technological evolution but also embodies the exploration and innovation of countless Java developers. This topic will review this process, allowing us to better understand the value of coroutines in modern software development and provide ideas for application innovation, looking forward to everyone's participation.
+    - name: Industry Topic (Primeton, AsiaInfo, IBM, Dongfang Tong, Kingdee Tianyan)
+      presenter: Jakarta EE Working Group Members
+      type: keynote
+      time: 15:55-16:20 GMT+08
+      abstract: |
+        A brief introduction to their respective companies by members of the Jakarta EE Working Group.
+    - name: The Evolution of Java Monitoring and Bytecode Enhancement Technology
+      presenter: Xu Qingkang
+      type: jakarta_ee
+      time: 16:20-16:50 GMT+08
+      abstract: |
+        After the release of JMX 1.0 in September 2000, JVM and Java applications began to widely implement configuration and monitoring management through JMX. With the development of AOP, under the guidance of the Java APM concept, to solve the heterogeneity of language dependency on JVMTI, Java Instrumentation has pushed monitoring analysis based on bytecode technology to new heights, especially in the Java modules of today's cloud-native application architecture, where distributed tracing also widely uses bytecode enhancement technology. This topic will review and introduce Java monitoring and bytecode enhancement technology, analyzing how to build observable enterprise applications.
+    - name: Spring AI Alibaba, AI Application Development Practice for Java Developers
+      presenter: Liu Jun
+      type: jakarta_ee
+      time: 16:50-17:20 GMT+08
+      abstract: |
+        Alibaba Cloud's open-source AI application development framework based on the Bai Lian model service: Spring AI Alibaba, which covers core AI application functions such as ChatModel, FunctionCalling, Embedding, VectorStore, etc., allowing Java developers to easily get started with AI application development. In this topic, we will delve into the architecture and basic usage of the Spring AI Alibaba development framework, and demonstrate how to quickly develop Java AI applications in conjunction with the Bai Lian large model service platform.
+    - name: Introduction to OpenJDK
+      presenter: Kuang Yunxing
+      type: jakarta_ee
+      time: 17:20-17:50 GMT+08
+      abstract: |
+        JDK (Java Development Kit) is the software development kit for the Java language. It is the core of Java, containing the Java runtime environment (JVM), Java system libraries, and Java tools, providing full lifecycle support for the development, compilation, and execution of Java programs. OpenJDK is the open-source implementation of the Java SE (Java Platform, Standard Edition) specification. In 2006, Java was open-sourced and the Open JDK community was established, and in April 2009, it was officially released to the public under the GPL v2 + Classpath Exception agreement. After Oracle acquired Sun in 2009, the original Sun JDK also became Oracle JDK, which is the closed-source implementation of the Java SE specification, and OpenJDK has become an important open-source choice. This topic will introduce the origin of OpenJDK, the comparison between OpenJDK and Oracle JDK, and the mainstream OpenJDK distribution versions.
+    - name: Industry Topic (Zhongchuang, Microsoft, Oracle, Baoland)
+      presenter: Jakarta EE Working Group Members
+      type: keynote
+      time: 17:50-18:10 GMT+08
+      abstract: |
+        A brief introduction to their respective companies by members of the Jakarta EE Working Group.
+    - name: Roundtable Discussion
+      presenter: Producer Zhang Jianfeng
+      type: roundtable
+      time: 18:10-18:30 GMT+08
+      abstract: |
+        All participating guests will engage in an in-depth discussion with everyone on topics of mutual interest, including the usage of Jakarta EE and Microprofile, and how the Java language can better exert productivity in the AI era.

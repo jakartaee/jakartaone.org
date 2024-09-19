@@ -10,7 +10,7 @@ container: "container-fluid"
 tagline: "9 de noviembre del 2023"
 description: "JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual, así como también, el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Esta es la tercerca edición del evento con contenido complementamente en español"
 layout: "single"
-menu_name: "hispano"
+menu_name: "spanish"
 tagline_suffix: |
     <div class="display-flex gap-10 margin-bottom-30">    
      <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartaone-11092023">
@@ -27,12 +27,28 @@ JakartaOne en Español es una conferencia virtual para desarrolladores y lídere
 técnicos que ofrece el estado actual, así como también, el futuro de Jakarta EE y tecnologías
 relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas
 para la nube. Esta es la tercera edición del evento con contenido
-complementamente en español.
-
+completamente en español.
     {{</ events/registration >}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+{{< grid/section-container id="sponsors" class="text-center margin-top-40">}}
+  {{< events/sponsors event="spanish" year="2023" title="Comunidades amigas" displayBecomeSponsor="false">}}
+{{</ grid/section-container >}}
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="spanish" year="2023" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add user carousel for speakers -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display event="spanish" year="2023"  source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Conferencistas" headerClass="text-center" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
 
 {{< events/program-committee event="spanish" year="2023"  source="committee" subpage="program-committee" title="Comité del Programa" useCarousel="false" >}}
 
@@ -42,3 +58,5 @@ voluntarios de la comunidad Jakarta® EE y Cloud Native Java!
 
 {{</ events/program-committee >}}
 
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
