@@ -28,7 +28,7 @@ tagline_suffix: |
 
 JakartaOne Livestream 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开发人员及技术负责人的线上会议，主要关注企业级Java应用云原生技术，探讨 Jakarta EE 技术发展现状及未来趋势。<br>
 
-在本次 JakartaOne Livestream 会议上，众多开发者将与全球顶级的技术专家、开发者共同探讨云原生时代的发展趋势，共同迈向云原生时代的关键里程碑！<br>
+本次盛会将带领我们了解JakartaEE规范最新进展，如何参与并开展TCK测试，深入了解JDK的历史，Java线程、协程的演进，采用JVM字节码增强技术构建应用可观测性，Java在AI时代的最新开发实践。
 
 无论是Java开发老手，还是新兴的云原生应用开发者，都将在本次 JakartaOne Livestream 技术盛宴中获得成长，机会难得！<br>
 
@@ -38,7 +38,28 @@ JakartaOne Livestream 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开
     {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+{{< grid/section-container id="sponsors" class="backdrop">}}
+  {{< events/sponsors event="chinese" year="2024" title="现场抽奖" displayBecomeSponsor="false" >}}
+{{</ grid/section-container >}}
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="chinese" year="2024" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2024" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="演讲人" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="chinese" year="2024"  source="committee" useCarousel="false">}}
-JakartaOne Livestream 会议的演讲主题和会议环节是由一个独立的筹备委员会确定的，委员会成员全部来自 Jakarta EE 和云原生 Java 社区，尤其是 Jakarta EE 中国社区。{{</ events/program-committee >}}
+JakartaOne Livestream 会议的演讲主题和会议环节是由一个独立的筹备委员会确定的，委员会成员全部来自 Jakarta EE 和云原生 Java 社区，尤其是 Jakarta EE 中国社区。
+{{</ events/program-committee >}}
 
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}

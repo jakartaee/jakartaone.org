@@ -1,0 +1,31 @@
+items:
+  - name: "Emily Jiang"
+    title: "MicroProfile and Jakarta EE Chief Architect @ IBM"
+    img: "emily_jiang.jpg"
+    bio: |
+      <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also active in Jakarta EE specifications. She is a co-lead in Jakarta Config and also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc.You can find her on Twitter @emilyfhjiang and LinkedIn.</p>
+  - name: "Peak Wong"
+    title: "Director of middleware products at AsiaInfo."
+    img: "peakwang.2023.jpg"
+    bio: |
+      <p>Since 2003, I have been engaged in programming of ISP system using Java language. I am mainly good at the technical architecture, performance analysis and design and construction of development framework of application system. In 2016, I started to develop application middleware, familiar with Jakarta EE, Micro Services, PaaS, SaaS in ISP system and so on. I want to build a business application platform that can built applications online on-demand.</p>
+  - name: "Wu Dashuai"
+    title: "Tongcheng Travel Technology Expert"
+    img: "wudashuai.2024.jpg"
+    bio: |
+     Tongcheng Travel Technology Expert. Previously worked at Dada and Taimei Medical, with rich experience in algorithms and engineering, having developed machine translation engines, dispatch systems, etc. Currently working in the Tongcheng Travel Business Group, responsible for the architectural design and development of real-time bus, central control service frameworks, and ticket booth-related systems.
+  - name: "Xu Qingkang"
+    title: "Solution Architect at Beijing Baland Software Co., Ltd."
+    img: "xuqingkang.2024.jpg"
+    bio: |
+     Solution Architect at Beijing Baolande Software Co., Ltd., responsible for the research and development of Baland middleware, as well as technical consultation and implementation of middleware, operation and maintenance monitoring, container cloud, and other products. With over 10 years of development experience, he has extensive experience in development technology stacks such as assembly, C, Java, and has many years of experience in the middleware technology field, familiar with middleware, operation and maintenance monitoring, Docker/K8s, and related technologies.
+  - name: "Liu Jun"
+    title: "Core Member of Alibaba Cloud Spring AI Alibaba"
+    img: "liujun.2024.jpg"
+    bio: |
+     Core Member of Alibaba Cloud Spring AI Alibaba, Apache Member
+  - name: "Kuang Yunxing"
+    title: "Director of Application Middleware Product Department at Kingdee Tianyan"
+    img: "kuangguangxing.2024.jpg"
+    bio: |
+     Currently working at Shenzhen Kingdee Tianyan Cloud Computing Co., Ltd., serving as the Director of the Application Middleware Product Department, mainly responsible for technical research and technical support of Kingdee Apusic application server.

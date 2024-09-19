@@ -25,6 +25,8 @@ Dear Java and Cloud-native technology enthusiasts, the JakartaOne Livestream Chi
 
 JakartaOne Livestream is an online conference organized by the Jakarta EE working group for developers and technical leaders, focusing on enterprise-level Java applications and cloud native technologies, discussing the current status and future trends of Jakarta EE technology development.
 
+This event will guide us through the latest developments in the Jakarta EE specification, how to participate in and conduct TCK testing, gain an in-depth understanding of the history of JDK, the evolution of Java threads and coroutines, build application observability using JVM bytecode enhancement techniques, and the latest development practices of Java in the AI era.
+
 At the JakartaOne Livestream conference, many developers and global top technology experts and developers will discuss the development trends of the cloud native era and move towards key milestones of the cloud native era together!
 
 Both seasoned Java developers or emerging cloud native application developers will gain insights from this JakartaOne Livestream technology event. 
@@ -35,9 +37,29 @@ The Chinese version of this meeting will be provided by [Jakarta EE China Commun
     {{</ grid/div >}}
 {{</ grid/section-container >}}
 
-<!-- Committee section -->
+
+{{< grid/section-container id="sponsors" class="backdrop">}}
+  {{< events/sponsors event="chinese" year="2024" title="Online Lucky Draw" displayBecomeSponsor="false" >}}
+{{</ grid/section-container >}}
+
+<!-- Add agenda using legacy CSS -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-top-40" >}}
+  {{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="chinese" year="2024" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2024" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="演讲人" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Add user carousel for committee -->
 {{< events/program-committee event="chinese" year="2024"  source="committee" useCarousel="false">}}
-We are proud to say that this year, sessions at JakartaOne Livestream Event are
-chosen by an independent program committee made up of volunteers from the
-Jakarta EE and cloud native Java community!
-{{</ events/program-committee >}}
+The speech topics and sessions of the Jakarta One Livestream conference were determined by an independent preparatory committee, with all committee members from the Jakarta EE and Cloud Native Java communities, especially the Jakarta EE China community.{{</ events/program-committee >}}
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
