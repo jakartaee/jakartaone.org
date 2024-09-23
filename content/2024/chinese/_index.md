@@ -10,8 +10,8 @@ tagline: "26 September 2024"
 layout: "single"
 tagline_suffix: |
   <div class="display-flex gap-10 margin-bottom-30">
-    <a class="btn btn-primary" href="https://www.wjx.cn/vm/OiTpQPV.aspx" target="_blank">
-      Call for Papers
+    <a class="btn btn-primary" href="https://meeting.tencent.com/dw/83rhRbomdYsC" target="_blank">
+      Registration
     </a>
   </div>
 ---
