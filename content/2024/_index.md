@@ -30,6 +30,16 @@ applications.
     {{</ grid/div >}}
 {{</ grid/section-container >}}
 
+<!-- Agenda section -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-y-40" >}}
+  {{< grid/div class="container" isMarkdown="false" >}}
+    {{< events/agenda year="2024" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Speakers section -->
+
 <!-- Committee section -->
 {{< events/program-committee title="Program Committee" year="2024" source="committee" displayLearnMore="false" useCarousel="false" >}}
 We are proud to say that this year, sessions at JakartaOne Livestream Event are
