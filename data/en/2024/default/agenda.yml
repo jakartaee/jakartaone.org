@@ -228,7 +228,7 @@ items:
     type: "session"
     time: "TBA"
     presenters:
-      - "Lukas Jungmann"
+      - "Gavin King"
     abstract: |
       <p>
         Jakarta Persistence Specification 3.2 targeting Jakarta EE 11 comes
