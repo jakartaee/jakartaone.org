@@ -5,7 +5,7 @@ headline: "JakartaOne Livestream 2024"
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-container: "container-fluid"
+container: "container-fluid hide-agenda-time"
 tagline: "3 December 2024"
 layout: "single"
 tagline_suffix: |
@@ -29,6 +29,16 @@ applications.
         {{</ events/registration >}}
     {{</ grid/div >}}
 {{</ grid/section-container >}}
+
+<!-- Agenda section -->
+{{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-y-40" >}}
+  {{< grid/div class="container" isMarkdown="false" >}}
+    {{< events/agenda year="2024" >}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Speakers section -->
 
 <!-- Committee section -->
 {{< events/program-committee title="Program Committee" year="2024" source="committee" displayLearnMore="false" useCarousel="false" >}}
