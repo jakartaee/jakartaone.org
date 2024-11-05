@@ -37,7 +37,7 @@ items:
       </p>
   - name: "Michael Redlich"
     title: "Java Champion, Director at Garden State JUG"
-    img: "daniel-kec.jpg"
+    img: "michael-redlich.jpg"
     bio: |
       <p>
         <i>
@@ -75,3 +75,31 @@ items:
         AudioCodes) where he provided technical support and developed telephony
         applications for customers.
       </p>
+  - name: "Ondro Mihályi"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Werner Keil"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Phillip Krüger"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Matt Pavlovich"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Otávio Santana"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Steve Millidge"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Gavin King"
+    title: ""
+    img: null
+    bio: ""
