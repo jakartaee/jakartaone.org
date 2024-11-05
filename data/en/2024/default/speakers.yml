@@ -1,0 +1,105 @@
+items:
+  - name: "Buhake Sindi"
+    title: "Senior Solutions Architect, Sindi Technologies (PTY) LTD" 
+    img: "buhake-sindi.jpg" 
+    twitter: "EliteGentleman"
+    bio: |
+      <p>
+        Buhake Sindi brings over 18 years of experience as a Senior Solutions
+        Architect and Advocate, specialising in Java Enterprise technology
+        stacks. His extensive background in coding, design, and problem-solving
+        is complemented by his role as a skilled DevOps Engineer, with 10+
+        years of hands-on experience in optimising and automating deployments.
+        Buhake excels in translating project requirements into technical
+        specifications and delivering robust, scalable solutions. His passion
+        for technology and ability to communicate complex concepts clearly has
+        made him a sought-after technical speaker and writer. Buhake's
+        dedication to mentoring and guiding developers positions him as an
+        influential advocate for cutting-edge development practices in
+        corporate environments.
+      </p>
+      <p>
+        He founded Devoxx4Kids South Africa, a multi-award, registered
+        Non-Profit Organisation that introduces and inspires young into STEM,
+        particularly programming, in a fun way.
+      </p>
+      <p>
+        Outside of work, he occasionally makes music or creates podcast
+        episodes, writes blogs, and is an avid runner.
+      </p>
+  - name: "Daniel Kec"
+    title: "Helidon Developer, Oracle"
+    img: "daniel-kec.jpg"
+    bio: |
+      <p>
+        After years of exploring all sides of Java in various companies landed
+        in a great team that develops Helidon.
+      </p>
+  - name: "Michael Redlich"
+    title: "Java Champion, Director at Garden State JUG"
+    img: "michael-redlich.jpg"
+    bio: |
+      <p>
+        <i>
+          Titles: Java Champion, Director at Garden State JUG, Lead Java Editor
+          at InfoQ Java, Contract Developer Advocate and Technical Writer at
+          Payara
+        </i>
+      </p>
+      <p>
+        Michael Redlich has been an active member within the Java community
+        for the past 25 years. He founded the Garden State Java User Group
+        (formerly the ACGNJ Java Users Group) in 2001 where he serves as one of
+        the directors. Since 2016, Mike has served as a Java community news
+        editor for InfoQ where his contributions include the weekly Java news
+        roundup, news items, technical articles and technical reviews from
+        external authors. He is currently the lead Java Queue editor. Mike
+        joined Payara as a contract Developer Advocate and Technical Writer in
+        the summer of 2023.
+      </p>
+      <p>
+        He has presented at venues such as Devnexus, Oracle Code One, JCON
+        World, Emerging Technologies for the Enterprise, Trenton Computer
+        Festival (TCF), TCF IT Professional Conference, and numerous Java User
+        Groups. Mike serves as a committer on the Jakarta NoSQL and Jakarta
+        Data specifications and the Eclipse JNoSQL project. He also
+        participates on the leadership council of the Jakarta EE Ambassadors.
+        Mike was named a Java Champion in April 2023.
+      </p>
+      <p>
+        Mike retired from ExxonMobil Technology & Engineering in June 2023 with
+        33½ years of service. His experience included developing custom
+        scientific laboratory and web applications, polymer physics,
+        chemometrics, infrared spectroscopy and automotive testing. He also has
+        experience as a Technical Support Engineer at Ai-Logix, Inc. (now
+        AudioCodes) where he provided technical support and developed telephony
+        applications for customers.
+      </p>
+  - name: "Ondro Mihályi"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Werner Keil"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Phillip Krüger"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Matt Pavlovich"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Otávio Santana"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Steve Millidge"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Gavin King"
+    title: ""
+    img: null
+    bio: ""

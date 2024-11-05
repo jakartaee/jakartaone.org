@@ -39,6 +39,11 @@ applications.
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
 
 <!-- Speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-y-40 text-center" displayLearnMore="false" >}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2024" source="speakers" subpage="speakers" useCarousel="true" imageRoot="./images/speakers/" title="Speakers" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
 
 <!-- Committee section -->
 {{< events/program-committee title="Program Committee" year="2024" source="committee" displayLearnMore="false" useCarousel="false" >}}
