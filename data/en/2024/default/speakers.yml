@@ -148,10 +148,6 @@ items:
         technologies. Steve has a keen interest in non-functional attributes of
         big scale Java.
       </p>
-  - name: "Gavin King"
-    title: ""
-    img: null
-    bio: ""
   - name: "Nathan Rauh"
     title: "Software Engineer, IBM"
     img: "nathan-rauh.jpg"
@@ -223,6 +219,10 @@ items:
         (2013). To learn more about his books or projects, you can visit his
         website at <a href="https://ridingthecrest.com/">ridingthecrest.com</a>.
       </p>
+  - name: "Gavin King"
+    title: ""
+    img: null
+    bio: ""
   - name: "Werner Keil"
     title: ""
     img: null
