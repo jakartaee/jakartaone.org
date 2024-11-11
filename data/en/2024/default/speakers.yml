@@ -93,18 +93,6 @@ items:
         specification projects. He’s a frequent conference speaker, leader of
         the Czech JUG, and a Java Champion.
       </p>
-  - name: "Werner Keil"
-    title: ""
-    img: null
-    bio: ""
-  - name: "Phillip Krüger"
-    title: ""
-    img: null
-    bio: ""
-  - name: "Matt Pavlovich"
-    title: ""
-    img: null
-    bio: ""
   - name: "Otávio Santana"
     title: "Software Engineer, Architect, and Open Source Committer"
     img: "otavio-santana.jpg"
@@ -235,3 +223,15 @@ items:
         (2013). To learn more about his books or projects, you can visit his
         website at <a href="https://ridingthecrest.com/">ridingthecrest.com</a>.
       </p>
+  - name: "Werner Keil"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Phillip Krüger"
+    title: ""
+    img: null
+    bio: ""
+  - name: "Matt Pavlovich"
+    title: ""
+    img: null
+    bio: ""
