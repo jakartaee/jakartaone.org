@@ -220,11 +220,36 @@ items:
         (2013). To learn more about his books or projects, you can visit his
         website at <a href="https://ridingthecrest.com/">ridingthecrest.com</a>.
       </p>
-  - name: "Gavin King"
-    title: ""
-    img: null
-    bio: ""
   - name: "Werner Keil"
+    title: "Director, CATMedia"
+    img: "werner-keil.jpg"
+    twitter_handle: "wernerwedge"
+    bio: |
+      <p>
+        Werner Keil is a Cloud-Native, Jakarta EE and Security expert. Helping
+        Global 500 Enterprises across industries and leading IT vendors.
+      </p>
+      <p>
+        He worked for over 30 years as IT Manager, PM, Coach, SW architect,
+        developer and consultant for Finance, Mobile, Media, Transport and
+        Public sector.
+      </p>
+      <p>
+        Werner develops enterprise systems using Java, Java/Jakarta EE, Oracle,
+        IBM, Spring or Microsoft technologies, JavaScript, Node, Angular,
+        dynamic or functional languages.
+      </p>
+      <p>
+        Werner is Committer at Apache Foundation, Eclipse Foundation, Babel
+        Language Champion, UOMo Project Lead and active member of the Java
+        Community Process in JSRs like 354 (Money, also Maintenance Lead),
+        358/364 (JCP.next), 363 (Unit-API 1), 365 (CDI 2), 366 (Java EE 8), 375
+        (Java EE Security), 380 (Bean Validation 2), 385 (Unit-API 2, also Spec
+        Lead) and was the longest serving Individual Member of the Executive
+        Committee for 9 years in a row till 2017. Werner is currently the
+        Committer representative in the Jakarta EE Specification Committee.
+      </p>
+  - name: "Gavin King"
     title: ""
     img: null
     bio: ""
