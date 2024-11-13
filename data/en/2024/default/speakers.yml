@@ -249,19 +249,43 @@ items:
         Committee for 9 years in a row till 2017. Werner is currently the
         Committer representative in the Jakarta EE Specification Committee.
       </p>
+  - name: "Daichi Aoshima"
+    title: "Fujitsu's Approach to Java, Fujitsu Limited"
+    img: "daichi-aoshima.jpg"
+    bio: |
+      <p>
+        I joined Fujitsu Limited in 2017 and have been in charge of technical
+        sales for "Interstage Application Server" and "Enterprise Application
+        Platform" since 2021.
+      </p>
+      <p>
+        I also conduct webinars to promote Jakarta EE and MicroProfile.
+      </p>
+  - name: "Phillip Krüger"
+    title: "Software Engineer, Red Hat"
+    img: "phillip-kruger.jpg"
+    bio: |
+      <p>
+        Hey, I’m Phillip. I’m a Software Engineer living in Victoria,
+        Australia.
+      </p>
+      <p>
+        I work for Red Hat, where I spend most of my time on MicroProfile,
+        SmallRye and Quarkus.
+      </p>
+      <p>
+        I am a fan of technology, coffee and programming. I love dogs and
+        music. To keep active I play squash. I was lucky enough to marry my
+        best friend, Charmaine. She is also a geek :)
+      </p>
+      <p>
+        <a href="https://www.phillip-kruger.com/about">phillip-kruger.com/about</a>
+      </p>
   - name: "Gavin King"
     title: ""
     img: null
     bio: ""
-  - name: "Phillip Krüger"
-    title: ""
-    img: null
-    bio: ""
   - name: "Matt Pavlovich"
-    title: ""
-    img: null
-    bio: ""
-  - name: "Daichi Aoshima"
     title: ""
     img: null
     bio: ""
