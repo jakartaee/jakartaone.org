@@ -34,6 +34,7 @@ applications.
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-y-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/agenda year="2024" >}}
+    <i class="fa fa-clock-o" aria-hidden="true"></i> Timings are shown in <em>Central European Time (CET)</em>
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}

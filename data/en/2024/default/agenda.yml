@@ -9,7 +9,7 @@ types:
 items:
   - name: "Why Jakarta EE is the Best Platform for the Apps of the Future"
     type: "session"
-    time: "TBA"
+    time: "7:00 - 7:45"
     presenters:
       - "Steve Millidge"
     abstract: |
@@ -35,7 +35,7 @@ items:
       </p>
   - name: "Jakarta EE Meets AI"
     type: "session"
-    time: "TBA"
+    time: "8:00 - 8:45"
     presenters:
       - "Buhake Sindi"
     abstract: |
@@ -56,7 +56,7 @@ items:
       </p>
   - name: "Demystifying Java Virtual Threads - lessons learned from using them in GlassFish"
     type: "session"
-    time: "TBA"
+    time: "9:00 - 9:45"
     presenters:
       - "Ondro Mihályi"
     abstract: |
@@ -83,7 +83,7 @@ items:
       </p>
   - name: "Security in Jakarta EE 11"
     type: "session"
-    time: "TBA"
+    time: "10:00 - 10:45"
     presenters:
       - "Werner Keil"
     abstract: |
@@ -106,7 +106,7 @@ items:
       </ul>
   - name: "What's new in Persistence 3.2 for Jakarta EE 11"
     type: "session"
-    time: "TBA"
+    time: "11:00 - 11:45"
     presenters:
       - "Gavin King"
     abstract: |
@@ -119,7 +119,7 @@ items:
       </p>
   - name: "Industry Keynote"
     type: "keynote"
-    time: "TBA"
+    time: "12:00 - 12:50"
     presenters:
       - "Reza Rahman"
       - "Daichi Aoshima"
@@ -128,7 +128,7 @@ items:
       - "Louise Castens"
   - name: "Jakarta EE Core Profile on Virtual Threads" 
     type: "session"
-    time: "TBA"
+    time: "13:00 - 13:45"
     presenters:
       - "Daniel Kec"
     abstract: |
@@ -142,7 +142,7 @@ items:
       </p>
   - name: "Harnessing Jakarta Data for Domain-Driven Design in Enterprise Java"
     type: "session"
-    time: "TBA"
+    time: "14:00 - 14:45"
     presenters:
       - "Nathan Rauh"
       - "Otávio Santana"
@@ -168,7 +168,7 @@ items:
       </p>
   - name: "Migrating ActiveMQ to Jakarta EE"
     type: "session"
-    time: "TBA"
+    time: "15:00 - 15:45"
     presenters:
       - "Matt Pavlovich"
     abstract: |
@@ -190,7 +190,7 @@ items:
       </p>
   - name: "Writing Queryable APIs with MicroProfile GraphQL"
     type: "session"
-    time: "TBA"
+    time: "16:00 - 16:45"
     presenters:
       - "Phillip Krüger"
     abstract: |
@@ -222,7 +222,7 @@ items:
       </ul>
   - name: "A Developer's Guide to Jakarta EE 11"
     type: "session"
-    time: "TBA"
+    time: "17:00 - 17:45"
     presenters:
       - "Michael Redlich"
     abstract: |
