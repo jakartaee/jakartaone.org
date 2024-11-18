@@ -5,7 +5,7 @@ headline: "JakartaOne Livestream 2024"
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-container: "container-fluid hide-agenda-time"
+container: "container-fluid"
 tagline: "3 December 2024"
 layout: "single"
 tagline_suffix: |
@@ -34,6 +34,7 @@ applications.
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-y-40" >}}
   {{< grid/div class="container" isMarkdown="false" >}}
     {{< events/agenda year="2024" >}}
+    <i class="fa fa-clock-o" aria-hidden="true"></i> Timings are shown in <em>Central European Time (CET)</em>
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 {{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}

@@ -201,25 +201,6 @@ items:
         Summa Cum Laude with a double major in Computer Science and Economics
         as well as a minor in Mathematics.
       </p>
-  - name: "Ed Burns"
-    title: "Principal Architect, Microsoft"
-    img: "ed-burns.jpg"
-    twitter_handle: "edburns"
-    bio: |
-      <p>
-        Ed Burns is currently Principal Architect on the Java Tooling and
-        Experiences team at Microsoft. In this role, Ed will help make Azure the
-        best place for Enterprise Java. Ed has worked on a wide variety of client
-        and server side web technologies since 1994, including NCSA Mosaic,
-        Netscape 6, Mozilla, the Sun Java Plugin, Jakarta Tomcat and JavaServer
-        Faces, and the Servlet specification. Ed has lead or co-lead the expert
-        groups for Servlet and JavaServer Faces. Ed has published four books with
-        McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the
-        Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The
-        Complete Reference (2010) and Hudson Continuous Integration In Practice
-        (2013). To learn more about his books or projects, you can visit his
-        website at <a href="https://ridingthecrest.com/">ridingthecrest.com</a>.
-      </p>
   - name: "Werner Keil"
     title: "Director, CATMedia"
     img: "werner-keil.jpg"
@@ -282,9 +263,33 @@ items:
         <a href="https://www.phillip-kruger.com/about">phillip-kruger.com/about</a>
       </p>
   - name: "Gavin King"
-    title: ""
+    title: "Senior Distinguished Engineer, Red Hat / Commonhaus Foundation"
+    img: "gavin-king.jpg"
+    bio: |
+      <p>
+        Gavin King is a Java Champion and Distinguished Engineer at Red Hat.
+        He's the creator of Hibernate, the most popular persistence solution
+        for Java, and of the Ceylon programming language. He contributed to the
+        Java Community Process as JBoss and then Red Hat representative for the
+        EJB3 and JPA specifications and as spec lead and author of the CDI
+        specification. He's currently a major contributor to the design of
+        Jakarta Data and Jakarta Persistence, and an EGC representative for the
+        Commonhaus Foundation.
+      </p>
+  - name: "Louise Castens"
+    title: "Senior Product Manager, Payara"
     img: null
-    bio: ""
+    bio: |
+      <p>
+        Louise Castens is a Senior Product Manager and Product Lead at Payara,
+        and she is committed to helping shape technology solutions that deliver
+        value to end users. Louise has more than 15 years of experience in
+        Product Management - identifying opportunities, delivering quality
+        solutions, sustained results and effective change for businesses and
+        clients across a wide range of B2B and SaaS products and industries.
+        With a business background, some of her specialties and certifications
+        include Agile frameworks, Business Analysis and Process optimization.
+      </p>
   - name: "Matt Pavlovich"
     title: ""
     img: null
