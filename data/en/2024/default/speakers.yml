@@ -282,9 +282,19 @@ items:
         <a href="https://www.phillip-kruger.com/about">phillip-kruger.com/about</a>
       </p>
   - name: "Gavin King"
-    title: ""
-    img: null
-    bio: ""
+    title: "Senior Distinguished Engineer, Red Hat / Commonhaus Foundation"
+    img: "gavin-king.jpg"
+    bio: |
+      <p>
+        Gavin King is a Java Champion and Distinguished Engineer at Red Hat.
+        He's the creator of Hibernate, the most popular persistence solution
+        for Java, and of the Ceylon programming language. He contributed to the
+        Java Community Process as JBoss and then Red Hat representative for the
+        EJB3 and JPA specifications and as spec lead and author of the CDI
+        specification. He's currently a major contributor to the design of
+        Jakarta Data and Jakarta Persistence, and an EGC representative for the
+        Commonhaus Foundation.
+      </p>
   - name: "Matt Pavlovich"
     title: ""
     img: null
