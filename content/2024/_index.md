@@ -5,7 +5,7 @@ headline: "JakartaOne Livestream 2024"
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
-container: "container-fluid hide-agenda-time"
+container: "container-fluid"
 tagline: "3 December 2024"
 layout: "single"
 tagline_suffix: |
