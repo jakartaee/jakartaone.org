@@ -8,28 +8,28 @@ hide_breadcrumb: true
 container: "container-fluid"
 tagline: "26 September 2024"
 layout: "single"
-tagline_suffix: |
-  <div class="display-flex gap-10 margin-bottom-30">
-    <a class="btn btn-primary" href="https://meeting.tencent.com/dw/83rhRbomdYsC" target="_blank">
-      Registration
-    </a>
-  </div>
+
 ---
 
 <!-- Registration section -->
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
     {{< grid/div class="container" isMarkdown="false" >}}
-        {{< events/registration year="2024" >}}
-Dear Java and Cloud-native technology enthusiasts, the JakartaOne Livestream Chinese conference 2024 is comming!
+        {{< events/registration event="chinese" year="2024" >}}
+Dear Java and Cloud-native technology enthusiasts,
 
-JakartaOne Livestream is an online conference organized by the Jakarta EE working group for developers and technical leaders, focusing on enterprise-level Java applications and cloud native technologies, discussing the current status and future trends of Jakarta EE technology development.
+We are pleased to share with you a summary of the recently concluded JakartaOne Livestream Chinese conference 2024, an online gathering that brought together a vibrant community of developers and technical leaders.
 
-This event will guide us through the latest developments in the Jakarta EE specification, how to participate in and conduct TCK testing, gain an in-depth understanding of the history of JDK, the evolution of Java threads and coroutines, build application observability using JVM bytecode enhancement techniques, and the latest development practices of Java in the AI era.
+The JakartaOne Livestream, organized by the Jakarta EE working group, was a resounding success, focusing on enterprise-level Java applications and cloud native technologies. It was a platform where the current status and future trends of Jakarta EE technology development were thoroughly discussed and dissected.
 
-At the JakartaOne Livestream conference, many developers and global top technology experts and developers will discuss the development trends of the cloud native era and move towards key milestones of the cloud native era together!
+During this event, we had the opportunity to explore the latest developments in the Jakarta EE specification, delving into the intricacies of how to participate in and conduct TCK testing. We gained an in-depth understanding of the history of JDK, the evolution of Java threads and coroutines, and how to build application observability using JVM bytecode enhancement techniques. Additionally, we discussed the latest development practices of Java in the AI era, which was a highlight for many.
 
-Both seasoned Java developers or emerging cloud native application developers will gain insights from this JakartaOne Livestream technology event. 
+The conference was a melting pot of ideas, with many developers and global top technology experts coming together to discuss the development trends of the cloud native era. Together, we moved towards key milestones of the cloud native era, sharing insights and charting a course for future advancements.
+
+Both seasoned Java developers and emerging cloud native application developers found the JakartaOne Livestream to be an insightful and enriching experience. The event has successfully concluded, leaving a lasting impact on all who participated, and we look forward to building on the knowledge and connections made during this conference.
+
+Thank you for your participation, and we hope to see you at the next JakartaOne Livestream event.
+
 
 The Chinese version of this meeting will be provided by [Jakarta EE China Community](https://jakarta.ee/zh/community/china/). Sponsored by the Eclipse Foundation and initiated by Primeton Information, the Jakarta EE China Community is jointly built and developed by enterprises such as AsiaInfo, IBM, Tongtech, Kingdee, Cvicse, UseOpen, and Baolande as well as individual developers. It is committed to promoting Jakarta EE's awareness and technology sharing in the Greater China region.
 
@@ -52,7 +52,7 @@ The Chinese version of this meeting will be provided by [Jakarta EE China Commun
 <!-- Add speakers section -->
 {{< grid/section-container id="speakers" class="speaker-container text-center">}}
   {{< grid/div class="padding-top-40" isMarkdown="false">}}
-    {{< events/user_display year="2024" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="演讲人" headerClass="text-left" />}}
+    {{< events/user_display year="2024" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
   {{</ grid/div >}}
 {{</ grid/section-container >}}
 
