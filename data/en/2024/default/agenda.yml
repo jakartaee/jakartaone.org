@@ -214,36 +214,9 @@ items:
     time: "14:45 - 15:00"
     presenters:
       - "Hosted by: Shabnam, Tanja, & Ivar"
-  - name: "Migrating ActiveMQ to Jakarta EE"
-    type: "session"
-    time: "15:00 - 15:45"
-    presenters:
-      - "Matt Pavlovich"
-    abstract: |
-      <p>
-        ActiveMQ is widely adopted for event-driven, messaging and integration
-        infrastructure for Java (and non-Java) applications. ActiveMQ’s
-        stability and robustness have made it a favorite of event-driven
-        developers to “set it and forget it”.
-      </p>
-      <p>
-        Migrating ActiveMQ to provide a Jakarta EE-based release required
-        modernization and paying down of technical debt. This talk will
-        deep-dive into the technical requirements and (mis)steps taken to
-        modernize a large code base to Jakarta EE.
-      </p>
-      <p>
-        ActiveMQ 6.x release stream is Jakarta EE-based and modernization
-        continues.
-      </p>
-  - name: "Studio Jakarta EE"
-    type: "studio"
-    time: "15:45 - 16:00"
-    presenters:
-      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Writing Queryable APIs with MicroProfile GraphQL"
     type: "session"
-    time: "16:00 - 16:45"
+    time: "15:00 - 15:45"
     presenters:
       - "Phillip Krüger"
     abstract: |
@@ -273,6 +246,33 @@ items:
         <li>Error Handling</li>
         <li>Introspections</li>
       </ul>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "15:45 - 16:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+  - name: "Migrating ActiveMQ to Jakarta EE"
+    type: "session"
+    time: "16:00 - 16:45"
+    presenters:
+      - "Matt Pavlovich"
+    abstract: |
+      <p>
+        ActiveMQ is widely adopted for event-driven, messaging and integration
+        infrastructure for Java (and non-Java) applications. ActiveMQ’s
+        stability and robustness have made it a favorite of event-driven
+        developers to “set it and forget it”.
+      </p>
+      <p>
+        Migrating ActiveMQ to provide a Jakarta EE-based release required
+        modernization and paying down of technical debt. This talk will
+        deep-dive into the technical requirements and (mis)steps taken to
+        modernize a large code base to Jakarta EE.
+      </p>
+      <p>
+        ActiveMQ 6.x release stream is Jakarta EE-based and modernization
+        continues.
+      </p>
   - name: "Studio Jakarta EE"
     type: "studio"
     time: "16:45 - 17:00"
