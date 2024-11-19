@@ -6,7 +6,15 @@ types:
   - name: "Session"
     id: "session"
     color: "#4A86E8"
+  - name: "Studio Jakarta EE"
+    id: "studio"
+    color: "#B7B7B7"
 items:
+  - name: "Welcome Session"
+    type: "studio"
+    time: "6:45 - 7:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Why Jakarta EE is the Best Platform for the Apps of the Future"
     type: "session"
     time: "7:00 - 7:45"
@@ -33,6 +41,11 @@ items:
         Ultimately, by relying on Jakarta EE developers and users can benefit
         from long-term success.
       </p>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "7:45 - 8:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Jakarta EE Meets AI"
     type: "session"
     time: "8:00 - 8:45"
@@ -54,6 +67,11 @@ items:
         with Spring AI on Spring Boot, and recently on Quarkus). A code demo with
         examples will be shown.
       </p>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "8:45 - 9:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Demystifying Java Virtual Threads - lessons learned from using them in GlassFish"
     type: "session"
     time: "9:00 - 9:45"
@@ -81,6 +99,11 @@ items:
         that you can start using virtual threads right now with peace in your
         mind.
       </p>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "9:45 - 10:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Security in Jakarta EE 11"
     type: "session"
     time: "10:00 - 10:45"
@@ -104,6 +127,11 @@ items:
         <li>Easily adding an interceptor to a built-in CDI bean</li>
         <li>Authorization modules</li>
       </ul>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "10:45 - 11:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "What's new in Persistence 3.2 for Jakarta EE 11"
     type: "session"
     time: "11:00 - 11:45"
@@ -117,6 +145,11 @@ items:
         explore changes improving usability, type safety, testability and other
         areas.
       </p>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "11:45 - 12:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Industry Keynote"
     type: "keynote"
     time: "12:00 - 12:50"
@@ -126,6 +159,11 @@ items:
       - "Emily Jiang"
       - "Will Lyons"
       - "Louise Castens"
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "12:50 - 13:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Jakarta EE Core Profile on Virtual Threads" 
     type: "session"
     time: "13:00 - 13:45"
@@ -140,6 +178,11 @@ items:
         offloading from reactive handlers, but a clean imperative server powering
         imperative Jakarta APIs.
       </p>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "13:45 - 14:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Harnessing Jakarta Data for Domain-Driven Design in Enterprise Java"
     type: "session"
     time: "14:00 - 14:45"
@@ -166,31 +209,14 @@ items:
         tools to elevate your enterprise architecture through the power of
         Jakarta Data and DDD.
       </p>
-  - name: "Migrating ActiveMQ to Jakarta EE"
-    type: "session"
-    time: "15:00 - 15:45"
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "14:45 - 15:00"
     presenters:
-      - "Matt Pavlovich"
-    abstract: |
-      <p>
-        ActiveMQ is widely adopted for event-driven, messaging and integration
-        infrastructure for Java (and non-Java) applications. ActiveMQ’s
-        stability and robustness have made it a favorite of event-driven
-        developers to “set it and forget it”.
-      </p>
-      <p>
-        Migrating ActiveMQ to provide a Jakarta EE-based release required
-        modernization and paying down of technical debt. This talk will
-        deep-dive into the technical requirements and (mis)steps taken to
-        modernize a large code base to Jakarta EE.
-      </p>
-      <p>
-        ActiveMQ 6.x release stream is Jakarta EE-based and modernization
-        continues.
-      </p>
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "Writing Queryable APIs with MicroProfile GraphQL"
     type: "session"
-    time: "16:00 - 16:45"
+    time: "15:00 - 15:45"
     presenters:
       - "Phillip Krüger"
     abstract: |
@@ -220,6 +246,38 @@ items:
         <li>Error Handling</li>
         <li>Introspections</li>
       </ul>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "15:45 - 16:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+  - name: "Migrating ActiveMQ to Jakarta EE"
+    type: "session"
+    time: "16:00 - 16:45"
+    presenters:
+      - "Matt Pavlovich"
+    abstract: |
+      <p>
+        ActiveMQ is widely adopted for event-driven, messaging and integration
+        infrastructure for Java (and non-Java) applications. ActiveMQ’s
+        stability and robustness have made it a favorite of event-driven
+        developers to “set it and forget it”.
+      </p>
+      <p>
+        Migrating ActiveMQ to provide a Jakarta EE-based release required
+        modernization and paying down of technical debt. This talk will
+        deep-dive into the technical requirements and (mis)steps taken to
+        modernize a large code base to Jakarta EE.
+      </p>
+      <p>
+        ActiveMQ 6.x release stream is Jakarta EE-based and modernization
+        continues.
+      </p>
+  - name: "Studio Jakarta EE"
+    type: "studio"
+    time: "16:45 - 17:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
   - name: "A Developer's Guide to Jakarta EE 11"
     type: "session"
     time: "17:00 - 17:45"
@@ -244,3 +302,8 @@ items:
         specifications with working example applications that are available on
         GitHub.
       </p>
+  - name: "Closing"
+    type: "studio"
+    time: "17:45 - 18:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
