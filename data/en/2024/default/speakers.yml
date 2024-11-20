@@ -276,6 +276,20 @@ items:
         Jakarta Data and Jakarta Persistence, and an EGC representative for the
         Commonhaus Foundation.
       </p>
+  - name: "Will Lyons"
+    title: "VP of Product Management for Enterprise Cloud Native Java, Oracle"
+    img: "will-lyons.jpg"
+    bio: |
+      <p>
+        Will Lyons is vice president of product management for Enterprise Cloud
+        Native Java at Oracle. He has over 20 years of experience working with
+        customers using enterprise software and cloud technologies. Will has
+        extensive knowledge of Oracle’s Enterprise Cloud Native Java
+        capabilities, including WebLogic Server, WebLogic Server for OCI and
+        OKE, Coherence and Helidon, and their integration with Oracle Fusion
+        Middleware, Oracle Applications, Oracle Database, OCI, Kubernetes, and
+        Jakarta EE.
+      </p>
   - name: "Louise Castens"
     title: "Senior Product Manager, Payara"
     img: null
@@ -295,10 +309,6 @@ items:
     img: null
     bio: ""
   - name: "Emily Jiang"
-    title: ""
-    img: null
-    bio: ""
-  - name: "Will Lyons"
     title: ""
     img: null
     bio: ""
