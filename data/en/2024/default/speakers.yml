@@ -127,27 +127,6 @@ items:
         languages. He speaks Portuguese, English, Spanish, Italian, and French
         fluently in dad jokes.
       </p>
-  - name: "Steve Millidge"
-    title: "CEO and Co-Founder, Payara Services"
-    img: "steve-millidge.jpg"
-    bio: |
-      <p>
-        Steve Millidge is the founder, CEO and Technical Director of Payara
-        Services. He is an expert in Java EE, Jakarta EE and MicroProfile, and
-        a Project Lead for the Eclipse Foundation GlassFish and Jakarta EE
-        platforms. Steve has spoken at a number of events about the performance
-        and scalability of Java systems, including Java One, JBoss World, UK
-        Oracle User Group Conference and Special Interest Groups, JaxLondon,
-        GeeCon, EclipseCon, and Jakarta EE LiveStream. He regularly presents
-        technical workshops and webinars on Jakarta EE, MicroProfile and big
-        scale Java. Steve has been working with Java since pre-1.0 and has
-        worked on large scale distributed applications and application servers
-        since the 1990s. Before founding Payara Services, Steve ran a
-        consultancy company providing advice and guidance on architecting,
-        building and running at scale large web applications on Java
-        technologies. Steve has a keen interest in non-functional attributes of
-        big scale Java.
-      </p>
   - name: "Nathan Rauh"
     title: "Software Engineer, IBM"
     img: "nathan-rauh.jpg"
