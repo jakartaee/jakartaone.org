@@ -271,7 +271,7 @@ items:
       </p>
   - name: "Louise Castens"
     title: "Senior Product Manager, Payara"
-    img: null
+    img: "louise-castens.jpg"
     bio: |
       <p>
         Louise Castens is a Senior Product Manager and Product Lead at Payara,
@@ -283,11 +283,27 @@ items:
         With a business background, some of her specialties and certifications
         include Agile frameworks, Business Analysis and Process optimization.
       </p>
+  - name: "Arjan Tijms"
+    title: "Director, OmniFish"
+    img: "arjan-tijms.png"
+    twitter_handle: "arjan_tijms"
+    bio: |
+      <p>
+        Arjan Tijms is the co-founder of Jakarta EE support company OmniFish,
+        and is currently project lead for a number of Jakarta projects
+        including Jakarta- Security, Authentication, Authorization, Faces and
+        Expression Language. He is the co-creator of the popular OmniFaces
+        library for JSF that was a 2015 Duke’s Choice Award winner, and is the
+        author of three books on Jakarta EE. He has been active as an EG member
+        under the JCP for JSF (JSR 372) and Security API (JSR 375), and has
+        participated as a member in the Jakarta EE Steering and Specification
+        committees.
+      </p>
   - name: "Matt Pavlovich"
     title: ""
-    img: null
+    img: "matt-pavlovich.jpg"
     bio: ""
   - name: "Emily Jiang"
     title: ""
-    img: null
+    img: "emily-jiang.jpg"
     bio: ""
