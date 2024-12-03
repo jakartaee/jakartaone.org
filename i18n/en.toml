@@ -56,7 +56,7 @@ other = "Presenter Name"
 other = "Session Recording"
 
 [agenda-session-schedule]
-other = "Scheduled Time"
+other = "Scheduled Time (Eastern Time)"
 
 [agenda-session-recording-button-alt]
 other = "Session video for session {{ .name }}"
