@@ -8,12 +8,6 @@ hide_breadcrumb: true
 container: "container-fluid"
 tagline: "3 December 2024"
 layout: "single"
-tagline_suffix: |
-  <div class="display-flex gap-10 margin-bottom-30">
-    <a class="btn btn-primary" href="https://www.crowdcast.io/c/jakartaone-120324">
-      Register 
-    </a>
-  </div>
 ---
 
 <!-- Registration section -->
@@ -21,12 +15,6 @@ tagline_suffix: |
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
     {{< grid/div class="container" isMarkdown="false" >}}
         {{< events/registration year="2024" >}}
-JakartaOne Livestream is a one day virtual conference for developers
-and technical business leaders that brings insights into the current
-state and future of Jakarta EE and related technologies focused on
-developing cloud native technologies for enterprise Java
-applications.
-        {{</ events/registration >}}
     {{</ grid/div >}}
 {{</ grid/section-container >}}
 
