@@ -16,7 +16,7 @@
         {{ if (time .end_date).After now }}
         {{ $count = add $count 1 }}
         <tr>
-          <td>{{ .date }}</td>
+          <td class="padding-left-5">{{ .date }}</td>
           <td><a href="{{ .url }}">{{ if .icon }}<i class="{{ .icon }} margin-right-10" aria-hidden="true"></i>{{ end }}{{ .name }}
           </a></td>
         </tr>
