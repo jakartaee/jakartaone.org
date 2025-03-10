@@ -1,5 +1,16 @@
 items:
   -  
+    name: JakartaOne Livestream 2025
+    location: Canada
+    date: 2 December 2025
+    start_date: 2025-12-02
+    end_date: 2025-12-03
+    url: /2025/
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone-2022.png
+    description: 
+  -  
     name: JakartaOne Livestream Chinese 2024
     location: China
     date: 26 September 2024
