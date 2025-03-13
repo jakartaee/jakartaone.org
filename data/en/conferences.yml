@@ -1,5 +1,15 @@
 items:
   -  
+    name: JakartaOne Livestream Chinese 2025
+    date: 25 September 2025
+    start_date: 2025-09-25
+    end_date: 2025-09-26
+    url: /2025/chinese
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    description: 
+  -  
     name: JakartaOne Livestream 2025
     date: 2 December 2025
     start_date: 2025-12-02
@@ -7,7 +17,7 @@ items:
     url: /2025/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -  
     name: JakartaOne Livestream Chinese 2024
@@ -17,7 +27,7 @@ items:
     url: /2024/chinese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -  
     name: JakartaOne Livestream 2024
@@ -27,7 +37,7 @@ items:
     url: /2024/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -  
     name: JakartaOne Livestream Portuguese
@@ -37,7 +47,7 @@ items:
     url: /2024/portuguese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   - 
     name: JakartaOne Livestream Chinese
@@ -47,7 +57,7 @@ items:
     url: /zh/2023/chinese/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -
     name: JakartaOne Livestream Spanish
@@ -57,7 +67,7 @@ items:
     url: /2023/spanish
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   - 
     name: JakartaOne Livestream 2023
@@ -67,7 +77,7 @@ items:
     url: /2023/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -
     name: JakartaOne Livestream German
@@ -117,7 +127,7 @@ items:
     url: /2022
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     icon: fa fa-rocket
     description: 
   -
