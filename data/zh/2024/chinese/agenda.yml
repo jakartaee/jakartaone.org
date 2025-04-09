@@ -1,0 +1,41 @@
+complete: true
+items:
+  - name: "Opening Speech"
+    presenters:
+      - "Mike Milinkovich"
+    vod: "https://youtu.be/arjdJvlB94U"
+  - name: "Jakarta EE China Community"
+    presenters:
+      - "David Liu"
+    vod: "https://youtu.be/1aAaclBcH4o"
+  - name: "The New Era of Jakarta EE 11: Exploring the Highlights!"
+    presenters:
+      - "Emily Jiang"
+    vod: "https://youtu.be/TGBuZCHX2Hw"
+  - name: "Introducing the Key Jakarta EE Certification Testing Tools TCK Environment Setup"
+    presenters:
+      - "Peak Wong"
+    vod: "https://youtu.be/ZAKoBvAkWzM"
+  - name: "Java Virtual Threads: Coroutines"
+    presenters: 
+      - "Wu Dashuai"
+    vod: "https://youtu.be/7ZizJLpCu7M"
+  - name: "Industry Topic: Primeton, AsiaInfo, IBM, TongTech, Kingdee Apusic"
+    presenters: []
+    vod: "https://www.youtube.com/watch?v=RKEl4OhlxgA"
+  - name: "The Evoluton of Java Monitoring and Bytecode Enhancement Technology"
+    presenters:
+      - "Xu Qingkang"
+    vod: "https://youtu.be/zF_w9e86UWY"
+  - name: "Spring AI Alibaba, AI Application Development Practice"
+    presenters:
+      - "Liu Jun"
+    vod: "https://youtu.be/4ZtfsNGmdhQ"
+  - name: "Introduction to OpenJDK"
+    presenters:
+      - "Kuang Yunxing"
+    vod: "https://youtu.be/UDE3hH2i7cE"
+  - name: "Industry Topic Cvicse"
+    presenters: []
+    vod: "https://youtu.be/61BfjQm9tN4"
+  

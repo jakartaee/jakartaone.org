@@ -36,3 +36,7 @@ JakartaOne Livestream 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开
 {{< events/program-committee event="chinese" year="2024"  source="committee" useCarousel="false">}}
 JakartaOne Livestream 会议的演讲主题和会议环节是由一个独立的筹备委员会确定的，委员会成员全部来自 Jakarta EE 和云原生 Java 社区，尤其是 Jakarta EE 中国社区。{{</ events/program-committee >}}
 
+<!-- Agenda -->
+{{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="chinese" year="2024" >}}
+{{</ grid/div >}}
