@@ -35,3 +35,8 @@ We are proud to say that this year, sessions at JakartaOne Livestream Event are
 chosen by an independent program committee made up of volunteers from the
 Jakarta EE and cloud native Java community!
 {{</ events/program-committee >}}
+
+<!-- Agenda -->
+{{< grid/div class="container" isMarkdown="false">}}
+    {{< events/agenda event="chinese" year="2024" >}}
+{{</ grid/div >}}
