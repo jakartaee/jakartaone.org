@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne Live"
-headline: "JakartaOne Livestream 2024"
+headline: "JakartaOne 2025"
 #prefix: "December 2022"
 seo_title: "JakartaOne Live | Jakarta EE Software | Cloud Native"
 description: |
@@ -22,7 +22,7 @@ container: "container-fluid"
 --- 
 {{< grid/section-container class="about-home" >}}
 {{<grid/div class="col-xs-24 col-md-12 event-highlight " isMarkdown="false">}}
-<p><strong>JakartaOne Livestream</strong> is a one-day virtual conference for developers and technical business leaders.</p>
+<p><strong>JakartaOne</strong> is a one-day virtual conference for developers and technical business leaders.</p>
 <p>We bring insights into the current state and future of <strong>Jakarta™ EE</strong> and related technologies focused on developing cloud native Java applications.</p>
 <p>Find out how to <strong>host a JakartaOne Livestream in your language.</strong></p>
 <p><a class="btn btn-primary fw-700 margin-top-10" href="/hostanevent">Host an event</a></p>
