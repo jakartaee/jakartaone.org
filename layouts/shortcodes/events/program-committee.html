@@ -59,12 +59,6 @@
                     <p>{{ with .Inner }}{{ . | markdownify }}{{ end }}</p>
                 </div>
 
-                {{ if and (ne $subpageURL "") (eq $displayLearnMore "true") }}
-                <div class="eclipsefdn-user-display-subpage col-xs-24 text-center margin-top-30 margin-bottom-50">
-                    <a href="{{ $subpageURL | relLangURL }}" class="btn btn-bordered padded">{{ i18n "committee-carousel-button-text" }}</a>
-                </div>
-                {{ end }}
-
                 {{ if eq $displayDetails "true" }}
                 <div class="eclipsefdn-user-display-content col-xs-24">
                     <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ end }}>
@@ -109,5 +103,10 @@
             </div>
         </div>
     </div>
+    {{ if and (ne $subpageURL "") (eq $displayLearnMore "true") }}
+    <div class="eclipsefdn-user-display-subpage col-xs-24 text-center">
+        <a href="{{ $subpageURL | relLangURL }}" class="btn btn-bordered padded">{{ i18n "committee-carousel-button-text" }}</a>
+    </div>
+    {{ end }}
 </div>
 </section>
