@@ -11,7 +11,7 @@ tagline: "25 September 2025"
 layout: "single"
 menu_name: "chinese"
 tagline_suffix: |
-  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2021">REGISTER</a>
+  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2025/chinese">REGISTER</a>
 ---
 
 <!-- Registration section -->
@@ -36,13 +36,13 @@ JakartaOne Livestream 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开
 
 
 
-<!-- Agenda section -->
+<!-- Agenda section 
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}}
 {{< events/agenda event="chinese" year="2025" >}}
 {{</ grid/div >}}
 {{</ grid/section-container >}}
-{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}} -->
 
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="chinese" year="2025"  source="committee" useCarousel="false">}}
