@@ -1,0 +1,125 @@
+{{ define "main" }}
+  {{ $curr_lang:= .Page.Lang }} 
+  {{ $lang_base:= index .Site.Data $curr_lang }} 
+  {{ $events := (index $lang_base).conferences.items }}
+
+  <!-- About Section -->
+  <section class="about-home row">
+    <div class="container">
+      <div class="col-xs-24 col-md-12 event-highlight margin-bottom-40">
+        <p>
+          Discover the World of Enterprise Java at JakartaOne!
+        </p>
+        <p>
+          JakartaOne is the ultimate conference for developers and technical
+          business leaders. Dive into the latest trends and future of Jakarta EE
+          technology development, and explore cutting-edge enterprise Java
+          applications and cloud native solutions.
+        </p>
+        <p>
+          With a strong focus on global collaboration, JakartaOne offers
+          opportunities to engage with localised content, connect with a diverse
+          community, and gain insights tailored to the ever-evolving tech
+          landscape.
+        </p>
+        <p>
+          Thinking about hosting a JakartaOne Livestream in your language? Learn
+          how to make it happen!
+        </p>
+        <a class="btn btn-primary margin-top-20" href="/hostanevent/">Host an event</a>
+      </div>
+      <div class="col-xs-24 col-md-11 col-md-offset-1">
+        <!-- Active Events -->
+        <div class="active-events">
+          <h2 class="h4 brand-primary fw-700">{{ i18n "upcoming-events-header" }}</h2>
+          <table class="table table-hover">
+            <thead class="sr-only">
+              <tr>
+                <th scope="col">{{ i18n "upcoming-events-heading-event-date" . }}</th>
+                <th scope="col">{{ i18n "upcoming-events-heading-event-title" . }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ $count := 0 }}
+              {{ range sort $events "end_date" }}
+                {{ if (time .end_date).After now }}
+                {{ $count = add $count 1 }}
+                <tr>
+                  <td class="padding-left-5">{{ .date }}</td>
+                  <td>
+                    <a href="{{ .url }}">
+                      {{ if .icon }}
+                        <i class="{{ .icon }} margin-right-10" aria-hidden="true"></i>
+                      {{ end }}
+                      {{ .name }}
+                    </a>
+                  </td>
+                </tr>
+                {{ end }}
+              {{ end }}
+              {{ if eq $count 0 }}
+              <tr>
+                <td colspan="3">{{ i18n "upcoming-events-no-events-text" . }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Past Events -->
+  <section class="past-events row">
+    <div class="container">
+      <div class="row margin-bottom-30">
+        <h2 class="brand-primary col-xs-24 col-md-6">{{ i18n "past-events-header" }}</h2>
+        {{ $count := 0 }}
+        {{ range (sort $events "end_date" "desc")}} 
+          {{ if and (lt $count 3) ((time .end_date).Before now)}}
+            <div class="event-container col-xs-24 col-sm-12 col-md-6 match-height-item-by-row">
+              <a href="{{ .url }}">
+                <div class="event-panel panel panel-default">
+                  <div class="panel-heading" aria-hidden="true">
+                    <img class="img cover-image" src="{{ .image }}" />
+                  </div>
+                  <div class="panel-body">
+                    <h3 class="fw-700">{{ .name }}</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            {{ $count = (add $count 1) }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="row">
+        <p class="pull-right margin-top-30 margin-right-20">
+          <a href="{{ "/past-events" | absLangURL }}"><i class="fa fa-chevron-right margin-right-10" aria-hidden="true"></i>See all past events</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Revisit Latest -->
+  <section class="row margin-y-60">
+    <div class="container">
+      <div class="col-sm-18 col-sm-offset-3">
+        <h2 class="margin-bottom-40 text-center">{{ i18n "revisit-latest-event-heading" }}</h2>
+        <a class="eclipsefdn-video" href='//www.youtube.com/embed/playlist?list={{ i18n "revisit-latest-event-playlist" }}'></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Host Event -->
+  <section class="row host-jakartaone text-center">
+    <div class="container">
+      <div class="col-sm-offset-5 col-sm-14">
+        <h2 class="white">Find out how to host a JakartaOne Livestream in your language</h2>
+        <a class="btn btn-bordered padded fw-700 margin-top-40 uppercase" href="{{ "hostanevent" | absURL}}">
+          Host Process
+        </a>
+      </div>
+    </div>
+  </section>
+{{ end }}

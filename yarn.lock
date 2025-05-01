@@ -1517,11 +1517,6 @@
   resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.7.0.tgz#e1993689ac42d2b16e9194376cfb6753f6254db1"
   integrity sha512-oxnCNGj88fL+xzV+dacXs44HcDwf1ovs3AuEzvP7mqXw7fQntqIhQ1BRmynh4qEKQSSSRSWVyXRjmTbZIX9V2Q==
 
-"@whitespace/storybook-addon-html@^6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@whitespace/storybook-addon-html/-/storybook-addon-html-6.1.1.tgz#aa7f8cacdf1c42f2536f06195bf18438f895ceb7"
-  integrity sha512-sq/9c6s4PXugl//Q5iFwKoHF3tBDTEfJQubb62HWspF+CqBrDLHVEh7VYoEjubm5LjihxdFV3+mjj8Ck6bnoHQ==
-
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -2662,20 +2657,20 @@ dotignore@~0.1.2:
   dependencies:
     minimatch "^3.0.4"
 
-eclipsefdn-hugo-solstice-theme@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/eclipsefdn-hugo-solstice-theme/-/eclipsefdn-hugo-solstice-theme-0.1.1.tgz#a63823939730c2bca0675d877a80370b4a5b315a"
-  integrity sha512-MhMbObGk5IhGsbWt6XkDcHPUFXLwiCSS4SBZRvXZPdD6NpgkfKyxbqkvRTYQOGrCt6OSsl+dF0iZr0GKi6/xUg==
+eclipsefdn-hugo-solstice-theme@0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/eclipsefdn-hugo-solstice-theme/-/eclipsefdn-hugo-solstice-theme-0.1.9.tgz#c23a031d0b53b0ed8af30f6b94ce5651e74ff08d"
+  integrity sha512-Fu6mln7DBX1s0rs5hDZUzafCWpZd5LVQ6vT41qLFAanCs+kJIpuH1zpIIj4Bp3g16OpOBcpcbO4ooQWGubkHow==
   dependencies:
     axios "^1.7.7"
-    eclipsefdn-solstice-assets "0.1.3"
+    eclipsefdn-solstice-assets "0.1.12"
     json2yaml "^1.1.0"
     toml "^3.0.0"
 
-eclipsefdn-solstice-assets@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/eclipsefdn-solstice-assets/-/eclipsefdn-solstice-assets-0.1.3.tgz#0157c972e010de9c2d097b8c6ec492eb191613e8"
-  integrity sha512-LDLUwkwj0j9Dj40ZujwSdEsmq3zEWwYXZAJ3ZrpEpQ0XXIWh691qUBjKvCBc5d0oLmvVm9aW/ANtu8ebIv712A==
+eclipsefdn-solstice-assets@0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/eclipsefdn-solstice-assets/-/eclipsefdn-solstice-assets-0.1.12.tgz#9af4574390d5bfdf0bb6de2feb219d0344f43eff"
+  integrity sha512-SCYD2VrXB/tVFgHK56JxWRJoRu3b9RSo3VQ7BZczAevjZ6/HYFpPq6pCFwU0gdqFqmRFrtaCfTqdiize3/DvGg==
   dependencies:
     "@babel/core" "^7.23.2"
     "@babel/plugin-proposal-class-properties" "^7.18.6"
@@ -2690,7 +2685,6 @@ eclipsefdn-solstice-assets@0.1.3:
     "@types/jquery" "^3.5.29"
     "@types/mustache" "^4.2.5"
     "@types/parse-link-header" "^2.0.3"
-    "@whitespace/storybook-addon-html" "^6.1.1"
     bootstrap "^3.4.1"
     browserslist "^4.22.1"
     cookieconsent "^3.1.1"
