@@ -10,8 +10,6 @@ hide_footer_events: true
 show_featured_footer: false
 layout: "single"
 container: "container-fluid"
-tagline_suffix: |
-    <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2021">REGISTER</a>
 --- 
 {{< grid/section-container class="about-home" >}}
 {{<grid/div class="col-xs-24 col-md-12 event-highlight " isMarkdown="false">}}
