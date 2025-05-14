@@ -11,7 +11,7 @@ tagline: "25 September 2025"
 layout: "single"
 menu_name: "chinese"
 tagline_suffix: |
-  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="/2025/chinese">REGISTER</a>
+  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://www.wjx.top/vm/PpoMMM3.aspx">演讲嘉宾征集</a>
 ---
 
 <!-- Registration section -->
