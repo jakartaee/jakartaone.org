@@ -9,7 +9,7 @@ container: "container-fluid"
 tagline: "25 September 2025"
 layout: "single"
 tagline_suffix: |
-  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://www.wjx.top/vm/PpoMMM3.aspx">REGISTER</a>
+  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://www.wjx.top/vm/PpoMMM3.aspx">Call For Paper</a>
 ---
 
 <!-- Registration section -->
