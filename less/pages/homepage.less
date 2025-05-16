@@ -11,7 +11,7 @@
  * SPDX-License-Identifier: EPL-2.0
 */
 
-section.active-events {
+.active-events {
   & {
     margin-top: 40px;
     margin-bottom: 0;
@@ -92,39 +92,3 @@ section.host-jakartaone {
     }
   }
 }
-
-.event-testimonials {
-    & {
-      margin-top: 125px;
-      margin-bottom: 100px;
-    }
-    p {
-      color: @brand-secondary;
-    }
-    .carousel .arrow {
-      & {
-        display: inline-block;
-        border: solid #E88208;
-        border-width: 0 2px 2px 0;
-        height: 66px;
-        width: 66px;
-        margin-top: 25%;
-        margin-left: 25%;
-      }
-      
-      &.right {
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-      }
-      
-      &.left {
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
-      }
-    }
-    
-    // gets rid of gradients in BS Carousel indicators
-    .right.carousel-control, .left.carousel-control {
-      background: none;
-    }
-  }
