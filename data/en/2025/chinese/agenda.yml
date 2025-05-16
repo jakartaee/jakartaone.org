@@ -1,0 +1,209 @@
+complete: true
+types:
+  - name: Keynotes
+    id: keynote
+    color: "#e44"
+  - name: Panel
+    id: panel
+    color: "blue"
+  - name: Jakarta EE & MicroProfile Sessions
+    id: session
+    color: "green"
+  - name: Vendor Talks
+    id: vendor
+    color: "orange"
+
+items:
+  - name: Welcome Session
+    type: keynote
+    presenters:
+      - Maximillian Arruda
+      - Paulo Simoes
+    presenter: |
+      <li>Maximillian Arruda</li>
+      <li>Paulo Simoes</li>
+    time: 9:30 - 10:00 AM BRT (GMT-03:00)
+
+  - name: "Oracle, JakartaEE e Java Native para Nuvem. Investindo durante o Passado, o Presente e participando do Futuro do Java."
+    type: vendor
+    presenters:
+      - Paulo Simoes
+    presenter: |
+      <li>Paulo Simoes</li>
+    time: 10:00 - 10:30 AM BRT (GMT-03:00)
+    abstract: |
+      <p>
+         Nessa sessão vamos visitar o continuo esforço da Oracle desde a concepção do projeto JakartaEE 
+         até os dias de hoje como o principal contribuidor do projeto tanto nas especificações quanto na codificação. 
+         Também veremos o esforço para habilitar o Java para uma arquitetura nativa para nuvem, alavancando o uso do 
+         Servidores de App no Kubernetes, e também desenvolvendo um framework muito interessante para arquitetura de microserviços, 
+         compatível com MicroProfile 6.0 e o primeiro a suportar Java 21 Virtual Threads — nosso querido Helidon.
+      </p>
+
+  - name: "Simplifying NoSQL Database Integration with Jakarta NoSQL: A Hands-on Approach"
+    type: session
+    presenters:
+      - Maximillian Arruda
+    presenter: |
+      <li>Maximillian Arruda</li>
+    time: 10:30 - 11:15 AM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Nowadays, it’s normal to see cloud-native solutions dealing with a huge amount of information. 
+        In this scenario, the NoSQL databases are getting a huge relevant position, but dealing with many 
+        NoSQL solutions from many different vendors is very difficult.
+      </p>
+      <p>
+       In terms of dealing with relational databases, there’s no doubt that JPA specification is a 
+       well-established API in the Java world, but what if there’s a well-defined way, pretty similar to JPA, to work with NoSQL with Java?
+      </p>
+      <p>
+       Jakarta NoSQL specification was created to increase the developer experience between Java and NoSQL databases. 
+       This spec allows developers to handle easily with many NoSQL databases.
+      </p>
+      <p>
+       In this talk, we will make a live coding session presenting a solution with Jakarta NoSQL and Jakarta Data. 
+       Even more, we’re going to mix other Jakarta EE specifications like Jakarta WebSocket.
+      </p>
+  - name: "O compromisso da IBM com Java nativo na nuvem: Liberty, Jakarta EE e MicroProfile"
+    type: vendor
+    presenters:
+      - Fabio Franco
+    presenter: |
+      <li>Fabio Franco</li>
+    time: 11:15 - 11:45 AM BRT (GMT-03:00)
+    abstract: |
+      <p>
+       É um momento emocionante para fazer parte da comunidade Java à medida que Jakarta EE e MicroProfile 
+       levam os padrões Java nativos na nuvem para o futuro. Nessa sessão, exploraremos o compromisso de 
+       longa data da IBM com o Java e sua evolução por meio dos grupos open-source, Jakarta EE e MicroProfile. 
+       Junte-se a nós para explorar a inovação que estamos promovendo por meio da implementação open-source 
+       Open Liberty e de nosso produto WebSphere Liberty.
+      </p>
+
+  - name: "Usando specs a seu favor: Criando o próprio CDI"
+    type: session
+    presenters:
+      - Professor Isidro
+    presenter: |
+      <li>Professor Isidro</li>
+    time: 11:45 - 12:30 AM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Uma forma de você entender bem o mundo das especificações e também entender os bastidores da tecnologia é você 
+        poder criar ferramentas que implementam conceitos que são usados hoje e que muitos Desenvolvedores pouco questionam 
+        seus bastidores. Um exemplo é a Injeção de Dependência. Como isso é possível? 
+        Como é possível delegar a instanciação de uma classe e seu gerenciamento de ciclo de vida a um framework? 
+        Como podemos "descobrir" implementações de interfaces em tempo real? Como poder criar novas instâncias usando desde 
+        uma criação "simples" até um padrão de projeto mais sofisticado? Como tudo isso se junta num framework web, por exemplo? 
+        Nesta palestra vamos discutir com exemplos práticos como tudo isso funciona!
+      </p>
+
+  - name: Jakarta EE in the Raspberry Pi world
+    type: session
+    presenters:
+      - Igor De Souza
+    presenter: |
+      <li>Igor De Souza</li>
+    time: 2:30 - 3:15 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Controlling physical things with some lines of code is magic! Learn how
+        to install and use Jakarta EE applications on the Raspberry Pi.
+      </p>
+      <p>
+        Let's build a web application to control a LCD and some sensors using
+        Jakarta Faces, build an animation and project this animation using a Lego
+        magnifying glass.
+      </p>
+  - name: "Leading Innovation in Jakarta EE: Payara's Role in Evolving Enterprise Java"
+    type: vendor
+    presenters:
+      - Marcelo Gonçalves
+    presenter: |
+      <li>Marcelo Gonçalves</li>
+    time: 3:15 - 3:45 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+       An overview of Payara's products and services and how we are shaping the future of Java applications
+      </p>
+
+  - name: "O poder do data-driven testing: um mergulho nas especificações Jakarta e NoSQL"
+    type: session
+    presenters:
+      - Elias Nogueira
+      - Otávio Santana
+    presenter: |
+      <li>Elias Nogueira</li>
+      <li>Otávio Santana</li>
+    time: 3:45 - 4:30 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Junte-se a nós para uma apresentação esclarecedora sobre o tópico de ponta de testes orientados 
+        a dados usando as mais recentes Jakarta Persistence Specifications: Data and NoSQL. 
+      </p>
+      <p>  
+        Iremos nos aprofundar em frameworks Java como JUnit Jupiter, AssertJ e Testcontainesr, mostrando 
+        como elas podem capacitar os desenvolvedores a obter qualidade de código excepcional por meio de testes orientados a domínio. 
+      </p>
+      <p>  
+        Aproveitando o conhecimento contextual e as técnicas de data driven, exploraremos estratégias práticas para otimizar 
+        seus esforços de teste e elevar a qualidade geral de sua base de código.
+      </p>
+
+  - name: "Fortalecendo o Ecossistema Jakarta EE no Microsoft Azure"
+    type: vendor
+    presenters:
+      - Bruno Borges
+    presenter: |
+      <li>Bruno Borges</li>
+    time: 4:30 - 5:00 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Java e Jakarta EE são tecnologias importantes para suportar no Azure. Enterprise Java é um ecossistema heterogêneo, 
+        com até um terço das cargas de trabalho ainda em execução em servidores de aplicação Jakarta EE, como WebLogic, 
+        WebSphere/Open Liberty, JBoss EAP, WildFly e Payara. Isso é particularmente verdadeiro para grandes empresas que 
+        precisam transferir e adaptar suas aplicações críticas, em grande parte monolíticas, para uma nuvem como Microsoft Azure.
+      </p>
+      <p>
+        Esta sessão irá cobrir os esforços que a Microsoft tem feito para melhorar o suporte a aplicações Jakarta EE no Azure. 
+        Abordaremos a história do movimento Java Enterprise de padrão aberto e por que os padrões abertos são e continuam sendo 
+        importantes para as empresas. Discutiremos o que é possível agora, o que virá em breve e o que está mais distante. 
+        Isso inclui serviços, ferramentas e orientações para melhor apoiar os usuários do Jakarta EE que optam por máquinas virtuais, 
+        Kubernetes ou PaaS. Também veremos a integração com serviços do Azure, como o Azure Service Bus, por meio de APIs do Jakarta EE, como JMS.
+      </p>
+      <p>
+        Esta é também nossa oportunidade para ouvir de você, e entender melhor, como a Microsoft pode apoiá-lo da melhor maneira.
+      </p>
+
+  - name: "A Fórmula da Reputação: Construindo sua Carreira com Java, Padrões e Open Source"
+    type: session
+    presenters:
+      - Bruno Souza
+    presenter: |
+      <li>Bruno Souza</li>
+    time: 5:00 - 5:45 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Sua reputação é mais importante do que seu emprego, salário ou a empresa que você trabalha. 
+        Venha descobrir nessa conversa franca como o JakartaEE pode te ajudar a construir uma reputação sólida no mercado, 
+        que vai te abrir portas para seus maiores objetivos de carreira.
+      </p>
+
+  - name: "O Futuro do Java Enterprise com Jakarta EE"
+    type: panel
+    presenters:
+      - Bruno Souza
+      - Maximillian Arruda
+      - Paulo Simoes
+      - Marcelo Gonçalves
+    presenter: |
+      <li>Bruno Souza</li>
+      <li>Maximillian Arruda</li>
+      <li>Paulo Simoes</li>
+      <li>Marcelo Gonçalves</li>
+    time: 5:45 - 6:30 PM BRT (GMT-03:00)
+    abstract: |
+      <p>
+        Uma papo sobre o futuro do Java Enterprise com Jakarta EE
+      </p>
