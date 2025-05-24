@@ -1,0 +1,48 @@
+items:
+  - name: "寺田佳央"
+    title: "Microsoft Corporation"
+    img: "yoshio-2018.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/yoshioterada">X</a></li>
+      </ul>
+  - name: "田中孝清"
+    title: "IBM Japan"
+    img: "Tanaka.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+  - name: "草野優一"
+    title: "富士通株式会社"
+    img: "kusano.jpg"
+    bio: |
+      <p><p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+      </ul>
+
+  - name: "瀬戸智"
+    title: "Red Hat"
+    img: "seto2.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "高雄悠太"
+    title: "NEC"
+    img: "NEC_takao.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+      </ul>
+

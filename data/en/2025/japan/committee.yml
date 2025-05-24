@@ -1,0 +1,48 @@
+items:
+  - name: "Yoshio Terada"
+    title: "Microsoft Corporation"
+    img: "yoshio-2018.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/yoshioterada">X</a></li>
+      </ul>
+  - name: "Takakiyo Tanaka"
+    title: "IBM Japan"
+    img: "Tanaka.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+  - name: "Yuichi Kusano"
+    title: "Fujitsu Limited"
+    img: "kusano.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+      </ul>
+
+  - name: "Satoshi Seto"
+    title: "Red Hat"
+    img: "seto2.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "Yuta Takao"
+    title: "NEC"
+    img: "NEC_takao.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+      </ul>
+

@@ -1,0 +1,110 @@
+timezone: GMT+09
+complete: false
+types:
+    - name: Keynote
+      id: keynote 
+      color: "#85BFF3"
+    - name: Use Case
+      id: user
+      color: "#e44"
+    - name: Vendor Session
+      id: vendor
+      color: "#a0a"
+    - name: Technical Session
+      id: tech
+      color: "#0a0"
+    - name: Meet Up
+      id: meetup
+      color: "#2a2a70"
+
+items:
+    - name: What's New in Jakarta EE
+      presenter: Kenji Kazumura
+      type: keynote
+      time: 10:00-11:10 (JST)
+      abstract: |
+              <p></p>
+
+    - name: TBD
+      presenter: Kiyotaka Tanaka
+      type: tech
+      time: 11:10-11:30 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: TBD (Meiji Yasuda Life Insurance Company)
+      type: user
+      time: 13:00-13:25 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: TBD (D-CIRCLE, INC)
+      type: user
+      time: 13:25-13:50 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: Jakarta EE Migration Strategy - A Comparison and Validation of Essential Tools
+      presenter: Hiroki Kaido
+      type: tech
+      time: 13:50-14:10 (JST)
+      abstract: |
+              <p>"Jakarta EE 11 has been released, and Jakarta EE continues to develop steadily.As a result, there's a growing need to migrate existing Java systems to the latest Jakarta EE 11. However, Jakarta EE migration presents several challenges. The migration process can be complex and may require significant time and cost. Therefore, this session will compare and validate various conversion tools that assist with Jakarta EE migration, focusing on their features and suitable use cases."</p>
+
+    - name: Jakarta Data / Persistence
+      presenter: Ryo Shikimi
+      type: tech
+      time: 14:20-14:40 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: Other updates in Jakarta EE 11
+      presenter: Satoshi Seto
+      type: tech
+      time: 14:40-15:05 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: Yuichi Kusano (Fujitsu Limited)
+      type: vendor
+      time: 15:25-15:50 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: Yuta Takao (NEC)
+      type: vendor
+      time: 15:50-16:15 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: JBoss EAP and Red Hat Products
+      presenter: Satoshi Seto (Red Hat)
+      type: vendor
+      time: 16:15-16:35 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: Miyuka Nishio (日本IBM)
+      type: vendor
+      time: 16:45-17:10 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: TBD (Microsoft)
+      type: vendor
+      time: 17:10-17:35 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: Meet Up
+      presenter: TBD
+      type: meetup
+      time: 17:35-17:55 (JST)
+
+

@@ -1,0 +1,74 @@
+items:
+
+  - name: "数村　憲治"
+    title: シニアアーキテクト、富士通株式会社
+    img: "kazumura.jpg"
+    bio: |
+      <p>Jakarta EE仕様策定委員会委員、MicroProfileステアリング委員会委員。Jakarta EEやMicroProfileの仕様策定に貢献。JCP ECのメンバーでもあり、広くJavaの普及活動を実施。富士通では、Interstage Application Server、Enterprise Application Platformの開発をリードしてきた。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kkzr">X</a></li>
+      </ul>
+
+  - name: "瀬戸　智"
+    title: スペシャリストソリューションアーキテクト, Red Hat
+    img: "seto2.jpg"
+    bio: |
+      <p>Javaのコミュニティ周りに生息してJavaを扱ってます。Javaが好きだーと言い続けて早十数年。2月からRed Hatでスペシャリストソリューションアーキテクトになりました。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "田中 孝清"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    bio: |
+      <p>1998年日本IBM入社。2000年よりソフトウェア事業でWebSphere Application Serverの技術者として日本でのセールス活動に携わっています。様々なセミナーやWebサイトでIBMからのJavaの情報発信を続けています。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+         <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+
+  - name: "草野 優一"
+    title: Interstageテクニカルセールス担当マネージャー,富士通
+    img: "kusano.jpg"
+    bio: |
+      <p>2011年より富士通(株)に在籍し、現在は主に富士通製Javaアプリケーションサーバである「Interstage」のマーケティングや適用支援を担当。最近はセミナーやブログでJakarta EEやMicroProfileの啓蒙活動を行っている。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kusano_yuichi">X</a></li>
+      </ul>
+
+
+  - name: "皆藤 広樹"
+    title: エンジニア, 富士通株式会社 / GlassFish Committer
+    bio: |
+      <p>2021年に富士通株式会社に入社。富士通製JavaアプリケーションサーバであるEnterprise Application Platformの開発を担当し、並行して製品のベースとなるEclipse GlassFishの開発にも携わる。2023年にはEclipse GlassFishのコミッターに昇格。</p>
+      <p class="fw-700">Social media handles</p>
+
+
+  - name: "高雄 悠太"
+    title: マネージャ, NEC
+    img: "NEC_takao.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+
+  - name: "式見 遼"
+    title: 主任
+    img: "NEC_sikimi.png"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+
+
+  - name: "西尾 実優香"
+    img: "nishio.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/miyuka-nishio/">LinkedIn</a></li>
+      </ul>
