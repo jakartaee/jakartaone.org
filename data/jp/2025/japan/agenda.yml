@@ -1,0 +1,110 @@
+timezone: GMT+09
+complete: false
+types:
+    - name: キーノート
+      id: keynote 
+      color: "#85BFF3"
+    - name: 事例セッション
+      id: user
+      color: "#e44"
+    - name: ベンダートラック
+      id: vendor
+      color: "#a0a"
+    - name: テクニカルセッション
+      id: tech
+      color: "#0a0"
+    - name: 懇親会
+      id: meetup
+      color: "#2a2a70"
+
+items:
+    - name: Jakarta EE 最新情報
+      presenter: 数村憲治
+      type: keynote
+      time: 10:00-11:10 (JST)
+      abstract: |
+              <p>Jakarta EE 11のハイライト、MicroProfileとの統合状況、Jakarta EE 12の展望を紹介します。</p>
+
+    - name: Spring全盛時代になぜJakarta EEで書くのか
+      presenter: 田中孝清
+      type: tech
+      time: 11:10-11:30 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: TBD (明治安田生命保険相互会社)
+      type: user
+      time: 13:00-13:25 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: TBD (ディサークル株式会社)
+      type: user
+      time: 13:25-13:50 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: Jakarta EE移行戦略：主要ツール比較と検証
+      presenter: 皆藤広樹
+      type: tech
+      time: 13:50-14:10 (JST)
+      abstract: |
+              <p>"Jakarta EE 11 がリリースされ、Jakarta EE は着実に進化を続けています。そのため、既存の Java システムを最新の Jakarta EE 11 に移行したいというニーズが高まっています。しかし、Jakarta EE の移行には、多くの課題が存在します。移行作業は煩雑であり、時間とコストを要する場合があります。そこで本セッションでは、Jakarta EE の移行を支援する様々な変換ツールについて、その特徴や適用場面を比較検討します。"</p>
+
+    - name: Jakarta Data / Persistence
+      presenter: 式見遼
+      type: tech
+      time: 14:20-14:40 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: その他のJakarta EE 11でのアップデート
+      presenter: 瀬戸智
+      type: tech
+      time: 14:40-15:05 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: 草野優一 (富士通株式会社)
+      type: vendor
+      time: 15:25-15:50 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: 高雄悠太 (NEC)
+      type: vendor
+      time: 15:50-16:15 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: JBoss EAPとRed Hatの製品
+      presenter: 瀬戸智 (Red Hat)
+      type: vendor
+      time: 16:15-16:35 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: 西尾実優香 (日本IBM)
+      type: vendor
+      time: 16:45-17:10 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: TBD
+      presenter: TBD (Microsoft)
+      type: vendor
+      time: 17:10-17:35 (JST)
+      abstract: |
+              <p>TBD</p>
+
+    - name: 懇親会
+      presenter: TBD
+      type: meetup
+      time: 17:35-17:55 (JST)
+
+

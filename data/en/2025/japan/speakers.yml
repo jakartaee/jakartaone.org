@@ -1,0 +1,71 @@
+items:
+
+  - name: "Kenji Kazumura"
+    title: Senior Architect, Fujitsu Limited
+    img: "kazumura.jpg"
+    bio: |
+      <p>Kenji Kazumura is a member of Jakarta EE Speficiation Committee and MicroProfile Steering Committee. He is actively working for defining Jakarta EE and MicroProfile specifications as a committee member. He is also a member of JCP EC and advocating Java and Java related technologies  worldwide. He lead the development of Interstage Application Server and Application Platform at Fujitsu.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kkzr">X</a></li>
+      </ul>
+
+  - name: "Satochi Seto"
+    img: "seto2.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "Takakiyo, TANAKA"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    bio: |
+      <p>Joined IBM Japan at 1998. Technical Specialist of WebSphere Application Server since 2000. Technical writing, session speaker in Java/Java EE technology.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+         <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+  - name: "Yuichi Kusano"
+    title: Technical sales of Interstage Manager, Fujitsu
+    img: "kusano.jpg"
+    bio: |
+      <p>Jojned Fujitsu at 2011. Technical sales of Interstage Application Server(Fujitsu Java Application Server) , recently been promoting Jakarta EE and MicroProfile through seminars and blogs.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kusano_yuichi">X</a></li>
+      </ul>
+
+
+  - name: "Hiroki Kiado"
+    title: Engineer, Fujitsu / GlassFish Committer
+    bio: |
+      <p>Hiroki joined Fujitsu Limited in 2021. He is responsible for the development of the Enterprise Application Platform, Fujitsu's Java application server, and also involve in the development of Eclipse GlassFish, which serves as the foundation for the product. In 2023, He was promoted to Committer of Eclipse GlassFish.</p>
+      <p class="fw-700">Social media handles</p>
+
+
+  - name: "Yuta Takao"
+    title: Manager, NEC
+    img: "NEC_takao.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+
+  - name: "Ryo Shikimi"
+    img: "NEC_sikimi.png"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+
+
+  - name: "Miyuka Nishio"
+    img: "nishio.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/miyuka-nishio/">LinkedIn</a></li>
+      </ul>
