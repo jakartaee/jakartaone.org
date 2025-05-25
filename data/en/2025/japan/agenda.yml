@@ -33,14 +33,14 @@ items:
               <p>TBD</p>
 
     - name: TBD
-      presenter: TBD (Meiji Yasuda Life Insurance Company)
+      presenter: TBD 
       type: user
       time: 13:00-13:25 (JST)
       abstract: |
               <p>TBD</p>
 
     - name: TBD
-      presenter: TBD (D-CIRCLE, INC)
+      presenter: TBD 
       type: user
       time: 13:25-13:50 (JST)
       abstract: |
@@ -89,7 +89,7 @@ items:
               <p>TBD</p>
 
     - name: TBD
-      presenter: Miyuka Nishio (日本IBM)
+      presenter: Miyuka Nishio (IBM Japan)
       type: vendor
       time: 16:45-17:10 (JST)
       abstract: |
