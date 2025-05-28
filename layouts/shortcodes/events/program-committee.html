@@ -63,7 +63,7 @@
                 <div class="eclipsefdn-user-display-content col-xs-24">
                     <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ else }} class="pc-flex-wrapper"{{ end }}>
                         <!-- Start: image Area -->
-                        {{ range (index (index $base $event) $source).items }}
+                        {{ range sort (index (index $base $event) $source).items ".name" }}
                             {{ $anchor := urlize .anchor }}
                             {{ if not $anchor }}
                                 {{ $anchor = urlize .name }}
