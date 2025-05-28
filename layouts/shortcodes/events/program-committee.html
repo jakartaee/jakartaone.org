@@ -47,7 +47,7 @@
 {{ else }}
   {{ $displayLearnMore = "false" }}
 {{ end }}
-{{ $itemClass := .Get "itemClass" | default "col-xs-12 col-sm-6" }}
+{{ $itemClass := .Get "itemClass" | default "pc-flex-item" }}
 <section id="program-committee" class="row">
     <div class="{{$committeeCssBackground}}">
     </div>
@@ -61,14 +61,14 @@
 
                 {{ if eq $displayDetails "true" }}
                 <div class="eclipsefdn-user-display-content col-xs-24">
-                    <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ end }}>
+                    <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ else }} class="pc-flex-wrapper"{{ end }}>
                         <!-- Start: image Area -->
                         {{ range (index (index $base $event) $source).items }}
                             {{ $anchor := urlize .anchor }}
                             {{ if not $anchor }}
                                 {{ $anchor = urlize .name }}
                             {{ end }}
-                        <div class="item card-container match-height-item-by-row {{ if ne $useCarousel "true" }}{{ $itemClass }}{{ end }}">
+                        <div class="item card-container {{ if ne $useCarousel "true" }}{{ $itemClass }}{{ end }}">
                             <a href="{{.url}}">
                                 <div class="card-panel panel panel-default text-center">
                                     <div class="panel-heading" aria-hidden="true">
