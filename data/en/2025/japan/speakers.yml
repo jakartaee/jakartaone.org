@@ -11,9 +11,10 @@ items:
       </ul>
 
   - name: "Satochi Seto"
+    title: Specialist Solution Architect
     img: "seto2.jpg"
     bio: |
-      <p></p>
+      <p>I have been a Solutions Architect at Red Hat since 2022. I am responsible for JBoss EAP and other middleware and OpenShift. I am one of the organizers of the Japan Java User Group.</p>
       <p class="fw-700">Social media handles</p>
       <ul>
         <li><a href="https://x.com/megascus">X</a></li>
@@ -29,6 +30,19 @@ items:
          <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
       </ul>
 
+  - name: "Masatsugu Terada"
+    title: IT Architect
+    bio: |
+      <p>Masatsugu joined Meiji Yasuda in 1989 and since then has been engaged in application development in the Information Systems Division. Currently, he is in charge of application architecture in the corporate sector. In addition, as an architect, he is providing information to improve IT literacy in the company and to develop IT professionals.</p>
+      <p class="fw-700">Social media handles</p>
+
+  - name: "Kenzo Matsushita"
+    title: Executive Vice President
+    img: "dcirclie-matsushita.jpg"
+    bio: |
+      <p>Joined Mitani Sangyo Co., Ltd. in 1990. Transferred to Discircle Corporation upon its establishment in 1999. Since then, has been involved in the design and development of POWER EGG to the present day.</p>
+      <p class="fw-700">Social media handles</p>
+
   - name: "Yuichi Kusano"
     title: Technical sales of Interstage Manager, Fujitsu
     img: "kusano.jpg"
@@ -40,32 +54,38 @@ items:
       </ul>
 
 
-  - name: "Hiroki Kiado"
+  - name: "Hiroki Kaido"
     title: Engineer, Fujitsu / GlassFish Committer
+    img: "kaido_2.jpg"
     bio: |
-      <p>Hiroki joined Fujitsu Limited in 2021. He is responsible for the development of the Enterprise Application Platform, Fujitsu's Java application server, and also involve in the development of Eclipse GlassFish, which serves as the foundation for the product. In 2023, He was promoted to Committer of Eclipse GlassFish.</p>
+      <p>Hiroki joined Fujitsu Limited in 2021. He is responsible for the development of the Enterprise Application Platform, Fujitsu's Java application server, and also involved in the development of Eclipse GlassFish, which the product is based on. In 2023, He was promoted to Committer of Eclipse GlassFish.</p>
       <p class="fw-700">Social media handles</p>
-
+      <ul>
+        <li><a href="https://x.com/kaido0203">X</a></li>
+        <li><a href="www.linkedin.com/in/広樹-皆藤-a09168274">LinkedIn</a></li>
+        <li><a href="https://github.com/kaido207">GitHub</a></li>
+      </ul>
 
   - name: "Yuta Takao"
     title: Manager, NEC
     img: "NEC_takao.jpg"
     bio: |
-      <p></p>
+      <p>Joined NEC at 2008.Yuta Takao leads the development of WebOTX products including WebOTX Application Server, NEC's Java application server. At the same time, he has been supporting the modernization of Java</p>
       <p class="fw-700">Social media handles</p>
 
   - name: "Ryo Shikimi"
     img: "NEC_sikimi.png"
+    title: Senior Specialist, NEC
     bio: |
-      <p></p>
+      <p>Joined NEC in 2013. Since then, Shikimi Ryo have been involved in the development of WebOTX Application Server, a Java application server.</p>
       <p class="fw-700">Social media handles</p>
 
 
   - name: "Miyuka Nishio"
-    title: IBM Japan
     img: "nishio.jpg"
+    title: Automation Technical Specialist
     bio: |
-      <p></p>
+      <p>I joined Technology, IBM Japan in 2023 as a Technical Specialist. Since then, I have been mainly involved in sales activities and community management focusing on WebSphere Application Server.</p>
       <p class="fw-700">Social media handles</p>
       <ul>
         <li><a href="https://www.linkedin.com/in/miyuka-nishio/">LinkedIn</a></li>

@@ -23,7 +23,7 @@ items:
       type: keynote
       time: 10:00-11:10 (JST)
       abstract: |
-              <p></p>
+              <p>Talk about Jakarta EE 11 highligt and the direction of Jakarta EE 12.</p>
 
     - name: TBD
       presenter: Kiyotaka Tanaka
@@ -32,26 +32,26 @@ items:
       abstract: |
               <p>TBD</p>
 
-    - name: TBD
-      presenter: TBD 
+    - name: How Jakarta EE is being used in insurance industry and expectations for Java/JakartaEE in the future
+      presenter: Masatsugu Terada (Meiji Yasuda Life Insurance Company)
       type: user
       time: 13:00-13:25 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>In the life insurance industry, policy administration is ultra-long term, so certainty and robustness are critical. In addition, migration of legacy systems, personalization of services in the SoE area, improvement of user experience, and development of IT human resources for the future are also important issues today. In this context, I would like to briefly introduce how we have been utilizing Java/JakartaEE and what we expect in the future.</p>
 
-    - name: TBD
-      presenter: TBD 
+    - name: Introducing POWER EGG's Jakarta EE Use Cases
+      presenter: Kenzo Matsushita (D-CIRCLE, INC)
       type: user
       time: 13:25-13:50 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Since 2002, our company has been developing "POWER EGG" software that supports digitization of business operations using Java EE. This session will introduce the history of POWER EGG development and use cases of Jakarta EE.</p>
 
     - name: Jakarta EE Migration Strategy - A Comparison and Validation of Essential Tools
       presenter: Hiroki Kaido
       type: tech
       time: 13:50-14:10 (JST)
       abstract: |
-              <p>"Jakarta EE 11 has been released, and Jakarta EE continues to develop steadily.As a result, there's a growing need to migrate existing Java systems to the latest Jakarta EE 11. However, Jakarta EE migration presents several challenges. The migration process can be complex and may require significant time and cost. Therefore, this session will compare and validate various conversion tools that assist with Jakarta EE migration, focusing on their features and suitable use cases."</p>
+              <p>Jakarta EE 11 has been released, and Jakarta EE continues to develop steadily. As a result, there's a growing need to migrate existing Java systems to the latest Jakarta EE 11. However, Jakarta EE migration presents several challenges. The migration process can be complex and may require significant time and cost. Therefore, this session will compare and validate various conversion tools that assist with Jakarta EE migration, focusing on their features and suitable use cases.</p>
 
     - name: Jakarta Data / Persistence
       presenter: Ryo Shikimi
@@ -65,7 +65,7 @@ items:
       type: tech
       time: 14:40-15:05 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>This section will give a light explanation of the changes in Jakarta EE 11 other than Jakarta Data/Persistence.</p>
 
     - name: TBD
       presenter: Yuichi Kusano (Fujitsu Limited)
@@ -86,7 +86,7 @@ items:
       type: vendor
       time: 16:15-16:35 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Red Hat ships JBoss EAP as a Jakarta EE server; Red Hat's strategy is not to include out-of-specification features in the Jakarta EE server itself, but to ship it as another product. This makes it easy for customers to tell if a feature is based on the Jakarta EE specification. This presentation will introduce JBoss EAP itself and give a brief overview of what other products are available.</p>
 
     - name: TBD
       presenter: Miyuka Nishio (IBM Japan)
@@ -103,8 +103,8 @@ items:
               <p>TBD</p>
 
     - name: Meet Up
-      presenter: TBD
+      presenter: Yoshio Terada
       type: meetup
-      time: 17:35-17:55 (JST)
+      time: 17:35- (JST)
 
 
