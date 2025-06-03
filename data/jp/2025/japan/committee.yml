@@ -1,0 +1,48 @@
+items:
+  - name: "寺田佳央"
+    title: "Microsoft Corporation"
+    img: "yoshio-2018.jpg"
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/yoshioterada">X</a></li>
+      </ul>
+
+  - name: "田中 孝清"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    bio: |
+      <p>1998年日本IBM入社。2000年よりソフトウェア事業でWebSphere Application Serverの技術者として日本でのセールス活動に携わっています。様々なセミナーやWebサイトでIBMからのJavaの情報発信を続けています。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+         <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+  - name: "草野優一"
+    title: "富士通株式会社"
+    img: "kusano.jpg"
+    bio: |
+      <p><p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+      </ul>
+
+  - name: "瀬戸　智"
+    title: スペシャリストソリューションアーキテクト, Red Hat
+    img: "seto2.jpg"
+    bio: |
+      <p>"2022年からRed Hatでソリューションアーキテクトをしています。JBoss EAPを中心としたミドルウェアやOpenShiftを担当しています。日本Javaユーザーグループで幹事もしています。"</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "高雄 悠太"
+    title: マネージャ, NEC
+    img: "NEC_takao.jpg"
+    bio: |
+      <p>2008年よりNECに入社。NEC製JavaアプリケーションサーバであるWebOTX Application Serverをはじめとする、WebOTX製品の開発を主導。合わせて、Javaのモダナイズに対する支援活動を実施している。</p>
+      <p class="fw-700">Social media handles</p>
+
+
