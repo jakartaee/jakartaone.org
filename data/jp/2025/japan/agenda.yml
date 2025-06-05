@@ -67,12 +67,12 @@ items:
       abstract: |
               <p>Jakarta Data/Persistence以外のJakarta EE 11でのへんこうてんについて軽く説明していきます。</p>
 
-    - name: TBD
+    - name: Jakarta EEと富士通プロダクト（富士通EAPとIntersatge）
       presenter: 草野優一 (富士通株式会社)
       type: vendor
       time: 15:25-15:50 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>富士通では25年以上Java開発に始まり、最近ではEclipse Foundationに日本国内ベンダーで唯一Strategic memberとして参加し、Jakarta EEの発展に貢献しています。製品としてはInterstageを20年以上継続して提供しており、最近では最新Java（Jakarta EE11/JDK21）を取り入れたEnterprise Application Platformという製品も提供しています。今後も最新技術を取り入れ製品を提供し、Javaアプリケーションの安定稼働を支援していく計画です。このセッションでは富士通のJavaへの取り組みと、製品の特長や今後の提供計画についてご紹介します。</p>
 
     - name: TBD
       presenter: 高雄悠太 (NEC)
@@ -88,12 +88,12 @@ items:
       abstract: |
               <p>Red HatではJakarta EEサーバーとしてJBoss EAPを出荷しています。Red HatはJakarta EEサーバー自体に仕様から外れた機能を積極的には入れずに、他の製品として出荷する戦略を取っています。これによりお客様はJakarta EE仕様に基づいた機能かどうかを簡単に見分けることができます。JBoss EAPそのものの紹介と、他にどういった製品があるのかについて軽く紹介します。</p>
 
-    - name: WebSphere Liberty
+    - name: 開発者のためのLiberty入門：Jakarta EE対応の現状と今後について
       presenter: 西尾実優香 (日本IBM)
       type: vendor
       time: 16:45-17:10 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Open Liberty および WebSphere Liberty は、IBM が提供する Jakarta EE の実装です。これらは、業界でも最速レベルで Jakarta EE 11 に対応します。本セッションでは、両 Liberty の特長と Jakarta EE 対応の現状と今後についてわかりやすくご紹介します。</p>
 
     - name: TBD
       presenter: TBD (Microsoft)
