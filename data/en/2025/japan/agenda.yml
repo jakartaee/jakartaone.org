@@ -51,7 +51,7 @@ items:
       type: tech
       time: 13:50-14:10 (JST)
       abstract: |
-              <p>Jakarta EE 11 has been released, and Jakarta EE continues to develop steadily. As a result, there's a growing need to migrate existing Java systems to the latest Jakarta EE 11. However, Jakarta EE migration presents several challenges. The migration process can be complex and may require significant time and cost. Therefore, this session will compare and validate various conversion tools that assist with Jakarta EE migration, focusing on their features and suitable use cases.</p>
+              <p>Jakarta EE updates have improved security and maintainability from Java EE, and there is growing demand for migrating existing systems. However, migration involves many challenges such as compatibility issues and can be time-consuming and costly. This session will compare and contrast various migration tools that assist Jakarta EE migration, providing insights into selecting tools that can help shorten migration timelines and reduce costs.</p>
 
     - name: Jakarta Data / Persistence
       presenter: Ryo Shikimi
@@ -67,12 +67,12 @@ items:
       abstract: |
               <p>This section will give a light explanation of the changes in Jakarta EE 11 other than Jakarta Data/Persistence.</p>
 
-    - name: TBD
+    - name: Jakarta EE and Fujitsu products (Fujitsu EAP and Interstage)
       presenter: Yuichi Kusano (Fujitsu Limited)
       type: vendor
       time: 15:25-15:50 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Fujitsu has been involved in Java development for over 25 years. More recently, we became the only Japanese vendor to join the Eclipse Foundation as a Strategic Member, contributing to the advancement of Jakarta EE. We have been continuously providing Interstage as a product for over 20 years, and recently launched "Enterprise Application Platform," a product incorporating the latest Java technologies (Jakarta EE 11/JDK 21). We plan to continue incorporating the latest technologies into our products, supporting the stable operation of Java applications. In this session, we will introduce Fujitsu's commitment to Java, as well as the features of our products and our future plans.</p>
 
     - name: TBD
       presenter: Yuta Takao (NEC)
@@ -88,12 +88,12 @@ items:
       abstract: |
               <p>Red Hat ships JBoss EAP as a Jakarta EE server; Red Hat's strategy is not to include out-of-specification features in the Jakarta EE server itself, but to ship it as another product. This makes it easy for customers to tell if a feature is based on the Jakarta EE specification. This presentation will introduce JBoss EAP itself and give a brief overview of what other products are available.</p>
 
-    - name: TBD
+    - name: Introduction to Liberty for Developers - The Current and Future State of Jakarta EE Support
       presenter: Miyuka Nishio (IBM Japan)
       type: vendor
       time: 16:45-17:10 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Open Liberty and WebSphere Liberty are Jakarta EE implementations by IBM. These products support Jakarta EE 11 at industry-leading speed. In this session, I will provide a clear overview of both Liberty products, as well as the current and future state of Jakarta EE support.</p>
 
     - name: TBD
       presenter: TBD (Microsoft)
