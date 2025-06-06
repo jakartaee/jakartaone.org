@@ -33,7 +33,7 @@ items:
   - name: "寺田 昌嗣"
     title: ＩＴアーキテクト, 明治安田生命保険相互会社
     bio: |
-      <p>1989年に明治安田に入社し、以来情報システム部門でアプリケーション開発に従事。現在は法人分野のアプリケーション・アーキテクチャを担当。また、アーキテクトとして社内ITリテラシー向上、IT専門人財育成に向け情報を発信中。</p>
+      <p>1989年に明治安田に入社し、以来情報システム部門でアプリケーション開発に従事。現在は法人分野のアプリケーション・アーキテクチャを担当。また、アーキテクトとしてITリテラシー向上、IT専門人財育成に向けた社内の情報発信をリード。</p>
       <p class="fw-700">Social media handles</p>
 
   - name: "松下 憲三"
@@ -73,20 +73,32 @@ items:
       <p>2008年よりNECに入社。NEC製JavaアプリケーションサーバであるWebOTX Application Serverをはじめとする、WebOTX製品の開発を主導。合わせて、Javaのモダナイズに対する支援活動を実施している。</p>
       <p class="fw-700">Social media handles</p>
 
-  - name: "式見 遼"
-    title: 主任, NEC
-    img: "NEC_sikimi.png"
+  - name: "景井 教天"
+    title: 担当, NEC
+    img: "NEC-kagei.jpg"
     bio: |
-      <p>2013年にNECに入社。同年よりJavaアプリケーションサーバのWebOTX Application Serverの開発を担当。</p>
+      <p>2021年にNECに入社。Javaアプリケーションサーバ(WebOTX Application Server)開発やSpring保守を担当。</p>
       <p class="fw-700">Social media handles</p>
-
+      <ul>
+         <li><a href="https://jp.linkedin.com/in/noritaka-kagei">Linkedin</a></li>
+      </ul>
 
   - name: "西尾 実優香"
     img: "nishio.jpg"
-    title: オートメーション・テクニカル・スペシャリスト, IBM
+    title: オートメーション・テクニカル・スペシャリスト, IBM Japan
     bio: |
       <p>2023年に日本IBMテクノロジー事業本部にテクニカルスペシャリストとして入社。以降、主にWebSphere Application Serverを中心に、セールス活動やコミュニティ運営に携わっています。</p>
       <p class="fw-700">Social media handles</p>
       <ul>
         <li><a href="https://www.linkedin.com/in/miyuka-nishio/">LinkedIn</a></li>
+      </ul>
+
+  - name: "寺田 佳央"
+    img: "yoshio-2018.jpg"
+    title: Sr. Cloud Advocate, Microsoft
+    bio: |
+      <p>Microsoft Corporation の Developers Relation チームで、Azure における Java の利用促進や啓蒙（けいもう）活動を実施中。2016年には日本人で2人目となるJava Championに就任</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/yoshioterada">X</a></li>
       </ul>

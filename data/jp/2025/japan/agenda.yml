@@ -30,7 +30,7 @@ items:
       type: tech
       time: 11:10-11:30 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Spring Bootが主流の時代に，企業が依然としてJakarta EEを選ぶべき理由は何でしょうか？ 単一の実装に縛られたSpring frameworkとは異なり，Jakarta EEは仕様主導型であり，ベンダー中立性，安定性，そして長期的な互換性を提供します。最新のJakarta EE実装は，Spring Bootと同様な軽量なデプロイメントの利便性をも提供しつつ，信頼性の高いITシステムに不可欠な標準化されたエンタープライズグレードの機能を融合しています。</p>
 
     - name: 保険会社におけるJakarta EEの利活用方法と今後のJava/JakartaEEへの期待
       presenter: 寺田昌嗣 (明治安田生命保険相互会社)
@@ -53,12 +53,12 @@ items:
       abstract: |
               <p>Jakarta EE のアップデートにより、Java EE からセキュリティやメンテナンス性が向上し、既存システムを移行するニーズが高まっています。しかし、移行には互換性問題など課題も多く、時間とコストがかかる場合があります。本セッションでは、Jakarta EE への移行を支援する様々な変換ツールを比較検討し、移行期間の短縮とコスト削減に貢献するツール選びのヒントを提供します。</p>
 
-    - name: Jakarta Data / Persistence
-      presenter: 式見遼
+    - name: Jakarta Data/Persistenceのアップデート
+      presenter: 景井教天
       type: tech
       time: 14:20-14:40 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>Jakarta EE 11 で変更点があったJakarta Data/Persistenceについて説明します。</p>
 
     - name: その他のJakarta EE 11でのアップデート
       presenter: 瀬戸智
@@ -74,12 +74,12 @@ items:
       abstract: |
               <p>富士通では25年以上Java開発に始まり、最近ではEclipse Foundationに日本国内ベンダーで唯一Strategic memberとして参加し、Jakarta EEの発展に貢献しています。製品としてはInterstageを20年以上継続して提供しており、最近では最新Java（Jakarta EE11/JDK21）を取り入れたEnterprise Application Platformという製品も提供しています。今後も最新技術を取り入れ製品を提供し、Javaアプリケーションの安定稼働を支援していく計画です。このセッションでは富士通のJavaへの取り組みと、製品の特長や今後の提供計画についてご紹介します。</p>
 
-    - name: TBD
+    - name: Jakarta EEとNECプロダクト(WebOTX)
       presenter: 高雄悠太 (NEC)
       type: vendor
       time: 15:50-16:15 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>NECではJakarta EEサーバとしてWebOTX Application Serverを出荷しています。このセッションではNECの取り組みと、製品の特長や国内ならではの状況を踏まえた今後の提供計画についてご紹介します。</p>
 
     - name: JBoss EAPとRed Hatの製品
       presenter: 瀬戸智 (Red Hat)
@@ -95,12 +95,12 @@ items:
       abstract: |
               <p>Open Liberty および WebSphere Liberty は、IBM が提供する Jakarta EE の実装です。これらは、業界でも最速レベルで Jakarta EE 11 に対応します。本セッションでは、両 Liberty の特長と Jakarta EE 対応の現状と今後についてわかりやすくご紹介します。</p>
 
-    - name: TBD
-      presenter: TBD (Microsoft)
+    - name: AI 駆動開発：GitHub Copilot Agent で Jakarta EE アプリの超高速開発
+      presenter: 寺田佳央 (Microsoft)
       type: vendor
       time: 17:10-17:35 (JST)
       abstract: |
-              <p>TBD</p>
+              <p>このセッションでは、GitHub Copilot Agentを活用したJakarta EEアプリケーションの超高速開発方法を紹介します。AI駆動開発による最大のメリットを解説し、具体的なコード例を通じて効率的な開発プロセスを紹介します。さらに、Azure上でのデプロイメント・オプションについても紹介し、開発者が直面する開発からデプロイ先の悩みを解決するヒントを提供します。</p>
 
     - name: 懇親会
       presenter: 寺田佳央
