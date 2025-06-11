@@ -32,6 +32,7 @@ items:
 
   - name: "Masatsugu Terada"
     title: IT Architect, Meiji Yasuda Life Insurance Company
+    img: "meiji-terada.jpg"
     bio: |
       <p>Masatsugu joined Meiji Yasuda in 1989 and since then has been engaged in application development in the Information Systems Division. Currently, he is in charge of application architecture of B2B services. In addition, as an architect, he leads the dissemination of information within the company to improve IT literacy and to develop IT professional human resources.</p>
       <p class="fw-700">Social media handles</p>
