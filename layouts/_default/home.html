@@ -32,10 +32,12 @@
         <!-- Active Events -->
         <div class="active-events">
           <h2 class="h4 brand-primary fw-700">{{ i18n "upcoming-events-header" }}</h2>
+          {{ $type_icons := dict "in-person" "fa-solid fa-location-dot" "virtual" "fa-solid fa-video" }}
           <table class="table table-hover">
             <thead class="sr-only">
               <tr>
                 <th scope="col">{{ i18n "upcoming-events-heading-event-date" . }}</th>
+                <th scope="col">{{ i18n "upcoming-events-heading-event-type" . }}</th>
                 <th scope="col">{{ i18n "upcoming-events-heading-event-title" . }}</th>
               </tr>
             </thead>
@@ -46,6 +48,11 @@
                 {{ $count = add $count 1 }}
                 <tr>
                   <td class="padding-left-5">{{ .date }}</td>
+                  <td class="text-center">
+                    {{ $type := .type | default "virtual" }}
+                    <i class="{{ index $type_icons $type }}" aria-hidden></i>
+                    <span class="sr-only">{{ $type }}</span>
+                  </td>
                   <td>
                     <a href="{{ .url }}">
                       {{ if .icon }}
@@ -64,6 +71,11 @@
               {{ end }}
             </tbody>
           </table>
+          <ul class="list-inline">
+            {{ range $key, $icon_class := $type_icons }}
+              <li><i class="{{ . }} margin-right-5" aria-hidden></i> {{ $key | title }}</li>
+            {{ end }}
+          </ul>
         </div>
       </div>
     </div>

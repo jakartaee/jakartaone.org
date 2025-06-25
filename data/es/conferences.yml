@@ -8,6 +8,7 @@ items:
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
     image: /images/events/jakartaone.png
+    type: "virtual"
     description: 
   -  
     name: JakartaOne Japan 2025
