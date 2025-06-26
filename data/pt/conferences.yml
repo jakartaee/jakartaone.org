@@ -1,5 +1,16 @@
 items:
   -  
+    name: JakartaOne China 2025
+    date: 25 July 2025
+    start_date: 2025-07-25
+    end_date: 2025-07-26
+    url: /2025/china/
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    type: "in-person"
+    description: 
+  -  
     name: JakartaOne Japan 2025
     date: 30 July 2025
     start_date: 2025-07-30
