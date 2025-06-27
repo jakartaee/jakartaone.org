@@ -1,0 +1,45 @@
+items:
+  - name: "胡勇"
+    title: "WG Member(TongTech)"
+    twitter_handle: 
+    img: "sniffhu2023.jpg" 
+    bio: ""
+  - name: "蒋丰慧"
+    title: "WG Member(IBM)"
+    twitter_handle:
+    img: "emily_jiang.jpg"
+    bio: ""
+  - name: "孟庆余"
+    title: "WG Member(Primeton)"
+    img: "Eric-Meng.jpg"
+    bio: ""
+  - name: "王峰"
+    title: "WG Member(AsiaInfo)"
+    twitter_handle:
+    img: "peakwang.2023.jpg"
+    bio: ""
+  - name: "马震"
+    title: "WG Member(Apusic)"
+    twitter_handle:
+    img: "mazhen.2023.jpg"
+    bio: ""
+  - name: "赵欣"
+    title: "WG Member(Cvicse)"
+    twitter_handle:
+    img: "maggiezhao.2023.jpg"
+    bio: ""
+  - name: "张建锋"
+    title: "UseOpen"
+    twitter_handle:
+    img: "jeffzhang2022.jpg"
+    bio: ""
+  - name: "詹年科"
+    title: "WG Member(Baolande)"
+    twitter_handle:
+    img: "jameszhan.2024.jpg"
+    bio: ""
+  - name: "肖旺"
+    title: "Individual"
+    twitter_handle:
+    img: "shawn.zh.jpg"
+    bio: ""
