@@ -47,7 +47,7 @@
 {{ else }}
   {{ $displayLearnMore = "false" }}
 {{ end }}
-{{ $itemClass := .Get "itemClass" | default "col-xs-12 col-sm-6" }}
+{{ $itemClass := .Get "itemClass" | default "pc-flex-item" }}
 <section id="program-committee" class="row">
     <div class="{{$committeeCssBackground}}">
     </div>
@@ -59,22 +59,16 @@
                     <p>{{ with .Inner }}{{ . | markdownify }}{{ end }}</p>
                 </div>
 
-                {{ if and (ne $subpageURL "") (eq $displayLearnMore "true") }}
-                <div class="eclipsefdn-user-display-subpage col-xs-24 text-center margin-top-30 margin-bottom-50">
-                    <a href="{{ $subpageURL | relLangURL }}" class="btn btn-bordered padded">{{ i18n "committee-carousel-button-text" }}</a>
-                </div>
-                {{ end }}
-
                 {{ if eq $displayDetails "true" }}
                 <div class="eclipsefdn-user-display-content col-xs-24">
-                    <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ end }}>
+                    <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ else }} class="pc-flex-wrapper"{{ end }}>
                         <!-- Start: image Area -->
-                        {{ range (index (index $base $event) $source).items }}
+                        {{ range sort (index (index $base $event) $source).items ".name" }}
                             {{ $anchor := urlize .anchor }}
                             {{ if not $anchor }}
                                 {{ $anchor = urlize .name }}
                             {{ end }}
-                        <div class="item card-container match-height-item-by-row {{ if ne $useCarousel "true" }}{{ $itemClass }}{{ end }}">
+                        <div class="item card-container {{ if ne $useCarousel "true" }}{{ $itemClass }}{{ end }}">
                             <a href="{{.url}}">
                                 <div class="card-panel panel panel-default text-center">
                                     <div class="panel-heading" aria-hidden="true">
@@ -109,5 +103,10 @@
             </div>
         </div>
     </div>
+    {{ if and (ne $subpageURL "") (eq $displayLearnMore "true") }}
+    <div class="eclipsefdn-user-display-subpage col-xs-24 text-center">
+        <a href="{{ $subpageURL | relLangURL }}" class="btn btn-bordered padded">{{ i18n "committee-carousel-button-text" }}</a>
+    </div>
+    {{ end }}
 </div>
 </section>

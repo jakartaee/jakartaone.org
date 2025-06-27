@@ -1,0 +1,45 @@
+items:
+  - name: "Sniffer Hu"
+    title: "WG Member(TongTech)"
+    twitter_handle:
+    img: "sniffhu2023.jpg"
+    bio: ""
+  - name: "Emily Jiang"
+    title: "WG Member(IBM)"
+    twitter_handle:
+    img: "emily_jiang.jpg"
+    bio: ""
+  - name: "Eric Meng"
+    title: "WG Member(Primeton)"
+    img: "Eric-Meng.jpg"
+    bio: ""
+  - name: "Peak Wong"
+    title: "WG Member(AsiaInfo)"
+    twitter_handle:
+    img: "peakwang.2023.jpg"
+    bio: ""
+  - name: "Leo Ma"
+    title: "WG Member(Apusic)"
+    twitter_handle:
+    img: "mazhen.2023.jpg"
+    bio: ""
+  - name: "Maggie"
+    title: "WG Member(Cvicse)"
+    twitter_handle:
+    img: "maggiezhao.2023.jpg"
+    bio: ""
+  - name: "Jeff Zhang"
+    title: "UseOpen"
+    twitter_handle:
+    img: "jeffzhang2022.jpg"
+    bio: ""
+  - name: "James Zhan"
+    title: "WG Member(Baolande)"
+    twitter_handle:
+    img: "jameszhan.2024.jpg"
+    bio: ""
+  - name: "Shawn"
+    title: "Individual"
+    twitter_handle:
+    img: "shawn.zh.jpg"
+    bio: ""

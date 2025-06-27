@@ -1,0 +1,309 @@
+items:
+  - name: "Buhake Sindi"
+    title: "Senior Solutions Architect, Sindi Technologies (PTY) LTD" 
+    img: "buhake-sindi.jpg" 
+    twitter_handle: "EliteGentleman"
+    bio: |
+      <p>
+        Buhake Sindi brings over 18 years of experience as a Senior Solutions
+        Architect and Advocate, specialising in Java Enterprise technology
+        stacks. His extensive background in coding, design, and problem-solving
+        is complemented by his role as a skilled DevOps Engineer, with 10+
+        years of hands-on experience in optimising and automating deployments.
+        Buhake excels in translating project requirements into technical
+        specifications and delivering robust, scalable solutions. His passion
+        for technology and ability to communicate complex concepts clearly has
+        made him a sought-after technical speaker and writer. Buhake's
+        dedication to mentoring and guiding developers positions him as an
+        influential advocate for cutting-edge development practices in
+        corporate environments.
+      </p>
+      <p>
+        He founded Devoxx4Kids South Africa, a multi-award, registered
+        Non-Profit Organisation that introduces and inspires young into STEM,
+        particularly programming, in a fun way.
+      </p>
+      <p>
+        Outside of work, he occasionally makes music or creates podcast
+        episodes, writes blogs, and is an avid runner.
+      </p>
+  - name: "Daniel Kec"
+    title: "Helidon Developer, Oracle"
+    img: "daniel-kec.jpg"
+    bio: |
+      <p>
+        After years of exploring all sides of Java in various companies landed
+        in a great team that develops Helidon.
+      </p>
+  - name: "Michael Redlich"
+    title: "Java Champion, Director at Garden State JUG"
+    img: "michael-redlich.jpg"
+    bio: |
+      <p>
+        <i>
+          Titles: Java Champion, Director at Garden State JUG, Lead Java Editor
+          at InfoQ Java, Contract Developer Advocate and Technical Writer at
+          Payara
+        </i>
+      </p>
+      <p>
+        Michael Redlich has been an active member within the Java community
+        for the past 25 years. He founded the Garden State Java User Group
+        (formerly the ACGNJ Java Users Group) in 2001 where he serves as one of
+        the directors. Since 2016, Mike has served as a Java community news
+        editor for InfoQ where his contributions include the weekly Java news
+        roundup, news items, technical articles and technical reviews from
+        external authors. He is currently the lead Java Queue editor. Mike
+        joined Payara as a contract Developer Advocate and Technical Writer in
+        the summer of 2023.
+      </p>
+      <p>
+        He has presented at venues such as Devnexus, Oracle Code One, JCON
+        World, Emerging Technologies for the Enterprise, Trenton Computer
+        Festival (TCF), TCF IT Professional Conference, and numerous Java User
+        Groups. Mike serves as a committer on the Jakarta NoSQL and Jakarta
+        Data specifications and the Eclipse JNoSQL project. He also
+        participates on the leadership council of the Jakarta EE Ambassadors.
+        Mike was named a Java Champion in April 2023.
+      </p>
+      <p>
+        Mike retired from ExxonMobil Technology & Engineering in June 2023 with
+        33½ years of service. His experience included developing custom
+        scientific laboratory and web applications, polymer physics,
+        chemometrics, infrared spectroscopy and automotive testing. He also has
+        experience as a Technical Support Engineer at Ai-Logix, Inc. (now
+        AudioCodes) where he provided technical support and developed telephony
+        applications for customers.
+      </p>
+  - name: "Ondro Mihályi"
+    title: "Director & Jakarta EE Expert, OmniFish"
+    img: "ondro-mihalyi.jpg"
+    twitter_handle: "OndroMih"
+    bio: |
+      <p>
+        Ondro is a software developer and consultant specializing in combining
+        standard and proven tools to solve new and challenging problems. He has
+        co-founded OmniFish, which provides enterprise support for Eclipse
+        GlassFish and expert Jakarta EE services. He’s passionate about helping
+        his clients and the wider Java community with their projects based on
+        Jakarta EE and similar technologies.
+      </p>
+      <p>
+        Ondro is a core member of several opensource projects and Jakarta EE
+        specification projects. He’s a frequent conference speaker, leader of
+        the Czech JUG, and a Java Champion.
+      </p>
+  - name: "Otávio Santana"
+    title: "Software Engineer, Architect, and Open Source Committer"
+    img: "otavio-santana.jpg"
+    bio: |
+      <p>
+        Empowering software engineers to deliver highly scalable and efficient
+        software on the cloud with the ultimate sophistication techniques using
+        the best practices on open source; lets them become productive and more
+        influential, moving their technical careers to the next level.
+      </p>
+      <p>
+        Otavio is a passionate architect and software engineer focused on cloud
+        and Java technologies. He has deep expertise in polyglot persistence
+        and high-performance applications in finance, social media, and
+        e-commerce.
+      </p>
+      <p>
+        Otavio has contributed to the Java and the Open source ecosystem in
+        several ways, such helped the direction and objectives of the Java
+        platform since Java 8 as a JCP executive member, besides being a
+        committer and leader in several open-source products and
+        specifications.
+      </p>
+      <p>
+        Otavio is recognized for his Open Source contributions and has received
+        many awards, including all JCP Awards categories and the Duke’s Choice
+        Award, to name a few. Otávio is also a distinguished Java Champions and
+        Oracle ACE program member.
+      </p>
+      <p>
+        Otávio loves history, economy, traveling, programming, and real-world
+        languages. He speaks Portuguese, English, Spanish, Italian, and French
+        fluently in dad jokes.
+      </p>
+  - name: "Nathan Rauh"
+    title: "Software Engineer, IBM"
+    img: "nathan-rauh.jpg"
+    bio: |
+      <p>
+        Nathan works as a software engineer at IBM, contributing to a variety
+        of open source projects and specifications, including Jakarta Data and
+        various other Jakarta EE specifications, MicroProfile, and Open
+        Liberty.
+      </p>
+  - name: "Reza Rahman"
+    title: "Principal Program Manager, Java on Azure, Microsoft"
+    img: "reza-rahman.jpg"
+    twitter_handle: "reza_rahman"
+    bio: |
+      <p>
+        Reza Rahman is Principal Program Manager for Java on Azure at
+        Microsoft. He works to make sure Java developers are first class
+        citizens at Microsoft and Microsoft is a first class citizen of the
+        Java ecosystem.
+      </p>
+      <p>
+        Reza has been an official Java technologist at Oracle. He is the author
+        of the popular book EJB 3 in Action from Manning Publishing. Reza has
+        long been a frequent speaker at Java User Groups and conferences
+        worldwide including DevNexus, JavaOne, and Devoxx. He has been the lead
+        for the Java EE track at JavaOne as well as a JavaOne Rock Star Speaker
+        award recipient. He was the program chair for the inaugural JakartaOne
+        conference. He has been a member of the Java EE, EJB, and JMS expert
+        groups over the years. Reza implemented the EJB container for the Resin
+        open source Java EE application server. He is the Microsoft
+        representative to the Jakarta EE and MicroProfile steering committees.
+        He helps lead the Philadelphia Java User Group. Reza is proud to be a
+        founding member of the Jakarta EE Ambassadors.
+      </p>
+      <p>
+        Reza has decades of experience with technology leadership, enterprise
+        architecture, and consulting. He has been working with Java EE
+        technology since its inception, developing on almost every major
+        application platform ranging from Tomcat to JBoss EAP, GlassFish,
+        WebSphere and WebLogic. Reza has developed enterprise systems for
+        well-known companies like eBay, Motorola, Comcast, Nokia, Prudential,
+        Guardian Life, USAA, Independence Blue Cross, Anthem, CapitalOne, and
+        AAA using Java EE and Spring. He is particularly interested in
+        distributed systems, messaging, middleware, and machine learning.
+      </p>
+      <p>
+        Reza is an inductee to Phi Beta Kappa, the oldest and most respected
+        national honor society for undergraduates in liberal arts and sciences.
+        He earned his bachelors degree from Gettysburg College. He graduated
+        Summa Cum Laude with a double major in Computer Science and Economics
+        as well as a minor in Mathematics.
+      </p>
+  - name: "Werner Keil"
+    title: "Director, CATMedia"
+    img: "werner-keil.jpg"
+    twitter_handle: "wernerwedge"
+    bio: |
+      <p>
+        Werner Keil is a Cloud-Native, Jakarta EE and Security expert. Helping
+        Global 500 Enterprises across industries and leading IT vendors.
+      </p>
+      <p>
+        He worked for over 30 years as IT Manager, PM, Coach, SW architect,
+        developer and consultant for Finance, Mobile, Media, Transport and
+        Public sector.
+      </p>
+      <p>
+        Werner develops enterprise systems using Java, Java/Jakarta EE, Oracle,
+        IBM, Spring or Microsoft technologies, JavaScript, Node, Angular,
+        dynamic or functional languages.
+      </p>
+      <p>
+        Werner is Committer at Apache Foundation, Eclipse Foundation, Babel
+        Language Champion, UOMo Project Lead and active member of the Java
+        Community Process in JSRs like 354 (Money, also Maintenance Lead),
+        358/364 (JCP.next), 363 (Unit-API 1), 365 (CDI 2), 366 (Java EE 8), 375
+        (Java EE Security), 380 (Bean Validation 2), 385 (Unit-API 2, also Spec
+        Lead) and was the longest serving Individual Member of the Executive
+        Committee for 9 years in a row till 2017. Werner is currently the
+        Committer representative in the Jakarta EE Specification Committee.
+      </p>
+  - name: "Daichi Aoshima"
+    title: "Technical Sales, Fujitsu Limited"
+    img: "daichi-aoshima.jpg"
+    bio: |
+      <p>
+        I joined Fujitsu Limited in 2017 and have been in charge of technical
+        sales for "Interstage Application Server" and "Enterprise Application
+        Platform" since 2021.
+      </p>
+      <p>
+        I also conduct webinars to promote Jakarta EE and MicroProfile.
+      </p>
+  - name: "Phillip Krüger"
+    title: "Software Engineer, Red Hat"
+    img: "phillip-kruger.jpg"
+    bio: |
+      <p>
+        Hey, I’m Phillip. I’m a Software Engineer living in Victoria,
+        Australia.
+      </p>
+      <p>
+        I work for Red Hat, where I spend most of my time on MicroProfile,
+        SmallRye and Quarkus.
+      </p>
+      <p>
+        I am a fan of technology, coffee and programming. I love dogs and
+        music. To keep active I play squash. I was lucky enough to marry my
+        best friend, Charmaine. She is also a geek :)
+      </p>
+      <p>
+        <a href="https://www.phillip-kruger.com/about">phillip-kruger.com/about</a>
+      </p>
+  - name: "Gavin King"
+    title: "Senior Distinguished Engineer, Red Hat / Commonhaus Foundation"
+    img: "gavin-king.jpg"
+    bio: |
+      <p>
+        Gavin King is a Java Champion and Distinguished Engineer at Red Hat.
+        He's the creator of Hibernate, the most popular persistence solution
+        for Java, and of the Ceylon programming language. He contributed to the
+        Java Community Process as JBoss and then Red Hat representative for the
+        EJB3 and JPA specifications and as spec lead and author of the CDI
+        specification. He's currently a major contributor to the design of
+        Jakarta Data and Jakarta Persistence, and an EGC representative for the
+        Commonhaus Foundation.
+      </p>
+  - name: "Will Lyons"
+    title: "VP of Product Management for Enterprise Cloud Native Java, Oracle"
+    img: "will-lyons.jpg"
+    bio: |
+      <p>
+        Will Lyons is vice president of product management for Enterprise Cloud
+        Native Java at Oracle. He has over 20 years of experience working with
+        customers using enterprise software and cloud technologies. Will has
+        extensive knowledge of Oracle’s Enterprise Cloud Native Java
+        capabilities, including WebLogic Server, WebLogic Server for OCI and
+        OKE, Coherence and Helidon, and their integration with Oracle Fusion
+        Middleware, Oracle Applications, Oracle Database, OCI, Kubernetes, and
+        Jakarta EE.
+      </p>
+  - name: "Louise Castens"
+    title: "Senior Product Manager, Payara"
+    img: "louise-castens.jpg"
+    bio: |
+      <p>
+        Louise Castens is a Senior Product Manager and Product Lead at Payara,
+        and she is committed to helping shape technology solutions that deliver
+        value to end users. Louise has more than 15 years of experience in
+        Product Management - identifying opportunities, delivering quality
+        solutions, sustained results and effective change for businesses and
+        clients across a wide range of B2B and SaaS products and industries.
+        With a business background, some of her specialties and certifications
+        include Agile frameworks, Business Analysis and Process optimization.
+      </p>
+  - name: "Arjan Tijms"
+    title: "Director, OmniFish"
+    img: "arjan-tijms.png"
+    twitter_handle: "arjan_tijms"
+    bio: |
+      <p>
+        Arjan Tijms is the co-founder of Jakarta EE support company OmniFish,
+        and is currently project lead for a number of Jakarta projects
+        including Jakarta- Security, Authentication, Authorization, Faces and
+        Expression Language. He is the co-creator of the popular OmniFaces
+        library for JSF that was a 2015 Duke’s Choice Award winner, and is the
+        author of three books on Jakarta EE. He has been active as an EG member
+        under the JCP for JSF (JSR 372) and Security API (JSR 375), and has
+        participated as a member in the Jakarta EE Steering and Specification
+        committees.
+      </p>
+  - name: "Matt Pavlovich"
+    title: ""
+    img: "matt-pavlovich.jpg"
+    bio: ""
+  - name: "Emily Jiang"
+    title: ""
+    img: "emily-jiang.jpg"
+    bio: ""

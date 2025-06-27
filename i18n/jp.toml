@@ -22,6 +22,12 @@ other = "No current events to display"
 [past-events-header]
 other = "Past Events"
 
+[revisit-latest-event-heading]
+other = "Revisit our Latest 2022 Japan Event"
+
+[revisit-latest-event-playlist]
+other = "PLutlXcN4EAwC1mTOqWWjDhSgtofYiStS8"
+
 [regional-jakartaone-livestreams]
 other = "Organizing Regional JakartaOne Livestreams Events"
 

@@ -1,0 +1,107 @@
+items:
+
+  - name: "Kenji Kazumura"
+    title: Senior Architect, Fujitsu Limited
+    img: "kazumura.jpg"
+    bio: |
+      <p>Kenji Kazumura is a member of Jakarta EE Speficiation Committee and MicroProfile Steering Committee. He is actively working for defining Jakarta EE and MicroProfile specifications as a committee member. He is also a member of JCP EC and advocating Java and Java related technologies  worldwide. He lead the development of Interstage Application Server and Application Platform at Fujitsu.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kkzr">X</a></li>
+      </ul>
+
+  - name: "Satochi Seto"
+    title: Specialist Solution Architect
+    img: "seto2.jpg"
+    bio: |
+      <p>I have been a Solutions Architect at Red Hat since 2022. I am responsible for JBoss EAP and other middleware and OpenShift. I am one of the organizers of the Japan Java User Group.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "Takakiyo, TANAKA"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    bio: |
+      <p>Joined IBM Japan at 1998. Technical Specialist of WebSphere Application Server since 2000. Technical writing, session speaker in Java/Java EE technology.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+         <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+  - name: "Masatsugu Terada"
+    title: IT Architect, Meiji Yasuda Life Insurance Company
+    img: "meiji-terada.jpg"
+    bio: |
+      <p>Masatsugu joined Meiji Yasuda in 1989 and since then has been engaged in application development in the Information Systems Division. Currently, he is in charge of application architecture of B2B services. In addition, as an architect, he leads the dissemination of information within the company to improve IT literacy and to develop IT professional human resources.</p>
+      <p class="fw-700">Social media handles</p>
+
+  - name: "Kenzo Matsushita"
+    title: Executive Vice President, D-CIRCLE Corporation
+    img: "dcirclie-matsushita.jpg"
+    bio: |
+      <p>Joined Mitani Sangyo Co., Ltd. in 1990. Transferred to Discircle Corporation upon its establishment in 1999. Since then, has been involved in the design and development of POWER EGG to the present day.</p>
+      <p class="fw-700">Social media handles</p>
+
+  - name: "Yuichi Kusano"
+    title: Senior Manager, Fujitsu
+    img: "kusano.jpg"
+    bio: |
+      <p>Jojned Fujitsu at 2011. Technical sales of Interstage Application Server(Fujitsu Java Application Server) , recently been promoting Jakarta EE and MicroProfile through seminars and blogs.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kusano_yuichi">X</a></li>
+      </ul>
+
+
+  - name: "Hiroki Kaido"
+    title: Engineer, Fujitsu / GlassFish Committer
+    img: "kaido_2.jpg"
+    bio: |
+      <p>Hiroki joined Fujitsu Limited in 2021. He is responsible for the development of the Enterprise Application Platform, Fujitsu's Java application server, and also involved in the development of Eclipse GlassFish, which the product is based on. In 2023, He was promoted to Committer of Eclipse GlassFish.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kaido0203">X</a></li>
+        <li><a href="www.linkedin.com/in/広樹-皆藤-a09168274">LinkedIn</a></li>
+        <li><a href="https://github.com/kaido207">GitHub</a></li>
+      </ul>
+
+  - name: "Yuta Takao"
+    title: Manager, NEC
+    img: "NEC_takao.jpg"
+    bio: |
+      <p>Joined NEC at 2008.Yuta Takao leads the development of WebOTX products including WebOTX Application Server, NEC's Java application server. At the same time, he has been supporting the modernization of Java</p>
+      <p class="fw-700">Social media handles</p>
+
+  - name: "Kagei Noritaka"
+    img: "NEC-kagei.jpg"
+    title: Specialist, NEC
+    bio: |
+      <p>Noritaka Kagei joined NEC in 2021. He has worked on the development of WebOTX Application Server (Java application server) and maintenance of Spring (Java framework).</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+         <li><a href="https://jp.linkedin.com/in/noritaka-kagei">Linkedin</a></li>
+      </ul>
+
+
+  - name: "Miyuka Nishio"
+    img: "nishio.jpg"
+    title: Automation Technical Specialist, IBM Japan
+    bio: |
+      <p>I joined Technology, IBM Japan in 2023 as a Technical Specialist. Since then, I have been mainly involved in sales activities and community management focusing on WebSphere Application Server.</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/miyuka-nishio/">LinkedIn</a></li>
+      </ul>
+
+  - name: "Yoshio, Terada"
+    img: "yoshio-2018.jpg"
+    title: Sr. Cloud Advocate, Microsoftt
+    bio: |
+      <p>Currently working in the Developers Relation team at Microsoft Corporation, promoting and advocating the use of Java on Azure. In 2016, he became the second Japanese person to be appointed as a Java Champion</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/yoshioterada">X</a></li>
+      </ul>
+

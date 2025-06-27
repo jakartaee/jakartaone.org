@@ -22,6 +22,12 @@ other = "No hay eventos actuales que mostrar"
 [past-events-header]
 other = "Eventos pasados"
 
+[revisit-latest-event-heading]
+other = "Revisit our Latest 2023 Spanish Event"
+
+[revisit-latest-event-playlist]
+other = "PLutlXcN4EAwD_rW8juyr1ZQf7MEYRQuWb"
+
 [regional-jakartaone-livestreams]
 other = "Organización de eventos regionales JakartaOne Livestreams"
 

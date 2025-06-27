@@ -1,0 +1,49 @@
+items:
+  - name: "寺田佳央"
+    title: " Sr. Cloud Advocate, Microsoft Corporation"
+    img: "yoshio-2018.jpg"
+    bio: |
+      <p>Microsoft Corporation の Developers Relation チームで、Azure における Java の利用促進や啓蒙（けいもう）活動を実施中。2016年には日本人で2人目となるJava Championに就任</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/yoshioterada">X</a></li>
+      </ul>
+
+  - name: "田中 孝清"
+    title: Advisory Automation Technical Specialist, IBM Japan
+    img: "Tanaka.jpg"
+    bio: |
+      <p>1998年日本IBM入社。2000年よりソフトウェア事業でWebSphere Application Serverの技術者として日本でのセールス活動に携わっています。様々なセミナーやWebサイトでIBMからのJavaの情報発信を続けています。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+         <li><a href="https://linkedin.com/in/takakiyo">LinkedIn</a></li>
+      </ul>
+
+  - name: "草野優一"
+    title: "シニアマネージャー, 富士通株式会社"
+    img: "kusano.jpg"
+    bio: |
+      <p>2011年より富士通(株)に在籍し、現在は主に富士通製Javaアプリケーションサーバである「Interstage」のマーケティングや適用支援を担当。最近はセミナーやブログでJakarta EEやMicroProfileの啓蒙活動を行っている。<p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/kusano_yuichi">X</a></li>
+      </ul>
+
+  - name: "瀬戸　智"
+    title: スペシャリストソリューションアーキテクト, Red Hat
+    img: "seto2.jpg"
+    bio: |
+      <p>"2022年からRed Hatでソリューションアーキテクトをしています。JBoss EAPを中心としたミドルウェアやOpenShiftを担当しています。日本Javaユーザーグループで幹事もしています。"</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/megascus">X</a></li>
+      </ul>
+
+  - name: "高雄 悠太"
+    title: マネージャ, NEC
+    img: "NEC_takao.jpg"
+    bio: |
+      <p>2008年よりNECに入社。NEC製JavaアプリケーションサーバであるWebOTX Application Serverをはじめとする、WebOTX製品の開発を主導。合わせて、Javaのモダナイズに対する支援活動を実施している。</p>
+      <p class="fw-700">Social media handles</p>
+
+

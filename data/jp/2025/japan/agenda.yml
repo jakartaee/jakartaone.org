@@ -1,0 +1,110 @@
+timezone: GMT+09
+complete: false
+types:
+    - name: キーノート
+      id: keynote 
+      color: "#85BFF3"
+    - name: 事例セッション
+      id: user
+      color: "#e44"
+    - name: ベンダートラック
+      id: vendor
+      color: "#a0a"
+    - name: テクニカルセッション
+      id: tech
+      color: "#0a0"
+    - name: 懇親会
+      id: meetup
+      color: "#2a2a70"
+
+items:
+    - name: Jakarta EE 最新情報
+      presenter: 数村憲治
+      type: keynote
+      time: 10:00-11:10 (JST)
+      abstract: |
+              <p>Jakarta EE 11のハイライト、MicroProfileとの統合状況、Jakarta EE 12の展望を紹介します。</p>
+
+    - name: Spring全盛時代になぜJakarta EEで書くのか
+      presenter: 田中孝清
+      type: tech
+      time: 11:10-11:30 (JST)
+      abstract: |
+              <p>Spring Bootが主流の時代に，企業が依然としてJakarta EEを選ぶべき理由は何でしょうか？ 単一の実装に縛られたSpring frameworkとは異なり，Jakarta EEは仕様主導型であり，ベンダー中立性，安定性，そして長期的な互換性を提供します。最新のJakarta EE実装は，Spring Bootと同様な軽量なデプロイメントの利便性をも提供しつつ，信頼性の高いITシステムに不可欠な標準化されたエンタープライズグレードの機能を融合しています。</p>
+
+    - name: 保険会社におけるJakarta EEの利活用方法と今後のJava/JakartaEEへの期待
+      presenter: 寺田昌嗣 (明治安田生命保険相互会社)
+      type: user
+      time: 13:00-13:25 (JST)
+      abstract: |
+              <p>生命保険業界では契約管理が超長期にわたるため、確実性と堅牢性が重要視されています。さらに現在では、レガシーシステムのマイグレーションやSoE領域でのサービスのパーソナライズ化やユーザーエクスペリエンスの向上、今後を担うIT人財育成が重要な課題となっています。そのような状況の中で、当社がJava/JakartaEEをどのように利活用してきたか、また、今後どのような事に期待しているのかについて、簡単に紹介させていただきます。</p>
+
+    - name: POWER EGGのJakarta EE利用事例のご紹介
+      presenter: 松下憲三（ディサークル株式会社)
+      type: user
+      time: 13:25-13:50 (JST)
+      abstract: |
+              <p>当社では2002年からJava EEを利用して、業務のデジタル化を支援する「POWER EGG」ソフトウェアを開発しています。このセッションでは POWER EGGの開発の歴史とJakarta EEの利用事例についてご紹介させていただきます。</p>
+
+    - name: Jakarta EE移行戦略：主要ツール比較と検証
+      presenter: 皆藤広樹
+      type: tech
+      time: 13:50-14:10 (JST)
+      abstract: |
+              <p>Jakarta EE のアップデートにより、Java EE からセキュリティやメンテナンス性が向上し、既存システムを移行するニーズが高まっています。しかし、移行には互換性問題など課題も多く、時間とコストがかかる場合があります。本セッションでは、Jakarta EE への移行を支援する様々な変換ツールを比較検討し、移行期間の短縮とコスト削減に貢献するツール選びのヒントを提供します。</p>
+
+    - name: Jakarta Data/Persistenceのアップデート
+      presenter: 景井教天
+      type: tech
+      time: 14:20-14:40 (JST)
+      abstract: |
+              <p>Jakarta EE 11 で変更点があったJakarta Data/Persistenceについて説明します。</p>
+
+    - name: その他のJakarta EE 11でのアップデート
+      presenter: 瀬戸智
+      type: tech
+      time: 14:40-15:05 (JST)
+      abstract: |
+              <p>Jakarta Data/Persistence以外のJakarta EE 11でのへんこうてんについて軽く説明していきます。</p>
+
+    - name: Jakarta EEと富士通プロダクト（富士通EAPとIntersatge）
+      presenter: 草野優一 (富士通株式会社)
+      type: vendor
+      time: 15:25-15:50 (JST)
+      abstract: |
+              <p>富士通では25年以上Java開発に始まり、最近ではEclipse Foundationに日本国内ベンダーで唯一Strategic memberとして参加し、Jakarta EEの発展に貢献しています。製品としてはInterstageを20年以上継続して提供しており、最近では最新Java（Jakarta EE11/JDK21）を取り入れたEnterprise Application Platformという製品も提供しています。今後も最新技術を取り入れ製品を提供し、Javaアプリケーションの安定稼働を支援していく計画です。このセッションでは富士通のJavaへの取り組みと、製品の特長や今後の提供計画についてご紹介します。</p>
+
+    - name: Jakarta EEとNECプロダクト(WebOTX)
+      presenter: 高雄悠太 (NEC)
+      type: vendor
+      time: 15:50-16:15 (JST)
+      abstract: |
+              <p>NECではJakarta EEサーバとしてWebOTX Application Serverを出荷しています。このセッションではNECの取り組みと、製品の特長や国内ならではの状況を踏まえた今後の提供計画についてご紹介します。</p>
+
+    - name: JBoss EAPとRed Hatの製品
+      presenter: 瀬戸智 (Red Hat)
+      type: vendor
+      time: 16:15-16:35 (JST)
+      abstract: |
+              <p>Red HatではJakarta EEサーバーとしてJBoss EAPを出荷しています。Red HatはJakarta EEサーバー自体に仕様から外れた機能を積極的には入れずに、他の製品として出荷する戦略を取っています。これによりお客様はJakarta EE仕様に基づいた機能かどうかを簡単に見分けることができます。JBoss EAPそのものの紹介と、他にどういった製品があるのかについて軽く紹介します。</p>
+
+    - name: 開発者のためのLiberty入門：Jakarta EE対応の現状と今後について
+      presenter: 西尾実優香 (日本IBM)
+      type: vendor
+      time: 16:45-17:10 (JST)
+      abstract: |
+              <p>Open Liberty および WebSphere Liberty は、IBM が提供する Jakarta EE の実装です。これらは、業界でも最速レベルで Jakarta EE 11 に対応します。本セッションでは、両 Liberty の特長と Jakarta EE 対応の現状と今後についてわかりやすくご紹介します。</p>
+
+    - name: AI 駆動開発：GitHub Copilot Agent で Jakarta EE アプリの超高速開発
+      presenter: 寺田佳央 (Microsoft)
+      type: vendor
+      time: 17:10-17:35 (JST)
+      abstract: |
+              <p>このセッションでは、GitHub Copilot Agentを活用したJakarta EEアプリケーションの超高速開発方法を紹介します。AI駆動開発による最大のメリットを解説し、具体的なコード例を通じて効率的な開発プロセスを紹介します。さらに、Azure上でのデプロイメント・オプションについても紹介し、開発者が直面する開発からデプロイ先の悩みを解決するヒントを提供します。</p>
+
+    - name: 懇親会
+      presenter: 寺田佳央
+      type: meetup
+      time: 17:35- (JST)
+
+

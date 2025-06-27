@@ -1,0 +1,331 @@
+complete: true
+types:
+  - name: "Keynote"
+    id: "keynote"
+    color: "#F6B26B"
+  - name: "Session"
+    id: "session"
+    color: "#4A86E8"
+  - name: "Studio Jakarta EE"
+    id: "studio"
+    color: "#B7B7B7"
+items:
+  - name: "Welcome Session"
+    type: "studio"
+    time: "6:45 - 7:00"
+    vod: "https://youtu.be/OBL7baeFULM?si=M1Gu8VQWV5ly-Ltx"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+  - name: "Why Jakarta EE is the Best Platform for the Apps of the Future"
+    type: "session"
+    time: "7:00 - 7:45"
+    presenters:
+      - "Louise Castens"
+    vod: "https://youtu.be/LDKoiy7_sHk?si=_wQTUSGX7OeTbpm3"
+    abstract: |
+      <p>
+        In the digital era, applications are becoming more varied than ever to
+        address the diverse need of industries and users, ranging from small
+        IoT deployments to hyperscale cloud environments. While considered by
+        some an outdated application server solution, Jakarta EE can offer much
+        more. Its APIs are uniquely positioned to meet these demands and
+        support the applications of the future. In effect, Jakarta EE can be
+        applied to support forward-looking, interoperable Platform Engineering
+        practices that encompass edge devices all the way to complex,
+        cloud-native microservices solutions. Even more, the latest new Jakarta
+        EE Futures Interest Group will help keep the platform up-to-date to
+        address future needs.
+      </p>
+      <p>
+        This session will explore why Jakarta EE is the optimal platform for
+        future applications, particularly in supporting the scalability,
+        flexibility and standardization required in modern digital ecosystems.
+        Ultimately, by relying on Jakarta EE developers and users can benefit
+        from long-term success.
+      </p>
+  - name: "Celebrate Jakarta EE 11 Release"
+    type: "studio"
+    time: "7:45 - 8:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/afINxedHt0o?si=XH6BZig9LC95ctfa"
+  - name: "Jakarta EE Meets AI"
+    type: "session"
+    time: "8:00 - 8:45"
+    presenters:
+      - "Buhake Sindi"
+    vod: "https://youtu.be/tqy9Jet9oEs?si=EVfPCs_9nRedt886"
+    abstract: |
+      <p>
+        Langchain4J is the de-facto, popular AI framework for Java developers
+        and they’ve introduced AI Services, which the idea is to hide the
+        complexities of interacting with LLMs and other components behind a
+        simple API. Thus allowing developers to focus on writing business
+        logic. This is achieved by declaratively define an interface with the
+        desired API, and LangChain4j provides an object (proxy) that implements
+        this interface.
+      </p>
+      <p>
+        This talk shows how to achieve the same goal, using Langchain4J and let
+        CDI container manage the proxy and injection (the same way Spring does
+        with Spring AI on Spring Boot, and recently on Quarkus). A code demo with
+        examples will be shown.
+      </p>
+  - name: "Learn Page, Celebrate Jakarta Data as a New Spec"
+    type: "studio"
+    time: "8:45 - 9:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/cuYkyhDe5Wk?si=pEacUKOWjtMdBqCs"
+  - name: "Demystifying Java Virtual Threads - lessons learned from using them in GlassFish"
+    type: "session"
+    time: "9:00 - 9:45"
+    presenters:
+      - "Ondro Mihályi"
+    vod: "https://youtu.be/7GOOQPQs7eQ?si=QG9d2EALMSleOVBw"
+    abstract: |
+      <p>
+        Do you want to understand how Java Virtual Threads really work and
+        whether the myths you heard about are true or not? Join me to find out.
+        In this session, we’ll delve into how Java Virtual Threads work,
+        dispelling myths and offering practical guidance on leveraging them
+        effectively. Drawing from my experience with GlassFish and Grizzly,
+        we’ll discuss when and how to harness virtual threads to optimize
+        performance and resource utilization in your applications. Along the
+        way, we’ll highlight common pitfalls to avoid.
+      </p>
+      <p>
+        We’ll debunk a few myths about virtual threads and explain why you
+        shouldn’t be afraid to use them. Furthermore, we’ll tackle the question
+        of whether virtual threads pose a competition to reactive programming
+        in Java or whether they can fit well together.
+      </p>
+      <p>
+        Join me as we unravel the mysteries of Java Virtual Threads and learn
+        that you can start using virtual threads right now with peace in your
+        mind.
+      </p>
+  - name: "Interview with Release Lead"
+    type: "studio"
+    time: "9:45 - 10:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/A16f_kuJxHw?si=kpOWVLPVtIpKXBvX"
+  - name: "Security in Jakarta EE 11"
+    type: "session"
+    time: "10:00 - 10:45"
+    presenters:
+      - "Werner Keil"
+    vod: "https://youtu.be/vgW5UrFj0RE?si=KrFmImZJbpTCKz2D"
+    abstract: |
+      <p>
+        In this talk we’ll take a look at the Security specs of Jakarta EE 11.
+        Security is an overarching aspect of an application, and Jakarta
+        Security is fundamental for applications ranging from traditional MVC
+        to Jakarta REST based microservices or serverless functions. In this
+        session we will dive into what’s already there and everything that’s in
+        the works for Jakarta EE Security, including new features like: 
+      </p>
+      <ul>
+        <li>Client-cert and Digest Security</li>
+        <li>Authentication mechanism per URL</li>
+        <li>User choice of authentication mechanism (login with provider X or Y, etc)</li>
+        <li>Multiple authentication mechanisms (try JWT, fallback to BASIC, ...)
+        <li><code>@RolesAllowed</code> alternative</li>
+        <li>Easily adding an interceptor to a built-in CDI bean</li>
+        <li>Authorization modules</li>
+      </ul>
+  - name: "Adoptium + JUG Collaboration"
+    type: "studio"
+    time: "10:45 - 11:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/DJp7udi8mjA?si=KbM_5tySYCFT8Qua"
+  - name: "What's new in Persistence 3.2 for Jakarta EE 11"
+    type: "session"
+    time: "11:00 - 11:45"
+    presenters:
+      - "Gavin King"
+    vod: "https://youtu.be/Gx6M2rvuYRA?si=rnNZwWlKrWDwj_wP"
+    abstract: |
+      <p>
+        Jakarta Persistence Specification 3.2 targeting Jakarta EE 11 comes
+        with large number of updates and no part of the specification remained
+        untouched. Let’s deep dive into new features and enhancements and
+        explore changes improving usability, type safety, testability and other
+        areas.
+      </p>
+  - name: "Events, Livestream, Tech Talks and Swag"
+    type: "studio"
+    time: "11:45 - 12:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://www.youtube.com/watch?v=EEOcRuOcncM&list=PLutlXcN4EAwAAqeiURVFJ_4tcEmul__53&index=12"
+  - name: "Industry Keynote"
+    type: "keynote"
+    time: "12:00 - 12:50"
+    vod: "https://youtu.be/Hub_NjfmVVk?si=J8hdupLV6sRLFpNW"
+    presenters:
+      - "Reza Rahman"
+      - "Daichi Aoshima"
+      - "Emily Jiang"
+      - "Will Lyons"
+      - "Louise Castens"
+  - name: "GlassFish, State of the Union"
+    type: "session"
+    time: "12:50 - 13:00"
+    presenters:
+      - "Arjan Tijms"
+  - name: "Jakarta EE Core Profile on Virtual Threads" 
+    type: "session"
+    time: "13:00 - 13:45"
+    presenters:
+      - "Daniel Kec"
+    vod: "https://youtu.be/wmju5YrWj5g?si=PQOmaX9VMcOL2Kng"
+    abstract: |
+      <p>
+        With Virtual Threads coming to Java we can achieve the same performance
+        without all the reactive hassles. Helidon 4, the first Jakarta Core
+        Profile implementation powered by a web server designed and fine tuned
+        specifically for Virtual Threads usage.There is no retrofitting, no
+        offloading from reactive handlers, but a clean imperative server powering
+        imperative Jakarta APIs.
+      </p>
+  - name: "Jakarta EE In Nature!"
+    type: "studio"
+    time: "13:45 - 14:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/aofzuc2Tu_o?si=z0GrUjcjlmBBttqE"
+  - name: "Harnessing Jakarta Data for Domain-Driven Design in Enterprise Java"
+    type: "session"
+    time: "14:00 - 14:45"
+    presenters:
+      - "Nathan Rauh"
+      - "Otávio Santana"
+    vod: "https://youtu.be/hu3OPzeffQE?si=S6xHgPqTWkxDEylA"
+    abstract: |
+      <p>
+        In the fast-evolving world of enterprise software, aligning your
+        architecture with business goals is crucial. This presentation will
+        show you how Jakarta Data can be the key to achieving a genuinely
+        domain-centric design, fully embracing the principles of Domain-Driven
+        Design (DDD) within your enterprise Java architecture. You will learn
+        how Jakarta Data simplifies the integration of DDD by providing robust
+        tools for modeling, managing, and accessing data in a way that closely
+        aligns with your domain.
+      </p>
+      <p>
+        This session will demonstrate, through practical examples and best
+        practices, how Jakarta Data can be seamlessly integrated into your DDD
+        strategy, leading to more maintainable, scalable, and agile enterprise
+        applications. Whether you’re modernizing legacy systems or building new
+        applications, this presentation will equip you with the knowledge and
+        tools to elevate your enterprise architecture through the power of
+        Jakarta Data and DDD.
+      </p>
+  - name: "How To Contribute To Jakarta EE"
+    type: "studio"
+    time: "14:45 - 15:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/0KGOlPdwvB4?si=DOJp21jDRBcdJrBN"
+  - name: "Writing Queryable APIs with MicroProfile GraphQL"
+    type: "session"
+    time: "15:00 - 15:45"
+    presenters:
+      - "Phillip Krüger"
+    vod: "https://youtu.be/5FlcpSsapaU?si=KgQiU-86t5mumwS-"
+    abstract: |
+      <blockquote cite="https://en.wikipedia.org/wiki/GraphQL">
+        GraphQL is a data query language developed internally by Facebook in
+        2012 before being publicly released in 2015. It provides an
+        alternative to REST and ad-hoc web service architectures.
+      </blockquote>
+      <p>
+        In this talk, we will: 
+      </p>
+      <ul>
+        <li>Go through the basics of GraphQL</li>
+        <li>Discuss the differences with REST</li> 
+        <li>Discuss the features in the current and future MicroProfile GraphQL API</li>
+        <li>Go through a basic example in Java using Quarkus</li>
+      </ul>
+      <p>
+        We will look at the following GraphQL concepts:
+      </p>
+      <ul>
+        <li>Query</li>
+        <li>Fragment and Named</li>
+        <li>Filtering</li>
+        <li>Variables</li>
+        <li>Mutation</li>
+        <li>Error Handling</li>
+        <li>Introspections</li>
+      </ul>
+  - name: "MicroProfile-interview with Emily"
+    type: "studio"
+    time: "15:45 - 16:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/ls2suY9U2Pg?si=NqvOiodFZi5GNc1k"
+  - name: "Migrating ActiveMQ to Jakarta EE"
+    type: "session"
+    time: "16:00 - 16:45"
+    presenters:
+      - "Matt Pavlovich"
+    vod: "https://youtu.be/hUVRCdmedr4?si=nb5cKYdpsqrmMy97"
+    abstract: |
+      <p>
+        ActiveMQ is widely adopted for event-driven, messaging and integration
+        infrastructure for Java (and non-Java) applications. ActiveMQ’s
+        stability and robustness have made it a favorite of event-driven
+        developers to “set it and forget it”.
+      </p>
+      <p>
+        Migrating ActiveMQ to provide a Jakarta EE-based release required
+        modernization and paying down of technical debt. This talk will
+        deep-dive into the technical requirements and (mis)steps taken to
+        modernize a large code base to Jakarta EE.
+      </p>
+      <p>
+        ActiveMQ 6.x release stream is Jakarta EE-based and modernization
+        continues.
+      </p>
+  - name: "Java at EF (IDE + Tools)"
+    type: "studio"
+    time: "16:45 - 17:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://www.youtube.com/watch?v=AKtluFTj-Mo"
+  - name: "A Developer's Guide to Jakarta EE 11"
+    type: "session"
+    time: "17:00 - 17:45"
+    presenters:
+      - "Michael Redlich"
+    vod: "https://youtu.be/eQG-KVCLi4A?si=IJeaamoywXAcpbfT"
+    abstract: |
+      <p>
+        Since its introduction in 2018 as Jakarta EE, the platform has evolved
+        from: Jakarta EE 8, an open-source version of Java EE 8; to Jakarta EE 9,
+        the "big bang" release; to Jakarta EE 10 that introduced the Core
+        Profile.
+      </p>
+      <p>
+        And now, Jakarta EE 11, focuses on productivity and innovation and
+        delivers: updates to 16 specifications; introduces a new specification,
+        Jakarta Data; and sets the baseline to Java 21, the latest LTS
+        release.
+      </p>
+      <p>
+        This presentation will provide a brief history of Java EE/Jakarta EE,
+        what's new in Jakarta EE 11, and a review of new and updated
+        specifications with working example applications that are available on
+        GitHub.
+      </p>
+  - name: "Closing"
+    type: "studio"
+    time: "17:45 - 18:00"
+    presenters:
+      - "Hosted by: Shabnam, Tanja, & Ivar"
+    vod: "https://youtu.be/dddM8tNT1C8?si=9pDr-nzMK2Pqxq6W"

@@ -1,0 +1,55 @@
+---
+title: "JakartaOne 2025 Japan"
+seo_title: "JakartaOne 2025 Japan - 30 July 2025 | Jakarta EE Software | Cloud Native"
+headline: "JakartaOne 2025 Japan"
+hide_page_title: true
+hide_sidebar: true
+hide_breadcrumb: true
+container: "container-fluid"
+tagline: "30 July 2025 , at Microsoft Office, Shinagawa"
+layout: "single"
+tagline_suffix: |
+  <div class="display-flex gap-10 margin-bottom-30">
+    <a class="btn btn-primary" href="https://www.eventbrite.com/e/jakartaone-japan-2025-tickets-1373600198169">
+      Register
+    </a>
+  </div>
+---
+
+<!-- Registration section -->
+<section class="padding-y-40 backdrop" id="registration">
+  <div class="container">
+    {{< events/registration year="2025" event="japan" >}}
+JakartaOne Japan 2025 is an offline event in Japanese for developers and business leaders.
+Stay on top of the latest and upcoming Jakarta EE technology trends and learn about the latest advancements in enterprise Java applications and cloud-native Java applications.
+    {{</ events/registration >}}
+  </div>
+</section>
+
+<!-- Agenda section -->
+<section class="padding-y-40 backdrop" id="plan-of-the-day">
+  <div class="container">
+    {{< events/agenda year="2025" event="japan">}}
+    <i class="fa fa-clock-o" aria-hidden="true"></i> Timings are shown in <em>Japan Standard Time (JST)</em>
+  </div>
+</section>
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2025" event="japan" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Program Committee section -->
+{{< events/program-committee title="Program Committee" year="2025" event="japan" source="committee" useCarousel="false" subpage="./program-committee" >}}
+  We are proud to say that this year, sessions at JakartaOne  Event
+  are chosen by an independent program committee made up of volunteers from the
+  Jakarta EE and cloud native Java community!
+{{</ events/program-committee >}}
+
+
+

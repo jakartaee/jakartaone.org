@@ -28,6 +28,12 @@ other = "Learn more"
 [past-events-learn-more-title]
 other = "Learn more about"
 
+[revisit-latest-event-heading]
+other = "Revisit our Latest 2024 Event"
+
+[revisit-latest-event-playlist]
+other = "PLutlXcN4EAwAAqeiURVFJ_4tcEmul__53"
+
 [regional-jakartaone-livestreams]
 other = "Organizing Regional JakartaOne Livestreams Events"
 
@@ -56,7 +62,7 @@ other = "Presenter Name"
 other = "Session Recording"
 
 [agenda-session-schedule]
-other = "Scheduled Time"
+other = "Scheduled Time (Eastern Time)"
 
 [agenda-session-recording-button-alt]
 other = "Session video for session {{ .name }}"

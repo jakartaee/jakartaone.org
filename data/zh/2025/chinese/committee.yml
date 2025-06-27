@@ -1,0 +1,55 @@
+items:
+  - name: "Eric Meng"
+    title: "WG Member(普元信息)"
+    img: "Eric-Meng.jpg"
+    bio: ""
+  - name: "刘欢"
+    title: "Java Developer"
+    twitter_handle:
+    img: "liuhuan.2025.jpg"
+    bio: ""
+  - name: "詹年科"
+    title: "WG Member(宝兰德)"
+    twitter_handle:
+    img: "jameszhan.2024.jpg"
+    bio: ""
+  - name: "赵欣"
+    title: "WG Member(中创中间件)"
+    twitter_handle:
+    img: "maggiezhao.2023.jpg"
+    bio: ""
+  - name: "蒋丰慧"
+    title: "WG Member(IBM)"
+    twitter_handle:
+    img: "emily_jiang.jpg"
+    bio: ""
+  - name: "胡勇"
+    title: "WG Member(东方通)"
+    twitter_handle:
+    img: "sniffhu2023.jpg"
+    bio: ""
+  - name: "王峰"
+    title: "WG Member(亚信科技)"
+    twitter_handle:
+    img: "peakwang.2023.jpg"
+    bio: ""
+  - name: "马建国"
+    title: "WG Member(微软)"
+    twitter_handle:
+    img: "majianguo.2023.jpg"
+    bio: ""
+  - name: "马震"
+    title: "WG Member(金蝶)"
+    twitter_handle:
+    img: "mazhen.2023.jpg"
+    bio: ""
+  - name: "常稼笙"
+    title: "Java Developer"
+    twitter_handle:
+    img: "changjiasheng.2025.jpg"
+    bio: ""
+  - name: "蒋天琦"
+    title: "Java Developer"
+    twitter_handle:
+    img: "jiangtianqi.2025.jpg"
+    bio: ""

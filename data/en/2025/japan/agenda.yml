@@ -1,0 +1,110 @@
+timezone: GMT+09
+complete: false
+types:
+    - name: Keynote
+      id: keynote 
+      color: "#85BFF3"
+    - name: Use Case
+      id: user
+      color: "#e44"
+    - name: Vendor Session
+      id: vendor
+      color: "#a0a"
+    - name: Technical Session
+      id: tech
+      color: "#0a0"
+    - name: Meet Up
+      id: meetup
+      color: "#2a2a70"
+
+items:
+    - name: What's New in Jakarta EE
+      presenter: Kenji Kazumura
+      type: keynote
+      time: 10:00-11:10 (JST)
+      abstract: |
+              <p>Talk about Jakarta EE 11 highligt and the direction of Jakarta EE 12.</p>
+
+    - name: Why Choose Jakarta EE instead of Spring Boot - Standard Matters
+      presenter: Kiyotaka Tanaka
+      type: tech
+      time: 11:10-11:30 (JST)
+      abstract: |
+              <p>In an era dominated by Spring and Spring Boot, why should enterprises still choose Jakarta EE? Unlike frameworks tied to single implementations, Jakarta EE is specification-driven, offering vendor-neutrality, stability, and long-term compatibility. Modern Jakarta EE implementations like Open Liberty provide the convenience of lightweight deployments, blending the benefits of frameworks with standardized enterprise-grade capabilities essential for reliable IT systems.</p>
+
+    - name: How Jakarta EE is being used in insurance industry and expectations for Java/JakartaEE in the future
+      presenter: Masatsugu Terada (Meiji Yasuda Life Insurance Company)
+      type: user
+      time: 13:00-13:25 (JST)
+      abstract: |
+              <p>In the life insurance industry, policy administration is ultra-long term, so certainty and robustness are critical. In addition, migration of legacy systems, personalization of services in the SoE area, improvement of user experience, and development of IT human resources for the future are also important issues today. In this context, I would like to briefly introduce how we have been utilizing Java/JakartaEE and what we expect in the future.</p>
+
+    - name: Introducing POWER EGG's Jakarta EE Use Cases
+      presenter: Kenzo Matsushita (D-CIRCLE Corporation)
+      type: user
+      time: 13:25-13:50 (JST)
+      abstract: |
+              <p>Since 2002, our company has been developing "POWER EGG" software that supports digitization of business operations using Java EE. This session will introduce the history of POWER EGG development and use cases of Jakarta EE.</p>
+
+    - name: Jakarta EE Migration Strategy - A Comparison and Validation of Essential Tools
+      presenter: Hiroki Kaido
+      type: tech
+      time: 13:50-14:10 (JST)
+      abstract: |
+              <p>Jakarta EE updates have improved security and maintainability from Java EE, and there is growing demand for migrating existing systems. However, migration involves many challenges such as compatibility issues and can be time-consuming and costly. This session will compare and contrast various migration tools that assist Jakarta EE migration, providing insights into selecting tools that can help shorten migration timelines and reduce costs.</p>
+
+    - name: Jakarta Data and Jakarta Persistence Updates
+      presenter: Kagei Noritaka
+      type: tech
+      time: 14:20-14:40 (JST)
+      abstract: |
+              <p>This section describes the changes in Jakarta Data/Persistence in Jakarta EE 11.</p>
+
+    - name: Other updates in Jakarta EE 11
+      presenter: Satoshi Seto
+      type: tech
+      time: 14:40-15:05 (JST)
+      abstract: |
+              <p>This section will give a light explanation of the changes in Jakarta EE 11 other than Jakarta Data/Persistence.</p>
+
+    - name: Jakarta EE and Fujitsu products (Fujitsu EAP and Interstage)
+      presenter: Yuichi Kusano (Fujitsu Limited)
+      type: vendor
+      time: 15:25-15:50 (JST)
+      abstract: |
+              <p>Fujitsu has been involved in Java development for over 25 years. More recently, we became the only Japanese vendor to join the Eclipse Foundation as a Strategic Member, contributing to the advancement of Jakarta EE. We have been continuously providing Interstage as a product for over 20 years, and recently launched "Enterprise Application Platform," a product incorporating the latest Java technologies (Jakarta EE 11/JDK 21). We plan to continue incorporating the latest technologies into our products, supporting the stable operation of Java applications. In this session, we will introduce Fujitsu's commitment to Java, as well as the features of our products and our future plans.</p>
+
+    - name: Jakarta EE and NEC products (WebOTX)
+      presenter: Yuta Takao (NEC)
+      type: vendor
+      time: 15:50-16:15 (JST)
+      abstract: |
+              <p>NEC is shipping WebOTX Application Server as a Jakarta EE server. This session will introduce NEC's efforts and plans for future offerings based on product features and the unique situation in Japan.</p>
+
+    - name: JBoss EAP and Red Hat Products
+      presenter: Satoshi Seto (Red Hat)
+      type: vendor
+      time: 16:15-16:35 (JST)
+      abstract: |
+              <p>Red Hat ships JBoss EAP as a Jakarta EE server; Red Hat's strategy is not to include out-of-specification features in the Jakarta EE server itself, but to ship it as another product. This makes it easy for customers to tell if a feature is based on the Jakarta EE specification. This presentation will introduce JBoss EAP itself and give a brief overview of what other products are available.</p>
+
+    - name: Introduction to Liberty for Developers - The Current and Future State of Jakarta EE Support
+      presenter: Miyuka Nishio (IBM Japan)
+      type: vendor
+      time: 16:45-17:10 (JST)
+      abstract: |
+              <p>Open Liberty and WebSphere Liberty are Jakarta EE implementations by IBM. These products support Jakarta EE 11 at industry-leading speed. In this session, I will provide a clear overview of both Liberty products, as well as the current and future state of Jakarta EE support.</p>
+
+    - name: AI-Driven Development - Superfast Jakarta EE Application Development with GitHub Copilot Agent
+      presenter: Yoshio Terada (Microsoft)
+      type: vendor
+      time: 17:10-17:35 (JST)
+      abstract: |
+              <p>In this session, we will introduce the superfast development methods for Jakarta EE applications using GitHub Copilot Agent. We will explain the key benefits of AI-driven development and demonstrate efficient development processes through specific code examples. Additionally, we will cover deployment options on Azure, providing tips to help developers overcome challenges from development to deployment.</p>
+
+    - name: Meet Up
+      presenter: Yoshio Terada
+      type: meetup
+      time: 17:35- (JST)
+
+

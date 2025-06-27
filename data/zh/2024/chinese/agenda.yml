@@ -1,82 +1,41 @@
-complete: false
-types:
-    - name: 主题演讲 / 行业主题
-      id: keynote
-      color: "#85BFF3"
-    - name: Jakarta EE
-      id: jakarta_ee
-      color: "#EC8101"
-    - name: MicroProfile
-      id: microprofile
-      color: "#EDDAA0"
-    - name: 圆桌讨论
-      id: roundtable
-      color: "#99DF82"
-
+complete: true
 items:
-    - name: 开场演讲
-      presenter: Eclipse Foundation
-      type: keynote
-      time: 14:00-14:15 GMT+08
-      abstract: |
-        来自 Eclipse Foundation 官方的内容介绍，内容涉及工作组与 Jakarta EE 及 MicroProfile 项目计划等。
-    - name: Jakarta EE 中国社区
-      presenter: 刘志杰
-      type: keynote
-      time: 14:15-14:25 GMT+08
-      abstract: |
-        关于本次活动的主办方，Jakarta EE 中国社区的情况介绍，社区的诞生发展和壮大，对于在中国区扩大企业级云原生 Java 的影响力至关重要。
-    - name: Jakarta EE 11 的新纪元 - 探索亮点！
-      presenter: 蒋丰慧
-      type: jakarta_ee
-      time: 14:25-14:55 GMT+08
-      abstract: |
-        Jakarta EE 11 即将到来，到目前为止，Jakarta EE 11 中所有更新的规范都已经发布。在本次分享中，我们将带你一探 Jakarta EE 11 的最新动态，揭示为何现在就是向 Jakarta EE 11 迈进的绝佳时机。你将获得第一手资料，了解 Jakarta EE 11 的创新进展，并且抢先预览 Jakarta EE 12 的未来蓝图。这是一场不容错过的演讲！
-    - name: 介绍JakartaEE认证的关键测试工具-TCK的环境搭建
-      presenter: 王峰
-      type: jakarta_ee
-      time: 14:55-15:25 GMT+08
-      abstract: |
-        Jakarta EE TCK（Technology Compatibility Kit）是一个用于验证供应商实现的Jakarta EE技术是否符合适用规范的一套工具和测试。TCK的核心目的是确保不同实现之间的兼容性、正确性、完整性和一致性。每个Jakarta EE规范的版本都有对应的TCK测试套件，只有TCK的所有Case全部通过才能获得JakartaEE的官方认证。本主题将讲解TCK的环境搭建和使用，助力更多企业加入JakartaEE。
-    - name: Java虚拟线程/协程
-      presenter: 吴大帅
-      type: jakarta_ee
-      time: 15:25-15:55 GMT+08
-      abstract: |
-        1996年1月，JDK 1.0发布，其绿色线程成为Java最早的协程；2000年5月，JDK 1.3发布，绿色线程被移除，Java丢弃协程特性；2023年9月，随着Java21 发布，Java通过虚线程特性再次获得协程支持。Java协程的发展历程不仅反映了技术演变的趋势，也体现了无数Java开发者的探索与创新。本主题将回顾这一历程，让我们可以更好地理解协程在现代软件开发中的价值，并为应用创新提供思路，期待大家的加入。
-    - name: 行业主题 (普元、亚信、IBM、东方通、金蝶天燕）
-      presenter: Jakarta EE 工作组成员
-      type: keynote
-      time: 15:55-16:20 GMT+08
-      abstract: |
-        由Jakarta EE工作组成员对各自所在的企业进行简单的介绍
-    - name: Java监控和字节码增强技术的演进
-      presenter: 徐清康
-      type: jakarta_ee
-      time: 16:20-16:50 GMT+08
-      abstract: |
-        2000年9月JMX1.0发布后，JVM和Java应用开始广泛通过JMX实现配置和监控管理。随着AOP的发展，在Java APM概念的引领之下，为解决JVMTI异构语言依赖性，Java Instrumention将基于字节码技术进行监控分析推向新的高度，尤其在如今云原生应用架构下的Java模块，分布式链路跟踪也广泛使用字节码增强技术。本主题通过Java监控和字节码增强技术的回顾和介绍，分析如何构建可观测的企业应用。
-    - name: Spring AI Alibaba，面向 Java 开发者的 AI 应用开发实践
-      presenter: 刘军
-      type: jakarta_ee
-      time: 16:50-17:20 GMT+08
-      abstract: |
-        阿里云开源基于百炼模型服务的 AI 应用开发框架： Spring AI Alibaba，涵盖ChatModel、FunctionCalling、Embedding、VectorStore等AI应用核心功能，让Java开发者轻松玩转AI应用开发。本主题我们将深入介绍了 Spring AI Alibaba 开发框架的架构与基本使用，结合百炼大模型服务平台演示如何快速开发 Java AI 应用。
-    - name: OpenJDK介绍
-      presenter:  邝云星
-      type: jakarta_ee
-      time: 17:20-17:50 GMT+08
-      abstract: |
-        JDK（Java Development Kit）是Java语言的软件开发工具包，它是Java的核心，包含了Java的运行环境（JVM）和Java系统类库以及Java工具，为Java程序的开发、编译和运行提供全生命支持。OpenJDK 是 JavaSE（Java Platform, Standard Edition）规范标准的开源实现。2006年Java开源并建立了 Open JDK 社区，2009 年 4 月正式对公众以 GPL v2 + Classpath Exception 协议的形式发布。2009 年 Oracle 收购 Sun 公司之后，原来的 Sun JDK 也变成了 Oracle JDK，是Java SE 规范的闭源实现，OpenJDK成为重要的开源选择。本主题将向大家介绍OpenJDK的起源，OpenJDK与Oracle JDK的对比，以及主流的OpenJDK发行版本。
-    - name: 行业主题 (中创、微软、甲骨文、宝兰德）
-      presenter: Jakarta EE 工作组成员
-      type: keynote
-      time: 17:50-18:10 GMT+08
-      abstract: |
-        由Jakarta EE工作组成员对各自所在的企业进行简单的介绍
-    - name: 圆桌讨论 
-      presenter: 出品人 张建锋
-      type: roundtable
-      time: 18:10-18:30 GMT+08
-      abstract: |
-        所有参会嘉宾将与大家就共同感兴趣的话题进入深入讨论，相关主题包括：Jakarta EE与Microprofile的使用情况以及AI时代，Java语言如何更好地发挥生产力
+  - name: "Opening Speech"
+    presenters:
+      - "Mike Milinkovich"
+    vod: "https://youtu.be/arjdJvlB94U"
+  - name: "Jakarta EE China Community"
+    presenters:
+      - "David Liu"
+    vod: "https://youtu.be/1aAaclBcH4o"
+  - name: "The New Era of Jakarta EE 11: Exploring the Highlights!"
+    presenters:
+      - "Emily Jiang"
+    vod: "https://youtu.be/TGBuZCHX2Hw"
+  - name: "Introducing the Key Jakarta EE Certification Testing Tools TCK Environment Setup"
+    presenters:
+      - "Peak Wong"
+    vod: "https://youtu.be/ZAKoBvAkWzM"
+  - name: "Java Virtual Threads: Coroutines"
+    presenters: 
+      - "Wu Dashuai"
+    vod: "https://youtu.be/7ZizJLpCu7M"
+  - name: "Industry Topic: Primeton, AsiaInfo, IBM, TongTech, Kingdee Apusic"
+    presenters: []
+    vod: "https://www.youtube.com/watch?v=RKEl4OhlxgA"
+  - name: "The Evoluton of Java Monitoring and Bytecode Enhancement Technology"
+    presenters:
+      - "Xu Qingkang"
+    vod: "https://youtu.be/zF_w9e86UWY"
+  - name: "Spring AI Alibaba, AI Application Development Practice"
+    presenters:
+      - "Liu Jun"
+    vod: "https://youtu.be/4ZtfsNGmdhQ"
+  - name: "Introduction to OpenJDK"
+    presenters:
+      - "Kuang Yunxing"
+    vod: "https://youtu.be/UDE3hH2i7cE"
+  - name: "Industry Topic Cvicse"
+    presenters: []
+    vod: "https://youtu.be/61BfjQm9tN4"
+  

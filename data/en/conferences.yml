@@ -1,73 +1,106 @@
 items:
   -  
+    name: JakartaOne Chinese 2025
+    date: 25 July 2025
+    start_date: 2025-07-25
+    end_date: 2025-07-25
+    url: /2025/chinesef2f
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    description: 
+  -  
+    name: JakartaOne Japan 2025
+    date: 30 July 2025
+    start_date: 2025-07-30
+    end_date: 2025-07-31
+    url: /2025/japan
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    description: 
+  -  
+    name: JakartaOne Livestream Chinese 2025
+    date: 25 September 2025
+    start_date: 2025-09-25
+    end_date: 2025-09-26
+    url: /2025/chinese
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    description: 
+  -  
+    name: JakartaOne Livestream 2025
+    date: 2 December 2025
+    start_date: 2025-12-02
+    end_date: 2025-12-03
+    url: /2025/
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    description: 
+  -  
     name: JakartaOne Livestream Chinese 2024
-    location: China
     date: 26 September 2024
     start_date: 2024-09-26
     end_date: 2024-09-27
     url: /2024/chinese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -  
     name: JakartaOne Livestream 2024
-    location: Canada
     date: 3 December 2024
     start_date: 2024-12-03
     end_date: 2024-12-04
     url: /2024/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -  
     name: JakartaOne Livestream Portuguese
-    location: Brazil, Portugal
     date: January 19, 2024
     start_date: 2024-01-19
     end_date: 2024-01-20
     url: /2024/portuguese
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   - 
     name: JakartaOne Livestream Chinese
-    location: China
     date: September 27, 2023
     start_date: 2023-09-27
     end_date: 2023-09-28
     url: /zh/2023/chinese/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -
     name: JakartaOne Livestream Spanish
-    location: Colombia, Dominican Republic, Ecuador, Mexico
     date: November 9, 2023
     start_date: 2023-11-09
     end_date: 2023-11-10
     url: /2023/spanish
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   - 
     name: JakartaOne Livestream 2023
-    location: Canada
     date: December 5, 2023
     start_date: 2023-12-05
     end_date: 2023-12-06
     url: /2023/
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     description: 
   -
     name: JakartaOne Livestream German
-    location: Location, Location
     date: June 30, 2022
     start_date: 2022-06-30T00:00:00-00:00
     end_date: 2022-07-01T23:59:00-00:00
@@ -78,7 +111,6 @@ items:
     description: 
   -
     name: JakartaOne Livestream Chinese
-    location: Virtual
     date: August 31, 2022
     start_date: 2022-08-31T23:59:00-00:00
     end_date: 2022-09-01T23:59:00-00:00
@@ -89,7 +121,6 @@ items:
     description: 
   -
     name: JakartaOne Livestream Portuguese
-    location: Virtual
     date: September 29, 2022
     start_date: 2022-09-29T23:59:00-00:00
     end_date: 2022-09-30T23:59:00-00:00
@@ -100,7 +131,6 @@ items:
     description: 
   -
     name: JakartaOne Livestream Japan
-    location: Virtual
     date: September 16, 2022
     start_date: 2022-09-16T00:00:00-00:00
     end_date: 2022-09-17T23:59:00-00:00
@@ -111,19 +141,17 @@ items:
     description: 
   -
     name: JakartaOne Livestream 2022
-    location: Location, Location
     date: December 6, 2022
     start_date: 2022-12-06T00:00:00-00:00
     end_date: 2022-12-07T23:59:00-00:00
     url: /2022
     logo_white: /images/jakartaone_livestream_wht_full-06.svg
     logo_color: /images/jakarta_one_logo.png
-    image: /images/events/jakartaone-2022.png
+    image: /images/events/jakartaone.png
     icon: fa fa-rocket
     description: 
   -
     name: JakartaOne Livestream 2021
-    location: Location, Location
     date: December 7, 2021
     start_date: 2021-12-07T00:00:00-00:00
     end_date: 2021-12-08T23:59:00-00:00
@@ -136,7 +164,6 @@ items:
       On December 7th, 2021 over 900 Jakarta EE enthusiasts joined for our third annual Livestream event. They discussed Jakarta EE 10, many of the Jakarta EE individual specifications: Jakarta Persistence, Jakarta Config, Jakarta CDI, various implementations of Jakarta EE, MicroProfile and other related cloud technologies. Featuring 11 technical talks, 10 studio sessions and 5 vendor talks. This event was entirely supported by Jakarta EE members and the global Jakarta EE community.
   -
     name: Jakarta One Livestream - Spanish
-    location: Virtual
     date: October 1, 2021
     start_date: 2021-10-01T00:00:00-00:00
     end_date: 2021-10-02T23:59:00-00:00
@@ -147,7 +174,6 @@ items:
     description: On October, 2021 over 350 Spanish speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to JakartaEE. Featuring 5 speakers and 3 vendor talks, this event was the second edition entirely in Spanish, supported by JakartaEE members and the Java community.
   -
     name: Jakarta One Livestream - Portuguese
-    location: Virtual
     date: September 29, 2021
     start_date: 2021-09-29T00:00:00-00:00
     end_date: 2021-09-30T23:59:00-00:00
@@ -158,7 +184,6 @@ items:
     description: On September 29, 2021 over 260 Portuguese Java enthusiasts gathered to discuss current trends, technologies and challenges related to JakartaEE. This event was the second edition entirely in Portuguese, supported by JakartaEE members and the Java community.
   -
     name: Jakarta One Livestream - Turkish
-    location: Virtual
     date: August 21, 2021
     start_date: 2021-08-21T00:00:00-00:00
     end_date: 2021-08-23T23:59:00-00:00
@@ -169,7 +194,6 @@ items:
     description: On August 21, 2021 over 170 Turkish speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to JakartaEE. This event was the first edition entirely in Turkish, supported by Jakarta EE Working Group members.
   -
     name: Jakarta One Livestream - Russian
-    location: Location, Location
     date: March 31, 2021
     start_date: 2021-03-31T00:00:00-00:00
     end_date: 2021-04-01T23:59:00-00:00
@@ -180,7 +204,6 @@ items:
     description: On March 31, 2021 over 150 russian-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 11 speakers over 8 hours, this event was the first edition of JakartaOne entirely in Russian, supported by Jakarta EE members and the Java community
   -
     name: JakartaOne 2020
-    location: Location, Location
     date: December 8, 2020
     start_date: 2020-12-08T00:00:00-00:00
     end_date: 2020-12-09T23:59:00-00:00
@@ -192,7 +215,6 @@ items:
     description: On December 8, 2020 over 1000 attendees gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 27 speakers over 12 hours, this event was the 2nd edition of our annual event which served to celebrate the release of Jakarta EE 9 with the community that built it. Supported by Jakarta EE members and the Java community. 
   -
     name: JakartaOne in Spanish 2020
-    location: Virtual
     date: October 12, 2020
     start_date: 2020-10-12T00:00:00-00:00
     end_date: 2020-10-12T23:59:00-00:00
@@ -203,7 +225,6 @@ items:
     description: On October 12, 2020 over 500 spanish-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 24 speakers over 8 hours, this event was the 1st edition entirely in Spanish, supported by Jakarta EE members and the Java community. 
   -
     name: Brazil 2020
-    location: Virtual
     date: August 29, 2020
     start_date: 2020-08-29T00:00:00-00:00
     end_date: 2020-08-29T23:59:00-00:00
@@ -214,7 +235,6 @@ items:
     description: On August 29, 2020 over 300 portuguese-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 12 speakers over 7 hours, this event was the first edition of JakartaOne entirely in Portuguese, supported by Jakarta EE members and the Java community.
   -
     name: CN4J 2020
-    location: Virtual
     date: May 12, 2020
     start_date: 2020-05-12T00:00:00-00:00
     end_date: 2020-05-12T23:59:00-00:00
@@ -225,7 +245,6 @@ items:
     description: On May 12, 2020 over 500 Cloud Native Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 10 speakers over 8 hours, this event was the first edition of JakartaOne Livestream with the focus of building enterprise Java on Kubernetes. supported by Jakarta EE members and the Java community. 
   -
     name: JakartaOne Japan 2020
-    location: Location, Location
     date: February 26, 2020
     start_date: 2020-02-26T00:00:00-00:00
     end_date: 2020-02-26T23:59:00-00:00
@@ -236,7 +255,6 @@ items:
     description: On February 26, 2020 over 200 Japanese-speaking Java enthusiasts gathered to discuss current trends, technologies and challenges related to Jakarta EE. Featuring 10 speakers over 9 hours, this event was the first edition of JakartaOne entirely in Japanese, supported by Jakarta EE members and the Java community. 
   -
     name: JakartaOne 2019
-    location: Location, Location
     date: September 10, 2019
     start_date: 2019-10-10T00:00:00-00:00
     end_date: 2019-10-10T23:59:00-00:00
