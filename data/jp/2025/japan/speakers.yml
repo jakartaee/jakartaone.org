@@ -44,14 +44,13 @@ items:
       <p>1990年三谷産業(株)入社。1999年にディサークル(株)設立と共に転籍。以降、現在までPOWER EGGの設計・開発に従事しています。</p>
       <p class="fw-700">Social media handles</p>
 
-  - name: "草野 優一"
-    title: シニアマネージャー,富士通
-    img: "kusano.jpg"
+  - name: "青島大地"
+    title: マネージャー,富士通
+    img: "fujitsu_aoshima.jpg"
     bio: |
-      <p>2011年より富士通(株)に在籍し、現在は主に富士通製Javaアプリケーションサーバである「Interstage」のマーケティングや適用支援を担当。最近はセミナーやブログでJakarta EEやMicroProfileの啓蒙活動を行っている。</p>
+      <p>2017年に富士通株式会社に入社し、2021年から「Interstage Application Server」と「Enterprise Application Platform」の技術営業を担当。また、Jakarta EEとMicroProfileを普及させるためのウェビナーなども実施している。</p>
       <p class="fw-700">Social media handles</p>
       <ul>
-        <li><a href="https://x.com/kusano_yuichi">X</a></li>
       </ul>
 
 
