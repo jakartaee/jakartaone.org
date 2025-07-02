@@ -10,6 +10,9 @@ other = "Learn more about"
 [upcoming-events-heading-event-date]
 other = "Date of event"
 
+[upcoming-events-heading-event-type]
+other = "Type of event"
+
 [upcoming-events-heading-event-title]
 other = "Name of event"
 
