@@ -1,45 +1,48 @@
 items:
-  - name: "胡勇"
-    title: "WG Member(TongTech)"
-    twitter_handle: 
-    img: "sniffhu2023.jpg" 
-    bio: ""
+items:
   - name: "蒋丰慧"
-    title: "WG Member(IBM)"
-    twitter_handle:
+    title: "MicroProfile 和 Jakarta EE 首席架构师@IBM"
     img: "emily_jiang.jpg"
-    bio: ""
-  - name: "孟庆余"
-    title: "WG Member(Primeton)"
-    img: "Eric-Meng.jpg"
-    bio: ""
-  - name: "王峰"
-    title: "WG Member(AsiaInfo)"
-    twitter_handle:
-    img: "peakwang.2023.jpg"
-    bio: ""
-  - name: "马震"
-    title: "WG Member(Apusic)"
-    twitter_handle:
-    img: "mazhen.2023.jpg"
-    bio: ""
-  - name: "赵欣"
-    title: "WG Member(Cvicse)"
-    twitter_handle:
-    img: "maggiezhao.2023.jpg"
-    bio: ""
+    twitter_handle: emilyfhjiang
+    bio: |
+      <p>Emily Jiang 是 Java Champion。她是 IBM 的 Liberty Cloud Native 架构师和首席倡导者、高级技术人员 (STSM)，常驻英国 Hursley 实验室。 Emily 是一位 MicroProfile 专家，自 2016 年以来一直致力于 MicroProfile，并领导了包括 MicroProfile Config 和 Fault Tolerance 在内的多项规范。她与大多数其他 MicroProfile 规范进行交互。她还积极参与 Jakarta EE 规范。她是 Jakarta Config 的联合负责人，也是 Jakarta 上下文和依赖注入 (CDI) 提交者。在 IBM，她负责在 Open Liberty 上实施所有 MicroProfile 规范。 她对 MicroProfile 和 Jakarta EE 充满热情。她经常在 QCon、Code One、DevNexus、JAX London、Voxxed、Devoxx、EclipseCon、GeeCon、JFokus 等会议上发表演讲。通过 Twitter（@emilyfhjiang）或  <a href="https://www.linkedin.com/in/emilyfhjiang">LinkedIn</a> 与Emily联系。</p>
   - name: "张建锋"
-    title: "UseOpen"
-    twitter_handle:
+    title: "Microprofile大使，QCon中国明星讲师和优秀出品人，JBossAS7开发团队核心成员@永源中间件"
     img: "jeffzhang2022.jpg"
-    bio: ""
+    bio: |
+      <p>永源中间件总经理，Microprofile大使，QCon中国明星讲师和优秀出品人，JBossAS7开发团队核心成员。20年的中间件技术开发经验，使用Java/C++语言研发分布式高并发服务器软件。熟悉JakartaEE知识体系，熟知技术规范的主要实现，了解主流应用服务器的架构和优化。爱好开源项目并积极参与，参与各个开源组织并成为代码贡献者。熟悉众多的开源项目技术实现，关联关系和有效集成应用方法。</p>
+  - name: "赵欣"
+    title: "高级软件工程师。山东中创软件商用中间件股份有限公司基础软件产品部部门经理"
+    img: "maggiezhao2022.jpg"
+    bio: |
+      <p>高级软件工程师。山东中创软件商用中间件股份有限公司基础软件产品部部门经理，中创应用服务器软件产品经理。2008年进入中间件行业，多年来致力于中间件相关技术研究，主要研究领域：Java EE、Jakarta EE、应用服务器中间件、微服务技术、PaaS相关技术、安全技术、中间件高可用技术等，被中国软件行业协会评为“2019年中国软件行业优秀工程师”。</p>
+  - name: "孟庆余"
+    title: "Jakarta EE中国社区发起人"
+    img: "Eric-Meng.jpg"
+    bio: |
+      <p>Jakarta EE中国社区发起人，拥有超过15年企业级软件市场推广经验，负责标准、规范及产业推广工作。代表公司参与云计算、大数据等领域的国际规范投票、国内标准讨论会议、项目立项评审及标准草案修订，参与政府主导的国家产业生态和行业推广工作，并组织参与相关研讨会、白皮书编写及技术规范制定工作。</p>
+
+  - name: "王峰"
+    title: "王峰，湖南亚信安慧科技有限公司，中间件产品总监。"
+    img: "peakwang2022.jpg"
+    bio: |
+      <p>王峰，湖南亚信安慧科技有限公司，中间件产品总监。	2005年开始使用Java语言从事通信系统的程序编写工作，主要擅长行业内的应用系统技术架构，性能分析，开发框架的设计建设，2016年开始应用中间件的开发工作，熟悉Jakarta EE、微服务、PaaS、SaaS、通信业务系统等，希望构建一个能够在线按需构建的业务应用平台。</p>
+  - name: "胡勇"
+    title: "东方通高级软件工程师"
+    img: "sniffhu2022.jpg"
+    bio: |
+      <p>东方通的高级软件工程师。拥有十余年Java开发经验，参与过银行支付系统、O2O电商等领域开发。2019年加入东方通科技有限公司中间件业务群，曾于2021年参与编写Web中间件GBT标准《信息技术应用创新基于JEE的应用服务器中间件技术要求》的制定。主要研究领域：Java EE、Jakarta EE、应用服务器中间件、分布式微服务等。</p>
+  - name: "马震"
+    title: "金蝶应用中间件架构师"
+    img: "mazhen.2023.jpg"
+    bio: |
+      <p>金蝶应用中间件架构师，专注于Jakarta EE应用服务器产品研发。在技术领域方面，热衷于分布式系统、分布式数据库、微服务以及云原生等领域。拥有丰富的实践经验，致力于设计和优化创新性的解决方案，以应对复杂的技术挑战。</p>
+
   - name: "詹年科"
-    title: "WG Member(Baolande)"
-    twitter_handle:
+    title: "北京宝兰德软件股份有限公司技术总监"
     img: "jameszhan.2024.jpg"
-    bio: ""
+    bio: "多年来专注于业务基础架构软件的开发、架构设计和现场实施支持工作，对分布式计算、中间件技术、云原生技术和大数据相关领域有比较全面的了解。"
   - name: "肖旺"
     title: "Individual"
-    twitter_handle:
     img: "shawn.zh.jpg"
-    bio: ""
+    bio: "重庆鱼佳优科技主程，十年Java开发，独立游戏开发者。"

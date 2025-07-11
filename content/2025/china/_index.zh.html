@@ -6,11 +6,11 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-tagline: "25 July 2025, 佰仕廷酒店, 成都"
+tagline: "25 July 2025, 成都璞悦天府酒店, 成都"
 layout: "single"
 tagline_suffix: |
   <div class="display-flex gap-10 margin-bottom-30">  
-    <a class="btn btn-primary" href="https://www.wjx.top/vm/mo396H3.aspx">演讲嘉宾征集</a>  
+    <a class="btn btn-primary" href="https://www.huodongxing.com/event/8814979931111">现在报名</a>  
   </div>  
 ---
 
@@ -31,6 +31,26 @@ JakartaOne Face2Face 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开�
   </div>
 </section>
 
+<!-- Agenda section -->
+<section class="padding-y-40 backdrop" id="plan-of-the-day">
+  <div class="container">
+    {{< events/agenda year="2025" event="china">}}
+    <i class="fa fa-clock-o" aria-hidden="true"></i> 议程以 <em>北京时间 (CST, UTC+8)​</em> 显示
+  </div>
+</section>
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2025" event="china" source="speakers" subpage="speakers" useCarousel="true" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+
 <!-- Add user carousel for committee -->
 {{< events/program-committee event="china" year="2025"  source="committee" useCarousel="false">}}
 JakartaOne Face2Face 会议的演讲主题和会议环节是由一个独立的筹备委员会确定的，委员会成员全部来自 Jakarta EE 和云原生 Java 社区，尤其是 Jakarta EE 中国社区。{{</ events/program-committee >}}
+

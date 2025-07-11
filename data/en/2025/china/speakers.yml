@@ -1,0 +1,27 @@
+items:
+
+  - name: "Jian Wei"
+    title: Java Technical Architect | High-Concurrency & Distributed Systems Expert | Cloud-Native Architecture
+    img: "weijian.2025.jpg"
+    bio: |
+      <p>Java Technical Architect | High-Concurrency & Distributed Systems Expert | Cloud-Native Architecture<br>7 years of technical architecture experience, specializing in high-performance system design and implementation. Expert in building highly available and scalable technical architectures from scratch. Has led multiple large-scale distributed system designs, driving business growth through technology while achieving optimal balance between performance optimization, cost control, and long-term maintainability.</p>
+
+  - name: "赵欣"
+    title: Senior Software Engineer | Deputy General Manager of Inforbus, Department Manager of Basic Software Products
+    img: "maggiezhao.2023.jpg"
+    bio: |
+      <p>Senior Software Engineer | Deputy General Manager of Inforbus, Department Manager of Basic Software Products<br>Entered the middleware industry in 2008, dedicating years to middleware technology research in areas including JavaEE, JakartaEE, application server middleware, microservices, PaaS technologies, security technologies, and middleware high-availability solutions. Recognized as "2019 Outstanding Engineer in China's Software Industry" by China Software Industry Association.</p>
+
+
+  - name: "Hang Zhou"
+    title: Go/Java Technical Architect | High-Concurrency & Distributed Systems Expert | Cloud-Native & AI-Driven Platform Practitioner
+    img: "zhouhang.2025.jpg"
+    bio: |
+      <p>Go/Java Technical Architect | High-Concurrency & Distributed Systems Expert | Cloud-Native & AI-Driven Platform Practitioner<br>10 years of software development and system architecture experience, specializing in high-concurrency, distributed systems, microservices, and cloud-native architecture design. Proficient in Java and Go, skilled in building highly available and easily scalable system platforms from scratch. Extensive practical experience in log platforms, search engines, and monitoring systems, having led multiple systems through transitions from monolithic to microservices and from traditional to cloud-native architectures. Committed to solving complex problems with simple, implementable technical solutions while exploring evolution paths for intelligent platforms.</p>
+
+
+  - name: "Limin Yu"
+    title: Senior Technical Consultant at IBM
+    img: "yulimin.2025.jpg"
+    bio: |
+      <p>Senior Technical Consultant at IBM<br>Joined IBM Guangzhou in July 2008 as senior technical consultant, primarily responsible for WebSphere product series and cloud computing/IoT-related technical support. Focuses on new feature research, system performance tuning, and complex issue resolution. As an open-source technology enthusiast with high visibility in tech communities, has organized and planned numerous community events and gatherings for technical exchange and topic promotion, establishing strong influence and connections in IT circles. Also organizes offline/online interactions for technical professionals through marathons, badminton, cycling, photography and other activities to enhance work-life balance.</p>

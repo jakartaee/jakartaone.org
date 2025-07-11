@@ -6,11 +6,11 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-tagline: "25 July 2025, Bvstin Hotel, ChengDu"
+tagline: "25 July 2025, PROJOY Hotel Tianfu, ChengDu"
 layout: "single"
 tagline_suffix: |
   <div class="display-flex gap-10 margin-bottom-30">  
-    <a class="btn btn-primary" href="https://www.wjx.top/vm/mo396H3.aspx">Call For Papers</a>  
+    <a class="btn btn-primary" href="https://www.huodongxing.com/event/8814979931111">Registration</a> 
   </div>  
 ---
 
@@ -30,6 +30,24 @@ The chinesef2f version of this meeting will be provided by [Jakarta EE China Com
     {{</ events/registration >}}
   </div>
 </section>
+
+<!-- Agenda section -->
+<section class="padding-y-40 backdrop" id="plan-of-the-day">
+  <div class="container">
+    {{< events/agenda year="2025" event="china">}}
+    <i class="fa fa-clock-o" aria-hidden="true"></i> Timings are shown in <em>China Standard Time (CST, UTC+8)​​</em>
+  </div>
+</section>
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2025" event="china" source="speakers" subpage="speakers" useCarousel="true" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
 
 <!-- Committee section -->
 {{< events/program-committee event="china" year="2025"  source="committee" useCarousel="false">}}

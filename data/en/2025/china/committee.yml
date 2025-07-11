@@ -1,45 +1,46 @@
 items:
-  - name: "Sniffer Hu"
-    title: "WG Member(TongTech)"
-    twitter_handle:
-    img: "sniffhu2023.jpg"
-    bio: ""
-  - name: "Emily Jiang"
-    title: "WG Member(IBM)"
-    twitter_handle:
-    img: "emily_jiang.jpg"
-    bio: ""
-  - name: "Eric Meng"
-    title: "WG Member(Primeton)"
-    img: "Eric-Meng.jpg"
-    bio: ""
-  - name: "Peak Wong"
-    title: "WG Member(AsiaInfo)"
-    twitter_handle:
-    img: "peakwang.2023.jpg"
-    bio: ""
-  - name: "Leo Ma"
-    title: "WG Member(Apusic)"
-    twitter_handle:
-    img: "mazhen.2023.jpg"
-    bio: ""
-  - name: "Maggie"
-    title: "WG Member(Cvicse)"
-    twitter_handle:
-    img: "maggiezhao.2023.jpg"
-    bio: ""
-  - name: "Jeff Zhang"
-    title: "UseOpen"
-    twitter_handle:
-    img: "jeffzhang2022.jpg"
-    bio: ""
   - name: "James Zhan"
     title: "WG Member(Baolande)"
-    twitter_handle:
     img: "jameszhan.2024.jpg"
-    bio: ""
+    bio: |
+      <p>Technical Director at Beijing Baolande Software Co., Ltd. — With years of dedicated experience in the development, architectural design, and on-site implementation support of business infrastructure software. Possesses comprehensive expertise in distributed computing, middleware technologies, cloud-native technologies, and big data-related fields.</p>
+  - name: "Sniffer Hu"
+    title: "Senior Software Engineer at TongTech​​"
+    img: "sniffhu2023.jpg"
+    bio: |
+      <p>With over 10 years of Java development experience, he has participated in the development of banking payment systems, O2O e-commerce platforms, and other fields. In 2019, he joined TongTech's Middleware Business Group. In 2021, he contributed to drafting the ​​GB/T standard​​ "Information Technology Application Innovation—Technical Requirements for JEE-Based Application Server Middleware."</p>
+  - name: "Eric Meng"
+    title: "Initiator of Jakarta EE Community China"
+    img: "Eric-Meng.jpg"
+    bio: |
+      <p>Initiator of Jakarta EE Community China, more than 15 years of experience in enterprise software marketing and is responsible for standards, specifications, and industry promotion. Represented the company in international specification voting, domestic standard discussion meetings, project approval meetings, and standard draft revision in cloud computing, big data, and other fields, participated in the national industrial ecology and industry promotion led by the government and organized and participated in relevant seminars, white paper writing, and technical specification preparation.</p>
+  - name: "Peak Wong"
+    title: "Director of middleware products at AsiaInfo."
+    img: "peakwang.2023.jpg"
+    bio: |
+      <p>Since 2003, I have been engaged in programming of ISP system using Java language. I am mainly good at the technical architecture, performance analysis and design and construction of development framework of application system. In 2016, I started to develop application middleware, familiar with Jakarta EE, Micro Services, PaaS, SaaS in ISP system and so on. I want to build a business application platform that can built applications online on-demand.</p>
+  - name: "Emily Jiang"
+    title: "MicroProfile and Jakarta EE Chief Architect @ IBM"
+    img: "emily_jiang.jpg"
+    bio: |
+      <p>Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also active in Jakarta EE specifications. She is a co-lead in Jakarta Config and also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as QCon, Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, GeeCon, JFokus, etc.You can find her on Twitter @emilyfhjiang and LinkedIn.</p>
+  - name: "Maggie Zhao"
+    title: "Senior Software Engineer. Department Manager of Cvicse Basic Software Product Department"
+    img: "maggiezhao.2023.jpg"
+    bio: |
+      <p>Senior Software Engineer. Department Manager of Basic software product department of Shandong Cvicse Middleware Co., Ltd., and product manager of InforSuite Application Server.She entered the middleware industry in 2008 and has been committed to middleware related technology research for many years. Her main research fields include Java EE, Jakarta EE, application server middleware, Micro Services technology, PAAS related technology, security technology, middleware high availability technology, etc. She was rated as "2019 excellent engineer in China's software industry" by the China Software Industry Association.</p>
+  - name: "Ma Zhen"
+    title: "Kingdee application middleware architect"
+    img: "mazhen.2023.jpg"
+    bio: |
+      <p>Kingdee application middleware architect, specializing in the development of Jakarta EE application server products. In the field of technology, I am passionate about distributed systems, distributed databases, Micro Services, and Cloud Native technologies. Having rich practical experience, committed to designing and optimizing innovative solutions to address complex technological challenges.</p>
+  - name: "Jeff Zhang"
+    title: "CEO, Useopen middleware, Microprofile Ambassador. QCon China Star Speaker"
+    img: "jeffzhang2022.jpg"
+    bio: |
+      <p>Microprofile Ambassador. QCon China Star Speaker. JBossAS7 Core Team member. 20 years of middleware technology development experience, using Java/C++ language to develop distributed high concurrency server software. Be familiar with JakartaEE knowledge system, the main implementation of technical specifications, and the architecture and optimization of mainstream application servers. Like open source projects and actively participate, participate in various open source organizations and become code contributors. Familiar with many open source project technology implementation, correlation and effective integration application methods..</p>
   - name: "Shawn"
     title: "Individual"
-    twitter_handle:
     img: "shawn.zh.jpg"
-    bio: ""
+    bio: |
+      <p>Ten years of Java development, Jakarta EE enthusiast, independent game developer</p>
