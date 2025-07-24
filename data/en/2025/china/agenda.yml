@@ -1,0 +1,54 @@
+timezone: UTC+08
+complete: false
+types:
+    - name: Opening Speech
+      id: opening 
+      color: "#a0a"
+    - name: Keynote Speech
+      id: keynote 
+      color: "#85BFF3"
+    - name: Break
+      id: break
+      color: "#e44"
+
+items:
+    - name: Opening Speech
+      presenter: Eclipse Foundation
+      type: opening
+      time: 14:05-14:15 (UTC+8)
+      abstract: |
+              <p>Opening remarks from Eclipse Foundation</p>
+    - name: Cloud-Native x AI Dual-Core Drive - Next-Gen Java Architecture Evolution and Enterprise Practices
+      presenter: Jian Wei
+      type: keynote
+      time: 14:15-14:45 (UTC+8)
+      abstract: |
+              <p>As cloud-native and AI technologies rapidly converge, traditional Java architectures face unprecedented transformation opportunities. This presentation will explore how to integrate AI to achieve modernization of enterprise applications. We'll analyze key approaches including containerization, microservices decomposition, performance optimization, and security hardening, while sharing practical case studies from high-concurrency scenarios to help developers build high-performance, cost-effective, and intelligent cloud-native architectures.</p>
+    - name: Navigating Technical Careers - The Transformation Journey from R&D to Leadership
+      presenter: Maggie Zhao
+      type: keynote
+      time: 14:45-15:15 (UTC+8)
+      abstract: |
+              <p>In this inspiring talk, we've invited an experienced software R&D expert who will share her career journey across multiple R&D departments, revealing how software developers can plan and advance their professional paths. We believe everyone's growth journey is unique, and the speaker's story will provide valuable insights and inspiration.</p>
+    - name: Break & Networking
+      presenter: All Participants
+      type: break
+      time: 15:15-15:45 (UTC+8)
+    - name: AI-Driven Evolution of Intelligent Search and Log Platform Architecture
+      presenter: Hang Zhou
+      type: keynote
+      time: 15:45-16:15 (UTC+8)
+      abstract: |
+              <p>As digitalization and intelligence accelerate, traditional log analysis and search systems face challenges including data explosion, complex issue identification, and insufficient response timeliness. With the rapid development of large model technologies and AI capabilities, intelligent log analysis platforms are undergoing new architectural transformations. This session will explore the evolution from traditional ELK architecture to AI-powered intelligent platforms, analyzing key capabilities like vector search, log semantic understanding, RAG-enhanced retrieval, and AI-SRE implementation methods. Through enterprise case studies, we'll discuss how to build next-generation log platforms with intelligent insights, adaptive responses, and efficient operations to help organizations transition from "post-incident response" to "intelligent prediction."</p>
+    - name: Jakarta EE & Java EE Development and IBM Liberty Discussion
+      presenter: Limin Yu
+      type: keynote
+      time: 16:15-16:45 (UTC+8)
+      abstract: |
+              <p>As digitalization and intelligence accelerate, traditional log analysis and search systems face challenges including data explosion, complex issue identification, and insufficient response timeliness. With the rapid development of large model technologies and AI capabilities, intelligent log analysis platforms are undergoing new architectural transformations. This session will explore the evolution from traditional ELK architecture to AI-powered intelligent platforms, analyzing key capabilities like vector search, log semantic understanding, RAG-enhanced retrieval, and AI-SRE implementation methods. Through enterprise case studies, we'll discuss how to build next-generation log platforms with intelligent insights, adaptive responses, and efficient operations to help organizations transition from "post-incident response" to "intelligent prediction."</p>
+    - name: Technical Exchange & Discussion
+      presenter: All Participants
+      type: break
+      time: 16:45-17:15 (UTC+8)
+
+
