@@ -1,9 +1,9 @@
 items:
   - name: "寺田佳央"
-    title: "Microsoft Corporation"
+    title: " Sr. Cloud Advocate, Microsoft Corporation"
     img: "yoshio-2018.jpg"
     bio: |
-      <p></p>
+      <p>Microsoft Corporation の Developers Relation チームで、Azure における Java の利用促進や啓蒙（けいもう）活動を実施中。2016年には日本人で2人目となるJava Championに就任</p>
       <p class="fw-700">Social media handles</p>
       <ul>
         <li><a href="https://x.com/yoshioterada">X</a></li>
@@ -20,12 +20,13 @@ items:
       </ul>
 
   - name: "草野優一"
-    title: "富士通株式会社"
+    title: "シニアマネージャー, 富士通株式会社"
     img: "kusano.jpg"
     bio: |
-      <p><p>
+      <p>2011年より富士通(株)に在籍し、現在は主に富士通製Javaアプリケーションサーバである「Interstage」のマーケティングや適用支援を担当。最近はセミナーやブログでJakarta EEやMicroProfileの啓蒙活動を行っている。<p>
       <p class="fw-700">Social media handles</p>
       <ul>
+        <li><a href="https://x.com/kusano_yuichi">X</a></li>
       </ul>
 
   - name: "瀬戸　智"
