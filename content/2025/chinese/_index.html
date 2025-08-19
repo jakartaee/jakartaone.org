@@ -9,7 +9,7 @@ container: "container-fluid"
 tagline: "25 September 2025"
 layout: "single"
 tagline_suffix: |
-  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://www.wjx.top/vm/PpoMMM3.aspx">Call For Paper</a>
+  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://www.wjx.top/vm/PpoMMM3.aspx">Register</a>
 ---
 
 <!-- Registration section -->
@@ -27,21 +27,29 @@ Both seasoned Java developers or emerging cloud native application developers wi
 
 The Chinese version of this meeting will be provided by [Jakarta EE China Community](https://jakarta.ee/zh/community/china/). Sponsored by the Eclipse Foundation and initiated by Primeton Information, the Jakarta EE China Community is jointly built and developed by enterprises such as AsiaInfo, IBM, Tongtech, Kingdee, Cvicse, UseOpen, and Baolande as well as individual developers. It is committed to promoting Jakarta EE's awareness and technology sharing in the Greater China region.
 
-        {{</ events/registration >}}
-    {{</ grid/div >}}
-{{</ grid/section-container >}}
+        {{< /events/registration >}}
+    {{< /grid/div >}}
+{{< /grid/section-container >}}
 
-<!-- Agenda section 
+<!-- Agenda section  -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}}
 {{< events/agenda event="chinese" year="2025" >}}
-{{</ grid/div >}}
-{{</ grid/section-container >}}
-{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}} -->
+<i class="fa fa-clock-o" aria-hidden="true"></i> Timings are shown in <em>China Standard Time (CST, UTC+8)</em>
+{{< /grid/div >}}
+{{< /grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+{{< grid/div class="padding-top-40" isMarkdown="false">}}
+{{< events/user_display year="2025" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+{{< /grid/div >}}
+{{< /grid/section-container >}}
 
 <!-- Committee section -->
-{{< events/program-committee event="chinese" year="2025"  source="committee" useCarousel="false">}}
+{{< events/program-committee event="chinese" year="2025"  source="committee" useCarousel="false" subpage="./program-committee" >}}
 We are proud to say that this year, sessions at JakartaOne Livestream Event are
 chosen by an independent program committee made up of volunteers from the
 Jakarta EE and cloud native Java community!
-{{</ events/program-committee >}}
+{{< /events/program-committee >}}
