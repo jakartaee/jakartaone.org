@@ -1,18 +1,18 @@
-# Contributing to jakartaone.org
+# Contributing to jakartaone.jakarta.ee
 
 Thanks for your interest in this project.
 
 ## Project description
 
-jakartaone.org is a project to regroup assets for the Eclipse Foundation look and feel. 
+jakartaone.jakarta.ee is a project to regroup assets for the Eclipse Foundation look and feel.
 
-* https://github.com/jakartaee/jakartaone.org
+* https://github.com/jakartaee/jakartaone.jakarta.ee
 
 ## Developer resources
 
 The project maintains the following source code repositories
 
-* https://github.com/jakartaee/jakartaone.org
+* https://github.com/jakartaee/jakartaone.jakarta.ee
 
 ## Eclipse Contributor Agreement
 
