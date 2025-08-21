@@ -2,54 +2,110 @@ items:
   - name: "Eric Meng"
     title: "WG Member(普元信息)"
     img: "Eric-Meng.jpg"
-    bio: ""
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "刘欢"
     title: "Java Developer"
     twitter_handle:
     img: "liuhuan.2025.jpg"
-    bio: ""
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "詹年科"
     title: "WG Member(宝兰德)"
     twitter_handle:
     img: "jameszhan.2024.jpg"
-    bio: ""
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "赵欣"
     title: "WG Member(中创中间件)"
     twitter_handle:
     img: "maggiezhao.2023.jpg"
-    bio: ""
+    bio: |
+      <p>高级软件工程师 | 中创股份副总经理、基础软件产品部部门经理，2008年进入中间件行业，多年来致力于中间件相关技术研究，主要研究领域:JavaEE、JakartaEE、应用服务器中间件、微服务技术、Paas相关技术、安全技术、中间件高可用技术等，被中国软件行业协会评为“2019年中国软件行业优秀工程师”。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "蒋丰慧"
     title: "WG Member(IBM)"
     twitter_handle:
     img: "emily_jiang.jpg"
-    bio: ""
+    bio: |
+      <p>Emily Jiang 是 Java Champion。她是 IBM 的 Liberty Cloud Native 架构师和首席倡导者、高级技术人员 (STSM)，常驻英国 Hursley 实验室。 Emily 是一位 MicroProfile 专家，自 2016 年以来一直致力于 MicroProfile，并领导了包括 MicroProfile Config 和 Fault Tolerance 在内的多项规范。她与大多数其他 MicroProfile 规范进行交互。她还积极参与 Jakarta EE 规范。她是 Jakarta Config 的联合负责人，也是 Jakarta 上下文和依赖注入 (CDI) 提交者。在 IBM，她负责在 Open Liberty 上实施所有 MicroProfile 规范。 她对 MicroProfile 和 Jakarta EE 充满热情。她经常在 QCon、Code One、DevNexus、JAX London、Voxxed、Devoxx、EclipseCon、GeeCon、JFokus 等会议上发表演讲。通过 Twitter（@emilyfhjiang）或 LinkedIn 与Emily联系。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/emilyfhjiang">X</a></li>
+        <li><a href="https://t.co/32QCzz6iaH">LinkedIn</a></li>
+      </ul>
   - name: "胡勇"
     title: "WG Member(东方通)"
     twitter_handle:
     img: "sniffhu2023.jpg"
-    bio: ""
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "王峰"
     title: "WG Member(亚信科技)"
     twitter_handle:
     img: "peakwang.2023.jpg"
-    bio: ""
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "马建国"
     title: "WG Member(微软)"
     twitter_handle:
     img: "majianguo.2023.jpg"
-    bio: ""
+    bio: |
+      <p>微软高级工程师，专注和致力于在Azure云上更好地支持Jakarta EE、MicroProfile、Quarkus等云原生技术和框架。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "马震"
     title: "WG Member(金蝶)"
     twitter_handle:
     img: "mazhen.2023.jpg"
-    bio: ""
+    bio: |
+      <p>金蝶应用中间件架构师，专注于Jakarta EE应用服务器产品研发。在技术领域方面，热衷于分布式系统、分布式数据库、微服务以及云原生等领域。拥有丰富的实践经验，致力于设计和优化创新性的解决方案，以应对复杂的技术挑战。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "常稼笙"
     title: "Java Developer"
     twitter_handle:
     img: "changjiasheng.2025.jpg"
-    bio: ""
+    bio: |
+      <p>共致开源中间件方案架构师，主要服务气象、交通行业领域，为中国气象、中国铁路提供自主可控、安全可靠的国产中间件、数据库、大数据产品解决方案与技术服务，参与国家科技计划项目、重大工程项目建设。</p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
   - name: "蒋天琦"
     title: "Java Developer"
     twitter_handle:
     img: "jiangtianqi.2025.jpg"
-    bio: ""
+    bio: |
+      <p></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href=""></a></li>
+      </ul>

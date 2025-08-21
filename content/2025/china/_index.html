@@ -6,19 +6,52 @@ hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: "container-fluid"
-tagline: "25 July 2025"
+tagline: "25 July 2025, PROJOY Hotel Tianfu, ChengDu"
 layout: "single"
+tagline_suffix: |
+  <div class="display-flex gap-10 margin-bottom-30">  
+    <a class="btn btn-primary" href="https://www.huodongxing.com/event/8814979931111">Registration</a> 
+  </div>  
 ---
 
 <!-- Registration section -->
 <section class="padding-y-40" id="registration">
   <div class="container">
     {{< events/registration year="2025" event="china" >}}
-JakartaOne is a conference organized by the Jakarta EE working group for
-developers and technical leaders, focusing on enterprise-level Java
-applications and cloud native technologies, discussing the current status and
-future trends of Jakarta EE technology development.
+Dear Java and Cloud-native technology enthusiasts, the JakartaOne Face2Face Chinese conference 2025 is comming!
+
+JakartaOne Face2Face is an offline conference organized by the Jakarta EE working group for developers and technical leaders, focusing on enterprise-level Java applications and cloud native technologies, discussing the current status and future trends of Jakarta EE technology development.
+
+At the JakartaOne Face2Face conference, many developers and global top technology experts and developers will discuss the development trends of the cloud native era and move towards key milestones of the cloud native era together!
+
+Both seasoned Java developers or emerging cloud native application developers will gain insights from this JakartaOne Face2Face technology event.
+
+The chinesef2f version of this meeting will be provided by [Jakarta EE China Community](https://jakarta.ee/zh/community/china/). Sponsored by the Eclipse Foundation and initiated by Primeton Information, the Jakarta EE China Community is jointly built and developed by enterprises such as AsiaInfo, IBM, Tongtech, Kingdee, Cvicse, UseOpen, and Baolande as well as individual developers. It is committed to promoting Jakarta EE's awareness and technology sharing in the Greater China region.
     {{</ events/registration >}}
   </div>
 </section>
 
+<!-- Agenda section -->
+<section class="padding-y-40 backdrop" id="plan-of-the-day">
+  <div class="container">
+    {{< events/agenda year="2025" event="china">}}
+    <i class="fa fa-clock-o" aria-hidden="true"></i> Timings are shown in <em>China Standard Time (CST, UTC+8)​​</em>
+  </div>
+</section>
+
+<!-- Add modal for use w/ agenda -->
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display year="2025" event="china" source="speakers" subpage="speakers" useCarousel="true" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+  {{</ grid/div >}}
+{{</ grid/section-container >}}
+
+<!-- Committee section -->
+{{< events/program-committee event="china" year="2025"  source="committee" useCarousel="false">}}
+We are proud to say that this year, sessions at JakartaOne Face2Face Event are
+chosen by an independent program committee made up of volunteers from the
+Jakarta EE and cloud native Java community!
+{{</ events/program-committee >}}

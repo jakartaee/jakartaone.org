@@ -67,8 +67,8 @@ items:
       abstract: |
               <p>Jakarta Data/Persistence以外のJakarta EE 11でのへんこうてんについて軽く説明していきます。</p>
 
-    - name: Jakarta EEと富士通プロダクト（富士通EAPとIntersatge）
-      presenter: 草野優一 (富士通株式会社)
+    - name: Jakarta EEと富士通プロダクト
+      presenter: 青島大地 (富士通株式会社)
       type: vendor
       time: 15:25-15:50 (JST)
       abstract: |

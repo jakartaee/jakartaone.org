@@ -67,8 +67,8 @@ items:
       abstract: |
               <p>This section will give a light explanation of the changes in Jakarta EE 11 other than Jakarta Data/Persistence.</p>
 
-    - name: Jakarta EE and Fujitsu products (Fujitsu EAP and Interstage)
-      presenter: Yuichi Kusano (Fujitsu Limited)
+    - name: Jakarta EE and Fujitsu products
+      presenter: Daichi Aoshima (Fujitsu Limited)
       type: vendor
       time: 15:25-15:50 (JST)
       abstract: |

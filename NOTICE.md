@@ -1,8 +1,8 @@
-# Notices for jakartaone.org
+# Notices for jakartaone.jakarta.ee
 
 This content is produced and maintained by the Eclipse Foundation.
 
-* Project home: https://github.com/jakartaee/jakartaone.org
+* Project home: https://github.com/jakartaee/jakartaone.jakarta.ee
 
 ## Trademarks
 
@@ -28,7 +28,7 @@ SPDX-License-Identifier: EPL-2.0
 
 The project maintains the following source code repositories:
 
-* https://github.com/jakartaee/jakartaone.org
+* https://github.com/jakartaee/jakartaone.jakarta.ee
 
 ## Third-party Content
 

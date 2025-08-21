@@ -11,7 +11,7 @@ tagline: "25 September 2025"
 layout: "single"
 menu_name: "chinese"
 tagline_suffix: |
-  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://www.wjx.top/vm/PpoMMM3.aspx">演讲嘉宾征集</a>
+  <a class="btn btn-bordered padded fw-700 margin-top-40 margin-bottom-50" href="https://meeting.tencent.com/dm/aJuW33uHvtw7">报名参会</a>
 ---
 
 <!-- Registration section -->
@@ -30,20 +30,26 @@ JakartaOne Livestream 是 [Jakarta EE](https://jakarta.ee/zh)工作组 面向开
 
 本次会议的中文版本，由 [Jakarta EE中国社区](https://jakarta.ee/zh/community/china/) 主办，Jakarta EE中国社区经Eclipse基金会授权，由普元信息发起创立，并由亚信、IBM、东方通、金蝶、中创中间件、永源中间件、宝兰德等企业与个人开发者共同建设发展，致力于在大中华地区推动Jakarta EE的认知与技术分享。<br>
 
-		{{</ events/registration >}}
-    {{</ grid/div >}}
-{{</ grid/section-container >}}
+		{{< /events/registration >}}
+    {{< /grid/div >}}
+{{< /grid/section-container >}}
 
-
-
-<!-- Agenda section 
+<!-- Agenda section -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
 {{< grid/div class="container" isMarkdown="false" >}}
 {{< events/agenda event="chinese" year="2025" >}}
-{{</ grid/div >}}
-{{</ grid/section-container >}}
-{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}} -->
+<i class="fa fa-clock-o" aria-hidden="true"></i> 议程以 <em>北京时间 (CST, UTC+8) 显示</em>
+{{< /grid/div >}}
+{{< /grid/section-container >}}
+{{< bootstrap/modal id="eclipsefdn-modal-event-session" >}}
+
+<!-- Add speakers section -->
+{{< grid/section-container id="speakers" class="speaker-container padding-bottom-40 padding-top-40 text-center">}}
+{{< grid/div class="padding-top-40" isMarkdown="false">}}
+{{< events/user_display year="2025" event="chinese" source="speakers" subpage="speakers" useCarousel="false" imageRoot="/images/speakers/" title="Speakers" headerClass="text-left" />}}
+{{< /grid/div >}}
+{{< /grid/section-container >}}
 
 <!-- Add user carousel for committee -->
-{{< events/program-committee event="chinese" year="2025"  source="committee" useCarousel="false">}}
-JakartaOne Livestream 会议的演讲主题和会议环节是由一个独立的筹备委员会确定的，委员会成员全部来自 Jakarta EE 和云原生 Java 社区，尤其是 Jakarta EE 中国社区。{{</ events/program-committee >}}
+{{< events/program-committee event="chinese" year="2025"  source="committee" useCarousel="false" subpage="./program-committee" >}}
+JakartaOne Livestream 会议的演讲主题和会议环节是由一个独立的筹备委员会确定的，委员会成员全部来自 Jakarta EE 和云原生 Java 社区，尤其是 Jakarta EE 中国社区。{{< /events/program-committee >}}

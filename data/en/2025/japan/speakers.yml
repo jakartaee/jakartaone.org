@@ -44,14 +44,13 @@ items:
       <p>Joined Mitani Sangyo Co., Ltd. in 1990. Transferred to Discircle Corporation upon its establishment in 1999. Since then, has been involved in the design and development of POWER EGG to the present day.</p>
       <p class="fw-700">Social media handles</p>
 
-  - name: "Yuichi Kusano"
-    title: Senior Manager, Fujitsu
-    img: "kusano.jpg"
+  - name: "Daichi Aoshima"
+    title: Manager, Fujitsu
+    img: "fujitsu_aoshima.jpg"
     bio: |
-      <p>Jojned Fujitsu at 2011. Technical sales of Interstage Application Server(Fujitsu Java Application Server) , recently been promoting Jakarta EE and MicroProfile through seminars and blogs.</p>
+      <p>I joined Fujitsu Limited in 2017 and have been in charge of technical sales for "Interstage Application Server" and "Enterprise Application Platform" since 2021. I also conduct webinars to promote Jakarta EE and MicroProfile.</p>
       <p class="fw-700">Social media handles</p>
       <ul>
-        <li><a href="https://x.com/kusano_yuichi">X</a></li>
       </ul>
 
 
