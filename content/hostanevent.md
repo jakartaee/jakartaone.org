@@ -40,7 +40,7 @@ Jakarta EE brand and the tested hosting process.
 
 <p>
 Community members interested in organizing their own language specific Language Specific
-JakartaOne Livestream events should create a <a href="https://github.com/jakartaee/jakartaone.org/issues/new?template=jakartaone_livestream.md">GitHub issue</a> and fill in the required information.
+JakartaOne Livestream events should create a <a href="https://github.com/jakartaee/jakartaone.jakarta.ee/issues/new?template=jakartaone_livestream.md">GitHub issue</a> and fill in the required information.
 Next, send an email to <a href="mailto:events@jakarta.ee ">events@jakarta.ee</a> with the names of individuals on the proposed
 Program Committee and their email address.
 </p>
@@ -75,10 +75,10 @@ Foundation will provide the framework and guidance for organizing the event incl
 <li>Access to an account to be used for CFP - papercall.io</li>
 <li>Platform to be used for the conference - crowdcast.io</li>
   <ul>
-    <li>Creation of the crowdcast event</li>    
+    <li>Creation of the crowdcast event</li>
   </ul>
-<li>Creation of a regional twitter handle to be managed by the program committee</li>  
-<li>Creation of the event website on https://jakartaone.org/ to be updated and managed by
+<li>Creation of a regional twitter handle to be managed by the program committee</li>
+<li>Creation of the event website on https://jakartaone.jakarta.ee/ to be updated and managed by
 the program committee</li>
 <li>Regular assistance with the hosting process including bi-weekly meetings with the
 Eclipse team and training on using the complete process.</li>
