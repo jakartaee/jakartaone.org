@@ -1,5 +1,5 @@
 timezone: GMT+09
-complete: false
+complete: true
 types:
     - name: キーノート
       id: keynote 
@@ -24,6 +24,7 @@ items:
       time: 10:00-11:10 (JST)
       abstract: |
               <p>Jakarta EE 11のハイライト、MicroProfileとの統合状況、Jakarta EE 12の展望を紹介します。</p>
+      slides: "https://speakerdeck.com/kazumura/jakartaone-japan-2025"
 
     - name: Spring全盛時代になぜJakarta EEで書くのか
       presenter: 田中孝清
@@ -31,6 +32,7 @@ items:
       time: 11:10-11:30 (JST)
       abstract: |
               <p>Spring Bootが主流の時代に，企業が依然としてJakarta EEを選ぶべき理由は何でしょうか？ 単一の実装に縛られたSpring frameworkとは異なり，Jakarta EEは仕様主導型であり，ベンダー中立性，安定性，そして長期的な互換性を提供します。最新のJakarta EE実装は，Spring Bootと同様な軽量なデプロイメントの利便性をも提供しつつ，信頼性の高いITシステムに不可欠な標準化されたエンタープライズグレードの機能を融合しています。</p>
+      slides: https://community.ibm.com/community/user/viewdocument/20250730springjakartaee
 
     - name: 保険会社におけるJakarta EEの利活用方法と今後のJava/JakartaEEへの期待
       presenter: 寺田昌嗣 (明治安田生命保険相互会社)
@@ -52,6 +54,7 @@ items:
       time: 13:50-14:10 (JST)
       abstract: |
               <p>Jakarta EE のアップデートにより、Java EE からセキュリティやメンテナンス性が向上し、既存システムを移行するニーズが高まっています。しかし、移行には互換性問題など課題も多く、時間とコストがかかる場合があります。本セッションでは、Jakarta EE への移行を支援する様々な変換ツールを比較検討し、移行期間の短縮とコスト削減に貢献するツール選びのヒントを提供します。</p>
+      slides: https://speakerdeck.com/kaido207/30-jakartaone-japan-2025-jakartaeeyi-xing-zhan-lue
 
     - name: Jakarta Data/Persistenceのアップデート
       presenter: 景井教天
@@ -59,6 +62,7 @@ items:
       time: 14:20-14:40 (JST)
       abstract: |
               <p>Jakarta EE 11 で変更点があったJakarta Data/Persistenceについて説明します。</p>
+      slides: https://jpn.nec.com/webotx/download/event/Update_of_Jakarta_Data_and_Persistence.pdf
 
     - name: その他のJakarta EE 11でのアップデート
       presenter: 瀬戸智
@@ -66,6 +70,7 @@ items:
       time: 14:40-15:05 (JST)
       abstract: |
               <p>Jakarta Data/Persistence以外のJakarta EE 11でのへんこうてんについて軽く説明していきます。</p>
+      slides: https://speakerdeck.com/megascus/30-jakartaone-2025-japan-sonota-nojakarta-ee-11noatupudeto
 
     - name: Jakarta EEと富士通プロダクト
       presenter: 青島大地 (富士通株式会社)
@@ -80,6 +85,7 @@ items:
       time: 15:50-16:15 (JST)
       abstract: |
               <p>NECではJakarta EEサーバとしてWebOTX Application Serverを出荷しています。このセッションではNECの取り組みと、製品の特長や国内ならではの状況を踏まえた今後の提供計画についてご紹介します。</p>
+      slides: https://jpn.nec.com/webotx/download/event/JakartaOne_2025_NEC.pdf
 
     - name: JBoss EAPとRed Hatの製品
       presenter: 瀬戸智 (Red Hat)
@@ -87,6 +93,7 @@ items:
       time: 16:15-16:35 (JST)
       abstract: |
               <p>Red HatではJakarta EEサーバーとしてJBoss EAPを出荷しています。Red HatはJakarta EEサーバー自体に仕様から外れた機能を積極的には入れずに、他の製品として出荷する戦略を取っています。これによりお客様はJakarta EE仕様に基づいた機能かどうかを簡単に見分けることができます。JBoss EAPそのものの紹介と、他にどういった製品があるのかについて軽く紹介します。</p>
+      slides: https://speakerdeck.com/megascus/30-jakartaone-2025-japan-red-hatnoapurikesiyonsaba-jboss-eap
 
     - name: 開発者のためのLiberty入門：Jakarta EE対応の現状と今後について
       presenter: 西尾実優香 (日本IBM)
@@ -94,6 +101,7 @@ items:
       time: 16:45-17:10 (JST)
       abstract: |
               <p>Open Liberty および WebSphere Liberty は、IBM が提供する Jakarta EE の実装です。これらは、業界でも最速レベルで Jakarta EE 11 に対応します。本セッションでは、両 Liberty の特長と Jakarta EE 対応の現状と今後についてわかりやすくご紹介します。</p>
+      slides: https://community.ibm.com/community/user/viewdocument/20250730-jakartaone
 
     - name: AI 駆動開発：GitHub Copilot Agent で Jakarta EE アプリの超高速開発
       presenter: 寺田佳央 (Microsoft)

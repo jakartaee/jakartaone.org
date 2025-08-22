@@ -1,2 +1,6 @@
 # redirect jakartaone portuguese 2023 to 2024 due to postponed event date
 /2023/portuguese /2024/portuguese 301!
+
+# Force jakartaone.org to the jakarta.ee host (preserves path & query)
+https://jakartaone.org/* https://jakartaone.jakarta.ee/:splat 301!
+http://jakartaone.org/*  https://jakartaone.jakarta.ee/:splat 301!

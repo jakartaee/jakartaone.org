@@ -64,6 +64,9 @@ other = "ビデオ"
 [agenda-session-schedule]
 other = "時刻"
 
+[agenda-session-slides]
+other = "スライド"
+
 [agenda-abstract-modal-alt]
 other = "{{.name}} の概要"
 

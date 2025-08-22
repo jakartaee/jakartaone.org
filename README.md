@@ -1,10 +1,10 @@
-# jakartaone.org
+# jakartaone.jakarta.ee
 
-The [jakartaone.org](https://jakartaone.org) website is generated with [Hugo](https://gohugo.io/documentation/) 0.76.5.
+The [jakartaone.jakarta.ee](https://jakartaone.jakarta.ee) website is generated with [Hugo](https://gohugo.io/documentation/) 0.76.5.
 
 Jakarta EE is the future of cloud native Java. Jakarta EE open source software drives cloud native innovation, modernizes enterprise applications and protects investments in Java EE.
 
-This site is powered by [Netlify](https://www.netlify.com/). 
+This site is powered by [Netlify](https://www.netlify.com/).
 
 ## Getting started
 
@@ -18,8 +18,8 @@ This site is powered by [Netlify](https://www.netlify.com/).
 | Hugo      | 0.110     |
 | Git       | > 2.31    |
 
-See our [Managing Required Software](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-solstice-theme/-/wikis/Managing-Required-Software) 
-wiki page for more information on this topic. 
+See our [Managing Required Software](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-solstice-theme/-/wikis/Managing-Required-Software)
+wiki page for more information on this topic.
 
 Install dependencies, build assets and start a webserver:
 
@@ -29,8 +29,8 @@ yarn && yarn run dev && hugo server --disableFastRender --buildFuture
 
 ## Contributing
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the [jakartaee/jakartaone.org](https://github.com/jakartaee/jakartaone.org) repository
-2. Clone repository: `git clone https://github.com/[your_github_username]/jakartaone.org.git`
+1. [Fork](https://help.github.com/articles/fork-a-repo/) the [jakartaee/jakartaone.jakarta.ee](https://github.com/jakartaee/jakartaone.jakarta.ee) repository
+2. Clone repository: `git clone https://github.com/[your_github_username]/jakartaone.jakarta.ee.git`
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Commit your changes: `git commit -m 'Add some feature' -s`
 5. Push feature branch: `git push origin my-new-feature`
@@ -56,7 +56,7 @@ Hugo theme of the Eclipse Foundation look and feel.
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/jakartaee/jakartaone.org/issues/new).
+Have a bug or a feature request? Please search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/jakartaee/jakartaone.jakarta.ee/issues/new).
 
 ## Author
 
@@ -73,4 +73,4 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Copyright and license
 
-Copyright 2018 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [jakartaone.org authors](https://github.com/jakartaee/jakartaone.org/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/jakartaee/jakartaone.org/blob/src/LICENSE).
+Copyright 2018 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [jakartaone.jakarta.ee authors](https://github.com/jakartaee/jakartaone.jakarta.ee/graphs/contributors). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://github.com/jakartaee/jakartaone.jakarta.ee/blob/src/LICENSE).

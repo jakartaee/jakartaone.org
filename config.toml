@@ -1,5 +1,5 @@
-baseurl = "https://jakartaone.org/"
-#baseurl = "https://jakartaee.github.io/jakartaone.org/"
+baseurl = "https://jakartaone.jakarta.ee/"
+#baseurl = "https://jakartaee.github.io/jakartaone.jakarta.ee/"
 DefaultContentLanguage = "en"
 title = "JakartaOne Live | Jakarta EE Software | Cloud Native"
 theme = "eclipsefdn-hugo-solstice-theme"
