@@ -14,9 +14,9 @@ layout: "single"
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-top-40 padding-bottom-40" >}}
     {{< grid/div class="container" isMarkdown="false" >}}
-        {{< events/registration year="2024" >}}
+        {{< events/registration year="2024" />}}
     {{</ grid/div >}}
-{{</ grid/section-container >}}
+{{< /grid/section-container >}}
 
 <!-- Agenda section -->
 {{< grid/section-container class="alt" id="plan-of-the-day" containerClass="backdrop padding-y-40" >}}
@@ -39,7 +39,7 @@ layout: "single"
 We are proud to say that this year, sessions at JakartaOne Livestream Event are
 chosen by an independent program committee made up of volunteers from the
 Jakarta EE and cloud native Java community!
-{{</ events/program-committee >}}
+{{< /events/program-committee >}}
 
 <!-- Hosts section -->
 {{< grid/div class="container" id="hosts" isMarkdown="false">}}
