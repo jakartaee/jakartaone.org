@@ -941,7 +941,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.15.4", "@babel/runtime@^7.21.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.15.4", "@babel/runtime@^7.8.4":
   version "7.24.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.4.tgz#de795accd698007a66ba44add6cc86542aff1edd"
   integrity sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==
@@ -2459,12 +2459,10 @@ data-view-byte-offset@^1.0.0:
     es-errors "^1.3.0"
     is-data-view "^1.0.1"
 
-date-fns@^2.30.0:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
-  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
-  dependencies:
-    "@babel/runtime" "^7.21.0"
+date-fns@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-4.1.0.tgz#64b3d83fff5aa80438f5b1a633c2e83b8a1c2d14"
+  integrity sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==
 
 debug@2.6.9:
   version "2.6.9"
@@ -2657,20 +2655,20 @@ dotignore@~0.1.2:
   dependencies:
     minimatch "^3.0.4"
 
-eclipsefdn-hugo-solstice-theme@0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/eclipsefdn-hugo-solstice-theme/-/eclipsefdn-hugo-solstice-theme-0.1.9.tgz#c23a031d0b53b0ed8af30f6b94ce5651e74ff08d"
-  integrity sha512-Fu6mln7DBX1s0rs5hDZUzafCWpZd5LVQ6vT41qLFAanCs+kJIpuH1zpIIj4Bp3g16OpOBcpcbO4ooQWGubkHow==
+eclipsefdn-hugo-solstice-theme@0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/eclipsefdn-hugo-solstice-theme/-/eclipsefdn-hugo-solstice-theme-0.1.18.tgz#9709b4af93dfbfb250a6f4257ec36a4f8ece7760"
+  integrity sha512-0+yJ1edwJForf7gHWqvHSGQPRJU6s+uYonUKTWUffqiM0PW1wb/TRh/LMMUFdJOo1F2GlszkVN68zHl6XKG/OQ==
   dependencies:
     axios "^1.7.7"
-    eclipsefdn-solstice-assets "0.1.12"
+    eclipsefdn-solstice-assets "0.1.20"
     json2yaml "^1.1.0"
     toml "^3.0.0"
 
-eclipsefdn-solstice-assets@0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/eclipsefdn-solstice-assets/-/eclipsefdn-solstice-assets-0.1.12.tgz#9af4574390d5bfdf0bb6de2feb219d0344f43eff"
-  integrity sha512-SCYD2VrXB/tVFgHK56JxWRJoRu3b9RSo3VQ7BZczAevjZ6/HYFpPq6pCFwU0gdqFqmRFrtaCfTqdiize3/DvGg==
+eclipsefdn-solstice-assets@0.1.20:
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/eclipsefdn-solstice-assets/-/eclipsefdn-solstice-assets-0.1.20.tgz#3b4e5c31196d5e7f8eab42347bfc839cb4cf1d42"
+  integrity sha512-wKCWIuxGWKqyHRmowVd9mAJlARUMGnlegTVBM2YJU2Lu9hbZdLUZTX5Ts0eexr0gdLfpZuAEw0ku6vt/VoKRew==
   dependencies:
     "@babel/core" "^7.23.2"
     "@babel/plugin-proposal-class-properties" "^7.18.6"
@@ -2689,11 +2687,12 @@ eclipsefdn-solstice-assets@0.1.12:
     browserslist "^4.22.1"
     cookieconsent "^3.1.1"
     core-js "3.36.0"
-    date-fns "^2.30.0"
+    date-fns "^4.1.0"
     element-closest-polyfill "^1.0.6"
     ellipsize "^0.2.0"
     feather-icons "^4.29.1"
     file-loader "^6.2.0"
+    gsap "^3.12.7"
     hogan.js "^3.0.2"
     html-webpack-plugin "^5.5.3"
     isomorphic-fetch "^3.0.0"
@@ -3296,6 +3295,11 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha512-+xGQY0YyAWCnqy7Cd++hc2JqMYzlm0dG30Jd0beaA64sROr8C4nt8Yc9V5Ro3avlSUDTN0ulqP/VBKi1/lLygw==
+
+gsap@^3.12.7:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.13.0.tgz#597d4e019a2bb487785387d91296adebf92db9dd"
+  integrity sha512-QL7MJ2WMjm1PHWsoFrAQH/J8wUeqZvMtHO58qdekHpCfhvhSL4gSiz6vJf5EeMP0LOn3ZCprL2ki/gjED8ghVw==
 
 handle-thing@^2.0.0:
   version "2.0.1"
