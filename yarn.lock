@@ -2655,9 +2655,10 @@ dotignore@~0.1.2:
   dependencies:
     minimatch "^3.0.4"
 
-"eclipsefdn-hugo-solstice-theme@https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-solstice-theme.git#af03914":
-  version "0.1.20"
-  resolved "https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-solstice-theme.git#af039147f0aee2c1c3200e3bd96a741efa727966"
+eclipsefdn-hugo-solstice-theme@0.1.21:
+  version "0.1.21"
+  resolved "https://registry.npmjs.org/eclipsefdn-hugo-solstice-theme/-/eclipsefdn-hugo-solstice-theme-0.1.21.tgz#4a99722d933a51cffb7b2a6403d9480686d8d09f"
+  integrity sha512-zxOk23tYB7cseRpiSJp1pT9UI2jtgTPFjtTOjR5eFmU7hhfH4OSIIhW59R6MJGQYogErpqJMTOBqKZL6mIcHkw==
   dependencies:
     axios "^1.7.7"
     eclipsefdn-solstice-assets "0.1.21"
