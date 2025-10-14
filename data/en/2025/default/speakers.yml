@@ -1,0 +1,183 @@
+items:
+  - name: "Fabio Velloso"
+    title: "Chief Technology Officer, PBSF"
+    img: "fabio-velloso.webp"
+    social:
+      - icon: "fa fa-twitter"
+        href: "https://x.com/fabiovelloso"
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/fabiovelloso"
+    bio: |
+      <p>
+        Fabio holds a Bachelor's degree in Computer Science from UFSCar and an MBA from FGV, as well as certifications in Digital Transformation, Innovation, Machine Learning, Technology Management, and Leadership from MIT. With an established career in large corporations such as Telefónica Global, Telefónica Latin America, Telefónica Brazil, and BankBoston, as well as experience in software development consulting, tech advisory, and M&A.
+      </p>
+      <p>
+        An expert in systems and corporate architecture, technology roadmaps, and strategic planning, Fabio has led initiatives in microservices, big data, and cloud-native applications. He is a professor of Software Architecture at UFSCar and the founder/director of SouJava. Currently, at PBSF, he oversees the technology, AI, Edge, and Cloud Computing area, collaborating with medical, product, and research teams to develop innovative solutions in neuroprotection and neonatal monitoring.
+      </p>
+  - name: "Ondro Mihályi"
+    title: "Director, Jakarta EE Expert at OmniFish"
+    img: "ondro-mihalyi.webp"
+    social:
+      - icon: "fa fa-twitter"
+        href: "https://twitter.com/OndroMih"
+      - icon: "fa fa-linkedin"
+        href: "https://cz.linkedin.com/in/mihalyiondrej"
+      - icon: "fa fa-globe"
+        href: "https://omnifish.ee/blog"
+      - icon: "fa fa-building"
+        href: "https://omnifish.ee/"
+    bio: |
+      <p>
+        Ondro is a software developer and consultant specializing in combining standard and proven tools to solve new and challenging problems. He's been developing in Java for over 10 years. He's worked for clients like Payara, LottoLand, Uniqa and others.
+      </p>
+      <p>
+        He has co-founded OmniFish, which provides enterprise support for Eclipse GlassFish and expert Jakarta EE services. He's passionate about helping his clients and the wider Java community with their projects based on Jakarta EE and similar technologies.
+      </p>
+      <p>
+        As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes. He's a core member of several opensource projects and Jakarta EE specification projects. He's a frequent conference speaker, leader of the Czech JUG, and a Java Champion.
+      </p>
+  - name: "Michael Redlich"
+    title:
+      "Java Champion | Director at Garden State JUG | Lead Java Editor at InfoQ
+      Java | Contract Developer Advocate and Technical Writer at Payara"
+    img: "michael-redlich.webp"
+    social:
+      - icon: "fa fa-twitter"
+        href: "https://twitter.com/mpredli"
+      - icon: "fa fa-linkedin"
+        href: "http://www.linkedin.com/pub/michael-redlich/0/966/13a"
+      - icon: "fa fa-globe"
+        href: "https://redlich.net/"
+      - icon: "fa fa-rss"
+        href: "http://mikesjavacafe.blogspot.com/"
+      - icon: "fa fa-github"
+        href: "https://github.com/mpredli01"
+    bio: |
+      <p>
+        Michael Redlich has been an active member within the Java community for the past 25 years. He founded the Garden State Java User Group (formerly the ACGNJ Java Users Group) in 2001 where he serves as one of the directors. Since 2016, Mike has served as a Java community news editor for InfoQ where his contributions include the weekly Java news roundup, news items, technical articles and technical reviews from external authors. He is currently the lead Java Queue editor. Mike joined Payara as a contract Developer Advocate and Technical Writer in the summer of 2023.
+      </p>
+      <p>
+        He is the author of "Helidon Revealed: A Practical Guide to Oracle's Microservices Framework," scheduled to be released in late-December 2024. Mike has presented at venues such as Devnexus, Oracle Code One, JCON World, Emerging Technologies for the Enterprise, Trenton Computer Festival (TCF), TCF IT Professional Conference, and numerous Java User Groups. Mike serves as a committer on the Jakarta NoSQL and Jakarta Data specifications and the Eclipse JNoSQL project. He also participates on the leadership council of the Jakarta EE Ambassadors. Mike was named a Java Champion in April 2023.
+      </p>
+      <p>
+        He retired from ExxonMobil Technology & Engineering in June 2023 with 33½ years of service. His experience included developing custom scientific laboratory and web applications, polymer physics, chemometrics, infrared spectroscopy and automotive testing. He also has experience as a Technical Support Engineer at Ai-Logix, Inc. (now AudioCodes) where he provided technical support and developed telephony applications for customers.
+      </p>
+  - name: "Otávio Santana"
+    title: "Award-winning Software Engineer and Architect"
+    img: "otavio-santana.webp"
+    social:
+      - icon: "fa fa-twitter"
+        href: "https://twitter.com/otaviojava"
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/otaviojava/"
+      - icon: "fa fa-globe"
+        href: "https://otaviojava.com/"
+    bio: |
+      <p>
+        Otávio is an award-winning software engineer and architect passionate about empowering other engineers with open-source best practices to build highly scalable and efficient software. He is a renowned contributor to the Java and open-source ecosystems and has received numerous awards and accolades for his work.
+      </p>
+      <p>
+        Otávio's interests include history, economy, travel, and fluency in multiple languages, all seasoned with a great sense of humor.
+      </p>
+  - name: "Olivier Asuncion"
+    title: "Eclipse Tradista Project Lead & Committer"
+    img: "olivierAsuncion.webp"
+    social:
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/olivier-asuncion-1448a743/"
+    bio: |
+      <p>
+        Olivier is a senior Java consultant and architect with over 20 years of experience in capital markets IT. He is the founder of Eclipse Tradista, an open-source trading platform built on Jakarta EE, and advocates for clean, modular architectures that remain simple and robust in production environments.
+      </p>
+  - name: "Kito Mann"
+    title: "Principal Consultant, Virtua, Inc."
+    img: "kito-mann.webp"
+    social:
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/kitomann/"
+      - icon: "fa fa-globe"
+        href: "https://virtua.tech/"
+      - icon: "fa fa-rss"
+        href: "https://kitomann.com/"
+    bio: |
+      <p>
+        Kito D. Mann is the Principal Consultant at Virtua, Inc., specializing in enterprise application architecture, training, development, and mentoring with microservices, cloud, Web Components, Angular, and Jakarta/Java EE technologies. He is also the co-host of The Stackd Podcast and the author of JavaServer Faces in Action.
+      </p>
+      <p>
+        Mann has participated in several Java Community Process expert groups (including CDI, JSF, and Portlets) and is an internationally recognized speaker. He is also a Java Champion and Google Developer Expert in Web Technologies. He holds a BA in Computer Science from Johns Hopkins University.
+      </p>
+  - name: "Rustam Mehmandarov"
+    title: "Passionate computer scientist"
+    img: "rustam-mehmandarov.webp"
+    social:
+      - icon: "fa fa-twitter"
+        href: "https://twitter.com/RMehmandarov"
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/mehmandarov/"
+      - icon: "fa fa-globe"
+        href: "https://rustam.no/"
+      - icon: "fa fa-rss"
+        href: "https://mehmandarov.com/blog"
+    bio: |
+      <p>
+        Experienced Software Engineer | Architect | Keynote & Public Speaker | Java Champion | Google Developer Expert for Cloud | Docker Captain | Oracle ACE Pro | Community Leader | Mentor | Ex-leader of JavaZone and Norwegian JUG – javaBin.
+      </p>
+      <p>
+        Rustam is a passionate computer scientist with extensive experience in software engineering and architecture. He is recognized as a Java Champion, Google Developer Expert for Cloud, Docker Captain, and Oracle ACE Pro. His contributions to the community include leadership roles and mentoring other developers.
+      </p>
+  - name: "Buhake Sindi"
+    title:
+      "Senior Solutions Architect, Software Engineer, Developer - Enterprise
+      Java (Jakarta EE/Cloud-Native/Spring). Jakarta EE Ambassador and Full
+      Member of the JCP"
+    img: "buhake-sindi.webp"
+    social:
+      - icon: "fa fa-twitter"
+        href: "https://x.com/elitegentleman"
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/buhake-sindi"
+      - icon: "fa fa-rss"
+        href: "http://deventerpriselog.blogspot.com/"
+      - icon: "fa fa-link"
+        href: "https://linktr.ee/theEliteGentleman"
+      - icon: "fa fa-facebook"
+        href: "https://www.facebook.com/EliteGentleman/"
+      - icon: "fa fa-instagram"
+        href: "https://www.instagram.com/buhake.sindi/"
+    bio: |
+      <p>
+        Buhake Sindi brings over 19 years of experience as a Senior Solutions Architect & Developer, specialising in Java Enterprise technology stacks. His extensive background in coding, design, and problem-solving is complemented by his role as a skilled DevOps Engineer, with 10+ years of hands-on experience in optimising and automating deployments. Buhake excels in translating project requirements into technical specifications and delivering robust, scalable solutions. His passion for technology and ability to communicate complex concepts clearly have made him a sought-after technical speaker and writer. Buhake's dedication to mentoring and guiding developers positions him as an influential advocate for cutting-edge development practices in corporate environments.
+      </p>
+      <p>
+        He founded Devoxx4Kids South Africa, a multi-award-winning, registered Non-Profit Organisation that introduces and inspires young people into STEM, particularly programming, in a fun and engaging way.
+      </p>
+      <p>
+        Outside of work, he occasionally creates music, produces podcast episodes, writes blogs, and is an avid runner.
+      </p>
+  - name: "Chiara Civardi"
+    title: "Product Marketer, Dr, Payara Services"
+    img: "chiara-civardi.webp"
+    bio: |
+      <p>
+        Chiara is a communicator with over 10 years of experience in producing technical content on automation. Her expertise includes automation engineering, robotics, networks for industrial communications as well as DevOps. Chiara has a passion for sharing knowledge about efficient and innovative solutions for the digital transformation.
+      </p>
+      <p>
+        She holds a PhD from ETH Zurich and a MSc from the University of Southampton.
+      </p>
+  - name: "Luqman Saeed"
+    title: "Technical Writer, Payara Services Ltd"
+    img: "luqman-saeed.webp"
+    social:
+      - icon: "fa fa-linkedin"
+        href: "https://www.linkedin.com/in/ghgeek"
+      - icon: "fa fa-rss"
+        href: "http://blog.payara.fish/"
+      - icon: "fa fa-globe"
+        href: "https://payara.fish/"
+    bio: |
+      <p>
+        Luqman is a Senior Java Developer focused on cloud-native applications using Spring Boot, Quarkus, and Jakarta EE. He specializes in microservices, monoliths, and modulith architectures, with deep expertise in RESTful APIs and CI/CD.
+      </p>
+      <p>
+        An educator at heart, Luqman created the most popular Enterprise Java course on Udemy, reaching 20,000+ developers. He regularly shares his knowledge through technical writing, conference talks, and publications, making complex Java concepts clear and practical. His commitment to open-source and community learning helps drive innovation in software engineering.
+      </p>
