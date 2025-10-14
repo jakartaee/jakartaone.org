@@ -5,8 +5,10 @@ items:
     social:
       - icon: "fa fa-twitter"
         href: "https://x.com/fabiovelloso"
+        label: "Follow on Twitter"
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/fabiovelloso"
+        label: "Connect on LinkedIn"
     bio: |
       <p>
         Fabio holds a Bachelor's degree in Computer Science from UFSCar and an MBA from FGV, as well as certifications in Digital Transformation, Innovation, Machine Learning, Technology Management, and Leadership from MIT. With an established career in large corporations such as Telefónica Global, Telefónica Latin America, Telefónica Brazil, and BankBoston, as well as experience in software development consulting, tech advisory, and M&A.
@@ -20,12 +22,16 @@ items:
     social:
       - icon: "fa fa-twitter"
         href: "https://twitter.com/OndroMih"
+        label: "Follow on Twitter"
       - icon: "fa fa-linkedin"
         href: "https://cz.linkedin.com/in/mihalyiondrej"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-globe"
         href: "https://omnifish.ee/blog"
+        label: "Read blog"
       - icon: "fa fa-building"
         href: "https://omnifish.ee/"
+        label: "Visit company website"
     bio: |
       <p>
         Ondro is a software developer and consultant specializing in combining standard and proven tools to solve new and challenging problems. He's been developing in Java for over 10 years. He's worked for clients like Payara, LottoLand, Uniqa and others.
@@ -44,14 +50,19 @@ items:
     social:
       - icon: "fa fa-twitter"
         href: "https://twitter.com/mpredli"
+        label: "Follow on Twitter"
       - icon: "fa fa-linkedin"
         href: "http://www.linkedin.com/pub/michael-redlich/0/966/13a"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-globe"
         href: "https://redlich.net/"
+        label: "Visit website"
       - icon: "fa fa-rss"
         href: "http://mikesjavacafe.blogspot.com/"
+        label: "Read blog"
       - icon: "fa fa-github"
         href: "https://github.com/mpredli01"
+        label: "View GitHub profile"
     bio: |
       <p>
         Michael Redlich has been an active member within the Java community for the past 25 years. He founded the Garden State Java User Group (formerly the ACGNJ Java Users Group) in 2001 where he serves as one of the directors. Since 2016, Mike has served as a Java community news editor for InfoQ where his contributions include the weekly Java news roundup, news items, technical articles and technical reviews from external authors. He is currently the lead Java Queue editor. Mike joined Payara as a contract Developer Advocate and Technical Writer in the summer of 2023.
@@ -68,10 +79,13 @@ items:
     social:
       - icon: "fa fa-twitter"
         href: "https://twitter.com/otaviojava"
+        label: "Follow on Twitter"
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/otaviojava/"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-globe"
         href: "https://otaviojava.com/"
+        label: "Visit website"
     bio: |
       <p>
         Otávio is an award-winning software engineer and architect passionate about empowering other engineers with open-source best practices to build highly scalable and efficient software. He is a renowned contributor to the Java and open-source ecosystems and has received numerous awards and accolades for his work.
@@ -81,10 +95,11 @@ items:
       </p>
   - name: "Olivier Asuncion"
     title: "Eclipse Tradista Project Lead & Committer"
-    img: "olivierAsuncion.webp"
+    img: "olivier-asuncion.webp"
     social:
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/olivier-asuncion-1448a743/"
+        label: "Connect on LinkedIn"
     bio: |
       <p>
         Olivier is a senior Java consultant and architect with over 20 years of experience in capital markets IT. He is the founder of Eclipse Tradista, an open-source trading platform built on Jakarta EE, and advocates for clean, modular architectures that remain simple and robust in production environments.
@@ -95,10 +110,13 @@ items:
     social:
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/kitomann/"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-globe"
-        href: "https://virtua.tech/"
-      - icon: "fa fa-rss"
         href: "https://kitomann.com/"
+        label: "Visit personal website"
+      - icon: "fa fa-building"
+        href: "https://virtua.tech/"
+        label: "Visit company website"
     bio: |
       <p>
         Kito D. Mann is the Principal Consultant at Virtua, Inc., specializing in enterprise application architecture, training, development, and mentoring with microservices, cloud, Web Components, Angular, and Jakarta/Java EE technologies. He is also the co-host of The Stackd Podcast and the author of JavaServer Faces in Action.
@@ -112,12 +130,16 @@ items:
     social:
       - icon: "fa fa-twitter"
         href: "https://twitter.com/RMehmandarov"
+        label: "Follow on Twitter"
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/mehmandarov/"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-globe"
         href: "https://rustam.no/"
+        label: "Visit website"
       - icon: "fa fa-rss"
         href: "https://mehmandarov.com/blog"
+        label: "Read blog"
     bio: |
       <p>
         Experienced Software Engineer | Architect | Keynote & Public Speaker | Java Champion | Google Developer Expert for Cloud | Docker Captain | Oracle ACE Pro | Community Leader | Mentor | Ex-leader of JavaZone and Norwegian JUG – javaBin.
@@ -134,16 +156,22 @@ items:
     social:
       - icon: "fa fa-twitter"
         href: "https://x.com/elitegentleman"
+        label: "Follow on Twitter"
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/buhake-sindi"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-rss"
         href: "http://deventerpriselog.blogspot.com/"
-      - icon: "fa fa-link"
-        href: "https://linktr.ee/theEliteGentleman"
+        label: "Read blog"
       - icon: "fa fa-facebook"
         href: "https://www.facebook.com/EliteGentleman/"
+        label: "Follow on Facebook"
       - icon: "fa fa-instagram"
         href: "https://www.instagram.com/buhake.sindi/"
+        label: "Follow on Instagram"
+      - icon: "fa fa-link"
+        href: "https://linktr.ee/theEliteGentleman"
+        label: "All links"
     bio: |
       <p>
         Buhake Sindi brings over 19 years of experience as a Senior Solutions Architect & Developer, specialising in Java Enterprise technology stacks. His extensive background in coding, design, and problem-solving is complemented by his role as a skilled DevOps Engineer, with 10+ years of hands-on experience in optimising and automating deployments. Buhake excels in translating project requirements into technical specifications and delivering robust, scalable solutions. His passion for technology and ability to communicate complex concepts clearly have made him a sought-after technical speaker and writer. Buhake's dedication to mentoring and guiding developers positions him as an influential advocate for cutting-edge development practices in corporate environments.
@@ -170,10 +198,13 @@ items:
     social:
       - icon: "fa fa-linkedin"
         href: "https://www.linkedin.com/in/ghgeek"
+        label: "Connect on LinkedIn"
       - icon: "fa fa-rss"
         href: "http://blog.payara.fish/"
+        label: "Read blog"
       - icon: "fa fa-globe"
         href: "https://payara.fish/"
+        label: "Visit company website"
     bio: |
       <p>
         Luqman is a Senior Java Developer focused on cloud-native applications using Spring Boot, Quarkus, and Jakarta EE. He specializes in microservices, monoliths, and modulith architectures, with deep expertise in RESTful APIs and CI/CD.
