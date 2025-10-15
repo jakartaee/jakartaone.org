@@ -43,9 +43,7 @@ items:
         As an experienced Java developer and instructor, he's helped companies build and educate their development teams and improve their development processes. He's a core member of several opensource projects and Jakarta EE specification projects. He's a frequent conference speaker, leader of the Czech JUG, and a Java Champion.
       </p>
   - name: "Michael Redlich"
-    title:
-      "Java Champion | Director at Garden State JUG | Lead Java Editor at InfoQ
-      Java | Contract Developer Advocate and Technical Writer at Payara"
+    title: "Java Champion"
     img: "michael-redlich.webp"
     social:
       - icon: "fab fa-x-twitter"
@@ -64,6 +62,9 @@ items:
         href: "https://github.com/mpredli01"
         label: "View GitHub profile"
     bio: |
+      <p>
+        Java Champion | Director at Garden State JUG | Lead Java Editor at InfoQ Java | Contract Developer Advocate and Technical Writer at Payara
+      </p>
       <p>
         Michael Redlich has been an active member within the Java community for the past 25 years. He founded the Garden State Java User Group (formerly the ACGNJ Java Users Group) in 2001 where he serves as one of the directors. Since 2016, Mike has served as a Java community news editor for InfoQ where his contributions include the weekly Java news roundup, news items, technical articles and technical reviews from external authors. He is currently the lead Java Queue editor. Mike joined Payara as a contract Developer Advocate and Technical Writer in the summer of 2023.
       </p>
@@ -148,10 +149,7 @@ items:
         Rustam is a passionate computer scientist with extensive experience in software engineering and architecture. He is recognized as a Java Champion, Google Developer Expert for Cloud, Docker Captain, and Oracle ACE Pro. His contributions to the community include leadership roles and mentoring other developers.
       </p>
   - name: "Buhake Sindi"
-    title:
-      "Senior Solutions Architect, Software Engineer, Developer - Enterprise
-      Java (Jakarta EE/Cloud-Native/Spring). Jakarta EE Ambassador and Full
-      Member of the JCP"
+    title: "Jakarta EE Ambassador"
     img: "buhake-sindi.webp"
     social:
       - icon: "fab fa-x-twitter"
@@ -176,6 +174,9 @@ items:
         href: "https://linktr.ee/theEliteGentleman"
         label: "All links"
     bio: |
+      <p>
+        Senior Solutions Architect, Software Engineer, Developer - Enterprise Java (Jakarta EE/Cloud-Native/Spring). Jakarta EE Ambassador and Full Member of the JCP
+      </p>
       <p>
         Buhake Sindi brings over 19 years of experience as a Senior Solutions Architect & Developer, specialising in Java Enterprise technology stacks. His extensive background in coding, design, and problem-solving is complemented by his role as a skilled DevOps Engineer, with 10+ years of hands-on experience in optimising and automating deployments. Buhake excels in translating project requirements into technical specifications and delivering robust, scalable solutions. His passion for technology and ability to communicate complex concepts clearly have made him a sought-after technical speaker and writer. Buhake's dedication to mentoring and guiding developers positions him as an influential advocate for cutting-edge development practices in corporate environments.
       </p>
