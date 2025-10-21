@@ -1,3 +1,4 @@
+timezone: EST
 complete: true
 types:
   - name: "Keynote"
