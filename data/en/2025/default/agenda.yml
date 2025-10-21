@@ -1,0 +1,121 @@
+timezone: EST
+complete: true
+types:
+  - name: "Keynote"
+    id: "keynote"
+    color: "#F6B26B"
+  - name: "Session"
+    id: "session"
+    color: "#4A86E8"
+  - name: "Studio Jakarta EE"
+    id: "studio"
+    color: "#B7B7B7"
+items:
+  - name: "Welcome Session"
+    type: "studio"
+    time: "6:45 - 7:00"
+    presenters:
+      - "Hosted by: Tanja, Ivar, & Shabnam"
+  - name: "Eclipse GlassFish in 2025: From Reference to Production And Beyond"
+    type: "session"
+    time: "7:00 - 7:45"
+    presenters:
+      - "Ondro Mihályi"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "7:45 - 8:00"
+    presenters:
+      - "Hosted by: Tanja & Ivar"
+  - name: "Jakarta Data and the New Era of Persistence: From JPA to Polyglot Persistence in Jakarta EE 12"
+    type: "session"
+    time: "8:00 - 8:45"
+    presenters:
+      - "Otavio Santana"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "8:45 - 9:00"
+    presenters:
+      - "Hosted by: Ivar & Shabnam"
+  - name: "API = Some REST and HTTP, right? RIGHT?!"
+    type: "session"
+    time: "9:00 - 9:45"
+    presenters:
+      - "Rustam Mehmandarov"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "9:45 - 10:00"
+    presenters:
+      - "Hosted by: Tanja & Ivar"
+  - name: "Successfully Scaling AI-Rich Jakarta EE Applications in Production"
+    type: "session"
+    time: "10:00 - 10:45"
+    presenters:
+      - "Chiara Civardi & Luqman Saeed"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "10:45 - 11:00"
+    presenters:
+      - "Hosted by: Ivar & Shabnam"
+  - name: "Introducing Langchain4J-CDI, a simplified approach to building AI agents the Jakarta EE way."
+    type: "session"
+    time: "11:00 - 11:45"
+    presenters:
+      - "Buhake Sindi"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "11:45 - 12:00"
+    presenters:
+      - "Hosted by: Ivar & Shabnam"
+  - name: "Industry Keynote"
+    type: "keynote"
+    time: "12:00 - 12:50"
+  - name: "Building a Modular Trading Platform with Jakarta EE: The Eclipse Tradista Journey"
+    type: "session"
+    time: "1:00 - 1:45"
+    presenters:
+      - "Olivier Asuncion"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "1:45 - 2:00"
+    presenters:
+      - "Hosted by: Tanja, Ivar, & Shabnam"
+  - name: "Getting Started with Jakarta EE 11 and What's New in Jakarta EE 12"
+    type: "session"
+    time: "2:00 - 2:45"
+    presenters:
+      - "Michael Redlich"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "2:45 - 3:00"
+    presenters:
+      - "Hosted by: Tanja & Shabnam"
+  - name: "Edge-to-Cloud Neuroprotection with Jakarta EE and MicroProfile"
+    type: "session"
+    time: "3:00 - 3:45"
+    presenters:
+      - "Fabio Velloso"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "3:45 - 4:00"
+    presenters:
+      - "Hosted by: Tanja & Shabnam"
+  - name: "Modernizing the Mission Critical with OpenRewrite and AI"
+    type: "session"
+    time: "4:00 - 4:45"
+    presenters:
+      - "Kito Mann"
+  - name: "Jakarta EE Studio"
+    type: "studio"
+    time: "4:45 - 5:00"
+    presenters:
+      - "Hosted by: Tanja, Ivar, & Shabnam"
+  - name: "Guiding the AI Hand: Custom Instructions in GitHub Copilot for Jakarta EE Developers"
+    type: "session"
+    time: "5:00 - 5:45"
+    presenters:
+      - "Bruno Borges"
+  - name: "Closing Session"
+    type: "studio"
+    time: "5:45 - 6:00"
+    presenters:
+      - "Hosted by: Tanja, Ivar, & Shabnam"
