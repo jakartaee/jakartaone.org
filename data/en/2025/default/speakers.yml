@@ -234,7 +234,7 @@ items:
       - icon: "fab fa-linkedin-in"
         href: "https://www.linkedin.com/in/dkornilov"
         label: "Connect on LinkedIn"
-      - icon: "fa fa-globe"
+      - icon: "fab fa-bluesky"
         href: "https://bsky.app/profile/dmitrykornilov.bsky.social"
         label: "Bluesky"
     bio: |
