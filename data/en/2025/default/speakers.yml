@@ -213,3 +213,48 @@ items:
       <p>
         An educator at heart, Luqman created the most popular Enterprise Java course on Udemy, reaching 20,000+ developers. He regularly shares his knowledge through technical writing, conference talks, and publications, making complex Java concepts clear and practical. His commitment to open-source and community learning helps drive innovation in software engineering.
       </p>
+  - name: "Takahiro Nagao"
+    title: "Software Engineer, Fujitsu Limited"
+    img: "takahiro-nagao.webp"
+    social:
+      - icon: "fab fa-x-twitter"
+        href: "https://x.com/tnagao7"
+        label: "Follow on X"
+    bio: |
+      <p>
+        Takahiro Nagao is a software engineer at Fujitsu, engaged in the development of Jakarta EE and MicroProfile solutions, including Fujitsu Software Enterprise Application Platform and Interstage Application Server. He is also a developer for Launcher, an open-source MicroProfile runtime, and is actively focused on cloud native technologies.
+      </p>
+  - name: "Dmitry Kornilov"
+    title: "Director of Software Development, Oracle"
+    img: "dmitry-kornilov.webp"
+    social:
+      - icon: "fab fa-x-twitter"
+        href: "https://x.com/m0mus"
+        label: "Follow on X"
+      - icon: "fab fa-linkedin-in"
+        href: "https://www.linkedin.com/in/dkornilov"
+        label: "Connect on LinkedIn"
+      - icon: "fa fa-globe"
+        href: "https://bsky.app/profile/dmitrykornilov.bsky.social"
+        label: "Bluesky"
+    bio: |
+      <p>
+        Dmitry Kornilov is a Director of Software Development at Oracle with over 25 years of experience in designing and implementing complex software systems, software architecture, and engineering leadership. He leads the Helidon and Jakarta EE engineering teams in Prague, Czech Republic. Dmitry is an active open-source contributor and community leader, a member of the EE4J PMC and the Eclipse Foundation Specification Committee, and a recipient of the JCP Star Spec Lead and Outstanding Spec Lead 2016 awards. He is also a frequent conference speaker and active participant in the global developer community.
+      </p>
+  - name: "Emily Jiang"
+    title: "Liberty Cloud Native Architect and Chief Advocate, IBM"
+    img: "emily-jiang.webp"
+    social:
+      - icon: "fab fa-x-twitter"
+        href: "https://twitter.com/emilyfhjiang"
+        label: "Follow on X"
+      - icon: "fab fa-linkedin-in"
+        href: "https://www.linkedin.com/in/emilyfhjiang"
+        label: "Connect on LinkedIn"
+    bio: |
+      <p>
+        Emily Jiang is a Java Champion. She is Liberty Cloud Native Architect and Chief Advocate, Senior Technical Staff Member (STSM) in IBM, based at Hursley Lab in the UK. Emily is a MicroProfile guru and has been working on MicroProfile since 2016 and leads a number of specifications including MicroProfile Config and Fault Tolerance. She interacts with most of the other MicroProfile specifications. She is also a Jakarta Context and Dependency Injection (CDI) committer. At IBM, she leads the effort of implementing all of MicroProfile specifications on Open Liberty.
+      </p>
+      <p>
+        She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, QCon, GeeCon, JFokus, etc.
+      </p>
