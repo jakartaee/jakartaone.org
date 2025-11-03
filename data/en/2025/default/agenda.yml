@@ -30,7 +30,7 @@ items:
     type: "session"
     time: "8:00 - 8:45 (EST)"
     presenters:
-      - "Otavio Santana"
+      - "Otavio Santana & Nathan Rauh"
   - name: "Jakarta EE Studio"
     type: "studio"
     time: "8:45 - 9:00 (EST)"

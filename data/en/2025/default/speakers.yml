@@ -94,6 +94,17 @@ items:
       <p>
         Otávio's interests include history, economy, travel, and fluency in multiple languages, all seasoned with a great sense of humor.
       </p>
+  - name: "Nathan Rauh"
+    title: "Software Engineer, IBM"
+    img: "nathan-rauh.webp"
+    social:
+      - icon: "fab fa-github"
+        href: "https://github.com/njr-11"
+        label: "View GitHub profile"
+    bio: |
+      <p>
+        Nathan works as a software engineer at IBM, contributing to a variety of open source projects and specifications, including Jakarta Data and various other Jakarta EE specifications, MicroProfile, and Open Liberty.
+      </p>
   - name: "Olivier Asuncion"
     title: "Eclipse Tradista Project Lead & Committer"
     img: "olivier-asuncion.webp"
