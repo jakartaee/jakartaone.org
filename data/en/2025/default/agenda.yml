@@ -30,7 +30,8 @@ items:
     type: "session"
     time: "8:00 - 8:45 (EST)"
     presenters:
-      - "Otavio Santana & Nathan Rauh"
+      - "Otavio Santana"
+      - "Nathan Rauh"
   - name: "Jakarta EE Studio"
     type: "studio"
     time: "8:45 - 9:00 (EST)"
@@ -50,7 +51,8 @@ items:
     type: "session"
     time: "10:00 - 10:45 (EST)"
     presenters:
-      - "Chiara Civardi & Luqman Saeed"
+      - "Chiara Civardi"
+      - "Luqman Saeed"
   - name: "Jakarta EE Studio"
     type: "studio"
     time: "10:45 - 11:00 (EST)"
