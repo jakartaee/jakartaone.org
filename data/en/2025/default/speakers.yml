@@ -269,3 +269,14 @@ items:
       <p>
         She is passionate about MicroProfile and Jakarta EE. She regularly speaks at conferences, such as Code One, DevNexus, JAX London, Voxxed, Devoxx, EclipseCon, QCon, GeeCon, JFokus, etc.
       </p>
+  - name: "Richard Garel-Jones"
+    title: "Enterprise Sales, Payara"
+    img: "richard-garel-jones.webp"
+    social:
+      - icon: "fab fa-linkedin-in"
+        href: "https://www.linkedin.com/in/richard-garel-jones-4b66491/"
+        label: "Connect on LinkedIn"
+    bio: |
+      <p>
+        I help tackle challenges such as legacy Java infrastructure, cloud migration, and development inefficiencies, delivering Payara solutions that enhance reliability and optimize performance.
+      </p>
