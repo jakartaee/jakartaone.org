@@ -1,21 +1,4 @@
 items:
-  - name: "Fabio Velloso"
-    title: "Chief Technology Officer, PBSF"
-    img: "fabio-velloso.webp"
-    social:
-      - icon: "fab fa-x-twitter"
-        href: "https://x.com/fabiovelloso"
-        label: "Follow on X"
-      - icon: "fab fa-linkedin-in"
-        href: "https://www.linkedin.com/in/fabiovelloso"
-        label: "Connect on LinkedIn"
-    bio: |
-      <p>
-        Fabio holds a Bachelor's degree in Computer Science from UFSCar and an MBA from FGV, as well as certifications in Digital Transformation, Innovation, Machine Learning, Technology Management, and Leadership from MIT. With an established career in large corporations such as Telefónica Global, Telefónica Latin America, Telefónica Brazil, and BankBoston, as well as experience in software development consulting, tech advisory, and M&A.
-      </p>
-      <p>
-        An expert in systems and corporate architecture, technology roadmaps, and strategic planning, Fabio has led initiatives in microservices, big data, and cloud-native applications. He is a professor of Software Architecture at UFSCar and the founder/director of SouJava. Currently, at PBSF, he oversees the technology, AI, Edge, and Cloud Computing area, collaborating with medical, product, and research teams to develop innovative solutions in neuroprotection and neonatal monitoring.
-      </p>
   - name: "Ondro Mihályi"
     title: "Director, Jakarta EE Expert at OmniFish"
     img: "ondro-mihalyi.webp"
@@ -302,4 +285,21 @@ items:
       </p>
       <p>
         Ed has published four books with McGraw-Hill: JavaServerFaces: The Complete Reference (2006), Secrets of the Rockstar Programmers: Riding the IT crest (2008) JavaServer Faces 2.0: The Complete Reference (2010) and Hudson Continuous Integration In Practice (2013).
+      </p>
+  - name: "Bruno Borges"
+    title: "Principal PM Manager, Microsoft"
+    img: "bruno-borges.webp"
+    social:
+      - icon: "fab fa-x-twitter"
+        href: "https://twitter.com/brunoborges"
+        label: "Follow on X"
+      - icon: "fab fa-linkedin-in"
+        href: "https://www.linkedin.com/in/brunocborges"
+        label: "Connect on LinkedIn"
+      - icon: "fab fa-github"
+        href: "https://github.com/brunocborges"
+        label: "View GitHub profile"
+    bio: |
+      <p>
+        Bruno Borges, a Principal PM Manager at Microsoft with over six years of dedication, is a distinguished figure in the fields of Product Management, Cloud Developer Experience & Tools, and Developer Relations. Residing in Vancouver, Canada, Bruno specializes in Java runtimes development and enhancing developer relations for Microsoft Azure, aiming to create the best cloud environment for Java workloads and developers. Notably, he led the public announcement of the Microsoft Build of OpenJDK, Microsoft's own open-source distribution of Java. Prior to Microsoft, Bruno served nearly six years at Oracle, influencing developer relations strategy and governance. Recognized as a Top Java Influencer from 2016 to 2019 and a Java Champion, Bruno's contributions have significantly impacted the Java community.
       </p>

@@ -101,7 +101,7 @@ items:
     type: "session"
     time: "3:00 - 3:45 (EST)"
     presenters:
-      - "Fabio Velloso"
+      - "Bruno Borges"
   - name: "Jakarta EE Studio"
     type: "studio"
     time: "3:45 - 4:00 (EST)"
