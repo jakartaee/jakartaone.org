@@ -1,5 +1,5 @@
 timezone: UTC+08
-complete: false
+complete: true
 types:
   - name: Opening Speech
     id: opening
@@ -28,6 +28,7 @@ items:
     time: 14:10-14:20 (UTC+8)
     abstract: |
       <p></p>
+    vod: https://youtu.be/6UqsYG4mTbg
 
   - name: Practical Application of MicroProfile Telemetry on Azure and Performance Optimization Based on MCP
     presenter: Ma Jianguo
@@ -35,6 +36,7 @@ items:
     time: 14:20-14:50 (UTC+8)
     abstract: |
       <p>Implementing distributed tracing, metrics collection, and log aggregation on Azure using Open Liberty MicroProfile Telemetry 2.0. Developing MCP (Model Context Protocol) tools to read telemetry data and integrate with VS Code GitHub Copilot to enable intelligent code performance analysis and optimization recommendations, building a complete closed loop from monitoring to code optimization.</p>
+    vod: https://youtu.be/ZidHjS7m-Xk
 
   - name: A Deep Dive into CRaC Technology：A New Path for Extremely Fast Java Application Startup and Performance Optimization
     presenter: Ma Zhen
@@ -42,6 +44,7 @@ items:
     time: 14:50-15:20 (UTC+8)
     abstract: |
       <p>This session analyzes how CRaC (Coordinated Restore at Checkpoint) technology addresses the pain points of slow cold starts and long warm-up times in Java applications through its snapshot and restore mechanism. It compares the differences between AOT (Ahead-of-Time) and JIT (Just-in-Time) compilation, delves into the underlying implementation and practical applications, and demonstrates its value in microservices and Serverless scenarios.</p>
+    vod: https://youtu.be/7xZABzHIzWM
 
   - name: JakartaEE & Microservice Development
     presenter: Jiasheng Chang
@@ -49,13 +52,31 @@ items:
     time: 15:20-15:40 (UTC+8)
     abstract: |
       <p>Introduce the new features of JakartaEE 11, analyze the JakartaEE specifications used in our daily development in conjunction with microservice development, further understand the JakartaEE standard specifications, learn the advanced design concepts of JakartaEE, deeply utilize the JakartaEE specifications, actively participate in the promotion of JakartaEE standards, and jointly promote the development of the Chinese community.</p>
+    vod: https://youtu.be/WFbiQ7Ewmao
 
   - name: Vendor speech
-    presenter: Microsoft、Cvicse、Primeton、IBM
+    presenter: Microsoft
     type: vendor
     time: 15:40-16:00 (UTC+8)
-    abstract: |
-      <P></p>
+    vod: https://youtu.be/_q7XO_wdr1o 
+
+  - name: Vendor speech
+    presenter: Cvicse
+    type: vendor
+    time: 15:40-16:00 (UTC+8)
+    vod: https://youtu.be/1PWFxFJo2pM
+
+  - name: Vendor speech
+    presenter: Primeton
+    type: vendor
+    time: 15:40-16:00 (UTC+8)
+    vod: https://youtu.be/1yMh2jKtE0o
+
+  - name: Vendor speech
+    presenter: IBM
+    type: vendor
+    time: 15:40-16:00 (UTC+8)
+    vod: https://youtu.be/wLARXhRbeSk
 
   - name: Jakarta EE Current and Future
     presenter: Emily Jiang
@@ -63,6 +84,7 @@ items:
     time: 16:00-16:30 (UTC+8)
     abstract: |
       <p>Briefly go through Jakarta EE 11 and then talk about the roadmap for Jakarta EE 12.</p>
+    vod: https://youtu.be/su92Dq1g4po
 
   - name: From Java EE to Jakarta EE：Zero-Downtime Migration and Cloud-Native Elasticity in Practice
     presenter: Yipeng Gan
@@ -70,6 +92,7 @@ items:
     time: 16:30-17:00 (UTC+8)
     abstract: |
       <p>A 10-year Java veteran will demonstrate a 10-minute zero-downtime migration of an old system to Jakarta EE 11 on-site; QPS +18%, memory -12%; one-click generation of OCI images, integration with OpenTelemetry and KEDA to achieve Serverless elasticity down to 0; an open-source Maven plugin automatically detects residual javax.\* and reports errors immediately in PRs. The entire session will be a live demo, with scripts and Helm Charts released on the spot.</p>
+    vod: https://youtu.be/Bce85mJxEy4
 
   - name: Jakarta EE & Java EE Development and IBM Liberty Discussion
     presenter: Limin Yu
@@ -77,17 +100,30 @@ items:
     time: 17:00-17:45 (UTC+8)
     abstract: |
       <p>As digitalization and intelligence accelerate, traditional log analysis and search systems face challenges including data explosion, complex issue identification, and insufficient response timeliness. With the rapid development of large model technologies and AI capabilities, intelligent log analysis platforms are undergoing new architectural transformations. This session will explore the evolution from traditional ELK architecture to AI-powered intelligent platforms, analyzing key capabilities like vector search, log semantic understanding, RAG-enhanced retrieval, and AI-SRE implementation methods. Through enterprise case studies, we'll discuss how to build next-generation log platforms with intelligent insights, adaptive responses, and efficient operations to help organizations transition from "post-incident response" to "intelligent prediction."</p>
+    vod: https://youtu.be/_ap3Yv7LhZs
 
   - name: Vendor speech
-    presenter: Apusic、Baolande、TongTech
+    presenter: Apusic
     type: vendor
     time: 17:45-18:00 (UTC+8)
-    abstract: |
-      <P></p>
+    vod: https://youtu.be/an1O8IhrgtY
+
+  - name: Vendor speech
+    presenter: Baolande
+    type: vendor
+    time: 17:45-18:00 (UTC+8)
+    vod: https://youtu.be/Lt8GqKMz4Rg
+
+  - name: Vendor speech
+    presenter: TongTech
+    type: vendor
+    time: 17:45-18:00 (UTC+8)
+    vod: https://youtu.be/8auE6XtTtKs
 
   - name: Roundtable Discussion
     presenter: All keynote speakers
     type: discussion
     time: 18:00-18:20 (UTC+8)
+    vod: https://youtu.be/i_ySMofF7-Q
 
 

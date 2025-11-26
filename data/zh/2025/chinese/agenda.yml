@@ -1,5 +1,5 @@
 timezone: UTC+08
-complete: false
+complete: true
 types:
   - name: 开场演讲
     id: opening
@@ -28,6 +28,7 @@ items:
     time: 14:10-14:20 (UTC+8)
     abstract: |
       <p></p>
+    vod: https://youtu.be/6UqsYG4mTbg
 
   - name: MicroProfile Telemetry在Azure上的应用实践及基于MCP的性能优化
     presenter: 马建国
@@ -35,6 +36,7 @@ items:
     time: 14:20-14:50 (UTC+8)
     abstract: |
       <p>利用Open Liberty MicroProfile Telemetry 2.0在Azure上实现分布式追踪、指标收集和日志聚合。开发MCP工具读取遥测数据，集成到VS Code GitHub Copilot中，实现智能代码性能分析与优化建议，构建从监控到代码优化的完整闭环。</p>
+    vod: https://youtu.be/ZidHjS7m-Xk
 
   - name: CRaC 技术深度解析：Java 应用极速启动与性能优化新路径
     presenter: 马震
@@ -42,6 +44,7 @@ items:
     time: 14:50-15:20 (UTC+8)
     abstract: |
       <p>解析 CRaC 技术如何通过快照与恢复机制，解决 Java 应用冷启动慢、预热久的痛点，对比 AOT 与 JIT 差异，解析底层实现与实战应用，展现其在微服务与 Serverless 场景的价值。</p>
+    vod: https://youtu.be/7xZABzHIzWM
 
   - name: Jakarta EE 与微服务开发
     presenter: 常稼笙
@@ -49,13 +52,30 @@ items:
     time: 15:20-15:40 (UTC+8)
     abstract: |
       <p>介绍Jakarta EE 11的新特性，结合微服务开发解析我们日常开发中使用的JakartaEE规范，进一步了解JakartaEE标准规范，学习JakartaEE先进设计理念，深入使用JakartaEE规范，积极参与JakartaEE标准推广，共促中国社区发展。</p>
+    vod: https://youtu.be/WFbiQ7Ewmao
 
   - name: 厂商演讲
-    presenter: 微软、中创股份、普元信息、IBM
+    presenter: 微软
     type: vendor
     time: 15:40-16:00 (UTC+8)
-    abstract: |
-      <P></p>
+    vod: https://youtu.be/_q7XO_wdr1o 
+
+  - name: 厂商演讲
+    presenter: 中创股份
+    type: vendor
+    time: 15:40-16:00 (UTC+8)
+    vod: https://youtu.be/1yMh2jKtE0o
+  - name: 厂商演讲
+    presenter: 普元信息
+    type: vendor
+    time: 15:40-16:00 (UTC+8)
+    vod: https://youtu.be/1PWFxFJo2pM
+
+  - name: 厂商演讲
+    presenter: IBM
+    type: vendor
+    time: 15:40-16:00 (UTC+8)
+    vod: https://youtu.be/wLARXhRbeSk
 
   - name: Jakarta EE 现状及未来展望
     presenter: 蒋丰慧
@@ -63,6 +83,7 @@ items:
     time: 16:00-16:30 (UTC+8)
     abstract: |
       <p>总结Jakarta EE 11 规范改变，展现Jakarta EE 12 的规划。</p>
+    vod: https://youtu.be/su92Dq1g4po
 
   - name: 从 Java EE 到 Jakarta EE：零停机迁移 × 云原生弹性实战
     presenter: 甘宜鹏
@@ -70,6 +91,7 @@ items:
     time: 16:30-17:00 (UTC+8)
     abstract: |
       <p>10 年 Java 老兵现场演示 10 分钟零停机迁移老系统到 Jakarta EE 11；QPS +18 %、内存 −12 %；一键生成 OCI 镜像，接入 OpenTelemetry 与 KEDA，实现 Serverless 弹性到 0；开源 Maven 插件自动检测 javax.* 残留，PR 即时报错。全程 Live Demo，脚本与 Helm Chart 当场放送。</p>
+    vod: https://youtu.be/Bce85mJxEy4
 
   - name: Jakarta EE 与 Java EE发展与IBM Liberty漫谈
     presenter: 俞黎敏
@@ -77,17 +99,29 @@ items:
     time: 17:00-17:45 (UTC+8)
     abstract: |
       <p>在数字化与智能化不断加速的背景下，传统的日志分析和搜索系统正面临数据规模爆炸、问题定位复杂、响应时效性不足等多重挑战。随着大模型技术和AI能力的快速发展，智能日志分析平台迎来了新一轮架构变革。本议题将围绕“AI驱动的智能搜索与日志平台架构演进”展开，系统梳理从传统ELK架构到融合AI能力的智能平台演进路径，深入剖析向量检索、日志语义理解、RAG增强检索、AI-SRE 等关键能力的落地方法，结合企业级实践案例，探讨如何构建具备智能洞察、自适应响应和高效运维能力的新一代日志平台，帮助企业实现从“事后响应”向“智能预测”转型。</p>
+    vod: https://youtu.be/_ap3Yv7LhZs
 
   - name: 厂商演讲
-    presenter: 金蝶天燕、宝蓝德、东方通
+    presenter: 金蝶天燕
     type: vendor
     time: 17:45-18:00 (UTC+8)
-    abstract: |
-      <P></p>
+    vod: https://youtu.be/an1O8IhrgtY 
+
+  - name: 厂商演讲
+    presenter: 宝蓝德
+    type: vendor
+    time: 17:45-18:00 (UTC+8)
+    vod: https://youtu.be/Lt8GqKMz4Rg
+
+  - name: 厂商演讲
+    presenter: 东方通
+    type: vendor
+    time: 17:45-18:00 (UTC+8)
+    vod: https://youtu.be/8auE6XtTtKs
 
   - name: 圆桌讨论
     presenter: 所有演讲嘉宾
     type: discussion
     time: 18:00-18:20 (UTC+8)
-
+    vod: https://youtu.be/i_ySMofF7-Q
 
