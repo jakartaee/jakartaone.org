@@ -1,5 +1,16 @@
 items:
   -  
+    name: JakartaOne by Jozi-JUG
+    date: 11 February 2026
+    start_date: 2026-02-11
+    end_date: 2026-02-11
+    url: https://www.meetup.com/jozi-jug/events/312880317/
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    type: "in-person"
+    description: 
+  -  
     name: JakartaOne China 2025
     date: 25 July 2025
     start_date: 2025-07-25
