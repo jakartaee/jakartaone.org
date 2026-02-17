@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne Live"
-headline: "JakartaOne 2025"
+headline: "JakartaOne 2026"
 seo_title: "JakartaOne Live | Jakarta EE Software | Cloud Native"
 description: |
   JakartaOne is a global initiative that brings the Jakarta EE community

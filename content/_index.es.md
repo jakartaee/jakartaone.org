@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne Live"
-headline: "JakartaOne Livestream 2025"
+headline: "JakartaOne Livestream 2026"
 seo_title: "JakartaOne Live | Jakarta EE Software | Cloud Native"
 date: 2018-04-05T15:50:25-04:00
 hide_page_title: true
