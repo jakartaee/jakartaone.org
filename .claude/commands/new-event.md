@@ -41,7 +41,7 @@ After `hugo new` runs, edit `content/YEAR/_index.html` to replace every placehol
 | Placeholder | Replace with |
 |---|---|
 | `DD Month YEAR` | the event date string (e.g. `2 December 2027`) |
-| `href="#"` in tagline_suffix | the registration URL |
+| `<a href="...` in tagline_suffix | remove the anchor tag if no registration link is available |
 
 The `seo_title` and `tagline` fields both contain `DD Month YEAR` — update both.
 
@@ -94,6 +94,16 @@ items: []
 
 ---
 
-## Step 5 — Report
+## Step 5 - Update the listings on home page
+
+For each `conferences.yml` file in the localized data directories (e.g.
+`data/en/conferences.yml`), add a new entry for the event.
+
+Refer to previous entries for the correct format and apply the knowledge of the
+event info, date and registration URL as needed.
+
+---
+
+## Step 6 — Report
 
 List every file created or modified and remind the user to remove `draft: true` when ready to publish.
