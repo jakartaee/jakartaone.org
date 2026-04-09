@@ -102,6 +102,9 @@ For each `conferences.yml` file in the localized data directories (e.g.
 Refer to previous entries for the correct format and apply the knowledge of the
 event info, date and registration URL as needed.
 
+If the language of the event matches the language of the data file, write the
+event name in the same language. Otherwise, write the event name in English.
+
 ---
 
 ## Step 6 — Report
