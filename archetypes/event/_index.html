@@ -16,13 +16,13 @@ tagline_suffix: |
 <!-- Registration section -->
 <section class="padding-y-40" id="registration">
   <div class="container">
-    {{ "{{<" }} events/registration year="{{ .Name }}" {{ ">}}" }}
+    {{< events/registration year="{{ .Name }}" >}}
 JakartaOne Livestream is an online conference organized by the Jakarta EE
 working group for developers and technical leaders, focusing on
 enterprise-level Java applications and cloud native technologies,
 discussing the current status and future trends of Jakarta EE technology
 development.
-    {{ "{{</" }} events/registration {{ ">}}" }}
+  {{</ events/registration >}}
   </div>
 </section>
 
@@ -46,16 +46,20 @@ development.
 </section>
 -->
 
-<!-- Program Committee section -->
+<!-- Program Committee section (comment out until data is available) -->
+<!--
 {{ "{{<" }} events/program-committee title="Program Committee" year="{{ .Name }}" source="committee" useCarousel="false" subpage="./program-committee" {{ ">}}" }}
   We are proud to say that this year, sessions at JakartaOne Livestream Event
   are chosen by an independent program committee made up of volunteers from the
   Jakarta EE and cloud native Java community!
 {{ "{{</" }} events/program-committee {{ ">}}" }}
+-->
 
-<!-- Hosts section -->
+<!-- Hosts section (comment out until data is available -->
+<!--
 <section class="row padding-y-60">
   <div class="container">
     {{ "{{<" }} events/user_display title="Hosts" year="{{ .Name }}" source="hosts" displayLearnMore="false" useCarousel="false" /{{ ">}}" }}
   </div>
 </section>
+-->

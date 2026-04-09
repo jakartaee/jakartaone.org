@@ -32,8 +32,6 @@ This creates:
 - `content/YEAR/speakers.md`
 - `content/YEAR/program-committee.md`
 
-For `jp` and `zh`, skip this step — those regional sub-events have their own existing content structure.
-
 ---
 
 ## Step 3 — Edit the generated content files (en only)
@@ -67,7 +65,6 @@ items: []
 
 **agenda.yml**
 ```yaml
-timezone: EST
 complete: false
 types:
   - name: "Keynote"
