@@ -9,12 +9,6 @@ container: container-fluid
 tagline: October 16, 2026
 layout: single
 menu_name: "spanish"
-tagline_suffix: |
-    <div class="display-flex gap-10 margin-bottom-30">    
-     <a class="btn btn-primary" href="#">
-        Register Now
-      </a>
-    </div>
 ---
 <!-- Registration section -->
 

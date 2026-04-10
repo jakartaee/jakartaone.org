@@ -11,12 +11,6 @@ tagline: "16 de octubre del 2026"
 description: "JakartaOne en Español es una conferencia virtual para desarrolladores y líderes técnicos que ofrece el estado actual, así como también, el futuro de Jakarta EE y tecnologías relacionadas, enfocado en el desarrollo de aplicaciones empresariales nativas para la nube. Organizado por los Grupos de Usuarios de Java de El Salvador, Guatemala, República Dominicana, Panamá y más."
 layout: "single"
 menu_name: "spanish"
-tagline_suffix: |
-    <div class="display-flex gap-10 margin-bottom-30">    
-     <a class="btn btn-primary" href="#">
-       Regístrese ahora
-      </a>
-    </div>
 ---
 
 {{< grid/section-container id="registration" containerClass="backdrop padding-bottom-40 padding-top-40" >}}
