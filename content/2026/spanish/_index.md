@@ -1,12 +1,12 @@
 ---
 title: JakartaOne Livestream - Spanish 2026
-seo_title: JakartaOne Livestream - October 16, 2026 | Jakarta EE Software | Cloud Native
-headline: JakartaOne Livestream - Spanish
+seo_title: JakartaOne Livestream Spanish - 16 Oct 2026 | Jakarta EE | Cloud Native
+headline: JakartaOne Livestream Spanish 2026
 hide_page_title: true
 hide_sidebar: true
 hide_breadcrumb: true
 container: container-fluid
-tagline: October 16, 2026
+tagline: 16 October 2026
 layout: single
 menu_name: "spanish"
 ---

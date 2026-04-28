@@ -1,6 +1,6 @@
 ---
 title: "JakartaOne Livestream en Español"
-seo_title: "JakartaOne Livestream en Español | Jakarta EE Software | Cloud Native"
+seo_title: "JakartaOne Livestream en Español | Jakarta EE | Cloud Native"
 headline: "JakartaOne Livestream en Español"
 date: 2026-10-16T00:00:00-05:00
 hide_page_title: true
