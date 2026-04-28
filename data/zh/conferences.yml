@@ -1,4 +1,26 @@
 items:
+  -
+    name: JakartaOne Dominican Republic 2026
+    date: 16 July 2026
+    start_date: 2026-07-16
+    end_date: 2026-07-16
+    url: /2026/dominicanrepublic
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    type: "in-person"
+    description:
+  -
+    name: JakartaOne by Jozi-JUG
+    date: 11 February 2026
+    start_date: 2026-02-11
+    end_date: 2026-02-11
+    url: https://www.meetup.com/jozi-jug/events/312880317/
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    type: "in-person"
+    description:
   -  
     name: JakartaOne Livestream Chinese 2026
     date: 24 September 2026
