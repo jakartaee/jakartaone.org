@@ -2,6 +2,7 @@
 title: "Conferencistas"
 seo_title: "Speakers | JakartaOne Livestream en Español 2026 | Jakarta EE Software | Cloud Native"
 date: 2026-10-16T00:00:00-05:00
+draft: true
 hide_page_title: false
 hide_sidebar: true
 hide_breadcrumb: false
