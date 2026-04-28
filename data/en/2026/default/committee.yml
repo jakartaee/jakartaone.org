@@ -1,1 +1,85 @@
-items: []
+items:
+  - name: "Edwin Derks"
+    title: "Domain Architect, TenneT"
+    img: "edwin-derks.webp"
+    bio: |
+      <p>
+        Edwin Derks is a Java Champion and Domain Architect at TenneT in The
+        Netherlands who loves solving complex, strategic IT challenges. He is
+        passionate about collecting and sharing knowledge about improving IT
+        in organizations, and is adept with cloud-driven software development
+        in general. He often organizes meetups, writes articles and speaks at
+        conferences.
+      </p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/edwin-derks/">LinkedIn</a></li>
+      </ul>
+  - name: "Mala Gupta"
+    title: "Author, Java Champion"
+    img: "mala-gupta.webp"
+    bio: |
+      <p>
+        Mala Gupta is a Java Champion, book author with Manning, Packt, and
+        O'Reilly Publications. An international speaker at industry
+        conferences, she has experience of more than two decades in the
+        software industry. She has been actively supporting Java certification
+        as a path to career advancement. Since 2006, she has been coaching
+        students and professionals to succeed in these certifications. Mala
+        Gupta's Java books with Manning Publications, USA, are top-rated for
+        Java Certification around the globe. She co-leads Delhi's Java User
+        Group.
+      </p>
+      <p><a href="https://goo.gl/QD6eeh">Mala's Books (Amazon)</a></p>
+      <p class="fw-700">Social media handles</p>
+      <ul>
+        <li><a href="https://x.com/eMalaGupta">X</a></li>
+      </ul>
+  - name: "Rustam Mehmandarov"
+    title: "Principal Engineer and Cloud Lead, Miles"
+    img: "rustam-mehmandarov.webp"
+    bio: |
+      <p>
+        Java Champion, Google Developer Expert (GDE) for Cloud, Docker
+        Captain. Public speaker, mentor &amp; community leader. All things
+        Java, Cloud, AI/ML, data, and open source.
+      </p>
+  - name: "Reza Rahman"
+    title: "Project Lead, Jakarta Agentic AI, Payara/Azul"
+    img: "reza-rahman.webp"
+    bio: |
+      <p>
+        Reza Rahman is an accomplished technologist with decades of experience
+        in leadership, architecture, engineering, and consulting, and is
+        recognized worldwide as a thought leader in the enterprise Java space.
+        He has worked with Java since its inception, including working as a key
+        technologist in Oracle's and Microsoft's Java teams, and is the author
+        of the popular book EJB 3 in Action from Manning Publishing. Reza has
+        long been a frequent speaker at Java User Groups and conferences
+        worldwide including DevNexus, JavaOne, and Devoxx, and was the program
+        chair for the inaugural JakartaOne conference. He is a founding member
+        of the Jakarta EE Ambassadors.
+      </p>
+  - name: "Hantsy Bai"
+    title: "Freelancer"
+    img: "hantsy-bai.webp"
+    bio: |
+      <p>
+        I'm Hantsy - a freelancer from China. Previously I worked with diverse
+        teams around the world and helped numerous customers with professional
+        service, not limited to coaching the team members, cooking startup
+        POCs and delivering large-scale distributed applications.
+      </p>
+  - name: "Otávio Santana"
+    title: "Award-winning Software Engineer and Architect, OS Expert"
+    img: "otavio-santana.webp"
+    bio: |
+      <p>
+        Otavio is an award-winning software engineer and architect who is
+        passionate about empowering other engineers with open-source best
+        practices to build highly scalable and efficient software. He is a
+        renowned contributor to the Java and open-source ecosystems and has
+        received numerous awards and accolades for his work. Otavio's interests
+        include history, the economy, travel, and fluency in multiple languages,
+        all seasoned with a great sense of humour.
+      </p>

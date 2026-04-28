@@ -48,6 +48,7 @@
   {{ $displayLearnMore = "false" }}
 {{ end }}
 {{ $itemClass := .Get "itemClass" | default "pc-flex-item" }}
+{{ $wrapperClass := .Get "wrapperClass" | default "" }}
 <section id="program-committee" class="row">
     <div class="{{$committeeCssBackground}}">
     </div>
@@ -61,7 +62,7 @@
 
                 {{ if eq $displayDetails "true" }}
                 <div class="eclipsefdn-user-display-content col-xs-24">
-                    <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ else }} class="pc-flex-wrapper"{{ end }}>
+                    <div {{ if eq $useCarousel "true" }} class="owl-carousel owl-theme solstice-slider" data-slider-lg-count="4"{{ else }} class="pc-flex-wrapper{{ if $wrapperClass }} {{ $wrapperClass }}{{ end }}"{{ end }}>
                         <!-- Start: image Area -->
                         {{ range sort (index (index $base $event) $source).items ".name" }}
                             {{ $anchor := urlize .anchor }}

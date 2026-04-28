@@ -52,6 +52,9 @@ section#program-committee {
     align-items: stretch;
     gap: var(--pc-flex-gap);
 
+    &.pc-top-3 { --pc-top-items: 3; }
+    &.pc-top-4 { --pc-top-items: 4; }
+
     & > .pc-flex-item {
       flex-basis: calc(
         100% / var(--pc-top-items) -
