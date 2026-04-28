@@ -32,6 +32,16 @@ items:
     image: /images/events/jakartaone.png
     description:
   -
+    name: JakartaOne Livestream en Español 2026
+    date: 16 October 2026
+    start_date: 2026-10-16
+    end_date: 2026-10-16
+    url: /2026/spanish
+    logo_white: /images/jakartaone_livestream_wht_full-06.svg
+    logo_color: /images/jakarta_one_logo.png
+    image: /images/events/jakartaone.png
+    description:
+  -
     name: JakartaOne Livestream 2026
     date: 1 December 2026
     start_date: 2026-12-01
