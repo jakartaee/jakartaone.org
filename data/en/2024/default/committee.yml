@@ -13,7 +13,7 @@ items:
       </p>
   - name: "Rustam Mehmandarov" 
     title: "Chief Engineer, Computas"
-    img: "rustam-mehmandarov-2024-2.jpg"
+    img: "rustam-mehmandarov.webp"
     bio: |
       <p>
         Passionate computer scientist. Java Champion, Google Developer Expert
@@ -22,7 +22,7 @@ items:
       </p>
   - name: "Mala Gupta" 
     title: "Developer Advocate, JetBrains and Author"
-    img: "mala-gupta-2024.jpg"
+    img: "mala-gupta.webp"
     bio: |
       <p>
         Mala Gupta is a Developer Advocate at JetBrains, a Java Champion, book
@@ -61,7 +61,7 @@ items:
       </p>
   - name: "Edwin Derks" 
     title: "Principal Consultant, Team Rockstars IT"
-    img: "edwin-derks-2024.jpg"
+    img: "edwin-derks.webp"
     bio: |
       <p>
         Edwin Derks is a Java Champion from The Netherlands who loves solving

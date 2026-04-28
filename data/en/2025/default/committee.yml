@@ -1,7 +1,7 @@
 items:
   - name: "Hantsy Bai" 
     title: "Freelancer"
-    img: "hantsy-bai.jpg"
+    img: "hantsy-bai.webp"
     bio: |
       <p>
          I'm Hantsy - a freelancer from China. Previously I worked with diverse
@@ -16,7 +16,7 @@ items:
       </ul>
   - name: "Otávio Santana" 
     title: "Award-winning Software Engineer and Architect, OS Expert"
-    img: "otavio-santana-2025.jpg"
+    img: "otavio-santana.webp"
     bio: |
       <p>
         Otavio is an award-winning software engineer and architect who is
@@ -37,7 +37,7 @@ items:
       </ul>
   - name: "Rustam Mehmandarov" 
     title: "Senior Software Engineer, SpareBank 1 Utvikling"
-    img: "rustam-mehmandarov-2024-2.jpg"
+    img: "rustam-mehmandarov.webp"
     bio: |
       <p>
         Java Champion, Google Developer Expert (GDE) for Cloud, Docker Captain.
@@ -50,7 +50,7 @@ items:
       </ul>
   - name: "Edwin Derks" 
     title: "Domain Architect, TenneT"
-    img: "edwin-derks-2024.jpg"
+    img: "edwin-derks.webp"
     bio: |
       <p>
          Edwin Derks is a Java Champion and Domain Architect at TenneT in The
@@ -66,7 +66,7 @@ items:
       </ul>
   - name: "Mala Gupta" 
     title: "Developer Advocate, JetBrains and Author"
-    img: "mala-gupta-2024.jpg"
+    img: "mala-gupta.webp"
     bio: |
       <p>
         Mala Gupta is a Developer Advocate at JetBrains, a Java Champion, book
